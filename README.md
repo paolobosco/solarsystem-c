@@ -1,2 +1,2 @@
-# solarsystem-c-
+# solarsystem-c
 Solar System model in one page
