@@ -1,0 +1,30 @@
+API VERSION: 1.2
+API SOURCE: NASA/JPL Horizons API
+
+*******************************************************************************
+JPL/HORIZONS                   103P/Hartley 2              2026-Oct-18 15:51:13
+Rec #:90000960 (+COV) Soln.date: 2025-May-01_10:45:38   # obs: 8768 (2008-2025)
+ 
+IAU76/J2000 helio. ecliptic osc. elements (au, days, deg., period=Julian yrs):
+ 
+  EPOCH=  2457152.5 ! 2015-May-10.0000000 (TDB)    RMSW= n.a.
+   EC= .6935978573940613   QR= 1.064947369015373   TP= 2457863.957983132
+   OM= 219.7421743331336   W= 181.3218438419628    IN= 13.59946797122405
+   A= 3.475652487146584    MA= 251.7821727283165   ADIST= 5.886357605277794
+   PER= 6.47981673045275   N= .152107123           ANGMOM= .023102058
+   DAN= 5.88281            DDN= 1.06506            L= 41.0269705
+   B= -.3107832            MOID= .0732373          TP= 2017-Apr-20.4579831320
+ 
+Comet physical (GM= km^3/s^2; RAD= km):
+   GM= n.a.                RAD= .800
+   M1=  16.      M2=  n.a.     k1=  4.5    k2= n.a.     PHCOF= n.a.
+Comet non-gravitational force model (AMRAT=m^2/kg;A1-A3=au/d^2;DT=days;R0=au):
+   AMRAT=  0.                                      DT=  12.23374
+   A1= 1.384525597095E-9   A2= 1.464430894703E-10  A3= 1.812240295112E-10
+ Non-standard or simulated/proxy model:
+   ALN=  .1112620426   NK=  4.6142   NM=  2.15     NN=  5.093    R0=  2.808
+
+COMET comments 
+1: soln ref.= JPL#K233/5, data arc: 2008-05-05 to 2025-04-28
+2: k1=4.5;
+*******************************************************************************

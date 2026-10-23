@@ -1,0 +1,25 @@
+API VERSION: 1.2
+API SOURCE: NASA/JPL Horizons API
+
+*******************************************************************************
+JPL/HORIZONS                    46P/Wirtanen               2026-Oct-18 15:48:25
+Rec #:90000540                  Soln.date: -              # obs: 21 (1960-1986)
+ 
+IAU76/J2000 helio. ecliptic osc. elements (au, days, deg., period=Julian yrs):
+ 
+  EPOCH=  2439840.5 ! 1967-Dec-16.0000000 (TDB)    RMSW= n.a.
+   EC= .544225             QR= 1.612372            TP= 2439840.1464
+   OM= 87.0729             W= 343.6295             IN= 13.4019
+   A= 3.537649059294608    MA= .05237743279889596  ADIST= 5.462926118589216
+   PER= 6.65396212083581   N= .148126224           ANGMOM= .027143719
+   DAN= 1.63574            DDN= 5.21069            L= 71.12523640000001
+   B= -3.7456091                                   TP= 1967-Dec-15.6464000000
+ 
+Comet physical (GM= km^3/s^2; RAD= km):
+   GM= n.a.                RAD= .600
+   M1=  16.6     M2=  n.a.     k1=  4.75   k2= n.a.     PHCOF= n.a.
+
+COMET comments 
+1: soln ref.= SAO/1967
+2: k1=4.75;non-gravs. considered; 2008 SAO Comet Catalog
+*******************************************************************************

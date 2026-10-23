@@ -1,0 +1,25 @@
+API VERSION: 1.2
+API SOURCE: NASA/JPL Horizons API
+
+*******************************************************************************
+JPL/HORIZONS                21P/Giacobini-Zinner           2026-Oct-18 15:45:12
+Rec #:90000310                  Soln.date: -              # obs: 57 (1900-1927)
+ 
+IAU76/J2000 helio. ecliptic osc. elements (au, days, deg., period=Julian yrs):
+ 
+  EPOCH=  2420080.5 ! 1913-Nov-09.0000000 (TDB)    RMSW= n.a.
+   EC= .720615             QR= .976007             TP= 2420074.0663999999
+   OM= 197.0692            W= 171.4814             IN= 30.74
+   A= 3.49341231633767     MA= .9711433912293083   ADIST= 6.01081763267534
+   PER= 6.52954580555476   N= .150948674           ANGMOM= .022292037
+   DAN= 5.84451            DDN= .98054             L= 9.733419100000001
+   B= 4.3423553                                    TP= 1913-Nov-02.5663999999
+ 
+Comet physical (GM= km^3/s^2; RAD= km):
+   GM= n.a.                RAD= 1.
+   M1=  13.2     M2=  n.a.     k1=  8.25   k2= n.a.     PHCOF= n.a.
+
+COMET comments 
+1: soln ref.= SAO/1913
+2: k1=8.25;epoch may be 2420081.0 (hour ambiguous: 12h/0h); time units are UT, but
+*******************************************************************************

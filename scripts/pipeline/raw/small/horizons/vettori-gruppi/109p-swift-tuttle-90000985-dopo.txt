@@ -1,0 +1,181 @@
+API VERSION: 1.2
+API SOURCE: NASA/JPL Horizons API
+
+*******************************************************************************
+JPL/HORIZONS                  109P/Swift-Tuttle            2026-Oct-18 19:28:30
+Rec #:90000985 (+COV) Soln.date: 2001-Oct-09_15:34:49    # obs: 652 (1737-1995)
+ 
+IAU76/J2000 helio. ecliptic osc. elements (au, days, deg., period=Julian yrs):
+ 
+  EPOCH=  2450000.5 ! 1995-Oct-10.0000000 (TDB)    RMSW= n.a.
+   EC= .9632257550460384   QR= .9595161550688684   TP= 2448968.4997845562
+   OM= 139.3811920815948   W= 152.9821676305871    IN= 113.4538169971712
+   A= 26.09206949782666    MA= 7.631696167124793   ADIST= 51.22462284058444
+   PER= 133.281843840504   N= .007395053           ANGMOM= .023609822
+   DAN= 13.27557           DDN= 1.0138             L= 330.8536722
+   B= 24.6287339           MOID= .00089214         TP= 1992-Dec-11.9997845562
+ 
+Comet physical (GM= km^3/s^2; RAD= km):
+   GM= n.a.                RAD= 13.
+   M1=  4.5      M2=  8.5      k1=  15.    k2=  10.     PHCOF= n.a.
+
+COMET comments 
+1: soln ref.= JPL#32, data arc: 1737-07-08 to 1995-03-29
+2: k1=15.0, k2=10.0;
+*******************************************************************************
+
+
+*******************************************************************************
+Ephemeris / API_USER Sun Oct 18 19:28:30 2026 Pasadena, USA      / Horizons
+*******************************************************************************
+Target body name: 109P/Swift-Tuttle               {source: JPL#32}
+Center body name: Sun (10)                        {source: DE441}
+Center-site name: BODY CENTER
+*******************************************************************************
+Start time      : A.D. 1998-Nov-29 05:06:51.8400 TDB
+Stop  time      : A.D. 2109-Oct-12 20:38:41.2800 TDB
+Step-size       : DISCRETE TIME-LIST
+*******************************************************************************
+Center geodetic : 0.0, 0.0, 0.0                   {E-lon(deg),Lat(deg),Alt(km)}
+Center cylindric: 0.0, 0.0, 0.0                   {E-lon(deg),Dxy(km),Dz(km)}
+Center radii    : 695700.0, 695700.0, 695700.0 km {Equator_a, b, pole_c}
+Small perturbers: Yes                             {source: SB441-N16}
+Output units    : KM-S
+Calendar mode   : Mixed Julian/Gregorian
+Output type     : GEOMETRIC cartesian states
+Output format   : 2 (position and velocity)
+Reference frame : Ecliptic of J2000.0
+*******************************************************************************
+Initial IAU76/J2000 heliocentric ecliptic osculating elements (au, days, deg.):
+  EPOCH=  2450000.5 ! 1995-Oct-10.0000000 (TDB)    RMSW= n.a.                  
+   EC= .9632257550460384   QR= .9595161550688684   TP= 2448968.4997845562      
+   OM= 139.3811920815948   W= 152.9821676305871    IN= 113.4538169971712       
+  Equivalent ICRF heliocentric cartesian coordinates (au, au/d):
+   X=-5.961434623156935E+00  Y= 3.700438936751722E+00  Z=-6.922297729421842E+00
+  VX=-5.226325508711362E-03 VY= 3.593351825095821E-03 VZ=-2.911438559166090E-03
+Comet physical (GM= km^3/s^2; RAD= km):                                        
+   GM= n.a.                RAD= 13.                                            
+   M1=  4.5      M2=  8.5      k1=  15.    k2=  10.     PHCOF= n.a.            
+*******************************************************************************
+JDTDB
+   X     Y     Z
+   VX    VY    VZ
+*******************************************************************************
+$$SOE
+2451146.713100000 = A.D. 1998-Nov-29 05:06:51.8400 TDB 
+ X =-1.657343920860071E+09 Y = 4.413543337330655E+08 Z =-1.715501048154708E+09
+ VX=-6.749655581361385E+00 VY= 3.273129192468874E+00 VZ=-4.403956834013173E+00
+2453592.816700000 = A.D. 2005-Aug-10 07:36:02.8800 TDB 
+ X =-2.836453912477586E+09 Y = 1.053572305267477E+09 Z =-2.405919431217370E+09
+ VX=-4.682474849690444E+00 VY= 2.583862516419349E+00 VZ=-2.468029766436711E+00
+2455747.468600000 = A.D. 2011-Jul-04 23:14:47.0400 TDB 
+ X =-3.609834917406899E+09 Y = 1.499267622770132E+09 Z =-2.785191059386894E+09
+ VX=-3.707605968550670E+00 VY= 2.218875167511856E+00 VZ=-1.672800352601600E+00
+2456186.386500000 = A.D. 2012-Sep-15 21:16:33.6000 TDB 
+ X =-3.747500674643579E+09 Y = 1.582042107037881E+09 Z =-2.846282243712646E+09
+ VX=-3.553831899099775E+00 VY= 2.146615809408166E+00 VZ=-1.550718700764857E+00
+2460259.164100000 = A.D. 2023-Nov-10 15:56:18.2400 TDB 
+ X =-4.778126203297426E+09 Y = 2.241476134688811E+09 Z =-3.234675244815723E+09
+ VX=-2.406652358433745E+00 VY= 1.645055912682067E+00 VZ=-7.292160598773569E-01
+2460738.194700000 = A.D. 2025-Mar-03 16:40:22.0800 TDB 
+ X =-4.875586771132660E+09 Y = 2.308343201430079E+09 Z =-3.263324909373173E+09
+ VX=-2.302713608182088E+00 VY= 1.585764734405872E+00 VZ=-6.557947549192906E-01
+2465035.399500000 = A.D. 2036-Dec-07 21:35:16.8000 TDB 
+ X =-5.563036489388841E+09 Y = 2.816340991122044E+09 Z =-3.400592716106720E+09
+ VX=-1.455055524191178E+00 VY= 1.165114055135239E+00 VZ=-1.117775827580758E-01
+2471086.498300000 = A.D. 2053-Jul-02 23:57:33.1200 TDB 
+ X =-6.050394341485496E+09 Y = 3.285716466767402E+09 Z =-3.302541057935482E+09
+ VX=-4.372997446486350E-01 VY= 6.351634632831664E-01 VZ= 4.633629962984457E-01
+2473485.125800000 = A.D. 2060-Jan-26 15:01:09.1200 TDB 
+ X =-6.103315300131169E+09 Y = 3.399237959011946E+09 Z =-3.185736056348858E+09
+ VX=-8.704351643519478E-02 VY= 4.454946779223336E-01 VZ= 6.624990840740066E-01
+2475001.176400000 = A.D. 2064-Mar-21 16:14:00.9600 TDB 
+ X =-6.098993579436335E+09 Y = 3.447252890183135E+09 Z =-3.090994950747620E+09
+ VX= 1.604654046415572E-01 VY= 2.923488028193931E-01 VZ= 7.834532628217462E-01
+2475340.482600000 = A.D. 2065-Feb-23 23:34:56.6400 TDB 
+ X =-6.093430288268236E+09 Y = 3.455395761641459E+09 Z =-3.067636219919842E+09
+ VX= 2.189762372952376E-01 VY= 2.633428565869795E-01 VZ= 8.101087536308862E-01
+2478226.379600000 = A.D. 2073-Jan-18 21:06:37.4400 TDB 
+ X =-5.982206939354213E+09 Y = 3.491980076870445E+09 Z =-2.837513857159302E+09
+ VX= 6.651082711270994E-01 VY= 7.798381892683781E-03 VZ= 1.035532314393791E+00
+2482244.657600000 = A.D. 2084-Jan-20 03:46:56.6400 TDB 
+ X =-5.627956209838310E+09 Y = 3.425699515468064E+09 Z =-2.423592403219645E+09
+ VX= 1.362460665160807E+00 VY=-3.978564262699612E-01 VZ= 1.351439663510454E+00
+2482308.187600000 = A.D. 2084-Mar-23 16:30:08.6400 TDB 
+ X =-5.620446306022265E+09 Y = 3.423492213468954E+09 Z =-2.416160278466716E+09
+ VX= 1.373969427389926E+00 VY=-4.064108453636031E-01 VZ= 1.356567708474724E+00
+2483941.919300000 = A.D. 2088-Sep-12 10:03:47.5200 TDB 
+ X =-5.403682403586952E+09 Y = 3.350970859792912E+09 Z =-2.215294200799780E+09
+ VX= 1.707366734219186E+00 VY=-6.172904047673504E-01 VZ= 1.490096569503513E+00
+2490215.390400000 = A.D. 2105-Nov-16 21:22:10.5600 TDB 
+ X =-4.075386580538566E+09 Y = 2.763282938714808E+09 Z =-1.255172036038709E+09
+ VX= 3.346503680823456E+00 VY=-1.661336422412615E+00 VZ= 2.079535038653606E+00
+2491641.360200000 = A.D. 2109-Oct-12 20:38:41.2800 TDB 
+ X =-3.630464344039435E+09 Y = 2.534583269249374E+09 Z =-9.889672689252156E+08
+ VX= 3.905269269034247E+00 VY=-2.070254496905428E+00 VZ= 2.244486713836407E+00
+$$EOE
+*******************************************************************************
+ 
+TIME
+
+  Barycentric Dynamical Time ("TDB" or T_eph) output was requested. This
+continuous coordinate time is equivalent to the relativistic proper time
+of a clock at rest in a reference frame co-moving with the solar system
+barycenter but outside the system's gravity well. It is the independent
+variable in the solar system relativistic equations of motion.
+
+  TDB runs at a uniform rate of one SI second per second and is independent
+of irregularities in Earth's rotation.
+ 
+CALENDAR SYSTEM
+
+  Mixed calendar mode was active such that calendar dates after AD 1582-Oct-15
+(if any) are in the modern Gregorian system. Dates prior to 1582-Oct-5 (if any)
+are in the Julian calendar system, which is automatically extended for dates
+prior to its adoption on 45-Jan-1 BC.  The Julian calendar is useful for
+matching historical dates. The Gregorian calendar more accurately corresponds
+to the Earth's orbital motion and seasons. A "Gregorian-only" calendar mode is
+available if such physical events are the primary interest.
+
+REFERENCE FRAME AND COORDINATES
+
+  Ecliptic at the standard reference epoch
+
+    Reference epoch: J2000.0
+    X-Y plane: adopted Earth orbital plane at the reference epoch
+               Note: IAU76 obliquity of 84381.448 arcseconds wrt ICRF X-Y plane
+    X-axis   : ICRF
+    Z-axis   : perpendicular to the X-Y plane in the directional (+ or -) sense
+               of Earth's north pole at the reference epoch.
+
+  Symbol meaning:
+
+    JDTDB    Julian Day Number, Barycentric Dynamical Time
+      X      X-component of position vector (km)
+      Y      Y-component of position vector (km)
+      Z      Z-component of position vector (km)
+      VX     X-component of velocity vector (km/sec)                           
+      VY     Y-component of velocity vector (km/sec)                           
+      VZ     Z-component of velocity vector (km/sec)                           
+
+ABERRATIONS AND CORRECTIONS
+
+ Geometric state vectors have NO corrections or aberrations applied.
+
+Computations by ...
+
+    Solar System Dynamics Group, Horizons On-Line Ephemeris System
+    4800 Oak Grove Drive, Jet Propulsion Laboratory
+    Pasadena, CA  91109   USA
+
+    General site: https://ssd.jpl.nasa.gov/
+    Mailing list: https://ssd.jpl.nasa.gov/email_list.html
+    System news : https://ssd.jpl.nasa.gov/horizons/news.html
+    User Guide  : https://ssd.jpl.nasa.gov/horizons/manual.html
+    Connect     : browser        https://ssd.jpl.nasa.gov/horizons/app.html#/x
+                  API            https://ssd-api.jpl.nasa.gov/doc/horizons.html
+                  command-line   telnet ssd.jpl.nasa.gov 6775
+                  e-mail/batch   https://ssd.jpl.nasa.gov/ftp/ssd/horizons_batch.txt
+                  scripts        https://ssd.jpl.nasa.gov/ftp/ssd/SCRIPTS
+    Inquiries   : Jon.D.Giorgini@jpl.nasa.gov
+*******************************************************************************

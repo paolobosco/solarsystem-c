@@ -1,0 +1,30 @@
+API VERSION: 1.2
+API SOURCE: NASA/JPL Horizons API
+
+*******************************************************************************
+JPL/HORIZONS                      2P/Encke                 2026-Oct-18 15:39:50
+Rec #:90000087 (+COV) Soln.date: 2003-Jul-24_16:45:28    # obs: 170 (1984-1995)
+ 
+IAU76/J2000 helio. ecliptic osc. elements (au, days, deg., period=Julian yrs):
+ 
+  EPOCH=  2450000.5 ! 1995-Oct-10.0000000 (TDB)    RMSW= n.a.
+   EC= .8500359691294602   QR= .3312840813841735   TP= 2450592.1498057502
+   OM= 334.7301819289049   W= 186.2707671230575    IN= 11.93342990520284
+   A= 2.209090269587131    MA= 182.3976916694772   ADIST= 4.086896457790088
+   PER= 3.28343479642696   N= .30018147            ANGMOM= .01346703
+   DAN= 3.95284            DDN= .3322              L= 160.8664736
+   B= -1.2941613           MOID= .174538           TP= 1997-May-23.6498057502
+ 
+Comet physical (GM= km^3/s^2; RAD= km):
+   GM= n.a.                RAD= 2.4
+   M1=  15.7     M2=  n.a.     k1=  4.5    k2= n.a.     PHCOF= n.a.
+Comet non-gravitational force model (AMRAT=m^2/kg;A1-A3=au/d^2;DT=days;R0=au):
+   AMRAT=  0.                                      DT=  0.
+   A1= -7.862789556384E-11 A2= -1.642865478061E-11 A3= 0.
+ Non-standard or simulated/proxy model:
+   ALN=  .1112620426   NK=  4.6142   NM=  2.15     NN=  5.093    R0=  2.808
+
+COMET comments 
+1: soln ref.= JPL#J944/1, data arc: 1984-03-01 to 1995-09-21
+2: k1=4.5;
+*******************************************************************************

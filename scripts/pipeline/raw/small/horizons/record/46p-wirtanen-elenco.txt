@@ -1,0 +1,29 @@
+API VERSION: 1.2
+API SOURCE: NASA/JPL Horizons API
+
+*******************************************************************************
+JPL/DASTCOM            Small-body Index Search Results     2026-Oct-18 15:48:18
+
+ Comet AND asteroid index search:
+
+    DES = 46P;
+
+ Matching small-bodies: 
+
+    Record #  Epoch-yr  >MATCH DESIG<  Primary Desig  Name  
+    --------  --------  -------------  -------------  -------------------------
+    90000537    1947    46P            46P             Wirtanen
+    90000538    1954    46P            46P             Wirtanen
+    90000539    1961    46P            46P             Wirtanen
+    90000540    1967    46P            46P             Wirtanen
+    90000541    1974    46P            46P             Wirtanen
+    90000542    1986    46P            46P             Wirtanen
+    90000543    1991    46P            46P             Wirtanen
+    90000544    1997    46P            46P             Wirtanen
+    90000545    1999    46P            46P             Wirtanen
+    90000546    2006    46P            46P             Wirtanen
+    90000547    2007    46P            46P             Wirtanen
+    90000548    2018    46P            46P             Wirtanen
+
+ (12 matches. To SELECT, enter record # (integer), followed by semi-colon.)
+*******************************************************************************

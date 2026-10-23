@@ -1,0 +1,82 @@
+/* Token di colore, tipografia e spaziatura (§ 11.1, § 11.2 di docs/PROGETTO.md).
+   Tema scuro unico (I14); tinta HSL dei token verdi tra 150° e 160°.
+   --linea: #23443A del § 11.1 ha tinta 161,8°; si usa #234438 (158,2°), decorativo.
+   I colori della scena e dei simboli dei corpi stanno in src/render/costanti.ts. */
+
+:root {
+  color-scheme: dark;
+
+  --spazio: #030806;
+  --superficie: #0c1a15;
+  --superficie-rialzata: #13281f;
+  --superficie-incassata: #07110d;
+  --linea: #234438;
+  --bordo-controllo: #5e9c86;
+  --testo: #e6f2ec;
+  --testo-2: #a9c7b9;
+  --testo-3: #86a898;
+  --giada: #4fd69c;
+  --su-giada: #03140c;
+  --giada-testo: #7be3b5;
+  --fuoco: #d7f75b;
+  --ambra: #f5b94a;
+  --su-ambra: #1a1200;
+  --corallo: #ff8f80;
+  --cielo: #8cc8f0;
+
+  /* Pannelli: opacità 0,94 con sfocatura 12 px, mai sotto 0,90 (§ 11.1). */
+  --superficie-pannello: rgb(12 26 21 / 0.94);
+  --sfocatura: 12px;
+
+  /* Tipografia (§ 11.2). */
+  --font-testo: 'Source Sans 3', 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  --font-titoli: 'Source Serif 4', Georgia, 'Times New Roman', serif;
+  --font-mono: 'Source Code Pro', ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace;
+  --dim-etichetta: 12px;
+  --dim-didascalia: 13px;
+  --dim-testo: 15px;
+  --dim-campo: 16px;
+  --dim-sezione: 18px;
+  --dim-data: 22px;
+  --dim-nome: 24px;
+  --interlinea: 1.45;
+
+  /* Spaziatura e forme. */
+  --margine-alto: max(16px, env(safe-area-inset-top));
+  --margine-destro: max(16px, env(safe-area-inset-right));
+  --margine-basso: max(16px, env(safe-area-inset-bottom));
+  --margine-sinistro: max(16px, env(safe-area-inset-left));
+  --raggio: 12px;
+  --raggio-piccolo: 8px;
+  --bersaglio: 36px;
+  --bersaglio-piccolo: 28px;
+  --spazio-bersagli: 4px;
+  --ombra: 0 8px 24px rgb(0 0 0 / 0.45);
+  --durata: 180ms;
+}
+
+/* Tocco: destinazioni di almeno 44 × 44 px (§ 11.10). */
+@media (pointer: coarse) {
+  :root {
+    --bersaglio: 44px;
+    --bersaglio-piccolo: 44px;
+    --spazio-bersagli: 8px;
+  }
+}
+
+/* Contrasto elevato (§ 11.1): pannelli opachi, testo secondario uguale al testo, bordi più chiari. */
+@media (prefers-contrast: more) {
+  :root {
+    --superficie-pannello: var(--superficie);
+    --testo-2: var(--testo);
+    --bordo-controllo: #7fc0a8;
+    --linea: #7fc0a8;
+  }
+}
+
+/* Movimento ridotto (§ 11.9): nessuna transizione. */
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --durata: 0ms;
+  }
+}

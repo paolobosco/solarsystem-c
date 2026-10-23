@@ -1,0 +1,25 @@
+API VERSION: 1.2
+API SOURCE: NASA/JPL Horizons API
+
+*******************************************************************************
+JPL/HORIZONS                      2P/Encke                 2026-Oct-18 15:38:19
+Rec #:90000033                  Soln.date: -              # obs: 28 (1795-1819)
+ 
+IAU76/J2000 helio. ecliptic osc. elements (au, days, deg., period=Julian yrs):
+ 
+  EPOCH=  2380640.5 ! 1805-Nov-15.0000000 (TDB)    RMSW= n.a.
+   EC= .8465279999999999   QR= .340645             TP= 2380647.4863999998
+   OM= 337.1517            W= 182.3076             IN= 13.5936
+   A= 2.219590544203502    MA= 357.9176763959923   ADIST= 4.098536088407004
+   PER= 3.3068728859941    N= .298053877           ANGMOM= .013643016
+   DAN= 4.08028            DDN= .34077             L= 159.3947248
+   B= -.5422249                                    TP= 1805-Nov-21.9863999998
+ 
+Comet physical (GM= km^3/s^2; RAD= km):
+   GM= n.a.                RAD= 2.4
+   M1=  15.7     M2=  n.a.     k1=  4.5    k2= n.a.     PHCOF= n.a.
+
+COMET comments 
+1: soln ref.= SAO/1805
+2: k1=4.5;epoch may be 2380641.0 (hour ambiguous: 12h/0h); non-gravs. considered; 2
+*******************************************************************************

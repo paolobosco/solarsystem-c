@@ -1,0 +1,25 @@
+API VERSION: 1.2
+API SOURCE: NASA/JPL Horizons API
+
+*******************************************************************************
+JPL/HORIZONS                  55P/Tempel-Tuttle            2026-Oct-18 15:49:09
+Rec #:90000622                  Soln.date: -              # obs: 60 (1366-1997)
+ 
+IAU76/J2000 helio. ecliptic osc. elements (au, days, deg., period=Julian yrs):
+ 
+  EPOCH=  2220280.5 ! 1366-Oct-19.0000000 (TDB)    RMSW= n.a.
+   EC= .906343             QR= .9763500000000001   TP= 2220280.1685000001
+   OM= 225.4236            W= 164.5077             IN= 162.237
+   A= 10.42474134341267    MA= .009707103812810645 ADIST= 19.87313268682533
+   PER= 33.6593817367814   N= .029282364           ANGMOM= .023468467
+   DAN= 14.7033            DDN= .99351             L= 60.2104415
+   B= 4.6741975                                    TP= 1366-Oct-18.6685000001
+ 
+Comet physical (GM= km^3/s^2; RAD= km):
+   GM= n.a.                RAD= 1.8
+   M1=  10.      M2=  16.      k1=  25.    k2=  10.     PHCOF= n.a.
+
+COMET comments 
+1: soln ref.= SAO/1366
+2: k1=25.0, k2=10.0;epoch may be 2220281.0 (hour ambiguous: 12h/0h); time units are
+*******************************************************************************

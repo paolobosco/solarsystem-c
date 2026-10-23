@@ -1,0 +1,44 @@
+{
+ "formato": 1,
+ "stelle": 9096,
+ "origini": {
+  "bsc-angolare": 101,
+  "hip-3d": 8297,
+  "hip-angolare": 698
+ },
+ "senzaBV": 24,
+ "bvDaHipparcos": 286,
+ "separazioneBscHipArcsec": {
+  "mediana": 0.6522396258048978,
+  "p99": 3.693909820340601,
+  "massimo": 21.83102084134586
+ },
+ "moto3dControStarpmArcsec": {
+  "-9999": 29.513602775989742,
+  "2120": 0.2783368597601091
+ },
+ "arrotondamentoFloat32Arcsec": 0.009127538944911489,
+ "spostamentiMaggioriA-9999Gradi": [
+  {
+   "hr": 4550,
+   "gradi": 19.930518396722892
+  },
+  {
+   "hr": 8085,
+   "gradi": 14.11925317411609
+  },
+  {
+   "hr": 8086,
+   "gradi": 13.807410807248786
+  },
+  {
+   "hr": 8387,
+   "gradi": 13.552928383059664
+  },
+  {
+   "hr": 1008,
+   "gradi": 12.447411062095822
+  }
+ ],
+ "byte": 363904
+}

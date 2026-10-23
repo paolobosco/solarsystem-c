@@ -1,0 +1,24 @@
+API VERSION: 1.2
+API SOURCE: NASA/JPL Horizons API
+
+*******************************************************************************
+JPL/DASTCOM            Small-body Index Search Results     2026-Oct-18 15:50:15
+
+ Comet AND asteroid index search:
+
+    DES = 81P;
+
+ Matching small-bodies: 
+
+    Record #  Epoch-yr  >MATCH DESIG<  Primary Desig  Name  
+    --------  --------  -------------  -------------  -------------------------
+    90000857    1978    81P            81P             Wild 2
+    90000858    1984    81P            81P             Wild 2
+    90000859    1990    81P            81P             Wild 2
+    90000860    1998    81P            81P             Wild 2
+    90000861    2006    81P            81P             Wild 2
+    90000862    2011    81P            81P             Wild 2
+    90000863    2019    81P            81P             Wild 2
+
+ (7 matches. To SELECT, enter record # (integer), followed by semi-colon.)
+*******************************************************************************

@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="it">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="color-scheme" content="dark" />
+    <title>Laboratorio di rendering</title>
+    <style>
+      :root {
+        color-scheme: dark;
+        --spazio: #030806;
+        --superficie: #0c1a15;
+        --testo: #e6f2ec;
+        --testo-2: #a9c7b9;
+        --bordo-controllo: #5e9c86;
+      }
+      html,
+      body {
+        margin: 0;
+        height: 100%;
+        background: var(--spazio);
+        color: var(--testo);
+        font: 13px/1.45 "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+        overflow: hidden;
+      }
+      #vista {
+        position: fixed;
+        inset: 0;
+      }
+      #scena {
+        display: block;
+        width: 100%;
+        height: 100%;
+      }
+      #etichette {
+        position: absolute;
+        inset: 0;
+      }
+      #pannello {
+        position: fixed;
+        top: 8px;
+        left: 8px;
+        max-width: min(360px, calc(100vw - 32px));
+        padding: 8px 10px;
+        background: rgb(12 26 21 / 0.92);
+        border: 1px solid #23443a;
+        border-radius: 6px;
+        display: grid;
+        gap: 6px;
+      }
+      #pannello.nascosto {
+        display: none;
+      }
+      #pannello label {
+        display: inline-flex;
+        gap: 4px;
+        align-items: center;
+        margin-right: 8px;
+      }
+      #pannello select,
+      #pannello input,
+      #pannello button {
+        font: inherit;
+        color: var(--testo);
+        background: #07110d;
+        border: 1px solid var(--bordo-controllo);
+        border-radius: 4px;
+        padding: 2px 6px;
+      }
+      #stat {
+        color: var(--testo-2);
+        font-variant-numeric: tabular-nums;
+        white-space: pre-line;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="vista">
+      <canvas id="scena"></canvas>
+      <div id="etichette"></div>
+    </div>
+    <div id="pannello">
+      <div>
+        <label>Fuoco <select id="fuoco"></select></label>
+        <label>Preset <select id="preset"></select></label>
+      </div>
+      <div>
+        <label>JD (UT) <input id="jd" type="number" step="any" size="14" /></label>
+        <button id="meno">−1 g</button><button id="piu">+1 g</button>
+      </div>
+      <div>
+        <label>Velocità
+          <select id="velocita">
+            <option value="0">pausa</option>
+            <option value="0.0416667">1 h/s</option>
+            <option value="1">1 g/s</option>
+            <option value="30.436875">1 mese/s</option>
+            <option value="365.25">1 anno/s</option>
+            <option value="36525">100 anni/s</option>
+          </select>
+        </label>
+      </div>
+      <div id="livelli"></div>
+      <div id="stat"></div>
+    </div>
+    <script type="module" src="/src/dev/renderLab.ts"></script>
+  </body>
+</html>

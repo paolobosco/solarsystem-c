@@ -1,0 +1,246 @@
+{
+ "formato": 1,
+ "area": "tex",
+ "corpi": {
+  "terra": {
+   "texture": {
+    "file": "tex/terra.jpg",
+    "lon0_u": 0.5,
+    "verso": "est",
+    "fonte": "NASA Earth Observatory, Blue Marble Next Generation, luglio 2004 (Stöckli et al. 2005); https://science.nasa.gov/earth/earth-observatory/blue-marble-next-generation/base-map/",
+    "licenza": "NASA: non soggetta a copyright negli Stati Uniti, con credito",
+    "areeNonOsservate": "nessuna"
+   }
+  },
+  "luna": {
+   "texture": {
+    "file": "tex/luna.jpg",
+    "lon0_u": 0.5,
+    "verso": "est",
+    "fonte": "NASA's Scientific Visualization Studio, CGI Moon Kit (dati LRO LROC WAC); https://svs.gsfc.nasa.gov/4720; mappa centrata sulla longitudine 0 (pagina SVS 4720)",
+    "licenza": "NASA: non soggetta a copyright negli Stati Uniti, con credito",
+    "areeNonOsservate": "nessuna"
+   }
+  },
+  "mercurio": {
+   "texture": {
+    "file": "tex/mercurio.jpg",
+    "lon0_u": 0.5,
+    "verso": "est",
+    "fonte": "MESSENGER Team (Arizona State University), mosaico a colori (USGS Astrogeology); https://astrogeology.usgs.gov/search/map/mercury_messenger_mdis_global_color_mosaic_665m",
+    "licenza": "pubblico dominio, con citazione degli autori (USGS Astropedia)",
+    "areeNonOsservate": "nessuna"
+   }
+  },
+  "venere": {
+   "texture": {
+    "file": "tex/venere.jpg",
+    "lon0_u": 0.5,
+    "verso": "est",
+    "fonte": "USGS Astrogeology Science Center, mosaico Magellan C3-MDIR a colori sintetici (NASA/JPL); https://astrogeology.usgs.gov/search/map/venus_magellan_global_c3_mdir_synthetic_color_mosaic_4641m; radar: colori sintetici, non visibili",
+    "licenza": "pubblico dominio (USGS)",
+    "areeNonOsservate": "nessuna"
+   }
+  },
+  "marte": {
+   "texture": {
+    "file": "tex/marte.jpg",
+    "lon0_u": 0.5,
+    "verso": "est",
+    "fonte": "USGS Astrogeology Science Center, mosaico a colori Viking (NASA/JPL); https://astrogeology.usgs.gov/search/map/mars_viking_global_color_mosaic_925m",
+    "licenza": "pubblico dominio (USGS)",
+    "areeNonOsservate": "nessuna"
+   }
+  },
+  "giove": {
+   "texture": {
+    "file": "tex/giove.jpg",
+    "lon0_u": 0.5,
+    "verso": "est",
+    "fonte": "NASA/JPL/Space Science Institute, PIA07782 (Cassini, dicembre 2000); https://science.nasa.gov/photojournal/cassinis-best-maps-of-jupiter-cylindrical-map/; griglia di PIA07782 fig. 1: 180°O a sinistra, 0° al centro; nubi in moto rispetto al Sistema III",
+    "licenza": "NASA: non soggetta a copyright negli Stati Uniti, con credito",
+    "areeNonOsservate": "nessuna"
+   }
+  },
+  "saturno": {
+   "texture": {
+    "file": "tex/saturno.jpg",
+    "lon0_u": 0.5,
+    "verso": "est",
+    "fonte": "Solar System Scope (INOVE), basata su dati NASA; https://www.solarsystemscope.com/textures/; longitudine non definita (atmosfera a bande); lacune riempite dall'autore",
+    "licenza": "CC BY 4.0",
+    "areeNonOsservate": "parziali"
+   }
+  },
+  "urano": {
+   "texture": {
+    "file": "tex/urano.jpg",
+    "lon0_u": 0.5,
+    "verso": "est",
+    "fonte": "Solar System Scope (INOVE), basata su dati NASA; https://www.solarsystemscope.com/textures/; longitudine non definita (atmosfera a bande); lacune riempite dall'autore",
+    "licenza": "CC BY 4.0",
+    "areeNonOsservate": "parziali"
+   }
+  },
+  "nettuno": {
+   "texture": {
+    "file": "tex/nettuno.jpg",
+    "lon0_u": 0.5,
+    "verso": "est",
+    "fonte": "Solar System Scope (INOVE), basata su dati NASA; https://www.solarsystemscope.com/textures/; longitudine non definita (atmosfera a bande); lacune riempite dall'autore",
+    "licenza": "CC BY 4.0",
+    "areeNonOsservate": "parziali"
+   }
+  },
+  "io": {
+   "texture": {
+    "file": "tex/io.jpg",
+    "lon0_u": 0.5,
+    "verso": "est",
+    "fonte": "USGS Astrogeology Science Center, mosaico Galileo SSI e Voyager a colori (NASA/JPL); https://astrogeology.usgs.gov/search/map/io_galileo_ssi_voyager_color_merged_global_mosaic_1km",
+    "licenza": "pubblico dominio (USGS)",
+    "areeNonOsservate": "nessuna"
+   }
+  },
+  "europa": {
+   "texture": {
+    "file": "tex/europa.jpg",
+    "lon0_u": 0.5,
+    "verso": "est",
+    "fonte": "USGS Astrogeology Science Center (T. Becker), mosaico Voyager e Galileo SSI (NASA/JPL); https://astrogeology.usgs.gov/search/map/europa_voyager_galileo_ssi_global_mosaic_500m",
+    "licenza": "pubblico dominio (USGS)",
+    "areeNonOsservate": "nessuna"
+   }
+  },
+  "ganimede": {
+   "texture": {
+    "file": "tex/ganimede.jpg",
+    "lon0_u": 0.5,
+    "verso": "est",
+    "fonte": "USGS Astrogeology Science Center, mosaico Voyager e Galileo SSI a colori (NASA/JPL); https://astrogeology.usgs.gov/search/map/ganymede_voyager_galileo_ssi_color_global_mosaic_1_4km",
+    "licenza": "pubblico dominio (USGS)",
+    "areeNonOsservate": "nessuna"
+   }
+  },
+  "callisto": {
+   "texture": {
+    "file": "tex/callisto.jpg",
+    "lon0_u": 0.5,
+    "verso": "est",
+    "fonte": "USGS Astrogeology Science Center, mosaico Voyager e Galileo SSI (NASA/JPL); https://astrogeology.usgs.gov/search/map/callisto_galileo_voyager_global_mosaic_1km",
+    "licenza": "pubblico dominio (USGS)",
+    "areeNonOsservate": "nessuna"
+   }
+  },
+  "encelado": {
+   "texture": {
+    "file": "tex/encelado.jpg",
+    "lon0_u": 0.5,
+    "verso": "est",
+    "fonte": "Cassini Team, JPL, Space Science Institute, mosaico Cassini ISS (USGS Astrogeology); https://astrogeology.usgs.gov/search/map/enceladus_cassini_global_mosaic_110m",
+    "licenza": "pubblico dominio, con citazione degli autori (USGS Astropedia)",
+    "areeNonOsservate": "nessuna"
+   }
+  },
+  "teti": {
+   "texture": {
+    "file": "tex/teti.jpg",
+    "lon0_u": 0.5,
+    "verso": "est",
+    "fonte": "Roatsch, Kersten, Hoffmeister, Wählisch (DLR), mosaico Cassini ISS (NASA/JPL/SSI); https://astrogeology.usgs.gov/search/map/tethys_cassini_global_mosaic_293m",
+    "licenza": "pubblico dominio, con citazione degli autori (USGS Astropedia)",
+    "areeNonOsservate": "nessuna"
+   }
+  },
+  "dione": {
+   "texture": {
+    "file": "tex/dione.jpg",
+    "lon0_u": 0.5,
+    "verso": "est",
+    "fonte": "NASA, JPL, Space Science Institute, mosaico Cassini ISS e Voyager (USGS Astrogeology); https://astrogeology.usgs.gov/search/map/dione_cassini_voyager_global_mosaic_154m",
+    "licenza": "pubblico dominio, con citazione degli autori (USGS Astropedia)",
+    "areeNonOsservate": "nessuna"
+   }
+  },
+  "rea": {
+   "texture": {
+    "file": "tex/rea.jpg",
+    "lon0_u": 0.5,
+    "verso": "est",
+    "fonte": "Roatsch, Kersten, Hoffmeister, Wählisch (DLR), mosaico Cassini ISS e Voyager (NASA/JPL/SSI); https://astrogeology.usgs.gov/search/map/rhea_cassini_voyager_global_mosaic_417m",
+    "licenza": "pubblico dominio, con citazione degli autori (USGS Astropedia)",
+    "areeNonOsservate": "nessuna"
+   }
+  },
+  "giapeto": {
+   "texture": {
+    "file": "tex/giapeto.jpg",
+    "lon0_u": 0.5,
+    "verso": "est",
+    "fonte": "Space Science Institute, Cassini Team, JPL, mosaico Cassini ISS e Voyager (USGS Astrogeology); https://astrogeology.usgs.gov/search/map/iapetus_cassini_voyager_global_mosaic_803m",
+    "licenza": "pubblico dominio, con citazione degli autori (USGS Astropedia)",
+    "areeNonOsservate": "nessuna"
+   }
+  },
+  "titano": {
+   "texture": {
+    "file": "tex/titano.jpg",
+    "lon0_u": 0.5,
+    "verso": "est",
+    "fonte": "NASA/JPL-Caltech/Space Science Institute, PIA19658 (Cassini ISS, giugno 2015), copia USGS Astrogeology; https://science.nasa.gov/photojournal/titan-global-map-june-2015/; immagini a 938 nm attraverso l'atmosfera: albedo superficiale, non colori visibili",
+    "licenza": "NASA: non soggetta a copyright negli Stati Uniti, con credito",
+    "areeNonOsservate": "nessuna"
+   }
+  },
+  "tritone": {
+   "texture": {
+    "file": "tex/tritone.jpg",
+    "lon0_u": 0.5,
+    "verso": "est",
+    "fonte": "Lunar and Planetary Institute (P. Schenk), mosaico Voyager 2 a colori (NASA/JPL), PIA18668; https://astrogeology.usgs.gov/search/map/triton_voyager_2_global_color_mosaic_600m; aree non osservate riempite; sistema del corpo con polo sul momento angolare dell'orbita retrograda",
+    "licenza": "pubblico dominio, con citazione degli autori (USGS Astropedia)",
+    "areeNonOsservate": "parziali"
+   }
+  },
+  "plutone": {
+   "texture": {
+    "file": "tex/plutone.jpg",
+    "lon0_u": 0.5,
+    "verso": "est",
+    "fonte": "New Horizons Team (NASA/JHUAPL/SwRI), mosaico LORRI e MVIC (USGS Astrogeology); https://astrogeology.usgs.gov/search/map/pluto_new_horizons_lorri_mvic_global_mosaic_300m",
+    "licenza": "uso libero con citazione degli autori (USGS Astropedia)",
+    "areeNonOsservate": "emisfero-sud"
+   }
+  },
+  "caronte": {
+   "texture": {
+    "file": "tex/caronte.jpg",
+    "lon0_u": 0.5,
+    "verso": "est",
+    "fonte": "New Horizons Team (NASA/JHUAPL/SwRI), mosaico LORRI e MVIC (USGS Astrogeology); https://astrogeology.usgs.gov/search/map/charon_new_horizons_lorri_mvic_global_mosaic_300m",
+    "licenza": "uso libero con citazione degli autori (USGS Astropedia)",
+    "areeNonOsservate": "emisfero-sud"
+   }
+  },
+  "cerere": {
+   "texture": {
+    "file": "tex/cerere.jpg",
+    "lon0_u": 0.5,
+    "verso": "est",
+    "fonte": "NASA/JPL-Caltech/UCLA/MPS/DLR/IDA, mosaico Dawn FC (DLR); https://astrogeology.usgs.gov/search/map/ceres_dawn_fc_global_mosaic_400m",
+    "licenza": "uso libero con citazione degli autori (USGS Astropedia)",
+    "areeNonOsservate": "nessuna"
+   }
+  },
+  "vesta": {
+   "texture": {
+    "file": "tex/vesta.jpg",
+    "lon0_u": 0.5,
+    "verso": "est",
+    "fonte": "NASA/JPL-Caltech/UCLA/MPS/DLR/IDA, mosaico Dawn FC HAMO (DLR); https://astrogeology.usgs.gov/search/map/vesta_dawn_fc_hamo_global_mosaic_60m; sistema Claudia double prime (IAU), come il modello WGCCRE 2015",
+    "licenza": "uso libero con citazione degli autori (USGS Astropedia)",
+    "areeNonOsservate": "nessuna"
+   }
+  }
+ }
+}

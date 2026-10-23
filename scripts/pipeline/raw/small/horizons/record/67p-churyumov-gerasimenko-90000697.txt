@@ -1,0 +1,25 @@
+API VERSION: 1.2
+API SOURCE: NASA/JPL Horizons API
+
+*******************************************************************************
+JPL/HORIZONS              67P/Churyumov-Gerasimenko        2026-Oct-18 15:49:37
+Rec #:90000697                  Soln.date: -            # obs: 1154 (1969-2004)
+ 
+IAU76/J2000 helio. ecliptic osc. elements (au, days, deg., period=Julian yrs):
+ 
+  EPOCH=  2445280.5 ! 1982-Nov-07.0000000 (TDB)    RMSW= n.a.
+   EC= .629152             QR= 1.306144            TP= 2445285.5992999999
+   OM= 51.0153             W= 11.3667              IN= 7.117
+   A= 3.522046768487359    MA= 359.2396352781311   ADIST= 5.737949536974718
+   PER= 6.60999118202348   N= .149111588           ANGMOM= .0250933
+   DAN= 1.31611            DDN= 5.55316            L= 62.2966765
+   B= 1.3992071                                    TP= 1982-Nov-12.0992999999
+ 
+Comet physical (GM= km^3/s^2; RAD= km):
+   GM= 6.622E-7            RAD= 1.7
+   M1=  12.9     M2=  n.a.     k1=  7.5    k2= n.a.     PHCOF= n.a.
+
+COMET comments 
+1: soln ref.= SAO/1982
+2: k1=7.5;non-gravs. considered; 2008 SAO Comet Catalog
+*******************************************************************************

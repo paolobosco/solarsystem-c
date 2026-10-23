@@ -1,0 +1,25 @@
+API VERSION: 1.2
+API SOURCE: NASA/JPL Horizons API
+
+*******************************************************************************
+JPL/HORIZONS                  109P/Swift-Tuttle            2026-Oct-18 15:51:39
+Rec #:90000981                  Soln.date: -            # obs: 446 (span: n.a.)
+ 
+IAU76/J2000 helio. ecliptic osc. elements (au, days, deg., period=Julian yrs):
+ 
+  EPOCH=  1696440.5 !  -68-Aug-08.0000000 (TDB)    RMSW= n.a.
+   EC= .9614               QR= .9809               TP= 1696460.
+   OM= 139.12              W= 152.42               IN= 113.9
+   A= 25.41191709844562    MA= 359.8499684692041   ADIST= 49.84293419689124
+   PER= 128.104488594886   N= .007693925           ANGMOM= .023860355
+   DAN= 13.0129            DDN= 1.03876            L= 331.0688059
+   B= 25.0423087                                   TP=  -68-Aug-27.5000000000
+ 
+Comet physical (GM= km^3/s^2; RAD= km):
+   GM= n.a.                RAD= 13.
+   M1=  4.5      M2=  8.5      k1=  15.    k2=  10.     PHCOF= n.a.
+
+COMET comments 
+1: soln ref.= SAO/-68
+2: k1=15.0, k2=10.0;epoch may be 1696441.0 (hour ambiguous: 12h/0h); time units are
+*******************************************************************************

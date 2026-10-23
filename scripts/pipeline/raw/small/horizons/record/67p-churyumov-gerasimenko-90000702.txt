@@ -1,0 +1,30 @@
+API VERSION: 1.2
+API SOURCE: NASA/JPL Horizons API
+
+*******************************************************************************
+JPL/HORIZONS              67P/Churyumov-Gerasimenko        2026-Oct-18 15:49:44
+Rec #:90000702 (+COV) Soln.date: 2021-May-26_09:32:06   # obs: 5935 (1995-2018)
+ 
+IAU76/J2000 helio. ecliptic osc. elements (au, days, deg., period=Julian yrs):
+ 
+  EPOCH=  2456444.5 ! 2013-Jun-01.0000000 (TDB)    RMSW= n.a.
+   EC= .6411809056765294   QR= 1.242865055716075   TP= 2457247.348526136
+   OM= 50.1685976354573    W= 12.74498173396349    IN= 7.043458456617529
+   A= 3.463765098842953    MA= 237.2518259532911   ADIST= 5.68466514196983
+   PER= 6.44660187469198   N= .152890826           ANGMOM= .024568105
+   DAN= 1.25494            DDN= 5.44494            L= 62.8205058
+   B= 1.5501499            MOID= .256805           TP= 2015-Aug-12.8485261360
+ 
+Comet physical (GM= km^3/s^2; RAD= km):
+   GM= 6.622E-7            RAD= 1.7
+   M1=  12.9     M2=  n.a.     k1=  7.5    k2= n.a.     PHCOF= n.a.
+Comet non-gravitational force model (AMRAT=m^2/kg;A1-A3=au/d^2;DT=days;R0=au):
+   AMRAT=  0.                                      DT=  31.83911
+   A1= 1.140182167292E-9   A2= -3.407562850043E-11 A3= 3.940364718437E-10
+ Non-standard or simulated/proxy model:
+   ALN=  .1112620426   NK=  4.6142   NM=  2.15     NN=  5.093    R0=  2.808
+
+COMET comments 
+1: soln ref.= JPL#K154/5, data arc: 1995-07-03 to 2018-06-14
+2: k1=7.5;
+*******************************************************************************

@@ -1,0 +1,158 @@
+{
+ "formato": 1,
+ "area": "planets",
+ "corpi": {
+  "sole": {
+   "effemeridi": {
+    "modello": "sole"
+   },
+   "soluzione": {
+    "id": "DE441",
+    "data": "2020-06-25",
+    "estrazione": "2026-10-18",
+    "modelloNG": null,
+    "recordDastcom": null
+   },
+   "epsModelloCostante": 0.0
+  },
+  "mercurio": {
+   "effemeridi": {
+    "modello": "pianeta",
+    "naifDE441": 1
+   },
+   "soluzione": {
+    "id": "DE441",
+    "data": "2020-06-25",
+    "estrazione": "2026-10-18",
+    "modelloNG": null,
+    "recordDastcom": null
+   },
+   "epsModelloCostante": 9.69627362219072e-06
+  },
+  "venere": {
+   "effemeridi": {
+    "modello": "pianeta",
+    "naifDE441": 2
+   },
+   "soluzione": {
+    "id": "DE441",
+    "data": "2020-06-25",
+    "estrazione": "2026-10-18",
+    "modelloNG": null,
+    "recordDastcom": null
+   },
+   "epsModelloCostante": 9.69627362219072e-06
+  },
+  "terra": {
+   "effemeridi": {
+    "modello": "pianeta",
+    "naifDE441": 3
+   },
+   "soluzione": {
+    "id": "DE441",
+    "data": "2020-06-25",
+    "estrazione": "2026-10-18",
+    "modelloNG": null,
+    "recordDastcom": null
+   },
+   "epsModelloCostante": 9.69627362219072e-06
+  },
+  "marte": {
+   "effemeridi": {
+    "modello": "pianeta",
+    "naifDE441": 4
+   },
+   "soluzione": {
+    "id": "DE441",
+    "data": "2020-06-25",
+    "estrazione": "2026-10-18",
+    "modelloNG": null,
+    "recordDastcom": null
+   },
+   "epsModelloCostante": 9.69627362219072e-06
+  },
+  "giove": {
+   "effemeridi": {
+    "modello": "pianeta",
+    "naifDE441": 5
+   },
+   "soluzione": {
+    "id": "DE441",
+    "data": "2020-06-25",
+    "estrazione": "2026-10-18",
+    "modelloNG": null,
+    "recordDastcom": null
+   },
+   "epsModelloCostante": 9.69627362219072e-06
+  },
+  "saturno": {
+   "effemeridi": {
+    "modello": "pianeta",
+    "naifDE441": 6
+   },
+   "soluzione": {
+    "id": "DE441",
+    "data": "2020-06-25",
+    "estrazione": "2026-10-18",
+    "modelloNG": null,
+    "recordDastcom": null
+   },
+   "epsModelloCostante": 9.69627362219072e-06
+  },
+  "urano": {
+   "effemeridi": {
+    "modello": "pianeta",
+    "naifDE441": 7
+   },
+   "soluzione": {
+    "id": "DE441",
+    "data": "2020-06-25",
+    "estrazione": "2026-10-18",
+    "modelloNG": null,
+    "recordDastcom": null
+   },
+   "epsModelloCostante": 9.69627362219072e-06
+  },
+  "nettuno": {
+   "effemeridi": {
+    "modello": "pianeta",
+    "naifDE441": 8
+   },
+   "soluzione": {
+    "id": "DE441",
+    "data": "2020-06-25",
+    "estrazione": "2026-10-18",
+    "modelloNG": null,
+    "recordDastcom": null
+   },
+   "epsModelloCostante": 9.69627362219072e-06
+  },
+  "plutone": {
+   "effemeridi": {
+    "modello": "pianeta",
+    "naifDE441": 9
+   },
+   "soluzione": {
+    "id": "DE441",
+    "data": "2020-06-25",
+    "estrazione": "2026-10-18",
+    "modelloNG": null,
+    "recordDastcom": null
+   },
+   "epsModelloCostante": 9.69627362219072e-06
+  },
+  "luna": {
+   "effemeridi": {
+    "modello": "luna"
+   },
+   "soluzione": {
+    "id": "ELP 2000-82B troncata (Meeus 1998, cap. 47) con correzioni stimate su DE441",
+    "data": "2020-06-25",
+    "estrazione": "2026-10-18",
+    "modelloNG": null,
+    "recordDastcom": null
+   },
+   "epsModelloCostante": null
+  }
+ }
+}

@@ -1,0 +1,30 @@
+API VERSION: 1.2
+API SOURCE: NASA/JPL Horizons API
+
+*******************************************************************************
+JPL/HORIZONS                    19P/Borrelly               2026-Oct-18 15:44:12
+Rec #:90000305 (+COV) Soln.date: 2017-May-07_17:25:46   # obs: 2845 (1973-2017)
+ 
+IAU76/J2000 helio. ecliptic osc. elements (au, days, deg., period=Julian yrs):
+ 
+  EPOCH=  2453126.5 ! 2004-May-01.0000000 (TDB)    RMSW= n.a.
+   EC= .6232892711821078   QR= 1.359799738782305   TP= 2452166.7536303061
+   OM= 75.43597686258941   W= 353.3506872274951    IN= 30.31307021679391
+   A= 3.609665546424225    MA= 137.9304349205284   ADIST= 5.859531354066144
+   PER= 6.85817635451001   N= .143715506           ANGMOM= .025557412
+   DAN= 1.36332            DDN= 5.79504            L= 69.68919459999999
+   B= -3.3504524           MOID= .377543           TP= 2001-Sep-14.2536303061
+ 
+Comet physical (GM= km^3/s^2; RAD= km):
+   GM= n.a.                RAD= 2.4
+   M1=  9.9      M2=  13.2     k1=  14.    k2=  5.      PHCOF=  .030
+Comet non-gravitational force model (AMRAT=m^2/kg;A1-A3=au/d^2;DT=days;R0=au):
+   AMRAT=  0.                                      DT=  -47.24577
+   A1= 1.895695477724E-9   A2= -7.833075709641E-11 A3= 2.85430829972E-10
+ Non-standard or simulated/proxy model:
+   ALN=  .1112620426   NK=  4.6142   NM=  2.15     NN=  5.093    R0=  2.808
+
+COMET comments 
+1: soln ref.= JPL#K157/5, data arc: 1973-08-23 to 2017-03-30
+2: k1=14., k2=5., phase coef.=0.03;
+*******************************************************************************

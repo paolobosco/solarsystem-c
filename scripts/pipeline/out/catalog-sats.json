@@ -1,0 +1,2772 @@
+{
+ "formato": 1,
+ "area": "sats",
+ "corpi": {
+  "fobos": {
+   "effemeridi": {
+    "modello": "satellite",
+    "rF": [
+     0.6728342837381822,
+     -0.5901811839228602,
+     0.44607196366722995,
+     0.6787470203186161,
+     0.7323181105277954,
+     -0.05488777096585296,
+     -0.2942728479406953,
+     0.3397003902506013,
+     0.8933124514012225
+    ],
+    "frequenze": [
+     19.691361285875978,
+     0.009144256748507298,
+     19.709663894413666,
+     0.018292222889835404,
+     0.007628304282644842,
+     27.15567473684568
+    ],
+    "arcoOsservativo": {
+     "inizio": 1877.0,
+     "fine": 2019.0
+    },
+    "fonti": [
+     {
+      "tipo": "secolare",
+      "inizio": -1931200.5,
+      "fine": 2305082.25,
+      "descrizione": "estrapolazione secolare adattata su mar099.bsp",
+      "varianti": [],
+      "saltoGiunzioneKm": null,
+      "erroreRadialeKm": 1.4
+     },
+     {
+      "tipo": "spk-satellitare",
+      "inizio": 2305082.25,
+      "fine": 2495760.5,
+      "descrizione": "mar099.bsp (MAR099)",
+      "varianti": [],
+      "saltoGiunzioneKm": 5.989293338224318,
+      "erroreRadialeKm": 1.4
+     }
+    ],
+    "centro": "pianeta",
+    "pianoSegueEquatore": true
+   },
+   "soluzione": {
+    "id": "MAR099 (mar099.bsp)",
+    "data": "2025-06-02",
+    "estrazione": "2026-10-19",
+    "modelloNG": null,
+    "recordDastcom": null
+   },
+   "fisica": {
+    "raggi_km": {
+     "valore": [
+      11.08,
+      11.08,
+      11.08
+     ],
+     "incertezza": [
+      0.04,
+      0.04,
+      0.04
+     ],
+     "fonte": "JPL \"Planetary Satellite Physical Parameters\" (https://ssd.jpl.nasa.gov/sats/phys_par/); raggio medio: B. A. Archinal, C. H. Acton, M. F. A’Hearn, et al. (2018) \"Report of the IAU Working Group on Cartographic Coordinates and Rotational Elements: 2015\". Celest. Mech. 130:22.",
+     "anno": 2018
+    },
+    "gm_km3s2": {
+     "valore": 0.0007087546066894452,
+     "incertezza": 6e-07,
+     "fonte": "costante GM del kernel mar099.bsp (soluzione MAR099, Brozović, Jacobson, Park (2025)); incertezza da JPL \"Planetary Satellite Physical Parameters\" (soluzione MAR097, stesso valore alle cifre pubblicate)",
+     "anno": 2025
+    },
+    "rotazione": {
+     "valore": 7.653837848675131,
+     "incertezza": null,
+     "fonte": "rotazione sincrona: periodo orbitale siderale medio del modello",
+     "anno": null
+    },
+    "albedo": null
+   },
+   "orientamento": {
+    "modello": "sincrono",
+    "coefficienti": null,
+    "convenzionePolo": "momento-angolare",
+    "indicativo": false
+   },
+   "epsModelloCostante": null
+  },
+  "deimos": {
+   "effemeridi": {
+    "modello": "satellite",
+    "rF": [
+     0.6857657439170461,
+     -0.5854438917344786,
+     0.4324127589476153,
+     0.6677639324151814,
+     0.7424232213388424,
+     -0.05384320739210539,
+     -0.2895110965668041,
+     0.32567347151348447,
+     0.9000667280357842
+    ],
+    "frequenze": [
+     0.00914514368502347,
+     2.2944133407249385,
+     0.01828802493958017,
+     0.027433503701233278,
+     0.018606668604153956,
+     3.44162000575019
+    ],
+    "arcoOsservativo": {
+     "inizio": 1877.0,
+     "fine": 2019.0
+    },
+    "fonti": [
+     {
+      "tipo": "secolare",
+      "inizio": -1931200.5,
+      "fine": 2305082.25,
+      "descrizione": "estrapolazione secolare adattata su mar099.bsp",
+      "varianti": [],
+      "saltoGiunzioneKm": null,
+      "erroreRadialeKm": 3.8
+     },
+     {
+      "tipo": "spk-satellitare",
+      "inizio": 2305082.25,
+      "fine": 2495760.5,
+      "descrizione": "mar099.bsp (MAR099)",
+      "varianti": [],
+      "saltoGiunzioneKm": 154.90119063909327,
+      "erroreRadialeKm": 2.9
+     }
+    ],
+    "centro": "pianeta",
+    "pianoSegueEquatore": true
+   },
+   "soluzione": {
+    "id": "MAR099 (mar099.bsp)",
+    "data": "2025-06-02",
+    "estrazione": "2026-10-19",
+    "modelloNG": null,
+    "recordDastcom": null
+   },
+   "fisica": {
+    "raggi_km": {
+     "valore": [
+      6.2,
+      6.2,
+      6.2
+     ],
+     "incertezza": [
+      0.24,
+      0.24,
+      0.24
+     ],
+     "fonte": "JPL \"Planetary Satellite Physical Parameters\" (https://ssd.jpl.nasa.gov/sats/phys_par/); raggio medio: B. A. Archinal, C. H. Acton, M. F. A’Hearn, et al. (2018) \"Report of the IAU Working Group on Cartographic Coordinates and Rotational Elements: 2015\". Celest. Mech. 130:22.",
+     "anno": 2018
+    },
+    "gm_km3s2": {
+     "valore": 9.615569648120313e-05,
+     "incertezza": 2.8e-06,
+     "fonte": "costante GM del kernel mar099.bsp (soluzione MAR099, Brozović, Jacobson, Park (2025)); incertezza da JPL \"Planetary Satellite Physical Parameters\" (soluzione MAR097, stesso valore alle cifre pubblicate)",
+     "anno": 2025
+    },
+    "rotazione": {
+     "valore": 30.298579148301066,
+     "incertezza": null,
+     "fonte": "rotazione sincrona: periodo orbitale siderale medio del modello",
+     "anno": null
+    },
+    "albedo": null
+   },
+   "orientamento": {
+    "modello": "sincrono",
+    "coefficienti": null,
+    "convenzionePolo": "momento-angolare",
+    "indicativo": false
+   },
+   "epsModelloCostante": null
+  },
+  "io": {
+   "effemeridi": {
+    "modello": "satellite",
+    "rF": [
+     0.9994285699271729,
+     0.030507624536762458,
+     -0.014553984280941035,
+     -0.031012164212552852,
+     0.9988776057001048,
+     -0.03580187846579171,
+     0.013445418705998167,
+     0.03623277074624009,
+     0.9992529244590035
+    ],
+    "frequenze": [
+     0.013583869128239716,
+     0.01302615786132623,
+     3.5514317141400404,
+     0.003051533392154709,
+     1.7822295967866078,
+     0.012892710899708058
+    ],
+    "arcoOsservativo": {
+     "inizio": 1900.0,
+     "fine": 2020.0
+    },
+    "fonti": [
+     {
+      "tipo": "secolare",
+      "inizio": -1931200.5,
+      "fine": 2305383.45,
+      "descrizione": "estrapolazione secolare adattata su jup365.bsp",
+      "varianti": [],
+      "saltoGiunzioneKm": null,
+      "erroreRadialeKm": 39.6
+     },
+     {
+      "tipo": "spk-satellitare",
+      "inizio": 2305383.45,
+      "fine": 2495760.5,
+      "descrizione": "jup365.bsp (JUP365)",
+      "varianti": [],
+      "saltoGiunzioneKm": 528.925223333123,
+      "erroreRadialeKm": 40.3
+     }
+    ],
+    "centro": "pianeta",
+    "pianoSegueEquatore": true
+   },
+   "soluzione": {
+    "id": "JUP365 (jup365.bsp)",
+    "data": "2021-03-14",
+    "estrazione": "2026-10-19",
+    "modelloNG": null,
+    "recordDastcom": null
+   },
+   "fisica": {
+    "raggi_km": {
+     "valore": [
+      1821.49,
+      1821.49,
+      1821.49
+     ],
+     "incertezza": [
+      0.5,
+      0.5,
+      0.5
+     ],
+     "fonte": "JPL \"Planetary Satellite Physical Parameters\" (https://ssd.jpl.nasa.gov/sats/phys_par/); raggio medio: B. A. Archinal, C. H. Acton, M. F. A’Hearn, et al. (2018) \"Report of the IAU Working Group on Cartographic Coordinates and Rotational Elements: 2015\". Celest. Mech. 130:22.",
+     "anno": 2018
+    },
+    "gm_km3s2": {
+     "valore": 5959.915466180539,
+     "incertezza": 0.00135,
+     "fonte": "costante GM del kernel jup365.bsp (soluzione JUP365, Jacobson (2021))",
+     "anno": 2021
+    },
+    "rotazione": {
+     "valore": 42.459306256011224,
+     "incertezza": null,
+     "fonte": "rotazione sincrona: periodo orbitale siderale medio del modello",
+     "anno": null
+    },
+    "albedo": null
+   },
+   "orientamento": {
+    "modello": "sincrono",
+    "coefficienti": null,
+    "convenzionePolo": "momento-angolare",
+    "indicativo": false
+   },
+   "epsModelloCostante": null
+  },
+  "europa": {
+   "effemeridi": {
+    "modello": "satellite",
+    "rF": [
+     0.9994396269879102,
+     0.030212078046607763,
+     -0.014410494313955404,
+     -0.030710743815163807,
+     0.9988891697512751,
+     -0.03573900905072223,
+     0.013314736970223543,
+     0.03616153887369713,
+     0.9992572546074909
+    ],
+    "frequenze": [
+     0.01302540990952562,
+     1.7692118179204845,
+     1.7686382962918743,
+     0.012863719613134138,
+     0.013570745807527648,
+     0.8911147842679699
+    ],
+    "arcoOsservativo": {
+     "inizio": 1900.0,
+     "fine": 2020.0
+    },
+    "fonti": [
+     {
+      "tipo": "secolare",
+      "inizio": -1931200.5,
+      "fine": 2305383.45,
+      "descrizione": "estrapolazione secolare adattata su jup365.bsp",
+      "varianti": [],
+      "saltoGiunzioneKm": null,
+      "erroreRadialeKm": 436.6
+     },
+     {
+      "tipo": "spk-satellitare",
+      "inizio": 2305383.45,
+      "fine": 2495760.5,
+      "descrizione": "jup365.bsp (JUP365)",
+      "varianti": [],
+      "saltoGiunzioneKm": 355.40415532292553,
+      "erroreRadialeKm": 446.7
+     }
+    ],
+    "centro": "pianeta",
+    "pianoSegueEquatore": true
+   },
+   "soluzione": {
+    "id": "JUP365 (jup365.bsp)",
+    "data": "2021-03-14",
+    "estrazione": "2026-10-19",
+    "modelloNG": null,
+    "recordDastcom": null
+   },
+   "fisica": {
+    "raggi_km": {
+     "valore": [
+      1560.8,
+      1560.8,
+      1560.8
+     ],
+     "incertezza": [
+      0.3,
+      0.3,
+      0.3
+     ],
+     "fonte": "JPL \"Planetary Satellite Physical Parameters\" (https://ssd.jpl.nasa.gov/sats/phys_par/); raggio medio: B. A. Archinal, C. H. Acton, M. F. A’Hearn, et al. (2018) \"Report of the IAU Working Group on Cartographic Coordinates and Rotational Elements: 2015\". Celest. Mech. 130:22.",
+     "anno": 2018
+    },
+    "gm_km3s2": {
+     "valore": 3202.712099607295,
+     "incertezza": 0.00181,
+     "fonte": "costante GM del kernel jup365.bsp (soluzione JUP365, Jacobson (2021))",
+     "anno": 2021
+    },
+    "rotazione": {
+     "valore": 85.2283451893598,
+     "incertezza": null,
+     "fonte": "rotazione sincrona: periodo orbitale siderale medio del modello",
+     "anno": null
+    },
+    "albedo": null
+   },
+   "orientamento": {
+    "modello": "sincrono",
+    "coefficienti": null,
+    "convenzionePolo": "momento-angolare",
+    "indicativo": false
+   },
+   "epsModelloCostante": null
+  },
+  "ganimede": {
+   "effemeridi": {
+    "modello": "satellite",
+    "rF": [
+     0.9994937328305024,
+     0.028725366690573403,
+     -0.013679595792291624,
+     -0.0291909002021969,
+     0.9989558696486667,
+     -0.03514344661329514,
+     0.012655804120393424,
+     0.03552497435563104,
+     0.9992886504004227
+    ],
+    "frequenze": [
+     0.8911149464048573,
+     1.0034433616461451,
+     0.0014469976544922197,
+     0.01302763938295178,
+     0.013576240830632752,
+     0.5017216784541341
+    ],
+    "arcoOsservativo": {
+     "inizio": 1900.0,
+     "fine": 2020.0
+    },
+    "fonti": [
+     {
+      "tipo": "secolare",
+      "inizio": -1931200.5,
+      "fine": 2305273.875,
+      "descrizione": "estrapolazione secolare adattata su jup365.bsp",
+      "varianti": [],
+      "saltoGiunzioneKm": null,
+      "erroreRadialeKm": 1812.1
+     },
+     {
+      "tipo": "spk-satellitare",
+      "inizio": 2305273.875,
+      "fine": 2495760.5,
+      "descrizione": "jup365.bsp (JUP365)",
+      "varianti": [],
+      "saltoGiunzioneKm": 2625.081778978868,
+      "erroreRadialeKm": 927.1
+     }
+    ],
+    "centro": "pianeta",
+    "pianoSegueEquatore": true
+   },
+   "soluzione": {
+    "id": "JUP365 (jup365.bsp)",
+    "data": "2021-03-14",
+    "estrazione": "2026-10-19",
+    "modelloNG": null,
+    "recordDastcom": null
+   },
+   "fisica": {
+    "raggi_km": {
+     "valore": [
+      2631.2,
+      2631.2,
+      2631.2
+     ],
+     "incertezza": [
+      1.7,
+      1.7,
+      1.7
+     ],
+     "fonte": "JPL \"Planetary Satellite Physical Parameters\" (https://ssd.jpl.nasa.gov/sats/phys_par/); raggio medio: B. A. Archinal, C. H. Acton, M. F. A’Hearn, et al. (2018) \"Report of the IAU Working Group on Cartographic Coordinates and Rotational Elements: 2015\". Celest. Mech. 130:22.",
+     "anno": 2018
+    },
+    "gm_km3s2": {
+     "valore": 9887.832752719638,
+     "incertezza": 0.00247,
+     "fonte": "costante GM del kernel jup365.bsp (soluzione JUP365, Jacobson (2021))",
+     "anno": 2021
+    },
+    "rotazione": {
+     "valore": 171.7092773566332,
+     "incertezza": null,
+     "fonte": "rotazione sincrona: periodo orbitale siderale medio del modello",
+     "anno": null
+    },
+    "albedo": null
+   },
+   "orientamento": {
+    "modello": "sincrono",
+    "coefficienti": null,
+    "convenzionePolo": "momento-angolare",
+    "indicativo": false
+   },
+   "epsModelloCostante": null
+  },
+  "callisto": {
+   "effemeridi": {
+    "modello": "satellite",
+    "rF": [
+     0.9997593450163732,
+     0.019852472418012735,
+     -0.009334419710111948,
+     -0.020127223970922876,
+     0.9993374414172402,
+     -0.03032446268061856,
+     0.008726219551259896,
+     0.030505040903692684,
+     0.9994965210403722
+    ],
+    "frequenze": [
+     0.001445754814700718,
+     0.3736160326950356,
+     0.5017214397508227,
+     0.0011455932204728582,
+     0.3750184561081855,
+     0.7500708704849706
+    ],
+    "arcoOsservativo": {
+     "inizio": 1900.0,
+     "fine": 2020.0
+    },
+    "fonti": [
+     {
+      "tipo": "secolare",
+      "inizio": -1931200.5,
+      "fine": 2305273.875,
+      "descrizione": "estrapolazione secolare adattata su jup365.bsp",
+      "varianti": [],
+      "saltoGiunzioneKm": null,
+      "erroreRadialeKm": 727.0
+     },
+     {
+      "tipo": "spk-satellitare",
+      "inizio": 2305273.875,
+      "fine": 2495760.5,
+      "descrizione": "jup365.bsp (JUP365)",
+      "varianti": [],
+      "saltoGiunzioneKm": 1125.4200378892695,
+      "erroreRadialeKm": 420.3
+     }
+    ],
+    "centro": "pianeta",
+    "pianoSegueEquatore": true
+   },
+   "soluzione": {
+    "id": "JUP365 (jup365.bsp)",
+    "data": "2021-03-14",
+    "estrazione": "2026-10-19",
+    "modelloNG": null,
+    "recordDastcom": null
+   },
+   "fisica": {
+    "raggi_km": {
+     "valore": [
+      2410.3,
+      2410.3,
+      2410.3
+     ],
+     "incertezza": [
+      1.5,
+      1.5,
+      1.5
+     ],
+     "fonte": "JPL \"Planetary Satellite Physical Parameters\" (https://ssd.jpl.nasa.gov/sats/phys_par/); raggio medio: B. A. Archinal, C. H. Acton, M. F. A’Hearn, et al. (2018) \"Report of the IAU Working Group on Cartographic Coordinates and Rotational Elements: 2015\". Celest. Mech. 130:22.",
+     "anno": 2018
+    },
+    "gm_km3s2": {
+     "valore": 7179.283402579837,
+     "incertezza": 0.00324,
+     "fonte": "costante GM del kernel jup365.bsp (soluzione JUP365, Jacobson (2021))",
+     "anno": 2021
+    },
+    "rotazione": {
+     "valore": 400.5364157756296,
+     "incertezza": null,
+     "fonte": "rotazione sincrona: periodo orbitale siderale medio del modello",
+     "anno": null
+    },
+    "albedo": null
+   },
+   "orientamento": {
+    "modello": "sincrono",
+    "coefficienti": null,
+    "convenzionePolo": "momento-angolare",
+    "indicativo": false
+   },
+   "epsModelloCostante": null
+  },
+  "amaltea": {
+   "effemeridi": {
+    "modello": "satellite",
+    "rF": [
+     0.9994268154393983,
+     0.030554180199121588,
+     -0.014576784728553482,
+     -0.031059723127140643,
+     0.9988755890225441,
+     -0.03581691296204524,
+     0.013466038018970101,
+     0.03624913415827988,
+     0.999252053334316
+    ],
+    "frequenze": [
+     9.06075051103647,
+     18.121501022471264
+    ],
+    "arcoOsservativo": {
+     "inizio": 1900.0,
+     "fine": 2020.0
+    },
+    "fonti": [
+     {
+      "tipo": "secolare",
+      "inizio": -1931200.5,
+      "fine": 2305091.25,
+      "descrizione": "estrapolazione secolare adattata su jup365.bsp",
+      "varianti": [],
+      "saltoGiunzioneKm": null,
+      "erroreRadialeKm": 5.8
+     },
+     {
+      "tipo": "spk-satellitare",
+      "inizio": 2305091.25,
+      "fine": 2495760.5,
+      "descrizione": "jup365.bsp (JUP365)",
+      "varianti": [],
+      "saltoGiunzioneKm": 7.557729827322054,
+      "erroreRadialeKm": 5.9
+     }
+    ],
+    "centro": "pianeta",
+    "pianoSegueEquatore": true
+   },
+   "soluzione": {
+    "id": "JUP365 (jup365.bsp)",
+    "data": "2021-03-14",
+    "estrazione": "2026-10-19",
+    "modelloNG": null,
+    "recordDastcom": null
+   },
+   "fisica": {
+    "raggi_km": {
+     "valore": [
+      83.5,
+      83.5,
+      83.5
+     ],
+     "incertezza": [
+      3.0,
+      3.0,
+      3.0
+     ],
+     "fonte": "JPL \"Planetary Satellite Physical Parameters\" (https://ssd.jpl.nasa.gov/sats/phys_par/); raggio medio: B. A. Archinal, C. H. Acton, M. F. A’Hearn, et al. (2018) \"Report of the IAU Working Group on Cartographic Coordinates and Rotational Elements: 2015\". Celest. Mech. 130:22.",
+     "anno": 2018
+    },
+    "gm_km3s2": {
+     "valore": 0.1645634534798259,
+     "incertezza": 0.00867,
+     "fonte": "costante GM del kernel jup365.bsp (soluzione JUP365, Jacobson (2021))",
+     "anno": 2021
+    },
+    "rotazione": {
+     "valore": 11.956297708397388,
+     "incertezza": null,
+     "fonte": "rotazione sincrona: periodo orbitale siderale medio del modello",
+     "anno": null
+    },
+    "albedo": null
+   },
+   "orientamento": {
+    "modello": "sincrono",
+    "coefficienti": null,
+    "convenzionePolo": "momento-angolare",
+    "indicativo": false
+   },
+   "epsModelloCostante": null
+  },
+  "imalia": {
+   "effemeridi": {
+    "modello": "satellite",
+    "rF": [
+     0.9983744523732723,
+     -0.0523637641865968,
+     0.022505311563704847,
+     0.052292073827912185,
+     0.998624744997138,
+     0.0037626711492638916,
+     -0.02267138864615766,
+     -0.0025797053342976857,
+     0.999739642735669
+    ],
+    "frequenze": [
+     0.022239915819294777,
+     0.04725305438994243,
+     0.025510970366540188,
+     0.003015429032855265,
+     0.0014496201072774998,
+     0.025650126959476258
+    ],
+    "arcoOsservativo": {
+     "inizio": 1904.0,
+     "fine": 2020.0
+    },
+    "fonti": [
+     {
+      "tipo": "secolare",
+      "inizio": -1931200.5,
+      "fine": 2378412.45,
+      "descrizione": "estrapolazione secolare adattata su jup347.bsp",
+      "varianti": [],
+      "saltoGiunzioneKm": null,
+      "erroreRadialeKm": 578030.1
+     },
+     {
+      "tipo": "spk-satellitare",
+      "inizio": 2378412.45,
+      "fine": 2495760.5,
+      "descrizione": "jup347.bsp (JUP347)",
+      "varianti": [],
+      "saltoGiunzioneKm": 570662.2860447225,
+      "erroreRadialeKm": 92195.8
+     }
+    ],
+    "centro": "pianeta",
+    "pianoSegueEquatore": false
+   },
+   "soluzione": {
+    "id": "JUP347 (jup347.bsp)",
+    "data": "2025-05-15",
+    "estrazione": "2026-10-19",
+    "modelloNG": null,
+    "recordDastcom": null
+   },
+   "fisica": {
+    "raggi_km": {
+     "valore": [
+      85.0,
+      85.0,
+      85.0
+     ],
+     "incertezza": [
+      10.0,
+      10.0,
+      10.0
+     ],
+     "fonte": "JPL \"Planetary Satellite Physical Parameters\" (https://ssd.jpl.nasa.gov/sats/phys_par/); raggio medio: B. A. Archinal, C. H. Acton, M. F. A’Hearn, et al. (2018) \"Report of the IAU Working Group on Cartographic Coordinates and Rotational Elements: 2015\". Celest. Mech. 130:22.",
+     "anno": 2018
+    },
+    "gm_km3s2": {
+     "valore": 0.1515524299611265,
+     "incertezza": 0.05763,
+     "fonte": "costante GM del kernel jup347.bsp (soluzione JUP347, Jacobson (2025)); incertezza da JPL \"Planetary Satellite Physical Parameters\" (soluzione JUP344, stesso valore alle cifre pubblicate)",
+     "anno": 2025
+    },
+    "rotazione": {
+     "valore": 7.7819,
+     "incertezza": 0.0005,
+     "fonte": "Pilcher, Mottola, Denk (2012), Photometric lightcurve and rotation period of Himalia (Jupiter VI), Icarus 219, 741, doi:10.1016/j.icarus.2012.03.021 (periodo sinodico)",
+     "anno": 2012
+    },
+    "albedo": null
+   },
+   "orientamento": {
+    "modello": "fisso",
+    "coefficienti": null,
+    "convenzionePolo": "nord-IAU",
+    "indicativo": false
+   },
+   "epsModelloCostante": null
+  },
+  "mimas": {
+   "effemeridi": {
+    "modello": "satellite",
+    "rF": [
+     -0.6505222060660043,
+     -0.7546604615314717,
+     0.08548945675418364,
+     0.6968159140524038,
+     -0.5482747183657258,
+     0.46243098417417616,
+     -0.3021066721181975,
+     0.3603920379282685,
+     0.8825242986227504
+    ],
+    "frequenze": [
+     0.02791703097923213,
+     0.02816597365236105,
+     0.02767248660713608,
+     0.0024448273302494763,
+     6.677757469843917,
+     0.0278897305433142
+    ],
+    "arcoOsservativo": {
+     "inizio": 1900.0,
+     "fine": 2020.0
+    },
+    "fonti": [
+     {
+      "tipo": "secolare",
+      "inizio": -1931200.5,
+      "fine": 2005574.75,
+      "descrizione": "estrapolazione secolare adattata su sat441.bsp, sat441xl_part-1.bsp, sat441xl_part-2.bsp",
+      "varianti": [],
+      "saltoGiunzioneKm": null,
+      "erroreRadialeKm": 28055.9
+     },
+     {
+      "tipo": "spk-satellitare",
+      "inizio": 2005574.75,
+      "fine": 2360049.875,
+      "descrizione": "sat441xl_part-1.bsp (SAT441)",
+      "varianti": [],
+      "saltoGiunzioneKm": 87381.10913238395,
+      "erroreRadialeKm": 49.5
+     },
+     {
+      "tipo": "spk-satellitare",
+      "inizio": 2360049.875,
+      "fine": 2495760.5,
+      "descrizione": "sat441.bsp (SAT441)",
+      "varianti": [],
+      "saltoGiunzioneKm": 115.70795621085036,
+      "erroreRadialeKm": 48.9
+     }
+    ],
+    "centro": "pianeta",
+    "pianoSegueEquatore": true
+   },
+   "soluzione": {
+    "id": "SAT441 (sat441.bsp) + SAT441 (sat441xl_part-1.bsp) + SAT441 (sat441xl_part-2.bsp)",
+    "data": "2022-01-29",
+    "estrazione": "2026-10-19",
+    "modelloNG": null,
+    "recordDastcom": null
+   },
+   "fisica": {
+    "raggi_km": {
+     "valore": [
+      198.2,
+      198.2,
+      198.2
+     ],
+     "incertezza": [
+      0.4,
+      0.4,
+      0.4
+     ],
+     "fonte": "JPL \"Planetary Satellite Physical Parameters\" (https://ssd.jpl.nasa.gov/sats/phys_par/); raggio medio: B. A. Archinal, C. H. Acton, M. F. A’Hearn, et al. (2018) \"Report of the IAU Working Group on Cartographic Coordinates and Rotational Elements: 2015\". Celest. Mech. 130:22.",
+     "anno": 2018
+    },
+    "gm_km3s2": {
+     "valore": 2.503488768152587,
+     "incertezza": 0.00014,
+     "fonte": "costante GM del kernel sat441.bsp (soluzione SAT441, Jacobson (2022), AJ 164:199)",
+     "anno": 2022
+    },
+    "rotazione": {
+     "valore": 22.618128264146605,
+     "incertezza": null,
+     "fonte": "rotazione sincrona: periodo orbitale siderale medio del modello",
+     "anno": null
+    },
+    "albedo": null
+   },
+   "orientamento": {
+    "modello": "sincrono",
+    "coefficienti": null,
+    "convenzionePolo": "momento-angolare",
+    "indicativo": false
+   },
+   "epsModelloCostante": null
+  },
+  "encelado": {
+   "effemeridi": {
+    "modello": "satellite",
+    "rF": [
+     -0.6505188611848909,
+     -0.7546639746620285,
+     0.08548389667078686,
+     0.6968185426129204,
+     -0.5482752736111614,
+     0.4624263649678851,
+     -0.30210781173865403,
+     0.36038383661578854,
+     0.8825272575918359
+    ],
+    "frequenze": [
+     0.004429532187383408,
+     0.0032535504590898504,
+     0.0036497405974432887,
+     0.002498705263173524,
+     0.004961612777590496,
+     0.0023486095270830528
+    ],
+    "arcoOsservativo": {
+     "inizio": 1900.0,
+     "fine": 2020.0
+    },
+    "fonti": [
+     {
+      "tipo": "secolare",
+      "inizio": -1931200.5,
+      "fine": 1914262.25,
+      "descrizione": "estrapolazione secolare adattata su sat441.bsp, sat441xl_part-1.bsp, sat441xl_part-2.bsp",
+      "varianti": [],
+      "saltoGiunzioneKm": null,
+      "erroreRadialeKm": 130.8
+     },
+     {
+      "tipo": "spk-satellitare",
+      "inizio": 1914262.25,
+      "fine": 2360159.45,
+      "descrizione": "sat441xl_part-1.bsp (SAT441)",
+      "varianti": [],
+      "saltoGiunzioneKm": 1310.275787974501,
+      "erroreRadialeKm": 46.1
+     },
+     {
+      "tipo": "spk-satellitare",
+      "inizio": 2360159.45,
+      "fine": 2495760.5,
+      "descrizione": "sat441.bsp (SAT441)",
+      "varianti": [],
+      "saltoGiunzioneKm": 23.031533100455956,
+      "erroreRadialeKm": 25.7
+     }
+    ],
+    "centro": "pianeta",
+    "pianoSegueEquatore": true
+   },
+   "soluzione": {
+    "id": "SAT441 (sat441.bsp) + SAT441 (sat441xl_part-1.bsp) + SAT441 (sat441xl_part-2.bsp)",
+    "data": "2022-01-29",
+    "estrazione": "2026-10-19",
+    "modelloNG": null,
+    "recordDastcom": null
+   },
+   "fisica": {
+    "raggi_km": {
+     "valore": [
+      252.1,
+      252.1,
+      252.1
+     ],
+     "incertezza": [
+      0.2,
+      0.2,
+      0.2
+     ],
+     "fonte": "JPL \"Planetary Satellite Physical Parameters\" (https://ssd.jpl.nasa.gov/sats/phys_par/); raggio medio: B. A. Archinal, C. H. Acton, M. F. A’Hearn, et al. (2018) \"Report of the IAU Working Group on Cartographic Coordinates and Rotational Elements: 2015\". Celest. Mech. 130:22.",
+     "anno": 2018
+    },
+    "gm_km3s2": {
+     "valore": 7.210366688598896,
+     "incertezza": 9e-05,
+     "fonte": "costante GM del kernel sat441.bsp (soluzione SAT441, Jacobson (2022), AJ 164:199)",
+     "anno": 2022
+    },
+    "rotazione": {
+     "valore": 32.885234231076026,
+     "incertezza": null,
+     "fonte": "rotazione sincrona: periodo orbitale siderale medio del modello",
+     "anno": null
+    },
+    "albedo": null
+   },
+   "orientamento": {
+    "modello": "sincrono",
+    "coefficienti": null,
+    "convenzionePolo": "momento-angolare",
+    "indicativo": false
+   },
+   "epsModelloCostante": null
+  },
+  "teti": {
+   "effemeridi": {
+    "modello": "satellite",
+    "rF": [
+     -0.6503849594985679,
+     -0.7547784320480547,
+     0.08549223925670779,
+     0.6969237494395382,
+     -0.5481559979313543,
+     0.46240922287408676,
+     -0.30215342448031596,
+     0.36032557562149403,
+     0.882535431372507
+    ],
+    "frequenze": [
+     3.097766586346367,
+     0.02791705578813719,
+     3.3282817885088742,
+     0.028165904104470636,
+     0.02767245756189393,
+     2.065177722891919
+    ],
+    "arcoOsservativo": {
+     "inizio": 1900.0,
+     "fine": 2020.0
+    },
+    "fonti": [
+     {
+      "tipo": "secolare",
+      "inizio": -1931200.5,
+      "fine": 1826602.25,
+      "descrizione": "estrapolazione secolare adattata su sat441.bsp, sat441xl_part-1.bsp, sat441xl_part-2.bsp",
+      "varianti": [],
+      "saltoGiunzioneKm": null,
+      "erroreRadialeKm": 158.8
+     },
+     {
+      "tipo": "spk-satellitare",
+      "inizio": 1826602.25,
+      "fine": 2360049.875,
+      "descrizione": "sat441xl_part-1.bsp (SAT441)",
+      "varianti": [],
+      "saltoGiunzioneKm": 9326.17625499358,
+      "erroreRadialeKm": 39.4
+     },
+     {
+      "tipo": "spk-satellitare",
+      "inizio": 2360049.875,
+      "fine": 2495760.5,
+      "descrizione": "sat441.bsp (SAT441)",
+      "varianti": [],
+      "saltoGiunzioneKm": 24.097403806818654,
+      "erroreRadialeKm": 37.7
+     }
+    ],
+    "centro": "pianeta",
+    "pianoSegueEquatore": true
+   },
+   "soluzione": {
+    "id": "SAT441 (sat441.bsp) + SAT441 (sat441xl_part-1.bsp) + SAT441 (sat441xl_part-2.bsp)",
+    "data": "2022-01-29",
+    "estrazione": "2026-10-19",
+    "modelloNG": null,
+    "recordDastcom": null
+   },
+   "fisica": {
+    "raggi_km": {
+     "valore": [
+      531.1,
+      531.1,
+      531.1
+     ],
+     "incertezza": [
+      0.6,
+      0.6,
+      0.6
+     ],
+     "fonte": "JPL \"Planetary Satellite Physical Parameters\" (https://ssd.jpl.nasa.gov/sats/phys_par/); raggio medio: B. A. Archinal, C. H. Acton, M. F. A’Hearn, et al. (2018) \"Report of the IAU Working Group on Cartographic Coordinates and Rotational Elements: 2015\". Celest. Mech. 130:22.",
+     "anno": 2018
+    },
+    "gm_km3s2": {
+     "valore": 41.21352885489587,
+     "incertezza": 0.00031,
+     "fonte": "costante GM del kernel sat441.bsp (soluzione SAT441, Jacobson (2022), AJ 164:199)",
+     "anno": 2022
+    },
+    "rotazione": {
+     "valore": 45.307260590237334,
+     "incertezza": null,
+     "fonte": "rotazione sincrona: periodo orbitale siderale medio del modello",
+     "anno": null
+    },
+    "albedo": null
+   },
+   "orientamento": {
+    "modello": "sincrono",
+    "coefficienti": null,
+    "convenzionePolo": "momento-angolare",
+    "indicativo": false
+   },
+   "epsModelloCostante": null
+  },
+  "dione": {
+   "effemeridi": {
+    "modello": "satellite",
+    "rF": [
+     -0.6500551729503787,
+     -0.7550619645216531,
+     0.08549679440280342,
+     0.6971827033819665,
+     -0.5478720099388971,
+     0.4623554247876043,
+     -0.30226569475457526,
+     0.3601634218770906,
+     0.8825631758216059
+    ],
+    "frequenze": [
+     0.0044298327353875025,
+     2.2898165237807913,
+     1.8097279028707352,
+     2.0651776468953384,
+     0.003254898435195064,
+     2.7145917494717398
+    ],
+    "arcoOsservativo": {
+     "inizio": 1900.0,
+     "fine": 2020.0
+    },
+    "fonti": [
+     {
+      "tipo": "secolare",
+      "inizio": -1931200.5,
+      "fine": 2360159.45,
+      "descrizione": "estrapolazione secolare adattata su sat441.bsp",
+      "varianti": [],
+      "saltoGiunzioneKm": null,
+      "erroreRadialeKm": 96.9
+     },
+     {
+      "tipo": "spk-satellitare",
+      "inizio": 2360159.45,
+      "fine": 2495760.5,
+      "descrizione": "sat441.bsp (SAT441)",
+      "varianti": [],
+      "saltoGiunzioneKm": 37.48031080998897,
+      "erroreRadialeKm": 68.4
+     }
+    ],
+    "centro": "pianeta",
+    "pianoSegueEquatore": true
+   },
+   "soluzione": {
+    "id": "SAT441 (sat441.bsp)",
+    "data": "2022-01-29",
+    "estrazione": "2026-10-19",
+    "modelloNG": null,
+    "recordDastcom": null
+   },
+   "fisica": {
+    "raggi_km": {
+     "valore": [
+      561.4,
+      561.4,
+      561.4
+     ],
+     "incertezza": [
+      0.4,
+      0.4,
+      0.4
+     ],
+     "fonte": "JPL \"Planetary Satellite Physical Parameters\" (https://ssd.jpl.nasa.gov/sats/phys_par/); raggio medio: B. A. Archinal, C. H. Acton, M. F. A’Hearn, et al. (2018) \"Report of the IAU Working Group on Cartographic Coordinates and Rotational Elements: 2015\". Celest. Mech. 130:22.",
+     "anno": 2018
+    },
+    "gm_km3s2": {
+     "valore": 73.11607172482067,
+     "incertezza": 5e-05,
+     "fonte": "costante GM del kernel sat441.bsp (soluzione SAT441, Jacobson (2022), AJ 164:199)",
+     "anno": 2022
+    },
+    "rotazione": {
+     "valore": 65.68597376494688,
+     "incertezza": null,
+     "fonte": "rotazione sincrona: periodo orbitale siderale medio del modello",
+     "anno": null
+    },
+    "albedo": null
+   },
+   "orientamento": {
+    "modello": "sincrono",
+    "coefficienti": null,
+    "convenzionePolo": "momento-angolare",
+    "indicativo": false
+   },
+   "epsModelloCostante": null
+  },
+  "rea": {
+   "effemeridi": {
+    "modello": "satellite",
+    "rF": [
+     -0.6472032014374028,
+     -0.7574981648176403,
+     0.08558356353344729,
+     0.6994126590773317,
+     -0.5453858575014073,
+     0.46192661620633046,
+     -0.30323249887100245,
+     0.35881861258212566,
+     0.8827792786948989
+    ],
+    "frequenze": [
+     1.993622223214886,
+     0.9968110794964458,
+     0.0011727515048392421,
+     1.5996043256095898,
+     1.3895910363188737,
+     1.3892615762282912
+    ],
+    "arcoOsservativo": {
+     "inizio": 1900.0,
+     "fine": 2020.0
+    },
+    "fonti": [
+     {
+      "tipo": "secolare",
+      "inizio": -1931200.5,
+      "fine": 2359867.25,
+      "descrizione": "estrapolazione secolare adattata su sat441.bsp",
+      "varianti": [],
+      "saltoGiunzioneKm": null,
+      "erroreRadialeKm": 156.1
+     },
+     {
+      "tipo": "spk-satellitare",
+      "inizio": 2359867.25,
+      "fine": 2495760.5,
+      "descrizione": "sat441.bsp (SAT441)",
+      "varianti": [],
+      "saltoGiunzioneKm": 230.43191044986702,
+      "erroreRadialeKm": 133.3
+     }
+    ],
+    "centro": "pianeta",
+    "pianoSegueEquatore": true
+   },
+   "soluzione": {
+    "id": "SAT441 (sat441.bsp)",
+    "data": "2022-01-29",
+    "estrazione": "2026-10-19",
+    "modelloNG": null,
+    "recordDastcom": null
+   },
+   "fisica": {
+    "raggi_km": {
+     "valore": [
+      763.5,
+      763.5,
+      763.5
+     ],
+     "incertezza": [
+      0.6,
+      0.6,
+      0.6
+     ],
+     "fonte": "JPL \"Planetary Satellite Physical Parameters\" (https://ssd.jpl.nasa.gov/sats/phys_par/); raggio medio: B. A. Archinal, C. H. Acton, M. F. A’Hearn, et al. (2018) \"Report of the IAU Working Group on Cartographic Coordinates and Rotational Elements: 2015\". Celest. Mech. 130:22.",
+     "anno": 2018
+    },
+    "gm_km3s2": {
+     "valore": 153.9417519146563,
+     "incertezza": 0.00041,
+     "fonte": "costante GM del kernel sat441.bsp (soluzione SAT441, Jacobson (2022), AJ 164:199)",
+     "anno": 2022
+    },
+    "rotazione": {
+     "valore": 108.4200654040816,
+     "incertezza": null,
+     "fonte": "rotazione sincrona: periodo orbitale siderale medio del modello",
+     "anno": null
+    },
+    "albedo": null
+   },
+   "orientamento": {
+    "modello": "sincrono",
+    "coefficienti": null,
+    "convenzionePolo": "momento-angolare",
+    "indicativo": false
+   },
+   "epsModelloCostante": null
+  },
+  "titano": {
+   "effemeridi": {
+    "modello": "satellite",
+    "rF": [
+     -0.59645216543849,
+     -0.7982518461669226,
+     0.08389758300950095,
+     0.7364157150843847,
+     -0.5026584814148084,
+     0.4527983498628423,
+     -0.3192752870494213,
+     0.3318560548684605,
+     0.88765694382833
+    ],
+    "frequenze": [
+     0.0011681575533650684,
+     0.39287743860423663,
+     0.0017504083748329648,
+     0.39273700718040205,
+     0.0014095656281068144,
+     0.3924880268657919
+    ],
+    "arcoOsservativo": {
+     "inizio": 1900.0,
+     "fine": 2020.0
+    },
+    "fonti": [
+     {
+      "tipo": "secolare",
+      "inizio": -1931200.5,
+      "fine": 1537676.0,
+      "descrizione": "estrapolazione secolare adattata su sat441.bsp, sat441xl_part-1.bsp, sat441xl_part-2.bsp",
+      "varianti": [],
+      "saltoGiunzioneKm": null,
+      "erroreRadialeKm": 436.8
+     },
+     {
+      "tipo": "spk-satellitare",
+      "inizio": 1537676.0,
+      "fine": 2360159.45,
+      "descrizione": "sat441xl_part-1.bsp (SAT441)",
+      "varianti": [],
+      "saltoGiunzioneKm": 2268.570157525454,
+      "erroreRadialeKm": 145.6
+     },
+     {
+      "tipo": "spk-satellitare",
+      "inizio": 2360159.45,
+      "fine": 2495760.5,
+      "descrizione": "sat441.bsp (SAT441)",
+      "varianti": [],
+      "saltoGiunzioneKm": 208.7443577157773,
+      "erroreRadialeKm": 39.9
+     }
+    ],
+    "centro": "pianeta",
+    "pianoSegueEquatore": true
+   },
+   "soluzione": {
+    "id": "SAT441 (sat441.bsp) + SAT441 (sat441xl_part-1.bsp) + SAT441 (sat441xl_part-2.bsp)",
+    "data": "2022-01-29",
+    "estrazione": "2026-10-19",
+    "modelloNG": null,
+    "recordDastcom": null
+   },
+   "fisica": {
+    "raggi_km": {
+     "valore": [
+      2574.76,
+      2574.76,
+      2574.76
+     ],
+     "incertezza": [
+      0.02,
+      0.02,
+      0.02
+     ],
+     "fonte": "JPL \"Planetary Satellite Physical Parameters\" (https://ssd.jpl.nasa.gov/sats/phys_par/); raggio medio: B. A. Archinal, C. H. Acton, M. F. A’Hearn, et al. (2018) \"Report of the IAU Working Group on Cartographic Coordinates and Rotational Elements: 2015\". Celest. Mech. 130:22.",
+     "anno": 2018
+    },
+    "gm_km3s2": {
+     "valore": 8978.137095521046,
+     "incertezza": 0.00025,
+     "fonte": "costante GM del kernel sat441.bsp (soluzione SAT441, Jacobson (2022), AJ 164:199)",
+     "anno": 2022
+    },
+    "rotazione": {
+     "valore": 382.6907670166217,
+     "incertezza": null,
+     "fonte": "rotazione sincrona: periodo orbitale siderale medio del modello",
+     "anno": null
+    },
+    "albedo": null
+   },
+   "orientamento": {
+    "modello": "sincrono",
+    "coefficienti": null,
+    "convenzionePolo": "momento-angolare",
+    "indicativo": false
+   },
+   "epsModelloCostante": null
+  },
+  "iperione": {
+   "effemeridi": {
+    "modello": "satellite",
+    "rF": [
+     -0.6053252864978304,
+     -0.7913823494603788,
+     0.08541237901434838,
+     0.7302957218259956,
+     -0.5094849973866425,
+     0.4550749346213006,
+     -0.316621945242221,
+     0.33784466016277925,
+     0.8863472961489351
+    ],
+    "frequenze": [
+     0.00980989557806658,
+     0.2952835714308206,
+     0.28639075828600025,
+     0.3060099166551613,
+     0.5914842041572961,
+     0.1974675937231252
+    ],
+    "arcoOsservativo": {
+     "inizio": 1900.0,
+     "fine": 2020.0
+    },
+    "fonti": [
+     {
+      "tipo": "secolare",
+      "inizio": -1931200.5,
+      "fine": 1538333.45,
+      "descrizione": "estrapolazione secolare adattata su sat441.bsp, sat441xl_part-1.bsp, sat441xl_part-2.bsp",
+      "varianti": [],
+      "saltoGiunzioneKm": null,
+      "erroreRadialeKm": 77599.7
+     },
+     {
+      "tipo": "spk-satellitare",
+      "inizio": 1538333.45,
+      "fine": 2360159.45,
+      "descrizione": "sat441xl_part-1.bsp (SAT441)",
+      "varianti": [],
+      "saltoGiunzioneKm": 26577.503073711632,
+      "erroreRadialeKm": 11837.2
+     },
+     {
+      "tipo": "spk-satellitare",
+      "inizio": 2360159.45,
+      "fine": 2495760.5,
+      "descrizione": "sat441.bsp (SAT441)",
+      "varianti": [],
+      "saltoGiunzioneKm": 48432.70638133576,
+      "erroreRadialeKm": 11796.9
+     }
+    ],
+    "centro": "pianeta",
+    "pianoSegueEquatore": true
+   },
+   "soluzione": {
+    "id": "SAT441 (sat441.bsp) + SAT441 (sat441xl_part-1.bsp) + SAT441 (sat441xl_part-2.bsp)",
+    "data": "2022-01-29",
+    "estrazione": "2026-10-19",
+    "modelloNG": null,
+    "recordDastcom": null
+   },
+   "fisica": {
+    "raggi_km": {
+     "valore": [
+      135.0,
+      135.0,
+      135.0
+     ],
+     "incertezza": [
+      4.0,
+      4.0,
+      4.0
+     ],
+     "fonte": "JPL \"Planetary Satellite Physical Parameters\" (https://ssd.jpl.nasa.gov/sats/phys_par/); raggio medio: B. A. Archinal, C. H. Acton, M. F. A’Hearn, et al. (2018) \"Report of the IAU Working Group on Cartographic Coordinates and Rotational Elements: 2015\". Celest. Mech. 130:22.",
+     "anno": 2018
+    },
+    "gm_km3s2": {
+     "valore": 0.3704913747932265,
+     "incertezza": 5e-05,
+     "fonte": "costante GM del kernel sat441.bsp (soluzione SAT441, Jacobson (2022), AJ 164:199)",
+     "anno": 2022
+    },
+    "rotazione": null,
+    "albedo": null
+   },
+   "orientamento": {
+    "modello": "fisso",
+    "coefficienti": null,
+    "convenzionePolo": "nord-IAU",
+    "indicativo": true
+   },
+   "epsModelloCostante": null
+  },
+  "giapeto": {
+   "effemeridi": {
+    "modello": "satellite",
+    "rF": [
+     0.9533339147750737,
+     -0.2960155897852773,
+     0.05940721794283157,
+     0.2770043009219131,
+     0.9358364921894035,
+     0.217896023730115,
+     -0.12009606242668763,
+     -0.19127161444058308,
+     0.9741622581987551
+    ],
+    "frequenze": [
+     0.0005774052803719486,
+     0.07803806623201923,
+     0.0011704001079813542,
+     0.0019801634773500406,
+     0.07745924896045446,
+     0.15723513001237555
+    ],
+    "arcoOsservativo": {
+     "inizio": 1900.0,
+     "fine": 2020.0
+    },
+    "fonti": [
+     {
+      "tipo": "secolare",
+      "inizio": -1931200.5,
+      "fine": 1536580.25,
+      "descrizione": "estrapolazione secolare adattata su sat441.bsp, sat441xl_part-1.bsp, sat441xl_part-2.bsp",
+      "varianti": [],
+      "saltoGiunzioneKm": null,
+      "erroreRadialeKm": 23585.9
+     },
+     {
+      "tipo": "spk-satellitare",
+      "inizio": 1536580.25,
+      "fine": 2360159.45,
+      "descrizione": "sat441xl_part-1.bsp (SAT441)",
+      "varianti": [],
+      "saltoGiunzioneKm": 231003.57474215922,
+      "erroreRadialeKm": 2655.9
+     },
+     {
+      "tipo": "spk-satellitare",
+      "inizio": 2360159.45,
+      "fine": 2495760.5,
+      "descrizione": "sat441.bsp (SAT441)",
+      "varianti": [],
+      "saltoGiunzioneKm": 3010.2621201767442,
+      "erroreRadialeKm": 935.6
+     }
+    ],
+    "centro": "pianeta",
+    "pianoSegueEquatore": false
+   },
+   "soluzione": {
+    "id": "SAT441 (sat441.bsp) + SAT441 (sat441xl_part-1.bsp) + SAT441 (sat441xl_part-2.bsp)",
+    "data": "2022-01-29",
+    "estrazione": "2026-10-19",
+    "modelloNG": null,
+    "recordDastcom": null
+   },
+   "fisica": {
+    "raggi_km": {
+     "valore": [
+      734.3,
+      734.3,
+      734.3
+     ],
+     "incertezza": [
+      2.8,
+      2.8,
+      2.8
+     ],
+     "fonte": "JPL \"Planetary Satellite Physical Parameters\" (https://ssd.jpl.nasa.gov/sats/phys_par/); raggio medio: B. A. Archinal, C. H. Acton, M. F. A’Hearn, et al. (2018) \"Report of the IAU Working Group on Cartographic Coordinates and Rotational Elements: 2015\". Celest. Mech. 130:22.",
+     "anno": 2018
+    },
+    "gm_km3s2": {
+     "valore": 120.5151060137642,
+     "incertezza": 0.00242,
+     "fonte": "costante GM del kernel sat441.bsp (soluzione SAT441, Jacobson (2022), AJ 164:199)",
+     "anno": 2022
+    },
+    "rotazione": {
+     "valore": 1903.9239327912837,
+     "incertezza": null,
+     "fonte": "rotazione sincrona: periodo orbitale siderale medio del modello",
+     "anno": null
+    },
+    "albedo": null
+   },
+   "orientamento": {
+    "modello": "sincrono",
+    "coefficienti": null,
+    "convenzionePolo": "momento-angolare",
+    "indicativo": false
+   },
+   "epsModelloCostante": null
+  },
+  "febe": {
+   "effemeridi": {
+    "modello": "satellite",
+    "rF": [
+     0.9947953854707375,
+     -0.0941590119834165,
+     0.03893868909495582,
+     0.09348480884468431,
+     0.995443358225207,
+     0.018791250107299106,
+     -0.04053062498160662,
+     -0.015053272987263142,
+     0.9990648964962043
+    ],
+    "frequenze": [
+     0.012601460764298203,
+     0.000573870816728959,
+     0.0011864041580991755,
+     0.013184902051555326,
+     0.024006152471896476,
+     0.010828371061902004
+    ],
+    "arcoOsservativo": {
+     "inizio": 1900.0,
+     "fine": 2020.0
+    },
+    "fonti": [
+     {
+      "tipo": "secolare",
+      "inizio": -1931200.5,
+      "fine": 1538333.45,
+      "descrizione": "estrapolazione secolare adattata su sat441.bsp, sat441xl_part-1.bsp, sat441xl_part-2.bsp",
+      "varianti": [],
+      "saltoGiunzioneKm": null,
+      "erroreRadialeKm": 238953.1
+     },
+     {
+      "tipo": "spk-satellitare",
+      "inizio": 1538333.45,
+      "fine": 2360159.45,
+      "descrizione": "sat441xl_part-1.bsp (SAT441)",
+      "varianti": [],
+      "saltoGiunzioneKm": 336429.18617943773,
+      "erroreRadialeKm": 95647.4
+     },
+     {
+      "tipo": "spk-satellitare",
+      "inizio": 2360159.45,
+      "fine": 2495760.5,
+      "descrizione": "sat441.bsp (SAT441)",
+      "varianti": [],
+      "saltoGiunzioneKm": 158436.5688944672,
+      "erroreRadialeKm": 95311.4
+     }
+    ],
+    "centro": "pianeta",
+    "pianoSegueEquatore": false
+   },
+   "soluzione": {
+    "id": "SAT441 (sat441.bsp) + SAT441 (sat441xl_part-1.bsp) + SAT441 (sat441xl_part-2.bsp)",
+    "data": "2022-01-29",
+    "estrazione": "2026-10-19",
+    "modelloNG": null,
+    "recordDastcom": null
+   },
+   "fisica": {
+    "raggi_km": {
+     "valore": [
+      106.5,
+      106.5,
+      106.5
+     ],
+     "incertezza": [
+      0.7,
+      0.7,
+      0.7
+     ],
+     "fonte": "JPL \"Planetary Satellite Physical Parameters\" (https://ssd.jpl.nasa.gov/sats/phys_par/); raggio medio: B. A. Archinal, C. H. Acton, M. F. A’Hearn, et al. (2018) \"Report of the IAU Working Group on Cartographic Coordinates and Rotational Elements: 2015\". Celest. Mech. 130:22.",
+     "anno": 2018
+    },
+    "gm_km3s2": {
+     "valore": 0.5547860052791678,
+     "incertezza": 0.00108,
+     "fonte": "costante GM del kernel sat441.bsp (soluzione SAT441, Jacobson (2022), AJ 164:199)",
+     "anno": 2022
+    },
+    "rotazione": {
+     "valore": 9.27397844014688,
+     "incertezza": null,
+     "fonte": "Archinal et al. 2018 (WGCCRE 2015) con correzione 2019, da NAIF pck00011.tpc, da Ẇ",
+     "anno": 2018
+    },
+    "albedo": null,
+    "inclinazioneAssiale_gradi": {
+     "valore": 156.1374271395919,
+     "incertezza": null,
+     "fonte": "derivata dal polo WGCCRE (Archinal et al. 2018) e dall'orbita planetocentrica del modello a J2000",
+     "anno": null
+    }
+   },
+   "orientamento": {
+    "modello": "fisso",
+    "coefficienti": null,
+    "convenzionePolo": "nord-IAU",
+    "indicativo": false
+   },
+   "epsModelloCostante": null
+  },
+  "miranda": {
+   "effemeridi": {
+    "modello": "satellite",
+    "rF": [
+     -0.9755803848465087,
+     -0.05747885978046543,
+     0.21198842746969845,
+     0.20151823113109718,
+     0.14968000520332672,
+     0.9679805259219454,
+     -0.08736884584639817,
+     0.9870623469268138,
+     -0.1344418389296971
+    ],
+    "frequenze": [
+     0.002781233069149361,
+     0.00307361835383376,
+     0.00478648201022272,
+     0.0038047234150633174,
+     0.0023425231268470047,
+     0.006501474956896729
+    ],
+    "arcoOsservativo": {
+     "inizio": 1948.0,
+     "fine": 2020.0
+    },
+    "fonti": [
+     {
+      "tipo": "secolare",
+      "inizio": -1931200.5,
+      "fine": 1921572.75,
+      "descrizione": "estrapolazione secolare adattata su ura184_part-3.bsp, ura111xl-705.bsp",
+      "varianti": [],
+      "saltoGiunzioneKm": null,
+      "erroreRadialeKm": 91.1
+     },
+     {
+      "tipo": "spk-satellitare",
+      "inizio": 1921572.75,
+      "fine": 2305085.25,
+      "descrizione": "ura111xl-705.bsp (URA111)",
+      "varianti": [],
+      "saltoGiunzioneKm": 3931.5332858615325,
+      "erroreRadialeKm": 36.3
+     },
+     {
+      "tipo": "spk-satellitare",
+      "inizio": 2305085.25,
+      "fine": 2495760.5,
+      "descrizione": "ura184_part-3.bsp (URA182)",
+      "varianti": [],
+      "saltoGiunzioneKm": 12771.162398866216,
+      "erroreRadialeKm": 36.4
+     }
+    ],
+    "centro": "pianeta",
+    "pianoSegueEquatore": true
+   },
+   "soluzione": {
+    "id": "URA182 (ura184_part-3.bsp) + URA111 (ura111xl-705.bsp)",
+    "data": "2025-09-26",
+    "estrazione": "2026-10-19",
+    "modelloNG": null,
+    "recordDastcom": null
+   },
+   "fisica": {
+    "raggi_km": {
+     "valore": [
+      235.8,
+      235.8,
+      235.8
+     ],
+     "incertezza": [
+      0.7,
+      0.7,
+      0.7
+     ],
+     "fonte": "JPL \"Planetary Satellite Physical Parameters\" (https://ssd.jpl.nasa.gov/sats/phys_par/); raggio medio: B. A. Archinal, C. H. Acton, M. F. A’Hearn, et al. (2018) \"Report of the IAU Working Group on Cartographic Coordinates and Rotational Elements: 2015\". Celest. Mech. 130:22.",
+     "anno": 2018
+    },
+    "gm_km3s2": {
+     "valore": 4.10552724118156,
+     "incertezza": null,
+     "fonte": "costante GM del kernel ura184_part-3.bsp (soluzione URA182, Jacobson, Park (2025), AJ 169:65)",
+     "anno": 2025
+    },
+    "rotazione": {
+     "valore": 33.923505998885155,
+     "incertezza": null,
+     "fonte": "rotazione sincrona: periodo orbitale siderale medio del modello",
+     "anno": null
+    },
+    "albedo": null
+   },
+   "orientamento": {
+    "modello": "sincrono",
+    "coefficienti": null,
+    "convenzionePolo": "momento-angolare",
+    "indicativo": false
+   },
+   "epsModelloCostante": null
+  },
+  "ariel": {
+   "effemeridi": {
+    "modello": "satellite",
+    "rF": [
+     -0.9755901313599517,
+     -0.05745598446895349,
+     0.21194977103496862,
+     0.20147850848761953,
+     0.1497303932378629,
+     0.9679810018582179,
+     -0.08735162397274866,
+     0.9870560364992144,
+     -0.13449934795301133
+    ],
+    "frequenze": [
+     1.9536092299735803,
+     0.0027811455839235454,
+     0.0030736967845443443,
+     2.9304136752532672,
+     0.9768046139388833,
+     0.004786669566803309
+    ],
+    "arcoOsservativo": {
+     "inizio": 1900.0,
+     "fine": 2020.0
+    },
+    "fonti": [
+     {
+      "tipo": "secolare",
+      "inizio": -1931200.5,
+      "fine": 1735295.25,
+      "descrizione": "estrapolazione secolare adattata su ura184_part-3.bsp, ura111xl-701.bsp",
+      "varianti": [],
+      "saltoGiunzioneKm": null,
+      "erroreRadialeKm": 257.2
+     },
+     {
+      "tipo": "spk-satellitare",
+      "inizio": 1735295.25,
+      "fine": 2305267.875,
+      "descrizione": "ura111xl-701.bsp (URA111)",
+      "varianti": [],
+      "saltoGiunzioneKm": 1548.9863197693933,
+      "erroreRadialeKm": 81.8
+     },
+     {
+      "tipo": "spk-satellitare",
+      "inizio": 2305267.875,
+      "fine": 2495760.5,
+      "descrizione": "ura184_part-3.bsp (URA182)",
+      "varianti": [],
+      "saltoGiunzioneKm": 16343.268067143743,
+      "erroreRadialeKm": 57.6
+     }
+    ],
+    "centro": "pianeta",
+    "pianoSegueEquatore": true
+   },
+   "soluzione": {
+    "id": "URA182 (ura184_part-3.bsp) + URA111 (ura111xl-701.bsp)",
+    "data": "2025-09-26",
+    "estrazione": "2026-10-19",
+    "modelloNG": null,
+    "recordDastcom": null
+   },
+   "fisica": {
+    "raggi_km": {
+     "valore": [
+      578.9,
+      578.9,
+      578.9
+     ],
+     "incertezza": [
+      0.6,
+      0.6,
+      0.6
+     ],
+     "fonte": "JPL \"Planetary Satellite Physical Parameters\" (https://ssd.jpl.nasa.gov/sats/phys_par/); raggio medio: B. A. Archinal, C. H. Acton, M. F. A’Hearn, et al. (2018) \"Report of the IAU Working Group on Cartographic Coordinates and Rotational Elements: 2015\". Celest. Mech. 130:22.",
+     "anno": 2018
+    },
+    "gm_km3s2": {
+     "valore": 83.43074677282458,
+     "incertezza": null,
+     "fonte": "costante GM del kernel ura184_part-3.bsp (soluzione URA182, Jacobson, Park (2025), AJ 169:65)",
+     "anno": 2025
+    },
+    "rotazione": {
+     "valore": 60.48910070120828,
+     "incertezza": null,
+     "fonte": "rotazione sincrona: periodo orbitale siderale medio del modello",
+     "anno": null
+    },
+    "albedo": null
+   },
+   "orientamento": {
+    "modello": "sincrono",
+    "coefficienti": null,
+    "convenzionePolo": "momento-angolare",
+    "indicativo": false
+   },
+   "epsModelloCostante": null
+  },
+  "umbriel": {
+   "effemeridi": {
+    "modello": "satellite",
+    "rF": [
+     -0.9756579176286437,
+     -0.05730131885344663,
+     0.2116794430883508,
+     0.20120201255138653,
+     0.15006084955489885,
+     0.9679873406073726,
+     -0.0872317483133887,
+     0.9870148429930107,
+     -0.13487891531915563
+    ],
+    "frequenze": [
+     1.588859049687013,
+     0.0013650854349658414,
+     0.07284319585470792,
+     0.9768044886352829,
+     1.9536091401640023,
+     0.7944295668707845
+    ],
+    "arcoOsservativo": {
+     "inizio": 1900.0,
+     "fine": 2020.0
+    },
+    "fonti": [
+     {
+      "tipo": "secolare",
+      "inizio": -1931200.5,
+      "fine": 1541347.5,
+      "descrizione": "estrapolazione secolare adattata su ura184_part-3.bsp, ura111xl-702.bsp",
+      "varianti": [],
+      "saltoGiunzioneKm": null,
+      "erroreRadialeKm": 401.4
+     },
+     {
+      "tipo": "spk-satellitare",
+      "inizio": 1541347.5,
+      "fine": 2304720.0,
+      "descrizione": "ura111xl-702.bsp (URA111)",
+      "varianti": [],
+      "saltoGiunzioneKm": 309.10467134955456,
+      "erroreRadialeKm": 221.4
+     },
+     {
+      "tipo": "spk-satellitare",
+      "inizio": 2304720.0,
+      "fine": 2495760.5,
+      "descrizione": "ura184_part-3.bsp (URA182)",
+      "varianti": [],
+      "saltoGiunzioneKm": 707.6920548934976,
+      "erroreRadialeKm": 207.3
+     }
+    ],
+    "centro": "pianeta",
+    "pianoSegueEquatore": true
+   },
+   "soluzione": {
+    "id": "URA182 (ura184_part-3.bsp) + URA111 (ura111xl-702.bsp)",
+    "data": "2025-09-26",
+    "estrazione": "2026-10-19",
+    "modelloNG": null,
+    "recordDastcom": null
+   },
+   "fisica": {
+    "raggi_km": {
+     "valore": [
+      584.7,
+      584.7,
+      584.7
+     ],
+     "incertezza": [
+      2.8,
+      2.8,
+      2.8
+     ],
+     "fonte": "JPL \"Planetary Satellite Physical Parameters\" (https://ssd.jpl.nasa.gov/sats/phys_par/); raggio medio: B. A. Archinal, C. H. Acton, M. F. A’Hearn, et al. (2018) \"Report of the IAU Working Group on Cartographic Coordinates and Rotational Elements: 2015\". Celest. Mech. 130:22.",
+     "anno": 2018
+    },
+    "gm_km3s2": {
+     "valore": 85.40300422326412,
+     "incertezza": null,
+     "fonte": "costante GM del kernel ura184_part-3.bsp (soluzione URA182, Jacobson, Park (2025), AJ 169:65)",
+     "anno": 2025
+    },
+    "rotazione": {
+     "valore": 99.4602493984087,
+     "incertezza": null,
+     "fonte": "rotazione sincrona: periodo orbitale siderale medio del modello",
+     "anno": null
+    },
+    "albedo": null
+   },
+   "orientamento": {
+    "modello": "sincrono",
+    "coefficienti": null,
+    "convenzionePolo": "momento-angolare",
+    "indicativo": false
+   },
+   "epsModelloCostante": null
+  },
+  "titania": {
+   "effemeridi": {
+    "modello": "satellite",
+    "rF": [
+     -0.975835433026633,
+     -0.05689427984255607,
+     0.21096978117948673,
+     0.20047604005534642,
+     0.1509374584618178,
+     0.9680016740671549,
+     -0.08691700071591703,
+     0.9869047190860342,
+     -0.13588418021339105
+    ],
+    "frequenze": [
+     0.7650790185292764,
+     0.5100527145341969,
+     0.2550263931654425,
+     0.04348109769634546,
+     1.020105207065839,
+     0.7944298281498404
+    ],
+    "arcoOsservativo": {
+     "inizio": 1900.0,
+     "fine": 2020.0
+    },
+    "fonti": [
+     {
+      "tipo": "secolare",
+      "inizio": -1931200.5,
+      "fine": 1150530.0,
+      "descrizione": "estrapolazione secolare adattata su ura184_part-3.bsp, ura111xl-703.bsp",
+      "varianti": [],
+      "saltoGiunzioneKm": null,
+      "erroreRadialeKm": 1013.2
+     },
+     {
+      "tipo": "spk-satellitare",
+      "inizio": 1150530.0,
+      "fine": 2305085.25,
+      "descrizione": "ura111xl-703.bsp (URA111)",
+      "varianti": [],
+      "saltoGiunzioneKm": 756.3086601305148,
+      "erroreRadialeKm": 608.7
+     },
+     {
+      "tipo": "spk-satellitare",
+      "inizio": 2305085.25,
+      "fine": 2495760.5,
+      "descrizione": "ura184_part-3.bsp (URA182)",
+      "varianti": [],
+      "saltoGiunzioneKm": 3749.2041022935277,
+      "erroreRadialeKm": 549.0
+     }
+    ],
+    "centro": "pianeta",
+    "pianoSegueEquatore": true
+   },
+   "soluzione": {
+    "id": "URA182 (ura184_part-3.bsp) + URA111 (ura111xl-703.bsp)",
+    "data": "2025-09-26",
+    "estrazione": "2026-10-19",
+    "modelloNG": null,
+    "recordDastcom": null
+   },
+   "fisica": {
+    "raggi_km": {
+     "valore": [
+      788.9,
+      788.9,
+      788.9
+     ],
+     "incertezza": [
+      1.8,
+      1.8,
+      1.8
+     ],
+     "fonte": "JPL \"Planetary Satellite Physical Parameters\" (https://ssd.jpl.nasa.gov/sats/phys_par/); raggio medio: B. A. Archinal, C. H. Acton, M. F. A’Hearn, et al. (2018) \"Report of the IAU Working Group on Cartographic Coordinates and Rotational Elements: 2015\". Celest. Mech. 130:22.",
+     "anno": 2018
+    },
+    "gm_km3s2": {
+     "valore": 222.8006351879754,
+     "incertezza": null,
+     "fonte": "costante GM del kernel ura184_part-3.bsp (soluzione URA182, Jacobson, Park (2025), AJ 169:65)",
+     "anno": 2025
+    },
+    "rotazione": {
+     "valore": 208.94083580257904,
+     "incertezza": null,
+     "fonte": "rotazione sincrona: periodo orbitale siderale medio del modello",
+     "anno": null
+    },
+    "albedo": null
+   },
+   "orientamento": {
+    "modello": "sincrono",
+    "coefficienti": null,
+    "convenzionePolo": "momento-angolare",
+    "indicativo": false
+   },
+   "epsModelloCostante": null
+  },
+  "oberon": {
+   "effemeridi": {
+    "modello": "satellite",
+    "rF": [
+     -0.9755867339938115,
+     -0.057316729352179595,
+     0.21200310608964454,
+     0.20149235564121348,
+     0.15038508444697474,
+     0.9678766228161682,
+     -0.08735762744856806,
+     0.9869645986114421,
+     -0.13516481056218707
+    ],
+    "frequenze": [
+     0.5100553588496899,
+     0.4667256977176979,
+     0.5098948866535968,
+     0.4668952601025689,
+     0.5102267235871281,
+     0.25502640703931223
+    ],
+    "arcoOsservativo": {
+     "inizio": 1900.0,
+     "fine": 2020.0
+    },
+    "fonti": [
+     {
+      "tipo": "secolare",
+      "inizio": -1931200.5,
+      "fine": 843720.0,
+      "descrizione": "estrapolazione secolare adattata su ura184_part-3.bsp, ura111xl-704.bsp",
+      "varianti": [],
+      "saltoGiunzioneKm": null,
+      "erroreRadialeKm": 1105.2
+     },
+     {
+      "tipo": "spk-satellitare",
+      "inizio": 843720.0,
+      "fine": 2304720.0,
+      "descrizione": "ura111xl-704.bsp (URA111)",
+      "varianti": [],
+      "saltoGiunzioneKm": 456.72421775082984,
+      "erroreRadialeKm": 784.2
+     },
+     {
+      "tipo": "spk-satellitare",
+      "inizio": 2304720.0,
+      "fine": 2495760.5,
+      "descrizione": "ura184_part-3.bsp (URA182)",
+      "varianti": [],
+      "saltoGiunzioneKm": 1656.2606769860417,
+      "erroreRadialeKm": 713.8
+     }
+    ],
+    "centro": "pianeta",
+    "pianoSegueEquatore": true
+   },
+   "soluzione": {
+    "id": "URA182 (ura184_part-3.bsp) + URA111 (ura111xl-704.bsp)",
+    "data": "2025-09-26",
+    "estrazione": "2026-10-19",
+    "modelloNG": null,
+    "recordDastcom": null
+   },
+   "fisica": {
+    "raggi_km": {
+     "valore": [
+      761.4,
+      761.4,
+      761.4
+     ],
+     "incertezza": [
+      2.6,
+      2.6,
+      2.6
+     ],
+     "fonte": "JPL \"Planetary Satellite Physical Parameters\" (https://ssd.jpl.nasa.gov/sats/phys_par/); raggio medio: B. A. Archinal, C. H. Acton, M. F. A’Hearn, et al. (2018) \"Report of the IAU Working Group on Cartographic Coordinates and Rotational Elements: 2015\". Celest. Mech. 130:22.",
+     "anno": 2018
+    },
+    "gm_km3s2": {
+     "valore": 214.2098399407347,
+     "incertezza": null,
+     "fonte": "costante GM del kernel ura184_part-3.bsp (soluzione URA182, Jacobson, Park (2025), AJ 169:65)",
+     "anno": 2025
+    },
+    "rotazione": {
+     "valore": 323.11768319499265,
+     "incertezza": null,
+     "fonte": "rotazione sincrona: periodo orbitale siderale medio del modello",
+     "anno": null
+    },
+    "albedo": null
+   },
+   "orientamento": {
+    "modello": "sincrono",
+    "coefficienti": null,
+    "convenzionePolo": "momento-angolare",
+    "indicativo": false
+   },
+   "epsModelloCostante": null
+  },
+  "tritone": {
+   "effemeridi": {
+    "modello": "satellite",
+    "rF": [
+     0.8711159915884977,
+     -0.337213641050215,
+     0.3569928423490382,
+     0.45055462749994196,
+     0.8379861071209628,
+     -0.30786330068821616,
+     -0.19533933765930755,
+     0.4290294215574397,
+     0.8819162650733413
+    ],
+    "frequenze": [],
+    "arcoOsservativo": {
+     "inizio": 1900.0,
+     "fine": 2020.0
+    },
+    "fonti": [
+     {
+      "tipo": "secolare",
+      "inizio": -1931200.5,
+      "fine": 2304726.0,
+      "descrizione": "estrapolazione secolare adattata su nep098_part-1.bsp, nep097.bsp",
+      "varianti": [],
+      "saltoGiunzioneKm": null,
+      "erroreRadialeKm": 25.6
+     },
+     {
+      "tipo": "spk-satellitare",
+      "inizio": 2304726.0,
+      "fine": 2377766.0,
+      "descrizione": "nep097.bsp (NEP097)",
+      "varianti": [],
+      "saltoGiunzioneKm": 275.80785197217233,
+      "erroreRadialeKm": 0.5
+     },
+     {
+      "tipo": "spk-satellitare",
+      "inizio": 2377766.0,
+      "fine": 2495760.5,
+      "descrizione": "nep098_part-1.bsp (NEP098)",
+      "varianti": [],
+      "saltoGiunzioneKm": 1247.0863664817134,
+      "erroreRadialeKm": 0.3
+     }
+    ],
+    "centro": "pianeta",
+    "pianoSegueEquatore": false
+   },
+   "soluzione": {
+    "id": "NEP098 (nep098_part-1.bsp) + NEP097 (nep097.bsp)",
+    "data": "2026-07-13",
+    "estrazione": "2026-10-19",
+    "modelloNG": null,
+    "recordDastcom": null
+   },
+   "fisica": {
+    "raggi_km": {
+     "valore": [
+      1352.6,
+      1352.6,
+      1352.6
+     ],
+     "incertezza": [
+      2.4,
+      2.4,
+      2.4
+     ],
+     "fonte": "JPL \"Planetary Satellite Physical Parameters\" (https://ssd.jpl.nasa.gov/sats/phys_par/); raggio medio: B. A. Archinal, C. H. Acton, M. F. A’Hearn, et al. (2018) \"Report of the IAU Working Group on Cartographic Coordinates and Rotational Elements: 2015\". Celest. Mech. 130:22.",
+     "anno": 2018
+    },
+    "gm_km3s2": {
+     "valore": 1428.495462910464,
+     "incertezza": 0.61603,
+     "fonte": "costante GM del kernel nep098_part-1.bsp (soluzione NEP098, JPL SSD (2026)); incertezza da JPL \"Planetary Satellite Physical Parameters\" (soluzione NEP097, stesso valore alle cifre pubblicate)",
+     "anno": 2026
+    },
+    "rotazione": {
+     "valore": 141.04450242307374,
+     "incertezza": null,
+     "fonte": "rotazione sincrona: periodo orbitale siderale medio del modello",
+     "anno": null
+    },
+    "albedo": null
+   },
+   "orientamento": {
+    "modello": "sincrono",
+    "coefficienti": null,
+    "convenzionePolo": "momento-angolare",
+    "indicativo": false
+   },
+   "epsModelloCostante": null
+  },
+  "proteo": {
+   "effemeridi": {
+    "modello": "satellite",
+    "rF": [
+     0.8711410405604046,
+     -0.3370816653597094,
+     0.3570563517564982,
+     0.45051385761411006,
+     0.8379143550564145,
+     -0.30811815540153786,
+     -0.19532166175053034,
+     0.4292732049274887,
+     0.8818015445565367
+    ],
+    "frequenze": [
+     6.667557342826461,
+     4.529225289661971,
+     0.003071106068277237,
+     2.1383320503579935,
+     5.599710184958263,
+     13.335114687454043
+    ],
+    "arcoOsservativo": {
+     "inizio": 1989.0,
+     "fine": 2020.0
+    },
+    "fonti": [
+     {
+      "tipo": "secolare",
+      "inizio": -1931200.5,
+      "fine": 2378423.45,
+      "descrizione": "estrapolazione secolare adattata su nep098_part-3.bsp",
+      "varianti": [],
+      "saltoGiunzioneKm": null,
+      "erroreRadialeKm": 2.2
+     },
+     {
+      "tipo": "spk-satellitare",
+      "inizio": 2378423.45,
+      "fine": 2495760.5,
+      "descrizione": "nep098_part-3.bsp (NEP098)",
+      "varianti": [],
+      "saltoGiunzioneKm": 49.741866475902945,
+      "erroreRadialeKm": 2.2
+     }
+    ],
+    "centro": "pianeta",
+    "pianoSegueEquatore": false
+   },
+   "soluzione": {
+    "id": "NEP098 (nep098_part-3.bsp)",
+    "data": "2026-07-13",
+    "estrazione": "2026-10-19",
+    "modelloNG": null,
+    "recordDastcom": null
+   },
+   "fisica": {
+    "raggi_km": {
+     "valore": [
+      208.0,
+      208.0,
+      208.0
+     ],
+     "incertezza": [
+      8.0,
+      8.0,
+      8.0
+     ],
+     "fonte": "JPL \"Planetary Satellite Physical Parameters\" (https://ssd.jpl.nasa.gov/sats/phys_par/); raggio medio: B. A. Archinal, C. H. Acton, M. F. A’Hearn, et al. (2018) \"Report of the IAU Working Group on Cartographic Coordinates and Rotational Elements: 2015\". Celest. Mech. 130:22.",
+     "anno": 2018
+    },
+    "gm_km3s2": {
+     "valore": 2.583422379120727,
+     "incertezza": 2.4207,
+     "fonte": "costante GM del kernel nep098_part-3.bsp (soluzione NEP098, JPL SSD (2026)); incertezza da JPL \"Planetary Satellite Physical Parameters\" (soluzione NEP097, stesso valore alle cifre pubblicate)",
+     "anno": 2026
+    },
+    "rotazione": {
+     "valore": 26.935553778328533,
+     "incertezza": null,
+     "fonte": "rotazione sincrona: periodo orbitale siderale medio del modello",
+     "anno": null
+    },
+    "albedo": null
+   },
+   "orientamento": {
+    "modello": "sincrono",
+    "coefficienti": null,
+    "convenzionePolo": "momento-angolare",
+    "indicativo": false
+   },
+   "epsModelloCostante": null
+  },
+  "nereide": {
+   "effemeridi": {
+    "modello": "satellite",
+    "rF": [
+     0.9778220277266879,
+     -0.1924448240876959,
+     0.08263819803410742,
+     0.19215518373289028,
+     0.9812969417155429,
+     0.01151944201348172,
+     -0.08330946799162588,
+     0.004615393978696163,
+     0.9965130358813044
+    ],
+    "frequenze": [
+     0.016959317736560654,
+     0.03440586570825651,
+     0.05185203969356282,
+     0.016628444395380658,
+     0.016801280717978026,
+     0.03407658934517482
+    ],
+    "arcoOsservativo": {
+     "inizio": 1949.0,
+     "fine": 2020.0
+    },
+    "fonti": [
+     {
+      "tipo": "spk-satellitare",
+      "inizio": -1931200.5,
+      "fine": 2305267.875,
+      "descrizione": "nep101xl-802.bsp (NEP101)",
+      "varianti": [],
+      "saltoGiunzioneKm": null,
+      "erroreRadialeKm": 10913.4
+     },
+     {
+      "tipo": "spk-satellitare",
+      "inizio": 2305267.875,
+      "fine": 2495760.5,
+      "descrizione": "nep105.bsp (NEP105)",
+      "varianti": [],
+      "saltoGiunzioneKm": 12088.395164054715,
+      "erroreRadialeKm": 4866.3
+     }
+    ],
+    "centro": "pianeta",
+    "pianoSegueEquatore": false
+   },
+   "soluzione": {
+    "id": "NEP105 (nep105.bsp) + NEP101 (nep101xl-802.bsp)",
+    "data": "2024-09-28",
+    "estrazione": "2026-10-19",
+    "modelloNG": null,
+    "recordDastcom": null
+   },
+   "fisica": {
+    "raggi_km": {
+     "valore": [
+      170.0,
+      170.0,
+      170.0
+     ],
+     "incertezza": [
+      25.0,
+      25.0,
+      25.0
+     ],
+     "fonte": "JPL \"Planetary Satellite Physical Parameters\" (https://ssd.jpl.nasa.gov/sats/phys_par/); raggio medio: B. A. Archinal, C. H. Acton, M. F. A’Hearn, et al. (2018) \"Report of the IAU Working Group on Cartographic Coordinates and Rotational Elements: 2015\". Celest. Mech. 130:22.",
+     "anno": 2018
+    },
+    "gm_km3s2": null,
+    "rotazione": {
+     "valore": 11.594,
+     "incertezza": 0.017,
+     "fonte": "Kiss et al. (2016), Nereid from space, MNRAS 457, 2908, doi:10.1093/mnras/stw081 (curva di luce di K2)",
+     "anno": 2016
+    },
+    "albedo": null
+   },
+   "orientamento": {
+    "modello": "fisso",
+    "coefficienti": null,
+    "convenzionePolo": "nord-IAU",
+    "indicativo": false
+   },
+   "epsModelloCostante": null
+  },
+  "caronte": {
+   "effemeridi": {
+    "modello": "satellite",
+    "rF": [
+     -0.7312752193081137,
+     -0.07420672488662222,
+     -0.6780338602219446,
+     -0.6257984699134971,
+     0.46840966218110547,
+     0.6236735231106966,
+     0.271316841865366,
+     0.8803895446658734,
+     -0.38897483332886734
+    ],
+    "frequenze": [],
+    "arcoOsservativo": {
+     "inizio": 1978.0,
+     "fine": 2020.0
+    },
+    "fonti": [
+     {
+      "tipo": "secolare",
+      "inizio": -1931200.5,
+      "fine": 2377767.0,
+      "descrizione": "estrapolazione secolare adattata su plu060.bsp",
+      "varianti": [],
+      "saltoGiunzioneKm": null,
+      "erroreRadialeKm": 0.0
+     },
+     {
+      "tipo": "spk-satellitare",
+      "inizio": 2377767.0,
+      "fine": 2495760.5,
+      "descrizione": "plu060.bsp (PLU060)",
+      "varianti": [],
+      "saltoGiunzioneKm": 1.0745322215365412,
+      "erroreRadialeKm": 0.0
+     }
+    ],
+    "centro": "pianeta",
+    "pianoSegueEquatore": true
+   },
+   "soluzione": {
+    "id": "PLU060 (plu060.bsp)",
+    "data": "2024-04-03",
+    "estrazione": "2026-10-19",
+    "modelloNG": null,
+    "recordDastcom": null
+   },
+   "fisica": {
+    "raggi_km": {
+     "valore": [
+      606.0,
+      606.0,
+      606.0
+     ],
+     "incertezza": [
+      0.5,
+      0.5,
+      0.5
+     ],
+     "fonte": "JPL \"Planetary Satellite Physical Parameters\" (https://ssd.jpl.nasa.gov/sats/phys_par/); raggio medio: Francis Nimmo, Orkan Umurhan, Carey M. Lisse, Carver J. Bierson, Tod R. Lauer, Marc W. Buie, Henry B. Throop, Josh A. Kammer, James H. Roberts, William B. McKinnon, Amanda M. Zangari, Jeffrey M. Moore, S. Alan Stern, Leslie A. Young, Harold A. Weaver, Cathy B. Olkin, Kim Ennico (2017) \"Mean radius and shape of Pluto and Charon from New Horizons images\". Icarus 287:12-29.",
+     "anno": 2017
+    },
+    "gm_km3s2": {
+     "valore": 106.1011388236118,
+     "incertezza": 0.3,
+     "fonte": "costante GM del kernel plu060.bsp (soluzione PLU060, Brozović, Jacobson (2024), AJ 167:256)",
+     "anno": 2024
+    },
+    "rotazione": {
+     "valore": 153.29333059984157,
+     "incertezza": null,
+     "fonte": "rotazione sincrona: periodo orbitale siderale medio del modello",
+     "anno": null
+    },
+    "albedo": null
+   },
+   "orientamento": {
+    "modello": "sincrono",
+    "coefficienti": null,
+    "convenzionePolo": "momento-angolare",
+    "indicativo": false
+   },
+   "epsModelloCostante": null
+  },
+  "notte": {
+   "effemeridi": {
+    "modello": "satellite",
+    "rF": [
+     -0.7312562601861053,
+     -0.07419806413484831,
+     -0.6780552552832786,
+     -0.6258171185740761,
+     0.4683977698223129,
+     0.6236637421921564,
+     0.27132492704923356,
+     0.8803966018244986,
+     -0.38895322014042194
+    ],
+    "frequenze": [
+     0.7309152622582348,
+     0.2527966363489246,
+     0.26497182155433796,
+     0.01340273863109611,
+     0.17664459413910572,
+     0.4814276075077333
+    ],
+    "arcoOsservativo": {
+     "inizio": 2005.0,
+     "fine": 2020.0
+    },
+    "fonti": [
+     {
+      "tipo": "secolare",
+      "inizio": -1931200.5,
+      "fine": 2376671.25,
+      "descrizione": "estrapolazione secolare adattata su plu060.bsp",
+      "varianti": [],
+      "saltoGiunzioneKm": null,
+      "erroreRadialeKm": 152.4
+     },
+     {
+      "tipo": "spk-satellitare",
+      "inizio": 2376671.25,
+      "fine": 2495760.5,
+      "descrizione": "plu060.bsp (PLU060)",
+      "varianti": [],
+      "saltoGiunzioneKm": 56.68847591749297,
+      "erroreRadialeKm": 152.3
+     }
+    ],
+    "centro": "baricentro",
+    "pianoSegueEquatore": true
+   },
+   "soluzione": {
+    "id": "PLU060 (plu060.bsp)",
+    "data": "2024-04-03",
+    "estrazione": "2026-10-19",
+    "modelloNG": null,
+    "recordDastcom": null
+   },
+   "fisica": {
+    "raggi_km": {
+     "valore": [
+      18.0,
+      18.0,
+      18.0
+     ],
+     "incertezza": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "fonte": "JPL \"Planetary Satellite Physical Parameters\" (https://ssd.jpl.nasa.gov/sats/phys_par/); raggio medio: S. Alan Stern, William M. Grundy, William B. McKinnon, Harold A. Weaver, Leslie A. Young (2018) \"The Pluto System After New Horizons\". Annual Review of Astronomy and Astrophysics 56:357-392.",
+     "anno": 2018
+    },
+    "gm_km3s2": {
+     "valore": 0.001496176095836919,
+     "incertezza": 0.0005,
+     "fonte": "costante GM del kernel plu060.bsp (soluzione PLU060, Brozović, Jacobson (2024), AJ 167:256)",
+     "anno": 2024
+    },
+    "rotazione": {
+     "valore": 43.896,
+     "incertezza": 0.216,
+     "fonte": "Weaver et al. (2016), The small satellites of Pluto as observed by New Horizons, Science 351, aae0030, doi:10.1126/science.aae0030 (1,829 ± 0,009 d)",
+     "anno": 2016
+    },
+    "albedo": null
+   },
+   "orientamento": {
+    "modello": "fisso",
+    "coefficienti": null,
+    "convenzionePolo": "nord-IAU",
+    "indicativo": false
+   },
+   "epsModelloCostante": null
+  },
+  "idra": {
+   "effemeridi": {
+    "modello": "satellite",
+    "rF": [
+     -0.7312571373242867,
+     -0.07420363284958817,
+     -0.6780536999266451,
+     -0.6258162558222279,
+     0.4684030734562238,
+     0.6236606246392433,
+     0.2713245530005294,
+     0.8803933107700711,
+     -0.3889609302878323
+    ],
+    "frequenze": [
+     0.16447286896367064,
+     0.17664796124084725,
+     0.013400844633936496,
+     0.0004415721065488455,
+     0.000553270803727722,
+     0.08832401855253427
+    ],
+    "arcoOsservativo": {
+     "inizio": 2005.0,
+     "fine": 2020.0
+    },
+    "fonti": [
+     {
+      "tipo": "secolare",
+      "inizio": -1931200.5,
+      "fine": 2376671.25,
+      "descrizione": "estrapolazione secolare adattata su plu060.bsp",
+      "varianti": [],
+      "saltoGiunzioneKm": null,
+      "erroreRadialeKm": 36.9
+     },
+     {
+      "tipo": "spk-satellitare",
+      "inizio": 2376671.25,
+      "fine": 2495760.5,
+      "descrizione": "plu060.bsp (PLU060)",
+      "varianti": [],
+      "saltoGiunzioneKm": 4.799012064719586,
+      "erroreRadialeKm": 36.6
+     }
+    ],
+    "centro": "baricentro",
+    "pianoSegueEquatore": true
+   },
+   "soluzione": {
+    "id": "PLU060 (plu060.bsp)",
+    "data": "2024-04-03",
+    "estrazione": "2026-10-19",
+    "modelloNG": null,
+    "recordDastcom": null
+   },
+   "fisica": {
+    "raggi_km": {
+     "valore": [
+      18.5,
+      18.5,
+      18.5
+     ],
+     "incertezza": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "fonte": "JPL \"Planetary Satellite Physical Parameters\" (https://ssd.jpl.nasa.gov/sats/phys_par/); raggio medio: S. Alan Stern, William M. Grundy, William B. McKinnon, Harold A. Weaver, Leslie A. Young (2018) \"The Pluto System After New Horizons\". Annual Review of Astronomy and Astrophysics 56:357-392.",
+     "anno": 2018
+    },
+    "gm_km3s2": {
+     "valore": 0.002007962473606101,
+     "incertezza": 0.0003,
+     "fonte": "costante GM del kernel plu060.bsp (soluzione PLU060, Brozović, Jacobson (2024), AJ 167:256)",
+     "anno": 2024
+    },
+    "rotazione": {
+     "valore": 10.308,
+     "incertezza": 0.0192,
+     "fonte": "Weaver et al. (2016), The small satellites of Pluto as observed by New Horizons, Science 351, aae0030, doi:10.1126/science.aae0030 (0,4295 ± 0,0008 d)",
+     "anno": 2016
+    },
+    "albedo": null
+   },
+   "orientamento": {
+    "modello": "fisso",
+    "coefficienti": null,
+    "convenzionePolo": "nord-IAU",
+    "indicativo": false
+   },
+   "epsModelloCostante": null
+  },
+  "disnomia": {
+   "effemeridi": {
+    "modello": "satellite",
+    "rF": [
+     -0.59018306324889,
+     -0.5659231154991288,
+     0.5756865285881861,
+     0.7406552322161127,
+     -0.09593134328618935,
+     0.6650015070405505,
+     -0.32111334267677616,
+     0.8188578660054912,
+     0.47577097056869727
+    ],
+    "frequenze": [],
+    "arcoOsservativo": {
+     "inizio": 2005.92,
+     "fine": 2018.09
+    },
+    "fonti": [
+     {
+      "tipo": "kepleriana",
+      "inizio": -1931200.5,
+      "fine": 2495760.5,
+      "descrizione": "orbita kepleriana di Holler et al. (2021)",
+      "varianti": [],
+      "saltoGiunzioneKm": null,
+      "erroreRadialeKm": null
+     }
+    ],
+    "centro": "pianeta",
+    "pianoSegueEquatore": false
+   },
+   "soluzione": {
+    "id": "Holler et al. 2021",
+    "data": "2021-02-01",
+    "estrazione": "2026-10-19",
+    "modelloNG": null,
+    "recordDastcom": null
+   },
+   "fisica": {
+    "raggi_km": {
+     "valore": [
+      307.5,
+      307.5,
+      307.5
+     ],
+     "incertezza": [
+      30.0,
+      30.0,
+      30.0
+     ],
+     "fonte": "Brown, M. E., Butler, B. J. (2023), Masses and densities of dwarf planet satellites measured with ALMA, The Planetary Science Journal 4:193, doi:10.3847/PSJ/ace52a (diametro 615 +60/-50 km)",
+     "anno": 2023
+    },
+    "gm_km3s2": null,
+    "rotazione": null,
+    "albedo": null
+   },
+   "orientamento": {
+    "modello": "fisso",
+    "coefficienti": null,
+    "convenzionePolo": "nord-IAU",
+    "indicativo": false
+   },
+   "epsModelloCostante": null
+  }
+ }
+}

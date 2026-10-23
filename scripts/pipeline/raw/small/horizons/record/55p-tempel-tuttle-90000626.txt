@@ -1,0 +1,30 @@
+API VERSION: 1.2
+API SOURCE: NASA/JPL Horizons API
+
+*******************************************************************************
+JPL/HORIZONS                  55P/Tempel-Tuttle            2026-Oct-18 15:49:15
+Rec #:90000626 (+COV) Soln.date: 2002-Jan-03_16:05:39    # obs: 392 (1865-1998)
+ 
+IAU76/J2000 helio. ecliptic osc. elements (au, days, deg., period=Julian yrs):
+ 
+  EPOCH=  2451040.5 ! 1998-Aug-15.0000000 (TDB)    RMSW= n.a.
+   EC= .9055527209724122   QR= .9764279154675056   TP= 2450872.5977341123
+   OM= 235.270989149082    W= 172.5002736828059    IN= 162.4865753794343
+   A= 10.33833822975773    MA= 4.978339684690188   ADIST= 19.70024854404794
+   PER= 33.2417827584625   N= .029650223           ANGMOM= .023464539
+   DAN= 18.20692           DDN= .98041             L= 62.4267664
+   B= 2.2510269            MOID= .00848081         TP= 1998-Feb-28.0977341123
+ 
+Comet physical (GM= km^3/s^2; RAD= km):
+   GM= n.a.                RAD= 1.8
+   M1=  10.      M2=  16.      k1=  25.    k2=  10.     PHCOF= n.a.
+Comet non-gravitational force model (AMRAT=m^2/kg;A1-A3=au/d^2;DT=days;R0=au):
+   AMRAT=  0.                                      DT=  0.
+   A1= 1.580981463194E-9   A2= 9.186415933073E-11  A3= 0.
+ Non-standard or simulated/proxy model:
+   ALN=  .1112620426   NK=  4.6142   NM=  2.15     NN=  5.093    R0=  2.808
+
+COMET comments 
+1: soln ref.= JPL#J985/69, data arc: 1865-12-22 to 1998-07-05
+2: k1=25.0, k2=10.0;
+*******************************************************************************

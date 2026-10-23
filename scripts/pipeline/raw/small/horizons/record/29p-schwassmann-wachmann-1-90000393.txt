@@ -1,0 +1,25 @@
+API VERSION: 1.2
+API SOURCE: NASA/JPL Horizons API
+
+*******************************************************************************
+JPL/HORIZONS             29P/Schwassmann-Wachmann 1        2026-Oct-18 15:47:44
+Rec #:90000393                  Soln.date: -            # obs: 1941 (1902-2001)
+ 
+IAU76/J2000 helio. ecliptic osc. elements (au, days, deg., period=Julian yrs):
+ 
+  EPOCH=  2435960.5 ! 1957-May-02.0000000 (TDB)    RMSW= n.a.
+   EC= .131499             QR= 5.537675            TP= 2435971.3560000001
+   OM= 322.328             W= 355.8055             IN= 9.4925
+   A= 6.376129676304346    MA= 359.3354338799065   ADIST= 7.214584352608691
+   PER= 16.1006687053247   N= .061216481           ANGMOM= .043059825
+   DAN= 5.5394             DDN= 7.21166            L= 318.1907336
+   B= -.6911497                                    TP= 1957-May-12.8560000001
+ 
+Comet physical (GM= km^3/s^2; RAD= km):
+   GM= n.a.                RAD= 30.2
+   M1=  10.1     M2=  n.a.     k1=  4.5    k2= n.a.     PHCOF= n.a.
+
+COMET comments 
+1: soln ref.= SAO/1957
+2: k1=4.5;2008 SAO Comet Catalog
+*******************************************************************************

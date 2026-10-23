@@ -1,0 +1,29 @@
+{
+ "formato": 1,
+ "file": {
+  "jpl-phys_par.html": {
+   "url": "https://ssd.jpl.nasa.gov/planets/phys_par.html",
+   "estrazione": "2026-10-19",
+   "byte": 58244,
+   "sha256": "e49a487947295c389ba6e5833dd8fb04b63e826d39f70c123881882096e5e68b"
+  },
+  "pck00011.tpc": {
+   "url": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/pck00011.tpc",
+   "estrazione": "2026-10-19",
+   "byte": 131226,
+   "sha256": "3dff7b1dbeceaa01f25467767d3fa25816051c85d162d1edf04acb310ee28bb1"
+  },
+  "pds-saturn_tables.html": {
+   "url": "https://pds-rings.seti.org/saturn/saturn_tables.html",
+   "estrazione": "2026-10-19",
+   "byte": 44980,
+   "sha256": "2dea8fcda149c94324353ccfb47e3df27f5dfef00ba8d62ab738a917378fc64c"
+  },
+  "pds-uranus_tables.html": {
+   "url": "https://pds-rings.seti.org/uranus/uranus_tables.html",
+   "estrazione": "2026-10-19",
+   "byte": 17789,
+   "sha256": "5ff82c5742e00732113bf0be6a7f0129caff1c3c9949f6128f1e78ec81e21146"
+  }
+ }
+}

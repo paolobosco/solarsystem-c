@@ -1,0 +1,249 @@
+API VERSION: 1.2
+API SOURCE: NASA/JPL Horizons API
+
+*******************************************************************************
+JPL/HORIZONS              136199 Eris (2003 UB313)         2026-Oct-18 19:22:14
+Rec #:  136199 (+COV) Soln.date: 2026-Jun-06_21:06:42   # obs: 4064 (1954-2026)
+ 
+IAU76/J2000 helio. ecliptic osc. elements (au, days, deg., period=Julian yrs):
+ 
+  EPOCH=  2458430.5 ! 2018-Nov-08.00 (TDB)         Residual RMS= .1807
+   EC= .43980550838359     QR= 37.92836976130601   TP= 2545928.9445556137
+   OM= 35.89262158480285   W=  151.663880762629    IN= 44.1711725363427
+   A= 67.7057170838396     MA= 205.2016264101805   ADIST= 97.48306440637319
+   PER= 557.11675          N= .001769156           ANGMOM= .127120457
+   DAN= 89.10120000000001  DDN= 39.36932           L= 194.7467064
+   B= 19.3132963           MOID= 36.98189926       TP= 2258-Jun-01.4445556137
+ 
+Asteroid physical parameters (km, seconds, rotational period in hours):
+   GM= n.a.                RAD= n.a.               ROTPER= 25.9
+   H= -1.26                G= .150                 B-V= n.a.
+                           ALBEDO= n.a.            STYP= n.a.
+
+ASTEROID comments: 
+1: soln ref.= JPL#103, OCC=3
+2: source=ORB
+*******************************************************************************
+
+
+*******************************************************************************
+Ephemeris / API_USER Sun Oct 18 19:22:14 2026 Pasadena, USA      / Horizons
+*******************************************************************************
+Target body name: 136199 Eris (2003 UB313)        {source: JPL#103}
+Center body name: Sun (10)                        {source: DE441}
+Center-site name: BODY CENTER
+*******************************************************************************
+Start time      : A.D. 1601-Aug-27 00:20:18.2400 TDB
+Stop  time      : A.D. 1996-Dec-18 06:16:59.5200 TDB
+Step-size       : DISCRETE TIME-LIST
+*******************************************************************************
+Center geodetic : 0.0, 0.0, 0.0                   {E-lon(deg),Lat(deg),Alt(km)}
+Center cylindric: 0.0, 0.0, 0.0                   {E-lon(deg),Dxy(km),Dz(km)}
+Center radii    : 695700.0, 695700.0, 695700.0 km {Equator_a, b, pole_c}
+Small perturbers: Yes                             {source: SB441-N16}
+Output units    : KM-S
+Calendar mode   : Mixed Julian/Gregorian
+Output type     : GEOMETRIC cartesian states
+Output format   : 2 (position and velocity)
+Reference frame : Ecliptic of J2000.0
+*******************************************************************************
+Initial IAU76/J2000 heliocentric ecliptic osculating elements (au, days, deg.):
+  EPOCH=  2458430.5 ! 2018-Nov-08.00 (TDB)         Residual RMS= .1807         
+   EC= .43980550838359     QR= 37.92836976130601   TP= 2545928.9445556137      
+   OM= 35.89262158480285   W=  151.663880762629    IN= 44.1711725363427        
+  Equivalent ICRF heliocentric cartesian coordinates (au, au/d):
+   X= 8.634297987093606E+01  Y= 4.202585477484131E+01  Z=-3.497352083322539E+00
+  VX=-3.880544523148205E-04 VY= 4.493990416442214E-04 VZ= 1.198281203968504E-03
+Asteroid physical parameters (km, seconds, rotational period in hours):        
+   GM= n.a.                RAD= n.a.               ROTPER= 25.9                
+   H= -1.26                G= .150                 B-V= n.a.                   
+                           ALBEDO= n.a.            STYP= n.a.                  
+*******************************************************************************
+JDTDB
+   X     Y     Z
+   VX    VY    VZ
+*******************************************************************************
+$$SOE
+2306051.514100000 = A.D. 1601-Aug-27 00:20:18.2400 TDB 
+ X = 3.928912847133095E+09 Y = 8.194301202104940E+09 Z = 4.172520197338077E+09
+ VX=-3.349321844644561E+00 VY=-9.610232084482457E-01 VZ= 1.161282428329869E+00
+2308719.805200000 = A.D. 1608-Dec-16 07:19:29.2800 TDB 
+ X = 3.144390458999303E+09 Y = 7.946679860756186E+09 Z = 4.424564037311802E+09
+ VX=-3.474662559117530E+00 VY=-1.199281252835559E+00 VZ= 1.021719975170975E+00
+2308987.260900000 = A.D. 1609-Sep-09 18:15:41.7600 TDB 
+ X = 3.063939770822526E+09 Y = 7.918600108785971E+09 Z = 4.447997913566723E+09
+ VX=-3.488071411356868E+00 VY=-1.230932701169797E+00 VZ= 1.006421550310125E+00
+2309540.685600000 = A.D. 1611-Mar-17 04:27:15.8400 TDB 
+ X = 2.896614045456928E+09 Y = 7.858130639771147E+09 Z = 4.495345356044497E+09
+ VX=-3.509235303928504E+00 VY=-1.298252426021995E+00 VZ= 9.737613277076009E-01
+2309668.631100000 = A.D. 1611-Jul-23 03:08:47.0400 TDB 
+ X = 2.857800872683601E+09 Y = 7.843696687237619E+09 Z = 4.506067081729322E+09
+ VX=-3.513034760260419E+00 VY=-1.313161927308440E+00 VZ= 9.660281856437701E-01
+2312923.785400000 = A.D. 1620-Jun-20 06:50:58.5600 TDB 
+ X = 1.856552661664121E+09 Y = 7.426182282097569E+09 Z = 4.747914674862341E+09
+ VX=-3.626018799382893E+00 VY=-1.659637139479088E+00 VZ= 7.467544976111989E-01
+2315045.070600000 = A.D. 1626-Apr-11 13:41:39.8400 TDB 
+ X = 1.187185974351054E+09 Y = 7.095812281766949E+09 Z = 4.869610910860834E+09
+ VX=-3.662975099486097E+00 VY=-1.938254959807092E+00 VZ= 5.771388755826661E-01
+2315173.368800000 = A.D. 1626-Aug-17 20:51:04.3200 TDB 
+ X = 1.146578403492063E+09 Y = 7.074244327266119E+09 Z = 4.875947393960337E+09
+ VX=-3.663585939491658E+00 VY=-1.953033987678089E+00 VZ= 5.660975634512851E-01
+2334139.386500000 = A.D. 1678-Jul-21 21:16:33.6000 TDB 
+ X =-4.370119720719675E+09 Y = 1.729443597616947E+09 Z = 3.830327351002382E+09
+ VX=-2.292069956731673E+00 VY=-4.512071869661703E+00 VZ=-2.237367672835531E+00
+2347488.722900000 = A.D. 1715-Feb-08 05:20:58.5600 TDB 
+ X =-4.808612879196274E+09 Y =-3.439904618800045E+09 Z = 3.966255304672146E+07
+ VX= 1.629060895713492E+00 VY=-3.758631317243073E+00 VZ=-3.871043731361071E+00
+2349154.341400000 = A.D. 1719-Aug-31 20:11:36.9600 TDB 
+ X =-4.543632747884071E+09 Y =-3.959039188550056E+09 Z =-5.164695869559288E+08
+ VX= 2.054893429585580E+00 VY=-3.449111534010913E+00 VZ=-3.850056263531579E+00
+2350416.715400000 = A.D. 1723-Feb-14 05:10:10.5600 TDB 
+ X =-4.302826099642781E+09 Y =-4.320471905811708E+09 Z =-9.341219631311750E+08
+ VX= 2.352073563745343E+00 VY=-3.172663179795546E+00 VZ=-3.804398162355689E+00
+2358640.944100000 = A.D. 1745-Aug-21 10:39:30.2400 TDB 
+ X =-2.182332198356848E+09 Y =-5.963448889613167E+09 Z =-3.421330228882540E+09
+ VX= 3.444290754733099E+00 VY=-1.506497838444899E+00 VZ=-3.117564541375542E+00
+2366990.988100000 = A.D. 1768-Jul-01 11:42:51.8400 TDB 
+ X = 4.055264531572616E+08 Y =-6.553470940031322E+09 Z =-5.350651258824988E+09
+ VX= 3.639490764989701E+00 VY=-2.342438751911952E-01 VZ=-2.237176810204620E+00
+2371780.888700000 = A.D. 1781-Aug-12 09:19:43.6800 TDB 
+ X = 1.895633385240112E+09 Y =-6.533812129526805E+09 Z =-6.179368587646848E+09
+ VX= 3.560294736470051E+00 VY= 2.964677260921342E-01 VZ=-1.775857596348128E+00
+2380420.728300000 = A.D. 1805-Apr-09 05:28:45.1200 TDB 
+ X = 4.429323017083186E+09 Y =-6.038645387571325E+09 Z =-7.229718729399139E+09
+ VX= 3.229891845378090E+00 VY= 9.652833814136779E-01 VZ=-1.064566019058151E+00
+2382379.054100000 = A.D. 1810-Aug-19 13:17:54.2400 TDB 
+ X = 4.967449680713704E+09 Y =-5.863169127582639E+09 Z =-7.397848338677178E+09
+ VX= 3.121246265405031E+00 VY= 1.095868706456538E+00 VZ=-9.237178734336264E-01
+2383717.351400000 = A.D. 1814-Apr-18 20:26:00.9600 TDB 
+ X = 5.324630621132979E+09 Y =-5.733442659541061E+09 Z =-7.499298000903316E+09
+ VX= 3.063244732024538E+00 VY= 1.149618156384561E+00 VZ=-8.317141599825966E-01
+2388003.147700000 = A.D. 1826-Jan-11 15:32:41.2800 TDB 
+ X = 6.420617387569947E+09 Y =-5.265007869542779E+09 Z =-7.755517702834089E+09
+ VX= 2.846090402568964E+00 VY= 1.347763118123844E+00 VZ=-5.567947759134376E-01
+2395561.701800000 = A.D. 1846-Sep-22 04:50:35.5200 TDB 
+ X = 8.159737301494808E+09 Y =-4.288755333769659E+09 Z =-7.978356879937959E+09
+ VX= 2.455958580517278E+00 VY= 1.622057660532956E+00 VZ=-1.379283203301775E-01
+2400407.140200000 = A.D. 1859-Dec-28 15:21:53.2800 TDB 
+ X = 9.138525943505358E+09 Y =-3.587371090935709E+09 Z =-7.986718201504549E+09
+ VX= 2.201663206308237E+00 VY= 1.722584426545782E+00 VZ= 9.407541071115688E-02
+2404090.785100000 = A.D. 1870-Jan-28 06:50:32.6400 TDB 
+ X = 9.814191958463852E+09 Y =-3.026986271133706E+09 Z =-7.931111943111780E+09
+ VX= 2.016903358432232E+00 VY= 1.802251903380655E+00 VZ= 2.537580362504616E-01
+2404465.606600000 = A.D. 1871-Feb-07 02:33:30.2400 TDB 
+ X = 9.879154199562769E+09 Y =-2.968620405246372E+09 Z =-7.922640690971393E+09
+ VX= 1.995451322064215E+00 VY= 1.802034366097320E+00 VZ= 2.693789526587992E-01
+2404952.711200000 = A.D. 1872-Jun-08 05:04:07.6800 TDB 
+ X = 9.962643163271521E+09 Y =-2.892790859826823E+09 Z =-7.910881657562865E+09
+ VX= 1.972963274798853E+00 VY= 1.801962655699268E+00 VZ= 2.893812811184795E-01
+2416951.541800000 = A.D. 1905-Apr-16 01:00:11.5200 TDB 
+ X = 1.169892926179007E+10 Y =-9.498673321595755E+08 Z =-7.377062563792827E+09
+ VX= 1.361901947389957E+00 VY= 1.930424584698184E+00 VZ= 7.225650418821181E-01
+2421158.419200000 = A.D. 1916-Oct-21 22:03:38.8800 TDB 
+ X = 1.215766906667184E+10 Y =-2.497021377900949E+08 Z =-7.090809855711311E+09
+ VX= 1.148307923110504E+00 VY= 1.939469203864985E+00 VZ= 8.509425235953654E-01
+2424655.958900000 = A.D. 1926-May-20 11:00:48.9600 TDB 
+ X = 1.248092801635014E+10 Y = 3.318770327762585E+08 Z =-6.818646500586235E+09
+ VX= 9.938616984883356E-01 VY= 1.936646834452505E+00 VZ= 9.489887957984700E-01
+2426080.772700000 = A.D. 1930-Apr-14 06:32:41.2800 TDB 
+ X = 1.259744636447485E+10 Y = 5.703192054622226E+08 Z =-6.699430370939449E+09
+ VX= 9.021402481084430E-01 VY= 1.928442448928419E+00 VZ= 9.876414243282886E-01
+2426238.033200000 = A.D. 1930-Sep-18 12:47:48.4800 TDB 
+ X = 1.260965163812316E+10 Y = 5.965010338290558E+08 Z =-6.685982799859425E+09
+ VX= 8.944140537435423E-01 VY= 1.925583936087043E+00 VZ= 9.917909161489714E-01
+2429328.573300000 = A.D. 1939-Mar-06 01:45:33.1200 TDB 
+ X = 1.283172009838947E+10 Y = 1.109148901755017E+09 Z =-6.410591185899349E+09
+ VX= 7.528845368243473E-01 VY= 1.930579052640665E+00 VZ= 1.070375231138289E+00
+2429885.786800000 = A.D. 1940-Sep-13 06:52:59.5200 TDB 
+ X = 1.286702147784566E+10 Y = 1.202017919129020E+09 Z =-6.358722470867998E+09
+ VX= 7.139047539746229E-01 VY= 1.925775257107873E+00 VZ= 1.084364443095356E+00
+2434027.819100000 = A.D. 1952-Jan-16 07:39:30.2400 TDB 
+ X = 1.308874095286432E+10 Y = 1.882021853806770E+09 Z =-5.953082271785243E+09
+ VX= 5.150872708795466E-01 VY= 1.897964089623667E+00 VZ= 1.181263866950851E+00
+2438042.078300000 = A.D. 1963-Jan-12 13:52:45.1200 TDB 
+ X = 1.323528020562523E+10 Y = 2.530909625214416E+09 Z =-5.528267824877039E+09
+ VX= 3.254133605270739E-01 VY= 1.869886106472968E+00 VZ= 1.267178606948287E+00
+2439002.026600000 = A.D. 1965-Aug-29 12:38:18.2400 TDB 
+ X = 1.325958115349737E+10 Y = 2.685414966802688E+09 Z =-5.422338875905682E+09
+ VX= 2.630608838336547E-01 VY= 1.851977386177488E+00 VZ= 1.287077908534219E+00
+2442650.899100000 = A.D. 1975-Aug-26 09:34:42.2400 TDB 
+ X = 1.331789440295927E+10 Y = 3.261199206796475E+09 Z =-5.005374170483922E+09
+ VX= 8.944146899800175E-02 VY= 1.817517000140533E+00 VZ= 1.357431608294879E+00
+2446011.564200000 = A.D. 1984-Nov-07 01:32:26.8800 TDB 
+ X = 1.332109947487000E+10 Y = 3.777855429416859E+09 Z =-4.602465606793880E+09
+ VX=-5.611212060224609E-02 VY= 1.765463071615201E+00 VZ= 1.416581724420729E+00
+2449575.521000000 = A.D. 1994-Aug-11 00:30:14.4000 TDB 
+ X = 1.327251159202002E+10 Y = 4.312867028727037E+09 Z =-4.157126027935775E+09
+ VX=-2.353037358989836E-01 VY= 1.704131700951596E+00 VZ= 1.474509379064360E+00
+2450248.426000000 = A.D. 1996-Jun-13 22:13:26.4000 TDB 
+ X = 1.325796337570557E+10 Y = 4.411928432048210E+09 Z =-4.071102050111286E+09
+ VX=-2.665325630303751E-01 VY= 1.704181674344982E+00 VZ= 1.484738036853170E+00
+2450435.761800000 = A.D. 1996-Dec-18 06:16:59.5200 TDB 
+ X = 1.325356119587349E+10 Y = 4.439514571792830E+09 Z =-4.047047154498061E+09
+ VX=-2.774381711348258E-01 VY= 1.704247057198951E+00 VZ= 1.487597408368427E+00
+$$EOE
+*******************************************************************************
+ 
+TIME
+
+  Barycentric Dynamical Time ("TDB" or T_eph) output was requested. This
+continuous coordinate time is equivalent to the relativistic proper time
+of a clock at rest in a reference frame co-moving with the solar system
+barycenter but outside the system's gravity well. It is the independent
+variable in the solar system relativistic equations of motion.
+
+  TDB runs at a uniform rate of one SI second per second and is independent
+of irregularities in Earth's rotation.
+ 
+CALENDAR SYSTEM
+
+  Mixed calendar mode was active such that calendar dates after AD 1582-Oct-15
+(if any) are in the modern Gregorian system. Dates prior to 1582-Oct-5 (if any)
+are in the Julian calendar system, which is automatically extended for dates
+prior to its adoption on 45-Jan-1 BC.  The Julian calendar is useful for
+matching historical dates. The Gregorian calendar more accurately corresponds
+to the Earth's orbital motion and seasons. A "Gregorian-only" calendar mode is
+available if such physical events are the primary interest.
+
+REFERENCE FRAME AND COORDINATES
+
+  Ecliptic at the standard reference epoch
+
+    Reference epoch: J2000.0
+    X-Y plane: adopted Earth orbital plane at the reference epoch
+               Note: IAU76 obliquity of 84381.448 arcseconds wrt ICRF X-Y plane
+    X-axis   : ICRF
+    Z-axis   : perpendicular to the X-Y plane in the directional (+ or -) sense
+               of Earth's north pole at the reference epoch.
+
+  Symbol meaning:
+
+    JDTDB    Julian Day Number, Barycentric Dynamical Time
+      X      X-component of position vector (km)
+      Y      Y-component of position vector (km)
+      Z      Z-component of position vector (km)
+      VX     X-component of velocity vector (km/sec)                           
+      VY     Y-component of velocity vector (km/sec)                           
+      VZ     Z-component of velocity vector (km/sec)                           
+
+ABERRATIONS AND CORRECTIONS
+
+ Geometric state vectors have NO corrections or aberrations applied.
+
+Computations by ...
+
+    Solar System Dynamics Group, Horizons On-Line Ephemeris System
+    4800 Oak Grove Drive, Jet Propulsion Laboratory
+    Pasadena, CA  91109   USA
+
+    General site: https://ssd.jpl.nasa.gov/
+    Mailing list: https://ssd.jpl.nasa.gov/email_list.html
+    System news : https://ssd.jpl.nasa.gov/horizons/news.html
+    User Guide  : https://ssd.jpl.nasa.gov/horizons/manual.html
+    Connect     : browser        https://ssd.jpl.nasa.gov/horizons/app.html#/x
+                  API            https://ssd-api.jpl.nasa.gov/doc/horizons.html
+                  command-line   telnet ssd.jpl.nasa.gov 6775
+                  e-mail/batch   https://ssd.jpl.nasa.gov/ftp/ssd/horizons_batch.txt
+                  scripts        https://ssd.jpl.nasa.gov/ftp/ssd/SCRIPTS
+    Inquiries   : Jon.D.Giorgini@jpl.nasa.gov
+*******************************************************************************

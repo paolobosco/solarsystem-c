@@ -1,0 +1,183 @@
+API VERSION: 1.2
+API SOURCE: NASA/JPL Horizons API
+
+*******************************************************************************
+JPL/HORIZONS               162173 Ryugu (1999 JU3)         2026-Oct-18 19:25:07
+Rec #:  162173 (+COV) Soln.date: 2026-Aug-11_13:41:47   # obs: 5124 (1986-2025)
+ 
+IAU76/J2000 helio. ecliptic osc. elements (au, days, deg., period=Julian yrs):
+ 
+  EPOCH=  2458753.5 ! 2019-Sep-27.00 (TDB)         Residual RMS= .18156
+   EC= .1903782605596403   QR= .963114783617966    TP= 2458745.5392894726
+   OM= 251.5874649641874   W=  211.4457746039085   IN= 5.884195597891756
+   A= 1.18958611991287     MA= 6.047307793310185   ADIST= 1.416057456207773
+   PER= 1.29748            N= .759644227           ANGMOM= .018418869
+   DAN= 1.36879            DDN= .98628             L= 102.8986866
+   B= -3.0658037           MOID= 8.213E-5          TP= 2019-Sep-19.0392894726
+ 
+Asteroid physical parameters (km, seconds, rotational period in hours):
+   GM= 3.E-8               RAD= .448               ROTPER= 7.63262
+   H= 19.55                G= .150                 B-V= n.a.
+                           ALBEDO= .045            STYP= Cb
+
+Asteroid non-gravitational force model (AMRAT= m^2/kg;A1,A2,A3=au/d^2;R0=au):
+   AMRAT=  0.
+   A1= 0.                  A2= -2.487268602636E-14 A3= 0.
+ Non-standard or simulated/proxy model:
+   ALN=  1.            NK=  0.       NM=  2.       NN=  5.093    R0=  1.
+
+ASTEROID comments: 
+1: soln ref.= JPL#270, PHA  OCC=0       radar( 2 delay, 0 Dop.)
+2: source=ORB; Nongravitational accels. using nonstandard g(r) = (1 au/ r)^2
+*******************************************************************************
+
+  
+
+*******************************************************************************
+Ephemeris / API_USER Sun Oct 18 19:25:07 2026 Pasadena, USA      / Horizons
+*******************************************************************************
+Target body name: 162173 Ryugu (1999 JU3)         {source: JPL#270}
+Center body name: Sun (10)                        {source: DE441}
+Center-site name: BODY CENTER
+*******************************************************************************
+Start time      : A.D. 2029-Apr-10 20:44:52.8000 TDB
+Stop  time      : A.D. 2112-May-07 17:03:41.7600 TDB
+Step-size       : DISCRETE TIME-LIST
+*******************************************************************************
+Center geodetic : 0.0, 0.0, 0.0                   {E-lon(deg),Lat(deg),Alt(km)}
+Center cylindric: 0.0, 0.0, 0.0                   {E-lon(deg),Dxy(km),Dz(km)}
+Center radii    : 695700.0, 695700.0, 695700.0 km {Equator_a, b, pole_c}
+Small perturbers: Yes                             {source: SB441-N16}
+Output units    : KM-S
+Calendar mode   : Mixed Julian/Gregorian
+Output type     : GEOMETRIC cartesian states
+Output format   : 2 (position and velocity)
+Reference frame : Ecliptic of J2000.0
+*******************************************************************************
+Initial IAU76/J2000 heliocentric ecliptic osculating elements (au, days, deg.):
+  EPOCH=  2458753.5 ! 2019-Sep-27.00 (TDB)         Residual RMS= .18156        
+   EC= .1903782605596403   QR= .963114783617966    TP= 2458745.5392894726      
+   OM= 251.5874649641874   W=  211.4457746039085   IN= 5.884195597891756       
+  Equivalent ICRF heliocentric cartesian coordinates (au, au/d):
+   X=-3.595956563467519E-01  Y= 8.450730289743180E-01  Z= 2.963663464334829E-01
+  VX=-1.779329063220012E-02 VY=-5.591159101558621E-03 VZ=-4.080870520596382E-03
+Asteroid physical parameters (km, seconds, rotational period in hours):        
+   GM= 3.E-8               RAD= .448               ROTPER= 7.63262             
+   H= 19.55                G= .150                 B-V= n.a.                   
+                           ALBEDO= .045            STYP= Cb                    
+Asteroid non-gravitational force model (AMRAT= m^2/kg;A1,A2,A3=au/d^2;R0=au):  
+   AMRAT=  0.                                                                  
+   A1= 0.                  A2= -2.487268602636E-14 A3= 0.                      
+ Non-standard or simulated/proxy model:                                        
+   ALN=  1.            NK=  0.       NM=  2.       NN=  5.093    R0=  1.       
+*******************************************************************************
+JDTDB
+   X     Y     Z
+   VX    VY    VZ
+*******************************************************************************
+$$SOE
+2462237.364500000 = A.D. 2029-Apr-10 20:44:52.8000 TDB 
+ X =-8.145268641273394E+07 Y =-1.856510455828113E+08 Z =-1.801039124692976E+06
+ VX= 2.016478549392524E+01 VY=-1.233052209909498E+01 VZ= 2.369035938850311E+00
+2463470.952100000 = A.D. 2032-Aug-26 10:51:01.4400 TDB 
+ X = 2.723712017832208E+07 Y = 1.434965564946854E+08 Z =-2.086811187488623E+06
+ VX=-3.234294530320067E+01 VY= 3.922579835354340E+00 VZ=-3.276463617411214E+00
+2464717.094300000 = A.D. 2036-Jan-24 14:15:47.5200 TDB 
+ X = 1.110462052719100E+08 Y =-1.772447447559594E+08 Z = 1.666403733917163E+07
+ VX= 1.824067211533681E+01 VY= 1.366501394915400E+01 VZ= 1.309172425074792E+00
+2466836.679400000 = A.D. 2041-Nov-13 04:18:20.1600 TDB 
+ X =-7.386109062626332E+07 Y = 1.246172550563940E+08 Z =-1.131375495742503E+07
+ VX=-2.896922014700284E+01 VY=-1.543940186350487E+01 VZ=-2.285992277019402E+00
+2467299.424400000 = A.D. 2043-Feb-18 22:11:08.1600 TDB 
+ X =-3.976814303476660E+07 Y = 1.383134865990677E+08 Z =-8.474902108608283E+06
+ VX=-3.176865102498471E+01 VY=-8.960726354831039E+00 VZ=-2.773473253290546E+00
+2468252.125600000 = A.D. 2045-Sep-28 15:00:51.8400 TDB 
+ X =-4.322937641236534E+07 Y = 1.373104758327459E+08 Z =-8.777959999951117E+06
+ VX=-3.156419472695300E+01 VY=-9.631310162331021E+00 VZ=-2.730312993366175E+00
+2478951.878800000 = A.D. 2075-Jan-14 09:05:28.3200 TDB 
+ X = 3.821419982589685E+07 Y =-2.089433334852859E+08 Z = 1.077758185049009E+07
+ VX= 2.202064662112411E+01 VY= 3.912870066270089E+00 VZ= 1.992255263153275E+00
+2482206.381800000 = A.D. 2083-Dec-12 21:09:47.5200 TDB 
+ X =-1.415041218929684E+08 Y =-1.294565753774308E+08 Z =-8.970192672327884E+06
+ VX= 1.322172823147820E+01 VY=-2.156549977473428E+01 VZ= 1.982413344478308E+00
+2484261.436200000 = A.D. 2089-Jul-28 22:28:07.6800 TDB 
+ X = 8.805532992799447E+07 Y =-1.942296419931613E+08 Z = 1.493047986924718E+07
+ VX= 1.979354537460360E+01 VY= 1.043050639162408E+01 VZ= 1.514999784732823E+00
+2484804.546900000 = A.D. 2091-Jan-23 01:07:32.1600 TDB 
+ X = 1.696571699007839E+08 Y =-1.030288024012007E+08 Z = 1.953561851316719E+07
+ VX= 9.006081944589946E+00 VY= 2.260444951475318E+01 VZ= 8.131999367847520E-02
+2487668.981100000 = A.D. 2098-Nov-26 11:32:47.0400 TDB 
+ X = 1.501008752057154E+08 Y =-1.394640043600639E+08 Z = 1.893297625208174E+07
+ VX= 1.344484818614652E+01 VY= 1.924341183857783E+01 VZ= 6.126144756608003E-01
+2492034.074200000 = A.D. 2110-Nov-09 13:46:50.8800 TDB 
+ X = 1.776488311615598E+08 Y =-7.839534368650621E+07 Z = 1.940485628593080E+07
+ VX= 5.820580571446166E+00 VY= 2.425275031047380E+01 VZ=-2.921652656035469E-01
+2492579.210900000 = A.D. 2112-May-07 17:03:41.7600 TDB 
+ X = 1.533021597916884E+08 Y = 6.390855423563440E+07 Z = 1.219212499475030E+07
+ VX=-1.586625488426196E+01 VY= 2.446618587541385E+01 VZ=-2.337844205169695E+00
+$$EOE
+*******************************************************************************
+ 
+TIME
+
+  Barycentric Dynamical Time ("TDB" or T_eph) output was requested. This
+continuous coordinate time is equivalent to the relativistic proper time
+of a clock at rest in a reference frame co-moving with the solar system
+barycenter but outside the system's gravity well. It is the independent
+variable in the solar system relativistic equations of motion.
+
+  TDB runs at a uniform rate of one SI second per second and is independent
+of irregularities in Earth's rotation.
+ 
+CALENDAR SYSTEM
+
+  Mixed calendar mode was active such that calendar dates after AD 1582-Oct-15
+(if any) are in the modern Gregorian system. Dates prior to 1582-Oct-5 (if any)
+are in the Julian calendar system, which is automatically extended for dates
+prior to its adoption on 45-Jan-1 BC.  The Julian calendar is useful for
+matching historical dates. The Gregorian calendar more accurately corresponds
+to the Earth's orbital motion and seasons. A "Gregorian-only" calendar mode is
+available if such physical events are the primary interest.
+
+REFERENCE FRAME AND COORDINATES
+
+  Ecliptic at the standard reference epoch
+
+    Reference epoch: J2000.0
+    X-Y plane: adopted Earth orbital plane at the reference epoch
+               Note: IAU76 obliquity of 84381.448 arcseconds wrt ICRF X-Y plane
+    X-axis   : ICRF
+    Z-axis   : perpendicular to the X-Y plane in the directional (+ or -) sense
+               of Earth's north pole at the reference epoch.
+
+  Symbol meaning:
+
+    JDTDB    Julian Day Number, Barycentric Dynamical Time
+      X      X-component of position vector (km)
+      Y      Y-component of position vector (km)
+      Z      Z-component of position vector (km)
+      VX     X-component of velocity vector (km/sec)                           
+      VY     Y-component of velocity vector (km/sec)                           
+      VZ     Z-component of velocity vector (km/sec)                           
+
+ABERRATIONS AND CORRECTIONS
+
+ Geometric state vectors have NO corrections or aberrations applied.
+
+Computations by ...
+
+    Solar System Dynamics Group, Horizons On-Line Ephemeris System
+    4800 Oak Grove Drive, Jet Propulsion Laboratory
+    Pasadena, CA  91109   USA
+
+    General site: https://ssd.jpl.nasa.gov/
+    Mailing list: https://ssd.jpl.nasa.gov/email_list.html
+    System news : https://ssd.jpl.nasa.gov/horizons/news.html
+    User Guide  : https://ssd.jpl.nasa.gov/horizons/manual.html
+    Connect     : browser        https://ssd.jpl.nasa.gov/horizons/app.html#/x
+                  API            https://ssd-api.jpl.nasa.gov/doc/horizons.html
+                  command-line   telnet ssd.jpl.nasa.gov 6775
+                  e-mail/batch   https://ssd.jpl.nasa.gov/ftp/ssd/horizons_batch.txt
+                  scripts        https://ssd.jpl.nasa.gov/ftp/ssd/SCRIPTS
+    Inquiries   : Jon.D.Giorgini@jpl.nasa.gov
+*******************************************************************************

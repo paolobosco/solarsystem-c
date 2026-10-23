@@ -1,0 +1,8 @@
+API VERSION: 1.2
+API SOURCE: NASA/JPL Horizons API
+
+Statistical uncertainties not available for object due to:
+  truncated database EST list: +
+
+
+No ephemeris for target "101955 Bennu (1999 RQ36)" prior to A.D. 1900-JAN-02 00:00:00.0000 TDB

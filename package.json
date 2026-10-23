@@ -1,0 +1,36 @@
+{
+  "name": "sistema-solare-3d",
+  "private": true,
+  "license": "MIT",
+  "version": "1.0.0",
+  "description": "Mappa interattiva 3D del Sistema solare a scala reale, con effemeridi dal 10000 a.C. al 2120 d.C.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "build:artifact": "tsc --noEmit && vite build --mode artifact && node scripts/make-artifact.mjs",
+    "build:test": "tsc --noEmit && vite build --mode test --outDir dist-test",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint .",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "e2e": "playwright test",
+    "check": "npm run typecheck && npm run lint && npm run test"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "4.11.0",
+    "@eslint/js": "10.0.1",
+    "@playwright/test": "1.56.1",
+    "@types/node": "22.18.0",
+    "@types/three": "0.180.0",
+    "eslint": "10.12.0",
+    "typescript": "5.9.3",
+    "typescript-eslint": "8.71.2",
+    "vite": "7.3.7",
+    "vitest": "4.1.11"
+  },
+  "dependencies": {
+    "three": "0.180.0"
+  }
+}

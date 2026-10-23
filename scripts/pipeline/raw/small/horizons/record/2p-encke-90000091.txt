@@ -1,0 +1,30 @@
+API VERSION: 1.2
+API SOURCE: NASA/JPL Horizons API
+
+*******************************************************************************
+JPL/HORIZONS                      2P/Encke                 2026-Oct-18 15:39:55
+Rec #:90000091 (+COV) Soln.date: 2026-Oct-14_16:24:05   # obs: 1151 (2018-2026)
+ 
+IAU76/J2000 helio. ecliptic osc. elements (au, days, deg., period=Julian yrs):
+ 
+  EPOCH=  2460363.5 ! 2024-Feb-23.0000000 (TDB)    RMSW= n.a.
+   EC= .846940430888432    QR= .3395817503585773   TP= 2460240.0285326503
+   OM= 334.0171400057891   W= 187.2881998732444    IN= 11.33675914978793
+   A= 2.218624763741819    MA= 36.82518175479995   ADIST= 4.097667777125062
+   PER= 3.30471480837273   N= .298248515           ANGMOM= .013623229
+   DAN= 3.92231            DDN= .34084             L= 161.164623
+   B= -1.4289673           MOID= .165842           TP= 2023-Oct-22.5285326503
+ 
+Comet physical (GM= km^3/s^2; RAD= km):
+   GM= n.a.                RAD= 2.4
+   M1=  15.7     M2=  n.a.     k1=  4.5    k2= n.a.     PHCOF= n.a.
+Comet non-gravitational force model (AMRAT=m^2/kg;A1-A3=au/d^2;DT=days;R0=au):
+   AMRAT=  0.                                      DT=  0.
+   A1= 1.157812215388E-10  A2= 3.090765676461E-12  A3= 0.
+ Non-standard or simulated/proxy model:
+   ALN=  .1112620426   NK=  4.6142   NM=  2.15     NN=  5.093    R0=  2.808
+
+COMET comments 
+1: soln ref.= JPL#K273/23, data arc: 2018-11-05 to 2026-10-12
+2: k1=4.5;
+*******************************************************************************

@@ -1,0 +1,25 @@
+API VERSION: 1.2
+API SOURCE: NASA/JPL Horizons API
+
+*******************************************************************************
+JPL/HORIZONS                   12P/Pons-Brooks             2026-Oct-18 15:43:27
+Rec #:90000222                  Soln.date: -             # obs: 264 (1812-1954)
+ 
+IAU76/J2000 helio. ecliptic osc. elements (au, days, deg., period=Julian yrs):
+ 
+  EPOCH=  2383120.5 ! 1812-Aug-30.0000000 (TDB)    RMSW= n.a.
+   EC= .955341             QR= .777102             TP= 2383137.3287
+   OM= 255.6391            W= 199.2871             IN= 73.95650000000001
+   A= 17.40079267336931    MA= 359.7714921660699   ADIST= 34.02448334673861
+   PER= 72.5874852937412   N= .01357846            ANGMOM= .021204679
+   DAN= 15.46136           DDN= .79901             L= 81.1631397
+   B= -18.5080167                                  TP= 1812-Sep-15.8287000000
+ 
+Comet physical (GM= km^3/s^2; RAD= km):
+   GM= n.a.                RAD= n.a.
+   M1=  5.       M2=  11.      k1=  15.    k2=  10.     PHCOF= n.a.
+
+COMET comments 
+1: soln ref.= SAO/1812
+2: k1=15.0, k2=10.0;epoch may be 2383121.0 (hour ambiguous: 12h/0h); non-gravs. con
+*******************************************************************************

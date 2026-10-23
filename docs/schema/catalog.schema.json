@@ -1,0 +1,967 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Catalogo dei corpi (data/v1/catalog.json)",
+  "description": "Formato 1, § 8.10 di docs/PROGETTO.md. Tipi TypeScript corrispondenti in src/data/catalogTypes.ts. Unicità di ssid e slug e coerenza dei riferimenti tra corpi si verificano a parte (criterio A22).",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "formato",
+    "generato",
+    "corpi",
+    "categorie"
+  ],
+  "properties": {
+    "formato": {
+      "const": 1
+    },
+    "generato": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "corpi": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/corpo"
+      }
+    },
+    "categorie": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/categoriaCatalogo"
+      }
+    }
+  },
+  "$defs": {
+    "slug": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]{1,40}$"
+    },
+    "categoria": {
+      "enum": [
+        "sole",
+        "pianeta",
+        "pianeta-nano",
+        "luna",
+        "interstellare",
+        "cometa",
+        "centauro",
+        "tno",
+        "asteroide"
+      ]
+    },
+    "categoriaCatalogo": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "precedenza",
+        "filtrabile"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/categoria"
+        },
+        "precedenza": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "filtrabile": {
+          "type": "boolean"
+        }
+      }
+    },
+    "stringaONull": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "dataIso": {
+      "type": "string",
+      "pattern": "^-?[0-9]{4}-[0-9]{2}-[0-9]{2}"
+    },
+    "corpo": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "ssid",
+        "slug",
+        "nome",
+        "nomeUfficiale",
+        "numero",
+        "designazione",
+        "alias",
+        "categoria",
+        "categorieSecondarie",
+        "naif",
+        "spkid",
+        "primario",
+        "effemeridi",
+        "soluzione",
+        "fisica",
+        "orientamento",
+        "texture",
+        "epsModelloCostante"
+      ],
+      "properties": {
+        "ssid": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 65535
+        },
+        "slug": {
+          "$ref": "#/$defs/slug"
+        },
+        "nome": {
+          "type": "string",
+          "minLength": 1
+        },
+        "nomeUfficiale": {
+          "$ref": "#/$defs/stringaONull"
+        },
+        "numero": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 1
+        },
+        "designazione": {
+          "$ref": "#/$defs/stringaONull"
+        },
+        "alias": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "categoria": {
+          "$ref": "#/$defs/categoria"
+        },
+        "categorieSecondarie": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "$ref": "#/$defs/categoria"
+          }
+        },
+        "naif": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "spkid": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "sbdb": {
+          "$ref": "#/$defs/stringaONull"
+        },
+        "primario": {
+          "oneOf": [
+            {
+              "$ref": "#/$defs/slug"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "effemeridi": {
+          "$ref": "#/$defs/effemeridi"
+        },
+        "soluzione": {
+          "$ref": "#/$defs/soluzione"
+        },
+        "fisica": {
+          "$ref": "#/$defs/fisica"
+        },
+        "orientamento": {
+          "$ref": "#/$defs/orientamento"
+        },
+        "texture": {
+          "oneOf": [
+            {
+              "$ref": "#/$defs/texture"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "epsModelloCostante": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "anelli": {
+          "oneOf": [
+            {
+              "$ref": "#/$defs/anelli"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      }
+    },
+    "fonteIntervallo": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "tipo",
+        "inizio",
+        "fine",
+        "descrizione",
+        "varianti",
+        "saltoGiunzioneKm"
+      ],
+      "properties": {
+        "tipo": {
+          "enum": [
+            "de441",
+            "spk-satellitare",
+            "kepleriana",
+            "secolare",
+            "spk-horizons",
+            "record-dastcom",
+            "sb441-n16",
+            "assist"
+          ]
+        },
+        "inizio": {
+          "type": "number"
+        },
+        "fine": {
+          "type": "number"
+        },
+        "descrizione": {
+          "type": "string"
+        },
+        "varianti": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "saltoGiunzioneKm": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "erroreRadialeKm": {
+          "description": "Satelliti: errore radiale massimo dei record dell'intervallo rispetto alla propria fonte, km (residui con raccordo; per l'intervallo secolare il residuo radiale dell'adattamento secolare); null se non misurato. Si somma in quadratura a ε·d nell'errore della posizione (§ 7.5.6).",
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        }
+      }
+    },
+    "effemeridi": {
+      "type": "object",
+      "required": [
+        "modello"
+      ],
+      "properties": {
+        "modello": {
+          "enum": [
+            "sole",
+            "pianeta",
+            "luna",
+            "satellite",
+            "piccolo-corpo"
+          ]
+        }
+      },
+      "oneOf": [
+        {
+          "additionalProperties": false,
+          "required": [
+            "modello"
+          ],
+          "properties": {
+            "modello": {
+              "const": "sole"
+            }
+          }
+        },
+        {
+          "additionalProperties": false,
+          "required": [
+            "modello",
+            "naifDE441"
+          ],
+          "properties": {
+            "modello": {
+              "const": "pianeta"
+            },
+            "naifDE441": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 9
+            }
+          }
+        },
+        {
+          "additionalProperties": false,
+          "required": [
+            "modello"
+          ],
+          "properties": {
+            "modello": {
+              "const": "luna"
+            }
+          }
+        },
+        {
+          "additionalProperties": false,
+          "required": [
+            "modello",
+            "rF",
+            "frequenze",
+            "arcoOsservativo",
+            "fonti"
+          ],
+          "properties": {
+            "modello": {
+              "const": "satellite"
+            },
+            "rF": {
+              "type": "array",
+              "minItems": 9,
+              "maxItems": 9,
+              "items": {
+                "type": "number"
+              }
+            },
+            "frequenze": {
+              "type": "array",
+              "maxItems": 6,
+              "items": {
+                "type": "number"
+              }
+            },
+            "arcoOsservativo": {
+              "oneOf": [
+                {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "required": [
+                    "inizio",
+                    "fine"
+                  ],
+                  "properties": {
+                    "inizio": {
+                      "type": "number"
+                    },
+                    "fine": {
+                      "type": "number"
+                    }
+                  }
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "fonti": {
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "$ref": "#/$defs/fonteIntervallo"
+              }
+            },
+            "centro": {
+              "enum": [
+                "pianeta",
+                "baricentro"
+              ]
+            },
+            "pianoSegueEquatore": {
+              "description": "Vero se il piano di Laplace segue l'equatore del primario: negli intervalli 'secolare' il sistema F ruota con il polo WGCCRE del primario dall'epoca di giunzione (§ 7.5.4). Assente o falso: F fisso.",
+              "type": "boolean"
+            }
+          }
+        },
+        {
+          "additionalProperties": false,
+          "required": [
+            "modello",
+            "fonti"
+          ],
+          "properties": {
+            "modello": {
+              "const": "piccolo-corpo"
+            },
+            "fonti": {
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "$ref": "#/$defs/fonteIntervallo"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "funzioneG": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "alfa",
+        "r0",
+        "m",
+        "n",
+        "k"
+      ],
+      "properties": {
+        "alfa": {
+          "type": "number"
+        },
+        "r0": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "m": {
+          "type": "number"
+        },
+        "n": {
+          "type": "number"
+        },
+        "k": {
+          "type": "number"
+        }
+      }
+    },
+    "modelloNG": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "A1",
+        "A2",
+        "A3",
+        "DT",
+        "g"
+      ],
+      "properties": {
+        "A1": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "A2": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "A3": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "DT": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "g": {
+          "oneOf": [
+            {
+              "$ref": "#/$defs/funzioneG"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      }
+    },
+    "soluzione": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "data",
+        "estrazione",
+        "modelloNG",
+        "recordDastcom"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "data": {
+          "oneOf": [
+            {
+              "$ref": "#/$defs/dataIso"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "estrazione": {
+          "oneOf": [
+            {
+              "$ref": "#/$defs/dataIso"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "modelloNG": {
+          "oneOf": [
+            {
+              "$ref": "#/$defs/modelloNG"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "recordDastcom": {
+          "oneOf": [
+            {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      }
+    },
+    "valoreFisicoNumero": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "valore",
+        "incertezza",
+        "fonte",
+        "anno"
+      ],
+      "properties": {
+        "valore": {
+          "type": "number"
+        },
+        "incertezza": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "fonte": {
+          "type": "string",
+          "minLength": 1
+        },
+        "anno": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        }
+      }
+    },
+    "terna": {
+      "type": "array",
+      "minItems": 3,
+      "maxItems": 3,
+      "items": {
+        "type": "number",
+        "minimum": 0
+      }
+    },
+    "valoreFisicoRaggi": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "valore",
+        "incertezza",
+        "fonte",
+        "anno"
+      ],
+      "properties": {
+        "valore": {
+          "$ref": "#/$defs/terna"
+        },
+        "incertezza": {
+          "oneOf": [
+            {
+              "$ref": "#/$defs/terna"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "fonte": {
+          "type": "string",
+          "minLength": 1
+        },
+        "anno": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        }
+      }
+    },
+    "fisica": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "raggi_km",
+        "gm_km3s2",
+        "rotazione",
+        "albedo"
+      ],
+      "properties": {
+        "raggi_km": {
+          "oneOf": [
+            {
+              "$ref": "#/$defs/valoreFisicoRaggi"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "gm_km3s2": {
+          "oneOf": [
+            {
+              "$ref": "#/$defs/valoreFisicoNumero"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "rotazione": {
+          "oneOf": [
+            {
+              "$ref": "#/$defs/valoreFisicoNumero"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "albedo": {
+          "oneOf": [
+            {
+              "$ref": "#/$defs/valoreFisicoNumero"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "inclinazioneAssiale_gradi": {
+          "oneOf": [
+            {
+              "$ref": "#/$defs/valoreFisicoNumero"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      }
+    },
+    "terminePeriodico": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "coordinata",
+        "funzione",
+        "ampiezza",
+        "argomento",
+        "unita"
+      ],
+      "properties": {
+        "coordinata": {
+          "enum": [
+            "alfa0",
+            "delta0",
+            "w"
+          ]
+        },
+        "funzione": {
+          "enum": [
+            "sin",
+            "cos"
+          ]
+        },
+        "ampiezza": {
+          "type": "number"
+        },
+        "argomento": {
+          "type": "array",
+          "minItems": 2,
+          "maxItems": 2,
+          "items": {
+            "type": "number"
+          }
+        },
+        "unita": {
+          "enum": [
+            "giorno",
+            "secolo"
+          ]
+        }
+      }
+    },
+    "polinomio": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 3,
+      "items": {
+        "type": "number"
+      }
+    },
+    "coefficientiWgccre": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "alfa0",
+        "delta0",
+        "w",
+        "periodici"
+      ],
+      "properties": {
+        "alfa0": {
+          "$ref": "#/$defs/polinomio"
+        },
+        "delta0": {
+          "$ref": "#/$defs/polinomio"
+        },
+        "w": {
+          "$ref": "#/$defs/polinomio"
+        },
+        "periodici": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/terminePeriodico"
+          }
+        }
+      }
+    },
+    "orientamento": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "modello",
+        "coefficienti",
+        "convenzionePolo",
+        "indicativo"
+      ],
+      "properties": {
+        "modello": {
+          "enum": [
+            "wgccre",
+            "vondrak",
+            "cassini",
+            "sincrono",
+            "fisso"
+          ]
+        },
+        "coefficienti": {
+          "oneOf": [
+            {
+              "$ref": "#/$defs/coefficientiWgccre"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "convenzionePolo": {
+          "enum": [
+            "nord-IAU",
+            "momento-angolare"
+          ]
+        },
+        "indicativo": {
+          "type": "boolean"
+        }
+      },
+      "if": {
+        "properties": {
+          "modello": {
+            "const": "wgccre"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "coefficienti": {
+            "$ref": "#/$defs/coefficientiWgccre"
+          }
+        }
+      }
+    },
+    "texture": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "file",
+        "lon0_u",
+        "verso",
+        "fonte",
+        "licenza",
+        "areeNonOsservate"
+      ],
+      "properties": {
+        "file": {
+          "type": "string",
+          "pattern": "^(?!.*\\.\\.)[a-z0-9][a-z0-9_./-]*\\.(jpg|jpeg|png|webp)$"
+        },
+        "lon0_u": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "verso": {
+          "enum": [
+            "est",
+            "ovest"
+          ]
+        },
+        "fonte": {
+          "type": "string",
+          "minLength": 1
+        },
+        "licenza": {
+          "type": "string",
+          "minLength": 1
+        },
+        "areeNonOsservate": {
+          "enum": [
+            "nessuna",
+            "parziali",
+            "emisfero-sud"
+          ]
+        }
+      }
+    },
+    "elementoAnello": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "nome",
+        "tipo",
+        "rInterno_km",
+        "rEsterno_km",
+        "tau",
+        "livello"
+      ],
+      "properties": {
+        "nome": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tipo": {
+          "enum": [
+            "denso",
+            "tenue",
+            "lacuna",
+            "stretto"
+          ]
+        },
+        "rInterno_km": {
+          "type": "number",
+          "minimum": 0
+        },
+        "rEsterno_km": {
+          "type": "number",
+          "minimum": 0
+        },
+        "tau": {
+          "oneOf": [
+            {
+              "type": "array",
+              "minItems": 2,
+              "maxItems": 2,
+              "items": {
+                "type": "number",
+                "minimum": 0
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "livello": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 1
+        }
+      }
+    },
+    "anelli": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "fonte",
+        "estrazione",
+        "profilo",
+        "piano",
+        "elementi"
+      ],
+      "properties": {
+        "fonte": {
+          "type": "string",
+          "minLength": 1
+        },
+        "estrazione": {
+          "oneOf": [
+            {
+              "$ref": "#/$defs/dataIso"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "profilo": {
+          "const": "schematico"
+        },
+        "piano": {
+          "const": "equatore"
+        },
+        "elementi": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/elementoAnello"
+          }
+        }
+      }
+    }
+  }
+}

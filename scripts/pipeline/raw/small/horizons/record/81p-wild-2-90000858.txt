@@ -1,0 +1,25 @@
+API VERSION: 1.2
+API SOURCE: NASA/JPL Horizons API
+
+*******************************************************************************
+JPL/HORIZONS                     81P/Wild 2                2026-Oct-18 15:50:19
+Rec #:90000858                  Soln.date: -             # obs: 798 (1978-1998)
+ 
+IAU76/J2000 helio. ecliptic osc. elements (au, days, deg., period=Julian yrs):
+ 
+  EPOCH=  2445920.5 ! 1984-Aug-08.0000000 (TDB)    RMSW= n.a.
+   EC= .556107             QR= 1.494012            TP= 2445932.6735999999
+   OM= 136.6693            W= 40.1157              IN= 3.2683
+   A= 3.365702995992278    MA= 358.0568361718842   ADIST= 5.237393991984556
+   PER= 6.17478565084926   N= .159621133           ANGMOM= .026228787
+   DAN= 1.63115            DDN= 4.04517            L= 176.7390491
+   B= 2.105206                                     TP= 1984-Aug-20.1735999999
+ 
+Comet physical (GM= km^3/s^2; RAD= km):
+   GM= n.a.                RAD= 2.
+   M1=  9.8      M2=  12.9     k1=  12.5   k2=  5.      PHCOF=  .030
+
+COMET comments 
+1: soln ref.= SAO/1984
+2: k1=12.5, k2=5., phase coef.=0.03;non-gravs. considered; 2008 SAO Comet Catalog
+*******************************************************************************

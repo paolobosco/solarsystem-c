@@ -1,0 +1,835 @@
+{
+ "formato": 1,
+ "kernel": {
+  "fobos": {
+   "tolleranzaGradi": 0.5,
+   "fonti": {
+    "mar099.bsp": {
+     "epoche": 200,
+     "maxAngoloGradi": 0.3101648550836895,
+     "mediaAngoloArcsec": 354.3551871158946,
+     "maxRadialeKm": 1.1627668472247024,
+     "maxRadialeFrazioneA": 0.0001240295749657175,
+     "superato": true
+    }
+   }
+  },
+  "deimos": {
+   "tolleranzaGradi": 0.5,
+   "fonti": {
+    "mar099.bsp": {
+     "epoche": 200,
+     "maxAngoloGradi": 0.09512462935943415,
+     "mediaAngoloArcsec": 69.00713535197804,
+     "maxRadialeKm": 2.2254538704401057,
+     "maxRadialeFrazioneA": 9.487158591760765e-05,
+     "superato": true
+    }
+   }
+  },
+  "io": {
+   "tolleranzaGradi": 0.5,
+   "fonti": {
+    "jup365.bsp": {
+     "epoche": 200,
+     "maxAngoloGradi": 0.00798175437337234,
+     "mediaAngoloArcsec": 8.40805795885755,
+     "maxRadialeKm": 33.618333967460785,
+     "maxRadialeFrazioneA": 7.970855243920896e-05,
+     "superato": true
+    }
+   }
+  },
+  "europa": {
+   "tolleranzaGradi": 0.5,
+   "fonti": {
+    "jup365.bsp": {
+     "epoche": 200,
+     "maxAngoloGradi": 0.011854178950762163,
+     "mediaAngoloArcsec": 13.868209781716947,
+     "maxRadialeKm": 358.49198486981913,
+     "maxRadialeFrazioneA": 0.0005342167457993558,
+     "superato": true
+    }
+   }
+  },
+  "ganimede": {
+   "tolleranzaGradi": 0.5,
+   "fonti": {
+    "jup365.bsp": {
+     "epoche": 200,
+     "maxAngoloGradi": 0.010239228498625666,
+     "mediaAngoloArcsec": 11.246016687319,
+     "maxRadialeKm": 881.499823770253,
+     "maxRadialeFrazioneA": 0.0008235005862033614,
+     "superato": true
+    }
+   }
+  },
+  "callisto": {
+   "tolleranzaGradi": 0.5,
+   "fonti": {
+    "jup365.bsp": {
+     "epoche": 200,
+     "maxAngoloGradi": 0.005971265455925123,
+     "mediaAngoloArcsec": 10.23974283284414,
+     "maxRadialeKm": 336.49179549049586,
+     "maxRadialeFrazioneA": 0.00017872410166042715,
+     "superato": true
+    }
+   }
+  },
+  "amaltea": {
+   "tolleranzaGradi": 0.5,
+   "fonti": {
+    "jup365.bsp": {
+     "epoche": 200,
+     "maxAngoloGradi": 0.013437839827968414,
+     "mediaAngoloArcsec": 12.292235324713008,
+     "maxRadialeKm": 5.364041318476666,
+     "maxRadialeFrazioneA": 2.9575854663681163e-05,
+     "superato": true
+    }
+   }
+  },
+  "imalia": {
+   "tolleranzaGradi": 1.0,
+   "fonti": {
+    "jup347.bsp": {
+     "epoche": 200,
+     "maxAngoloGradi": 0.3726544269229953,
+     "mediaAngoloArcsec": 290.4220157167188,
+     "maxRadialeKm": 88948.59869050421,
+     "maxRadialeFrazioneA": 0.0077676478905704975,
+     "superato": true
+    }
+   }
+  },
+  "mimas": {
+   "tolleranzaGradi": 0.5,
+   "fonti": {
+    "sat441.bsp": {
+     "epoche": 200,
+     "maxAngoloGradi": 0.022438131154145953,
+     "mediaAngoloArcsec": 30.429964323522796,
+     "maxRadialeKm": 46.110051715601,
+     "maxRadialeFrazioneA": 0.0002485242817052452,
+     "superato": true
+    },
+    "sat441xl_part-1.bsp": {
+     "epoche": 200,
+     "maxAngoloGradi": 0.10665991579259804,
+     "mediaAngoloArcsec": 153.52654773009735,
+     "maxRadialeKm": 46.53391062532319,
+     "maxRadialeFrazioneA": 0.0002508087994440842,
+     "superato": true
+    }
+   }
+  },
+  "encelado": {
+   "tolleranzaGradi": 0.5,
+   "fonti": {
+    "sat441.bsp": {
+     "epoche": 200,
+     "maxAngoloGradi": 0.012124343910149455,
+     "mediaAngoloArcsec": 17.350384730380856,
+     "maxRadialeKm": 19.769495498447213,
+     "maxRadialeFrazioneA": 8.305259217429103e-05,
+     "superato": true
+    },
+    "sat441xl_part-1.bsp": {
+     "epoche": 200,
+     "maxAngoloGradi": 0.022147088727965145,
+     "mediaAngoloArcsec": 36.41598456208122,
+     "maxRadialeKm": 41.05652048770571,
+     "maxRadialeFrazioneA": 0.0001724803980166652,
+     "superato": true
+    }
+   }
+  },
+  "teti": {
+   "tolleranzaGradi": 0.5,
+   "fonti": {
+    "sat441.bsp": {
+     "epoche": 200,
+     "maxAngoloGradi": 0.02106608831836121,
+     "mediaAngoloArcsec": 20.55464096253597,
+     "maxRadialeKm": 32.03674677788513,
+     "maxRadialeFrazioneA": 0.00010871961659989054,
+     "superato": true
+    },
+    "sat441xl_part-1.bsp": {
+     "epoche": 200,
+     "maxAngoloGradi": 0.1472241457756287,
+     "mediaAngoloArcsec": 195.10644595083266,
+     "maxRadialeKm": 35.52665646630339,
+     "maxRadialeFrazioneA": 0.00012056294282535457,
+     "superato": true
+    }
+   }
+  },
+  "dione": {
+   "tolleranzaGradi": 0.5,
+   "fonti": {
+    "sat441.bsp": {
+     "epoche": 200,
+     "maxAngoloGradi": 0.009008925228256111,
+     "mediaAngoloArcsec": 9.924943006762671,
+     "maxRadialeKm": 55.2631439253455,
+     "maxRadialeFrazioneA": 0.00014642530368019055,
+     "superato": true
+    }
+   }
+  },
+  "rea": {
+   "tolleranzaGradi": 0.5,
+   "fonti": {
+    "sat441.bsp": {
+     "epoche": 200,
+     "maxAngoloGradi": 0.0198661255751104,
+     "mediaAngoloArcsec": 19.084589687346234,
+     "maxRadialeKm": 87.7308872458525,
+     "maxRadialeFrazioneA": 0.0001664508968410423,
+     "superato": true
+    }
+   }
+  },
+  "titano": {
+   "tolleranzaGradi": 0.5,
+   "fonti": {
+    "sat441.bsp": {
+     "epoche": 200,
+     "maxAngoloGradi": 0.003991872042319145,
+     "mediaAngoloArcsec": 4.146399635882081,
+     "maxRadialeKm": 34.68433277402073,
+     "maxRadialeFrazioneA": 2.8386386746926556e-05,
+     "superato": true
+    },
+    "sat441xl_part-1.bsp": {
+     "epoche": 200,
+     "maxAngoloGradi": 0.02349006110143402,
+     "mediaAngoloArcsec": 32.79717029443433,
+     "maxRadialeKm": 117.67318858741783,
+     "maxRadialeFrazioneA": 9.630621014824398e-05,
+     "superato": true
+    }
+   }
+  },
+  "iperione": {
+   "tolleranzaGradi": 3.0000000000000004,
+   "fonti": {
+    "sat441.bsp": {
+     "epoche": 200,
+     "maxAngoloGradi": 0.3571347031361312,
+     "mediaAngoloArcsec": 349.7707611512372,
+     "maxRadialeKm": 10889.15025088191,
+     "maxRadialeFrazioneA": 0.0073529120023842105,
+     "superato": true
+    },
+    "sat441xl_part-1.bsp": {
+     "epoche": 200,
+     "maxAngoloGradi": 0.38073857918014636,
+     "mediaAngoloArcsec": 382.03308651176076,
+     "maxRadialeKm": 11314.479133439949,
+     "maxRadialeFrazioneA": 0.0076401158496512064,
+     "superato": true
+    }
+   }
+  },
+  "giapeto": {
+   "tolleranzaGradi": 0.5,
+   "fonti": {
+    "sat441.bsp": {
+     "epoche": 200,
+     "maxAngoloGradi": 0.013655311537381492,
+     "mediaAngoloArcsec": 18.818827393312674,
+     "maxRadialeKm": 737.5730670057237,
+     "maxRadialeFrazioneA": 0.00020713468987525164,
+     "superato": true
+    },
+    "sat441xl_part-1.bsp": {
+     "epoche": 200,
+     "maxAngoloGradi": 0.07062857418504691,
+     "mediaAngoloArcsec": 89.87425032340916,
+     "maxRadialeKm": 2123.7693951525725,
+     "maxRadialeFrazioneA": 0.0005964240489655313,
+     "superato": true
+    }
+   }
+  },
+  "febe": {
+   "tolleranzaGradi": 1.0,
+   "fonti": {
+    "sat441.bsp": {
+     "epoche": 200,
+     "maxAngoloGradi": 0.04821806030173346,
+     "mediaAngoloArcsec": 61.38181693209997,
+     "maxRadialeKm": 87878.98522007093,
+     "maxRadialeFrazioneA": 0.006788315604921672,
+     "superato": true
+    },
+    "sat441xl_part-1.bsp": {
+     "epoche": 200,
+     "maxAngoloGradi": 0.057493950493078774,
+     "mediaAngoloArcsec": 56.44624751621382,
+     "maxRadialeKm": 79005.2573587019,
+     "maxRadialeFrazioneA": 0.006102854056130349,
+     "superato": true
+    }
+   }
+  },
+  "miranda": {
+   "tolleranzaGradi": 0.5,
+   "fonti": {
+    "ura184_part-3.bsp": {
+     "epoche": 200,
+     "maxAngoloGradi": 0.03985592955677515,
+     "mediaAngoloArcsec": 43.882365569836125,
+     "maxRadialeKm": 30.766157375343028,
+     "maxRadialeFrazioneA": 0.000236939664048503,
+     "superato": true
+    },
+    "ura111xl-705.bsp": {
+     "epoche": 200,
+     "maxAngoloGradi": 0.028879790829415383,
+     "mediaAngoloArcsec": 42.94724953256412,
+     "maxRadialeKm": 32.37972613864986,
+     "maxRadialeFrazioneA": 0.0002493662546049006,
+     "superato": true
+    }
+   }
+  },
+  "ariel": {
+   "tolleranzaGradi": 0.5,
+   "fonti": {
+    "ura184_part-3.bsp": {
+     "epoche": 200,
+     "maxAngoloGradi": 0.016206675915861318,
+     "mediaAngoloArcsec": 14.852181264335973,
+     "maxRadialeKm": 49.22590897855116,
+     "maxRadialeFrazioneA": 0.0002578226167177385,
+     "superato": true
+    },
+    "ura111xl-701.bsp": {
+     "epoche": 200,
+     "maxAngoloGradi": 0.03066671697814209,
+     "mediaAngoloArcsec": 33.651865554743814,
+     "maxRadialeKm": 60.587528222065885,
+     "maxRadialeFrazioneA": 0.00031732954029308445,
+     "superato": true
+    }
+   }
+  },
+  "umbriel": {
+   "tolleranzaGradi": 0.5,
+   "fonti": {
+    "ura184_part-3.bsp": {
+     "epoche": 200,
+     "maxAngoloGradi": 0.022922064865601374,
+     "mediaAngoloArcsec": 23.44192762540288,
+     "maxRadialeKm": 170.77878329053055,
+     "maxRadialeFrazioneA": 0.0006420702637131712,
+     "superato": true
+    },
+    "ura111xl-702.bsp": {
+     "epoche": 200,
+     "maxAngoloGradi": 0.019021006938188645,
+     "mediaAngoloArcsec": 25.618184707330084,
+     "maxRadialeKm": 196.9148837067769,
+     "maxRadialeFrazioneA": 0.0007403331308173643,
+     "superato": true
+    }
+   }
+  },
+  "titania": {
+   "tolleranzaGradi": 0.5,
+   "fonti": {
+    "ura184_part-3.bsp": {
+     "epoche": 199,
+     "maxAngoloGradi": 0.06506921438650425,
+     "mediaAngoloArcsec": 23.930135252930132,
+     "maxRadialeKm": 447.152808603365,
+     "maxRadialeFrazioneA": 0.001024917816750378,
+     "superato": true
+    },
+    "ura111xl-703.bsp": {
+     "epoche": 200,
+     "maxAngoloGradi": 0.10307380612255607,
+     "mediaAngoloArcsec": 43.90188496636701,
+     "maxRadialeKm": 471.8357322218362,
+     "maxRadialeFrazioneA": 0.0010814934832771642,
+     "superato": true
+    }
+   }
+  },
+  "oberon": {
+   "tolleranzaGradi": 0.5,
+   "fonti": {
+    "ura184_part-3.bsp": {
+     "epoche": 200,
+     "maxAngoloGradi": 0.03060996001196552,
+     "mediaAngoloArcsec": 34.04280442913694,
+     "maxRadialeKm": 588.0896497991635,
+     "maxRadialeFrazioneA": 0.001007953998393782,
+     "superato": true
+    },
+    "ura111xl-704.bsp": {
+     "epoche": 200,
+     "maxAngoloGradi": 0.028113748655836792,
+     "mediaAngoloArcsec": 32.75108577313057,
+     "maxRadialeKm": 651.6472541670082,
+     "maxRadialeFrazioneA": 0.0011168883104885063,
+     "superato": true
+    }
+   }
+  },
+  "tritone": {
+   "tolleranzaGradi": 0.5,
+   "fonti": {
+    "nep098_part-1.bsp": {
+     "epoche": 200,
+     "maxAngoloGradi": 0.0008776925299074344,
+     "mediaAngoloArcsec": 0.7325780793292204,
+     "maxRadialeKm": 0.26827114896150306,
+     "maxRadialeFrazioneA": 7.562065939249329e-07,
+     "superato": true
+    },
+    "nep097.bsp": {
+     "epoche": 200,
+     "maxAngoloGradi": 0.0004379306371990496,
+     "mediaAngoloArcsec": 0.35703131054366677,
+     "maxRadialeKm": 0.4229432328720577,
+     "maxRadialeFrazioneA": 1.192198500628461e-06,
+     "superato": true
+    }
+   }
+  },
+  "proteo": {
+   "tolleranzaGradi": 0.5,
+   "fonti": {
+    "nep098_part-3.bsp": {
+     "epoche": 200,
+     "maxAngoloGradi": 0.01177094315045951,
+     "mediaAngoloArcsec": 11.827287252793313,
+     "maxRadialeKm": 2.023962690262124,
+     "maxRadialeFrazioneA": 1.7203687455632697e-05,
+     "superato": true
+    }
+   }
+  },
+  "nereide": {
+   "tolleranzaGradi": 1.0,
+   "fonti": {
+    "nep105.bsp": {
+     "epoche": 200,
+     "maxAngoloGradi": 0.10489682550325953,
+     "mediaAngoloArcsec": 39.0428788716282,
+     "maxRadialeKm": 4457.8221029527485,
+     "maxRadialeFrazioneA": 0.0008084537589012891,
+     "superato": true
+    },
+    "nep101xl-802.bsp": {
+     "epoche": 200,
+     "maxAngoloGradi": 0.5042170834326395,
+     "mediaAngoloArcsec": 125.90526009545306,
+     "maxRadialeKm": 8784.400649066316,
+     "maxRadialeFrazioneA": 0.0015931056826445692,
+     "superato": true
+    }
+   }
+  },
+  "caronte": {
+   "tolleranzaGradi": 0.5,
+   "fonti": {
+    "plu060.bsp": {
+     "epoche": 200,
+     "maxAngoloGradi": 0.0010115198259626455,
+     "mediaAngoloArcsec": 0.509706653681193,
+     "maxRadialeKm": 0.013265766927361256,
+     "maxRadialeFrazioneA": 6.76971133827477e-07,
+     "superato": true
+    }
+   }
+  },
+  "notte": {
+   "tolleranzaGradi": 0.5,
+   "fonti": {
+    "plu060.bsp": {
+     "epoche": 198,
+     "maxAngoloGradi": 0.08067528744597763,
+     "mediaAngoloArcsec": 166.1854664386764,
+     "maxRadialeKm": 151.37630117785739,
+     "maxRadialeFrazioneA": 0.0031090473334330396,
+     "superato": true
+    }
+   }
+  },
+  "idra": {
+   "tolleranzaGradi": 0.5,
+   "fonti": {
+    "plu060.bsp": {
+     "epoche": 200,
+     "maxAngoloGradi": 0.017227615071949053,
+     "mediaAngoloArcsec": 28.276542065453338,
+     "maxRadialeKm": 34.762613236685866,
+     "maxRadialeFrazioneA": 0.0005371292236078531,
+     "superato": true
+    }
+   }
+  }
+ },
+ "horizons": {
+  "fobos": {
+   "epoche": 20,
+   "maxAngoloGradi": 0.08697075329836022,
+   "maxRadialeKm": 1.088633148041481,
+   "maxRadialeFrazioneA": 0.00011676596486256228,
+   "superato": true
+  },
+  "deimos": {
+   "epoche": 20,
+   "maxAngoloGradi": 0.0380102443066811,
+   "maxRadialeKm": 1.659156863723183,
+   "maxRadialeFrazioneA": 7.072882193594716e-05,
+   "superato": true
+  },
+  "io": {
+   "epoche": 20,
+   "maxAngoloGradi": 0.004013410782259299,
+   "maxRadialeKm": 26.218469728832133,
+   "maxRadialeFrazioneA": 6.220284029964544e-05,
+   "superato": true
+  },
+  "europa": {
+   "epoche": 20,
+   "maxAngoloGradi": 0.013615637149777631,
+   "maxRadialeKm": 322.0850579906255,
+   "maxRadialeFrazioneA": 0.00047945208706137157,
+   "superato": true
+  },
+  "ganimede": {
+   "epoche": 20,
+   "maxAngoloGradi": 0.007748577456317227,
+   "maxRadialeKm": 839.419181473786,
+   "maxRadialeFrazioneA": 0.0007849119249376376,
+   "superato": true
+  },
+  "callisto": {
+   "epoche": 20,
+   "maxAngoloGradi": 0.0053625643765157415,
+   "maxRadialeKm": 293.83557515754364,
+   "maxRadialeFrazioneA": 0.00015539601272416466,
+   "superato": true
+  },
+  "amaltea": {
+   "epoche": 20,
+   "maxAngoloGradi": 0.003607872628436727,
+   "maxRadialeKm": 4.345156465831678,
+   "maxRadialeFrazioneA": 2.400013576981453e-05,
+   "superato": true
+  },
+  "imalia": {
+   "epoche": 20,
+   "maxAngoloGradi": 0.25726372965025335,
+   "maxRadialeKm": 81679.21809563413,
+   "maxRadialeFrazioneA": 0.006602291498358035,
+   "superato": true
+  },
+  "mimas": {
+   "epoche": 20,
+   "maxAngoloGradi": 0.015917384100681768,
+   "maxRadialeKm": 42.78608778381022,
+   "maxRadialeFrazioneA": 0.000229223026912467,
+   "superato": true
+  },
+  "encelado": {
+   "epoche": 20,
+   "maxAngoloGradi": 0.007702386323080464,
+   "maxRadialeKm": 10.348333896836266,
+   "maxRadialeFrazioneA": 4.340240541114187e-05,
+   "superato": true
+  },
+  "teti": {
+   "epoche": 20,
+   "maxAngoloGradi": 0.00710742099885551,
+   "maxRadialeKm": 17.14665401162347,
+   "maxRadialeFrazioneA": 5.818714982011946e-05,
+   "superato": true
+  },
+  "dione": {
+   "epoche": 20,
+   "maxAngoloGradi": 0.005026274793152825,
+   "maxRadialeKm": 33.14130926091457,
+   "maxRadialeFrazioneA": 8.783278807256992e-05,
+   "superato": true
+  },
+  "rea": {
+   "epoche": 20,
+   "maxAngoloGradi": 0.005765333936284724,
+   "maxRadialeKm": 86.67641154839657,
+   "maxRadialeFrazioneA": 0.000164510634189363,
+   "superato": true
+  },
+  "titano": {
+   "epoche": 20,
+   "maxAngoloGradi": 0.004404119629505365,
+   "maxRadialeKm": 15.602505434537306,
+   "maxRadialeFrazioneA": 1.2642857995946441e-05,
+   "superato": true
+  },
+  "iperione": {
+   "epoche": 20,
+   "maxAngoloGradi": 0.33081211498590196,
+   "maxRadialeKm": 10584.700856033945,
+   "maxRadialeFrazioneA": 0.0070622673706292145,
+   "superato": true
+  },
+  "giapeto": {
+   "epoche": 20,
+   "maxAngoloGradi": 0.008719139141953339,
+   "maxRadialeKm": 633.4203135659918,
+   "maxRadialeFrazioneA": 0.00017707328817504194,
+   "superato": true
+  },
+  "febe": {
+   "epoche": 20,
+   "maxAngoloGradi": 0.03668238553242054,
+   "maxRadialeKm": 66342.66315486841,
+   "maxRadialeFrazioneA": 0.005052910222084388,
+   "superato": true
+  },
+  "miranda": {
+   "epoche": 20,
+   "maxAngoloGradi": 0.020916616495067025,
+   "maxRadialeKm": 20.741693353047594,
+   "maxRadialeFrazioneA": 0.00015976557997564487,
+   "superato": true
+  },
+  "ariel": {
+   "epoche": 20,
+   "maxAngoloGradi": 0.014771868360255794,
+   "maxRadialeKm": 37.53782454584143,
+   "maxRadialeFrazioneA": 0.00019658111989255103,
+   "superato": true
+  },
+  "umbriel": {
+   "epoche": 20,
+   "maxAngoloGradi": 0.02771309906879182,
+   "maxRadialeKm": 157.58334999671206,
+   "maxRadialeFrazioneA": 0.0005917235726364509,
+   "superato": true
+  },
+  "titania": {
+   "epoche": 20,
+   "maxAngoloGradi": 0.018450289447614183,
+   "maxRadialeKm": 406.80542361870175,
+   "maxRadialeFrazioneA": 0.000932798555535406,
+   "superato": true
+  },
+  "oberon": {
+   "epoche": 20,
+   "maxAngoloGradi": 0.01866739894882854,
+   "maxRadialeKm": 525.3467582580633,
+   "maxRadialeFrazioneA": 0.0009005288467508408,
+   "superato": true
+  },
+  "tritone": {
+   "epoche": 20,
+   "maxAngoloGradi": 0.0006053611646182887,
+   "maxRadialeKm": 0.2618068566080183,
+   "maxRadialeFrazioneA": 7.380173174029483e-07,
+   "superato": true
+  },
+  "proteo": {
+   "epoche": 20,
+   "maxAngoloGradi": 0.011954244270016921,
+   "maxRadialeKm": 1.4693287969275843,
+   "maxRadialeFrazioneA": 1.2491013350448447e-05,
+   "superato": true
+  },
+  "nereide": {
+   "epoche": 20,
+   "maxAngoloGradi": 0.03841906007846301,
+   "maxRadialeKm": 2174.8819594997913,
+   "maxRadialeFrazioneA": 0.0002539798104165986,
+   "superato": true
+  },
+  "caronte": {
+   "epoche": 20,
+   "maxAngoloGradi": 0.0004679803581461648,
+   "maxRadialeKm": 0.008780754222243559,
+   "maxRadialeFrazioneA": 4.4808132255692565e-07,
+   "superato": true
+  },
+  "notte": {
+   "epoche": 20,
+   "maxAngoloGradi": 0.07181133250192011,
+   "maxRadialeKm": 140.54847574835003,
+   "maxRadialeFrazioneA": 0.002861597563274725,
+   "superato": true
+  },
+  "idra": {
+   "epoche": 20,
+   "maxAngoloGradi": 0.012618754500029217,
+   "maxRadialeKm": 30.257155085768318,
+   "maxRadialeFrazioneA": 0.0004653369610018912,
+   "superato": true
+  },
+  "disnomia": {
+   "epoche": 20,
+   "maxAngoloGradi": 0.08992149467343749,
+   "maxRadialeKm": 15.71510996723373,
+   "maxRadialeFrazioneA": 0.0004213982729771249,
+   "superato": true
+  }
+ },
+ "centri": {
+  "4": {
+   "satellitiRilevanti": [],
+   "contributiKm": {
+    "fobos": 0.00015514281777173408,
+    "deimos": 5.266545602869407e-05
+   },
+   "epoche": 400,
+   "epochePrecise": 400,
+   "maxKm": 9.35061852239136e-07,
+   "maxKmDovePrecisi": 9.35061852239136e-07,
+   "scartoTipicoKm": 0.00016674002134872608,
+   "superato": true
+  },
+  "5": {
+   "satellitiRilevanti": [
+    "callisto",
+    "europa",
+    "ganimede",
+    "io"
+   ],
+   "contributiKm": {
+    "io": 19.837685474375874,
+    "europa": 16.961313779471315,
+    "ganimede": 83.52934279891144,
+    "callisto": 106.67240569622032,
+    "amaltea": 0.00023554171840483445,
+    "imalia": 0.013695948659280876
+   },
+   "epoche": 1200,
+   "epochePrecise": 422,
+   "maxKm": 0.08514252540150319,
+   "maxKmDovePrecisi": 0.07910803673183897,
+   "scartoTipicoKm": 128.82815834930733,
+   "superato": true
+  },
+  "6": {
+   "satellitiRilevanti": [
+    "dione",
+    "giapeto",
+    "rea",
+    "titano"
+   ],
+   "contributiKm": {
+    "mimas": 0.01224245195234768,
+    "encelado": 0.045237200965784076,
+    "teti": 0.3200930740238935,
+    "dione": 0.7273246121140856,
+    "rea": 2.138546931949305,
+    "titano": 289.13817835977886,
+    "iperione": 0.014461345516996621,
+    "giapeto": 11.310705048622573,
+    "febe": 0.18929732806590152
+   },
+   "epoche": 1800,
+   "epochePrecise": 563,
+   "maxKm": 0.028991599026138452,
+   "maxKmDovePrecisi": 0.028991599026138452,
+   "scartoTipicoKm": 289.5093866497717,
+   "superato": true
+  },
+  "7": {
+   "satellitiRilevanti": [
+    "ariel",
+    "oberon",
+    "titania",
+    "umbriel"
+   ],
+   "contributiKm": {
+    "miranda": 0.09199923851556945,
+    "ariel": 2.749024871011341,
+    "umbriel": 3.9201646858332997,
+    "titania": 16.775024010541095,
+    "oberon": 21.568604474541957
+   },
+   "epoche": 1000,
+   "epochePrecise": 0,
+   "maxKm": 0.04835996582570258,
+   "maxKmDovePrecisi": null,
+   "scartoTipicoKm": 27.222530594025834,
+   "superato": true
+  },
+  "8": {
+   "satellitiRilevanti": [
+    "tritone"
+   ],
+   "contributiKm": {
+    "tritone": 74.1270701195653,
+    "proteo": 0.044457069952192264,
+    "nereide": 0.0
+   },
+   "epoche": 600,
+   "epochePrecise": 305,
+   "maxKm": 0.42960271429010843,
+   "maxKmDovePrecisi": 0.33730930230175366,
+   "scartoTipicoKm": 74.1295935875155,
+   "superato": true
+  },
+  "10": {
+   "satellitiRilevanti": [
+    "caronte"
+   ],
+   "contributiKm": {
+    "caronte": 2131.351032302563,
+    "notte": 0.07467685050783564,
+    "idra": 0.13321770673003552
+   },
+   "epoche": 600,
+   "epochePrecise": 238,
+   "maxKm": 0.16044112086284704,
+   "maxKmDovePrecisi": 0.16044112086284704,
+   "scartoTipicoKm": 2131.5203058499137,
+   "superato": true
+  }
+ },
+ "lunghiNonAdottati": {
+  "dione": {
+   "sat441xl_part-1.bsp": {
+    "campioni": 141825,
+    "maxAngoloDoveDeterminabileGradi": 0.301875449283077,
+    "maxRapportoAngoloEps": 0.11196750155880836
+   },
+   "sat441xl_part-2.bsp": {
+    "campioni": 0,
+    "maxAngoloDoveDeterminabileGradi": null,
+    "maxRapportoAngoloEps": null
+   }
+  },
+  "rea": {
+   "sat441xl_part-1.bsp": {
+    "campioni": 178880,
+    "maxAngoloDoveDeterminabileGradi": 0.29648677060165385,
+    "maxRapportoAngoloEps": 0.16785413537131766
+   },
+   "sat441xl_part-2.bsp": {
+    "campioni": 0,
+    "maxAngoloDoveDeterminabileGradi": null,
+    "maxRapportoAngoloEps": null
+   }
+  },
+  "tritone": {
+   "nep097xl-801.bsp": {
+    "campioni": 41673,
+    "maxAngoloDoveDeterminabileGradi": 2.6361499357764098,
+    "maxRapportoAngoloEps": 0.062481861951728404
+   }
+  }
+ },
+ "superato": true
+}

@@ -1,0 +1,25 @@
+API VERSION: 1.2
+API SOURCE: NASA/JPL Horizons API
+
+*******************************************************************************
+JPL/HORIZONS                    19P/Borrelly               2026-Oct-18 15:43:50
+Rec #:90000293                  Soln.date: -             # obs: 162 (1904-1961)
+ 
+IAU76/J2000 helio. ecliptic osc. elements (au, days, deg., period=Julian yrs):
+ 
+  EPOCH=  2416860.5 ! 1905-Jan-15.0000000 (TDB)    RMSW= n.a.
+   EC= .615229             QR= 1.395366            TP= 2416862.7944
+   OM= 78.06870000000001   W= 352.3647             IN= 30.4855
+   A= 3.626484324442331    MA= 359.6725503722471   ADIST= 5.857602648884662
+   PER= 6.90616434685352   N= .142716888           ANGMOM= .025825133
+   DAN= 1.40009            DDN= 5.77572            L= 71.4789061
+   B= -3.8650187                                   TP= 1905-Jan-17.2944000000
+ 
+Comet physical (GM= km^3/s^2; RAD= km):
+   GM= n.a.                RAD= 2.4
+   M1=  9.9      M2=  13.2     k1=  14.    k2=  5.      PHCOF=  .030
+
+COMET comments 
+1: soln ref.= SAO/1905
+2: k1=14., k2=5., phase coef.=0.03;epoch may be 2416861.0 (hour ambiguous: 12h/0h);
+*******************************************************************************

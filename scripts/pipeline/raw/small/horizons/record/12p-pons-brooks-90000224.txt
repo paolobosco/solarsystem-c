@@ -1,0 +1,30 @@
+API VERSION: 1.2
+API SOURCE: NASA/JPL Horizons API
+
+*******************************************************************************
+JPL/HORIZONS                   12P/Pons-Brooks             2026-Oct-18 15:43:30
+Rec #:90000224 (+COV) Soln.date: 2022-May-09_10:46:48    # obs: 430 (1812-1954)
+ 
+IAU76/J2000 helio. ecliptic osc. elements (au, days, deg., period=Julian yrs):
+ 
+  EPOCH=  2414270.5 ! 1897-Dec-12.0000000 (TDB)    RMSW= n.a.
+   EC= .9546793966627336   QR= .7745662359217889   TP= 2409204.3283676389
+   OM= 255.7625218419923   W= 199.1315081578012    IN= 73.9093741705598
+   A= 17.09081916137854    MA= 70.670742511341     ADIST= 33.4070720868353
+   PER= 70.6565650717105   N= .013949536           ANGMOM= .021166473
+   DAN= 15.4416            DDN= .79604             L= 81.25434970000001
+   B= -18.3546696          MOID= .18651199         TP= 1884-Jan-28.8283676389
+ 
+Comet physical (GM= km^3/s^2; RAD= km):
+   GM= n.a.                RAD= n.a.
+   M1=  5.       M2=  11.      k1=  15.    k2=  10.     PHCOF= n.a.
+Comet non-gravitational force model (AMRAT=m^2/kg;A1-A3=au/d^2;DT=days;R0=au):
+   AMRAT=  0.                                      DT=  0.
+   A1= -9.793811291456E-10 A2= -2.709762193263E-10 A3= 0.
+ Non-standard or simulated/proxy model:
+   ALN=  .1112620426   NK=  4.6142   NM=  2.15     NN=  5.093    R0=  2.808
+
+COMET comments 
+1: soln ref.= JPL#J542/1, data arc: 1812-08-18 to 1954-09-03
+2: k1=15.0, k2=10.0;
+*******************************************************************************

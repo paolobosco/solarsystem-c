@@ -1,0 +1,3266 @@
+/* Interfaccia (§ 11 di docs/PROGETTO.md): base, layout per classi di larghezza, componenti,
+   preferenze di sistema. I colori vengono solo dai token di tokens.css. */
+
+/* ---------- Base ---------- */
+
+html,
+body {
+  margin: 0;
+  height: 100%;
+  background: var(--spazio);
+  color: var(--testo);
+  font-family: var(--font-testo);
+  font-size: var(--dim-testo);
+  line-height: var(--interlinea);
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+body {
+  overflow: hidden;
+  overscroll-behavior: none;
+}
+
+.ss-app *,
+.ss-app *::before,
+.ss-app *::after {
+  box-sizing: border-box;
+}
+
+.ss-app [hidden] {
+  display: none !important;
+}
+
+.ss-sr,
+.ss-salta:not(:focus) {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  padding: 0 !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  clip-path: inset(50%) !important;
+  white-space: nowrap !important;
+  border: 0 !important;
+}
+
+.ss-app :focus-visible {
+  outline: 2px solid var(--fuoco);
+  outline-offset: 2px;
+}
+
+.ss-app abbr[title] {
+  text-decoration: underline dotted;
+  text-underline-offset: 2px;
+  cursor: help;
+}
+
+.ss-num {
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+}
+
+.ss-mono {
+  font-family: var(--font-mono);
+  font-size: 0.95em;
+}
+
+.ss-icona {
+  width: 20px;
+  height: 20px;
+  flex: none;
+}
+
+.ss-simbolo {
+  flex: none;
+}
+
+/* ---------- Contenitore e mappa ---------- */
+
+.ss-app {
+  position: fixed;
+  inset: 0;
+  height: 100vh;
+  height: 100dvh;
+  overflow: hidden;
+  --ss-alto-console: 150px;
+  --ss-alto-foglio: 64px;
+  --ss-alto-legenda: 0px;
+  --ss-alto-messaggi: 0px;
+  --ss-alto-scheda: 0px;
+  --ss-tastiera: 0px;
+}
+
+/* ---------- Avvio: dati di base in caricamento o non disponibili ---------- */
+
+.ss-avvio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  padding: max(16px, env(safe-area-inset-top)) max(16px, env(safe-area-inset-right)) max(16px, env(safe-area-inset-bottom))
+    max(16px, env(safe-area-inset-left));
+  text-align: center;
+}
+
+.ss-avvio p {
+  margin: 0;
+  max-width: 32em;
+}
+
+.ss-avvio-titolo {
+  font-family: var(--font-titoli);
+  font-size: var(--dim-sezione);
+  font-weight: 600;
+}
+
+.ss-mappa {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  background: var(--spazio);
+}
+
+.ss-mappa:focus-visible {
+  outline: 2px solid var(--fuoco);
+  outline-offset: -6px;
+}
+
+.ss-mappa canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+  touch-action: none;
+}
+
+.ss-salta:focus {
+  position: absolute;
+  z-index: 100;
+  top: var(--margine-alto);
+  left: var(--margine-sinistro);
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  padding: 0 16px;
+  border-radius: var(--raggio-piccolo);
+  background: var(--giada);
+  color: var(--su-giada);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+/* ---------- Superfici ---------- */
+
+.ss-pannello,
+.ss-popover,
+.ss-console,
+.ss-legenda,
+.ss-avviso,
+.ss-benvenuto,
+.ss-caricamento,
+.ss-trova-campo,
+.ss-trova-lista,
+.ss-trova-vuoto,
+.ss-distanze,
+.ss-editor {
+  background: var(--superficie-pannello);
+  -webkit-backdrop-filter: blur(var(--sfocatura));
+  backdrop-filter: blur(var(--sfocatura));
+  border: 1px solid var(--linea);
+  border-radius: var(--raggio);
+  box-shadow: var(--ombra);
+  color: var(--testo);
+}
+
+/* Console e colonna delle distanze: sfocatura su uno pseudo-elemento. Con il backdrop-filter sull'elemento, che diventa
+   Backdrop Root (Filter Effects Level 2, § 3), l'editor della data e il menu Viste, discendenti che ne sporgono, non
+   sfocherebbero la scena dietro di sé. */
+.ss-console,
+.ss-distanze {
+  -webkit-backdrop-filter: none;
+  backdrop-filter: none;
+}
+
+.ss-console::before,
+.ss-distanze::before {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  inset: 0;
+  border-radius: inherit;
+  -webkit-backdrop-filter: blur(var(--sfocatura));
+  backdrop-filter: blur(var(--sfocatura));
+  pointer-events: none;
+}
+
+.ss-pannello-testa {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  padding: 10px 12px 6px 16px;
+}
+
+.ss-pannello-titolo {
+  margin: 0;
+  font-family: var(--font-titoli);
+  font-size: var(--dim-sezione);
+  font-weight: 600;
+  line-height: 1.25;
+}
+
+.ss-pannello-azioni {
+  display: flex;
+  gap: 8px;
+}
+
+.ss-pannello-corpo {
+  min-height: 0;
+  overflow: auto;
+  overscroll-behavior: contain;
+  padding: 0 12px 14px 16px;
+}
+
+.ss-sottotitolo {
+  margin: 14px 0 6px;
+  font-size: var(--dim-didascalia);
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  color: var(--testo-3);
+}
+
+.ss-nota {
+  margin: 6px 0;
+  overflow-wrap: anywhere;
+  font-size: var(--dim-didascalia);
+  color: var(--testo-3);
+}
+
+.ss-nota--ambra {
+  color: var(--ambra);
+}
+
+/* Nota sotto una casella dei livelli, allineata al testo (casella 20 px + spazio 10 px). */
+.ss-livelli-nota {
+  margin: -6px 0 8px 30px;
+}
+
+.ss-secondario {
+  color: var(--testo-3);
+  font-size: var(--dim-didascalia);
+}
+
+.ss-separatore {
+  border: 0;
+  border-top: 1px solid var(--linea);
+  margin: 10px 0;
+}
+
+/* ---------- Controlli ---------- */
+
+.ss-pulsante {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  min-height: var(--bersaglio);
+  min-width: var(--bersaglio);
+  padding: 0 12px;
+  border: 1px solid var(--bordo-controllo);
+  border-radius: var(--raggio-piccolo);
+  background: var(--superficie-rialzata);
+  color: var(--testo);
+  font: inherit;
+  font-weight: 600;
+  line-height: 1.2;
+  cursor: pointer;
+  transition: background-color var(--durata), border-color var(--durata);
+}
+
+.ss-pulsante:hover {
+  background: var(--superficie-incassata);
+  border-color: var(--giada-testo);
+}
+
+.ss-pulsante--icona {
+  width: var(--bersaglio);
+  padding: 0;
+}
+
+.ss-pulsante--primario,
+.ss-pulsante[aria-pressed='true'],
+.ss-pulsante.ss-attivo {
+  background: var(--giada);
+  border-color: var(--giada);
+  color: var(--su-giada);
+}
+
+.ss-pulsante--primario:hover,
+.ss-pulsante[aria-pressed='true']:hover,
+.ss-pulsante.ss-attivo:hover {
+  background: var(--giada-testo);
+  border-color: var(--giada-testo);
+}
+
+.ss-pulsante[aria-disabled='true'] {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.ss-input {
+  min-height: 44px;
+  padding: 0 10px;
+  border: 1px solid var(--bordo-controllo);
+  border-radius: var(--raggio-piccolo);
+  background: var(--superficie-incassata);
+  color: var(--testo);
+  font: inherit;
+  font-size: var(--dim-campo);
+}
+
+.ss-input:disabled {
+  opacity: 0.55;
+}
+
+.ss-input[aria-invalid='true'] {
+  border-color: var(--corallo);
+  box-shadow: 0 0 0 1px var(--corallo);
+}
+
+select.ss-input {
+  padding-right: 8px;
+  cursor: pointer;
+}
+
+.ss-casella {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-height: var(--bersaglio);
+  cursor: pointer;
+}
+
+.ss-casella-input {
+  flex: none;
+  width: 20px;
+  height: 20px;
+  margin: 0;
+  accent-color: var(--giada);
+  cursor: pointer;
+}
+
+.ss-casella-input:disabled + .ss-casella-testo {
+  color: var(--testo-3);
+}
+
+.ss-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 0 8px;
+  border: 1px solid var(--linea);
+  border-radius: 999px;
+  background: var(--superficie-rialzata);
+  color: var(--giada-testo);
+  font-size: var(--dim-didascalia);
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+kbd {
+  display: inline-block;
+  min-width: 1.6em;
+  padding: 0 6px;
+  border: 1px solid var(--bordo-controllo);
+  border-radius: 4px;
+  background: var(--superficie-rialzata);
+  font-family: var(--font-mono);
+  font-size: var(--dim-didascalia);
+  text-align: center;
+}
+
+/* ---------- Barra superiore, Trova, strumenti ---------- */
+
+/* Sopra i messaggi (24, sul telefono 26): risultati di Trova, Catalogo, Livelli e Menu aperti non sono coperti dalla nota
+   né dai messaggi (§ 11.3). */
+.ss-barra {
+  position: absolute;
+  z-index: 27;
+  top: var(--margine-alto);
+  left: var(--margine-sinistro);
+  right: var(--margine-destro);
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+  pointer-events: none;
+}
+
+.ss-barra > * {
+  pointer-events: auto;
+}
+
+.ss-barra-trova {
+  position: relative;
+  width: 320px;
+  max-width: 100%;
+}
+
+.ss-trova {
+  position: relative;
+}
+
+.ss-trova-campo {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  min-height: 44px;
+  padding: 0 4px 0 10px;
+  border: 0;
+  box-shadow: inset 0 0 0 1px var(--bordo-controllo), var(--ombra);
+}
+
+.ss-trova-campo:focus-within {
+  outline: 2px solid var(--fuoco);
+  outline-offset: 2px;
+}
+
+.ss-trova-lente {
+  color: var(--testo-3);
+}
+
+.ss-trova-input {
+  flex: 1;
+  min-width: 0;
+  min-height: 44px;
+  border: 0;
+  background: transparent;
+  color: var(--testo);
+  font: inherit;
+  font-size: var(--dim-campo);
+}
+
+.ss-trova-input::placeholder {
+  color: var(--testo-3);
+  opacity: 1;
+}
+
+.ss-trova-input:focus-visible {
+  outline: none;
+}
+
+.ss-trova-catalogo {
+  border-color: transparent;
+  background: transparent;
+  color: var(--giada-testo);
+}
+
+.ss-trova-catalogo[aria-expanded='true'] {
+  background: var(--superficie-rialzata);
+  border-color: var(--bordo-controllo);
+}
+
+.ss-trova-lista {
+  position: absolute;
+  z-index: 40;
+  top: calc(100% + 6px);
+  left: 0;
+  right: 0;
+  max-height: min(60dvh, 440px);
+  margin: 0;
+  padding: 6px 0;
+  overflow: auto;
+  overscroll-behavior: contain;
+}
+
+.ss-trova-gruppo {
+  margin: 0;
+  padding: 2px 0 6px;
+  list-style: none;
+}
+
+.ss-trova-gruppo-nome {
+  padding: 4px 14px 2px;
+  font-size: var(--dim-didascalia);
+  font-weight: 600;
+  color: var(--testo-3);
+}
+
+.ss-trova-opzione {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-height: var(--bersaglio);
+  padding: 6px 14px;
+  cursor: pointer;
+}
+
+.ss-trova-opzione:hover {
+  background: var(--superficie-rialzata);
+}
+
+.ss-trova-opzione[aria-selected='true'] {
+  background: var(--superficie-rialzata);
+  outline: 2px solid var(--fuoco);
+  outline-offset: -2px;
+}
+
+.ss-trova-dettaglio {
+  margin-left: auto;
+  padding-left: 8px;
+  font-size: var(--dim-didascalia);
+  color: var(--testo-3);
+  text-align: right;
+}
+
+.ss-trova-vuoto {
+  position: absolute;
+  z-index: 40;
+  top: calc(100% + 6px);
+  left: 0;
+  right: 0;
+  margin: 0;
+  padding: 10px 14px;
+  font-size: var(--dim-didascalia);
+  color: var(--testo-2);
+}
+
+.ss-strumenti {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.ss-strumento {
+  min-height: 44px;
+  background: var(--superficie-pannello);
+  -webkit-backdrop-filter: blur(var(--sfocatura));
+  backdrop-filter: blur(var(--sfocatura));
+}
+
+.ss-strumento[aria-expanded='true'] {
+  background: var(--superficie-rialzata);
+  border-color: var(--giada-testo);
+}
+
+.ss-strumento .ss-icona {
+  color: var(--giada-testo);
+}
+
+.ss-strumento[aria-pressed='true'] .ss-icona {
+  color: inherit;
+}
+
+.ss-solo-telefono {
+  display: none;
+}
+
+.ss-popover-ancora {
+  position: relative;
+}
+
+.ss-popover {
+  position: absolute;
+  z-index: 40;
+  top: calc(100% + 8px);
+  right: 0;
+  width: min(320px, calc(100vw - 32px));
+  max-height: calc(100dvh - var(--margine-alto) - 60px - var(--ss-alto-console) - 32px);
+  overflow: auto;
+  overscroll-behavior: contain;
+  /* Il controllo portato nella parte visibile con Tab mostra l'anello del focus intero (2 px a 2 px dal bordo). */
+  scroll-padding-block: 4px;
+  padding: 12px 16px 14px;
+}
+
+.ss-livelli-gruppo {
+  margin: 8px 0 0;
+  padding: 0;
+  border: 0;
+}
+
+.ss-legenda-lista {
+  display: grid;
+  gap: 2px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.ss-legenda-lista li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-height: 26px;
+  font-size: 14px;
+}
+
+.ss-legenda-lista--aff li {
+  align-items: flex-start;
+}
+
+.ss-legenda-lista--aff .ss-barre {
+  margin-top: 4px;
+}
+
+.ss-menu {
+  width: min(320px, calc(100vw - 32px));
+}
+
+.ss-menu-voce,
+.ss-preset-voce {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  min-height: var(--bersaglio);
+  padding: 6px 8px;
+  border: 0;
+  border-radius: 6px;
+  background: transparent;
+  color: var(--testo);
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+
+.ss-menu-voce:hover,
+.ss-preset-voce:hover {
+  background: var(--superficie-rialzata);
+}
+
+.ss-menu-voce .ss-icona {
+  color: var(--giada-testo);
+}
+
+.ss-menu-voce[aria-pressed='true'] {
+  box-shadow: inset 3px 0 0 var(--giada);
+  font-weight: 600;
+}
+
+.ss-preset-lista {
+  margin: 6px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* Voce con il focus sopra le altre: nella griglia a due colonne ogni voce si dipinge per intero dopo la precedente e lo
+   sfondo :hover della voce sottostante coprirebbe il lato inferiore dell'anello del focus (WCAG 2.2, SC 2.4.7). */
+.ss-preset-lista > li:focus-within {
+  position: relative;
+  z-index: 1;
+}
+
+.ss-preset-ampiezza {
+  margin-left: auto;
+  padding-left: 8px;
+  font-size: var(--dim-didascalia);
+  color: var(--testo-3);
+  white-space: nowrap;
+}
+
+/* ---------- Catalogo ---------- */
+
+.ss-ancora-catalogo {
+  position: relative;
+}
+
+.ss-catalogo {
+  position: absolute;
+  z-index: 30;
+  top: 8px;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  width: 360px;
+  max-width: calc(100vw - 32px);
+  /* Sopra la legenda permanente (§ 11.5.1), che resta leggibile a catalogo aperto. Se sopra la legenda restano meno di
+     160 px (intestazione e tre voci), il Catalogo arriva a 160 px, o fino a 32 px dalla console se lo spazio è minore, e
+     copre la legenda finché resta aperto: più basso non sarebbe utilizzabile (§ 11.6). */
+  max-height: max(
+    min(160px, calc(100dvh - var(--margine-alto) - 60px - var(--ss-alto-console) - 32px)),
+    calc(100dvh - var(--margine-alto) - 60px - var(--ss-alto-console) - var(--ss-alto-legenda) - 32px)
+  );
+}
+
+.ss-filtri {
+  margin: 0 0 4px;
+  padding: 0;
+  border: 0;
+}
+
+.ss-filtri-titolo {
+  padding: 0;
+  font-size: var(--dim-didascalia);
+  font-weight: 600;
+  color: var(--testo-3);
+}
+
+.ss-filtri-griglia {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0 10px;
+}
+
+.ss-casella--filtro {
+  gap: 8px;
+}
+
+.ss-casella-testo {
+  min-width: 0;
+}
+
+.ss-contatore {
+  margin-left: auto;
+  color: var(--testo-3);
+  font-size: var(--dim-didascalia);
+  font-variant-numeric: tabular-nums;
+}
+
+.ss-catalogo-sezione {
+  margin: 14px 0 4px;
+  font-size: var(--dim-didascalia);
+  font-weight: 600;
+  color: var(--testo-3);
+}
+
+.ss-catalogo-lista,
+.ss-catalogo-lune {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.ss-catalogo-lune {
+  margin-left: 15px;
+  padding-left: 12px;
+  border-left: 1px solid var(--linea);
+}
+
+.ss-catalogo-voce {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  min-height: var(--bersaglio);
+  padding: 4px 8px;
+  border: 0;
+  border-radius: 6px;
+  background: transparent;
+  color: var(--testo);
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+
+.ss-catalogo-voce:hover {
+  background: var(--superficie-rialzata);
+}
+
+.ss-catalogo-voce[aria-current='true'] {
+  background: var(--superficie-rialzata);
+  box-shadow: inset 3px 0 0 var(--giada);
+  font-weight: 600;
+}
+
+.ss-catalogo-stato {
+  margin-left: auto;
+  padding-left: 8px;
+  font-size: var(--dim-didascalia);
+  font-weight: 400;
+  color: var(--testo-3);
+  text-align: right;
+}
+
+.ss-catalogo-voce--nascosta .ss-catalogo-nome {
+  color: var(--testo-2);
+}
+
+/* ---------- Scheda ---------- */
+
+.ss-ancora-scheda {
+  display: contents;
+}
+
+.ss-scheda {
+  position: absolute;
+  z-index: 20;
+  top: calc(var(--margine-alto) + 56px);
+  right: var(--margine-destro);
+  width: 360px;
+  max-width: calc(100vw - 32px);
+  max-height: calc(100dvh - var(--margine-alto) - 56px - var(--ss-alto-console) - var(--margine-basso) - 16px);
+  overflow: auto;
+  overscroll-behavior: contain;
+  padding: 14px 16px 16px;
+}
+
+.ss-scheda--ridotta {
+  padding-bottom: 12px;
+}
+
+.ss-scheda-testa {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 2px 8px;
+  align-items: start;
+}
+
+.ss-scheda-nome {
+  margin: 0;
+  font-family: var(--font-titoli);
+  font-size: var(--dim-nome);
+  font-weight: 600;
+  line-height: 1.2;
+  overflow-wrap: anywhere;
+}
+
+.ss-scheda-nome:focus-visible {
+  outline-offset: 4px;
+}
+
+.ss-scheda-ufficiale {
+  margin: 2px 0 0;
+  font-size: var(--dim-didascalia);
+  color: var(--testo-2);
+}
+
+.ss-scheda-categoria {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin: 4px 0 0;
+  font-size: var(--dim-didascalia);
+  color: var(--testo-2);
+}
+
+.ss-scheda-pulsanti {
+  display: flex;
+  gap: max(6px, var(--spazio-bersagli));
+}
+
+.ss-badge-aff {
+  grid-column: 1 / -1;
+  justify-self: start;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin: 8px 0 0;
+  padding: 2px 10px;
+  border: 1px solid currentColor;
+  border-radius: 999px;
+  font-size: var(--dim-didascalia);
+  font-weight: 600;
+}
+
+.ss-aff--precisa,
+.ss-aff--buona {
+  color: var(--giada-testo);
+}
+
+.ss-aff--approssimata {
+  color: var(--ambra);
+}
+
+.ss-aff--indicativa {
+  color: var(--corallo);
+}
+
+.ss-aff--non-determinabile {
+  color: var(--testo-3);
+}
+
+.ss-badge-aff.ss-aff--approssimata {
+  background: var(--ambra);
+  border-color: var(--ambra);
+  color: var(--su-ambra);
+}
+
+.ss-badge-aff.ss-aff--indicativa {
+  background: var(--corallo);
+  border-color: var(--corallo);
+  color: var(--su-ambra);
+}
+
+.ss-aff {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.ss-aff-testo--precisa,
+.ss-aff-testo--buona {
+  color: var(--giada-testo);
+}
+
+.ss-aff-testo--approssimata {
+  color: var(--ambra);
+}
+
+.ss-aff-testo--indicativa {
+  color: var(--corallo);
+}
+
+.ss-aff-testo--non-determinabile {
+  color: var(--testo-2);
+}
+
+.ss-barre {
+  flex: none;
+}
+
+.ss-barra-piena {
+  fill: currentColor;
+}
+
+.ss-barra-vuota {
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1;
+}
+
+.ss-aff-frase {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  margin: 10px 0;
+}
+
+.ss-aff-frase .ss-barre {
+  margin-top: 4px;
+}
+
+.ss-aff-frase span {
+  color: var(--testo);
+}
+
+.ss-scheda-corpo {
+  margin-top: 4px;
+}
+
+.ss-scheda-ora {
+  margin-top: 4px;
+}
+
+.ss-scheda-ora > .ss-pulsante {
+  margin-top: 8px;
+}
+
+.ss-scheda-azioni {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.ss-copia-esito {
+  margin-top: 8px;
+}
+
+.ss-copia-esito .ss-nota {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin: 0 0 6px;
+}
+
+.ss-copia-campo {
+  width: 100%;
+}
+
+.ss-dati {
+  display: grid;
+  margin: 0;
+}
+
+.ss-voce {
+  display: grid;
+  /* Etichetta fino al 55 % della riga, valore nel resto: nessuna colonna si riduce a zero. */
+  grid-template-columns: fit-content(55%) minmax(0, 1fr);
+  gap: 12px;
+  align-items: baseline;
+  padding: 5px 0;
+  border-bottom: 1px solid var(--linea);
+}
+
+.ss-voce:last-child {
+  border-bottom: 0;
+}
+
+.ss-voce dt {
+  color: var(--testo-2);
+}
+
+.ss-voce dd {
+  min-width: 0;
+  margin: 0;
+  overflow-wrap: anywhere;
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+.ss-dati--compatti .ss-voce {
+  padding: 2px 0;
+}
+
+.ss-simbolo-elemento {
+  display: inline-block;
+  min-width: 1.5em;
+  font-family: var(--font-titoli);
+  font-style: italic;
+  font-weight: 600;
+  color: var(--giada-testo);
+}
+
+.ss-valore-fonte {
+  max-width: 100%;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.ss-fonte {
+  font-size: var(--dim-didascalia);
+  color: var(--testo-3);
+}
+
+.ss-riferimento {
+  margin: 4px 0 0;
+  font-size: var(--dim-didascalia);
+  color: var(--testo-2);
+}
+
+.ss-sezione {
+  margin-top: 10px;
+  border-top: 1px solid var(--linea);
+}
+
+.ss-sezione summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: var(--bersaglio);
+  cursor: pointer;
+  list-style: none;
+}
+
+.ss-sezione summary::-webkit-details-marker {
+  display: none;
+}
+
+.ss-sezione summary::after {
+  content: '';
+  width: 8px;
+  height: 8px;
+  margin-right: 6px;
+  border-right: 2px solid var(--giada-testo);
+  border-bottom: 2px solid var(--giada-testo);
+  transform: rotate(45deg);
+  transition: transform var(--durata);
+}
+
+.ss-sezione[open] summary::after {
+  transform: rotate(-135deg);
+}
+
+.ss-sezione-titolo {
+  margin: 0;
+  font-family: var(--font-titoli);
+  font-size: var(--dim-sezione);
+  font-weight: 600;
+}
+
+.ss-sezione-corpo {
+  padding-bottom: 4px;
+}
+
+.ss-avviso {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px 10px;
+  padding: 10px 12px;
+}
+
+.ss-avviso p {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  margin: 0;
+}
+
+.ss-avviso--ambra {
+  border-color: var(--ambra);
+}
+
+.ss-avviso--ambra .ss-icona {
+  color: var(--ambra);
+}
+
+.ss-avviso--errore {
+  border-color: var(--corallo);
+}
+
+.ss-avviso--errore > .ss-icona {
+  color: var(--corallo);
+}
+
+.ss-avviso--info {
+  border-color: var(--cielo);
+}
+
+.ss-avviso-testo {
+  flex: 1 1 12em;
+}
+
+.ss-scheda .ss-avviso {
+  margin: 8px 0;
+  box-shadow: none;
+}
+
+.ss-chip-scheda {
+  position: absolute;
+  z-index: 14;
+  left: var(--margine-sinistro);
+  bottom: calc(var(--ss-alto-foglio) + var(--ss-tastiera) + 12px);
+  max-width: calc(100vw - 32px - 60px);
+  border-radius: 999px;
+  background: var(--superficie-pannello);
+}
+
+.ss-chip-scheda span {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* ---------- Console temporale ---------- */
+
+.ss-foglio {
+  position: absolute;
+  z-index: 16;
+  left: 50%;
+  bottom: var(--margine-basso);
+  width: min(960px, calc(100% - var(--margine-sinistro) - var(--margine-destro)));
+  transform: translateX(-50%);
+}
+
+.ss-foglio-presa,
+.ss-maniglia {
+  display: none;
+}
+
+.ss-console {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 8px 14px 10px;
+}
+
+.ss-console:focus {
+  outline: none;
+}
+
+.ss-console-riga1 {
+  display: flex;
+  align-items: center;
+  gap: 8px 14px;
+}
+
+.ss-console-data {
+  display: flex;
+  flex: 1 1 auto;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 2px 14px;
+  min-width: 0;
+}
+
+.ss-data {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 44px;
+  margin-left: -8px;
+  padding: 2px 8px;
+  border: 1px solid transparent;
+  border-radius: var(--raggio-piccolo);
+  background: transparent;
+  color: var(--testo);
+  font: inherit;
+  font-size: var(--dim-data);
+  font-weight: 600;
+  line-height: 1.2;
+  text-align: left;
+  cursor: pointer;
+}
+
+.ss-data:hover,
+.ss-data[aria-expanded='true'] {
+  border-color: var(--bordo-controllo);
+  background: var(--superficie-incassata);
+}
+
+.ss-data-icona {
+  color: var(--giada-testo);
+}
+
+.ss-data-corpo {
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  column-gap: 0.35em;
+}
+
+.ss-data-breve {
+  display: none;
+}
+
+.ss-data-ora {
+  white-space: nowrap;
+}
+
+.ss-data-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 2px 10px;
+  margin: 0;
+  font-size: var(--dim-didascalia);
+  color: var(--testo-2);
+}
+
+.ss-prolettica {
+  color: var(--cielo);
+}
+
+.ss-console-destra {
+  display: flex;
+  flex: none;
+  align-items: center;
+  gap: 12px;
+  margin-left: auto;
+}
+
+.ss-deltat {
+  margin: 0;
+  font-size: var(--dim-didascalia);
+  color: var(--testo-2);
+  white-space: nowrap;
+}
+
+.ss-deltat abbr {
+  font-weight: 600;
+  color: var(--testo);
+}
+
+.ss-adesso .ss-icona {
+  color: var(--giada-testo);
+}
+
+.ss-adesso.ss-attivo .ss-icona {
+  color: inherit;
+}
+
+.ss-avviso-deltat {
+  display: flex;
+  align-items: flex-start;
+  gap: 6px;
+  margin: 0;
+  font-size: var(--dim-didascalia);
+  color: var(--ambra);
+}
+
+.ss-avviso-deltat .ss-icona {
+  width: 16px;
+  height: 16px;
+  margin-top: 2px;
+}
+
+.ss-console-riga2 {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.ss-passi,
+.ss-riproduzione {
+  display: flex;
+  flex: none;
+  align-items: center;
+  gap: var(--spazio-bersagli);
+}
+
+.ss-unita {
+  width: 7.6em;
+}
+
+.ss-velocita {
+  width: 8.4em;
+}
+
+.ss-riproduci.ss-attivo,
+.ss-riproduci:not(.ss-attivo) {
+  width: 44px;
+  min-height: 44px;
+}
+
+.ss-attesa {
+  margin: 0;
+  font-size: var(--dim-didascalia);
+  color: var(--cielo);
+}
+
+/* Regolo */
+
+.ss-regolo {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.ss-panoramica {
+  position: relative;
+  height: 36px;
+  cursor: pointer;
+  touch-action: pan-y;
+}
+
+@media (pointer: coarse) {
+  .ss-panoramica {
+    height: 44px;
+    padding-top: 4px;
+  }
+}
+
+.ss-panoramica-svg {
+  display: block;
+  overflow: visible;
+}
+
+.ss-pan-base {
+  fill: var(--superficie-incassata);
+  stroke: var(--bordo-controllo);
+  stroke-width: 1;
+}
+
+.ss-banda {
+  opacity: 0.9;
+}
+
+.ss-banda--precisa,
+.ss-banda--buona {
+  fill: var(--giada);
+}
+
+.ss-banda--buona {
+  opacity: 0.6;
+}
+
+.ss-banda--approssimata {
+  fill: var(--ambra);
+}
+
+.ss-banda--indicativa {
+  fill: var(--corallo);
+}
+
+.ss-banda--non-determinabile {
+  fill: none;
+}
+
+.ss-pan-tacca {
+  stroke: var(--testo-3);
+  stroke-width: 1;
+}
+
+.ss-pan-etichetta,
+.ss-tacca-etichetta {
+  font-family: var(--font-testo);
+  font-size: var(--dim-etichetta);
+}
+
+.ss-pan-etichetta {
+  fill: var(--testo-3);
+}
+
+.ss-pan-finestra {
+  fill: none;
+  stroke: var(--fuoco);
+  stroke-width: 1.5;
+}
+
+.ss-regolo-riga {
+  display: flex;
+  align-items: center;
+  gap: max(6px, var(--spazio-bersagli));
+  margin-top: 2px;
+}
+
+.ss-pulsante--piccolo {
+  width: var(--bersaglio-piccolo);
+  min-width: var(--bersaglio-piccolo);
+  min-height: var(--bersaglio-piccolo);
+}
+
+.ss-pulsante--piccolo .ss-icona {
+  width: 16px;
+  height: 16px;
+}
+
+.ss-regolo-inf {
+  position: relative;
+  flex: 1 1 auto;
+  min-width: 0;
+  height: 48px;
+  overflow: hidden;
+  border: 1px solid var(--bordo-controllo);
+  border-radius: var(--raggio-piccolo);
+  background: var(--superficie-incassata);
+  cursor: grab;
+  touch-action: pan-y;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.ss-regolo-inf:active {
+  cursor: grabbing;
+}
+
+.ss-regolo-svg {
+  display: block;
+}
+
+.ss-regolo-base {
+  stroke: var(--linea);
+}
+
+.ss-tacca {
+  stroke: var(--testo-3);
+  stroke-width: 1;
+}
+
+.ss-tacca-maggiore {
+  stroke: var(--testo-2);
+  stroke-width: 1.5;
+}
+
+.ss-tacca-etichetta {
+  fill: var(--testo-2);
+}
+
+.ss-fuori {
+  fill: var(--spazio);
+  opacity: 0.8;
+}
+
+.ss-ago {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  width: 2px;
+  margin-left: -1px;
+  background: var(--giada);
+  pointer-events: none;
+}
+
+.ss-ago::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -5px;
+  border: 6px solid transparent;
+  border-top-color: var(--giada);
+}
+
+.ss-regolo-piede {
+  font-size: var(--dim-etichetta);
+  color: var(--testo-3);
+  text-align: center;
+  line-height: 1.3;
+}
+
+/* Editor della data */
+
+.ss-editor {
+  position: absolute;
+  z-index: 5;
+  left: 0;
+  bottom: calc(100% + 8px);
+  width: min(600px, 100%);
+  max-height: calc(100dvh - var(--ss-alto-console) - var(--margine-basso) - var(--margine-alto) - 24px - var(--ss-tastiera));
+  overflow: auto;
+  overscroll-behavior: contain;
+  padding: 14px 16px 12px;
+}
+
+.ss-editor-titolo {
+  margin: 0 0 10px;
+  font-family: var(--font-titoli);
+  font-size: var(--dim-sezione);
+  font-weight: 600;
+}
+
+.ss-campi {
+  display: grid;
+  grid-template-columns: 4.2em minmax(8.5em, 1fr) 5.6em auto auto;
+  align-items: end;
+  gap: 10px;
+  padding: 4px;
+  margin: -4px;
+  border-radius: var(--raggio-piccolo);
+}
+
+.ss-campi[aria-invalid='true'] {
+  box-shadow: 0 0 0 1px var(--corallo);
+}
+
+.ss-campo {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  min-width: 0;
+}
+
+.ss-campo-etichetta {
+  font-size: var(--dim-didascalia);
+  color: var(--testo-2);
+}
+
+.ss-input--giorno,
+.ss-input--anno {
+  width: 100%;
+  text-align: center;
+}
+
+.ss-input--mese {
+  width: 100%;
+}
+
+.ss-segmenti {
+  display: flex;
+}
+
+.ss-segmento {
+  min-width: 52px;
+  min-height: 44px;
+  padding: 0 10px;
+  border: 1px solid var(--bordo-controllo);
+  background: var(--superficie-incassata);
+  color: var(--testo);
+  font: inherit;
+  font-size: var(--dim-campo);
+  cursor: pointer;
+}
+
+.ss-segmento:first-child {
+  border-radius: var(--raggio-piccolo) 0 0 var(--raggio-piccolo);
+}
+
+.ss-segmento:last-child {
+  border-left: 0;
+  border-radius: 0 var(--raggio-piccolo) var(--raggio-piccolo) 0;
+}
+
+.ss-segmento[aria-pressed='true'] {
+  background: var(--giada);
+  border-color: var(--giada);
+  color: var(--su-giada);
+  font-weight: 600;
+}
+
+.ss-segmento abbr[title] {
+  text-decoration: none;
+  cursor: inherit;
+}
+
+.ss-orario {
+  display: flex;
+  align-items: center;
+  gap: var(--spazio-bersagli);
+}
+
+.ss-input--ora {
+  width: 3.2em;
+  text-align: center;
+}
+
+.ss-orario-sep {
+  font-weight: 600;
+}
+
+.ss-editor-istruzioni {
+  margin: 10px 0 0;
+  font-size: var(--dim-didascalia);
+  color: var(--testo-3);
+}
+
+.ss-editor-messaggio {
+  margin-top: 10px;
+  padding: 10px 12px;
+  border: 1px solid var(--corallo);
+  border-radius: var(--raggio-piccolo);
+  background: var(--superficie-incassata);
+}
+
+.ss-editor-errore {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  margin: 0;
+}
+
+.ss-editor-errore .ss-icona {
+  margin-top: 2px;
+  color: var(--corallo);
+}
+
+.ss-editor-proposte {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.ss-editor-azioni {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.ss-avanzate {
+  margin-top: 10px;
+  border-top: 1px solid var(--linea);
+}
+
+.ss-avanzate summary {
+  display: flex;
+  align-items: center;
+  min-height: var(--bersaglio);
+  color: var(--giada-testo);
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.ss-campo--offset {
+  margin: 4px 0;
+  max-width: 260px;
+}
+
+/* ---------- Distanze, zoom, legenda ---------- */
+
+.ss-distanze {
+  position: absolute;
+  z-index: 12;
+  /* Centrata tra la barra superiore e la console, che non deve coprirla (§ 11.3, § 11.10): il regolo verticale si
+     accorcia fino a 100 px (--ss-alto-regolo-distanze); con meno spazio restano i pulsanti, in colonna o in riga
+     (data-distanze, index.ts). */
+  top: calc(var(--margine-alto) + 64px);
+  bottom: calc(var(--margine-basso) + var(--ss-alto-console, 0px) + 8px);
+  left: var(--margine-sinistro);
+  height: fit-content;
+  max-height: calc(100% - var(--margine-alto) - 64px - var(--margine-basso) - var(--ss-alto-console, 0px) - 8px);
+  margin: auto 0;
+  display: grid;
+  grid-template-columns: 44px auto;
+  justify-items: center;
+  gap: 8px 4px;
+  padding: 8px 10px 8px 6px;
+}
+
+.ss-app[data-distanze='pulsanti'] .ss-distanze-slider,
+.ss-app[data-distanze='riga'] .ss-distanze-slider {
+  display: none;
+}
+
+.ss-app[data-distanze='riga'] .ss-distanze {
+  grid-template-columns: repeat(4, 44px);
+  padding: 8px;
+}
+
+.ss-app[data-distanze='riga'] .ss-distanze > .ss-pulsante,
+.ss-app[data-distanze='riga'] .ss-distanze > .ss-preset-ancora {
+  grid-column: auto;
+}
+
+.ss-distanze > .ss-pulsante,
+.ss-distanze > .ss-preset-ancora {
+  grid-column: 1;
+}
+
+.ss-distanze-slider {
+  position: relative;
+  grid-column: 1 / -1;
+  justify-self: start;
+  width: 116px;
+  height: var(--ss-alto-regolo-distanze, 180px);
+  cursor: pointer;
+  touch-action: pan-x;
+}
+
+.ss-distanze-slider .ss-distanze-traccia {
+  left: 22px;
+}
+
+.ss-distanze-traccia {
+  position: absolute;
+  top: 6px;
+  bottom: 6px;
+  left: 50%;
+  width: 4px;
+  margin-left: -2px;
+  border-radius: 2px;
+  background: var(--bordo-controllo);
+}
+
+.ss-distanze-preset {
+  position: absolute;
+  left: -3px;
+  width: 10px;
+  height: 2px;
+  margin-top: -1px;
+  background: var(--testo-3);
+}
+
+/* 10³ km in alto, accanto ad Avvicina: --f è la distanza dall'alto (distanze.ts). */
+.ss-distanze-pollice {
+  position: absolute;
+  left: 50%;
+  top: calc(var(--f, 0) * 100%);
+  width: 18px;
+  height: 18px;
+  margin: -9px 0 0 -9px;
+  border: 2px solid var(--su-giada);
+  border-radius: 50%;
+  background: var(--giada);
+}
+
+.ss-distanze-tacche {
+  position: absolute;
+  top: 6px;
+  bottom: 6px;
+  left: 40px;
+  width: 0;
+  pointer-events: none;
+}
+
+.ss-distanze-tacca {
+  position: absolute;
+  left: 0;
+  margin-top: -0.6em;
+  font-size: var(--dim-etichetta);
+  line-height: 1.2;
+  color: var(--testo-2);
+  white-space: nowrap;
+}
+
+.ss-preset-ancora {
+  position: relative;
+}
+
+/* Menu Viste: sotto la barra superiore e dentro i margini, anche sopra la console (§ 11.3). scroll-margin dà i limiti a
+   distanze.ts (collocaPreset), che sceglie una o due colonne e sposta il menu quanto basta per restare nella finestra. */
+.ss-preset {
+  top: auto;
+  right: auto;
+  left: calc(100% + 14px);
+  bottom: 0;
+  max-height: calc(100dvh - var(--margine-alto) - 56px - var(--margine-basso));
+  scroll-margin: calc(var(--margine-alto) + 56px) var(--margine-destro) var(--margine-basso) var(--margine-sinistro);
+}
+
+.ss-preset[data-colonne='2'] {
+  width: min(540px, calc(100vw - var(--margine-sinistro) - var(--margine-destro)));
+}
+
+/* Due colonne lette dall'alto in basso: l'ordine di Tab segue quello visivo. */
+.ss-preset[data-colonne='2'] .ss-preset-lista {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-rows: repeat(var(--ss-preset-righe, 5), auto);
+  grid-auto-flow: column;
+  column-gap: 8px;
+}
+
+/* Menu Viste aperto: sopra i messaggi (z-index 24), che a destra della colonna ne coprirebbero le voci. */
+.ss-distanze:has(> .ss-preset-ancora > [aria-expanded='true']) {
+  z-index: 25;
+}
+
+.ss-zoom-mobile {
+  display: none;
+}
+
+.ss-legenda {
+  position: absolute;
+  z-index: 11;
+  left: calc(var(--margine-sinistro) + 152px);
+  bottom: calc(var(--margine-basso) + var(--ss-alto-console) + 12px);
+  max-width: 300px;
+  padding: 8px 12px;
+  font-size: var(--dim-didascalia);
+  color: var(--testo-2);
+  box-shadow: none;
+}
+
+.ss-barra-scala {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 2px 8px;
+  margin: 0 0 4px;
+}
+
+.ss-barra-linea {
+  display: inline-block;
+  height: 8px;
+  border: 2px solid var(--testo);
+  border-top: 0;
+}
+
+.ss-barra-valore {
+  font-weight: 600;
+  color: var(--testo);
+}
+
+.ss-barra-didascalia {
+  color: var(--testo-3);
+}
+
+.ss-legenda-frase {
+  margin: 0;
+}
+
+/* Senza WebGL2 non ci sono vista, scala né comandi della camera. */
+.ss-app[data-scena='assente'] :is(.ss-distanze, .ss-zoom-mobile, .ss-legenda) {
+  display: none;
+}
+
+/* ---------- Messaggi ---------- */
+
+/* Desktop e tablet: i messaggi stanno sotto la barra e sopra console e legenda (altezze misurate da index.ts) e scorrono se
+   lo spazio in altezza non basta, come sul telefono e in orizzontale (§ 11.3). Sul desktop la larghezza è simmetrica
+   attorno al centro: 360 px di pannello, margine e 8 px di respiro per lato, così non coprono né il Catalogo né la Scheda. */
+.ss-messaggi {
+  position: absolute;
+  z-index: 24;
+  top: calc(var(--margine-alto) + 56px);
+  left: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  /* Altezza della legenda da lasciare libera sotto i messaggi: con i pulsanti in riga la legenda sta alla loro sinistra. */
+  --ss-legenda-sotto: var(--ss-alto-legenda);
+  /* Altezza non disponibile: barra, margini, console, 12 px di respiro e legenda. Altezza minima: 0 (sul tablet stretto con
+     la Scheda, regole sotto, fino a 120 px tolta l'intestazione della Scheda). */
+  --ss-fuori-messaggi: calc(var(--margine-alto) + 56px + var(--margine-basso) + var(--ss-alto-console) + 12px + var(--ss-legenda-sotto));
+  --ss-minimo-messaggi: 0px;
+  /* Sfumatura del bordo con altro contenuto: 40 px, meno in un contenitore basso perché il testo visibile resti leggibile;
+     mai più alta del contenuto nascosto oltre quel bordo (--ss-oltre-su, --ss-oltre-giu, index.ts). */
+  --ss-sfuma: min(40px, 30%);
+  width: min(520px, calc(100% - 768px));
+  min-width: 0;
+  /* In unità della finestra, non in %: il valore calcolato è in px e index.ts (aggiornaNota) lo legge per scegliere la
+     forma della nota. */
+  max-height: max(var(--ss-minimo-messaggi), calc(100vh - var(--ss-fuori-messaggi)));
+  max-height: max(var(--ss-minimo-messaggi), calc(100dvh - var(--ss-fuori-messaggi)));
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  /* Il controllo con il focus non resta nella sfumatura del bordo. */
+  scroll-padding-block: var(--ss-sfuma);
+  transform: translateX(-50%);
+  pointer-events: none;
+}
+
+/* Scorrimento riconoscibile anche con le barre sovrapposte del tocco: il bordo oltre il quale c'è altro contenuto sfuma
+   (data-scorri, index.ts). */
+.ss-messaggi[data-scorri='giu'] {
+  -webkit-mask-image: linear-gradient(to bottom, #000 calc(100% - min(var(--ss-sfuma), var(--ss-oltre-giu, 40px))), transparent);
+  mask-image: linear-gradient(to bottom, #000 calc(100% - min(var(--ss-sfuma), var(--ss-oltre-giu, 40px))), transparent);
+}
+
+.ss-messaggi[data-scorri='su'] {
+  -webkit-mask-image: linear-gradient(to top, #000 calc(100% - min(var(--ss-sfuma), var(--ss-oltre-su, 40px))), transparent);
+  mask-image: linear-gradient(to top, #000 calc(100% - min(var(--ss-sfuma), var(--ss-oltre-su, 40px))), transparent);
+}
+
+.ss-messaggi[data-scorri='entrambi'] {
+  -webkit-mask-image: linear-gradient(
+    transparent,
+    #000 min(var(--ss-sfuma), var(--ss-oltre-su, 40px)),
+    #000 calc(100% - min(var(--ss-sfuma), var(--ss-oltre-giu, 40px))),
+    transparent
+  );
+  mask-image: linear-gradient(
+    transparent,
+    #000 min(var(--ss-sfuma), var(--ss-oltre-su, 40px)),
+    #000 calc(100% - min(var(--ss-sfuma), var(--ss-oltre-giu, 40px))),
+    transparent
+  );
+}
+
+/* Caricamento ed errori prima della nota, senza un riquadro proprio: sempre in cima, anche con la nota che scorre. */
+.ss-messaggi > .ss-avvisi {
+  display: contents;
+}
+
+.ss-messaggi > *,
+.ss-avvisi > * > * {
+  pointer-events: auto;
+}
+
+/* Sonda delle dimensioni dei messaggi per il ResizeObserver (index.ts): vuota, invisibile e fuori dal flusso, non cambia
+   layout né scorrimento e non riceve il puntatore. */
+.ss-messaggi > .ss-messaggi-sonda {
+  position: absolute;
+  inset: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.ss-avvisi,
+.ss-avvisi-bloccanti,
+.ss-avvisi-elenco {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.ss-avvisi-bloccanti:empty,
+.ss-avvisi-elenco:empty {
+  display: none;
+}
+
+.ss-benvenuto {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 12px 10px 12px 16px;
+}
+
+.ss-benvenuto-testo {
+  flex: 1;
+}
+
+.ss-benvenuto p {
+  margin: 0;
+}
+
+.ss-benvenuto p:first-child {
+  font-weight: 600;
+}
+
+.ss-benvenuto p + p {
+  margin-top: 4px;
+  color: var(--testo-2);
+}
+
+/* Nota ridotta (poco spazio su desktop e tablet): un comando apre il testo in un dialogo (§ 11.12). Senza il riquadro
+   della nota occupa solo l'altezza di un pulsante: sul tablet stretto toglie alla Scheda quella e gli 8 px di spazio. */
+.ss-benvenuto[data-forma='ridotta'] {
+  align-items: center;
+  gap: 8px;
+  padding: 0;
+  border: 0;
+  background: none;
+  -webkit-backdrop-filter: none;
+  backdrop-filter: none;
+  box-shadow: none;
+}
+
+.ss-benvenuto[data-forma='ridotta'] .ss-pulsante {
+  background: var(--superficie-pannello);
+  -webkit-backdrop-filter: blur(var(--sfocatura));
+  backdrop-filter: blur(var(--sfocatura));
+}
+
+/* I pulsanti sono a filo del contenitore dei messaggi, che scorre e taglia quello che ne esce: l'anello del focus sta
+   dentro il pulsante, a 2 px dal bordo (WCAG 2.2, SC 2.4.7). */
+.ss-benvenuto[data-forma='ridotta'] .ss-pulsante:focus-visible {
+  outline-offset: -4px;
+}
+
+.ss-benvenuto-leggi {
+  flex: 1;
+  min-width: 0;
+  justify-content: flex-start;
+  padding: 4px 12px;
+  text-align: left;
+}
+
+.ss-benvenuto-leggi .ss-icona {
+  color: var(--giada-testo);
+}
+
+.ss-benvenuto-dialogo p {
+  margin: 0 0 8px;
+}
+
+.ss-benvenuto-dialogo p:first-child {
+  font-weight: 600;
+}
+
+.ss-caricamento {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 8px 12px;
+  font-size: var(--dim-didascalia);
+}
+
+.ss-caricamento-barra {
+  position: relative;
+  height: 3px;
+  overflow: hidden;
+  border-radius: 2px;
+  background: var(--superficie-incassata);
+}
+
+.ss-caricamento-moto {
+  position: absolute;
+  inset: 0;
+  width: 30%;
+  background: var(--giada);
+  animation: ss-carica 1.2s ease-in-out infinite;
+}
+
+@keyframes ss-carica {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(340%);
+  }
+}
+
+/* ---------- Vista testuale ---------- */
+
+.ss-testuale {
+  position: absolute;
+  z-index: 18;
+  top: calc(var(--margine-alto) + 56px + var(--ss-alto-messaggi));
+  left: var(--margine-sinistro);
+  right: var(--margine-destro);
+  bottom: calc(var(--margine-basso) + var(--ss-alto-console) + 12px);
+  display: flex;
+  flex-direction: column;
+}
+
+.ss-testuale:focus {
+  outline: none;
+}
+
+.ss-testuale:focus-visible {
+  outline: 2px solid var(--fuoco);
+  outline-offset: 2px;
+}
+
+/* Desktop: catalogo (360 px a sinistra) e scheda (360 px a destra) possono essere aperti insieme. La scheda ridotta
+   all'intestazione non occupa la colonna: la vista testuale le passa sotto, a tutta larghezza. */
+.ss-app[data-layout='desktop'][data-scheda='aperta'] .ss-testuale {
+  right: calc(var(--margine-destro) + 372px);
+}
+
+.ss-app[data-layout='desktop'][data-scheda='ridotta'] .ss-testuale {
+  top: calc(var(--margine-alto) + 56px + max(var(--ss-alto-messaggi), var(--ss-alto-scheda)));
+}
+
+/* Senza WebGL2 la vista testuale è l'unica vista (RF10, § 11.11): accoglie i messaggi in pagina, scorre per intero e
+   riserva alla tabella fino a 16rem, così anche sui telefoni bassi e in orizzontale mostra almeno tre righe. */
+.ss-app[data-scena='assente'] .ss-testuale {
+  top: calc(var(--margine-alto) + 56px);
+  overflow-y: auto;
+  overscroll-behavior: contain;
+}
+
+.ss-app[data-scena='assente'][data-layout='desktop'][data-scheda='ridotta'] .ss-testuale {
+  top: calc(var(--margine-alto) + 56px + var(--ss-alto-scheda));
+}
+
+/* Messaggi interi nel flusso della vista, che scorre: senza altezza massima né scorrimento proprio (regola del telefono)
+   e senza restringersi accanto alla tabella, che sugli schermi bassi non si restringe (§ 11.11). */
+.ss-app[data-scena='assente'] .ss-pannello.ss-testuale .ss-messaggi {
+  position: static;
+  z-index: auto;
+  flex: none;
+  width: auto;
+  min-width: 0;
+  max-height: none;
+  margin: 0 16px 8px;
+  overflow-y: visible;
+  transform: none;
+}
+
+.ss-app[data-scena='assente'] .ss-testuale .ss-tabella-scorri {
+  flex: 1 0 min(16rem, 100%);
+}
+
+/* Sugli schermi bassi (telefono, anche in orizzontale) la tabella non scorre in verticale da sola: scorre l'intera vista,
+   che mostra così più righe di quante ne lascerebbero didascalia e intestazione fisse. */
+@media (max-height: 640px) {
+  .ss-app[data-scena='assente'] .ss-testuale .ss-tabella-scorri {
+    flex: none;
+  }
+}
+
+.ss-app[data-layout='desktop'][data-catalogo='aperto'] .ss-testuale {
+  left: calc(var(--margine-sinistro) + 372px);
+}
+
+.ss-testuale-info {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 16px;
+  padding: 0 16px 6px;
+}
+
+.ss-testuale-info p {
+  margin: 0;
+  font-size: var(--dim-didascalia);
+  color: var(--testo-2);
+}
+
+.ss-tabella-scorri {
+  min-height: 0;
+  overflow: auto;
+  overscroll-behavior: contain;
+}
+
+.ss-testuale .ss-tabella-scorri {
+  flex: 1;
+  margin: 0 16px 14px;
+  border: 1px solid var(--linea);
+  border-radius: var(--raggio-piccolo);
+}
+
+.ss-tabella {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+.ss-tabella caption {
+  padding: 8px 10px;
+  font-size: var(--dim-didascalia);
+  color: var(--testo-2);
+  text-align: left;
+}
+
+.ss-tabella th,
+.ss-tabella td {
+  padding: 6px 10px;
+  border-bottom: 1px solid var(--linea);
+  text-align: left;
+  vertical-align: middle;
+}
+
+.ss-tabella thead th {
+  position: sticky;
+  z-index: 1;
+  top: 0;
+  background: var(--superficie);
+  color: var(--testo-2);
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+/* Desktop: l'intestazione più lunga va a capo, così con la scheda aperta resta visibile anche la colonna Affidabilità. */
+.ss-app[data-layout='desktop'] .ss-tabella thead th.ss-col-coordinate {
+  white-space: normal;
+}
+
+.ss-tabella tbody th {
+  font-weight: 400;
+}
+
+.ss-destra {
+  text-align: right !important;
+}
+
+.ss-ordina {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  min-height: var(--bersaglio);
+  padding: 0 4px;
+  margin: 0 -4px;
+  border: 0;
+  border-radius: 4px;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  font-weight: 600;
+  text-align: left;
+  cursor: pointer;
+}
+
+.ss-ordina:hover {
+  color: var(--testo);
+}
+
+.ss-ordina-icona {
+  width: 16px;
+  height: 16px;
+  opacity: 0;
+  transform: rotate(180deg);
+}
+
+.ss-ordinata .ss-ordina-icona {
+  opacity: 1;
+}
+
+.ss-ordinata--disc .ss-ordina-icona {
+  transform: none;
+}
+
+.ss-tabella-corpo {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  min-height: var(--bersaglio);
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: var(--testo);
+  font: inherit;
+  font-weight: 600;
+  text-align: left;
+  cursor: pointer;
+}
+
+.ss-tabella-corpo:hover span {
+  text-decoration: underline;
+}
+
+.ss-tabella--accuratezza,
+.ss-tabella--tasti {
+  font-size: 14px;
+}
+
+.ss-tabella--accuratezza th,
+.ss-tabella--accuratezza td {
+  vertical-align: top;
+}
+
+.ss-tabella--accuratezza thead th {
+  background: var(--superficie-rialzata);
+}
+
+/* ---------- Dialoghi ---------- */
+
+.ss-dialogo {
+  width: min(560px, calc(100vw - 32px));
+  max-width: none;
+  max-height: min(86dvh, 900px);
+  padding: 0;
+  border: 1px solid var(--linea);
+  border-radius: var(--raggio);
+  background: var(--superficie);
+  color: var(--testo);
+  box-shadow: var(--ombra);
+  font-family: var(--font-testo);
+  font-size: var(--dim-testo);
+  line-height: var(--interlinea);
+}
+
+.ss-dialogo[open] {
+  display: flex;
+  flex-direction: column;
+}
+
+.ss-dialogo--ampio {
+  width: min(760px, calc(100vw - 32px));
+}
+
+.ss-dialogo::backdrop {
+  background: rgb(3 8 6 / 0.78);
+}
+
+.ss-dialogo-testa {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 12px 12px 10px 20px;
+  border-bottom: 1px solid var(--linea);
+}
+
+.ss-dialogo-titolo {
+  margin: 0;
+  font-family: var(--font-titoli);
+  font-size: var(--dim-data);
+  font-weight: 600;
+}
+
+.ss-dialogo-corpo {
+  /* Contenitore degli elementi posizionati (didascalie .ss-sr delle tabelle): senza, estendono lo
+     scorrimento del dialogo oltre il corpo e il dialogo può scorrere fino a un'area vuota. */
+  position: relative;
+  min-height: 0;
+  overflow: auto;
+  overscroll-behavior: contain;
+  padding: 8px 20px 20px;
+}
+
+.ss-dialogo-corpo:focus-visible {
+  outline: 2px solid var(--fuoco);
+  outline-offset: -4px;
+}
+
+.ss-fonti p {
+  margin: 0 0 10px;
+  max-width: 75ch;
+}
+
+.ss-fonti .ss-sottotitolo {
+  margin-top: 18px;
+  font-size: 16px;
+  color: var(--giada-testo);
+}
+
+.ss-riferimenti {
+  margin: 0;
+  padding-left: 1.2em;
+  font-size: 14px;
+  color: var(--testo-2);
+}
+
+.ss-riferimenti li + li {
+  margin-top: 6px;
+}
+
+.ss-impostazioni {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+  padding-top: 8px;
+}
+
+.ss-impostazioni .ss-nota {
+  margin: 0 0 8px 30px;
+}
+
+.ss-impostazioni > .ss-pulsante {
+  margin: 4px 0 12px;
+}
+
+.ss-scorciatoie .ss-tabella th {
+  width: 40%;
+}
+
+/* ---------- Tablet (700-1023 px) ---------- */
+
+.ss-app[data-layout='tablet'] .ss-etichetta-pulsante {
+  display: none;
+}
+
+.ss-app[data-layout='tablet'] .ss-scheda,
+.ss-app[data-layout='tablet'] .ss-catalogo {
+  width: 320px;
+}
+
+.ss-app[data-layout='tablet'] .ss-console-riga2 {
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 6px;
+}
+
+/* Il regolo, sopra i passi, li precede anche nel DOM (console.ts, disponi): il focus segue l'ordine visivo. */
+.ss-app[data-layout='tablet'] .ss-regolo {
+  flex-basis: 100%;
+}
+
+/* Messaggi a destra della colonna delle distanze, come la legenda: non coprono il regolo né il pulsante Avvicina
+   (§ 11.3, § 11.10); con la scheda o il catalogo aperti, accanto al pannello. Dove accanto alla Scheda resterebbero meno
+   di 200 px stanno nella colonna della Scheda (regole del tablet stretto, sotto). */
+.ss-app[data-layout='tablet'] .ss-messaggi {
+  top: calc(var(--margine-alto) + 56px);
+  left: calc(var(--margine-sinistro) + 152px);
+  right: var(--margine-destro);
+  width: auto;
+  min-width: 0;
+  transform: none;
+}
+
+.ss-app[data-layout='tablet'][data-pannello='scheda'] .ss-messaggi {
+  right: calc(var(--margine-destro) + 352px);
+}
+
+.ss-app[data-layout='tablet'][data-pannello='catalogo'] .ss-messaggi {
+  left: calc(var(--margine-sinistro) + 352px);
+}
+
+/* Pulsanti in riga (data-distanze, index.ts): la riga è larga 204 px e la legenda scende al margine sinistro, fino a
+   348 px. I messaggi sul tablet cominciano a destra della legenda, non della colonna, e non si fermano sopra di essa;
+   sul desktop sono già a destra (da 384 px). */
+.ss-app:is([data-layout='desktop'], [data-layout='tablet'])[data-distanze='riga'] .ss-messaggi {
+  --ss-legenda-sotto: 0px;
+}
+
+.ss-app[data-layout='tablet'][data-distanze='riga'] .ss-messaggi {
+  left: calc(var(--margine-sinistro) + 348px + 8px);
+}
+
+/* Tablet stretto: accanto alla Scheda resterebbero meno di 200 px (W - 536 px; con i pulsanti in riga, che spostano i
+   messaggi a destra della legenda, W - 740 px: sotto i 736 e i 940 px di larghezza). Messaggi e nota stanno nella colonna
+   della Scheda (320 px a destra), in testa, anche senza pannello, e la Scheda comincia sotto di essi, come il pannello
+   laterale in orizzontale; con il Catalogo aperto stanno alla sua destra. La legenda non entra in quella colonna
+   (max-width), quindi non si sottrae. Con la Scheda la colonna va dalla barra a 16 px dalla console e la Scheda conserva
+   sempre l'intestazione con nome e comandi (bordo, 10 px di padding, pulsanti, i 4 px dell'anello del focus sotto di
+   essi e 1 px di arrotondamento); i messaggi hanno fino a 120 px del resto, poi la Scheda fino a 128 px, poi di nuovo i
+   messaggi. Il pixel di arrotondamento passa ai messaggi quando basta perché la nota ridotta (alta un pulsante) entri
+   intera. Quello che non entra scorre nei messaggi (con la sfumatura) e nella Scheda. Con al più 120 px la nota è ridotta
+   (index.ts, § 11.3). */
+@media (max-width: 735.98px) {
+  .ss-app[data-layout='tablet'][data-pannello] .ss-messaggi {
+    --ss-legenda-sotto: 0px;
+    left: calc(100% - var(--margine-destro) - 320px);
+    right: var(--margine-destro);
+  }
+
+  .ss-app[data-layout='tablet'][data-pannello='scheda'] .ss-messaggi {
+    --ss-fuori-colonna: calc(var(--margine-alto) + 56px + var(--ss-alto-console) + var(--margine-basso) + 16px);
+    --ss-fuori-messaggi: calc(var(--ss-fuori-colonna) + 8px + 128px);
+    --ss-resto-colonna: calc(100dvh - var(--ss-fuori-colonna) - 8px - var(--bersaglio) - 17px);
+    /* Il resto, o l'altezza di un pulsante se il resto ne dista meno di 1 px (gradino: fattore 1000). */
+    --ss-minimo-messaggi: min(
+      120px,
+      max(var(--ss-resto-colonna), min(var(--bersaglio), calc(var(--bersaglio) + (var(--ss-resto-colonna) + 1px - var(--bersaglio)) * 1000)))
+    );
+  }
+
+  .ss-app[data-layout='tablet'][data-pannello='scheda'] .ss-scheda {
+    top: calc(var(--margine-alto) + 56px + var(--ss-alto-messaggi));
+    padding-top: 10px;
+    max-height: calc(100dvh - var(--margine-alto) - 56px - var(--ss-alto-messaggi) - var(--ss-alto-console) - var(--margine-basso) - 16px);
+  }
+}
+
+@media (max-width: 939.98px) {
+  .ss-app[data-layout='tablet'][data-distanze='riga'][data-pannello] .ss-messaggi {
+    --ss-legenda-sotto: 0px;
+    left: calc(100% - var(--margine-destro) - 320px);
+    right: var(--margine-destro);
+  }
+
+  .ss-app[data-layout='tablet'][data-distanze='riga'][data-pannello='scheda'] .ss-messaggi {
+    --ss-fuori-colonna: calc(var(--margine-alto) + 56px + var(--ss-alto-console) + var(--margine-basso) + 16px);
+    --ss-fuori-messaggi: calc(var(--ss-fuori-colonna) + 8px + 128px);
+    --ss-resto-colonna: calc(100dvh - var(--ss-fuori-colonna) - 8px - var(--bersaglio) - 17px);
+    /* Il resto, o l'altezza di un pulsante se il resto ne dista meno di 1 px (gradino: fattore 1000). */
+    --ss-minimo-messaggi: min(
+      120px,
+      max(var(--ss-resto-colonna), min(var(--bersaglio), calc(var(--bersaglio) + (var(--ss-resto-colonna) + 1px - var(--bersaglio)) * 1000)))
+    );
+  }
+
+  .ss-app[data-layout='tablet'][data-distanze='riga'][data-pannello='scheda'] .ss-scheda {
+    top: calc(var(--margine-alto) + 56px + var(--ss-alto-messaggi));
+    padding-top: 10px;
+    max-height: calc(100dvh - var(--margine-alto) - 56px - var(--ss-alto-messaggi) - var(--ss-alto-console) - var(--margine-basso) - 16px);
+  }
+}
+
+.ss-app[data-layout='tablet'] .ss-legenda {
+  left: calc(var(--margine-sinistro) + 152px);
+  max-width: min(300px, calc(100% - 152px - 32px - 336px));
+}
+
+/* Poco spazio in altezza: i pulsanti +, −, Inquadra e Viste sono in una riga larga 206 px (data-distanze='riga', index.ts),
+   più larga della colonna accanto a cui sta la legenda. La riga sale sotto la barra superiore (6 px dal campo Trova) e la
+   legenda scende al margine sinistro, sotto di essa; più larga (348 px, a 8 px dalla scheda sul tablet) si accorcia da
+   118 a 79 px e non sale sotto la barra (§ 11.3, § 11.5.1, R14). */
+.ss-app:is([data-layout='desktop'], [data-layout='tablet'])[data-distanze='riga'] .ss-distanze {
+  margin: -14px 0 auto;
+}
+
+.ss-app:is([data-layout='desktop'], [data-layout='tablet'])[data-distanze='riga'] .ss-legenda {
+  left: var(--margine-sinistro);
+  max-width: min(348px, calc(100% - var(--margine-sinistro) - var(--margine-destro) - 320px - 8px));
+}
+
+/* Con i pulsanti in riga il menu Viste si apre sotto la riga, allineato al suo bordo sinistro: verso l'alto uscirebbe
+   dallo schermo e a destra della riga, dove sul tablet stretto non entrano due colonne, coprirebbe la riga stessa. */
+.ss-app:is([data-layout='desktop'], [data-layout='tablet'])[data-distanze='riga'] .ss-preset-ancora {
+  position: static;
+}
+
+.ss-app:is([data-layout='desktop'], [data-layout='tablet'])[data-distanze='riga'] .ss-preset {
+  top: calc(100% + 8px);
+  left: -1px;
+  bottom: auto;
+}
+
+/* ---------- Telefono (< 700 px) e orizzontale (altezza < 480 px) ---------- */
+
+.ss-app[data-layout='telefono'] .ss-solo-ampio,
+.ss-app[data-layout='orizzontale'] .ss-solo-ampio,
+.ss-app[data-layout='telefono'] .ss-distanze,
+.ss-app[data-layout='orizzontale'] .ss-distanze {
+  display: none;
+}
+
+.ss-app[data-layout='telefono'] .ss-solo-telefono,
+.ss-app[data-layout='orizzontale'] .ss-solo-telefono {
+  display: inline-flex;
+}
+
+.ss-app[data-layout='telefono'] .ss-etichetta-pulsante,
+.ss-app[data-layout='orizzontale'] .ss-etichetta-pulsante {
+  display: none;
+}
+
+.ss-app[data-layout='telefono'] .ss-barra-trova {
+  flex: 1 1 auto;
+  width: auto;
+  min-width: 0;
+}
+
+.ss-app[data-layout='telefono'] .ss-strumenti .ss-popover-ancora,
+.ss-app[data-layout='orizzontale'] .ss-strumenti .ss-popover-ancora {
+  position: static;
+}
+
+.ss-app[data-layout='telefono'] .ss-popover,
+.ss-app[data-layout='orizzontale'] .ss-popover {
+  max-height: calc(100dvh - var(--margine-alto) - 60px - var(--margine-basso));
+}
+
+.ss-app[data-layout='telefono'] .ss-zoom-mobile,
+.ss-app[data-layout='orizzontale'] .ss-zoom-mobile {
+  position: absolute;
+  z-index: 13;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.ss-app[data-layout='telefono'] .ss-zoom-mobile {
+  right: var(--margine-destro);
+  bottom: calc(var(--ss-alto-foglio) + var(--ss-tastiera) + 12px);
+}
+
+.ss-app[data-layout='telefono'][data-foglio='esteso'] .ss-zoom-mobile,
+.ss-app[data-layout='telefono'][data-foglio='medio'] .ss-zoom-mobile,
+.ss-app[data-testuale='si'] .ss-zoom-mobile {
+  display: none;
+}
+
+.ss-app[data-layout='telefono'] .ss-regolo-piede {
+  display: none;
+}
+
+.ss-app[data-layout='telefono'] .ss-data-meta {
+  gap: 0 8px;
+}
+
+.ss-app[data-layout='telefono'] .ss-badge--calendario {
+  padding: 0;
+  border: 0;
+  background: none;
+  color: var(--giada-testo);
+}
+
+.ss-app[data-layout='telefono'] .ss-zoom-mobile .ss-pulsante,
+.ss-app[data-layout='orizzontale'] .ss-zoom-mobile .ss-pulsante {
+  background: var(--superficie-pannello);
+}
+
+.ss-app[data-layout='telefono'] .ss-legenda {
+  top: calc(var(--margine-alto) + 56px);
+  left: var(--margine-sinistro);
+  bottom: auto;
+  max-width: calc(100% - 32px);
+  padding: 6px 10px;
+}
+
+/* Messaggi sotto la legenda permanente, che resta visibile (§ 11.5.1), e sopra il foglio: sugli schermi bassi scorrono. */
+.ss-app[data-layout='telefono'] .ss-messaggi {
+  top: calc(var(--margine-alto) + 56px + var(--ss-alto-legenda));
+  width: calc(100% - 32px);
+  min-width: 0;
+  max-height: max(120px, calc(100% - var(--margine-alto) - 56px - var(--ss-alto-legenda) - var(--ss-alto-foglio) - var(--ss-tastiera) - 12px));
+  overflow-y: auto;
+  overscroll-behavior: contain;
+}
+
+/* Con il pulsante «Apri la scheda» i messaggi finiscono 8 px sopra di esso, che resta visibile e attivabile (§ 11.3). */
+.ss-app[data-layout='telefono'][data-chip='si'] .ss-messaggi {
+  max-height: max(120px, calc(100% - var(--margine-alto) - 56px - var(--ss-alto-legenda) - var(--ss-alto-foglio) - var(--ss-tastiera) - 12px - var(--bersaglio) - 8px));
+}
+
+/* Con i pulsanti della mappa visibili (foglio compatto) i messaggi lasciano libera la loro colonna (§ 11.3, § 11.10). */
+.ss-app[data-layout='telefono'][data-foglio='compatto']:not([data-testuale='si']) .ss-messaggi {
+  left: var(--margine-sinistro);
+  width: calc(100% - var(--margine-sinistro) - var(--margine-destro) - 52px);
+  transform: none;
+}
+
+.ss-app[data-layout='telefono'] .ss-messaggi:has(.ss-benvenuto:not([hidden])),
+.ss-app[data-layout='telefono'] .ss-messaggi:has(.ss-avviso) {
+  z-index: 26;
+}
+
+.ss-app[data-layout='telefono'] .ss-testuale {
+  bottom: calc(var(--ss-alto-foglio) + var(--ss-tastiera) + 12px);
+}
+
+.ss-app[data-layout='telefono'] .ss-testuale .ss-tabella-scorri {
+  margin: 0 12px 12px;
+}
+
+.ss-app[data-layout='telefono'] .ss-testuale-info {
+  padding: 0 12px 6px;
+}
+
+/* Foglio inferiore */
+
+.ss-app[data-layout='telefono'] .ss-foglio {
+  left: 0;
+  right: 0;
+  bottom: var(--ss-tastiera);
+  width: auto;
+  max-height: calc(100dvh - var(--margine-alto) - 56px - var(--ss-tastiera));
+  display: flex;
+  flex-direction: column;
+  padding: 4px var(--margine-destro) var(--margine-basso) var(--margine-sinistro);
+  transform: none;
+  border: 1px solid var(--linea);
+  border-bottom: 0;
+  border-radius: 16px 16px 0 0;
+  background: var(--superficie-pannello);
+  box-shadow: 0 -8px 24px rgb(0 0 0 / 0.45);
+  overscroll-behavior: contain;
+}
+
+/* Sfocatura del foglio su uno pseudo-elemento: un backdrop-filter sul foglio lo renderebbe il blocco
+   contenitore dell'editor della data (position: fixed), che va collocato rispetto alla finestra. */
+.ss-app[data-layout='telefono'] .ss-foglio::before,
+.ss-app[data-layout='orizzontale'] .ss-foglio::before {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  inset: 0;
+  border-radius: inherit;
+  -webkit-backdrop-filter: blur(var(--sfocatura));
+  backdrop-filter: blur(var(--sfocatura));
+  pointer-events: none;
+}
+
+/* Il foglio laterale scorre: la sfocatura resta ferma nella posizione del pannello. */
+.ss-app[data-layout='orizzontale'] .ss-foglio::before {
+  position: fixed;
+  inset: calc(var(--ss-cima-laterale) + var(--ss-alto-messaggi)) var(--margine-destro) var(--margine-basso) auto;
+  width: var(--ss-pannello-laterale);
+}
+
+/* Editor della data aperto: il foglio che lo contiene sale sopra pannelli, vista testuale e barra (§ 11.4.1). */
+.ss-app[data-editor='aperto'] .ss-foglio {
+  z-index: 35;
+}
+
+.ss-app[data-layout='telefono'][data-foglio='esteso'] .ss-foglio {
+  height: min(85dvh, calc(100dvh - var(--margine-alto) - 64px - var(--ss-alto-legenda) - var(--ss-tastiera)));
+}
+
+/* Foglio medio con il pulsante della scheda: sugli schermi bassi (320 × 568) la console scorre, così il pulsante resta
+   tra la legenda permanente e il foglio senza coprirla (§ 11.3, § 11.5.1). 58 px: pulsante, distanze e bordo. */
+.ss-app[data-layout='telefono'][data-foglio='medio'][data-chip='si'] .ss-console {
+  max-height: calc(100dvh - var(--ss-tastiera) - var(--margine-alto) - 56px - var(--ss-alto-legenda) - 58px - 4px - var(--margine-basso));
+  overflow-y: auto;
+  overscroll-behavior: contain;
+}
+
+.ss-app[data-layout='telefono'] .ss-foglio-presa {
+  position: absolute;
+  top: -14px;
+  left: 50%;
+  display: block;
+  width: 96px;
+  height: 22px;
+  margin-left: -48px;
+  touch-action: pan-x;
+  cursor: grab;
+}
+
+.ss-app[data-layout='telefono'] .ss-foglio-presa::after {
+  content: '';
+  position: absolute;
+  top: 16px;
+  left: 30px;
+  width: 36px;
+  height: 4px;
+  border-radius: 2px;
+  background: var(--bordo-controllo);
+}
+
+.ss-app[data-layout='telefono'] .ss-maniglia,
+.ss-app[data-layout='orizzontale'] .ss-maniglia {
+  display: inline-flex;
+  width: 44px;
+  min-width: 44px;
+  min-height: 44px;
+}
+
+.ss-app[data-layout='orizzontale'] .ss-maniglia {
+  display: none;
+}
+
+.ss-app[data-layout='telefono'] .ss-console {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  grid-template-areas:
+    'man dat ade'
+    'del del del'
+    'avv avv avv'
+    'reg reg reg'
+    'pas pas pas'
+    'rip rip rip'
+    'att att att';
+  column-gap: 8px;
+  row-gap: 6px;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: none;
+  -webkit-backdrop-filter: none;
+  backdrop-filter: none;
+  box-shadow: none;
+  flex: none;
+}
+
+.ss-app[data-layout='telefono'] .ss-console-riga1,
+.ss-app[data-layout='telefono'] .ss-console-riga2,
+.ss-app[data-layout='telefono'] .ss-console-destra {
+  display: contents;
+}
+
+.ss-app[data-layout='telefono'] .ss-maniglia {
+  grid-area: man;
+  align-self: start;
+}
+
+.ss-app[data-layout='telefono'] .ss-console-data {
+  grid-area: dat;
+  align-self: center;
+}
+
+.ss-app[data-layout='telefono'] .ss-adesso {
+  grid-area: ade;
+  align-self: start;
+}
+
+.ss-app[data-layout='telefono'] .ss-deltat {
+  grid-area: del;
+}
+
+.ss-app[data-layout='telefono'] .ss-avviso-deltat {
+  grid-area: avv;
+}
+
+.ss-app[data-layout='telefono'] .ss-regolo {
+  grid-area: reg;
+}
+
+.ss-app[data-layout='telefono'] .ss-passi {
+  grid-area: pas;
+  justify-content: space-between;
+}
+
+.ss-app[data-layout='telefono'] .ss-riproduzione {
+  grid-area: rip;
+  justify-content: flex-start;
+}
+
+.ss-app[data-layout='telefono'] .ss-attesa {
+  grid-area: att;
+}
+
+.ss-app[data-layout='telefono'] .ss-unita {
+  flex: 1;
+}
+
+.ss-app[data-layout='telefono'] .ss-velocita {
+  flex: 1;
+}
+
+.ss-app[data-layout='telefono'] .ss-adesso span {
+  display: none;
+}
+
+.ss-app[data-layout='telefono'] .ss-adesso {
+  width: 44px;
+  padding: 0;
+}
+
+.ss-app[data-layout='telefono'] .ss-data {
+  margin-left: 0;
+  padding: 0 6px;
+  font-size: 18px;
+}
+
+.ss-app[data-layout='telefono'] .ss-data-icona {
+  display: none;
+}
+
+/* Stato compatto ed esteso: una riga con data, riproduzione e velocità. */
+.ss-app[data-layout='telefono'][data-foglio='compatto'] .ss-console,
+.ss-app[data-layout='telefono'][data-foglio='esteso'] .ss-console {
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  grid-template-areas: 'man dat rip';
+}
+
+.ss-app[data-layout='telefono'][data-foglio='compatto'] :is(.ss-adesso, .ss-deltat, .ss-avviso-deltat, .ss-regolo, .ss-passi, .ss-direzione, .ss-data-meta, .ss-attesa),
+.ss-app[data-layout='telefono'][data-foglio='esteso'] :is(.ss-adesso, .ss-deltat, .ss-avviso-deltat, .ss-regolo, .ss-passi, .ss-direzione, .ss-data-meta, .ss-attesa) {
+  display: none;
+}
+
+/* La data può andare a capo (giorno e mese, anno, ora): la riga lascia al selettore della velocità lo spazio
+   dell'etichetta più lunga. */
+.ss-app[data-layout='telefono'][data-foglio='compatto'] .ss-data,
+.ss-app[data-layout='telefono'][data-foglio='esteso'] .ss-data {
+  padding: 0 2px;
+  font-size: 14px;
+  line-height: 1.25;
+  white-space: normal;
+}
+
+.ss-app[data-layout='telefono'][data-foglio='compatto'] .ss-data-testo,
+.ss-app[data-layout='telefono'][data-foglio='esteso'] .ss-data-testo {
+  display: none;
+}
+
+.ss-app[data-layout='telefono'][data-foglio='compatto'] .ss-data-breve,
+.ss-app[data-layout='telefono'][data-foglio='esteso'] .ss-data-breve {
+  display: inline;
+}
+
+.ss-app[data-layout='telefono'][data-foglio='compatto'] .ss-data-corpo,
+.ss-app[data-layout='telefono'][data-foglio='esteso'] .ss-data-corpo {
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.ss-app[data-layout='telefono'][data-foglio='compatto'] .ss-velocita,
+.ss-app[data-layout='telefono'][data-foglio='esteso'] .ss-velocita {
+  flex: none;
+  /* Larghezza dell'opzione più lunga: nessuna etichetta tagliata, con qualunque carattere. */
+  width: auto;
+  padding: 0 2px 0 4px;
+  font-size: 14px;
+}
+
+.ss-app[data-layout='telefono'][data-foglio='compatto'] .ss-console,
+.ss-app[data-layout='telefono'][data-foglio='esteso'] .ss-console {
+  column-gap: 6px;
+}
+
+.ss-app[data-layout='telefono'][data-foglio='compatto'] .ss-riproduzione,
+.ss-app[data-layout='telefono'][data-foglio='esteso'] .ss-riproduzione {
+  gap: 6px;
+}
+
+.ss-foglio-corpo {
+  display: none;
+}
+
+.ss-app[data-layout='telefono'][data-foglio='esteso'] .ss-foglio-corpo,
+.ss-app[data-layout='orizzontale'] .ss-foglio-corpo {
+  display: block;
+  flex: 1 1 auto;
+  min-height: 0;
+  margin: 8px calc(-1 * var(--margine-destro)) 0 calc(-1 * var(--margine-sinistro));
+  overflow: auto;
+  overscroll-behavior: contain;
+  border-top: 1px solid var(--linea);
+}
+
+.ss-app[data-layout='telefono'] .ss-foglio-corpo .ss-pannello,
+.ss-app[data-layout='orizzontale'] .ss-foglio-corpo .ss-pannello {
+  position: static;
+  width: auto;
+  max-width: none;
+  max-height: none;
+  overflow: visible;
+  border: 0;
+  border-radius: 0;
+  background: none;
+  -webkit-backdrop-filter: none;
+  backdrop-filter: none;
+  box-shadow: none;
+}
+
+.ss-app[data-layout='telefono'] .ss-foglio-corpo .ss-scheda,
+.ss-app[data-layout='orizzontale'] .ss-foglio-corpo .ss-scheda {
+  padding: 12px var(--margine-destro) 8px var(--margine-sinistro);
+}
+
+.ss-app[data-layout='telefono'] .ss-foglio-corpo .ss-pannello-testa,
+.ss-app[data-layout='orizzontale'] .ss-foglio-corpo .ss-pannello-testa {
+  padding: 10px var(--margine-destro) 6px var(--margine-sinistro);
+}
+
+.ss-app[data-layout='telefono'] .ss-foglio-corpo .ss-pannello-corpo,
+.ss-app[data-layout='orizzontale'] .ss-foglio-corpo .ss-pannello-corpo {
+  overflow: visible;
+  padding: 0 var(--margine-destro) 8px var(--margine-sinistro);
+}
+
+.ss-app[data-layout='telefono'] .ss-editor {
+  position: fixed;
+  left: var(--margine-sinistro);
+  right: var(--margine-destro);
+  bottom: calc(var(--ss-alto-foglio) + var(--ss-tastiera) + 8px);
+  width: auto;
+  max-height: calc(100dvh - var(--ss-alto-foglio) - var(--ss-tastiera) - var(--margine-alto) - 16px);
+}
+
+.ss-app[data-layout='telefono'] .ss-campi {
+  grid-template-columns: 4em minmax(0, 1fr) 5.6em;
+}
+
+.ss-app[data-layout='telefono'] .ss-campo--era {
+  grid-column: 1 / 3;
+}
+
+.ss-app[data-layout='telefono'] .ss-campo--orario {
+  grid-column: 3 / -1;
+  justify-self: end;
+}
+
+.ss-app[data-layout='telefono'] .ss-campo--era,
+.ss-app[data-layout='telefono'] .ss-campo--orario {
+  grid-row: 2;
+}
+
+.ss-app[data-layout='telefono'] .ss-chip-scheda {
+  z-index: 15;
+}
+
+/* Orizzontale: il foglio è un pannello laterale di 320 px; sotto i 512 px di larghezza più stretto, così alla mappa
+   restano 160 px per la legenda e la riga dei pulsanti +, − e Inquadra. */
+.ss-app[data-layout='orizzontale'] {
+  --ss-pannello-laterale: 320px;
+  --ss-cima-laterale: var(--margine-alto);
+}
+
+@media (max-width: 511px) {
+  .ss-app[data-layout='orizzontale'] {
+    --ss-pannello-laterale: min(320px, calc(100vw - var(--margine-sinistro) - var(--margine-destro) - 172px));
+  }
+
+  /* Legenda più bassa sopra la riga dei pulsanti: la didascalia della barra di scala resta per i lettori di schermo. */
+  .ss-app[data-layout='orizzontale'] .ss-barra-didascalia {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip-path: inset(50%);
+    white-space: nowrap;
+  }
+}
+
+.ss-app[data-layout='orizzontale'] .ss-barra {
+  right: calc(var(--margine-destro) + var(--ss-pannello-laterale) + 12px);
+}
+
+.ss-app[data-layout='orizzontale'] .ss-barra-trova {
+  flex: 1 1 auto;
+  width: auto;
+  min-width: 0;
+}
+
+.ss-app[data-layout='orizzontale'] .ss-foglio {
+  top: calc(var(--ss-cima-laterale) + var(--ss-alto-messaggi));
+  right: var(--margine-destro);
+  bottom: var(--margine-basso);
+  left: auto;
+  width: var(--ss-pannello-laterale);
+  transform: none;
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+  overscroll-behavior: contain;
+  border: 1px solid var(--linea);
+  border-radius: var(--raggio);
+  background: var(--superficie-pannello);
+  box-shadow: var(--ombra);
+}
+
+/* La mappa occupa l'area libera a sinistra del pannello laterale permanente: il corpo a fuoco, al centro della
+   mappa, non finisce sotto il pannello. */
+.ss-app[data-layout='orizzontale'] .ss-mappa {
+  right: calc(var(--margine-destro) + var(--ss-pannello-laterale));
+}
+
+.ss-app[data-layout='orizzontale'] .ss-console {
+  border: 0;
+  background: none;
+  box-shadow: none;
+  -webkit-backdrop-filter: none;
+  backdrop-filter: none;
+}
+
+.ss-app[data-layout='telefono'] .ss-console::before,
+.ss-app[data-layout='orizzontale'] .ss-console::before {
+  content: none;
+}
+
+.ss-app[data-layout='orizzontale'] .ss-console-riga1,
+.ss-app[data-layout='orizzontale'] .ss-console-riga2 {
+  flex-wrap: wrap;
+}
+
+.ss-app[data-layout='orizzontale'] .ss-regolo {
+  flex-basis: 100%;
+}
+
+.ss-app[data-layout='orizzontale'] .ss-data {
+  font-size: 18px;
+}
+
+.ss-app[data-layout='orizzontale'] .ss-foglio-corpo {
+  margin: 0;
+  overflow: visible;
+}
+
+/* Editor tra il margine sinistro e il pannello, o sopra il pannello se lo spazio non basta. */
+.ss-app[data-layout='orizzontale'] .ss-editor {
+  position: fixed;
+  left: var(--margine-sinistro);
+  right: auto;
+  top: var(--margine-alto);
+  bottom: auto;
+  width: min(600px, calc(100vw - var(--margine-sinistro) - var(--margine-destro)), max(calc(100vw - var(--margine-sinistro) - var(--margine-destro) - var(--ss-pannello-laterale) - 12px), 420px));
+  max-height: calc(100dvh - var(--margine-alto) - var(--margine-basso));
+}
+
+.ss-app[data-layout='orizzontale'] .ss-campi {
+  grid-template-columns: 4em minmax(0, 1fr) 5.6em;
+}
+
+.ss-app[data-layout='orizzontale'] .ss-campo--era {
+  grid-column: 1 / 3;
+  grid-row: 2;
+}
+
+.ss-app[data-layout='orizzontale'] .ss-campo--orario {
+  grid-column: 3 / -1;
+  grid-row: 2;
+  justify-self: end;
+}
+
+.ss-app[data-layout='orizzontale'] .ss-zoom-mobile {
+  left: var(--margine-sinistro);
+  bottom: var(--margine-basso);
+  flex-direction: row;
+}
+
+.ss-app[data-layout='orizzontale'] .ss-legenda {
+  top: calc(var(--margine-alto) + 56px);
+  left: var(--margine-sinistro);
+  bottom: auto;
+  max-width: min(300px, calc(100% - 32px - var(--ss-pannello-laterale) - 16px));
+}
+
+/* Messaggi in testa al pannello laterale, fuori dalla parte che scorre: il pannello comincia sotto di essi
+   (--ss-alto-messaggi), così restano visibili anche a pannello scorso e il pannello conserva almeno 120 px; scorrono
+   se lo spazio non basta. Nella colonna stretta a sinistra coprirebbero i pulsanti della mappa e uscirebbero dallo
+   schermo (§ 11.3, § 11.11). */
+.ss-app[data-layout='orizzontale'] .ss-messaggi {
+  top: var(--ss-cima-laterale);
+  right: var(--margine-destro);
+  left: auto;
+  width: var(--ss-pannello-laterale);
+  min-width: 0;
+  max-height: max(120px, calc(100% - var(--ss-cima-laterale) - var(--margine-basso) - 128px));
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  transform: none;
+}
+
+/* Senza WebGL2 i messaggi sono nella vista testuale (index.ts): il pannello laterale comincia in cima alla colonna. */
+.ss-app[data-scena='assente'][data-layout='orizzontale'] .ss-foglio,
+.ss-app[data-scena='assente'][data-layout='orizzontale'] .ss-foglio::before {
+  top: var(--ss-cima-laterale);
+}
+
+/* Orizzontale stretto: accanto al pannello il campo Trova resterebbe sotto i 120 px. La barra superiore occupa tutta
+   la larghezza e il pannello laterale comincia sotto di essa. */
+@media (max-width: 683px) {
+  .ss-app[data-layout='orizzontale'] .ss-barra {
+    right: var(--margine-destro);
+  }
+
+  .ss-app[data-layout='orizzontale'] {
+    --ss-cima-laterale: calc(var(--margine-alto) + 56px);
+  }
+}
+
+/* I messaggi sono in testa al pannello laterale: la vista testuale non ne tiene conto. */
+.ss-app[data-layout='orizzontale'] .ss-testuale {
+  top: calc(var(--margine-alto) + 56px);
+  right: calc(var(--margine-destro) + var(--ss-pannello-laterale) + 16px);
+  bottom: var(--margine-basso);
+}
+
+.ss-app[data-layout='orizzontale'] .ss-chip-scheda {
+  display: none;
+}
+
+/* ---------- Preferenze di sistema ---------- */
+
+@media (prefers-reduced-motion: reduce) {
+  .ss-app *,
+  .ss-app *::before,
+  .ss-app *::after,
+  .ss-dialogo,
+  .ss-dialogo::backdrop {
+    animation: none !important;
+    transition: none !important;
+    scroll-behavior: auto !important;
+  }
+
+  .ss-caricamento-moto {
+    width: 100%;
+    opacity: 0.6;
+  }
+}
+
+@media (prefers-contrast: more) {
+  .ss-pannello,
+  .ss-popover,
+  .ss-console,
+  .ss-legenda,
+  .ss-avviso,
+  .ss-benvenuto,
+  .ss-caricamento,
+  .ss-trova-campo,
+  .ss-trova-lista,
+  .ss-distanze,
+  .ss-editor,
+  .ss-strumento,
+  .ss-app .ss-foglio::before,
+  .ss-console::before,
+  .ss-distanze::before {
+    -webkit-backdrop-filter: none;
+    backdrop-filter: none;
+  }
+
+  .ss-trova-input::placeholder {
+    color: var(--testo-2);
+  }
+}
+
+@media (forced-colors: active) {
+  .ss-pannello,
+  .ss-popover,
+  .ss-console,
+  .ss-legenda,
+  .ss-avviso,
+  .ss-benvenuto,
+  .ss-caricamento,
+  .ss-trova-campo,
+  .ss-trova-lista,
+  .ss-distanze,
+  .ss-editor,
+  .ss-dialogo,
+  .ss-app[data-layout='telefono'] .ss-foglio {
+    border: 1px solid CanvasText;
+    -webkit-backdrop-filter: none;
+    backdrop-filter: none;
+  }
+
+  .ss-app .ss-foglio::before,
+  .ss-console::before,
+  .ss-distanze::before {
+    -webkit-backdrop-filter: none;
+    backdrop-filter: none;
+  }
+
+  .ss-pulsante,
+  .ss-input,
+  .ss-segmento,
+  .ss-catalogo-voce,
+  .ss-menu-voce,
+  .ss-preset-voce,
+  .ss-ordina,
+  .ss-tabella-corpo,
+  .ss-data {
+    border: 1px solid ButtonText;
+  }
+
+  .ss-pulsante[aria-pressed='true'],
+  .ss-pulsante.ss-attivo,
+  .ss-segmento[aria-pressed='true'],
+  .ss-catalogo-voce[aria-current='true'],
+  .ss-trova-opzione[aria-selected='true'] {
+    forced-color-adjust: none;
+    background: Highlight;
+    color: HighlightText;
+    border-color: Highlight;
+  }
+
+  .ss-app :focus-visible,
+  .ss-trova-campo:focus-within,
+  .ss-mappa:focus-visible {
+    outline: 2px solid Highlight;
+  }
+
+  .ss-ago,
+  .ss-ago::before,
+  .ss-distanze-pollice,
+  .ss-distanze-traccia,
+  .ss-barra-linea {
+    forced-color-adjust: none;
+    background: Highlight;
+    border-color: Highlight;
+  }
+
+  .ss-ago::before {
+    background: none;
+    border-color: transparent;
+    border-top-color: Highlight;
+  }
+
+  .ss-pan-base,
+  .ss-tacca,
+  .ss-tacca-maggiore,
+  .ss-pan-tacca,
+  .ss-regolo-base {
+    stroke: CanvasText;
+  }
+
+  .ss-pan-etichetta,
+  .ss-tacca-etichetta,
+  .ss-barra-piena {
+    fill: CanvasText;
+  }
+
+  .ss-pan-finestra {
+    stroke: Highlight;
+  }
+
+  .ss-banda {
+    fill: CanvasText;
+  }
+
+  .ss-banda--non-determinabile {
+    fill: none;
+  }
+
+  .ss-badge-aff {
+    forced-color-adjust: none;
+    background: Canvas;
+    color: CanvasText;
+    border-color: CanvasText;
+  }
+
+  .ss-salta:focus {
+    border: 2px solid Highlight;
+  }
+}

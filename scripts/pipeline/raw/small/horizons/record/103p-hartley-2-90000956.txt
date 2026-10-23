@@ -1,0 +1,25 @@
+API VERSION: 1.2
+API SOURCE: NASA/JPL Horizons API
+
+*******************************************************************************
+JPL/HORIZONS                   103P/Hartley 2              2026-Oct-18 15:51:05
+Rec #:90000956                  Soln.date: -             # obs: 555 (1986-2005)
+ 
+IAU76/J2000 helio. ecliptic osc. elements (au, days, deg., period=Julian yrs):
+ 
+  EPOCH=  2448520.5 ! 1991-Sep-21.0000000 (TDB)    RMSW= n.a.
+   EC= .719493             QR= .9532969999999999   TP= 2448511.1513999999
+   OM= 226.7846            W= 174.8957             IN= 9.251799999999999
+   A= 3.398478469343011    MA= 1.470699238626101   ADIST= 5.843659938686023
+   PER= 6.26520068199776   N= .157317592           ANGMOM= .022023978
+   DAN= 5.78482            DDN= .95488             L= 41.7463562
+   B= .8195794                                     TP= 1991-Sep-11.6513999999
+ 
+Comet physical (GM= km^3/s^2; RAD= km):
+   GM= n.a.                RAD= .800
+   M1=  16.      M2=  n.a.     k1=  4.5    k2= n.a.     PHCOF= n.a.
+
+COMET comments 
+1: soln ref.= SAO/1991
+2: k1=4.5;non-gravs. considered; 2008 SAO Comet Catalog
+*******************************************************************************

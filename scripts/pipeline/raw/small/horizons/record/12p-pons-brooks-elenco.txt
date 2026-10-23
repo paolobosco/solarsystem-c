@@ -1,0 +1,21 @@
+API VERSION: 1.2
+API SOURCE: NASA/JPL Horizons API
+
+*******************************************************************************
+JPL/DASTCOM            Small-body Index Search Results     2026-Oct-18 15:43:26
+
+ Comet AND asteroid index search:
+
+    DES = 12P;
+
+ Matching small-bodies: 
+
+    Record #  Epoch-yr  >MATCH DESIG<  Primary Desig  Name  
+    --------  --------  -------------  -------------  -------------------------
+    90000222    1812    12P            12P             Pons-Brooks
+    90000223    1884    12P            12P             Pons-Brooks
+    90000224    1897    12P            12P             Pons-Brooks
+    90000225    2023    12P            12P             Pons-Brooks
+
+ (4 matches. To SELECT, enter record # (integer), followed by semi-colon.)
+*******************************************************************************

@@ -1,0 +1,33 @@
+API VERSION: 1.2
+API SOURCE: NASA/JPL Horizons API
+
+*******************************************************************************
+JPL/DASTCOM            Small-body Index Search Results     2026-Oct-18 15:45:08
+
+ Comet AND asteroid index search:
+
+    DES = 21P;
+
+ Matching small-bodies: 
+
+    Record #  Epoch-yr  >MATCH DESIG<  Primary Desig  Name  
+    --------  --------  -------------  -------------  -------------------------
+    90000309    1900    21P            21P             Giacobini-Zinner
+    90000310    1913    21P            21P             Giacobini-Zinner
+    90000311    1926    21P            21P             Giacobini-Zinner
+    90000312    1933    21P            21P             Giacobini-Zinner
+    90000313    1940    21P            21P             Giacobini-Zinner
+    90000314    1946    21P            21P             Giacobini-Zinner
+    90000315    1959    21P            21P             Giacobini-Zinner
+    90000316    1966    21P            21P             Giacobini-Zinner
+    90000317    1972    21P            21P             Giacobini-Zinner
+    90000318    1979    21P            21P             Giacobini-Zinner
+    90000319    1985    21P            21P             Giacobini-Zinner
+    90000320    1992    21P            21P             Giacobini-Zinner
+    90000321    1998    21P            21P             Giacobini-Zinner
+    90000322    2006    21P            21P             Giacobini-Zinner
+    90000323    2013    21P            21P             Giacobini-Zinner
+    90000324    2017    21P            21P             Giacobini-Zinner
+
+ (16 matches. To SELECT, enter record # (integer), followed by semi-colon.)
+*******************************************************************************

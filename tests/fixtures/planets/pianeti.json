@@ -1,0 +1,56 @@
+{
+ "descrizione": "Posizioni eliocentriche DE441 attese e posizioni dai file planets/pKK.bin valutate in Python",
+ "generatore": "scripts/pipeline/planets.py fixture",
+ "seme": 20261102,
+ "file": "pianeti-de441.bin",
+ "sha256": "d9bc51cc969a0cea2d33dc18cd70c06c064f043d6fcd531850db8d4234efe920",
+ "colonne": [
+  "ssid",
+  "t",
+  "xDE441",
+  "yDE441",
+  "zDE441",
+  "x",
+  "y",
+  "z"
+ ],
+ "righe": 20106,
+ "unita": {
+  "t": "JD TDB",
+  "posizioni": "km, eclittica J2000 eliocentrica"
+ },
+ "epochePerCorpo": {
+  "mercurio": 2234,
+  "venere": 2234,
+  "baricentro-terra-luna": 2234,
+  "marte": 2234,
+  "giove": 2234,
+  "saturno": 2234,
+  "urano": 2234,
+  "nettuno": 2234,
+  "plutone": 2234
+ },
+ "nota": "per ogni corpo: 2000 epoche uniformi in [T0, T_END) seguite dagli intorni di ±1 passo dei confini",
+ "soglie": {
+  "arcsec": 2.0,
+  "embKmBlocchi11e12": 100.0,
+  "embKmAltri": 250.0,
+  "continuitaKm": 1.0
+ },
+ "sha256File": {
+  "p00.bin": "f24c54d8fc56be6b62463a308ab052179009cc45139bbc19b2ed744e48909afe",
+  "p01.bin": "8d766d75f59bc5382029bfcfd42c65e187510607dc0b2c277f6b68b161aed9af",
+  "p02.bin": "f61357fea466802b28926750e9ac03b64be8bfa519629897b05e1696ff8ccd97",
+  "p03.bin": "cb62aee3e40c6aae696eecc65abb34ba48c695ee6c7b2d35e30b61f3851c85d7",
+  "p04.bin": "f62f8f0ddeff672356b6187b6ff56db8f9c75205112d938ff0b44001c0dc929b",
+  "p05.bin": "8f3930b85d836740dce6275dc1738bc59c962cd6d3435844854a864c08beae52",
+  "p06.bin": "81bcd272188708e7fc38dc2e94be620a39f5bb15264c1e9f1648b6b3f0e7ef92",
+  "p07.bin": "0137d9d3a92b5d5eec66536bab5ffd955473348022a773551613e4f3faa3671c",
+  "p08.bin": "b2906cbc1d0961f3013126972f4d42a42a3b1f102b363dd500fb0fafd55cf686",
+  "p09.bin": "14f649d319937a8b9cfd6bd9f83d8987b23733e4e5499077222516f711bd932d",
+  "p10.bin": "d403730eac3b875b892fd31b77f5ad2ccccba342319b141815477e8950ab3b0d",
+  "p11.bin": "7051d6dee3a0c90312e9abcedefc52c2487c4393aa60a9ec92a7ecfc53be320a",
+  "p12.bin": "47152ce62e76a0dfdf47dee79f9f00b86ec75c78d14cf1ee233a2df246603022"
+ },
+ "tolleranzaRelativaPipelineSuggerita": 1e-12
+}

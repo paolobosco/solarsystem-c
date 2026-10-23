@@ -1,0 +1,443 @@
+{
+ "callisto": {
+  "slug": "callisto",
+  "sorgente": "Callisto_Voyager_GalileoSSI_global_mosaic_1km.tif",
+  "sha256Sorgente": "e1f0bd2e0e05de605d067d6b5f5ededddaf31ca6c064562a1ca770f15a7dbaa3",
+  "modo": "L",
+  "dimensioni": [
+   15138,
+   7569
+  ],
+  "georef": {
+   "lonSinistra": 2.2737367544323206e-13,
+   "latAlto": 89.99999999999989,
+   "dlon": 0.023781212841854762,
+   "dlat": 0.023781212841854762
+  },
+  "capovolta": false,
+  "copia": false,
+  "qualita": 87,
+  "byte": 383021
+ },
+ "caronte": {
+  "slug": "caronte",
+  "sorgente": "Charon_NewHorizons_Global_Mosaic_300m_Jul2017_8bit.tif",
+  "sha256Sorgente": "4a874809e0a33a851cd026b8e4647f5875ed15807e677d413812367509564b00",
+  "modo": "L",
+  "dimensioni": [
+   12693,
+   6347
+  ],
+  "georef": {
+   "lonSinistra": -180.0136953860282,
+   "latAlto": 90.02812087847687,
+   "dlon": 0.028364247283704118,
+   "dlat": 0.028364247283704118
+  },
+  "capovolta": false,
+  "copia": false,
+  "qualita": 94,
+  "byte": 384109
+ },
+ "cerere": {
+  "slug": "cerere",
+  "sorgente": "Ceres_Dawn_FC_DLR_global_20ppd_Oct2015.tif",
+  "sha256Sorgente": "920f65e7d0718c9f8d5e86783f35e0b466096251a8c1f2d01a7748a6d534c154",
+  "modo": "L",
+  "dimensioni": [
+   7383,
+   3691
+  ],
+  "georef": {
+   "lonSinistra": -0.006272402164569257,
+   "latAlto": 89.99094560969652,
+   "dlon": 0.048762365543048775,
+   "dlat": 0.048762365543048775
+  },
+  "capovolta": false,
+  "copia": false,
+  "qualita": 65,
+  "byte": 395690
+ },
+ "dione": {
+  "slug": "dione",
+  "sorgente": "Dione_Cassini_Voyager_mosaic_global_154m.tif",
+  "sha256Sorgente": "5c5d796c02e3c99fde5dd034e01dd1f25905699a4885843aed445ded955e08b5",
+  "modo": "L",
+  "dimensioni": [
+   23040,
+   11520
+  ],
+  "georef": {
+   "lonSinistra": -179.99999999999457,
+   "latAlto": 89.99999999999729,
+   "dlon": 0.015625000000000392,
+   "dlat": 0.015625000000000392
+  },
+  "capovolta": false,
+  "copia": false,
+  "qualita": 51,
+  "byte": 393210
+ },
+ "encelado": {
+  "slug": "encelado",
+  "sorgente": "Enceladus_Cassini_mosaic_global_110m.tif",
+  "sha256Sorgente": "c9d29292141dd986e52b2a24b692df34701d1dabaee69bcb9fb64ebc6baba335",
+  "modo": "L",
+  "dimensioni": [
+   14401,
+   7201
+  ],
+  "georef": {
+   "lonSinistra": 180.0,
+   "latAlto": 89.99999999999912,
+   "dlon": 0.024999999999999373,
+   "dlat": 0.024999999999999373
+  },
+  "capovolta": false,
+  "copia": false,
+  "qualita": 57,
+  "byte": 394247
+ },
+ "europa": {
+  "slug": "europa",
+  "sorgente": "Europa_Voyager_GalileoSSI_global_mosaic_500m.tif",
+  "sha256Sorgente": "a323f0c9ccb47d5af9902ea8297fe81f9a9708795645b80801f103c3f7c9a624",
+  "modo": "L",
+  "dimensioni": [
+   19631,
+   9816
+  ],
+  "georef": {
+   "lonSinistra": -0.011003117551496189,
+   "latAlto": 90.00550155877575,
+   "dlon": 0.01833852924995426,
+   "dlat": 0.01833852924995426
+  },
+  "capovolta": false,
+  "copia": false,
+  "qualita": 82,
+  "byte": 392101
+ },
+ "ganimede": {
+  "slug": "ganimede",
+  "sorgente": "Ganymede_Voyager_GalileoSSI_Global_ClrMosaic_1435m.tif",
+  "sha256Sorgente": "da47087e75bc530456d8206d5100ad3c687706353700b0cb44a8400957005a33",
+  "modo": "RGB",
+  "dimensioni": [
+   11520,
+   5760
+  ],
+  "georef": {
+   "lonSinistra": 2.003540231498846e-06,
+   "latAlto": 89.99999899824077,
+   "dlon": 0.031249999652062637,
+   "dlat": 0.031249999652062637
+  },
+  "capovolta": false,
+  "copia": false,
+  "qualita": 86,
+  "byte": 393424
+ },
+ "giapeto": {
+  "slug": "giapeto",
+  "sorgente": "Iapetus_Cassini_Voyager_mosaic_global_783m.tif",
+  "sha256Sorgente": "eb8acdbed3af495102b6ec6d3efce1f03dc6bc39bb43323c23231ce590494d6e",
+  "modo": "L",
+  "dimensioni": [
+   5760,
+   2880
+  ],
+  "georef": {
+   "lonSinistra": -180.00000000000094,
+   "latAlto": 89.99999999999658,
+   "dlon": 0.062499999999999875,
+   "dlat": 0.062499999999999875
+  },
+  "capovolta": false,
+  "copia": false,
+  "qualita": 73,
+  "byte": 399389
+ },
+ "giove": {
+  "slug": "giove",
+  "sorgente": "PIA07782.tif",
+  "sha256Sorgente": "f92ffc7a2fa0235c47ec8f1f168dd36bffeb6acc318292b237878a00a48cf7d9",
+  "modo": "RGB",
+  "dimensioni": [
+   3601,
+   1801
+  ],
+  "georef": {
+   "lonSinistra": -180.0,
+   "latAlto": 90.0,
+   "dlon": 0.09997222993612885,
+   "dlat": 0.09994447529150471
+  },
+  "capovolta": false,
+  "copia": false,
+  "qualita": 93,
+  "byte": 383807
+ },
+ "io": {
+  "slug": "io",
+  "sorgente": "Io_GalileoSSI-Voyager_Global_Mosaic_ClrMerge_1km.tif",
+  "sha256Sorgente": "135f88cb645bfdb4e045b380971ab2ba14e230590c96c9c86cfe7310fda881ac",
+  "modo": "RGB",
+  "dimensioni": [
+   11445,
+   5723
+  ],
+  "georef": {
+   "lonSinistra": -180.02247985317828,
+   "latAlto": 90.02696790840403,
+   "dlon": 0.0314559636297708,
+   "dlat": 0.0314559636297708
+  },
+  "capovolta": false,
+  "copia": false,
+  "qualita": 91,
+  "byte": 393695
+ },
+ "luna": {
+  "slug": "luna",
+  "sorgente": "lroc_color_poles_4k.tif",
+  "sha256Sorgente": "918649a7f8ed2f1329b2cd95bb0d25483befdcb60ae1a66db681a637cc21344f",
+  "modo": "RGB",
+  "dimensioni": [
+   4096,
+   2048
+  ],
+  "georef": {
+   "lonSinistra": -180.0,
+   "latAlto": 90.0,
+   "dlon": 0.087890625,
+   "dlat": 0.087890625
+  },
+  "capovolta": false,
+  "copia": false,
+  "qualita": 87,
+  "byte": 397069
+ },
+ "marte": {
+  "slug": "marte",
+  "sorgente": "Mars_Viking_ClrMosaic_global_925m.tif",
+  "sha256Sorgente": "5b3c6bea36cec0ec65b9ce5927db6b1c555c5fae60a227c774f9fcaecdf5bb33",
+  "modo": "RGB",
+  "dimensioni": [
+   23059,
+   11530
+  ],
+  "georef": {
+   "lonSinistra": -180.00819280106305,
+   "latAlto": 90.00409640053152,
+   "dlon": 0.015612158959328971,
+   "dlat": 0.015612158959328971
+  },
+  "capovolta": false,
+  "copia": false,
+  "qualita": 92,
+  "byte": 368367
+ },
+ "mercurio": {
+  "slug": "mercurio",
+  "sorgente": "Mercury_MESSENGER_ClrMosaic_global_665m_v3.tif",
+  "sha256Sorgente": "dfd0af2895bc91b028576359b2a0da6c86b5381619fd8e6d58d7d62876362032",
+  "modo": "RGB",
+  "dimensioni": [
+   23054,
+   11527
+  ],
+  "georef": {
+   "lonSinistra": -179.99999999999775,
+   "latAlto": 90.00000000001063,
+   "dlon": 0.015615511407913143,
+   "dlat": 0.015615511407913143
+  },
+  "capovolta": false,
+  "copia": false,
+  "qualita": 78,
+  "byte": 394086
+ },
+ "nettuno": {
+  "slug": "nettuno",
+  "sorgente": "2k_neptune.jpg",
+  "copia": true,
+  "qualita": null,
+  "byte": 241580
+ },
+ "plutone": {
+  "slug": "plutone",
+  "sorgente": "Pluto_NewHorizons_Global_Mosaic_300m_Jul2017_8bit.tif",
+  "sha256Sorgente": "592b7fb0f88cafa0bedf9f33bb71e983952a250ee8577edf2abfe814b473356b",
+  "modo": "L",
+  "dimensioni": [
+   24888,
+   12444
+  ],
+  "georef": {
+   "lonSinistra": -0.002191431657792009,
+   "latAlto": 90.0010957158289,
+   "dlon": 0.014464978417844566,
+   "dlat": 0.014464978417844566
+  },
+  "capovolta": false,
+  "copia": false,
+  "qualita": 92,
+  "byte": 389746
+ },
+ "rea": {
+  "slug": "rea",
+  "sorgente": "Rhea_Cassini_Voyager_mosaic_global_417m.tif",
+  "sha256Sorgente": "ce537c3c93670a0d4ea5a64b99bffb76ff308727eb3eabeee0a38cf9f6f1abc7",
+  "modo": "L",
+  "dimensioni": [
+   11520,
+   5760
+  ],
+  "georef": {
+   "lonSinistra": 180.0,
+   "latAlto": 90.00000000000146,
+   "dlon": 0.031249999999999924,
+   "dlat": 0.031249999999999924
+  },
+  "capovolta": false,
+  "copia": false,
+  "qualita": 80,
+  "byte": 395686
+ },
+ "saturno": {
+  "slug": "saturno",
+  "sorgente": "2k_saturn.jpg",
+  "copia": true,
+  "qualita": null,
+  "byte": 199916
+ },
+ "terra": {
+  "slug": "terra",
+  "sorgente": "world.200407.3x5400x2700.jpg",
+  "sha256Sorgente": "f55226d46d27e05511f2118dc6aa24f5dbf9b6b2cddc87cc6e0e7dd067c00b11",
+  "modo": "RGB",
+  "dimensioni": [
+   5400,
+   2700
+  ],
+  "georef": {
+   "lonSinistra": -180.0,
+   "latAlto": 90.0,
+   "dlon": 0.06666666666666667,
+   "dlat": 0.06666666666666667
+  },
+  "capovolta": false,
+  "copia": false,
+  "qualita": 95,
+  "byte": 371388
+ },
+ "teti": {
+  "slug": "teti",
+  "sorgente": "Tethys_Cassini_mosaic_global_293m.tif",
+  "sha256Sorgente": "40723c3ebfaaa52a657827b37309bc84234811db1cf26a21d086e26aba2b3640",
+  "modo": "L",
+  "dimensioni": [
+   11520,
+   5760
+  ],
+  "georef": {
+   "lonSinistra": -179.999999999978,
+   "latAlto": 89.99999999999969,
+   "dlon": 0.03125000000000057,
+   "dlat": 0.03125000000000057
+  },
+  "capovolta": false,
+  "copia": false,
+  "qualita": 62,
+  "byte": 397245
+ },
+ "titano": {
+  "slug": "titano",
+  "sorgente": "Titan_ISS_P19658_Mosaic_Global_4km.tif",
+  "sha256Sorgente": "ca0fe5f6f9bdba1b6d03245969a42336a010ddc17d636e5e06fffa939d10ca83",
+  "modo": "L",
+  "dimensioni": [
+   4040,
+   2020
+  ],
+  "georef": {
+   "lonSinistra": -6.30961949354969e-12,
+   "latAlto": 90.00000000000315,
+   "dlon": 0.08910891089146675,
+   "dlat": 0.08910891089146675
+  },
+  "capovolta": false,
+  "copia": false,
+  "qualita": 90,
+  "byte": 381742
+ },
+ "tritone": {
+  "slug": "tritone",
+  "sorgente": "Triton_Voyager2_ClrMosaic_GlobalFill_600m.tif",
+  "sha256Sorgente": "f20ed332e85df469725629b81d3a73ad026897fe561ec59d6245d249a09507db",
+  "modo": "RGB",
+  "dimensioni": [
+   14138,
+   7069
+  ],
+  "georef": {
+   "lonSinistra": -179.99999999999062,
+   "latAlto": 89.99999999999531,
+   "dlon": 0.025464790894703253,
+   "dlat": 0.025464790894703253
+  },
+  "capovolta": true,
+  "copia": false,
+  "qualita": 95,
+  "byte": 365491
+ },
+ "urano": {
+  "slug": "urano",
+  "sorgente": "2k_uranus.jpg",
+  "copia": true,
+  "qualita": null,
+  "byte": 77751
+ },
+ "venere": {
+  "slug": "venere",
+  "sorgente": "Venus_Magellan_C3-MDIR_Colorized_Global_Mosaic_4641m.tif",
+  "sha256Sorgente": "6bfcd1ccaa79bad8b6d6943a86b6c77b65c7cf48a6ecbf900e429e334f584f43",
+  "modo": "RGB",
+  "dimensioni": [
+   8192,
+   4096
+  ],
+  "georef": {
+   "lonSinistra": -180.0000000000015,
+   "latAlto": 90.00000000000075,
+   "dlon": 0.04394475503556686,
+   "dlat": 0.04394475503556686
+  },
+  "capovolta": false,
+  "copia": false,
+  "qualita": 66,
+  "byte": 397681
+ },
+ "vesta": {
+  "slug": "vesta",
+  "sorgente": "Vesta_Dawn_FC_HAMO_Mosaic_Global_74ppd.tif",
+  "sha256Sorgente": "e7a5dab2924ed590947230e70b11fd42e61e6582f94c01180ddb64b3a9f86ff4",
+  "modo": "L",
+  "dimensioni": [
+   26704,
+   13352
+  ],
+  "georef": {
+   "lonSinistra": -179.99999999991073,
+   "latAlto": 90.00000000006771,
+   "dlon": 0.013481126421981317,
+   "dlat": 0.013481126421981317
+  },
+  "capovolta": false,
+  "copia": false,
+  "qualita": 87,
+  "byte": 390529
+ }
+}

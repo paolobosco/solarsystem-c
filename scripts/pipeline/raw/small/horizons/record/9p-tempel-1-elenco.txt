@@ -1,0 +1,29 @@
+API VERSION: 1.2
+API SOURCE: NASA/JPL Horizons API
+
+*******************************************************************************
+JPL/DASTCOM            Small-body Index Search Results     2026-Oct-18 15:42:28
+
+ Comet AND asteroid index search:
+
+    DES = 9P;
+
+ Matching small-bodies: 
+
+    Record #  Epoch-yr  >MATCH DESIG<  Primary Desig  Name  
+    --------  --------  -------------  -------------  -------------------------
+    90000181    1867    9P             9P              Tempel 1
+    90000182    1873    9P             9P              Tempel 1
+    90000183    1879    9P             9P              Tempel 1
+    90000184    1967    9P             9P              Tempel 1
+    90000185    1972    9P             9P              Tempel 1
+    90000186    1978    9P             9P              Tempel 1
+    90000187    1983    9P             9P              Tempel 1
+    90000188    1988    9P             9P              Tempel 1
+    90000189    1994    9P             9P              Tempel 1
+    90000190    2004    9P             9P              Tempel 1
+    90000191    2013    9P             9P              Tempel 1
+    90000192    2016    9P             9P              Tempel 1
+
+ (12 matches. To SELECT, enter record # (integer), followed by semi-colon.)
+*******************************************************************************

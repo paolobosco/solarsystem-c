@@ -1,0 +1,25 @@
+API VERSION: 1.2
+API SOURCE: NASA/JPL Horizons API
+
+*******************************************************************************
+JPL/HORIZONS                    19P/Borrelly               2026-Oct-18 15:44:01
+Rec #:90000299                  Soln.date: -              # obs: 40 (1960-1981)
+ 
+IAU76/J2000 helio. ecliptic osc. elements (au, days, deg., period=Julian yrs):
+ 
+  EPOCH=  2437080.5 ! 1960-May-26.0000000 (TDB)    RMSW= n.a.
+   EC= .603376             QR= 1.454163            TP= 2437098.7374999998
+   OM= 76.88120000000001   W= 350.9887             IN= 31.0675
+   A= 3.666351506716689    MA= 357.4395386255066   ADIST= 5.878540013433378
+   PER= 7.02035950311234   N= .140395415           ANGMOM= .02626671
+   DAN= 1.46095            DDN= 5.7702             L= 69.14555
+   B= -4.636169                                    TP= 1960-Jun-13.2374999998
+ 
+Comet physical (GM= km^3/s^2; RAD= km):
+   GM= n.a.                RAD= 2.4
+   M1=  9.9      M2=  13.2     k1=  14.    k2=  5.      PHCOF=  .030
+
+COMET comments 
+1: soln ref.= SAO/1960
+2: k1=14., k2=5., phase coef.=0.03;non-gravs. considered; 2008 SAO Comet Catalog
+*******************************************************************************

@@ -1,0 +1,1532 @@
+{
+ "formato": 1,
+ "area": "phys",
+ "corpi": {
+  "sole": {
+   "fisica": {
+    "raggi_km": {
+     "valore": [
+      695700.0,
+      695700.0,
+      695700.0
+     ],
+     "incertezza": null,
+     "fonte": "IAU 2015 Risoluzione B3 (Prša et al. 2016, AJ 152:41), raggio nominale; NAIF pck00011.tpc",
+     "anno": 2016
+    },
+    "gm_km3s2": {
+     "valore": 132712440041.27942,
+     "incertezza": null,
+     "fonte": "DE441 (Park et al. 2021, AJ 161:105), costanti dell'area commenti, GMS",
+     "anno": 2021
+    },
+    "rotazione": {
+     "valore": 609.1198781760244,
+     "incertezza": null,
+     "fonte": "Archinal et al. 2018 (WGCCRE 2015) con correzione 2019, da NAIF pck00011.tpc, da Ẇ",
+     "anno": 2018
+    },
+    "albedo": null,
+    "inclinazioneAssiale_gradi": {
+     "valore": 7.251726805680406,
+     "incertezza": null,
+     "fonte": "derivata dal polo WGCCRE (Archinal et al. 2018) rispetto all'eclittica J2000",
+     "anno": null
+    }
+   },
+   "orientamento": {
+    "modello": "wgccre",
+    "coefficienti": {
+     "alfa0": [
+      286.13
+     ],
+     "delta0": [
+      63.87
+     ],
+     "w": [
+      84.176,
+      14.1844
+     ],
+     "periodici": []
+    },
+    "convenzionePolo": "nord-IAU",
+    "indicativo": false
+   }
+  },
+  "mercurio": {
+   "fisica": {
+    "raggi_km": {
+     "valore": [
+      2440.53,
+      2440.53,
+      2438.26
+     ],
+     "incertezza": null,
+     "fonte": "Archinal et al. 2018 (WGCCRE 2015) con correzione 2019, da NAIF pck00011.tpc",
+     "anno": 2018
+    },
+    "gm_km3s2": {
+     "valore": 22031.868551400003,
+     "incertezza": null,
+     "fonte": "DE441 (Park et al. 2021, AJ 161:105), costanti dell'area commenti, GM1 (pianeta senza satelliti)",
+     "anno": 2021
+    },
+    "rotazione": {
+     "valore": 1407.5075016565909,
+     "incertezza": null,
+     "fonte": "Archinal et al. 2018 (WGCCRE 2015) con correzione 2019, da NAIF pck00011.tpc, da Ẇ",
+     "anno": 2018
+    },
+    "albedo": {
+     "valore": 0.142,
+     "incertezza": null,
+     "fonte": "Mallama, Krobusek, Pavlov 2017, Icarus 282, 19, doi:10.1016/j.icarus.2016.09.023 (tab. 7, banda V)",
+     "anno": 2017
+    },
+    "inclinazioneAssiale_gradi": {
+     "valore": 0.03396953739497059,
+     "incertezza": null,
+     "fonte": "derivata dal polo WGCCRE (Archinal et al. 2018) e dall'orbita osculante DE441 a J2000",
+     "anno": null
+    }
+   },
+   "orientamento": {
+    "modello": "wgccre",
+    "coefficienti": {
+     "alfa0": [
+      281.0103,
+      -0.0328
+     ],
+     "delta0": [
+      61.4155,
+      -0.0049
+     ],
+     "w": [
+      329.5988,
+      6.1385108
+     ],
+     "periodici": [
+      {
+       "coordinata": "w",
+       "funzione": "sin",
+       "ampiezza": 0.01067257,
+       "argomento": [
+        174.7910857,
+        149472.53587500003
+       ],
+       "unita": "secolo"
+      },
+      {
+       "coordinata": "w",
+       "funzione": "sin",
+       "ampiezza": -0.00112309,
+       "argomento": [
+        349.5821714,
+        298945.07175000006
+       ],
+       "unita": "secolo"
+      },
+      {
+       "coordinata": "w",
+       "funzione": "sin",
+       "ampiezza": -0.0001104,
+       "argomento": [
+        164.3732571,
+        448417.60762500006
+       ],
+       "unita": "secolo"
+      },
+      {
+       "coordinata": "w",
+       "funzione": "sin",
+       "ampiezza": -2.539e-05,
+       "argomento": [
+        339.1643429,
+        597890.1435000001
+       ],
+       "unita": "secolo"
+      },
+      {
+       "coordinata": "w",
+       "funzione": "sin",
+       "ampiezza": -5.71e-06,
+       "argomento": [
+        153.9554286,
+        747362.679375
+       ],
+       "unita": "secolo"
+      }
+     ]
+    },
+    "convenzionePolo": "nord-IAU",
+    "indicativo": false
+   }
+  },
+  "venere": {
+   "fisica": {
+    "raggi_km": {
+     "valore": [
+      6051.8,
+      6051.8,
+      6051.8
+     ],
+     "incertezza": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "fonte": "Archinal et al. 2018 (WGCCRE 2015) con correzione 2019, da NAIF pck00011.tpc",
+     "anno": 2018
+    },
+    "gm_km3s2": {
+     "valore": 324858.592,
+     "incertezza": null,
+     "fonte": "DE441 (Park et al. 2021, AJ 161:105), costanti dell'area commenti, GM2 (pianeta senza satelliti)",
+     "anno": 2021
+    },
+    "rotazione": {
+     "valore": -5832.4436156614065,
+     "incertezza": null,
+     "fonte": "Archinal et al. 2018 (WGCCRE 2015) con correzione 2019, da NAIF pck00011.tpc, da Ẇ",
+     "anno": 2018
+    },
+    "albedo": {
+     "valore": 0.689,
+     "incertezza": null,
+     "fonte": "Mallama, Krobusek, Pavlov 2017, Icarus 282, 19, doi:10.1016/j.icarus.2016.09.023 (tab. 7, banda V)",
+     "anno": 2017
+    },
+    "inclinazioneAssiale_gradi": {
+     "valore": 177.3624569393054,
+     "incertezza": null,
+     "fonte": "derivata dal polo WGCCRE (Archinal et al. 2018) e dall'orbita osculante DE441 a J2000",
+     "anno": null
+    }
+   },
+   "orientamento": {
+    "modello": "wgccre",
+    "coefficienti": {
+     "alfa0": [
+      272.76
+     ],
+     "delta0": [
+      67.16
+     ],
+     "w": [
+      160.2,
+      -1.4813688
+     ],
+     "periodici": []
+    },
+    "convenzionePolo": "nord-IAU",
+    "indicativo": false
+   }
+  },
+  "terra": {
+   "fisica": {
+    "raggi_km": {
+     "valore": [
+      6378.1366,
+      6378.1366,
+      6356.7519
+     ],
+     "incertezza": null,
+     "fonte": "Archinal et al. 2018 (WGCCRE 2015) con correzione 2019, da NAIF pck00011.tpc",
+     "anno": 2018
+    },
+    "gm_km3s2": {
+     "valore": 398600.43550702266,
+     "incertezza": null,
+     "fonte": "DE441 (Park et al. 2021, AJ 161:105), costanti dell'area commenti, GMB·EMRAT/(1 + EMRAT)",
+     "anno": 2021
+    },
+    "rotazione": {
+     "valore": 23.93447117430703,
+     "incertezza": null,
+     "fonte": "Archinal et al. 2018 (WGCCRE 2015) con correzione 2019, da NAIF pck00011.tpc, da Ẇ",
+     "anno": 2018
+    },
+    "albedo": {
+     "valore": 0.434,
+     "incertezza": null,
+     "fonte": "Mallama, Krobusek, Pavlov 2017, Icarus 282, 19, doi:10.1016/j.icarus.2016.09.023 (tab. 7, banda V)",
+     "anno": 2017
+    },
+    "inclinazioneAssiale_gradi": {
+     "valore": 23.43921151626908,
+     "incertezza": null,
+     "fonte": "derivata dal polo WGCCRE (Archinal et al. 2018) e dall'orbita osculante DE441 a J2000",
+     "anno": null
+    }
+   }
+  },
+  "marte": {
+   "fisica": {
+    "raggi_km": {
+     "valore": [
+      3396.19,
+      3396.19,
+      3376.2
+     ],
+     "incertezza": null,
+     "fonte": "Archinal et al. 2018 (WGCCRE 2015) con correzione 2019, da NAIF pck00011.tpc",
+     "anno": 2018
+    },
+    "gm_km3s2": {
+     "valore": 42828.37485735626,
+     "incertezza": null,
+     "fonte": "costante GM del corpo 499 nel kernel JPL mar099.bsp (soluzione MAR099, Brozović, Jacobson, Park (2025)), coerente con il GM del sistema di DE441",
+     "anno": 2025
+    },
+    "rotazione": {
+     "valore": 24.622962143046955,
+     "incertezza": null,
+     "fonte": "Archinal et al. 2018 (WGCCRE 2015) con correzione 2019, da NAIF pck00011.tpc, da Ẇ",
+     "anno": 2018
+    },
+    "albedo": {
+     "valore": 0.17,
+     "incertezza": null,
+     "fonte": "Mallama, Krobusek, Pavlov 2017, Icarus 282, 19, doi:10.1016/j.icarus.2016.09.023 (tab. 7, banda V)",
+     "anno": 2017
+    },
+    "inclinazioneAssiale_gradi": {
+     "valore": 25.191451540891986,
+     "incertezza": null,
+     "fonte": "derivata dal polo WGCCRE (Archinal et al. 2018) e dall'orbita osculante DE441 a J2000",
+     "anno": null
+    }
+   },
+   "orientamento": {
+    "modello": "wgccre",
+    "coefficienti": {
+     "alfa0": [
+      317.269202,
+      -0.10927547
+     ],
+     "delta0": [
+      54.432516,
+      -0.05827105
+     ],
+     "w": [
+      176.049863,
+      350.891982443297
+     ],
+     "periodici": [
+      {
+       "coordinata": "alfa0",
+       "funzione": "sin",
+       "ampiezza": 6.8e-05,
+       "argomento": [
+        198.991226,
+        19139.4819985
+       ],
+       "unita": "secolo"
+      },
+      {
+       "coordinata": "alfa0",
+       "funzione": "sin",
+       "ampiezza": 0.000238,
+       "argomento": [
+        226.292679,
+        38280.8511281
+       ],
+       "unita": "secolo"
+      },
+      {
+       "coordinata": "alfa0",
+       "funzione": "sin",
+       "ampiezza": 5.2e-05,
+       "argomento": [
+        249.663391,
+        57420.7251593
+       ],
+       "unita": "secolo"
+      },
+      {
+       "coordinata": "alfa0",
+       "funzione": "sin",
+       "ampiezza": 9e-06,
+       "argomento": [
+        266.18351,
+        76560.636795
+       ],
+       "unita": "secolo"
+      },
+      {
+       "coordinata": "alfa0",
+       "funzione": "sin",
+       "ampiezza": 0.419057,
+       "argomento": [
+        79.398797,
+        0.5042615
+       ],
+       "unita": "secolo"
+      },
+      {
+       "coordinata": "delta0",
+       "funzione": "cos",
+       "ampiezza": 5.1e-05,
+       "argomento": [
+        122.433576,
+        19139.9407476
+       ],
+       "unita": "secolo"
+      },
+      {
+       "coordinata": "delta0",
+       "funzione": "cos",
+       "ampiezza": 0.000141,
+       "argomento": [
+        43.058401,
+        38280.8753272
+       ],
+       "unita": "secolo"
+      },
+      {
+       "coordinata": "delta0",
+       "funzione": "cos",
+       "ampiezza": 3.1e-05,
+       "argomento": [
+        57.663379,
+        57420.7517205
+       ],
+       "unita": "secolo"
+      },
+      {
+       "coordinata": "delta0",
+       "funzione": "cos",
+       "ampiezza": 5e-06,
+       "argomento": [
+        79.476401,
+        76560.6495004
+       ],
+       "unita": "secolo"
+      },
+      {
+       "coordinata": "delta0",
+       "funzione": "cos",
+       "ampiezza": 1.591274,
+       "argomento": [
+        166.325722,
+        0.5042615
+       ],
+       "unita": "secolo"
+      },
+      {
+       "coordinata": "w",
+       "funzione": "sin",
+       "ampiezza": 0.000145,
+       "argomento": [
+        129.071773,
+        19140.0328244
+       ],
+       "unita": "secolo"
+      },
+      {
+       "coordinata": "w",
+       "funzione": "sin",
+       "ampiezza": 0.000157,
+       "argomento": [
+        36.352167,
+        38281.0473591
+       ],
+       "unita": "secolo"
+      },
+      {
+       "coordinata": "w",
+       "funzione": "sin",
+       "ampiezza": 4e-05,
+       "argomento": [
+        56.668646,
+        57420.929536
+       ],
+       "unita": "secolo"
+      },
+      {
+       "coordinata": "w",
+       "funzione": "sin",
+       "ampiezza": 1e-06,
+       "argomento": [
+        67.364003,
+        76560.2552215
+       ],
+       "unita": "secolo"
+      },
+      {
+       "coordinata": "w",
+       "funzione": "sin",
+       "ampiezza": 1e-06,
+       "argomento": [
+        104.79268,
+        95700.4387578
+       ],
+       "unita": "secolo"
+      },
+      {
+       "coordinata": "w",
+       "funzione": "sin",
+       "ampiezza": 0.584542,
+       "argomento": [
+        95.391654,
+        0.5042615
+       ],
+       "unita": "secolo"
+      }
+     ]
+    },
+    "convenzionePolo": "nord-IAU",
+    "indicativo": false
+   }
+  },
+  "giove": {
+   "fisica": {
+    "raggi_km": {
+     "valore": [
+      71492.0,
+      71492.0,
+      66854.0
+     ],
+     "incertezza": null,
+     "fonte": "Archinal et al. 2018 (WGCCRE 2015) con correzione 2019, da NAIF pck00011.tpc",
+     "anno": 2018
+    },
+    "gm_km3s2": {
+     "valore": 126686531.9003704,
+     "incertezza": 0.42,
+     "fonte": "costante GM del corpo 599 nel kernel JPL jup365.bsp (soluzione JUP365, Jacobson (2021)), coerente con il GM del sistema di DE441",
+     "anno": 2021
+    },
+    "rotazione": {
+     "valore": 9.924919819513496,
+     "incertezza": null,
+     "fonte": "Archinal et al. 2018 (WGCCRE 2015) con correzione 2019, da NAIF pck00011.tpc, da Ẇ",
+     "anno": 2018
+    },
+    "albedo": {
+     "valore": 0.538,
+     "incertezza": null,
+     "fonte": "Mallama, Krobusek, Pavlov 2017, Icarus 282, 19, doi:10.1016/j.icarus.2016.09.023 (tab. 7, banda V)",
+     "anno": 2017
+    },
+    "inclinazioneAssiale_gradi": {
+     "valore": 3.1197866971278865,
+     "incertezza": null,
+     "fonte": "derivata dal polo WGCCRE (Archinal et al. 2018) e dall'orbita osculante DE441 a J2000",
+     "anno": null
+    }
+   },
+   "orientamento": {
+    "modello": "wgccre",
+    "coefficienti": {
+     "alfa0": [
+      268.056595,
+      -0.006499
+     ],
+     "delta0": [
+      64.495303,
+      0.002413
+     ],
+     "w": [
+      284.95,
+      870.536
+     ],
+     "periodici": [
+      {
+       "coordinata": "alfa0",
+       "funzione": "sin",
+       "ampiezza": 0.000117,
+       "argomento": [
+        99.360714,
+        4850.4046
+       ],
+       "unita": "secolo"
+      },
+      {
+       "coordinata": "alfa0",
+       "funzione": "sin",
+       "ampiezza": 0.000938,
+       "argomento": [
+        175.895369,
+        1191.9605
+       ],
+       "unita": "secolo"
+      },
+      {
+       "coordinata": "alfa0",
+       "funzione": "sin",
+       "ampiezza": 0.001432,
+       "argomento": [
+        300.323162,
+        262.5475
+       ],
+       "unita": "secolo"
+      },
+      {
+       "coordinata": "alfa0",
+       "funzione": "sin",
+       "ampiezza": 3e-05,
+       "argomento": [
+        114.012305,
+        6070.2476
+       ],
+       "unita": "secolo"
+      },
+      {
+       "coordinata": "alfa0",
+       "funzione": "sin",
+       "ampiezza": 0.00215,
+       "argomento": [
+        49.511251,
+        64.3
+       ],
+       "unita": "secolo"
+      },
+      {
+       "coordinata": "delta0",
+       "funzione": "cos",
+       "ampiezza": 5e-05,
+       "argomento": [
+        99.360714,
+        4850.4046
+       ],
+       "unita": "secolo"
+      },
+      {
+       "coordinata": "delta0",
+       "funzione": "cos",
+       "ampiezza": 0.000404,
+       "argomento": [
+        175.895369,
+        1191.9605
+       ],
+       "unita": "secolo"
+      },
+      {
+       "coordinata": "delta0",
+       "funzione": "cos",
+       "ampiezza": 0.000617,
+       "argomento": [
+        300.323162,
+        262.5475
+       ],
+       "unita": "secolo"
+      },
+      {
+       "coordinata": "delta0",
+       "funzione": "cos",
+       "ampiezza": -1.3e-05,
+       "argomento": [
+        114.012305,
+        6070.2476
+       ],
+       "unita": "secolo"
+      },
+      {
+       "coordinata": "delta0",
+       "funzione": "cos",
+       "ampiezza": 0.000926,
+       "argomento": [
+        49.511251,
+        64.3
+       ],
+       "unita": "secolo"
+      }
+     ]
+    },
+    "convenzionePolo": "nord-IAU",
+    "indicativo": false
+   }
+  },
+  "saturno": {
+   "fisica": {
+    "raggi_km": {
+     "valore": [
+      60268.0,
+      60268.0,
+      54364.0
+     ],
+     "incertezza": null,
+     "fonte": "Archinal et al. 2018 (WGCCRE 2015) con correzione 2019, da NAIF pck00011.tpc",
+     "anno": 2018
+    },
+    "gm_km3s2": {
+     "valore": 37931206.23436167,
+     "incertezza": 0.24,
+     "fonte": "costante GM del corpo 699 nel kernel JPL sat441.bsp (soluzione SAT441, Jacobson (2022), AJ 164:199), coerente con il GM del sistema di DE441",
+     "anno": 2022
+    },
+    "rotazione": {
+     "valore": 10.656222221732389,
+     "incertezza": null,
+     "fonte": "Archinal et al. 2018 (WGCCRE 2015) con correzione 2019, da NAIF pck00011.tpc, da Ẇ",
+     "anno": 2018
+    },
+    "albedo": {
+     "valore": 0.499,
+     "incertezza": null,
+     "fonte": "Mallama, Krobusek, Pavlov 2017, Icarus 282, 19, doi:10.1016/j.icarus.2016.09.023 (tab. 7, banda V)",
+     "anno": 2017
+    },
+    "inclinazioneAssiale_gradi": {
+     "valore": 26.73116671821983,
+     "incertezza": null,
+     "fonte": "derivata dal polo WGCCRE (Archinal et al. 2018) e dall'orbita osculante DE441 a J2000",
+     "anno": null
+    }
+   },
+   "orientamento": {
+    "modello": "wgccre",
+    "coefficienti": {
+     "alfa0": [
+      40.589,
+      -0.036
+     ],
+     "delta0": [
+      83.537,
+      -0.004
+     ],
+     "w": [
+      38.9,
+      810.7939024
+     ],
+     "periodici": []
+    },
+    "convenzionePolo": "nord-IAU",
+    "indicativo": false
+   },
+   "anelli": {
+    "fonte": "PDS Ring-Moon Systems Node, Saturn ring tables (https://pds-rings.seti.org/saturn/saturn_tables.html)",
+    "estrazione": "2026-10-19",
+    "profilo": "schematico",
+    "piano": "equatore",
+    "elementi": [
+     {
+      "nome": "D Ring",
+      "tipo": "tenue",
+      "rInterno_km": 66900.0,
+      "rEsterno_km": 74491.0,
+      "tau": [
+       1e-05,
+       0.001
+      ],
+      "livello": 0
+     },
+     {
+      "nome": "C Ring",
+      "tipo": "denso",
+      "rInterno_km": 74491.0,
+      "rEsterno_km": 91975.0,
+      "tau": [
+       0.05,
+       0.35
+      ],
+      "livello": 0
+     },
+     {
+      "nome": "Colombo Gap",
+      "tipo": "lacuna",
+      "rInterno_km": 77748.0,
+      "rEsterno_km": 77926.0,
+      "tau": [
+       0.0,
+       0.0
+      ],
+      "livello": 1
+     },
+     {
+      "nome": "Titan Ringlet",
+      "tipo": "denso",
+      "rInterno_km": 77867.0,
+      "rEsterno_km": 77890.0,
+      "tau": [
+       4.0,
+       4.0
+      ],
+      "livello": 1
+     },
+     {
+      "nome": "Maxwell Gap",
+      "tipo": "lacuna",
+      "rInterno_km": 87343.0,
+      "rEsterno_km": 87610.0,
+      "tau": [
+       0.0,
+       0.0
+      ],
+      "livello": 1
+     },
+     {
+      "nome": "Maxwell Ringlet",
+      "tipo": "denso",
+      "rInterno_km": 87480.0,
+      "rEsterno_km": 87539.0,
+      "tau": [
+       1.0,
+       3.0
+      ],
+      "livello": 1
+     },
+     {
+      "nome": "Bond Gap",
+      "tipo": "lacuna",
+      "rInterno_km": 88686.0,
+      "rEsterno_km": 88723.0,
+      "tau": [
+       0.0,
+       0.0
+      ],
+      "livello": 1
+     },
+     {
+      "nome": "Bond Ringlet",
+      "tipo": "denso",
+      "rInterno_km": 88702.0,
+      "rEsterno_km": 88719.0,
+      "tau": [
+       1.0,
+       1.0
+      ],
+      "livello": 1
+     },
+     {
+      "nome": "Dawes Gap",
+      "tipo": "lacuna",
+      "rInterno_km": 90200.0,
+      "rEsterno_km": 90221.0,
+      "tau": [
+       0.0,
+       0.0
+      ],
+      "livello": 1
+     },
+     {
+      "nome": "Dawes Ringlet",
+      "tipo": "denso",
+      "rInterno_km": 90138.0,
+      "rEsterno_km": 90200.0,
+      "tau": [
+       0.2,
+       1.0
+      ],
+      "livello": 1
+     },
+     {
+      "nome": "B Ring",
+      "tipo": "denso",
+      "rInterno_km": 91975.0,
+      "rEsterno_km": 117570.0,
+      "tau": [
+       0.4,
+       5.0
+      ],
+      "livello": 0
+     },
+     {
+      "nome": "Region B1",
+      "tipo": "denso",
+      "rInterno_km": 91975.0,
+      "rEsterno_km": 99000.0,
+      "tau": [
+       1.1,
+       1.5
+      ],
+      "livello": 1
+     },
+     {
+      "nome": "Region B2",
+      "tipo": "denso",
+      "rInterno_km": 99000.0,
+      "rEsterno_km": 104000.0,
+      "tau": [
+       1.5,
+       4.0
+      ],
+      "livello": 1
+     },
+     {
+      "nome": "Region B3",
+      "tipo": "denso",
+      "rInterno_km": 104000.0,
+      "rEsterno_km": 110000.0,
+      "tau": [
+       1.0,
+       5.0
+      ],
+      "livello": 1
+     },
+     {
+      "nome": "Region B4",
+      "tipo": "denso",
+      "rInterno_km": 110000.0,
+      "rEsterno_km": 116500.0,
+      "tau": [
+       2.0,
+       3.0
+      ],
+      "livello": 1
+     },
+     {
+      "nome": "Region B5",
+      "tipo": "denso",
+      "rInterno_km": 116500.0,
+      "rEsterno_km": 117500.0,
+      "tau": [
+       0.5,
+       5.0
+      ],
+      "livello": 1
+     },
+     {
+      "nome": "Cassini Division",
+      "tipo": "denso",
+      "rInterno_km": 117500.0,
+      "rEsterno_km": 122050.0,
+      "tau": [
+       0.0,
+       0.2
+      ],
+      "livello": 0
+     },
+     {
+      "nome": "Huygens Gap",
+      "tipo": "lacuna",
+      "rInterno_km": 117500.0,
+      "rEsterno_km": 117930.0,
+      "tau": [
+       0.0,
+       0.0
+      ],
+      "livello": 1
+     },
+     {
+      "nome": "Huygens Ringlet",
+      "tipo": "denso",
+      "rInterno_km": 117806.0,
+      "rEsterno_km": 117824.0,
+      "tau": [
+       1.0,
+       2.0
+      ],
+      "livello": 1
+     },
+     {
+      "nome": "Strange Ringlet",
+      "tipo": "denso",
+      "rInterno_km": 117907.0,
+      "rEsterno_km": 117909.0,
+      "tau": null,
+      "livello": 1
+     },
+     {
+      "nome": "Herschel Gap",
+      "tipo": "lacuna",
+      "rInterno_km": 118188.0,
+      "rEsterno_km": 118284.0,
+      "tau": [
+       0.0,
+       0.0
+      ],
+      "livello": 1
+     },
+     {
+      "nome": "Herschel Ringlet",
+      "tipo": "denso",
+      "rInterno_km": 118234.0,
+      "rEsterno_km": 118263.0,
+      "tau": [
+       0.1,
+       0.1
+      ],
+      "livello": 1
+     },
+     {
+      "nome": "Russell Gap",
+      "tipo": "lacuna",
+      "rInterno_km": 118590.0,
+      "rEsterno_km": 118628.0,
+      "tau": [
+       0.0,
+       0.0
+      ],
+      "livello": 1
+     },
+     {
+      "nome": "Jeffreys Gap",
+      "tipo": "lacuna",
+      "rInterno_km": 118930.0,
+      "rEsterno_km": 118967.0,
+      "tau": [
+       0.0,
+       0.0
+      ],
+      "livello": 1
+     },
+     {
+      "nome": "Kuiper Gap",
+      "tipo": "lacuna",
+      "rInterno_km": 119402.0,
+      "rEsterno_km": 119406.0,
+      "tau": [
+       0.0,
+       0.0
+      ],
+      "livello": 1
+     },
+     {
+      "nome": "Laplace Gap",
+      "tipo": "lacuna",
+      "rInterno_km": 119845.0,
+      "rEsterno_km": 120086.0,
+      "tau": [
+       0.0,
+       0.0
+      ],
+      "livello": 1
+     },
+     {
+      "nome": "Laplace Ringlet",
+      "tipo": "denso",
+      "rInterno_km": 120037.0,
+      "rEsterno_km": 120078.0,
+      "tau": [
+       1.0,
+       1.0
+      ],
+      "livello": 1
+     },
+     {
+      "nome": "Bessel Gap",
+      "tipo": "lacuna",
+      "rInterno_km": 120231.0,
+      "rEsterno_km": 120244.0,
+      "tau": [
+       0.0,
+       0.0
+      ],
+      "livello": 1
+     },
+     {
+      "nome": "Barnard Gap",
+      "tipo": "lacuna",
+      "rInterno_km": 120304.0,
+      "rEsterno_km": 120316.0,
+      "tau": [
+       0.0,
+       0.0
+      ],
+      "livello": 1
+     },
+     {
+      "nome": "A Ring",
+      "tipo": "denso",
+      "rInterno_km": 122050.0,
+      "rEsterno_km": 136770.0,
+      "tau": [
+       0.4,
+       1.0
+      ],
+      "livello": 0
+     },
+     {
+      "nome": "Encke Gap",
+      "tipo": "lacuna",
+      "rInterno_km": 133423.0,
+      "rEsterno_km": 133745.0,
+      "tau": [
+       0.0,
+       0.0
+      ],
+      "livello": 1
+     },
+     {
+      "nome": "Keeler Gap",
+      "tipo": "lacuna",
+      "rInterno_km": 136487.0,
+      "rEsterno_km": 136522.0,
+      "tau": [
+       0.0,
+       0.0
+      ],
+      "livello": 1
+     },
+     {
+      "nome": "Roche Division",
+      "tipo": "tenue",
+      "rInterno_km": 136770.0,
+      "rEsterno_km": 139380.0,
+      "tau": [
+       0.0001,
+       0.0001
+      ],
+      "livello": 0
+     },
+     {
+      "nome": "F Ring",
+      "tipo": "stretto",
+      "rInterno_km": 139826.0,
+      "rEsterno_km": 140612.0,
+      "tau": [
+       0.01,
+       0.2
+      ],
+      "livello": 0
+     },
+     {
+      "nome": "Janus/Epimetheus Ring",
+      "tipo": "tenue",
+      "rInterno_km": 149000.0,
+      "rEsterno_km": 154000.0,
+      "tau": [
+       1e-07,
+       1e-07
+      ],
+      "livello": 0
+     },
+     {
+      "nome": "G Ring",
+      "tipo": "tenue",
+      "rInterno_km": 166000.0,
+      "rEsterno_km": 173200.0,
+      "tau": [
+       1e-06,
+       1e-06
+      ],
+      "livello": 0
+     },
+     {
+      "nome": "E Ring",
+      "tipo": "tenue",
+      "rInterno_km": 180000.0,
+      "rEsterno_km": 480000.0,
+      "tau": [
+       5e-06,
+       5e-06
+      ],
+      "livello": 0
+     },
+     {
+      "nome": "Methone Ring",
+      "tipo": "tenue",
+      "rInterno_km": 194440.0,
+      "rEsterno_km": 194440.0,
+      "tau": [
+       1e-07,
+       1e-07
+      ],
+      "livello": 1
+     },
+     {
+      "nome": "Anthe Ring",
+      "tipo": "tenue",
+      "rInterno_km": 197655.0,
+      "rEsterno_km": 197655.0,
+      "tau": [
+       1e-07,
+       1e-07
+      ],
+      "livello": 1
+     },
+     {
+      "nome": "Pallene Ring",
+      "tipo": "tenue",
+      "rInterno_km": 212280.0,
+      "rEsterno_km": 212280.0,
+      "tau": [
+       1e-07,
+       1e-07
+      ],
+      "livello": 1
+     },
+     {
+      "nome": "Phoebe Ring",
+      "tipo": "tenue",
+      "rInterno_km": 7720000.0,
+      "rEsterno_km": 12500000.0,
+      "tau": [
+       2e-08,
+       2e-08
+      ],
+      "livello": 0
+     }
+    ]
+   }
+  },
+  "urano": {
+   "fisica": {
+    "raggi_km": {
+     "valore": [
+      25559.0,
+      25559.0,
+      24973.0
+     ],
+     "incertezza": null,
+     "fonte": "Archinal et al. 2018 (WGCCRE 2015) con correzione 2019, da NAIF pck00011.tpc",
+     "anno": 2018
+    },
+    "gm_km3s2": {
+     "valore": 5793950.610340896,
+     "incertezza": null,
+     "fonte": "costante GM del corpo 799 nel kernel JPL ura184_part-3.bsp (soluzione URA182, Jacobson, Park (2025), AJ 169:65), coerente con il GM del sistema di DE441",
+     "anno": 2025
+    },
+    "rotazione": {
+     "valore": -17.240000000255407,
+     "incertezza": null,
+     "fonte": "Archinal et al. 2018 (WGCCRE 2015) con correzione 2019, da NAIF pck00011.tpc, da Ẇ",
+     "anno": 2018
+    },
+    "albedo": {
+     "valore": 0.488,
+     "incertezza": null,
+     "fonte": "Mallama, Krobusek, Pavlov 2017, Icarus 282, 19, doi:10.1016/j.icarus.2016.09.023 (tab. 7, banda V)",
+     "anno": 2017
+    },
+    "inclinazioneAssiale_gradi": {
+     "valore": 97.77037404845025,
+     "incertezza": null,
+     "fonte": "derivata dal polo WGCCRE (Archinal et al. 2018) e dall'orbita osculante DE441 a J2000",
+     "anno": null
+    }
+   },
+   "orientamento": {
+    "modello": "wgccre",
+    "coefficienti": {
+     "alfa0": [
+      257.311
+     ],
+     "delta0": [
+      -15.175
+     ],
+     "w": [
+      203.81,
+      -501.1600928
+     ],
+     "periodici": []
+    },
+    "convenzionePolo": "nord-IAU",
+    "indicativo": false
+   },
+   "anelli": {
+    "fonte": "PDS Ring-Moon Systems Node, Uranus ring tables (https://pds-rings.seti.org/uranus/uranus_tables.html)",
+    "estrazione": "2026-10-19",
+    "profilo": "schematico",
+    "piano": "equatore",
+    "elementi": [
+     {
+      "nome": "Six",
+      "tipo": "stretto",
+      "rInterno_km": 41836.25,
+      "rEsterno_km": 41837.75,
+      "tau": [
+       0.3,
+       0.3
+      ],
+      "livello": 0
+     },
+     {
+      "nome": "Five",
+      "tipo": "stretto",
+      "rInterno_km": 42233.0,
+      "rEsterno_km": 42235.0,
+      "tau": [
+       0.5,
+       0.5
+      ],
+      "livello": 0
+     },
+     {
+      "nome": "Four",
+      "tipo": "stretto",
+      "rInterno_km": 42570.0,
+      "rEsterno_km": 42572.0,
+      "tau": [
+       0.3,
+       0.3
+      ],
+      "livello": 0
+     },
+     {
+      "nome": "Alpha",
+      "tipo": "stretto",
+      "rInterno_km": 44713.0,
+      "rEsterno_km": 44723.0,
+      "tau": [
+       0.4,
+       0.4
+      ],
+      "livello": 0
+     },
+     {
+      "nome": "Beta",
+      "tipo": "stretto",
+      "rInterno_km": 45655.5,
+      "rEsterno_km": 45666.5,
+      "tau": [
+       0.3,
+       0.3
+      ],
+      "livello": 0
+     },
+     {
+      "nome": "Eta",
+      "tipo": "stretto",
+      "rInterno_km": 47175.2,
+      "rEsterno_km": 47176.8,
+      "tau": [
+       0.4,
+       0.4
+      ],
+      "livello": 0
+     },
+     {
+      "nome": "Gamma",
+      "tipo": "stretto",
+      "rInterno_km": 47625.0,
+      "rEsterno_km": 47629.0,
+      "tau": [
+       0.3,
+       0.3
+      ],
+      "livello": 0
+     },
+     {
+      "nome": "Delta",
+      "tipo": "stretto",
+      "rInterno_km": 48296.5,
+      "rEsterno_km": 48303.5,
+      "tau": [
+       0.5,
+       0.5
+      ],
+      "livello": 0
+     },
+     {
+      "nome": "Lambda",
+      "tipo": "stretto",
+      "rInterno_km": 50023.0,
+      "rEsterno_km": 50025.0,
+      "tau": [
+       0.1,
+       0.1
+      ],
+      "livello": 0
+     },
+     {
+      "nome": "Epsilon",
+      "tipo": "stretto",
+      "rInterno_km": 51101.0,
+      "rEsterno_km": 51197.0,
+      "tau": [
+       0.5,
+       2.3
+      ],
+      "livello": 0
+     },
+     {
+      "nome": "R/2003 U 2",
+      "tipo": "tenue",
+      "rInterno_km": 65400.0,
+      "rEsterno_km": 69200.0,
+      "tau": [
+       6e-06,
+       6e-06
+      ],
+      "livello": 0
+     },
+     {
+      "nome": "R/2003 U 1",
+      "tipo": "tenue",
+      "rInterno_km": 89200.0,
+      "rEsterno_km": 106200.0,
+      "tau": [
+       8e-06,
+       8e-06
+      ],
+      "livello": 0
+     }
+    ]
+   }
+  },
+  "nettuno": {
+   "fisica": {
+    "raggi_km": {
+     "valore": [
+      24764.0,
+      24764.0,
+      24341.0
+     ],
+     "incertezza": null,
+     "fonte": "Archinal et al. 2018 (WGCCRE 2015) con correzione 2019, da NAIF pck00011.tpc",
+     "anno": 2018
+    },
+    "gm_km3s2": {
+     "valore": 6835099.968446816,
+     "incertezza": 9.63,
+     "fonte": "costante GM del corpo 899 nel kernel JPL nep097.bsp (soluzione NEP097, Brozović (2020); Jacobson (2009), AJ 137:4322), coerente con il GM del sistema di DE441",
+     "anno": 2020
+    },
+    "rotazione": {
+     "valore": 15.966299998597572,
+     "incertezza": null,
+     "fonte": "Archinal et al. 2018 (WGCCRE 2015) con correzione 2019, da NAIF pck00011.tpc, da Ẇ",
+     "anno": 2018
+    },
+    "albedo": {
+     "valore": 0.442,
+     "incertezza": null,
+     "fonte": "Mallama, Krobusek, Pavlov 2017, Icarus 282, 19, doi:10.1016/j.icarus.2016.09.023 (tab. 7, banda V)",
+     "anno": 2017
+    },
+    "inclinazioneAssiale_gradi": {
+     "valore": 28.318520695569106,
+     "incertezza": null,
+     "fonte": "derivata dal polo WGCCRE (Archinal et al. 2018) e dall'orbita osculante DE441 a J2000",
+     "anno": null
+    }
+   },
+   "orientamento": {
+    "modello": "wgccre",
+    "coefficienti": {
+     "alfa0": [
+      299.36
+     ],
+     "delta0": [
+      43.46
+     ],
+     "w": [
+      249.978,
+      541.1397757
+     ],
+     "periodici": [
+      {
+       "coordinata": "alfa0",
+       "funzione": "sin",
+       "ampiezza": 0.7,
+       "argomento": [
+        357.85,
+        52.316
+       ],
+       "unita": "secolo"
+      },
+      {
+       "coordinata": "delta0",
+       "funzione": "cos",
+       "ampiezza": -0.51,
+       "argomento": [
+        357.85,
+        52.316
+       ],
+       "unita": "secolo"
+      },
+      {
+       "coordinata": "w",
+       "funzione": "sin",
+       "ampiezza": -0.48,
+       "argomento": [
+        357.85,
+        52.316
+       ],
+       "unita": "secolo"
+      }
+     ]
+    },
+    "convenzionePolo": "nord-IAU",
+    "indicativo": false
+   }
+  },
+  "plutone": {
+   "fisica": {
+    "raggi_km": {
+     "valore": [
+      1188.3,
+      1188.3,
+      1188.3
+     ],
+     "incertezza": [
+      1.6,
+      1.6,
+      1.6
+     ],
+     "fonte": "Nimmo et al. 2017, Icarus 287, 12, adottato da Archinal et al. 2018 (WGCCRE 2015) con correzione 2019, da NAIF pck00011.tpc",
+     "anno": 2017
+    },
+    "gm_km3s2": {
+     "valore": 869.3261226311508,
+     "incertezza": 0.4,
+     "fonte": "costante GM del corpo 999 nel kernel JPL plu060.bsp (soluzione PLU060, Brozović, Jacobson (2024), AJ 167:256), coerente con il GM del sistema di DE441",
+     "anno": 2024
+    },
+    "rotazione": {
+     "valore": 153.29335197870182,
+     "incertezza": null,
+     "fonte": "Archinal et al. 2018 (WGCCRE 2015) con correzione 2019, da NAIF pck00011.tpc, da Ẇ",
+     "anno": 2018
+    },
+    "albedo": {
+     "valore": 0.52,
+     "incertezza": 0.03,
+     "fonte": "Buratti et al. 2015, ApJL 804, L6, doi:10.1088/2041-8205/804/1/L6 (tab. 2, banda V, solo Plutone, 2013)",
+     "anno": 2015
+    },
+    "inclinazioneAssiale_gradi": {
+     "valore": 119.6168152085963,
+     "incertezza": null,
+     "fonte": "derivata dal polo WGCCRE (Archinal et al. 2018) e dall'orbita osculante DE441 a J2000",
+     "anno": null
+    }
+   },
+   "orientamento": {
+    "modello": "wgccre",
+    "coefficienti": {
+     "alfa0": [
+      132.993
+     ],
+     "delta0": [
+      -6.163
+     ],
+     "w": [
+      302.695,
+      56.3625225
+     ],
+     "periodici": []
+    },
+    "convenzionePolo": "momento-angolare",
+    "indicativo": false
+   }
+  },
+  "luna": {
+   "fisica": {
+    "raggi_km": {
+     "valore": [
+      1737.4,
+      1737.4,
+      1737.4
+     ],
+     "incertezza": null,
+     "fonte": "Archinal et al. 2018 (WGCCRE 2015) con correzione 2019, da NAIF pck00011.tpc",
+     "anno": 2018
+    },
+    "gm_km3s2": {
+     "valore": 4902.80011845755,
+     "incertezza": null,
+     "fonte": "DE441 (Park et al. 2021, AJ 161:105), costanti dell'area commenti, GMB/(1 + EMRAT)",
+     "anno": 2021
+    },
+    "rotazione": {
+     "valore": 655.719881141816,
+     "incertezza": null,
+     "fonte": "Archinal et al. 2018 (WGCCRE 2015) con correzione 2019, da NAIF pck00011.tpc, da Ẇ (rotazione sincrona)",
+     "anno": 2018
+    },
+    "albedo": null
+   },
+   "orientamento": {
+    "modello": "cassini",
+    "coefficienti": null,
+    "convenzionePolo": "nord-IAU",
+    "indicativo": false
+   }
+  }
+ }
+}

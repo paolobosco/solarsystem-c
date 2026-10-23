@@ -1,0 +1,22 @@
+API VERSION: 1.2
+API SOURCE: NASA/JPL Horizons API
+
+*******************************************************************************
+JPL/DASTCOM            Small-body Index Search Results     2026-Oct-18 15:51:37
+
+ Comet AND asteroid index search:
+
+    DES = 109P;
+
+ Matching small-bodies: 
+
+    Record #  Epoch-yr  >MATCH DESIG<  Primary Desig  Name  
+    --------  --------  -------------  -------------  -------------------------
+    90000981     -68    109P           109P            Swift-Tuttle
+    90000982     188    109P           109P            Swift-Tuttle
+    90000983    1737    109P           109P            Swift-Tuttle
+    90000984    1862    109P           109P            Swift-Tuttle
+    90000985    1995    109P           109P            Swift-Tuttle
+
+ (5 matches. To SELECT, enter record # (integer), followed by semi-colon.)
+*******************************************************************************

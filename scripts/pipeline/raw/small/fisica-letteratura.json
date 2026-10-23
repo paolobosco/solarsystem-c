@@ -1,0 +1,141 @@
+{
+ "formato": 1,
+ "nota": "Dati fisici da fonti primarie per i corpi senza dati SBDB e dove il dato SBDB è superato (§ 9; elenco in small/catalogo.py, PRECEDENZA_LETTERATURA). Raggi in km, periodo di rotazione in ore, GM in km^3/s^2, albedo geometrica visibile. Incertezze a 1 σ; con incertezze asimmetriche si riporta la maggiore; incertezze a 3 σ della fonte divise per 3 (Sylvia). Costante gravitazionale G = 6,67430e-20 km^3 kg^-1 s^-2 (CODATA 2018) per convertire le masse.",
+ "estrazione": "2026-10-20",
+ "corpi": {
+  "eris": {
+   "raggi_km": {"valore": [1163, 1163, 1163], "incertezza": [6, 6, 6], "fonte": "Sicardy et al. 2011, Nature 478, 493, doi:10.1038/nature10550", "anno": 2011, "evidenza": "radius 1,163 ± 6 kilometres (abstract)"},
+   "albedo": {"valore": 0.96, "incertezza": 0.09, "fonte": "Sicardy et al. 2011, Nature 478, 493, doi:10.1038/nature10550", "anno": 2011, "evidenza": "p_V = 0.96 +0.09 -0.04 (abstract)"},
+   "gm_km3s2": {"valore": 1098.99, "incertezza": 0.57, "fonte": "Holler et al. 2021, Icarus 355, 114130, doi:10.1016/j.icarus.2020.114130 (massa del sistema Eris-Disnomia)", "anno": 2021, "evidenza": "system mass (1.6466 ± 0.0085) × 10^22 kg (arXiv:2009.13733, tab. 3)"},
+   "rotazione": {"valore": 378.72, "incertezza": null, "fonte": "Szakáts et al. 2023, A&A 669, L3, doi:10.1051/0004-6361/202245234 (rotazione sincrona con l'orbita di Disnomia, P = 15,78 d)", "anno": 2023, "evidenza": "The P = 15.78 d period rules out all shorter periods in the few hours - few days range ... the rotation of Eris and Dysnomia is double-synchronized (arXiv:2211.07987v2, § 3)"}
+  },
+  "haumea": {
+   "raggi_km": {"valore": [1161, 852, 513], "incertezza": [30, 4, 16], "fonte": "Ortiz et al. 2017, Nature 550, 219, doi:10.1038/nature24051", "anno": 2017, "evidenza": "semi-axes of the ellipsoid, a=1,161 ± 30 km, b=852 ± 4 km and c= 513 ± 16 km (arXiv:2006.03113)"},
+   "albedo": {"valore": 0.51, "incertezza": 0.02, "fonte": "Ortiz et al. 2017, Nature 550, 219, doi:10.1038/nature24051", "anno": 2017, "evidenza": "geometric albedo of 0.51 ± 0.02 (abstract)"},
+   "gm_km3s2": {"valore": 267.37, "incertezza": 2.67, "fonte": "Ragozzine e Brown 2009, AJ 137, 4766, doi:10.1088/0004-6256/137/6/4766 (massa di Haumea dal modello a tre corpi con Hiʻiaka e Namaka)", "anno": 2009, "evidenza": "Haumea Mass 4.006 ± 0.040 10^21 kg (arXiv:0903.4213, tab. 2)"}
+  },
+  "makemake": {
+   "raggi_km": {"valore": [751, 751, 715], "incertezza": [22.5, 22.5, 4.5], "fonte": "Ortiz et al. 2012, Nature 491, 566, doi:10.1038/nature11597 (assi proiettati 1502 ± 45 km e 1430 ± 9 km)", "anno": 2012, "evidenza": "projected axes of 1,430 ± 9 km (1 σ) and 1,502 ± 45 km (abstract)"},
+   "albedo": {"valore": 0.77, "incertezza": 0.03, "fonte": "Ortiz et al. 2012, Nature 491, 566, doi:10.1038/nature11597", "anno": 2012, "evidenza": "V-band geometric albedo p_V = 0.77 ± 0.03 (abstract)"}
+  },
+  "gonggong": {
+   "raggi_km": {"valore": [615, 615, 615], "incertezza": [25, 25, 25], "fonte": "Kiss et al. 2019, Icarus 334, 3, doi:10.1016/j.icarus.2019.03.013", "anno": 2019, "evidenza": "a size of 1230±50 km (arXiv:1903.05439, abstract)"},
+   "gm_km3s2": {"valore": 116.8, "incertezza": 4.67201, "fonte": "Kiss et al. 2019, Icarus 334, 3, doi:10.1016/j.icarus.2019.03.013 (massa del sistema con Xiangliu)", "anno": 2019, "evidenza": "system mass of 1.75x10^21 kg (abstract); mean mass estimate of 1.75±0.07·10^21 kg (arXiv:1903.05439, § 3)"},
+   "albedo": {"valore": 0.14, "incertezza": 0.01, "fonte": "Kiss et al. 2019, Icarus 334, 3, doi:10.1016/j.icarus.2019.03.013", "anno": 2019, "evidenza": "3b ... 1238±50 0.14±0.01; 3d ... 1241±50 0.14±0.01 (tab. 3, stesso valore nei casi 3a-3d); the most plausible solution ... corresponds to the thermal emission solutions 3b and 3d (arXiv:1903.05439, § 6)"},
+   "rotazione": {"valore": 44.81, "incertezza": 0.37, "fonte": "Pál et al. 2016, AJ 151, 117, doi:10.3847/0004-6256/151/5/117 (curva di luce K2 a doppio picco, preferita al periodo di 22,40 h con probabilità superiore al 99 %)", "anno": 2016, "evidenza": "Prot = 44.81±0.37 h ... we cannot safely rule out the possibility of having a rotation period of Prot = 22.40 ± 0.18 h which corresponds to a single-peaked solution (abstract); the probability that the double-peaked solution is preferred against the rotation period of Prot = 22.4 h is higher than 99% (arXiv:1603.03090); Kiss et al. 2019, § 1: ∼44.8 h; LCDB 22,4 h (picco singolo, copertura parziale) non adottato"}
+  },
+  "quaoar": {
+   "raggi_km": {"valore": [543, 543, 543], "incertezza": [2, 2, 2], "fonte": "Pereira et al. 2023, A&A 673, L4, doi:10.1051/0004-6361/202346365 (raggio equivalente all'area proiettata dall'occultazione del 9 agosto 2022; lembo ellittico di semiasse 579,5 km e schiacciamento apparente 0,12)", "anno": 2023, "evidenza": "the limb with an apparent semi-major axis of 579.5 ± 4.0 km, apparent oblateness of 0.12 ± 0.01, and area-equivalent radius of 543 ± 2 km (arXiv:2304.09237, abstract); valore radiometrico superato: Fornasier et al. 2013, 1073,6 ± 37,9 km (sistema)"},
+   "albedo": {"valore": 0.124, "incertezza": 0.006, "fonte": "Pereira et al. 2023, A&A 673, L4, doi:10.1051/0004-6361/202346365 (con H_V = 2,73 di Fornasier et al. 2013)", "anno": 2023, "evidenza": "Using an absolute magnitude of HV = 2.73 ± 0.06 (Fornasier et al. 2013), this yields a geometric albedo of pV = 0.124 ± 0.006 (§ 5)"},
+   "gm_km3s2": {"valore": 80.625544, "incertezza": 4.204809, "fonte": "Braga-Ribas et al. 2025, Phil. Trans. R. Soc. A 383, 20240200, doi:10.1098/rsta.2024.0200 (massa del sistema Quaoar-Weywot)", "anno": 2025, "evidenza": "Weywot (Quaoar/1): Syst. mass 1.208 ±0.063 (x10^21 kg) (arXiv:2503.00874, tab. 8)"},
+   "rotazione": {"valore": 17.6788, "incertezza": 0.0004, "fonte": "Ortiz et al. 2003, A&A 409, L13, doi:10.1051/0004-6361:20031253 (curva di luce a doppio picco, periodo adottato in Pereira et al. 2023, tab. 1)", "anno": 2003, "evidenza": "Rotation period 17.6788 ± 0.0004 h; nota 7: double-peaked light curve from Ortiz et al. (2003) (Pereira et al. 2023, arXiv:2304.09237, tab. 1); doppio picco confermato da Kiss et al. 2024 (arXiv:2401.12679: 17,752 h preferito con confidenza del 98 % circa); LCDB 8,84 h (picco singolo, copertura parziale) non adottato"}
+  },
+  "sedna": {
+   "raggi_km": {"valore": [497.5, 497.5, 497.5], "incertezza": [40, 40, 40], "fonte": "Pál et al. 2012, A&A 541, L6, doi:10.1051/0004-6361/201218874", "anno": 2012, "evidenza": "diameter of Sedna ... 995 +/- 80 km (arXiv:1204.0899, abstract)"},
+   "albedo": {"valore": 0.32, "incertezza": 0.06, "fonte": "Pál et al. 2012, A&A 541, L6, doi:10.1051/0004-6361/201218874", "anno": 2012, "evidenza": "geometric albedos are pV 0.32 +/- 0.06 (abstract)"}
+  },
+  "orco": {
+   "raggi_km": {"valore": [458.5, 458.5, 458.5], "incertezza": [12.5, 12.5, 12.5], "fonte": "Fornasier et al. 2013, A&A 555, A15, doi:10.1051/0004-6361/201321329 (primario del sistema Orco-Vanth)", "anno": 2013, "evidenza": "individual diameters of 917±25 km and 276±17 km for the primary and secondary (arXiv:1305.0449, § 4)"},
+   "albedo": {"valore": 0.231, "incertezza": 0.018, "fonte": "Fornasier et al. 2013, A&A 555, A15, doi:10.1051/0004-6361/201321329", "anno": 2013, "evidenza": "preferred solution D = 958.4±22.9 km and pV = 23.1 +1.8 -1.1 (§ 4)"},
+   "gm_km3s2": {"valore": 42.181576, "incertezza": 0.066743, "fonte": "Brown et al. 2010, AJ 139, 2700, doi:10.1088/0004-6256/139/6/2700 (massa del sistema Orco-Vanth)", "anno": 2010, "evidenza": "implying a system mass of 6.32+- 0.01 X 10^20 kg (arXiv:0910.4784, abstract)"}
+  },
+  "salacia": {
+   "raggi_km": {"valore": [427, 427, 427], "incertezza": [22.5, 22.5, 22.5], "fonte": "Fornasier et al. 2013, A&A 555, A15, doi:10.1051/0004-6361/201321329 (primario del sistema Salacia-Actea)", "anno": 2013, "evidenza": "we derive a diameter of 854±45 km for Salacia, and 286±24 km for Actea (§ 4)"},
+   "albedo": {"valore": 0.044, "incertezza": 0.004, "fonte": "Fornasier et al. 2013, A&A 555, A15, doi:10.1051/0004-6361/201321329", "anno": 2013, "evidenza": "(120347) Salacia (MIPS & PACS) 901.0±45, 4.4±0.4 % (tab. 4)"},
+   "rotazione": {"valore": 131.8567, "incertezza": 0.0038, "fonte": "Collyer et al. 2025, PSJ 6, 270, doi:10.3847/PSJ/ae0b6a (periodo siderale; rotazione sincrona con l'orbita di Actea, 5,49389 d)", "anno": 2025, "evidenza": "We find the sidereal rotation period to be Tsid = 5.49403 ± 0.00016 days, which is consistent with Actaea's sidereal orbital period within 1σ (arXiv:2509.02734, § 5.2); il periodo di poche ore di Thirouin et al. è un alias (§ 4.4)"},
+   "gm_km3s2": {"valore": 32.4437723, "incertezza": 0.5072468, "fonte": "Collyer et al. 2025, PSJ 6, 270, doi:10.3847/PSJ/ae0b6a (massa del sistema Salacia-Actea)", "anno": 2025, "evidenza": "System mass (10^18 kg) Msys 486.1 +7.6 -7.4 (tab. 2)"}
+  },
+  "varuna": {
+   "raggi_km": {"valore": [334, 334, 334], "incertezza": [77, 77, 77], "fonte": "Lellouch et al. 2013, A&A 557, A60, doi:10.1051/0004-6361/201322047 (valori riportati in Müller, Lellouch, Fornasier 2020, arXiv:1905.07158, tab. 3)", "anno": 2013, "evidenza": "(20000) Varuna 668.0 +154.0 -86.0 km, pV 0.127 +0.040 -0.042, rif. h = Lellouch et al. 2013"},
+   "albedo": {"valore": 0.127, "incertezza": 0.042, "fonte": "Lellouch et al. 2013, A&A 557, A60, doi:10.1051/0004-6361/201322047", "anno": 2013, "evidenza": "pV 0.127 +0.040 -0.042"}
+  },
+  "issione": {
+   "raggi_km": {"valore": [348.39, 348.39, 348.39], "incertezza": [5.37, 5.37, 5.37], "fonte": "Kilic et al. 2026, A&A 707, A70, doi:10.1051/0004-6361/202557970 (raggio equivalente del lembo dalle occultazioni stellari 2020-2023; semiassi dell'ellisse proiettata 363,4 e 334,0 km)", "anno": 2026, "evidenza": "semi-axes a = 363.42 +3.53 -3.85 km and b = 333.98 +7.07 -4.96 km, yielding Requiv = 348.39 +5.37 -4.43 km (Dequiv = 696.78 +10.75 -8.87 km) (arXiv:2601.09639, abstract); valore radiometrico superato: Lellouch et al. 2013, 617 ± 20 km"},
+   "albedo": {"valore": 0.106, "incertezza": 0.003, "fonte": "Kilic et al. 2026, A&A 707, A70, doi:10.1051/0004-6361/202557970", "anno": 2026, "evidenza": "The phase-curve fit gives HV = 3.845 ± 0.006 ... and pV = 0.106 +0.003 -0.003 (abstract)"}
+  },
+  "mani": {
+   "raggi_km": {"valore": [398, 398, 398], "incertezza": [12, 12, 12], "fonte": "Rommel et al. 2023, A&A 678, A167, doi:10.1051/0004-6361/202346892 (2002 MS4, diametro equivalente all'area proiettata dall'occultazione dell'8 agosto 2020)", "anno": 2023, "evidenza": "projected area-equivalent diameter of 796 ± 24 km ... an object that is ≈138 km smaller in diameter than that derived from thermal data (abstract); valore radiometrico superato: Vilenius et al. 2012, 934 ± 47 km"},
+   "albedo": {"valore": 0.1, "incertezza": 0.025, "fonte": "Rommel et al. 2023, A&A 678, A167, doi:10.1051/0004-6361/202346892", "anno": 2023, "evidenza": "geometric albedo of p V = 0.1 ± 0.025, using H V = 3.63 ± 0.05 mag (abstract)"}
+  },
+  "arrokoth": {
+   "raggi_km": {"valore": [18, 10, 5], "incertezza": null, "fonte": "Spencer et al. 2020, Science 367, eaay3999, doi:10.1126/science.aay3999 (dimensioni complessive 36 × 20 × 10 km del binario a contatto)", "anno": 2020, "evidenza": "overall dimensions X, Y, and Z of 36 × 20 × 10 km (arXiv:2004.00727)"},
+   "albedo": {"valore": 0.23, "incertezza": null, "fonte": "Spencer et al. 2020, Science 367, eaay3999, doi:10.1126/science.aay3999", "anno": 2020, "evidenza": "Arrokoth's 0.6 µm geometric albedo, 0.23"},
+   "polo": {"ra": 317.5, "dec": -24.9, "incertezza_gradi": 1, "fonte": "Spencer et al. 2020, Science 367, eaay3999, doi:10.1126/science.aay3999", "anno": 2020, "evidenza": "The positive rotational pole points to Right Ascension 317.5 ± 1°, Declination -24.9 ± 1° in the J2000 equinox ... The resulting obliquity of Arrokoth's pole to its orbit is 99 ± 1° (arXiv:2004.00727)"}
+  },
+  "1i-oumuamua": {
+   "raggi_km": {"valore": [0.102, 0.102, 0.102], "incertezza": null, "fonte": "Meech et al. 2017, Nature 552, 378, doi:10.1038/nature25020 (raggio medio per albedo 0,04; rapporto tra gli assi circa 10:1)", "anno": 2017, "evidenza": "The mean radius of 'Oumuamua is approximately 102 metres assuming an albedo of 0.04 (sommario dell'editore)"}
+  },
+  "2i-borisov": {
+   "raggi_km": {"valore": [0.35, 0.35, 0.35], "incertezza": [0.15, 0.15, 0.15], "fonte": "Jewitt et al. 2020, ApJL 888, L23, doi:10.3847/2041-8213/ab621b (intervallo 0,2-0,5 km del raggio del nucleo)", "anno": 2020, "evidenza": "r_n < 0.5 km ... r_n > 0.2 km (arXiv:1912.05422, abstract)"}
+  },
+  "c1996-b2-hyakutake": {
+   "raggi_km": {"valore": [1.25, 1.25, 1.25], "incertezza": [0.25, 0.25, 0.25], "fonte": "Harmon et al. 1997, Science 278, 1921, doi:10.1126/science.278.5345.1921 (radar di Goldstone; diametro del nucleo stimato in 2-3 km)", "anno": 1997, "evidenza": "The nucleus of this bright comet was estimated to be only 2 to 3 kilometers in diameter (abstract, PMID 9395389); diametro SBDB 4,2 km escluso: rif. DASTCOM, nota 'value unverified'"}
+  },
+  "3i-atlas": {
+   "raggi_km": {"valore": [1.51, 1.51, 1.51], "incertezza": [1.29, 1.29, 1.29], "fonte": "Jewitt et al. 2025, ApJL 990, L2, doi:10.3847/2041-8213/adf8d8 (intervallo 0,22-2,8 km del raggio del nucleo)", "anno": 2025, "evidenza": "effective radius of the nucleus to be r < 2.8 km ... cannot be smaller than 0.22 km (arXiv:2508.02934, abstract)"}
+  },
+  "chiron": {
+   "raggi_km": {"valore": [107.8, 107.8, 107.8], "incertezza": [4.95, 4.95, 4.95], "fonte": "Fornasier et al. 2013, A&A 555, A15, doi:10.1051/0004-6361/201321329 (NEATM, tutti i dati)", "anno": 2013, "evidenza": "(2060) Chiron (all data) 215.6±9.9 km; the NEATM model of the revised Spitzer-MIPS and Herschel PACS and SPIRE data gives a diameter of 215.6±9.9 km (arXiv:1305.0449, tab. 4 e § 4.2)"},
+   "albedo": {"valore": 0.167, "incertezza": 0.037, "fonte": "Fornasier et al. 2013, A&A 555, A15, doi:10.1051/0004-6361/201321329 (NEATM, tutti i dati)", "anno": 2013, "evidenza": "(2060) Chiron (all data) 215.6±9.9 km, pV 16.7 +3.7 -3.0 % (arXiv:1305.0449, tab. 4); albedo SBDB 0,15 ± 0,03 (Campins e Fernández 2002) non adottata"}
+  },
+  "chariklo": {
+   "raggi_km": {"valore": [143.8, 135.2, 99.1], "incertezza": [1.5, 2.8, 5.4], "fonte": "Morgado et al. 2021, A&A 652, A141, doi:10.1051/0004-6361/202141543 (ellissoide triassiale dalle occultazioni stellari 2013-2020)", "anno": 2021, "evidenza": "Chariklo is consistent with an ellipsoid with semi-axes of 143.8 -1.5 +1.4, 135.2 -2.8 +1.4, and 99.1 -2.7 +5.4 km (abstract)"},
+   "albedo": {"valore": 0.035, "incertezza": 0.01, "fonte": "Fornasier et al. 2013, A&A 555, A15, doi:10.1051/0004-6361/201321329 (modello termofisico, soluzione preferita con D = 248 ± 18 km)", "anno": 2013, "evidenza": "(10199) Chariklo (TPM) 248±18 km, 3.5±1.0 % (arXiv:1305.0449, tab. 4, soluzione preferita in grassetto); diametro equivalente in volume dell'ellissoide di Morgado et al. 2021: 249 km; Morgado et al. 2021, § 5.4, assume pV 3,7 % senza incertezza (Leiva et al. 2017); albedo SBDB 0,045 ± 0,010 della radiometria del 2002 (D = 302 km) non adottata"}
+  },
+  "didymos": {
+   "raggi_km": {"valore": [0.4255, 0.4245, 0.31], "incertezza": [0.0075, 0.0075, 0.0075], "fonte": "Daly et al. 2023, Nature 616, 443, doi:10.1038/s41586-023-05810-5 (estensioni del modello di forma da DART)", "anno": 2023, "evidenza": "Extent of Didymos (m) X: 849 ± 15 Y: 851 ± 15 Z: 620 ± 15 (tab. 1)"},
+   "gm_km3s2": {"valore": 3.737608e-08, "incertezza": 3.33715e-09, "fonte": "Daly et al. 2023, Nature 616, 443, doi:10.1038/s41586-023-05810-5 (massa del sistema Didymos-Dimorphos)", "anno": 2023, "evidenza": "Mass of the Didymos system (kg) (5.6 ± 0.5) × 10^11 (tab. 1)"}
+  },
+  "103p-hartley-2": {
+   "raggi_km": {"valore": [0.58, 0.58, 0.58], "incertezza": [0.02, 0.02, 0.02], "fonte": "Thomas et al. 2013, Icarus 222, 550, doi:10.1016/j.icarus.2012.05.034 (raggio medio dal sorvolo EPOXI; nucleo bilobato allungato, circa 0,34 × 0,34 × 1,16 km)", "anno": 2013, "evidenza": "mean radius of 0.58 +/-0.02 km (A'Hearn, et al., Table 1; Thomas et al., Table 1) (NAIF pck00011.tpc, commento a BODY1000041_RADII)"}
+  },
+  "67p-churyumov-gerasimenko": {
+   "albedo": {"valore": 0.065, "incertezza": 0.002, "fonte": "Fornasier et al. 2015, A&A 583, A30, doi:10.1051/0004-6361/201525901 (a 649 nm, OSIRIS su Rosetta)", "anno": 2015, "evidenza": "The geometric albedo of the comet is 6.5±0.2% at 649 nm (arXiv:1505.06888, abstract)"},
+   "gm_km3s2": {"valore": 6.662e-07, "incertezza": 2e-10, "fonte": "Pätzold et al. 2016, Nature 530, 63, doi:10.1038/nature16535", "anno": 2016, "evidenza": "The gravitational point mass is GM = 666.2 ± 0.2 cubic metres per second squared (abstract, PMID 26842054); SBDB riporta 662.2e-9 con lo stesso riferimento"}
+  },
+  "itokawa": {
+   "gm_km3s2": {"valore": 2.3426793e-09, "incertezza": 7.0280379e-11, "fonte": "Fujiwara et al. 2006, Science 312, 1330, doi:10.1126/science.1125841 (massa 3,51·10¹⁰ kg)", "anno": 2006, "evidenza": "the mass is 3.51 x 10(10) kilograms, and the estimated bulk density is 1.9 +/- 0.13 grams per cubic centimeter (abstract, PMID 16741107); incertezza: nota SBDB 'derived from published mass of 3.51e10 kg +/- 3%'"}
+  },
+  "patroclus": {
+   "raggi_km": {"valore": [63.5, 58.5, 49.0], "incertezza": null, "fonte": "Buie et al. 2015, AJ 149, 113, doi:10.1088/0004-6256/149/3/113 (assi medi 127 × 117 × 98 km del modello di forma da occultazione stellare e curve di luce; primario del sistema Patroclus-Menoetius)", "anno": 2015, "evidenza": "This shape model has mean-ellipsoidal axes of 127×117×98 km for Patroclus and 117×108×90 km for Menoetius ... A volume-equivalent spherical size for Patroclus is D1 = 113 km (§ 6); diametro SBDB 140,362 ± 0,868 km (NEOWISE, Grav et al. 2012): coppia non risolta, area proiettata dei due corpi"},
+   "gm_km3s2": {"valore": 0.0941, "incertezza": 0.0019, "fonte": "Grundy et al. 2018, Icarus 305, 198, doi:10.1016/j.icarus.2018.01.009 (massa del sistema Patroclus-Menoetius)", "anno": 2018, "evidenza": "Standard gravitational parameter GMsys (km3 s-2) μ 0.0941 ± 0.0019; System mass (10^18 kg) 1.410 ± 0.029 (arXiv:1903.03729, tab. 2, orbita circolare adottata)"}
+  },
+  "hektor": {
+   "raggi_km": {"valore": [125, 125, 125], "incertezza": [13, 13, 13], "fonte": "Marchis et al. 2014, ApJL 783, L37, doi:10.1088/2041-8205/783/2/L37 (raggio della sfera di pari volume del primario, diametro equivalente 250 ± 26 km; modello bilobato con lobi di 220 e 183 km)", "anno": 2014, "evidenza": "Equivalent Diameter Primary (km) 250, 1-σ Error 26 (arXiv:1402.7336, tab. 1); We adopted an equivalent diameter of 250 ± 26 km for Hektor's primary (§ 2.2); valore SBDB superato: 225 km, riferimento \"J.G. Williams 9-90\", senza incertezza né anno"},
+   "rotazione": {"valore": 6.92050885, "incertezza": 0.000002, "fonte": "Marchis et al. 2014, ApJL 783, L37, doi:10.1088/2041-8205/783/2/L37 (periodo di rotazione del modello di forma bilobato)", "anno": 2014, "evidenza": "Rotation period (hours) 6.92050885, 1-σ Error 0.000002 (arXiv:1402.7336, tab. 1); P = 6.920509 ± 0.000002 h (§ 2.2); LCDB 6,924 h non adottato"},
+   "polo": {"lambda_ecl": 332, "beta_ecl": -32, "incertezza_gradi": 10, "fonte": "Marchis et al. 2014, ApJL 783, L37, doi:10.1088/2041-8205/783/2/L37 (modello bilobato)", "anno": 2014, "evidenza": "Pole solution in ecliptic ECJ2000 (degrees) λ=332, 1-σ Error 10; β=-32, 1-σ Error 10 (arXiv:1402.7336, tab. 1)"},
+   "gm_km3s2": {"valore": 0.5272697, "incertezza": 0.0934402, "fonte": "Marchis et al. 2014, ApJL 783, L37, doi:10.1088/2041-8205/783/2/L37 (massa del primario dal modello dinamico dell'orbita di Skamandrios, massa del satellite posta a zero)", "anno": 2014, "evidenza": "Primary Mass (10^18 kg) 7.9, 1-σ Error 1.4; Moon Mass Negligible, Set to 0 (arXiv:1402.7336, tab. 1)"}
+  },
+  "eurybates": {
+   "gm_km3s2": {"valore": 0.010078193, "incertezza": 0.000200229, "fonte": "Brown et al. 2021, PSJ 2, 170, doi:10.3847/PSJ/ac07b0 (massa del primario dal modello orbitale di Queta, contributo del satellite trascurabile)", "anno": 2021, "evidenza": "From the semimajor axis and period we calculate a mass of Eurybates of 1.51 ± 0.03 × 10^17 kg (the contribution to the system mass of the satellite is negligible) (§ 3 e tab. 3)"}
+  },
+  "sylvia": {
+   "raggi_km": {"valore": [136.5, 136.5, 136.5], "incertezza": [1.6667, 1.6667, 1.6667], "fonte": "Berthier et al. 2014, Icarus 239, 118, doi:10.1016/j.icarus.2014.05.046 (raggio della sfera di pari volume del primario, Dv = 273 km del modello di forma; incertezza ± 10 km a 3 σ della fonte, qui a 1 σ)", "anno": 2014, "evidenza": "Volume-equivalent diameter DV 273 km, Uncertainty (3-σ) ± 10 km (arXiv:1407.1292, tab. 6); modelli plausibili tra 266 e 280 km (§ 3.1); valore radiometrico superato: NEOWISE, diametro 253,051 ± 2,953 km (SBDB); albedo SBDB 0,046 ± 0,004 (NEOWISE) legata a quel diametro: non adottata"},
+   "gm_km3s2": {"valore": 0.99046612, "incertezza": 0.01067888, "fonte": "Fang et al. 2012, AJ 144, 70, doi:10.1088/0004-6256/144/2/70 (massa del primario dal modello dinamico a tre corpi con Romolo e Remo)", "anno": 2012, "evidenza": "individual masses of 1.484 -0.014/+0.016 x 10^19 kg for the primary (arXiv:1206.5755, abstract); DE441 (MA0087) 2,168 km^3/s^2, non adottato"}
+  },
+  "giunone": {
+   "gm_km3s2": {"valore": 1.9205707002025891, "incertezza": null, "fonte": "DE441 (Park et al. 2021, AJ 161:105, doi:10.3847/1538-3881/abd414), costante MA0003", "anno": 2021, "evidenza": "MA0003 = 4.2823439677995011e-15 au^3/d^2 (costanti di linux_m13000p17000.441, DE441; stesso valore nella tabella DE440 dell'area commenti di nep097.bsp)"}
+  },
+  "igea": {
+   "raggi_km": {"valore": [217, 217, 217], "incertezza": [7, 7, 7], "fonte": "Vernazza et al. 2020, Nature Astronomy 4, 136, doi:10.1038/s41550-019-0915-8 (raggio equivalente in volume del modello di forma da immagini VLT/SPHERE; forma quasi sferica)", "anno": 2020, "evidenza": "a basin-free nearly spherical shape with a volume-equivalent radius of 217 ± 7 km (abstract); valore radiometrico superato: IRAS, diametro 407,12 ± 6,8 km (SBDB); albedo SBDB 0,0717 ± 0,002 (IRAS) legata a quel diametro: non adottata"},
+   "gm_km3s2": {"valore": 5.625147645385229, "incertezza": null, "fonte": "DE441 (Park et al. 2021, AJ 161:105, doi:10.3847/1538-3881/abd414), costante MA0010", "anno": 2021, "evidenza": "MA0010 = 1.2542530761640810e-14 au^3/d^2 (costanti di linux_m13000p17000.441, DE441; stesso valore nella tabella DE440 dell'area commenti di nep097.bsp)"}
+  },
+  "euphrosyne": {
+   "gm_km3s2": {"valore": 1.079371457703356, "incertezza": null, "fonte": "DE441 (Park et al. 2021, AJ 161:105, doi:10.3847/1538-3881/abd414), costante MA0031", "anno": 2021, "evidenza": "MA0031 = 2.4067012218937576e-15 au^3/d^2 (costanti di linux_m13000p17000.441, DE441; stesso valore nella tabella DE440 dell'area commenti di nep097.bsp)"}
+  },
+  "52-europa": {
+   "gm_km3s2": {"valore": 2.6830359242821795, "incertezza": null, "fonte": "DE441 (Park et al. 2021, AJ 161:105, doi:10.3847/1538-3881/abd414), costante MA0052", "anno": 2021, "evidenza": "MA0052 = 5.9824315264869841e-15 au^3/d^2 (costanti di linux_m13000p17000.441, DE441; stesso valore nella tabella DE440 dell'area commenti di nep097.bsp)"}
+  },
+  "patientia": {
+   "gm_km3s2": {"valore": 0.5818564474145613, "incertezza": null, "fonte": "DE441 (Park et al. 2021, AJ 161:105, doi:10.3847/1538-3881/abd414), costante MA0451", "anno": 2021, "evidenza": "MA0451 = 1.2973797046097596e-15 au^3/d^2 (costanti di linux_m13000p17000.441, DE441; stesso valore nella tabella DE440 dell'area commenti di nep097.bsp)"}
+  },
+  "davida": {
+   "gm_km3s2": {"valore": 3.894483148170565, "incertezza": null, "fonte": "DE441 (Park et al. 2021, AJ 161:105, doi:10.3847/1538-3881/abd414), costante MA0511", "anno": 2021, "evidenza": "MA0511 = 8.6836253492286545e-15 au^3/d^2 (costanti di linux_m13000p17000.441, DE441; stesso valore nella tabella DE440 dell'area commenti di nep097.bsp)"}
+  },
+  "interamnia": {
+   "raggi_km": {"valore": [166, 166, 166], "incertezza": [3, 3, 3], "fonte": "Hanuš et al. 2020, A&A 633, A65, doi:10.1051/0004-6361/201936639 (raggio della sfera di pari volume, diametro equivalente in volume 332 ± 6 km del modello di forma ADAM da immagini VLT/SPHERE, curve di luce e occultazioni)", "anno": 2020, "evidenza": "volume-equivalent diameter of 332 ± 6 km (abstract); D 332 ± 6 km, a 362 ± 8, b 348 ± 8, c 310 ± 8 km (tab. 2, This work, ADAM, 1 σ; arXiv:1911.13049v2): il volume dell'ellissoide 362 × 348 × 310 km equivale a D = 339 km, non adottato; valore radiometrico superato: NEOWISE, diametro 306,313 ± 1,031 km (SBDB); albedo SBDB 0,078 ± 0,014 (NEOWISE) legata a quel diametro: non adottata"},
+   "rotazione": {"valore": 8.712336, "incertezza": 0.00001, "fonte": "Hanuš et al. 2020, A&A 633, A65, doi:10.1051/0004-6361/201936639 (periodo siderale del modello di forma ADAM)", "anno": 2020, "evidenza": "P 8.712336(10) h, sidereal rotation period (tab. 2, This work, ADAM; arXiv:1911.13049v2); LCDB 8,727 h (Michalowski et al. 1995, 8.72729 h) non adottato"},
+   "gm_km3s2": {"valore": 2.830409639329985, "incertezza": null, "fonte": "DE441 (Park et al. 2021, AJ 161:105, doi:10.3847/1538-3881/abd414), costante MA0704", "anno": 2021, "evidenza": "MA0704 = 6.3110343420878887e-15 au^3/d^2 (costanti di linux_m13000p17000.441, DE441; stesso valore nella tabella DE440 dell'area commenti di nep097.bsp)"}
+  }
+ }
+}

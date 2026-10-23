@@ -1,0 +1,7194 @@
+{
+ "corpi": {
+  "cerere": {
+   "horizons": {
+    "epoche": 50,
+    "valutate": 50,
+    "non_ok": [],
+    "max_km": 216.77487517069795,
+    "max_rapporto": 0.4335497503413959,
+    "oltre_soglia": []
+   },
+   "interpolazione": {
+    "epoche": 200,
+    "tutti_ok": true,
+    "max_rapporto": 0.8067920324361973
+   },
+   "giunzioni": [
+    {
+     "t": -1200000.5,
+     "da": "assist:sb441",
+     "a": "sb441",
+     "km": 0.0,
+     "rel": 0.0,
+     "metrica": 1.4901161193847656e-08
+    },
+    {
+     "t": 2305447.5,
+     "da": "sb441",
+     "a": "spk:cerere",
+     "km": 4281.114099316973,
+     "rel": 1.073080401144465e-05,
+     "metrica": 1.073080401144465e-05
+    }
+   ],
+   "salti_record": [],
+   "sovrapposizione_1600_1650": null,
+   "max_rapporto_segmenti": 0.8956258098261881
+  },
+  "eris": {
+   "horizons": {
+    "epoche": 50,
+    "valutate": 50,
+    "non_ok": [],
+    "max_km": 975.7104646285486,
+    "max_rapporto": 0.6774485908567361,
+    "oltre_soglia": []
+   },
+   "interpolazione": {
+    "epoche": 200,
+    "tutti_ok": true,
+    "max_rapporto": 0.8012737124181769
+   },
+   "giunzioni": [
+    {
+     "t": 2305447.5,
+     "da": "assist:dati",
+     "a": "spk:eris",
+     "km": 36.9987773536505,
+     "rel": 3.6690974460241763e-09,
+     "metrica": 3.6690974460241763e-09
+    }
+   ],
+   "salti_record": [],
+   "sovrapposizione_1600_1650": {
+    "inizio": 2305447.5,
+    "ancora": 2323710.5,
+    "max_km": 36.9987773536505,
+    "max_rel": 3.6690974460241763e-09,
+    "all_inizio_km": 36.9987773536505,
+    "metrica_all_inizio": 3.6690974460241763e-09
+   },
+   "max_rapporto_segmenti": 0.8993465627097735
+  },
+  "haumea": {
+   "horizons": {
+    "epoche": 50,
+    "valutate": 50,
+    "non_ok": [],
+    "max_km": 489.71986882650157,
+    "max_rapporto": 0.8451469645011458,
+    "oltre_soglia": []
+   },
+   "interpolazione": {
+    "epoche": 200,
+    "tutti_ok": true,
+    "max_rapporto": 0.6323511092660402
+   },
+   "giunzioni": [
+    {
+     "t": 2305447.5,
+     "da": "assist:dati",
+     "a": "spk:haumea",
+     "km": 38.59127367467682,
+     "rel": 6.8396618020506875e-09,
+     "metrica": 6.8396618020506875e-09
+    }
+   ],
+   "salti_record": [],
+   "sovrapposizione_1600_1650": {
+    "inizio": 2305447.5,
+    "ancora": 2323710.5,
+    "max_km": 38.59127367467682,
+    "max_rel": 6.8396618020506875e-09,
+    "all_inizio_km": 38.59127367467682,
+    "metrica_all_inizio": 6.8396618020506875e-09
+   },
+   "max_rapporto_segmenti": 0.892579559603875
+  },
+  "makemake": {
+   "horizons": {
+    "epoche": 50,
+    "valutate": 50,
+    "non_ok": [],
+    "max_km": 469.7821029890171,
+    "max_rapporto": 0.7071465558911508,
+    "oltre_soglia": []
+   },
+   "interpolazione": {
+    "epoche": 200,
+    "tutti_ok": true,
+    "max_rapporto": 0.6505166681716432
+   },
+   "giunzioni": [
+    {
+     "t": 2305447.5,
+     "da": "assist:dati",
+     "a": "spk:makemake",
+     "km": 40.74949330658817,
+     "rel": 6.879200235420283e-09,
+     "metrica": 6.879200235420283e-09
+    }
+   ],
+   "salti_record": [],
+   "sovrapposizione_1600_1650": {
+    "inizio": 2305447.5,
+    "ancora": 2323710.5,
+    "max_km": 40.74949330658817,
+    "max_rel": 6.879200235420283e-09,
+    "all_inizio_km": 40.74949330658817,
+    "metrica_all_inizio": 6.879200235420283e-09
+   },
+   "max_rapporto_segmenti": 0.8772484933192722
+  },
+  "gonggong": {
+   "horizons": {
+    "epoche": 50,
+    "valutate": 50,
+    "non_ok": [],
+    "max_km": 978.8561978390994,
+    "max_rapporto": 0.7706093850608295,
+    "oltre_soglia": []
+   },
+   "interpolazione": {
+    "epoche": 200,
+    "tutti_ok": true,
+    "max_rapporto": 0.26960320607835525
+   },
+   "giunzioni": [
+    {
+     "t": 2305447.5,
+     "da": "assist:dati",
+     "a": "spk:gonggong",
+     "km": 34.39489549676139,
+     "rel": 2.2869661877476333e-09,
+     "metrica": 2.2869661877476333e-09
+    }
+   ],
+   "salti_record": [],
+   "sovrapposizione_1600_1650": {
+    "inizio": 2305447.5,
+    "ancora": 2323710.5,
+    "max_km": 34.39489549676139,
+    "max_rel": 2.2869661877476333e-09,
+    "all_inizio_km": 34.39489549676139,
+    "metrica_all_inizio": 2.2869661877476333e-09
+   },
+   "max_rapporto_segmenti": 0.8959648400872563
+  },
+  "quaoar": {
+   "horizons": {
+    "epoche": 50,
+    "valutate": 50,
+    "non_ok": [],
+    "max_km": 440.1867928779121,
+    "max_rapporto": 0.6552670592409768,
+    "oltre_soglia": []
+   },
+   "interpolazione": {
+    "epoche": 200,
+    "tutti_ok": true,
+    "max_rapporto": 0.657775511849221
+   },
+   "giunzioni": [
+    {
+     "t": 2305447.5,
+     "da": "assist:dati",
+     "a": "spk:quaoar",
+     "km": 37.10132622909426,
+     "rel": 5.6159772088015556e-09,
+     "metrica": 5.6159772088015556e-09
+    }
+   ],
+   "salti_record": [],
+   "sovrapposizione_1600_1650": {
+    "inizio": 2305447.5,
+    "ancora": 2323710.5,
+    "max_km": 37.10132622909426,
+    "max_rel": 5.6159772088015556e-09,
+    "all_inizio_km": 37.10132622909426,
+    "metrica_all_inizio": 2.1073424255447017e-08
+   },
+   "max_rapporto_segmenti": 0.7749793402692231
+  },
+  "sedna": {
+   "horizons": {
+    "epoche": 50,
+    "valutate": 50,
+    "non_ok": [],
+    "max_km": 2459.7953661864294,
+    "max_rapporto": 0.7000429567417055,
+    "oltre_soglia": []
+   },
+   "interpolazione": {
+    "epoche": 200,
+    "tutti_ok": true,
+    "max_rapporto": 0.8361288417679295
+   },
+   "giunzioni": [
+    {
+     "t": 2305447.5,
+     "da": "assist:dati",
+     "a": "spk:sedna",
+     "km": 34.89831882054888,
+     "rel": 9.016996051437701e-10,
+     "metrica": 9.016996051437701e-10
+    }
+   ],
+   "salti_record": [],
+   "sovrapposizione_1600_1650": {
+    "inizio": 2305447.5,
+    "ancora": 2323710.5,
+    "max_km": 34.89831882054888,
+    "max_rel": 9.016996051437701e-10,
+    "all_inizio_km": 34.89831882054888,
+    "metrica_all_inizio": 9.016996051437701e-10
+   },
+   "max_rapporto_segmenti": 0.899620103092242
+  },
+  "orco": {
+   "horizons": {
+    "epoche": 50,
+    "valutate": 50,
+    "non_ok": [],
+    "max_km": 472.02664463496075,
+    "max_rapporto": 0.795342189198036,
+    "oltre_soglia": []
+   },
+   "interpolazione": {
+    "epoche": 200,
+    "tutti_ok": true,
+    "max_rapporto": 0.7837119905587899
+   },
+   "giunzioni": [
+    {
+     "t": 2305447.5,
+     "da": "assist:dati",
+     "a": "spk:orco",
+     "km": 45.307649912643505,
+     "rel": 7.801764851385823e-09,
+     "metrica": 7.801764851385823e-09
+    }
+   ],
+   "salti_record": [],
+   "sovrapposizione_1600_1650": {
+    "inizio": 2305447.5,
+    "ancora": 2323710.5,
+    "max_km": 45.307649912643505,
+    "max_rel": 7.801764851385823e-09,
+    "all_inizio_km": 45.307649912643505,
+    "metrica_all_inizio": 7.801764851385823e-09
+   },
+   "max_rapporto_segmenti": 0.8972481381187655
+  },
+  "salacia": {
+   "horizons": {
+    "epoche": 50,
+    "valutate": 50,
+    "non_ok": [],
+    "max_km": 457.9385195382631,
+    "max_rapporto": 0.7584973971379322,
+    "oltre_soglia": []
+   },
+   "interpolazione": {
+    "epoche": 200,
+    "tutti_ok": true,
+    "max_rapporto": 0.805137016090727
+   },
+   "giunzioni": [
+    {
+     "t": 2305447.5,
+     "da": "assist:dati",
+     "a": "spk:salacia",
+     "km": 30.571930942583357,
+     "rel": 4.990427652950307e-09,
+     "metrica": 4.990427652950307e-09
+    }
+   ],
+   "salti_record": [],
+   "sovrapposizione_1600_1650": {
+    "inizio": 2305447.5,
+    "ancora": 2323710.5,
+    "max_km": 30.571930942583357,
+    "max_rel": 4.990427652950307e-09,
+    "all_inizio_km": 30.571930942583357,
+    "metrica_all_inizio": 4.990427652950307e-09
+   },
+   "max_rapporto_segmenti": 0.8880617900385912
+  },
+  "varuna": {
+   "horizons": {
+    "epoche": 50,
+    "valutate": 50,
+    "non_ok": [],
+    "max_km": 462.2318594660406,
+    "max_rapporto": 0.7604397371307964,
+    "oltre_soglia": []
+   },
+   "interpolazione": {
+    "epoche": 200,
+    "tutti_ok": true,
+    "max_rapporto": 0.6916044113692831
+   },
+   "giunzioni": [
+    {
+     "t": 2305447.5,
+     "da": "assist:dati",
+     "a": "spk:varuna",
+     "km": 39.07836284236195,
+     "rel": 6.2142177196752016e-09,
+     "metrica": 6.2142177196752016e-09
+    }
+   ],
+   "salti_record": [],
+   "sovrapposizione_1600_1650": {
+    "inizio": 2305447.5,
+    "ancora": 2323710.5,
+    "max_km": 39.07836284236195,
+    "max_rel": 6.2142177196752016e-09,
+    "all_inizio_km": 39.07836284236195,
+    "metrica_all_inizio": 6.2142177196752016e-09
+   },
+   "max_rapporto_segmenti": 0.8027612299759378
+  },
+  "issione": {
+   "horizons": {
+    "epoche": 50,
+    "valutate": 50,
+    "non_ok": [],
+    "max_km": 487.0598545187403,
+    "max_rapporto": 0.7399171270417881,
+    "oltre_soglia": []
+   },
+   "interpolazione": {
+    "epoche": 200,
+    "tutti_ok": true,
+    "max_rapporto": 0.4176030025836819
+   },
+   "giunzioni": [
+    {
+     "t": 2305447.5,
+     "da": "assist:dati",
+     "a": "spk:issione",
+     "km": 45.6197518367033,
+     "rel": 9.26896886225669e-09,
+     "metrica": 9.26896886225669e-09
+    }
+   ],
+   "salti_record": [],
+   "sovrapposizione_1600_1650": {
+    "inizio": 2305447.5,
+    "ancora": 2323710.5,
+    "max_km": 45.6197518367033,
+    "max_rel": 9.26896886225669e-09,
+    "all_inizio_km": 45.6197518367033,
+    "metrica_all_inizio": 9.26896886225669e-09
+   },
+   "max_rapporto_segmenti": 0.8981538158047515
+  },
+  "mani": {
+   "horizons": {
+    "epoche": 50,
+    "valutate": 50,
+    "non_ok": [],
+    "max_km": 442.82288975141955,
+    "max_rapporto": 0.7343926485582207,
+    "oltre_soglia": []
+   },
+   "interpolazione": {
+    "epoche": 200,
+    "tutti_ok": true,
+    "max_rapporto": 0.7239523036018566
+   },
+   "giunzioni": [
+    {
+     "t": 2305447.5,
+     "da": "assist:dati",
+     "a": "spk:mani",
+     "km": 36.84813177461158,
+     "rel": 6.796983143089904e-09,
+     "metrica": 6.796983143089904e-09
+    }
+   ],
+   "salti_record": [],
+   "sovrapposizione_1600_1650": {
+    "inizio": 2305447.5,
+    "ancora": 2323710.5,
+    "max_km": 36.84813177461158,
+    "max_rel": 6.796983143089904e-09,
+    "all_inizio_km": 36.84813177461158,
+    "metrica_all_inizio": 6.796983143089904e-09
+   },
+   "max_rapporto_segmenti": 0.8970865628257794
+  },
+  "arrokoth": {
+   "horizons": {
+    "epoche": 50,
+    "valutate": 50,
+    "non_ok": [],
+    "max_km": 443.5289258671156,
+    "max_rapporto": 0.6483793295984931,
+    "oltre_soglia": []
+   },
+   "interpolazione": {
+    "epoche": 200,
+    "tutti_ok": true,
+    "max_rapporto": 0.7141294844952327
+   },
+   "giunzioni": [
+    {
+     "t": 2305447.5,
+     "da": "assist:dati",
+     "a": "spk:arrokoth",
+     "km": 34.08526179552686,
+     "rel": 4.98247199314777e-09,
+     "metrica": 4.98247199314777e-09
+    }
+   ],
+   "salti_record": [],
+   "sovrapposizione_1600_1650": {
+    "inizio": 2305447.5,
+    "ancora": 2323710.5,
+    "max_km": 34.08526179552686,
+    "max_rel": 4.98247199314777e-09,
+    "all_inizio_km": 34.08526179552686,
+    "metrica_all_inizio": 2.1073424255447017e-08
+   },
+   "max_rapporto_segmenti": 0.7583217790265113
+  },
+  "chiron": {
+   "horizons": {
+    "epoche": 50,
+    "valutate": 50,
+    "non_ok": [],
+    "max_km": 387.35369221800505,
+    "max_rapporto": 0.7747073844360101,
+    "oltre_soglia": []
+   },
+   "interpolazione": {
+    "epoche": 200,
+    "tutti_ok": true,
+    "max_rapporto": 0.8423658409064777
+   },
+   "giunzioni": [
+    {
+     "t": 2305447.5,
+     "da": "assist:dati",
+     "a": "spk:chiron",
+     "km": 39.361220342015294,
+     "rel": 2.715476863024737e-08,
+     "metrica": 2.9802322387695312e-08
+    }
+   ],
+   "salti_record": [],
+   "sovrapposizione_1600_1650": {
+    "inizio": 2305447.5,
+    "ancora": 2323710.5,
+    "max_km": 39.361220342015294,
+    "max_rel": 2.715476863024737e-08,
+    "all_inizio_km": 39.361220342015294,
+    "metrica_all_inizio": 2.9802322387695312e-08
+   },
+   "max_rapporto_segmenti": 0.8992760078674895
+  },
+  "chariklo": {
+   "horizons": {
+    "epoche": 50,
+    "valutate": 50,
+    "non_ok": [],
+    "max_km": 367.59392506238834,
+    "max_rapporto": 0.7351878501247767,
+    "oltre_soglia": []
+   },
+   "interpolazione": {
+    "epoche": 200,
+    "tutti_ok": true,
+    "max_rapporto": 0.17136018697135724
+   },
+   "giunzioni": [
+    {
+     "t": 2305447.5,
+     "da": "assist:dati",
+     "a": "spk:chariklo",
+     "km": 34.685160958925835,
+     "rel": 1.263044572266997e-08,
+     "metrica": 1.263044572266997e-08
+    }
+   ],
+   "salti_record": [],
+   "sovrapposizione_1600_1650": {
+    "inizio": 2305447.5,
+    "ancora": 2323710.5,
+    "max_km": 34.685160958925835,
+    "max_rel": 1.263044572266997e-08,
+    "all_inizio_km": 34.685160958925835,
+    "metrica_all_inizio": 1.263044572266997e-08
+   },
+   "max_rapporto_segmenti": 0.8994799348364325
+  },
+  "pallade": {
+   "horizons": {
+    "epoche": 50,
+    "valutate": 50,
+    "non_ok": [],
+    "max_km": 370.5195569096914,
+    "max_rapporto": 0.7410391138193828,
+    "oltre_soglia": []
+   },
+   "interpolazione": {
+    "epoche": 200,
+    "tutti_ok": true,
+    "max_rapporto": 0.6245729277569895
+   },
+   "giunzioni": [
+    {
+     "t": -1200000.5,
+     "da": "assist:sb441",
+     "a": "sb441",
+     "km": 0.0,
+     "rel": 0.0,
+     "metrica": 0.0
+    },
+    {
+     "t": 2305447.5,
+     "da": "sb441",
+     "a": "spk:pallade",
+     "km": 403.43010299950055,
+     "rel": 8.886601308114125e-07,
+     "metrica": 8.886601308114125e-07
+    }
+   ],
+   "salti_record": [],
+   "sovrapposizione_1600_1650": null,
+   "max_rapporto_segmenti": 0.8930978065651999
+  },
+  "giunone": {
+   "horizons": {
+    "epoche": 50,
+    "valutate": 50,
+    "non_ok": [],
+    "max_km": 352.19248178653123,
+    "max_rapporto": 0.7043849635730625,
+    "oltre_soglia": []
+   },
+   "interpolazione": {
+    "epoche": 200,
+    "tutti_ok": true,
+    "max_rapporto": 0.7466495389061649
+   },
+   "giunzioni": [
+    {
+     "t": -1200000.5,
+     "da": "assist:sb441",
+     "a": "sb441",
+     "km": 0.0,
+     "rel": 0.0,
+     "metrica": 0.0
+    },
+    {
+     "t": 2305447.5,
+     "da": "sb441",
+     "a": "spk:giunone",
+     "km": 553.4432945666024,
+     "rel": 1.8436354963948582e-06,
+     "metrica": 1.8436536584167163e-06
+    }
+   ],
+   "salti_record": [],
+   "sovrapposizione_1600_1650": null,
+   "max_rapporto_segmenti": 0.8997425603448568
+  },
+  "vesta": {
+   "horizons": {
+    "epoche": 50,
+    "valutate": 50,
+    "non_ok": [],
+    "max_km": 245.9884504252382,
+    "max_rapporto": 0.4919769008504764,
+    "oltre_soglia": []
+   },
+   "interpolazione": {
+    "epoche": 200,
+    "tutti_ok": true,
+    "max_rapporto": 0.6846989746932676
+   },
+   "giunzioni": [
+    {
+     "t": -1200000.5,
+     "da": "assist:sb441",
+     "a": "sb441",
+     "km": 0.0,
+     "rel": 0.0,
+     "metrica": 0.0
+    },
+    {
+     "t": 2305447.5,
+     "da": "sb441",
+     "a": "spk:vesta",
+     "km": 2157.5851269600525,
+     "rel": 6.0657363427979306e-06,
+     "metrica": 6.0657363427979306e-06
+    }
+   ],
+   "salti_record": [],
+   "sovrapposizione_1600_1650": null,
+   "max_rapporto_segmenti": 0.8967261076974525
+  },
+  "igea": {
+   "horizons": {
+    "epoche": 50,
+    "valutate": 50,
+    "non_ok": [],
+    "max_km": 165.12131889775384,
+    "max_rapporto": 0.33024263779550767,
+    "oltre_soglia": []
+   },
+   "interpolazione": {
+    "epoche": 200,
+    "tutti_ok": true,
+    "max_rapporto": 0.5546713077038398
+   },
+   "giunzioni": [
+    {
+     "t": -1200000.5,
+     "da": "assist:sb441",
+     "a": "sb441",
+     "km": 0.0,
+     "rel": 0.0,
+     "metrica": 0.0
+    },
+    {
+     "t": 2305447.5,
+     "da": "sb441",
+     "a": "spk:igea",
+     "km": 8986.100361700781,
+     "rel": 2.000046504799502e-05,
+     "metrica": 2.000046504799502e-05
+    }
+   ],
+   "salti_record": [],
+   "sovrapposizione_1600_1650": null,
+   "max_rapporto_segmenti": 0.8978420920439488
+  },
+  "psyche": {
+   "horizons": {
+    "epoche": 50,
+    "valutate": 50,
+    "non_ok": [],
+    "max_km": 247.91652850494398,
+    "max_rapporto": 0.49583305700988795,
+    "oltre_soglia": []
+   },
+   "interpolazione": {
+    "epoche": 200,
+    "tutti_ok": true,
+    "max_rapporto": 0.8098419080871475
+   },
+   "giunzioni": [
+    {
+     "t": -1200000.5,
+     "da": "assist:sb441",
+     "a": "sb441",
+     "km": 0.0,
+     "rel": 0.0,
+     "metrica": 0.0
+    },
+    {
+     "t": 2305447.5,
+     "da": "sb441",
+     "a": "spk:psyche",
+     "km": 15219.496221817024,
+     "rel": 3.895824292714421e-05,
+     "metrica": 3.895824292714421e-05
+    }
+   ],
+   "salti_record": [],
+   "sovrapposizione_1600_1650": null,
+   "max_rapporto_segmenti": 0.8996332637456874
+  },
+  "lutetia": {
+   "horizons": {
+    "epoche": 50,
+    "valutate": 50,
+    "non_ok": [],
+    "max_km": 240.90106472857988,
+    "max_rapporto": 0.4818021294571598,
+    "oltre_soglia": []
+   },
+   "interpolazione": {
+    "epoche": 200,
+    "tutti_ok": true,
+    "max_rapporto": 0.6557506483758203
+   },
+   "giunzioni": [
+    {
+     "t": 2305447.5,
+     "da": "assist:dati",
+     "a": "spk:lutetia",
+     "km": 18.560505468397245,
+     "rel": 4.584617170826612e-08,
+     "metrica": 4.584617170826612e-08
+    }
+   ],
+   "salti_record": [],
+   "sovrapposizione_1600_1650": {
+    "inizio": 2305447.5,
+    "ancora": 2323710.5,
+    "max_km": 23.802007158982157,
+    "max_rel": 7.47923177767341e-08,
+    "all_inizio_km": 18.560505468397245,
+    "metrica_all_inizio": 4.584617170826612e-08
+   },
+   "max_rapporto_segmenti": 0.8982776443992158
+  },
+  "euphrosyne": {
+   "horizons": {
+    "epoche": 50,
+    "valutate": 50,
+    "non_ok": [],
+    "max_km": 311.84178801320195,
+    "max_rapporto": 0.6236835760264039,
+    "oltre_soglia": []
+   },
+   "interpolazione": {
+    "epoche": 200,
+    "tutti_ok": true,
+    "max_rapporto": 0.5288732575624778
+   },
+   "giunzioni": [
+    {
+     "t": -1200000.5,
+     "da": "assist:sb441",
+     "a": "sb441",
+     "km": 0.0,
+     "rel": 0.0,
+     "metrica": 0.0
+    },
+    {
+     "t": 2305447.5,
+     "da": "sb441",
+     "a": "spk:euphrosyne",
+     "km": 6082.130238962455,
+     "rel": 1.0805026659603064e-05,
+     "metrica": 1.0805026659603064e-05
+    }
+   ],
+   "salti_record": [],
+   "sovrapposizione_1600_1650": null,
+   "max_rapporto_segmenti": 0.8982781805997554
+  },
+  "52-europa": {
+   "horizons": {
+    "epoche": 50,
+    "valutate": 50,
+    "non_ok": [],
+    "max_km": 156.06877187492827,
+    "max_rapporto": 0.3121375437498565,
+    "oltre_soglia": []
+   },
+   "interpolazione": {
+    "epoche": 200,
+    "tutti_ok": true,
+    "max_rapporto": 0.5885218673346563
+   },
+   "giunzioni": [
+    {
+     "t": -1200000.5,
+     "da": "assist:sb441",
+     "a": "sb441",
+     "km": 0.0,
+     "rel": 0.0,
+     "metrica": 0.0
+    },
+    {
+     "t": 2305447.5,
+     "da": "sb441",
+     "a": "spk:52-europa",
+     "km": 4301.434915697881,
+     "rel": 9.331941112504193e-06,
+     "metrica": 9.331941112504193e-06
+    }
+   ],
+   "salti_record": [],
+   "sovrapposizione_1600_1650": null,
+   "max_rapporto_segmenti": 0.8999050237755859
+  },
+  "sylvia": {
+   "horizons": {
+    "epoche": 50,
+    "valutate": 50,
+    "non_ok": [],
+    "max_km": 89.50108001646024,
+    "max_rapporto": 0.17900216003292047,
+    "oltre_soglia": []
+   },
+   "interpolazione": {
+    "epoche": 200,
+    "tutti_ok": true,
+    "max_rapporto": 0.680264924858091
+   },
+   "giunzioni": [
+    {
+     "t": -1200000.5,
+     "da": "assist:sb441",
+     "a": "sb441",
+     "km": 0.0,
+     "rel": 0.0,
+     "metrica": 0.0
+    },
+    {
+     "t": 2305447.5,
+     "da": "sb441",
+     "a": "spk:sylvia",
+     "km": 960.2873189842525,
+     "rel": 1.9204929998662485e-06,
+     "metrica": 1.9204929998662485e-06
+    }
+   ],
+   "salti_record": [],
+   "sovrapposizione_1600_1650": null,
+   "max_rapporto_segmenti": 0.8983713613720496
+  },
+  "ida": {
+   "horizons": {
+    "epoche": 50,
+    "valutate": 50,
+    "non_ok": [],
+    "max_km": 172.91030257893905,
+    "max_rapporto": 0.3458206051578781,
+    "oltre_soglia": []
+   },
+   "interpolazione": {
+    "epoche": 200,
+    "tutti_ok": true,
+    "max_rapporto": 0.7488184708907032
+   },
+   "giunzioni": [
+    {
+     "t": 2305447.5,
+     "da": "assist:dati",
+     "a": "spk:ida",
+     "km": 35.83080327013774,
+     "rel": 8.720324431182458e-08,
+     "metrica": 8.720324431182458e-08
+    }
+   ],
+   "salti_record": [],
+   "sovrapposizione_1600_1650": {
+    "inizio": 2305447.5,
+    "ancora": 2323710.5,
+    "max_km": 37.07788764639295,
+    "max_rel": 8.720324431182458e-08,
+    "all_inizio_km": 35.83080327013774,
+    "metrica_all_inizio": 8.720324431182458e-08
+   },
+   "max_rapporto_segmenti": 0.8930926930048533
+  },
+  "mathilde": {
+   "horizons": {
+    "epoche": 50,
+    "valutate": 50,
+    "non_ok": [],
+    "max_km": 262.1957025648551,
+    "max_rapporto": 0.5243914051297102,
+    "oltre_soglia": []
+   },
+   "interpolazione": {
+    "epoche": 200,
+    "tutti_ok": true,
+    "max_rapporto": 0.3759482733277794
+   },
+   "giunzioni": [
+    {
+     "t": 2305447.5,
+     "da": "assist:dati",
+     "a": "spk:mathilde",
+     "km": 28.576320530710277,
+     "rel": 7.258881236520275e-08,
+     "metrica": 7.258881236520275e-08
+    }
+   ],
+   "salti_record": [],
+   "sovrapposizione_1600_1650": {
+    "inizio": 2305447.5,
+    "ancora": 2323710.5,
+    "max_km": 38.49984973536443,
+    "max_rel": 1.3085315721915098e-07,
+    "all_inizio_km": 28.576320530710277,
+    "metrica_all_inizio": 7.258881236520275e-08
+   },
+   "max_rapporto_segmenti": 0.8950959689319093
+  },
+  "eros": {
+   "horizons": {
+    "epoche": 50,
+    "valutate": 50,
+    "non_ok": [],
+    "max_km": 320.31734049684314,
+    "max_rapporto": 0.6406346809936863,
+    "oltre_soglia": []
+   },
+   "interpolazione": {
+    "epoche": 200,
+    "tutti_ok": true,
+    "max_rapporto": 0.4549632136376622
+   },
+   "giunzioni": [
+    {
+     "t": 2305447.5,
+     "da": "assist:dati",
+     "a": "spk:eros",
+     "km": 0.7300647582374966,
+     "rel": 4.306807051439178e-09,
+     "metrica": 1.4901161193847656e-08
+    }
+   ],
+   "salti_record": [],
+   "sovrapposizione_1600_1650": {
+    "inizio": 2305447.5,
+    "ancora": 2323710.5,
+    "max_km": 1.4980103025448919,
+    "max_rel": 6.341344808031755e-09,
+    "all_inizio_km": 0.7300647582374966,
+    "metrica_all_inizio": 1.4901161193847656e-08
+   },
+   "max_rapporto_segmenti": 0.89772933604138
+  },
+  "patientia": {
+   "horizons": {
+    "epoche": 50,
+    "valutate": 50,
+    "non_ok": [],
+    "max_km": 139.55709900699154,
+    "max_rapporto": 0.2791141980139831,
+    "oltre_soglia": []
+   },
+   "interpolazione": {
+    "epoche": 200,
+    "tutti_ok": true,
+    "max_rapporto": 0.6024695997851268
+   },
+   "giunzioni": [
+    {
+     "t": 2305447.5,
+     "da": "assist:dati",
+     "a": "spk:patientia",
+     "km": 53.27015304125568,
+     "rel": 1.247865080971691e-07,
+     "metrica": 1.247865080971691e-07
+    }
+   ],
+   "salti_record": [],
+   "sovrapposizione_1600_1650": {
+    "inizio": 2305447.5,
+    "ancora": 2323710.5,
+    "max_km": 53.27015304125568,
+    "max_rel": 1.247865080971691e-07,
+    "all_inizio_km": 53.27015304125568,
+    "metrica_all_inizio": 1.247865080971691e-07
+   },
+   "max_rapporto_segmenti": 0.8891735371786066
+  },
+  "davida": {
+   "horizons": {
+    "epoche": 50,
+    "valutate": 50,
+    "non_ok": [],
+    "max_km": 201.86184460884516,
+    "max_rapporto": 0.4037236892176903,
+    "oltre_soglia": []
+   },
+   "interpolazione": {
+    "epoche": 200,
+    "tutti_ok": true,
+    "max_rapporto": 0.6715085369131509
+   },
+   "giunzioni": [
+    {
+     "t": -1200000.5,
+     "da": "assist:sb441",
+     "a": "sb441",
+     "km": 0.0,
+     "rel": 0.0,
+     "metrica": 1.4901161193847656e-08
+    },
+    {
+     "t": 2305447.5,
+     "da": "sb441",
+     "a": "spk:davida",
+     "km": 2264.2045073766976,
+     "rel": 5.356360383820603e-06,
+     "metrica": 5.356360383820603e-06
+    }
+   ],
+   "salti_record": [],
+   "sovrapposizione_1600_1650": null,
+   "max_rapporto_segmenti": 0.8989177511557666
+  },
+  "patroclus": {
+   "horizons": {
+    "epoche": 50,
+    "valutate": 50,
+    "non_ok": [],
+    "max_km": 405.9220223369459,
+    "max_rapporto": 0.8118440446738917,
+    "oltre_soglia": []
+   },
+   "interpolazione": {
+    "epoche": 200,
+    "tutti_ok": true,
+    "max_rapporto": 0.8192735246190351
+   },
+   "giunzioni": [
+    {
+     "t": 2305447.5,
+     "da": "assist:dati",
+     "a": "spk:patroclus",
+     "km": 6.159667122802113,
+     "rel": 7.528105962056678e-09,
+     "metrica": 7.528105962056678e-09
+    }
+   ],
+   "salti_record": [],
+   "sovrapposizione_1600_1650": {
+    "inizio": 2305447.5,
+    "ancora": 2323710.5,
+    "max_km": 7.2484117940558646,
+    "max_rel": 1.0383429749970155e-08,
+    "all_inizio_km": 6.159667122802113,
+    "metrica_all_inizio": 7.528105962056678e-09
+   },
+   "max_rapporto_segmenti": 0.8997127544349527
+  },
+  "hektor": {
+   "horizons": {
+    "epoche": 50,
+    "valutate": 50,
+    "non_ok": [],
+    "max_km": 405.55816415398925,
+    "max_rapporto": 0.8111163283079785,
+    "oltre_soglia": []
+   },
+   "interpolazione": {
+    "epoche": 200,
+    "tutti_ok": true,
+    "max_rapporto": 0.6635631383516193
+   },
+   "giunzioni": [
+    {
+     "t": 2305447.5,
+     "da": "assist:dati",
+     "a": "spk:hektor",
+     "km": 4.364348975135567,
+     "rel": 5.77762225201049e-09,
+     "metrica": 5.77762225201049e-09
+    }
+   ],
+   "salti_record": [],
+   "sovrapposizione_1600_1650": {
+    "inizio": 2305447.5,
+    "ancora": 2323710.5,
+    "max_km": 8.927676877214989,
+    "max_rel": 1.0995399496066066e-08,
+    "all_inizio_km": 4.364348975135567,
+    "metrica_all_inizio": 5.77762225201049e-09
+   },
+   "max_rapporto_segmenti": 0.8997486604077441
+  },
+  "interamnia": {
+   "horizons": {
+    "epoche": 50,
+    "valutate": 50,
+    "non_ok": [],
+    "max_km": 203.3373636260173,
+    "max_rapporto": 0.4066747272520346,
+    "oltre_soglia": []
+   },
+   "interpolazione": {
+    "epoche": 200,
+    "tutti_ok": true,
+    "max_rapporto": 0.5765644572596482
+   },
+   "giunzioni": [
+    {
+     "t": -1200000.5,
+     "da": "assist:sb441",
+     "a": "sb441",
+     "km": 0.0,
+     "rel": 0.0,
+     "metrica": 1.4901161193847656e-08
+    },
+    {
+     "t": 2305447.5,
+     "da": "sb441",
+     "a": "spk:interamnia",
+     "km": 2468.230862556743,
+     "rel": 6.3269544753854185e-06,
+     "metrica": 6.32695447538542e-06
+    }
+   ],
+   "salti_record": [],
+   "sovrapposizione_1600_1650": null,
+   "max_rapporto_segmenti": 0.895432644975484
+  },
+  "gaspra": {
+   "horizons": {
+    "epoche": 50,
+    "valutate": 50,
+    "non_ok": [],
+    "max_km": 244.1249452449076,
+    "max_rapporto": 0.4882498904898152,
+    "oltre_soglia": []
+   },
+   "interpolazione": {
+    "epoche": 200,
+    "tutti_ok": true,
+    "max_rapporto": 0.867326841536316
+   },
+   "giunzioni": [
+    {
+     "t": 2305447.5,
+     "da": "assist:dati",
+     "a": "spk:gaspra",
+     "km": 2.8754266471032097,
+     "rel": 7.411981909465045e-09,
+     "metrica": 7.411981909465045e-09
+    }
+   ],
+   "salti_record": [],
+   "sovrapposizione_1600_1650": {
+    "inizio": 2305447.5,
+    "ancora": 2323710.5,
+    "max_km": 3.7294670875532345,
+    "max_rel": 1.185486358891818e-08,
+    "all_inizio_km": 2.8754266471032097,
+    "metrica_all_inizio": 7.411981909465045e-09
+   },
+   "max_rapporto_segmenti": 0.8986395244351052
+  },
+  "steins": {
+   "horizons": {
+    "epoche": 50,
+    "valutate": 50,
+    "non_ok": [],
+    "max_km": 248.6185071078742,
+    "max_rapporto": 0.4972370142157484,
+    "oltre_soglia": []
+   },
+   "interpolazione": {
+    "epoche": 200,
+    "tutti_ok": true,
+    "max_rapporto": 0.7593560636759187
+   },
+   "giunzioni": [
+    {
+     "t": 2305447.5,
+     "da": "assist:dati",
+     "a": "spk:steins",
+     "km": 33.627627950711485,
+     "rel": 8.376864806583736e-08,
+     "metrica": 8.688795409866128e-08
+    }
+   ],
+   "salti_record": [],
+   "sovrapposizione_1600_1650": {
+    "inizio": 2305447.5,
+    "ancora": 2323710.5,
+    "max_km": 47.591007688872814,
+    "max_rel": 1.569717235139225e-07,
+    "all_inizio_km": 33.627627950711485,
+    "metrica_all_inizio": 8.688795409866128e-08
+   },
+   "max_rapporto_segmenti": 0.8985741445710871
+  },
+  "phaethon": {
+   "horizons": {
+    "epoche": 50,
+    "valutate": 50,
+    "non_ok": [],
+    "max_km": 347.00558729484635,
+    "max_rapporto": 0.6940111745896927,
+    "oltre_soglia": []
+   },
+   "interpolazione": {
+    "epoche": 200,
+    "tutti_ok": true,
+    "max_rapporto": 0.4142553084966715
+   },
+   "giunzioni": [
+    {
+     "t": 2305447.5,
+     "da": "assist:dati",
+     "a": "spk:phaethon",
+     "km": 5.434798863353081,
+     "rel": 1.6322382492960842e-08,
+     "metrica": 1.6322382492960842e-08
+    }
+   ],
+   "salti_record": [],
+   "sovrapposizione_1600_1650": {
+    "inizio": 2305447.5,
+    "ancora": 2323710.5,
+    "max_km": 5.434798863353081,
+    "max_rel": 1.954793320200383e-08,
+    "all_inizio_km": 5.434798863353081,
+    "metrica_all_inizio": 1.6322382492960842e-08
+   },
+   "max_rapporto_segmenti": 0.8987794189245846
+  },
+  "eurybates": {
+   "horizons": {
+    "epoche": 50,
+    "valutate": 50,
+    "non_ok": [],
+    "max_km": 403.7852598864051,
+    "max_rapporto": 0.8075705197728101,
+    "oltre_soglia": []
+   },
+   "interpolazione": {
+    "epoche": 200,
+    "tutti_ok": true,
+    "max_rapporto": 0.8147555872276173
+   },
+   "giunzioni": [
+    {
+     "t": 2305447.5,
+     "da": "assist:dati",
+     "a": "spk:eurybates",
+     "km": 4.538679097722608,
+     "rel": 5.326724319483848e-09,
+     "metrica": 5.326724319483848e-09
+    }
+   ],
+   "salti_record": [],
+   "sovrapposizione_1600_1650": {
+    "inizio": 2305447.5,
+    "ancora": 2323710.5,
+    "max_km": 7.471376667782539,
+    "max_rel": 9.009969360440975e-09,
+    "all_inizio_km": 4.538679097722608,
+    "metrica_all_inizio": 5.326724319483848e-09
+   },
+   "max_rapporto_segmenti": 0.8976192067716409
+  },
+  "toutatis": {
+   "horizons": {
+    "epoche": 50,
+    "valutate": 50,
+    "non_ok": [],
+    "max_km": 302.92231384728393,
+    "max_rapporto": 0.6058446276945678,
+    "oltre_soglia": []
+   },
+   "interpolazione": {
+    "epoche": 200,
+    "tutti_ok": true,
+    "max_rapporto": 0.7189278628975168
+   },
+   "giunzioni": [
+    {
+     "t": 2305447.5,
+     "da": "assist:dati",
+     "a": "spk:toutatis",
+     "km": 14.680135028481388,
+     "rel": 2.647538695144133e-08,
+     "metrica": 2.647538695144133e-08
+    }
+   ],
+   "salti_record": [],
+   "sovrapposizione_1600_1650": {
+    "inizio": 2305447.5,
+    "ancora": 2323710.5,
+    "max_km": 51.8884607090185,
+    "max_rel": 3.668472144533896e-07,
+    "all_inizio_km": 14.680135028481388,
+    "metrica_all_inizio": 2.647538695144133e-08
+   },
+   "max_rapporto_segmenti": 0.8964637001439225
+  },
+  "annefrank": {
+   "horizons": {
+    "epoche": 50,
+    "valutate": 50,
+    "non_ok": [],
+    "max_km": 245.5886726335163,
+    "max_rapporto": 0.4911773452670326,
+    "oltre_soglia": []
+   },
+   "interpolazione": {
+    "epoche": 200,
+    "tutti_ok": true,
+    "max_rapporto": 0.7576270909576788
+   },
+   "giunzioni": [
+    {
+     "t": 2305447.5,
+     "da": "assist:dati",
+     "a": "spk:annefrank",
+     "km": 0.9896555613759149,
+     "rel": 3.0445418825537043e-09,
+     "metrica": 3.0445418825537043e-09
+    }
+   ],
+   "salti_record": [],
+   "sovrapposizione_1600_1650": {
+    "inizio": 2305447.5,
+    "ancora": 2323710.5,
+    "max_km": 4.120313731319387,
+    "max_rel": 1.3316429241754763e-08,
+    "all_inizio_km": 0.9896555613759149,
+    "metrica_all_inizio": 3.0445418825537043e-09
+   },
+   "max_rapporto_segmenti": 0.8983389738518559
+  },
+  "braille": {
+   "horizons": {
+    "epoche": 50,
+    "valutate": 50,
+    "non_ok": [],
+    "max_km": 298.87071187542404,
+    "max_rapporto": 0.597741423750848,
+    "oltre_soglia": []
+   },
+   "interpolazione": {
+    "epoche": 200,
+    "tutti_ok": true,
+    "max_rapporto": 0.796750996190523
+   },
+   "giunzioni": [
+    {
+     "t": 2305447.5,
+     "da": "assist:dati",
+     "a": "spk:braille",
+     "km": 13.661872375622146,
+     "rel": 2.7117224751129428e-08,
+     "metrica": 3.332000937312528e-08
+    }
+   ],
+   "salti_record": [],
+   "sovrapposizione_1600_1650": {
+    "inizio": 2305447.5,
+    "ancora": 2323710.5,
+    "max_km": 33.78739203861903,
+    "max_rel": 1.5457951046316354e-07,
+    "all_inizio_km": 13.661872375622146,
+    "metrica_all_inizio": 3.332000937312528e-08
+   },
+   "max_rapporto_segmenti": 0.8995316879783781
+  },
+  "itokawa": {
+   "horizons": {
+    "epoche": 50,
+    "valutate": 38,
+    "non_ok": [
+     [
+      2305937.1158,
+      "non-determinabile"
+     ],
+     [
+      2305955.8363,
+      "non-determinabile"
+     ],
+     [
+      2306324.3792,
+      "non-determinabile"
+     ],
+     [
+      2306383.4363,
+      "non-determinabile"
+     ],
+     [
+      2310827.4297,
+      "non-determinabile"
+     ],
+     [
+      2314588.3885,
+      "non-determinabile"
+     ],
+     [
+      2320894.1846,
+      "non-determinabile"
+     ],
+     [
+      2322434.4801,
+      "non-determinabile"
+     ],
+     [
+      2326404.214,
+      "non-determinabile"
+     ],
+     [
+      2327916.7076,
+      "non-determinabile"
+     ],
+     [
+      2335676.2972,
+      "non-determinabile"
+     ],
+     [
+      2341413.6978,
+      "non-determinabile"
+     ]
+    ],
+    "max_km": 430.06322962744525,
+    "max_rapporto": 0.8601264592548905,
+    "oltre_soglia": []
+   },
+   "interpolazione": {
+    "epoche": 200,
+    "tutti_ok": true,
+    "max_rapporto": 0.7836110796019057
+   },
+   "giunzioni": [
+    {
+     "t": 2305447.5,
+     "da": "assist:dati",
+     "a": "spk:itokawa",
+     "km": null,
+     "rel": null,
+     "metrica": null
+    }
+   ],
+   "salti_record": [],
+   "sovrapposizione_1600_1650": null,
+   "max_rapporto_segmenti": 0.8972735864796774
+  },
+  "donaldjohanson": {
+   "horizons": {
+    "epoche": 50,
+    "valutate": 50,
+    "non_ok": [],
+    "max_km": 420.6064703197764,
+    "max_rapporto": 0.8412129406395528,
+    "oltre_soglia": []
+   },
+   "interpolazione": {
+    "epoche": 200,
+    "tutti_ok": true,
+    "max_rapporto": 0.5265189153483206
+   },
+   "giunzioni": [
+    {
+     "t": 2305447.5,
+     "da": "assist:dati",
+     "a": "spk:donaldjohanson",
+     "km": 40.02210349626146,
+     "rel": 9.676733661237153e-08,
+     "metrica": 9.884312124119404e-08
+    }
+   ],
+   "salti_record": [],
+   "sovrapposizione_1600_1650": {
+    "inizio": 2305447.5,
+    "ancora": 2323710.5,
+    "max_km": 54.80903500003508,
+    "max_rel": 1.7943253822797146e-07,
+    "all_inizio_km": 40.02210349626146,
+    "metrica_all_inizio": 9.676733661237153e-08
+   },
+   "max_rapporto_segmenti": 0.8989876464660844
+  },
+  "didymos": {
+   "horizons": {
+    "epoche": 50,
+    "valutate": 50,
+    "non_ok": [],
+    "max_km": 291.3310915805169,
+    "max_rapporto": 0.5826621831610338,
+    "oltre_soglia": []
+   },
+   "interpolazione": {
+    "epoche": 200,
+    "tutti_ok": true,
+    "max_rapporto": 0.665915510391397
+   },
+   "giunzioni": [
+    {
+     "t": 2305447.5,
+     "da": "assist:dati",
+     "a": "spk:didymos",
+     "km": 4.870319040469774,
+     "rel": 2.0188071734729836e-08,
+     "metrica": 2.0188071734729836e-08
+    }
+   ],
+   "salti_record": [],
+   "sovrapposizione_1600_1650": {
+    "inizio": 2305447.5,
+    "ancora": 2323710.5,
+    "max_km": 9.30817597993888,
+    "max_rel": 6.08138470170401e-08,
+    "all_inizio_km": 4.870319040469774,
+    "metrica_all_inizio": 2.0188071734729836e-08
+   },
+   "max_rapporto_segmenti": 0.8972731235787561
+  },
+  "apophis": {
+   "horizons": {
+    "epoche": 50,
+    "valutate": 17,
+    "non_ok": [
+     [
+      2307111.3835,
+      "non-determinabile"
+     ],
+     [
+      2314849.1187,
+      "non-determinabile"
+     ],
+     [
+      2315531.5563,
+      "non-determinabile"
+     ],
+     [
+      2317291.688,
+      "non-determinabile"
+     ],
+     [
+      2318092.912,
+      "non-determinabile"
+     ],
+     [
+      2321050.386,
+      "non-determinabile"
+     ],
+     [
+      2322201.5805,
+      "non-determinabile"
+     ],
+     [
+      2323103.5377,
+      "non-determinabile"
+     ],
+     [
+      2329779.2685,
+      "non-determinabile"
+     ],
+     [
+      2331585.542,
+      "non-determinabile"
+     ],
+     [
+      2332028.5492,
+      "non-determinabile"
+     ],
+     [
+      2332894.534,
+      "non-determinabile"
+     ],
+     [
+      2333725.7346,
+      "non-determinabile"
+     ],
+     [
+      2335087.2784,
+      "non-determinabile"
+     ],
+     [
+      2336864.5482,
+      "non-determinabile"
+     ],
+     [
+      2341391.862,
+      "non-determinabile"
+     ],
+     [
+      2342747.1336,
+      "non-determinabile"
+     ],
+     [
+      2346090.8642,
+      "non-determinabile"
+     ],
+     [
+      2348413.2043,
+      "non-determinabile"
+     ],
+     [
+      2348881.4748,
+      "non-determinabile"
+     ],
+     [
+      2351906.2451,
+      "non-determinabile"
+     ],
+     [
+      2353167.5249,
+      "non-determinabile"
+     ],
+     [
+      2353446.6589,
+      "non-determinabile"
+     ],
+     [
+      2356872.3619,
+      "non-determinabile"
+     ],
+     [
+      2357967.0148,
+      "non-determinabile"
+     ],
+     [
+      2359423.3741,
+      "non-determinabile"
+     ],
+     [
+      2365629.9671,
+      "non-determinabile"
+     ],
+     [
+      2368946.9878,
+      "non-determinabile"
+     ],
+     [
+      2370854.5028,
+      "non-determinabile"
+     ],
+     [
+      2380335.1088,
+      "non-determinabile"
+     ],
+     [
+      2385521.6626,
+      "non-determinabile"
+     ],
+     [
+      2394479.9392,
+      "non-determinabile"
+     ],
+     [
+      2395362.3139,
+      "non-determinabile"
+     ]
+    ],
+    "max_km": 75.53499157418851,
+    "max_rapporto": 0.15106998314837702,
+    "oltre_soglia": []
+   },
+   "interpolazione": {
+    "epoche": 200,
+    "tutti_ok": true,
+    "max_rapporto": 0.5932338089780217
+   },
+   "giunzioni": [
+    {
+     "t": 2305447.5,
+     "da": "assist:dati",
+     "a": "spk:apophis",
+     "km": null,
+     "rel": null,
+     "metrica": null
+    }
+   ],
+   "salti_record": [],
+   "sovrapposizione_1600_1650": null,
+   "max_rapporto_segmenti": 0.894945512893686
+  },
+  "bennu": {
+   "horizons": {
+    "epoche": 23,
+    "valutate": 23,
+    "non_ok": [],
+    "max_km": 108.12916451696711,
+    "max_rapporto": 0.21625832903393422,
+    "oltre_soglia": []
+   },
+   "interpolazione": {
+    "epoche": 200,
+    "tutti_ok": true,
+    "max_rapporto": 0.7595752656233546
+   },
+   "giunzioni": [
+    {
+     "t": 2415021.5,
+     "da": "assist:dati",
+     "a": "tab:bennu",
+     "km": 2.4989891856561144,
+     "rel": 1.5150695131678164e-08,
+     "metrica": 1.5150695131678164e-08
+    }
+   ],
+   "salti_record": [],
+   "sovrapposizione_1600_1650": {
+    "inizio": 2415021.5,
+    "ancora": 2433284.5,
+    "max_km": 5.128763633879814,
+    "max_rel": 3.796093465831861e-08,
+    "all_inizio_km": 2.4989891856561144,
+    "metrica_all_inizio": 1.5150695131678164e-08
+   },
+   "max_rapporto_segmenti": 0.872134219985375
+  },
+  "dinkinesh": {
+   "horizons": {
+    "epoche": 50,
+    "valutate": 50,
+    "non_ok": [],
+    "max_km": 427.5506272487698,
+    "max_rapporto": 0.8551012544975396,
+    "oltre_soglia": []
+   },
+   "interpolazione": {
+    "epoche": 200,
+    "tutti_ok": true,
+    "max_rapporto": 0.8840654664178819
+   },
+   "giunzioni": [
+    {
+     "t": 2305447.5,
+     "da": "assist:dati",
+     "a": "spk:dinkinesh",
+     "km": 3.3905585375666223,
+     "rel": 9.626948038118786e-09,
+     "metrica": 1.4901161193847656e-08
+    }
+   ],
+   "salti_record": [],
+   "sovrapposizione_1600_1650": {
+    "inizio": 2305447.5,
+    "ancora": 2323710.5,
+    "max_km": 7.081290549928622,
+    "max_rel": 2.425044389045594e-08,
+    "all_inizio_km": 3.3905585375666223,
+    "metrica_all_inizio": 1.4901161193847656e-08
+   },
+   "max_rapporto_segmenti": 0.8993085174416283
+  },
+  "ryugu": {
+   "horizons": {
+    "epoche": 50,
+    "valutate": 50,
+    "non_ok": [],
+    "max_km": 111.21394070283993,
+    "max_rapporto": 0.22242788140567987,
+    "oltre_soglia": []
+   },
+   "interpolazione": {
+    "epoche": 200,
+    "tutti_ok": true,
+    "max_rapporto": 0.6333350760677173
+   },
+   "giunzioni": [
+    {
+     "t": 2305447.5,
+     "da": "assist:dati",
+     "a": "spk:ryugu",
+     "km": 18.762967331122496,
+     "rel": 1.2774214492750714e-07,
+     "metrica": 1.2774214492750714e-07
+    }
+   ],
+   "salti_record": [],
+   "sovrapposizione_1600_1650": {
+    "inizio": 2305447.5,
+    "ancora": 2323710.5,
+    "max_km": 18.762967331122496,
+    "max_rel": 1.2774214492750714e-07,
+    "all_inizio_km": 18.762967331122496,
+    "metrica_all_inizio": 1.2774214492750714e-07
+   },
+   "max_rapporto_segmenti": 0.8757099396932955
+  },
+  "1p-halley": {
+   "horizons": {
+    "epoche": 50,
+    "valutate": 50,
+    "non_ok": [],
+    "max_km": 316.7360546547411,
+    "max_rapporto": 0.6334721093094822,
+    "oltre_soglia": []
+   },
+   "interpolazione": {
+    "epoche": 200,
+    "tutti_ok": true,
+    "max_rapporto": 0.6344104285616246
+   },
+   "giunzioni": [
+    {
+     "t": 1619881.7440653746,
+     "da": "assist:90000001",
+     "a": "assist:90000001",
+     "km": 0.0,
+     "rel": 0.0,
+     "metrica": 0.0
+    },
+    {
+     "t": 1647933.4959346256,
+     "da": "assist:90000001",
+     "a": "assist:90000002",
+     "km": 2817238.7356690997,
+     "rel": 0.0005307066698072397,
+     "metrica": 0.0005307066698072397
+    },
+    {
+     "t": 1675896.64884687,
+     "da": "assist:90000002",
+     "a": "assist:90000003",
+     "km": 3278309.21703427,
+     "rel": 0.0006166028580316404,
+     "metrica": 0.0006166028580316404
+    },
+    {
+     "t": 1703949.1615811316,
+     "da": "assist:90000003",
+     "a": "assist:90000004",
+     "km": 816752.9213984243,
+     "rel": 0.00015584423368146972,
+     "metrica": 0.00015584423368146974
+    },
+    {
+     "t": 1731265.2466727798,
+     "da": "assist:90000004",
+     "a": "assist:90000005",
+     "km": 1278643.0772718694,
+     "rel": 0.00024144959085676832,
+     "metrica": 0.00024144959085676832
+    },
+    {
+     "t": 1759172.1756712887,
+     "da": "assist:90000005",
+     "a": "assist:90000006",
+     "km": 1510093.6676739978,
+     "rel": 0.0002881778559116216,
+     "metrica": 0.0002881778559116216
+    },
+    {
+     "t": 1786740.0543708086,
+     "da": "assist:90000006",
+     "a": "assist:90000007",
+     "km": 2700846.2868209295,
+     "rel": 0.0005060156272921429,
+     "metrica": 0.0005060156272921429
+    },
+    {
+     "t": 1814951.9968403634,
+     "da": "assist:90000007",
+     "a": "assist:90000008",
+     "km": 1657315.833914077,
+     "rel": 0.0003112170678115818,
+     "metrica": 0.00031121706781158184
+    },
+    {
+     "t": 1843364.4833622354,
+     "da": "assist:90000008",
+     "a": "assist:90000009",
+     "km": 2584957.9110981445,
+     "rel": 0.0004773240441561653,
+     "metrica": 0.0004773240441561653
+    },
+    {
+     "t": 1872093.9966262847,
+     "da": "assist:90000009",
+     "a": "assist:90000010",
+     "km": 1428125.3156209718,
+     "rel": 0.0002671489300860352,
+     "metrica": 0.0002671489300860352
+    },
+    {
+     "t": 1900441.7979873738,
+     "da": "assist:90000010",
+     "a": "assist:90000011",
+     "km": 1967477.0991340724,
+     "rel": 0.00036207615383278003,
+     "metrica": 0.00036207615383278003
+    },
+    {
+     "t": 1929318.500782955,
+     "da": "assist:90000011",
+     "a": "assist:90000012",
+     "km": 1655325.4332274143,
+     "rel": 0.0003122958007385383,
+     "metrica": 0.0003122958007385383
+    },
+    {
+     "t": 1956987.1743497676,
+     "da": "assist:90000012",
+     "a": "assist:90000013",
+     "km": 1470337.1124607949,
+     "rel": 0.00027459526082039104,
+     "metrica": 0.00027459526082039104
+    },
+    {
+     "t": 1985340.941305322,
+     "da": "assist:90000013",
+     "a": "assist:90000014",
+     "km": 1562947.6463743565,
+     "rel": 0.00029704607806632573,
+     "metrica": 0.00029704607806632573
+    },
+    {
+     "t": 2012848.721584387,
+     "da": "assist:90000014",
+     "a": "assist:90000015",
+     "km": 3132432.1903205803,
+     "rel": 0.0005887658955911469,
+     "metrica": 0.0005887658955911468
+    },
+    {
+     "t": 2040882.4912440563,
+     "da": "assist:90000015",
+     "a": "assist:90000016",
+     "km": 1742970.6887088472,
+     "rel": 0.000331889313182737,
+     "metrica": 0.000331889313182737
+    },
+    {
+     "t": 2068509.8084131563,
+     "da": "assist:90000016",
+     "a": "assist:90000017",
+     "km": 1584010.587611084,
+     "rel": 0.0002968612109081094,
+     "metrica": 0.0002968612109081094
+    },
+    {
+     "t": 2096627.562197189,
+     "da": "assist:90000017",
+     "a": "assist:90000018",
+     "km": 1358383.9304452788,
+     "rel": 0.00025588112822870544,
+     "metrica": 0.00025588112822870544
+    },
+    {
+     "t": 2124972.308365606,
+     "da": "assist:90000018",
+     "a": "assist:90000019",
+     "km": 1033609.8328621461,
+     "rel": 0.00019043386807443915,
+     "metrica": 0.00019043386807443915
+    },
+    {
+     "t": 2153811.2232892136,
+     "da": "assist:90000019",
+     "a": "assist:90000020",
+     "km": 1330309.1994108101,
+     "rel": 0.000248663108039613,
+     "metrica": 0.000248663108039613
+    },
+    {
+     "t": 2182111.346693893,
+     "da": "assist:90000020",
+     "a": "assist:90000021",
+     "km": 1808821.977864449,
+     "rel": 0.0003333028596693765,
+     "metrica": 0.0003333028596693765
+    },
+    {
+     "t": 2210999.105233525,
+     "da": "assist:90000021",
+     "a": "assist:90000022",
+     "km": 1356850.1563483044,
+     "rel": 0.00025464396369755484,
+     "metrica": 0.00025464396369755484
+    },
+    {
+     "t": 2238885.898613611,
+     "da": "assist:90000022",
+     "a": "assist:90000023",
+     "km": 2442133.7285734913,
+     "rel": 0.0004557809863243424,
+     "metrica": 0.0004557809863243424
+    },
+    {
+     "t": 2267103.6166186277,
+     "da": "assist:90000023",
+     "a": "assist:90000024",
+     "km": 987750.3406206836,
+     "rel": 0.00018841646776606748,
+     "metrica": 0.00018841646776606748
+    },
+    {
+     "t": 2294464.8575283037,
+     "da": "assist:90000024",
+     "a": "assist:90000025",
+     "km": 1394534.500628831,
+     "rel": 0.00026371466101578016,
+     "metrica": 0.00026371466101578016
+    },
+    {
+     "t": 2305447.5,
+     "da": "assist:90000025",
+     "a": "spk:1p-halley-90000025",
+     "km": 1.3805614669718973,
+     "rel": 4.9360446522023e-10,
+     "metrica": 4.9360446522023e-10
+    },
+    {
+     "t": 2322195.0128998943,
+     "da": "spk:1p-halley-90000025",
+     "a": "spk:1p-halley-90000026",
+     "km": 2677146.72107867,
+     "rel": 0.0005118403941064944,
+     "metrica": 0.0005118403941064944
+    },
+    {
+     "t": 2349799.3849215703,
+     "da": "spk:1p-halley-90000026",
+     "a": "spk:1p-halley-90000027",
+     "km": 166985.52136949034,
+     "rel": 3.147563422193134e-05,
+     "metrica": 3.147563422193134e-05
+    },
+    {
+     "t": 2377640.779990806,
+     "da": "spk:1p-halley-90000027",
+     "a": "spk:1p-halley-90000028",
+     "km": 721399.0333362214,
+     "rel": 0.0001357257958461799,
+     "metrica": 0.0001357257958461799
+    },
+    {
+     "t": 2405533.527890902,
+     "da": "spk:1p-halley-90000028",
+     "a": "spk:1p-halley-90000029",
+     "km": 901111.3782399927,
+     "rel": 0.00017309346119321738,
+     "metrica": 0.00017309346119321738
+    },
+    {
+     "t": 2432680.3916727314,
+     "da": "spk:1p-halley-90000029",
+     "a": "spk:1p-halley-90000030",
+     "km": 645200.8387337785,
+     "rel": 0.00012233647969541147,
+     "metrica": 0.00012233647969541147
+    }
+   ],
+   "salti_record": [
+    {
+     "t": 1647933.4959346256,
+     "da": 90000001,
+     "a": 90000002,
+     "km": 2817238.7356690997,
+     "rel": 0.0005307066698072397,
+     "metrica": 0.0005307066698072397,
+     "forma": true
+    },
+    {
+     "t": 1675896.64884687,
+     "da": 90000002,
+     "a": 90000003,
+     "km": 3278309.21703427,
+     "rel": 0.0006166028580316404,
+     "metrica": 0.0006166028580316404,
+     "forma": true
+    },
+    {
+     "t": 1703949.1615811316,
+     "da": 90000003,
+     "a": 90000004,
+     "km": 816752.9213984243,
+     "rel": 0.00015584423368146972,
+     "metrica": 0.00015584423368146974,
+     "forma": true
+    },
+    {
+     "t": 1731265.2466727798,
+     "da": 90000004,
+     "a": 90000005,
+     "km": 1278643.0772718694,
+     "rel": 0.00024144959085676832,
+     "metrica": 0.00024144959085676832,
+     "forma": true
+    },
+    {
+     "t": 1759172.1756712887,
+     "da": 90000005,
+     "a": 90000006,
+     "km": 1510093.6676739978,
+     "rel": 0.0002881778559116216,
+     "metrica": 0.0002881778559116216,
+     "forma": true
+    },
+    {
+     "t": 1786740.0543708086,
+     "da": 90000006,
+     "a": 90000007,
+     "km": 2700846.2868209295,
+     "rel": 0.0005060156272921429,
+     "metrica": 0.0005060156272921429,
+     "forma": true
+    },
+    {
+     "t": 1814951.9968403634,
+     "da": 90000007,
+     "a": 90000008,
+     "km": 1657315.833914077,
+     "rel": 0.0003112170678115818,
+     "metrica": 0.00031121706781158184,
+     "forma": true
+    },
+    {
+     "t": 1843364.4833622354,
+     "da": 90000008,
+     "a": 90000009,
+     "km": 2584957.9110981445,
+     "rel": 0.0004773240441561653,
+     "metrica": 0.0004773240441561653,
+     "forma": true
+    },
+    {
+     "t": 1872093.9966262847,
+     "da": 90000009,
+     "a": 90000010,
+     "km": 1428125.3156209718,
+     "rel": 0.0002671489300860352,
+     "metrica": 0.0002671489300860352,
+     "forma": true
+    },
+    {
+     "t": 1900441.7979873738,
+     "da": 90000010,
+     "a": 90000011,
+     "km": 1967477.0991340724,
+     "rel": 0.00036207615383278003,
+     "metrica": 0.00036207615383278003,
+     "forma": true
+    },
+    {
+     "t": 1929318.500782955,
+     "da": 90000011,
+     "a": 90000012,
+     "km": 1655325.4332274143,
+     "rel": 0.0003122958007385383,
+     "metrica": 0.0003122958007385383,
+     "forma": true
+    },
+    {
+     "t": 1956987.1743497676,
+     "da": 90000012,
+     "a": 90000013,
+     "km": 1470337.1124607949,
+     "rel": 0.00027459526082039104,
+     "metrica": 0.00027459526082039104,
+     "forma": true
+    },
+    {
+     "t": 1985340.941305322,
+     "da": 90000013,
+     "a": 90000014,
+     "km": 1562947.6463743565,
+     "rel": 0.00029704607806632573,
+     "metrica": 0.00029704607806632573,
+     "forma": true
+    },
+    {
+     "t": 2012848.721584387,
+     "da": 90000014,
+     "a": 90000015,
+     "km": 3132432.1903205803,
+     "rel": 0.0005887658955911469,
+     "metrica": 0.0005887658955911468,
+     "forma": true
+    },
+    {
+     "t": 2040882.4912440563,
+     "da": 90000015,
+     "a": 90000016,
+     "km": 1742970.6887088472,
+     "rel": 0.000331889313182737,
+     "metrica": 0.000331889313182737,
+     "forma": true
+    },
+    {
+     "t": 2068509.8084131563,
+     "da": 90000016,
+     "a": 90000017,
+     "km": 1584010.587611084,
+     "rel": 0.0002968612109081094,
+     "metrica": 0.0002968612109081094,
+     "forma": true
+    },
+    {
+     "t": 2096627.562197189,
+     "da": 90000017,
+     "a": 90000018,
+     "km": 1358383.9304452788,
+     "rel": 0.00025588112822870544,
+     "metrica": 0.00025588112822870544,
+     "forma": true
+    },
+    {
+     "t": 2124972.308365606,
+     "da": 90000018,
+     "a": 90000019,
+     "km": 1033609.8328621461,
+     "rel": 0.00019043386807443915,
+     "metrica": 0.00019043386807443915,
+     "forma": true
+    },
+    {
+     "t": 2153811.2232892136,
+     "da": 90000019,
+     "a": 90000020,
+     "km": 1330309.1994108101,
+     "rel": 0.000248663108039613,
+     "metrica": 0.000248663108039613,
+     "forma": true
+    },
+    {
+     "t": 2182111.346693893,
+     "da": 90000020,
+     "a": 90000021,
+     "km": 1808821.977864449,
+     "rel": 0.0003333028596693765,
+     "metrica": 0.0003333028596693765,
+     "forma": true
+    },
+    {
+     "t": 2210999.105233525,
+     "da": 90000021,
+     "a": 90000022,
+     "km": 1356850.1563483044,
+     "rel": 0.00025464396369755484,
+     "metrica": 0.00025464396369755484,
+     "forma": true
+    },
+    {
+     "t": 2238885.898613611,
+     "da": 90000022,
+     "a": 90000023,
+     "km": 2442133.7285734913,
+     "rel": 0.0004557809863243424,
+     "metrica": 0.0004557809863243424,
+     "forma": true
+    },
+    {
+     "t": 2267103.6166186277,
+     "da": 90000023,
+     "a": 90000024,
+     "km": 987750.3406206836,
+     "rel": 0.00018841646776606748,
+     "metrica": 0.00018841646776606748,
+     "forma": true
+    },
+    {
+     "t": 2294464.8575283037,
+     "da": 90000024,
+     "a": 90000025,
+     "km": 1394534.500628831,
+     "rel": 0.00026371466101578016,
+     "metrica": 0.00026371466101578016,
+     "forma": true
+    },
+    {
+     "t": 2322195.0128998943,
+     "da": 90000025,
+     "a": 90000026,
+     "km": 2677146.72107867,
+     "rel": 0.0005118403941064944,
+     "metrica": 0.0005118403941064944,
+     "forma": true
+    },
+    {
+     "t": 2349799.3849215703,
+     "da": 90000026,
+     "a": 90000027,
+     "km": 166985.52136949034,
+     "rel": 3.147563422193134e-05,
+     "metrica": 3.147563422193134e-05,
+     "forma": true
+    },
+    {
+     "t": 2377640.779990806,
+     "da": 90000027,
+     "a": 90000028,
+     "km": 721399.0333362214,
+     "rel": 0.0001357257958461799,
+     "metrica": 0.0001357257958461799,
+     "forma": true
+    },
+    {
+     "t": 2405533.527890902,
+     "da": 90000028,
+     "a": 90000029,
+     "km": 901111.3782399927,
+     "rel": 0.00017309346119321738,
+     "metrica": 0.00017309346119321738,
+     "forma": true
+    },
+    {
+     "t": 2432680.3916727314,
+     "da": 90000029,
+     "a": 90000030,
+     "km": 645200.8387337785,
+     "rel": 0.00012233647969541147,
+     "metrica": 0.00012233647969541147,
+     "forma": true
+    }
+   ],
+   "sovrapposizione_1600_1650": null,
+   "max_rapporto_segmenti": 0.8971269673684882
+  },
+  "2p-encke": {
+   "horizons": {
+    "epoche": 49,
+    "valutate": 49,
+    "non_ok": [],
+    "max_km": 242.734789569434,
+    "max_rapporto": 0.485469579138868,
+    "oltre_soglia": []
+   },
+   "interpolazione": {
+    "epoche": 200,
+    "tutti_ok": true,
+    "max_rapporto": 0.8423619086623881
+   },
+   "giunzioni": [
+    {
+     "t": 2305447.5,
+     "da": "assist:90000031",
+     "a": "spk:2p-encke-90000031",
+     "km": 15.205502834055288,
+     "rel": 4.3904765607658984e-08,
+     "metrica": 4.3904765607658984e-08
+    },
+    {
+     "t": 2372811.0608169786,
+     "da": "spk:2p-encke-90000031",
+     "a": "spk:2p-encke-90000031",
+     "km": 0.0,
+     "rel": 0.0,
+     "metrica": 0.0
+    },
+    {
+     "t": 2375222.257549064,
+     "da": "spk:2p-encke-90000031",
+     "a": "spk:2p-encke-90000032",
+     "km": 1701538.0208881595,
+     "rel": 0.002776351230664197,
+     "metrica": 0.002776351230664197
+    },
+    {
+     "t": 2378832.542321074,
+     "da": "spk:2p-encke-90000032",
+     "a": "spk:2p-encke-90000033",
+     "km": 751216.8244246093,
+     "rel": 0.0012251278405732214,
+     "metrica": 0.0012251278405732214
+    },
+    {
+     "t": 2382459.2393824137,
+     "da": "spk:2p-encke-90000033",
+     "a": "spk:2p-encke-90000034",
+     "km": 404249.6042369782,
+     "rel": 0.0006606605666528583,
+     "metrica": 0.0006606605666528583
+    },
+    {
+     "t": 2386063.773052113,
+     "da": "spk:2p-encke-90000034",
+     "a": "spk:2p-encke-90000035",
+     "km": 323766.1555845902,
+     "rel": 0.0005275182555475912,
+     "metrica": 0.0005275182555475912
+    },
+    {
+     "t": 2387280.461422932,
+     "da": "spk:2p-encke-90000035",
+     "a": "spk:2p-encke-90000036",
+     "km": 364845.6204121983,
+     "rel": 0.0005947706047678329,
+     "metrica": 0.0005947706047678329
+    },
+    {
+     "t": 2388491.3412516722,
+     "da": "spk:2p-encke-90000036",
+     "a": "spk:2p-encke-90000037",
+     "km": 307680.781845415,
+     "rel": 0.000501436934419959,
+     "metrica": 0.000501436934419959
+    },
+    {
+     "t": 2389703.267942947,
+     "da": "spk:2p-encke-90000037",
+     "a": "spk:2p-encke-90000038",
+     "km": 185526.10338790546,
+     "rel": 0.000302371207996243,
+     "metrica": 0.000302371207996243
+    },
+    {
+     "t": 2390912.9581206623,
+     "da": "spk:2p-encke-90000038",
+     "a": "spk:2p-encke-90000039",
+     "km": 185632.823603927,
+     "rel": 0.0003026191081428594,
+     "metrica": 0.0003026191081428594
+    },
+    {
+     "t": 2392122.7334663495,
+     "da": "spk:2p-encke-90000039",
+     "a": "spk:2p-encke-90000040",
+     "km": 215101.5199550452,
+     "rel": 0.00035049779725479036,
+     "metrica": 0.00035049779725479036
+    },
+    {
+     "t": 2393333.170619426,
+     "da": "spk:2p-encke-90000040",
+     "a": "spk:2p-encke-90000041",
+     "km": 203152.81275106256,
+     "rel": 0.00033116225435887215,
+     "metrica": 0.00033116225435887215
+    },
+    {
+     "t": 2394543.4206456374,
+     "da": "spk:2p-encke-90000041",
+     "a": "spk:2p-encke-90000042",
+     "km": 242236.95702239798,
+     "rel": 0.00039442884201554697,
+     "metrica": 0.00039442884201554697
+    },
+    {
+     "t": 2395756.1064200443,
+     "da": "spk:2p-encke-90000042",
+     "a": "spk:2p-encke-90000043",
+     "km": 148410.1598982611,
+     "rel": 0.00024240503086501642,
+     "metrica": 0.00024240503086501642
+    },
+    {
+     "t": 2396959.9036788805,
+     "da": "spk:2p-encke-90000043",
+     "a": "spk:2p-encke-90000044",
+     "km": 145764.0383492812,
+     "rel": 0.00023806464692632752,
+     "metrica": 0.00023806464692632757
+    },
+    {
+     "t": 2398164.6614770666,
+     "da": "spk:2p-encke-90000044",
+     "a": "spk:2p-encke-90000045",
+     "km": 132738.20737629707,
+     "rel": 0.0002169121879248504,
+     "metrica": 0.0002169121879248504
+    },
+    {
+     "t": 2399367.814877954,
+     "da": "spk:2p-encke-90000045",
+     "a": "spk:2p-encke-90000046",
+     "km": 198206.21791860033,
+     "rel": 0.0003235376294086916,
+     "metrica": 0.0003235376294086916
+    },
+    {
+     "t": 2400574.9170313994,
+     "da": "spk:2p-encke-90000046",
+     "a": "spk:2p-encke-90000047",
+     "km": 219592.64821335816,
+     "rel": 0.0003583009621698928,
+     "metrica": 0.0003583009621698928
+    },
+    {
+     "t": 2401781.561058063,
+     "da": "spk:2p-encke-90000047",
+     "a": "spk:2p-encke-90000048",
+     "km": 225221.92908334124,
+     "rel": 0.0003675306456752163,
+     "metrica": 0.0003675306456752163
+    },
+    {
+     "t": 2402988.4532666965,
+     "da": "spk:2p-encke-90000048",
+     "a": "spk:2p-encke-90000049",
+     "km": 190243.25488236963,
+     "rel": 0.00031046002882286443,
+     "metrica": 0.00031046002882286443
+    },
+    {
+     "t": 2404191.310449778,
+     "da": "spk:2p-encke-90000049",
+     "a": "spk:2p-encke-90000050",
+     "km": 221542.14277094378,
+     "rel": 0.00036223170437704635,
+     "metrica": 0.0003622317043770463
+    },
+    {
+     "t": 2405391.3131086747,
+     "da": "spk:2p-encke-90000050",
+     "a": "spk:2p-encke-90000051",
+     "km": 201498.57989475486,
+     "rel": 0.00032938898159043096,
+     "metrica": 0.00032938898159043096
+    },
+    {
+     "t": 2406592.2096153833,
+     "da": "spk:2p-encke-90000051",
+     "a": "spk:2p-encke-90000052",
+     "km": 42717.582460124235,
+     "rel": 6.986556558735326e-05,
+     "metrica": 6.986556558735326e-05
+    },
+    {
+     "t": 2407792.5027493867,
+     "da": "spk:2p-encke-90000052",
+     "a": "spk:2p-encke-90000053",
+     "km": 39140.55090464745,
+     "rel": 6.38461695248248e-05,
+     "metrica": 6.38461695248248e-05
+    },
+    {
+     "t": 2409004.663577337,
+     "da": "spk:2p-encke-90000053",
+     "a": "spk:2p-encke-90000054",
+     "km": 40484.85762871733,
+     "rel": 6.604585358403144e-05,
+     "metrica": 6.604585358403144e-05
+    },
+    {
+     "t": 2410212.590418752,
+     "da": "spk:2p-encke-90000054",
+     "a": "spk:2p-encke-90000055",
+     "km": 57600.32138866897,
+     "rel": 9.396818532366456e-05,
+     "metrica": 9.396818532366456e-05
+    },
+    {
+     "t": 2411421.092183692,
+     "da": "spk:2p-encke-90000055",
+     "a": "spk:2p-encke-90000056",
+     "km": 57317.04208971612,
+     "rel": 9.355130240455632e-05,
+     "metrica": 9.355130240455632e-05
+    },
+    {
+     "t": 2412627.01803259,
+     "da": "spk:2p-encke-90000056",
+     "a": "spk:2p-encke-90000057",
+     "km": 34179.63369754081,
+     "rel": 5.580661156920768e-05,
+     "metrica": 5.580661156920768e-05
+    },
+    {
+     "t": 2413833.1263770927,
+     "da": "spk:2p-encke-90000057",
+     "a": "spk:2p-encke-90000058",
+     "km": 54721.719604702084,
+     "rel": 8.929725511628368e-05,
+     "metrica": 8.929725511628368e-05
+    },
+    {
+     "t": 2415040.1938970964,
+     "da": "spk:2p-encke-90000058",
+     "a": "spk:2p-encke-90000059",
+     "km": 69836.76816364209,
+     "rel": 0.00011399097875356498,
+     "metrica": 0.00011399097875356496
+    },
+    {
+     "t": 2416247.0968836565,
+     "da": "spk:2p-encke-90000059",
+     "a": "spk:2p-encke-90000060",
+     "km": 172554.9619951673,
+     "rel": 0.0002811450881059355,
+     "metrica": 0.0002811450881059355
+    },
+    {
+     "t": 2417460.484416267,
+     "da": "spk:2p-encke-90000060",
+     "a": "spk:2p-encke-90000061",
+     "km": 209841.01111330735,
+     "rel": 0.00034269347576379797,
+     "metrica": 0.00034269347576379797
+    },
+    {
+     "t": 2418665.1085090498,
+     "da": "spk:2p-encke-90000061",
+     "a": "spk:2p-encke-90000062",
+     "km": 195762.01018849152,
+     "rel": 0.00031970487400706136,
+     "metrica": 0.00031970487400706136
+    },
+    {
+     "t": 2419870.218442907,
+     "da": "spk:2p-encke-90000062",
+     "a": "spk:2p-encke-90000063",
+     "km": 127120.47897310251,
+     "rel": 0.00020766505003599577,
+     "metrica": 0.00020766505003599577
+    },
+    {
+     "t": 2421074.0807704376,
+     "da": "spk:2p-encke-90000063",
+     "a": "spk:2p-encke-90000064",
+     "km": 29417.421811614153,
+     "rel": 4.802840804118601e-05,
+     "metrica": 4.802840804118601e-05
+    },
+    {
+     "t": 2422280.746353832,
+     "da": "spk:2p-encke-90000064",
+     "a": "spk:2p-encke-90000065",
+     "km": 35451.49653171762,
+     "rel": 5.785789418493133e-05,
+     "metrica": 5.785789418493133e-05
+    },
+    {
+     "t": 2423487.0955855856,
+     "da": "spk:2p-encke-90000065",
+     "a": "spk:2p-encke-90000066",
+     "km": 40545.56856425651,
+     "rel": 6.618559893675844e-05,
+     "metrica": 6.618559893675844e-05
+    },
+    {
+     "t": 2424693.8649221347,
+     "da": "spk:2p-encke-90000066",
+     "a": "spk:2p-encke-90000067",
+     "km": 32766.998687608626,
+     "rel": 5.34791845380928e-05,
+     "metrica": 5.34791845380928e-05
+    },
+    {
+     "t": 2425896.439773888,
+     "da": "spk:2p-encke-90000067",
+     "a": "spk:2p-encke-90000068",
+     "km": 29463.09288610565,
+     "rel": 4.819694438199566e-05,
+     "metrica": 4.819694438199566e-05
+    },
+    {
+     "t": 2427095.348322093,
+     "da": "spk:2p-encke-90000068",
+     "a": "spk:2p-encke-90000069",
+     "km": 27553.256342726232,
+     "rel": 4.505276082913763e-05,
+     "metrica": 4.505276082913763e-05
+    },
+    {
+     "t": 2428295.6603412586,
+     "da": "spk:2p-encke-90000069",
+     "a": "spk:2p-encke-90000070",
+     "km": 32440.83553396291,
+     "rel": 5.306234459081224e-05,
+     "metrica": 5.306234459081224e-05
+    },
+    {
+     "t": 2429495.3500824836,
+     "da": "spk:2p-encke-90000070",
+     "a": "spk:2p-encke-90000071",
+     "km": 21533.379679819685,
+     "rel": 3.513781466556003e-05,
+     "metrica": 3.513781466556003e-05
+    },
+    {
+     "t": 2430705.3728376306,
+     "da": "spk:2p-encke-90000071",
+     "a": "spk:2p-encke-90000072",
+     "km": 18350.05323874815,
+     "rel": 2.9944180734757133e-05,
+     "metrica": 2.9944180734757133e-05
+    },
+    {
+     "t": 2433119.371083108,
+     "da": "spk:2p-encke-90000072",
+     "a": "spk:2p-encke-90000073",
+     "km": 28559.227580776143,
+     "rel": 4.661913235181616e-05,
+     "metrica": 4.661913235181616e-05
+    },
+    {
+     "t": 2434324.103643958,
+     "da": "spk:2p-encke-90000073",
+     "a": "spk:2p-encke-90000074",
+     "km": 9392.802544176988,
+     "rel": 1.5341022622093436e-05,
+     "metrica": 1.5341022622093436e-05
+    },
+    {
+     "t": 2435528.5206451784,
+     "da": "spk:2p-encke-90000074",
+     "a": "spk:2p-encke-90000075",
+     "km": 7075.5226576944,
+     "rel": 1.1551801909160896e-05,
+     "metrica": 1.1551801909160896e-05
+    },
+    {
+     "t": 2436733.674621193,
+     "da": "spk:2p-encke-90000075",
+     "a": "spk:2p-encke-90000076",
+     "km": 8805.470044280311,
+     "rel": 1.4380279534824366e-05,
+     "metrica": 1.4380279534824366e-05
+    },
+    {
+     "t": 2437938.8042153553,
+     "da": "spk:2p-encke-90000076",
+     "a": "spk:2p-encke-90000077",
+     "km": 4438.976754262095,
+     "rel": 7.231664587012956e-06,
+     "metrica": 7.231664587012956e-06
+    },
+    {
+     "t": 2439152.9699505987,
+     "da": "spk:2p-encke-90000077",
+     "a": "spk:2p-encke-90000078",
+     "km": 4370.693144949678,
+     "rel": 7.13495846057136e-06,
+     "metrica": 7.13495846057136e-06
+    },
+    {
+     "t": 2440358.146283365,
+     "da": "spk:2p-encke-90000078",
+     "a": "spk:2p-encke-90000079",
+     "km": 4280.3844800629895,
+     "rel": 6.9861924560524295e-06,
+     "metrica": 6.9861924560524295e-06
+    },
+    {
+     "t": 2441564.470252919,
+     "da": "spk:2p-encke-90000079",
+     "a": "spk:2p-encke-90000080",
+     "km": 3077.31668252305,
+     "rel": 5.0242367840255174e-06,
+     "metrica": 5.0242367840255174e-06
+    },
+    {
+     "t": 2442769.161251512,
+     "da": "spk:2p-encke-90000080",
+     "a": "spk:2p-encke-90000081",
+     "km": 4514.908276070065,
+     "rel": 7.368765588098676e-06,
+     "metrica": 7.368765588098676e-06
+    },
+    {
+     "t": 2443976.152084143,
+     "da": "spk:2p-encke-90000081",
+     "a": "spk:2p-encke-90000082",
+     "km": 10514.250485816172,
+     "rel": 1.715117617196699e-05,
+     "metrica": 1.715117617196699e-05
+    },
+    {
+     "t": 2445183.4912533313,
+     "da": "spk:2p-encke-90000082",
+     "a": "spk:2p-encke-90000083",
+     "km": 13273.273277400915,
+     "rel": 2.1657251475727926e-05,
+     "metrica": 2.1657251475727926e-05
+    },
+    {
+     "t": 2446390.8941428596,
+     "da": "spk:2p-encke-90000083",
+     "a": "spk:2p-encke-90000084",
+     "km": 765.8661839933742,
+     "rel": 1.2494503343677352e-06,
+     "metrica": 1.2494503343677352e-06
+    },
+    {
+     "t": 2447593.890132344,
+     "da": "spk:2p-encke-90000084",
+     "a": "spk:2p-encke-90000085",
+     "km": 3021.547368874024,
+     "rel": 4.9420555717349675e-06,
+     "metrica": 4.9420555717349675e-06
+    },
+    {
+     "t": 2448792.738949647,
+     "da": "spk:2p-encke-90000085",
+     "a": "spk:2p-encke-90000086",
+     "km": 5037.836554164812,
+     "rel": 8.236949826752459e-06,
+     "metrica": 8.236949826752459e-06
+    },
+    {
+     "t": 2449992.6717152796,
+     "da": "spk:2p-encke-90000086",
+     "a": "spk:2p-encke-90000088",
+     "km": 3740.945820673956,
+     "rel": 6.118739974990274e-06,
+     "metrica": 6.118739974990274e-06
+    },
+    {
+     "t": 2452398.6535412245,
+     "da": "spk:2p-encke-90000088",
+     "a": "spk:2p-encke-90000089",
+     "km": 2053.219786634012,
+     "rel": 3.3507954520867863e-06,
+     "metrica": 3.3507954520867863e-06
+    },
+    {
+     "t": 2454812.4710149686,
+     "da": "spk:2p-encke-90000089",
+     "a": "spk:2p-encke-90000090",
+     "km": 2414.3484028650178,
+     "rel": 3.9408559159145975e-06,
+     "metrica": 3.9408559159145975e-06
+    },
+    {
+     "t": 2459628.8446206623,
+     "da": "spk:2p-encke-90000090",
+     "a": "spk:2p-encke-90000091",
+     "km": 1174.5721832931933,
+     "rel": 1.9131240623799254e-06,
+     "metrica": 1.9131240623799254e-06
+    }
+   ],
+   "salti_record": [
+    {
+     "t": 2375222.257549064,
+     "da": 90000031,
+     "a": 90000032,
+     "km": 1701538.0208881595,
+     "rel": 0.002776351230664197,
+     "metrica": 0.002776351230664197,
+     "forma": true
+    },
+    {
+     "t": 2378832.542321074,
+     "da": 90000032,
+     "a": 90000033,
+     "km": 751216.8244246093,
+     "rel": 0.0012251278405732214,
+     "metrica": 0.0012251278405732214,
+     "forma": true
+    },
+    {
+     "t": 2382459.2393824137,
+     "da": 90000033,
+     "a": 90000034,
+     "km": 404249.6042369782,
+     "rel": 0.0006606605666528583,
+     "metrica": 0.0006606605666528583,
+     "forma": true
+    },
+    {
+     "t": 2386063.773052113,
+     "da": 90000034,
+     "a": 90000035,
+     "km": 323766.1555845902,
+     "rel": 0.0005275182555475912,
+     "metrica": 0.0005275182555475912,
+     "forma": true
+    },
+    {
+     "t": 2387280.461422932,
+     "da": 90000035,
+     "a": 90000036,
+     "km": 364845.6204121983,
+     "rel": 0.0005947706047678329,
+     "metrica": 0.0005947706047678329,
+     "forma": true
+    },
+    {
+     "t": 2388491.3412516722,
+     "da": 90000036,
+     "a": 90000037,
+     "km": 307680.781845415,
+     "rel": 0.000501436934419959,
+     "metrica": 0.000501436934419959,
+     "forma": true
+    },
+    {
+     "t": 2389703.267942947,
+     "da": 90000037,
+     "a": 90000038,
+     "km": 185526.10338790546,
+     "rel": 0.000302371207996243,
+     "metrica": 0.000302371207996243,
+     "forma": true
+    },
+    {
+     "t": 2390912.9581206623,
+     "da": 90000038,
+     "a": 90000039,
+     "km": 185632.823603927,
+     "rel": 0.0003026191081428594,
+     "metrica": 0.0003026191081428594,
+     "forma": true
+    },
+    {
+     "t": 2392122.7334663495,
+     "da": 90000039,
+     "a": 90000040,
+     "km": 215101.5199550452,
+     "rel": 0.00035049779725479036,
+     "metrica": 0.00035049779725479036,
+     "forma": true
+    },
+    {
+     "t": 2393333.170619426,
+     "da": 90000040,
+     "a": 90000041,
+     "km": 203152.81275106256,
+     "rel": 0.00033116225435887215,
+     "metrica": 0.00033116225435887215,
+     "forma": true
+    },
+    {
+     "t": 2394543.4206456374,
+     "da": 90000041,
+     "a": 90000042,
+     "km": 242236.95702239798,
+     "rel": 0.00039442884201554697,
+     "metrica": 0.00039442884201554697,
+     "forma": true
+    },
+    {
+     "t": 2395756.1064200443,
+     "da": 90000042,
+     "a": 90000043,
+     "km": 148410.1598982611,
+     "rel": 0.00024240503086501642,
+     "metrica": 0.00024240503086501642,
+     "forma": true
+    },
+    {
+     "t": 2396959.9036788805,
+     "da": 90000043,
+     "a": 90000044,
+     "km": 145764.0383492812,
+     "rel": 0.00023806464692632752,
+     "metrica": 0.00023806464692632757,
+     "forma": true
+    },
+    {
+     "t": 2398164.6614770666,
+     "da": 90000044,
+     "a": 90000045,
+     "km": 132738.20737629707,
+     "rel": 0.0002169121879248504,
+     "metrica": 0.0002169121879248504,
+     "forma": true
+    },
+    {
+     "t": 2399367.814877954,
+     "da": 90000045,
+     "a": 90000046,
+     "km": 198206.21791860033,
+     "rel": 0.0003235376294086916,
+     "metrica": 0.0003235376294086916,
+     "forma": true
+    },
+    {
+     "t": 2400574.9170313994,
+     "da": 90000046,
+     "a": 90000047,
+     "km": 219592.64821335816,
+     "rel": 0.0003583009621698928,
+     "metrica": 0.0003583009621698928,
+     "forma": true
+    },
+    {
+     "t": 2401781.561058063,
+     "da": 90000047,
+     "a": 90000048,
+     "km": 225221.92908334124,
+     "rel": 0.0003675306456752163,
+     "metrica": 0.0003675306456752163,
+     "forma": true
+    },
+    {
+     "t": 2402988.4532666965,
+     "da": 90000048,
+     "a": 90000049,
+     "km": 190243.25488236963,
+     "rel": 0.00031046002882286443,
+     "metrica": 0.00031046002882286443,
+     "forma": true
+    },
+    {
+     "t": 2404191.310449778,
+     "da": 90000049,
+     "a": 90000050,
+     "km": 221542.14277094378,
+     "rel": 0.00036223170437704635,
+     "metrica": 0.0003622317043770463,
+     "forma": true
+    },
+    {
+     "t": 2405391.3131086747,
+     "da": 90000050,
+     "a": 90000051,
+     "km": 201498.57989475486,
+     "rel": 0.00032938898159043096,
+     "metrica": 0.00032938898159043096,
+     "forma": true
+    },
+    {
+     "t": 2406592.2096153833,
+     "da": 90000051,
+     "a": 90000052,
+     "km": 42717.582460124235,
+     "rel": 6.986556558735326e-05,
+     "metrica": 6.986556558735326e-05,
+     "forma": true
+    },
+    {
+     "t": 2407792.5027493867,
+     "da": 90000052,
+     "a": 90000053,
+     "km": 39140.55090464745,
+     "rel": 6.38461695248248e-05,
+     "metrica": 6.38461695248248e-05,
+     "forma": true
+    },
+    {
+     "t": 2409004.663577337,
+     "da": 90000053,
+     "a": 90000054,
+     "km": 40484.85762871733,
+     "rel": 6.604585358403144e-05,
+     "metrica": 6.604585358403144e-05,
+     "forma": true
+    },
+    {
+     "t": 2410212.590418752,
+     "da": 90000054,
+     "a": 90000055,
+     "km": 57600.32138866897,
+     "rel": 9.396818532366456e-05,
+     "metrica": 9.396818532366456e-05,
+     "forma": true
+    },
+    {
+     "t": 2411421.092183692,
+     "da": 90000055,
+     "a": 90000056,
+     "km": 57317.04208971612,
+     "rel": 9.355130240455632e-05,
+     "metrica": 9.355130240455632e-05,
+     "forma": true
+    },
+    {
+     "t": 2412627.01803259,
+     "da": 90000056,
+     "a": 90000057,
+     "km": 34179.63369754081,
+     "rel": 5.580661156920768e-05,
+     "metrica": 5.580661156920768e-05,
+     "forma": true
+    },
+    {
+     "t": 2413833.1263770927,
+     "da": 90000057,
+     "a": 90000058,
+     "km": 54721.719604702084,
+     "rel": 8.929725511628368e-05,
+     "metrica": 8.929725511628368e-05,
+     "forma": true
+    },
+    {
+     "t": 2415040.1938970964,
+     "da": 90000058,
+     "a": 90000059,
+     "km": 69836.76816364209,
+     "rel": 0.00011399097875356498,
+     "metrica": 0.00011399097875356496,
+     "forma": true
+    },
+    {
+     "t": 2416247.0968836565,
+     "da": 90000059,
+     "a": 90000060,
+     "km": 172554.9619951673,
+     "rel": 0.0002811450881059355,
+     "metrica": 0.0002811450881059355,
+     "forma": true
+    },
+    {
+     "t": 2417460.484416267,
+     "da": 90000060,
+     "a": 90000061,
+     "km": 209841.01111330735,
+     "rel": 0.00034269347576379797,
+     "metrica": 0.00034269347576379797,
+     "forma": true
+    },
+    {
+     "t": 2418665.1085090498,
+     "da": 90000061,
+     "a": 90000062,
+     "km": 195762.01018849152,
+     "rel": 0.00031970487400706136,
+     "metrica": 0.00031970487400706136,
+     "forma": true
+    },
+    {
+     "t": 2419870.218442907,
+     "da": 90000062,
+     "a": 90000063,
+     "km": 127120.47897310251,
+     "rel": 0.00020766505003599577,
+     "metrica": 0.00020766505003599577,
+     "forma": true
+    },
+    {
+     "t": 2421074.0807704376,
+     "da": 90000063,
+     "a": 90000064,
+     "km": 29417.421811614153,
+     "rel": 4.802840804118601e-05,
+     "metrica": 4.802840804118601e-05,
+     "forma": true
+    },
+    {
+     "t": 2422280.746353832,
+     "da": 90000064,
+     "a": 90000065,
+     "km": 35451.49653171762,
+     "rel": 5.785789418493133e-05,
+     "metrica": 5.785789418493133e-05,
+     "forma": true
+    },
+    {
+     "t": 2423487.0955855856,
+     "da": 90000065,
+     "a": 90000066,
+     "km": 40545.56856425651,
+     "rel": 6.618559893675844e-05,
+     "metrica": 6.618559893675844e-05,
+     "forma": true
+    },
+    {
+     "t": 2424693.8649221347,
+     "da": 90000066,
+     "a": 90000067,
+     "km": 32766.998687608626,
+     "rel": 5.34791845380928e-05,
+     "metrica": 5.34791845380928e-05,
+     "forma": true
+    },
+    {
+     "t": 2425896.439773888,
+     "da": 90000067,
+     "a": 90000068,
+     "km": 29463.09288610565,
+     "rel": 4.819694438199566e-05,
+     "metrica": 4.819694438199566e-05,
+     "forma": true
+    },
+    {
+     "t": 2427095.348322093,
+     "da": 90000068,
+     "a": 90000069,
+     "km": 27553.256342726232,
+     "rel": 4.505276082913763e-05,
+     "metrica": 4.505276082913763e-05,
+     "forma": true
+    },
+    {
+     "t": 2428295.6603412586,
+     "da": 90000069,
+     "a": 90000070,
+     "km": 32440.83553396291,
+     "rel": 5.306234459081224e-05,
+     "metrica": 5.306234459081224e-05,
+     "forma": true
+    },
+    {
+     "t": 2429495.3500824836,
+     "da": 90000070,
+     "a": 90000071,
+     "km": 21533.379679819685,
+     "rel": 3.513781466556003e-05,
+     "metrica": 3.513781466556003e-05,
+     "forma": true
+    },
+    {
+     "t": 2430705.3728376306,
+     "da": 90000071,
+     "a": 90000072,
+     "km": 18350.05323874815,
+     "rel": 2.9944180734757133e-05,
+     "metrica": 2.9944180734757133e-05,
+     "forma": true
+    },
+    {
+     "t": 2433119.371083108,
+     "da": 90000072,
+     "a": 90000073,
+     "km": 28559.227580776143,
+     "rel": 4.661913235181616e-05,
+     "metrica": 4.661913235181616e-05,
+     "forma": true
+    },
+    {
+     "t": 2434324.103643958,
+     "da": 90000073,
+     "a": 90000074,
+     "km": 9392.802544176988,
+     "rel": 1.5341022622093436e-05,
+     "metrica": 1.5341022622093436e-05,
+     "forma": true
+    },
+    {
+     "t": 2435528.5206451784,
+     "da": 90000074,
+     "a": 90000075,
+     "km": 7075.5226576944,
+     "rel": 1.1551801909160896e-05,
+     "metrica": 1.1551801909160896e-05,
+     "forma": true
+    },
+    {
+     "t": 2436733.674621193,
+     "da": 90000075,
+     "a": 90000076,
+     "km": 8805.470044280311,
+     "rel": 1.4380279534824366e-05,
+     "metrica": 1.4380279534824366e-05,
+     "forma": true
+    },
+    {
+     "t": 2437938.8042153553,
+     "da": 90000076,
+     "a": 90000077,
+     "km": 4438.976754262095,
+     "rel": 7.231664587012956e-06,
+     "metrica": 7.231664587012956e-06,
+     "forma": true
+    },
+    {
+     "t": 2439152.9699505987,
+     "da": 90000077,
+     "a": 90000078,
+     "km": 4370.693144949678,
+     "rel": 7.13495846057136e-06,
+     "metrica": 7.13495846057136e-06,
+     "forma": true
+    },
+    {
+     "t": 2440358.146283365,
+     "da": 90000078,
+     "a": 90000079,
+     "km": 4280.3844800629895,
+     "rel": 6.9861924560524295e-06,
+     "metrica": 6.9861924560524295e-06,
+     "forma": true
+    },
+    {
+     "t": 2441564.470252919,
+     "da": 90000079,
+     "a": 90000080,
+     "km": 3077.31668252305,
+     "rel": 5.0242367840255174e-06,
+     "metrica": 5.0242367840255174e-06,
+     "forma": true
+    },
+    {
+     "t": 2442769.161251512,
+     "da": 90000080,
+     "a": 90000081,
+     "km": 4514.908276070065,
+     "rel": 7.368765588098676e-06,
+     "metrica": 7.368765588098676e-06,
+     "forma": true
+    },
+    {
+     "t": 2443976.152084143,
+     "da": 90000081,
+     "a": 90000082,
+     "km": 10514.250485816172,
+     "rel": 1.715117617196699e-05,
+     "metrica": 1.715117617196699e-05,
+     "forma": true
+    },
+    {
+     "t": 2445183.4912533313,
+     "da": 90000082,
+     "a": 90000083,
+     "km": 13273.273277400915,
+     "rel": 2.1657251475727926e-05,
+     "metrica": 2.1657251475727926e-05,
+     "forma": true
+    },
+    {
+     "t": 2446390.8941428596,
+     "da": 90000083,
+     "a": 90000084,
+     "km": 765.8661839933742,
+     "rel": 1.2494503343677352e-06,
+     "metrica": 1.2494503343677352e-06,
+     "forma": true
+    },
+    {
+     "t": 2447593.890132344,
+     "da": 90000084,
+     "a": 90000085,
+     "km": 3021.547368874024,
+     "rel": 4.9420555717349675e-06,
+     "metrica": 4.9420555717349675e-06,
+     "forma": true
+    },
+    {
+     "t": 2448792.738949647,
+     "da": 90000085,
+     "a": 90000086,
+     "km": 5037.836554164812,
+     "rel": 8.236949826752459e-06,
+     "metrica": 8.236949826752459e-06,
+     "forma": true
+    },
+    {
+     "t": 2449992.6717152796,
+     "da": 90000086,
+     "a": 90000088,
+     "km": 3740.945820673956,
+     "rel": 6.118739974990274e-06,
+     "metrica": 6.118739974990274e-06,
+     "forma": true
+    },
+    {
+     "t": 2452398.6535412245,
+     "da": 90000088,
+     "a": 90000089,
+     "km": 2053.219786634012,
+     "rel": 3.3507954520867863e-06,
+     "metrica": 3.3507954520867863e-06,
+     "forma": true
+    },
+    {
+     "t": 2454812.4710149686,
+     "da": 90000089,
+     "a": 90000090,
+     "km": 2414.3484028650178,
+     "rel": 3.9408559159145975e-06,
+     "metrica": 3.9408559159145975e-06,
+     "forma": true
+    },
+    {
+     "t": 2459628.8446206623,
+     "da": 90000090,
+     "a": 90000091,
+     "km": 1174.5721832931933,
+     "rel": 1.9131240623799254e-06,
+     "metrica": 1.9131240623799254e-06,
+     "forma": true
+    }
+   ],
+   "sovrapposizione_1600_1650": null,
+   "max_rapporto_segmenti": 0.8992829769318138
+  },
+  "9p-tempel-1": {
+   "horizons": {
+    "epoche": 50,
+    "valutate": 50,
+    "non_ok": [],
+    "max_km": 441.2330730291525,
+    "max_rapporto": 0.882466146058305,
+    "oltre_soglia": []
+   },
+   "interpolazione": {
+    "epoche": 200,
+    "tutti_ok": true,
+    "max_rapporto": 0.7376360426050381
+   },
+   "giunzioni": [
+    {
+     "t": 2305447.5,
+     "da": "assist:90000181",
+     "a": "spk:9p-tempel-1-90000181",
+     "km": 48007.6314161124,
+     "rel": 0.00013292554114452775,
+     "metrica": 0.00013292554114452775
+    },
+    {
+     "t": 2402078.4334369884,
+     "da": "spk:9p-tempel-1-90000181",
+     "a": "spk:9p-tempel-1-90000181",
+     "km": 0.0,
+     "rel": 0.0,
+     "metrica": 0.0
+    },
+    {
+     "t": 2404143.0013630115,
+     "da": "spk:9p-tempel-1-90000181",
+     "a": "spk:9p-tempel-1-90000182",
+     "km": 2195.5673189973127,
+     "rel": 3.032458093572083e-06,
+     "metrica": 3.0324580935720828e-06
+    },
+    {
+     "t": 2406381.575073432,
+     "da": "spk:9p-tempel-1-90000182",
+     "a": "spk:9p-tempel-1-90000183",
+     "km": 945.3689187740354,
+     "rel": 1.3099103176344582e-06,
+     "metrica": 1.3099103176344582e-06
+    },
+    {
+     "t": 2423864.951463427,
+     "da": "spk:9p-tempel-1-90000183",
+     "a": "spk:9p-tempel-1-90000184",
+     "km": 61717.28720726747,
+     "rel": 0.0001480391491696649,
+     "metrica": 0.0001480391491696649
+    },
+    {
+     "t": 2440508.903374864,
+     "da": "spk:9p-tempel-1-90000184",
+     "a": "spk:9p-tempel-1-90000185",
+     "km": 4524.073349277715,
+     "rel": 6.3870111540785475e-06,
+     "metrica": 6.3870111540785475e-06
+    },
+    {
+     "t": 2442518.208108973,
+     "da": "spk:9p-tempel-1-90000185",
+     "a": "spk:9p-tempel-1-90000186",
+     "km": 4108.449477662168,
+     "rel": 5.806114619111458e-06,
+     "metrica": 5.806114619111458e-06
+    },
+    {
+     "t": 2444523.663627027,
+     "da": "spk:9p-tempel-1-90000186",
+     "a": "spk:9p-tempel-1-90000187",
+     "km": 2361.570935960119,
+     "rel": 3.3362337650608563e-06,
+     "metrica": 3.3362337650608563e-06
+    },
+    {
+     "t": 2446528.0509567,
+     "da": "spk:9p-tempel-1-90000187",
+     "a": "spk:9p-tempel-1-90000188",
+     "km": 810.0313637982235,
+     "rel": 1.1443317100382783e-06,
+     "metrica": 1.1443317100382783e-06
+    },
+    {
+     "t": 2448535.5387768396,
+     "da": "spk:9p-tempel-1-90000188",
+     "a": "spk:9p-tempel-1-90000189",
+     "km": 1585.4309143640173,
+     "rel": 2.2398422953161207e-06,
+     "metrica": 2.2398422953161207e-06
+    },
+    {
+     "t": 2452548.198399436,
+     "da": "spk:9p-tempel-1-90000189",
+     "a": "spk:9p-tempel-1-90000190",
+     "km": 1377.8451017490959,
+     "rel": 1.9456123744961096e-06,
+     "metrica": 1.9456123744961096e-06
+    },
+    {
+     "t": 2454563.8686102126,
+     "da": "spk:9p-tempel-1-90000190",
+     "a": "spk:9p-tempel-1-90000191",
+     "km": 1094.1231187893904,
+     "rel": 1.5432303505619406e-06,
+     "metrica": 1.5432303505619406e-06
+    },
+    {
+     "t": 2456586.7777203787,
+     "da": "spk:9p-tempel-1-90000191",
+     "a": "spk:9p-tempel-1-90000192",
+     "km": 109.59269462915225,
+     "rel": 1.5434464477013893e-07,
+     "metrica": 1.5434464477013893e-07
+    }
+   ],
+   "salti_record": [
+    {
+     "t": 2404143.0013630115,
+     "da": 90000181,
+     "a": 90000182,
+     "km": 2195.5673189973127,
+     "rel": 3.032458093572083e-06,
+     "metrica": 3.0324580935720828e-06,
+     "forma": true
+    },
+    {
+     "t": 2406381.575073432,
+     "da": 90000182,
+     "a": 90000183,
+     "km": 945.3689187740354,
+     "rel": 1.3099103176344582e-06,
+     "metrica": 1.3099103176344582e-06,
+     "forma": true
+    },
+    {
+     "t": 2423864.951463427,
+     "da": 90000183,
+     "a": 90000184,
+     "km": 61717.28720726747,
+     "rel": 0.0001480391491696649,
+     "metrica": 0.0001480391491696649,
+     "forma": true
+    },
+    {
+     "t": 2440508.903374864,
+     "da": 90000184,
+     "a": 90000185,
+     "km": 4524.073349277715,
+     "rel": 6.3870111540785475e-06,
+     "metrica": 6.3870111540785475e-06,
+     "forma": true
+    },
+    {
+     "t": 2442518.208108973,
+     "da": 90000185,
+     "a": 90000186,
+     "km": 4108.449477662168,
+     "rel": 5.806114619111458e-06,
+     "metrica": 5.806114619111458e-06,
+     "forma": true
+    },
+    {
+     "t": 2444523.663627027,
+     "da": 90000186,
+     "a": 90000187,
+     "km": 2361.570935960119,
+     "rel": 3.3362337650608563e-06,
+     "metrica": 3.3362337650608563e-06,
+     "forma": true
+    },
+    {
+     "t": 2446528.0509567,
+     "da": 90000187,
+     "a": 90000188,
+     "km": 810.0313637982235,
+     "rel": 1.1443317100382783e-06,
+     "metrica": 1.1443317100382783e-06,
+     "forma": true
+    },
+    {
+     "t": 2448535.5387768396,
+     "da": 90000188,
+     "a": 90000189,
+     "km": 1585.4309143640173,
+     "rel": 2.2398422953161207e-06,
+     "metrica": 2.2398422953161207e-06,
+     "forma": true
+    },
+    {
+     "t": 2452548.198399436,
+     "da": 90000189,
+     "a": 90000190,
+     "km": 1377.8451017490959,
+     "rel": 1.9456123744961096e-06,
+     "metrica": 1.9456123744961096e-06,
+     "forma": true
+    },
+    {
+     "t": 2454563.8686102126,
+     "da": 90000190,
+     "a": 90000191,
+     "km": 1094.1231187893904,
+     "rel": 1.5432303505619406e-06,
+     "metrica": 1.5432303505619406e-06,
+     "forma": true
+    },
+    {
+     "t": 2456586.7777203787,
+     "da": 90000191,
+     "a": 90000192,
+     "km": 109.59269462915225,
+     "rel": 1.5434464477013893e-07,
+     "metrica": 1.5434464477013893e-07,
+     "forma": true
+    }
+   ],
+   "sovrapposizione_1600_1650": null,
+   "max_rapporto_segmenti": 0.8973589817305674
+  },
+  "12p-pons-brooks": {
+   "horizons": {
+    "epoche": 36,
+    "valutate": 36,
+    "non_ok": [],
+    "max_km": 226.3384403775124,
+    "max_rapporto": 0.4526768807550248,
+    "oltre_soglia": []
+   },
+   "interpolazione": {
+    "epoche": 200,
+    "tutti_ok": true,
+    "max_rapporto": 0.6282417068999753
+   },
+   "giunzioni": [
+    {
+     "t": 2305447.5,
+     "da": "assist:90000222",
+     "a": "spk:12p-pons-brooks-90000222",
+     "km": 261.3302788373538,
+     "rel": 1.956873359044258e-07,
+     "metrica": 1.956873359044258e-07
+    },
+    {
+     "t": 2369881.0391982305,
+     "da": "spk:12p-pons-brooks-90000222",
+     "a": "spk:12p-pons-brooks-90000222",
+     "km": 0.0,
+     "rel": 0.0,
+     "metrica": 0.0
+    },
+    {
+     "t": 2396393.6182017694,
+     "da": "spk:12p-pons-brooks-90000222",
+     "a": "spk:12p-pons-brooks-90000224",
+     "km": 864133.6261546456,
+     "rel": 0.00017171937729572946,
+     "metrica": 0.00017171937729572946
+    },
+    {
+     "t": 2422107.98356386,
+     "da": "spk:12p-pons-brooks-90000224",
+     "a": "spk:12p-pons-brooks-90000225",
+     "km": 616105.7958713385,
+     "rel": 0.00012365487805726842,
+     "metrica": 0.00012365487805726842
+    }
+   ],
+   "salti_record": [
+    {
+     "t": 2396393.6182017694,
+     "da": 90000222,
+     "a": 90000224,
+     "km": 864133.6261546456,
+     "rel": 0.00017171937729572946,
+     "metrica": 0.00017171937729572946,
+     "forma": true
+    },
+    {
+     "t": 2422107.98356386,
+     "da": 90000224,
+     "a": 90000225,
+     "km": 616105.7958713385,
+     "rel": 0.00012365487805726842,
+     "metrica": 0.00012365487805726842,
+     "forma": true
+    }
+   ],
+   "sovrapposizione_1600_1650": null,
+   "max_rapporto_segmenti": 0.8877409356546904
+  },
+  "19p-borrelly": {
+   "horizons": {
+    "epoche": 48,
+    "valutate": 48,
+    "non_ok": [],
+    "max_km": 248.85465319485334,
+    "max_rapporto": 0.4977093063897067,
+    "oltre_soglia": []
+   },
+   "interpolazione": {
+    "epoche": 200,
+    "tutti_ok": true,
+    "max_rapporto": 0.7887300107626379
+   },
+   "giunzioni": [
+    {
+     "t": 2305447.5,
+     "da": "assist:90000293",
+     "a": "spk:19p-borrelly-90000293",
+     "km": 5311.762653565179,
+     "rel": 7.051052586997798e-06,
+     "metrica": 7.051052586997798e-06
+    },
+    {
+     "t": 2415601.556136156,
+     "da": "spk:19p-borrelly-90000293",
+     "a": "spk:19p-borrelly-90000293",
+     "km": 0.0,
+     "rel": 0.0,
+     "metrica": 0.0
+    },
+    {
+     "t": 2418124.032663844,
+     "da": "spk:19p-borrelly-90000293",
+     "a": "spk:19p-borrelly-90000294",
+     "km": 28335.141357692082,
+     "rel": 3.2318705610059495e-05,
+     "metrica": 3.231870561005949e-05
+    },
+    {
+     "t": 2420654.411448305,
+     "da": "spk:19p-borrelly-90000294",
+     "a": "spk:19p-borrelly-90000295",
+     "km": 30259.164193352,
+     "rel": 3.451918163281286e-05,
+     "metrica": 3.451918163281286e-05
+    },
+    {
+     "t": 2423175.7136341543,
+     "da": "spk:19p-borrelly-90000295",
+     "a": "spk:19p-borrelly-90000296",
+     "km": 28105.336165370598,
+     "rel": 3.211365822541337e-05,
+     "metrica": 3.211365822541337e-05
+    },
+    {
+     "t": 2425688.512281162,
+     "da": "spk:19p-borrelly-90000296",
+     "a": "spk:19p-borrelly-90000297",
+     "km": 27344.431634394186,
+     "rel": 3.1241103860528963e-05,
+     "metrica": 3.1241103860528963e-05
+    },
+    {
+     "t": 2430712.5626956476,
+     "da": "spk:19p-borrelly-90000297",
+     "a": "spk:19p-borrelly-90000298",
+     "km": 65635.21707222931,
+     "rel": 7.47032247499406e-05,
+     "metrica": 7.47032247499406e-05
+    },
+    {
+     "t": 2435818.0192525093,
+     "da": "spk:19p-borrelly-90000298",
+     "a": "spk:19p-borrelly-90000299",
+     "km": 23264.50911757156,
+     "rel": 2.6477044841469196e-05,
+     "metrica": 2.64770448414692e-05
+    },
+    {
+     "t": 2438380.8306542556,
+     "da": "spk:19p-borrelly-90000299",
+     "a": "spk:19p-borrelly-90000300",
+     "km": 39177.76760409417,
+     "rel": 4.4581203517385127e-05,
+     "metrica": 4.4581203517385127e-05
+    },
+    {
+     "t": 2440936.536640899,
+     "da": "spk:19p-borrelly-90000300",
+     "a": "spk:19p-borrelly-90000301",
+     "km": 44532.380410327176,
+     "rel": 5.079409548007346e-05,
+     "metrica": 5.079409548007346e-05
+    },
+    {
+     "t": 2443415.553385874,
+     "da": "spk:19p-borrelly-90000301",
+     "a": "spk:19p-borrelly-90000302",
+     "km": 35893.270336446774,
+     "rel": 4.1065218265307115e-05,
+     "metrica": 4.1065218265307115e-05
+    },
+    {
+     "t": 2445892.5779987536,
+     "da": "spk:19p-borrelly-90000302",
+     "a": "spk:19p-borrelly-90000303",
+     "km": 25897.90290994679,
+     "rel": 2.9568133875218266e-05,
+     "metrica": 2.9568133875218266e-05
+    },
+    {
+     "t": 2448400.754900634,
+     "da": "spk:19p-borrelly-90000303",
+     "a": "spk:19p-borrelly-90000304",
+     "km": 35324.95346007983,
+     "rel": 4.024066753538283e-05,
+     "metrica": 4.024066753538283e-05
+    },
+    {
+     "t": 2450915.38463008,
+     "da": "spk:19p-borrelly-90000304",
+     "a": "spk:19p-borrelly-90000305",
+     "km": 14470.752442805362,
+     "rel": 1.6489838428711032e-05,
+     "metrica": 1.648983842871103e-05
+    },
+    {
+     "t": 2455924.1770005333,
+     "da": "spk:19p-borrelly-90000305",
+     "a": "spk:19p-borrelly-90000306",
+     "km": 24758.541997720797,
+     "rel": 2.824340501987343e-05,
+     "metrica": 2.824340501987343e-05
+    }
+   ],
+   "salti_record": [
+    {
+     "t": 2418124.032663844,
+     "da": 90000293,
+     "a": 90000294,
+     "km": 28335.141357692082,
+     "rel": 3.2318705610059495e-05,
+     "metrica": 3.231870561005949e-05,
+     "forma": true
+    },
+    {
+     "t": 2420654.411448305,
+     "da": 90000294,
+     "a": 90000295,
+     "km": 30259.164193352,
+     "rel": 3.451918163281286e-05,
+     "metrica": 3.451918163281286e-05,
+     "forma": true
+    },
+    {
+     "t": 2423175.7136341543,
+     "da": 90000295,
+     "a": 90000296,
+     "km": 28105.336165370598,
+     "rel": 3.211365822541337e-05,
+     "metrica": 3.211365822541337e-05,
+     "forma": true
+    },
+    {
+     "t": 2425688.512281162,
+     "da": 90000296,
+     "a": 90000297,
+     "km": 27344.431634394186,
+     "rel": 3.1241103860528963e-05,
+     "metrica": 3.1241103860528963e-05,
+     "forma": true
+    },
+    {
+     "t": 2430712.5626956476,
+     "da": 90000297,
+     "a": 90000298,
+     "km": 65635.21707222931,
+     "rel": 7.47032247499406e-05,
+     "metrica": 7.47032247499406e-05,
+     "forma": true
+    },
+    {
+     "t": 2435818.0192525093,
+     "da": 90000298,
+     "a": 90000299,
+     "km": 23264.50911757156,
+     "rel": 2.6477044841469196e-05,
+     "metrica": 2.64770448414692e-05,
+     "forma": true
+    },
+    {
+     "t": 2438380.8306542556,
+     "da": 90000299,
+     "a": 90000300,
+     "km": 39177.76760409417,
+     "rel": 4.4581203517385127e-05,
+     "metrica": 4.4581203517385127e-05,
+     "forma": true
+    },
+    {
+     "t": 2440936.536640899,
+     "da": 90000300,
+     "a": 90000301,
+     "km": 44532.380410327176,
+     "rel": 5.079409548007346e-05,
+     "metrica": 5.079409548007346e-05,
+     "forma": true
+    },
+    {
+     "t": 2443415.553385874,
+     "da": 90000301,
+     "a": 90000302,
+     "km": 35893.270336446774,
+     "rel": 4.1065218265307115e-05,
+     "metrica": 4.1065218265307115e-05,
+     "forma": true
+    },
+    {
+     "t": 2445892.5779987536,
+     "da": 90000302,
+     "a": 90000303,
+     "km": 25897.90290994679,
+     "rel": 2.9568133875218266e-05,
+     "metrica": 2.9568133875218266e-05,
+     "forma": true
+    },
+    {
+     "t": 2448400.754900634,
+     "da": 90000303,
+     "a": 90000304,
+     "km": 35324.95346007983,
+     "rel": 4.024066753538283e-05,
+     "metrica": 4.024066753538283e-05,
+     "forma": true
+    },
+    {
+     "t": 2450915.38463008,
+     "da": 90000304,
+     "a": 90000305,
+     "km": 14470.752442805362,
+     "rel": 1.6489838428711032e-05,
+     "metrica": 1.648983842871103e-05,
+     "forma": true
+    },
+    {
+     "t": 2455924.1770005333,
+     "da": 90000305,
+     "a": 90000306,
+     "km": 24758.541997720797,
+     "rel": 2.824340501987343e-05,
+     "metrica": 2.824340501987343e-05,
+     "forma": true
+    }
+   ],
+   "sovrapposizione_1600_1650": null,
+   "max_rapporto_segmenti": 0.8995841105370982
+  },
+  "21p-giacobini-zinner": {
+   "horizons": {
+    "epoche": 50,
+    "valutate": 41,
+    "non_ok": [
+     [
+      2305996.6669,
+      "non-determinabile"
+     ],
+     [
+      2318136.6614,
+      "non-determinabile"
+     ],
+     [
+      2320640.9459,
+      "non-determinabile"
+     ],
+     [
+      2320736.9938,
+      "non-determinabile"
+     ],
+     [
+      2325909.7824,
+      "non-determinabile"
+     ],
+     [
+      2327573.171,
+      "non-determinabile"
+     ],
+     [
+      2332642.5827,
+      "non-determinabile"
+     ],
+     [
+      2490234.582,
+      "non-determinabile"
+     ],
+     [
+      2494987.3454,
+      "non-determinabile"
+     ]
+    ],
+    "max_km": 399.99100093561987,
+    "max_rapporto": 0.7999820018712397,
+    "oltre_soglia": []
+   },
+   "interpolazione": {
+    "epoche": 200,
+    "tutti_ok": true,
+    "max_rapporto": 0.8544269791989569
+   },
+   "giunzioni": [
+    {
+     "t": 2305447.5,
+     "da": "assist:90000309",
+     "a": "spk:21p-giacobini-zinner-90000309",
+     "km": null,
+     "rel": null,
+     "metrica": null
+    },
+    {
+     "t": 2414171.3841214296,
+     "da": "spk:21p-giacobini-zinner-90000309",
+     "a": "spk:21p-giacobini-zinner-90000309",
+     "km": 0.0,
+     "rel": 0.0,
+     "metrica": 0.0
+    },
+    {
+     "t": 2416532.60887857,
+     "da": "spk:21p-giacobini-zinner-90000309",
+     "a": "spk:21p-giacobini-zinner-90000310",
+     "km": 49442.71915188944,
+     "rel": 5.4979064945493865e-05,
+     "metrica": 5.4979064945493865e-05
+    },
+    {
+     "t": 2423651.441308218,
+     "da": "spk:21p-giacobini-zinner-90000310",
+     "a": "spk:21p-giacobini-zinner-90000311",
+     "km": 152441.23025199483,
+     "rel": 0.00016914825977041065,
+     "metrica": 0.00016914825977041065
+    },
+    {
+     "t": 2426062.932321361,
+     "da": "spk:21p-giacobini-zinner-90000311",
+     "a": "spk:21p-giacobini-zinner-90000312",
+     "km": 69395.64834462314,
+     "rel": 7.688208173808538e-05,
+     "metrica": 7.688208173808538e-05
+    },
+    {
+     "t": 2428474.369873775,
+     "da": "spk:21p-giacobini-zinner-90000312",
+     "a": "spk:21p-giacobini-zinner-90000313",
+     "km": 84060.48879913597,
+     "rel": 9.311295127982134e-05,
+     "metrica": 9.311295127982134e-05
+    },
+    {
+     "t": 2430879.91487523,
+     "da": "spk:21p-giacobini-zinner-90000313",
+     "a": "spk:21p-giacobini-zinner-90000314",
+     "km": 53989.76506767997,
+     "rel": 5.983807409400249e-05,
+     "metrica": 5.983807409400249e-05
+    },
+    {
+     "t": 2433285.186255965,
+     "da": "spk:21p-giacobini-zinner-90000314",
+     "a": "spk:21p-giacobini-zinner-90000315",
+     "km": 108993.34476730374,
+     "rel": 0.00012086161098589131,
+     "metrica": 0.00012086161098589131
+    },
+    {
+     "t": 2438040.321889592,
+     "da": "spk:21p-giacobini-zinner-90000315",
+     "a": "spk:21p-giacobini-zinner-90000316",
+     "km": 121073.02646480237,
+     "rel": 0.0001355419160673723,
+     "metrica": 0.0001355419160673723
+    },
+    {
+     "t": 2440382.9153857417,
+     "da": "spk:21p-giacobini-zinner-90000316",
+     "a": "spk:21p-giacobini-zinner-90000317",
+     "km": 106133.30074100394,
+     "rel": 0.00011910213112895084,
+     "metrica": 0.00011910213112895082
+    },
+    {
+     "t": 2442724.499463851,
+     "da": "spk:21p-giacobini-zinner-90000317",
+     "a": "spk:21p-giacobini-zinner-90000318",
+     "km": 97034.28188127653,
+     "rel": 0.00010835566724837416,
+     "metrica": 0.00010835566724837416
+    },
+    {
+     "t": 2445108.229081128,
+     "da": "spk:21p-giacobini-zinner-90000318",
+     "a": "spk:21p-giacobini-zinner-90000319",
+     "km": 83326.755524446,
+     "rel": 9.289496866991856e-05,
+     "metrica": 9.289496866991856e-05
+    },
+    {
+     "t": 2447517.5564813516,
+     "da": "spk:21p-giacobini-zinner-90000319",
+     "a": "spk:21p-giacobini-zinner-90000320",
+     "km": 64003.30319464496,
+     "rel": 7.121485072123131e-05,
+     "metrica": 7.121485072123131e-05
+    },
+    {
+     "t": 2449933.350966321,
+     "da": "spk:21p-giacobini-zinner-90000320",
+     "a": "spk:21p-giacobini-zinner-90000321",
+     "km": 47752.9621798753,
+     "rel": 5.312771625183252e-05,
+     "metrica": 5.312771625183252e-05
+    },
+    {
+     "t": 2452345.8694099793,
+     "da": "spk:21p-giacobini-zinner-90000321",
+     "a": "spk:21p-giacobini-zinner-90000322",
+     "km": 22367.256700861315,
+     "rel": 2.487430005222593e-05,
+     "metrica": 2.487430005222593e-05
+    },
+    {
+     "t": 2454763.38041551,
+     "da": "spk:21p-giacobini-zinner-90000322",
+     "a": "spk:21p-giacobini-zinner-90000323",
+     "km": 24526.401265919103,
+     "rel": 2.727667243781773e-05,
+     "metrica": 2.727667243781773e-05
+    },
+    {
+     "t": 2457172.936878968,
+     "da": "spk:21p-giacobini-zinner-90000323",
+     "a": "spk:21p-giacobini-zinner-90000324",
+     "km": 35800.99384831541,
+     "rel": 3.989885147013655e-05,
+     "metrica": 3.989885147013655e-05
+    }
+   ],
+   "salti_record": [
+    {
+     "t": 2416532.60887857,
+     "da": 90000309,
+     "a": 90000310,
+     "km": 49442.71915188944,
+     "rel": 5.4979064945493865e-05,
+     "metrica": 5.4979064945493865e-05,
+     "forma": true
+    },
+    {
+     "t": 2423651.441308218,
+     "da": 90000310,
+     "a": 90000311,
+     "km": 152441.23025199483,
+     "rel": 0.00016914825977041065,
+     "metrica": 0.00016914825977041065,
+     "forma": true
+    },
+    {
+     "t": 2426062.932321361,
+     "da": 90000311,
+     "a": 90000312,
+     "km": 69395.64834462314,
+     "rel": 7.688208173808538e-05,
+     "metrica": 7.688208173808538e-05,
+     "forma": true
+    },
+    {
+     "t": 2428474.369873775,
+     "da": 90000312,
+     "a": 90000313,
+     "km": 84060.48879913597,
+     "rel": 9.311295127982134e-05,
+     "metrica": 9.311295127982134e-05,
+     "forma": true
+    },
+    {
+     "t": 2430879.91487523,
+     "da": 90000313,
+     "a": 90000314,
+     "km": 53989.76506767997,
+     "rel": 5.983807409400249e-05,
+     "metrica": 5.983807409400249e-05,
+     "forma": true
+    },
+    {
+     "t": 2433285.186255965,
+     "da": 90000314,
+     "a": 90000315,
+     "km": 108993.34476730374,
+     "rel": 0.00012086161098589131,
+     "metrica": 0.00012086161098589131,
+     "forma": true
+    },
+    {
+     "t": 2438040.321889592,
+     "da": 90000315,
+     "a": 90000316,
+     "km": 121073.02646480237,
+     "rel": 0.0001355419160673723,
+     "metrica": 0.0001355419160673723,
+     "forma": true
+    },
+    {
+     "t": 2440382.9153857417,
+     "da": 90000316,
+     "a": 90000317,
+     "km": 106133.30074100394,
+     "rel": 0.00011910213112895084,
+     "metrica": 0.00011910213112895082,
+     "forma": true
+    },
+    {
+     "t": 2442724.499463851,
+     "da": 90000317,
+     "a": 90000318,
+     "km": 97034.28188127653,
+     "rel": 0.00010835566724837416,
+     "metrica": 0.00010835566724837416,
+     "forma": true
+    },
+    {
+     "t": 2445108.229081128,
+     "da": 90000318,
+     "a": 90000319,
+     "km": 83326.755524446,
+     "rel": 9.289496866991856e-05,
+     "metrica": 9.289496866991856e-05,
+     "forma": true
+    },
+    {
+     "t": 2447517.5564813516,
+     "da": 90000319,
+     "a": 90000320,
+     "km": 64003.30319464496,
+     "rel": 7.121485072123131e-05,
+     "metrica": 7.121485072123131e-05,
+     "forma": true
+    },
+    {
+     "t": 2449933.350966321,
+     "da": 90000320,
+     "a": 90000321,
+     "km": 47752.9621798753,
+     "rel": 5.312771625183252e-05,
+     "metrica": 5.312771625183252e-05,
+     "forma": true
+    },
+    {
+     "t": 2452345.8694099793,
+     "da": 90000321,
+     "a": 90000322,
+     "km": 22367.256700861315,
+     "rel": 2.487430005222593e-05,
+     "metrica": 2.487430005222593e-05,
+     "forma": true
+    },
+    {
+     "t": 2454763.38041551,
+     "da": 90000322,
+     "a": 90000323,
+     "km": 24526.401265919103,
+     "rel": 2.727667243781773e-05,
+     "metrica": 2.727667243781773e-05,
+     "forma": true
+    },
+    {
+     "t": 2457172.936878968,
+     "da": 90000323,
+     "a": 90000324,
+     "km": 35800.99384831541,
+     "rel": 3.989885147013655e-05,
+     "metrica": 3.989885147013655e-05,
+     "forma": true
+    }
+   ],
+   "sovrapposizione_1600_1650": null,
+   "max_rapporto_segmenti": 0.8995079554762018
+  },
+  "26p-grigg-skjellerup": {
+   "horizons": {
+    "epoche": 45,
+    "valutate": 27,
+    "non_ok": [
+     [
+      2307794.8906,
+      "non-determinabile"
+     ],
+     [
+      2314937.0743,
+      "non-determinabile"
+     ],
+     [
+      2318349.462,
+      "non-determinabile"
+     ],
+     [
+      2326835.9504,
+      "non-determinabile"
+     ],
+     [
+      2330443.7824,
+      "non-determinabile"
+     ],
+     [
+      2331634.5328,
+      "non-determinabile"
+     ],
+     [
+      2332840.3492,
+      "non-determinabile"
+     ],
+     [
+      2338060.333,
+      "non-determinabile"
+     ],
+     [
+      2338988.0773,
+      "non-determinabile"
+     ],
+     [
+      2342067.2162,
+      "non-determinabile"
+     ],
+     [
+      2348952.7686,
+      "non-determinabile"
+     ],
+     [
+      2349823.2121,
+      "non-determinabile"
+     ],
+     [
+      2351815.8409,
+      "non-determinabile"
+     ],
+     [
+      2356443.8579,
+      "non-determinabile"
+     ],
+     [
+      2359643.1753,
+      "non-determinabile"
+     ],
+     [
+      2361419.7439,
+      "non-determinabile"
+     ],
+     [
+      2362453.8856,
+      "non-determinabile"
+     ],
+     [
+      2368865.218,
+      "non-determinabile"
+     ]
+    ],
+    "max_km": 177.00575087737204,
+    "max_rapporto": 0.35401150175474405,
+    "oltre_soglia": []
+   },
+   "interpolazione": {
+    "epoche": 200,
+    "tutti_ok": true,
+    "max_rapporto": 0.5794651062084016
+   },
+   "giunzioni": [
+    {
+     "t": 2305447.5,
+     "da": "assist:90000359",
+     "a": "spk:26p-grigg-skjellerup-90000359",
+     "km": null,
+     "rel": null,
+     "metrica": null
+    },
+    {
+     "t": 2380613.0236492553,
+     "da": "spk:26p-grigg-skjellerup-90000359",
+     "a": "spk:26p-grigg-skjellerup-90000359",
+     "km": 0.0,
+     "rel": 0.0,
+     "metrica": 0.0
+    },
+    {
+     "t": 2398224.550664155,
+     "da": "spk:26p-grigg-skjellerup-90000359",
+     "a": "spk:26p-grigg-skjellerup-90000360",
+     "km": 12482575.003171764,
+     "rel": 0.023165768424393312,
+     "metrica": 0.023165768424393312
+    },
+    {
+     "t": 2420341.108618481,
+     "da": "spk:26p-grigg-skjellerup-90000360",
+     "a": "spk:26p-grigg-skjellerup-90000361",
+     "km": 57041.674099919226,
+     "rel": 7.813357549569436e-05,
+     "metrica": 7.813357549569436e-05
+    },
+    {
+     "t": 2424099.521044036,
+     "da": "spk:26p-grigg-skjellerup-90000361",
+     "a": "spk:26p-grigg-skjellerup-90000362",
+     "km": 11297.705321186124,
+     "rel": 1.5273172932774194e-05,
+     "metrica": 1.5273172932774194e-05
+    },
+    {
+     "t": 2425921.8099997314,
+     "da": "spk:26p-grigg-skjellerup-90000362",
+     "a": "spk:26p-grigg-skjellerup-90000363",
+     "km": 10518.409360619204,
+     "rel": 1.4192182400896832e-05,
+     "metrica": 1.4192182400896832e-05
+    },
+    {
+     "t": 2427757.5075884503,
+     "da": "spk:26p-grigg-skjellerup-90000363",
+     "a": "spk:26p-grigg-skjellerup-90000364",
+     "km": 12875.87310508819,
+     "rel": 1.734920499509985e-05,
+     "metrica": 1.734920499509985e-05
+    },
+    {
+     "t": 2429594.198235568,
+     "da": "spk:26p-grigg-skjellerup-90000364",
+     "a": "spk:26p-grigg-skjellerup-90000365",
+     "km": 9866.904014258329,
+     "rel": 1.3308774619119606e-05,
+     "metrica": 1.3308774619119606e-05
+    },
+    {
+     "t": 2431398.5945262886,
+     "da": "spk:26p-grigg-skjellerup-90000365",
+     "a": "spk:26p-grigg-skjellerup-90000366",
+     "km": 3948.1156586872635,
+     "rel": 5.367354752909363e-06,
+     "metrica": 5.367354752909363e-06
+    },
+    {
+     "t": 2433188.5010817163,
+     "da": "spk:26p-grigg-skjellerup-90000366",
+     "a": "spk:26p-grigg-skjellerup-90000367",
+     "km": 7642.997347875587,
+     "rel": 1.039604860242146e-05,
+     "metrica": 1.039604860242146e-05
+    },
+    {
+     "t": 2434978.3561776797,
+     "da": "spk:26p-grigg-skjellerup-90000367",
+     "a": "spk:26p-grigg-skjellerup-90000368",
+     "km": 6181.985246964502,
+     "rel": 8.40845781449073e-06,
+     "metrica": 8.40845781449073e-06
+    },
+    {
+     "t": 2436767.511014308,
+     "da": "spk:26p-grigg-skjellerup-90000368",
+     "a": "spk:26p-grigg-skjellerup-90000369",
+     "km": 7695.820114889952,
+     "rel": 1.0458399572796986e-05,
+     "metrica": 1.0458399572796986e-05
+    },
+    {
+     "t": 2438561.1150013576,
+     "da": "spk:26p-grigg-skjellerup-90000369",
+     "a": "spk:26p-grigg-skjellerup-90000370",
+     "km": 1526.3024398854773,
+     "rel": 2.0660593377431424e-06,
+     "metrica": 2.0660593377431424e-06
+    },
+    {
+     "t": 2440442.2814508616,
+     "da": "spk:26p-grigg-skjellerup-90000370",
+     "a": "spk:26p-grigg-skjellerup-90000371",
+     "km": 2337.4368120022204,
+     "rel": 3.161743128917374e-06,
+     "metrica": 3.161743128917374e-06
+    },
+    {
+     "t": 2442313.830816318,
+     "da": "spk:26p-grigg-skjellerup-90000371",
+     "a": "spk:26p-grigg-skjellerup-90000372",
+     "km": 3000.256041032803,
+     "rel": 4.064329898742409e-06,
+     "metrica": 4.064329898742409e-06
+    },
+    {
+     "t": 2444175.8376015956,
+     "da": "spk:26p-grigg-skjellerup-90000372",
+     "a": "spk:26p-grigg-skjellerup-90000373",
+     "km": 4888.171682420523,
+     "rel": 6.630050474484514e-06,
+     "metrica": 6.630050474484514e-06
+    },
+    {
+     "t": 2446034.063740927,
+     "da": "spk:26p-grigg-skjellerup-90000373",
+     "a": "spk:26p-grigg-skjellerup-90000374",
+     "km": 3733.2511664554063,
+     "rel": 5.0631040003239596e-06,
+     "metrica": 5.0631040003239596e-06
+    },
+    {
+     "t": 2447895.792483344,
+     "da": "spk:26p-grigg-skjellerup-90000374",
+     "a": "spk:26p-grigg-skjellerup-90000375",
+     "km": 3359.375835295531,
+     "rel": 4.555683028955023e-06,
+     "metrica": 4.555683028955023e-06
+    },
+    {
+     "t": 2449757.220716875,
+     "da": "spk:26p-grigg-skjellerup-90000375",
+     "a": "spk:26p-grigg-skjellerup-90000376",
+     "km": 4014.302276080333,
+     "rel": 5.438421795815523e-06,
+     "metrica": 5.438421795815523e-06
+    },
+    {
+     "t": 2453487.994492623,
+     "da": "spk:26p-grigg-skjellerup-90000376",
+     "a": "spk:26p-grigg-skjellerup-90000377",
+     "km": 2687.59759279721,
+     "rel": 3.636229505412385e-06,
+     "metrica": 3.636229505412385e-06
+    },
+    {
+     "t": 2455518.63486922,
+     "da": "spk:26p-grigg-skjellerup-90000377",
+     "a": "spk:26p-grigg-skjellerup-90000378",
+     "km": 2318.858283516503,
+     "rel": 3.1225850209626363e-06,
+     "metrica": 3.1225850209626363e-06
+    }
+   ],
+   "salti_record": [
+    {
+     "t": 2398224.550664155,
+     "da": 90000359,
+     "a": 90000360,
+     "km": 12482575.003171764,
+     "rel": 0.023165768424393312,
+     "metrica": 0.023165768424393312,
+     "forma": true
+    },
+    {
+     "t": 2420341.108618481,
+     "da": 90000360,
+     "a": 90000361,
+     "km": 57041.674099919226,
+     "rel": 7.813357549569436e-05,
+     "metrica": 7.813357549569436e-05,
+     "forma": true
+    },
+    {
+     "t": 2424099.521044036,
+     "da": 90000361,
+     "a": 90000362,
+     "km": 11297.705321186124,
+     "rel": 1.5273172932774194e-05,
+     "metrica": 1.5273172932774194e-05,
+     "forma": true
+    },
+    {
+     "t": 2425921.8099997314,
+     "da": 90000362,
+     "a": 90000363,
+     "km": 10518.409360619204,
+     "rel": 1.4192182400896832e-05,
+     "metrica": 1.4192182400896832e-05,
+     "forma": true
+    },
+    {
+     "t": 2427757.5075884503,
+     "da": 90000363,
+     "a": 90000364,
+     "km": 12875.87310508819,
+     "rel": 1.734920499509985e-05,
+     "metrica": 1.734920499509985e-05,
+     "forma": true
+    },
+    {
+     "t": 2429594.198235568,
+     "da": 90000364,
+     "a": 90000365,
+     "km": 9866.904014258329,
+     "rel": 1.3308774619119606e-05,
+     "metrica": 1.3308774619119606e-05,
+     "forma": true
+    },
+    {
+     "t": 2431398.5945262886,
+     "da": 90000365,
+     "a": 90000366,
+     "km": 3948.1156586872635,
+     "rel": 5.367354752909363e-06,
+     "metrica": 5.367354752909363e-06,
+     "forma": true
+    },
+    {
+     "t": 2433188.5010817163,
+     "da": 90000366,
+     "a": 90000367,
+     "km": 7642.997347875587,
+     "rel": 1.039604860242146e-05,
+     "metrica": 1.039604860242146e-05,
+     "forma": true
+    },
+    {
+     "t": 2434978.3561776797,
+     "da": 90000367,
+     "a": 90000368,
+     "km": 6181.985246964502,
+     "rel": 8.40845781449073e-06,
+     "metrica": 8.40845781449073e-06,
+     "forma": true
+    },
+    {
+     "t": 2436767.511014308,
+     "da": 90000368,
+     "a": 90000369,
+     "km": 7695.820114889952,
+     "rel": 1.0458399572796986e-05,
+     "metrica": 1.0458399572796986e-05,
+     "forma": true
+    },
+    {
+     "t": 2438561.1150013576,
+     "da": 90000369,
+     "a": 90000370,
+     "km": 1526.3024398854773,
+     "rel": 2.0660593377431424e-06,
+     "metrica": 2.0660593377431424e-06,
+     "forma": true
+    },
+    {
+     "t": 2440442.2814508616,
+     "da": 90000370,
+     "a": 90000371,
+     "km": 2337.4368120022204,
+     "rel": 3.161743128917374e-06,
+     "metrica": 3.161743128917374e-06,
+     "forma": true
+    },
+    {
+     "t": 2442313.830816318,
+     "da": 90000371,
+     "a": 90000372,
+     "km": 3000.256041032803,
+     "rel": 4.064329898742409e-06,
+     "metrica": 4.064329898742409e-06,
+     "forma": true
+    },
+    {
+     "t": 2444175.8376015956,
+     "da": 90000372,
+     "a": 90000373,
+     "km": 4888.171682420523,
+     "rel": 6.630050474484514e-06,
+     "metrica": 6.630050474484514e-06,
+     "forma": true
+    },
+    {
+     "t": 2446034.063740927,
+     "da": 90000373,
+     "a": 90000374,
+     "km": 3733.2511664554063,
+     "rel": 5.0631040003239596e-06,
+     "metrica": 5.0631040003239596e-06,
+     "forma": true
+    },
+    {
+     "t": 2447895.792483344,
+     "da": 90000374,
+     "a": 90000375,
+     "km": 3359.375835295531,
+     "rel": 4.555683028955023e-06,
+     "metrica": 4.555683028955023e-06,
+     "forma": true
+    },
+    {
+     "t": 2449757.220716875,
+     "da": 90000375,
+     "a": 90000376,
+     "km": 4014.302276080333,
+     "rel": 5.438421795815523e-06,
+     "metrica": 5.438421795815523e-06,
+     "forma": true
+    },
+    {
+     "t": 2453487.994492623,
+     "da": 90000376,
+     "a": 90000377,
+     "km": 2687.59759279721,
+     "rel": 3.636229505412385e-06,
+     "metrica": 3.636229505412385e-06,
+     "forma": true
+    },
+    {
+     "t": 2455518.63486922,
+     "da": 90000377,
+     "a": 90000378,
+     "km": 2318.858283516503,
+     "rel": 3.1225850209626363e-06,
+     "metrica": 3.1225850209626363e-06,
+     "forma": true
+    }
+   ],
+   "sovrapposizione_1600_1650": null,
+   "max_rapporto_segmenti": 0.8906881616944982
+  },
+  "29p-schwassmann-wachmann-1": {
+   "horizons": {
+    "epoche": 49,
+    "valutate": 49,
+    "non_ok": [],
+    "max_km": 427.7455054476881,
+    "max_rapporto": 0.8554910108953763,
+    "oltre_soglia": []
+   },
+   "interpolazione": {
+    "epoche": 200,
+    "tutti_ok": true,
+    "max_rapporto": 0.8288705087529656
+   },
+   "giunzioni": [
+    {
+     "t": 2305447.5,
+     "da": "assist:90000390",
+     "a": "spk:29p-schwassmann-wachmann-1-90000390",
+     "km": 471.16857114470406,
+     "rel": 5.173764046877394e-07,
+     "metrica": 5.173764046877394e-07
+    },
+    {
+     "t": 2415231.6333545945,
+     "da": "spk:29p-schwassmann-wachmann-1-90000390",
+     "a": "spk:29p-schwassmann-wachmann-1-90000390",
+     "km": 0.0,
+     "rel": 0.0,
+     "metrica": 0.0
+    },
+    {
+     "t": 2421234.776045406,
+     "da": "spk:29p-schwassmann-wachmann-1-90000390",
+     "a": "spk:29p-schwassmann-wachmann-1-90000391",
+     "km": 2493.664474994899,
+     "rel": 2.2307379021892777e-06,
+     "metrica": 2.2307379021892777e-06
+    },
+    {
+     "t": 2427280.6492926613,
+     "da": "spk:29p-schwassmann-wachmann-1-90000391",
+     "a": "spk:29p-schwassmann-wachmann-1-90000392",
+     "km": 1600.5447599389522,
+     "rel": 1.471532516874287e-06,
+     "metrica": 1.471532516874287e-06
+    },
+    {
+     "t": 2433053.5589593463,
+     "da": "spk:29p-schwassmann-wachmann-1-90000392",
+     "a": "spk:29p-schwassmann-wachmann-1-90000393",
+     "km": 1934.20048870045,
+     "rel": 1.7924812704079567e-06,
+     "metrica": 1.7924812704079567e-06
+    },
+    {
+     "t": 2438911.74062231,
+     "da": "spk:29p-schwassmann-wachmann-1-90000393",
+     "a": "spk:29p-schwassmann-wachmann-1-90000394",
+     "km": 918.287962620394,
+     "rel": 8.457405634086135e-07,
+     "metrica": 8.457405634086135e-07
+    },
+    {
+     "t": 2450327.7114076978,
+     "da": "spk:29p-schwassmann-wachmann-1-90000394",
+     "a": "spk:29p-schwassmann-wachmann-1-90000395",
+     "km": 329.1055735603953,
+     "rel": 3.50592889488437e-07,
+     "metrica": 3.50592889488437e-07
+    },
+    {
+     "t": 2455857.544391233,
+     "da": "spk:29p-schwassmann-wachmann-1-90000395",
+     "a": "spk:29p-schwassmann-wachmann-1-90000396",
+     "km": 2123.6275763252947,
+     "rel": 2.2670742627550954e-06,
+     "metrica": 2.2670742627550954e-06
+    }
+   ],
+   "salti_record": [
+    {
+     "t": 2421234.776045406,
+     "da": 90000390,
+     "a": 90000391,
+     "km": 2493.664474994899,
+     "rel": 2.2307379021892777e-06,
+     "metrica": 2.2307379021892777e-06,
+     "forma": true
+    },
+    {
+     "t": 2427280.6492926613,
+     "da": 90000391,
+     "a": 90000392,
+     "km": 1600.5447599389522,
+     "rel": 1.471532516874287e-06,
+     "metrica": 1.471532516874287e-06,
+     "forma": true
+    },
+    {
+     "t": 2433053.5589593463,
+     "da": 90000392,
+     "a": 90000393,
+     "km": 1934.20048870045,
+     "rel": 1.7924812704079567e-06,
+     "metrica": 1.7924812704079567e-06,
+     "forma": true
+    },
+    {
+     "t": 2438911.74062231,
+     "da": 90000393,
+     "a": 90000394,
+     "km": 918.287962620394,
+     "rel": 8.457405634086135e-07,
+     "metrica": 8.457405634086135e-07,
+     "forma": true
+    },
+    {
+     "t": 2450327.7114076978,
+     "da": 90000394,
+     "a": 90000395,
+     "km": 329.1055735603953,
+     "rel": 3.50592889488437e-07,
+     "metrica": 3.50592889488437e-07,
+     "forma": true
+    },
+    {
+     "t": 2455857.544391233,
+     "da": 90000395,
+     "a": 90000396,
+     "km": 2123.6275763252947,
+     "rel": 2.2670742627550954e-06,
+     "metrica": 2.2670742627550954e-06,
+     "forma": true
+    }
+   ],
+   "sovrapposizione_1600_1650": null,
+   "max_rapporto_segmenti": 0.8994020659926694
+  },
+  "46p-wirtanen": {
+   "horizons": {
+    "epoche": 50,
+    "valutate": 29,
+    "non_ok": [
+     [
+      2307271.9538,
+      "non-determinabile"
+     ],
+     [
+      2307597.9987,
+      "non-determinabile"
+     ],
+     [
+      2308699.5988,
+      "non-determinabile"
+     ],
+     [
+      2311279.5906,
+      "non-determinabile"
+     ],
+     [
+      2319262.0953,
+      "non-determinabile"
+     ],
+     [
+      2319716.3324,
+      "non-determinabile"
+     ],
+     [
+      2320050.6254,
+      "non-determinabile"
+     ],
+     [
+      2326789.8633,
+      "non-determinabile"
+     ],
+     [
+      2333513.3051,
+      "non-determinabile"
+     ],
+     [
+      2334593.8605,
+      "non-determinabile"
+     ],
+     [
+      2336394.723,
+      "non-determinabile"
+     ],
+     [
+      2337724.8865,
+      "non-determinabile"
+     ],
+     [
+      2342767.2292,
+      "non-determinabile"
+     ],
+     [
+      2348014.4556,
+      "non-determinabile"
+     ],
+     [
+      2351774.0378,
+      "non-determinabile"
+     ],
+     [
+      2362450.5746,
+      "non-determinabile"
+     ],
+     [
+      2363051.1381,
+      "non-determinabile"
+     ],
+     [
+      2364622.1433,
+      "non-determinabile"
+     ],
+     [
+      2364690.1224,
+      "non-determinabile"
+     ],
+     [
+      2366971.0423,
+      "non-determinabile"
+     ],
+     [
+      2369238.9639,
+      "non-determinabile"
+     ]
+    ],
+    "max_km": 399.5294059526611,
+    "max_rapporto": 0.7990588119053221,
+    "oltre_soglia": []
+   },
+   "interpolazione": {
+    "epoche": 200,
+    "tutti_ok": true,
+    "max_rapporto": 0.8268797702770982
+   },
+   "giunzioni": [
+    {
+     "t": 2305447.5,
+     "da": "assist:90000537",
+     "a": "spk:46p-wirtanen-90000537",
+     "km": null,
+     "rel": null,
+     "metrica": null
+    },
+    {
+     "t": 2431296.768757431,
+     "da": "spk:46p-wirtanen-90000537",
+     "a": "spk:46p-wirtanen-90000537",
+     "km": 0.0,
+     "rel": 0.0,
+     "metrica": 0.0
+    },
+    {
+     "t": 2433748.1070425687,
+     "da": "spk:46p-wirtanen-90000537",
+     "a": "spk:46p-wirtanen-90000538",
+     "km": 63228.82391722872,
+     "rel": 7.719923531723829e-05,
+     "metrica": 7.719923531723829e-05
+    },
+    {
+     "t": 2436189.0273296996,
+     "da": "spk:46p-wirtanen-90000538",
+     "a": "spk:46p-wirtanen-90000539",
+     "km": 92026.5346774661,
+     "rel": 0.00011252503509576486,
+     "metrica": 0.00011252503509576486
+    },
+    {
+     "t": 2438622.6095979293,
+     "da": "spk:46p-wirtanen-90000539",
+     "a": "spk:46p-wirtanen-90000540",
+     "km": 97444.48091384377,
+     "rel": 0.00011911561085879611,
+     "metrica": 0.00011911561085879611
+    },
+    {
+     "t": 2441055.326232318,
+     "da": "spk:46p-wirtanen-90000540",
+     "a": "spk:46p-wirtanen-90000541",
+     "km": 141543.39996456716,
+     "rel": 0.00017326570916894614,
+     "metrica": 0.00017326570916894614
+    },
+    {
+     "t": 2443306.771463012,
+     "da": "spk:46p-wirtanen-90000541",
+     "a": "spk:46p-wirtanen-90000542",
+     "km": 466286.55066813185,
+     "rel": 0.0005928149204358053,
+     "metrica": 0.0005928149204358051
+    },
+    {
+     "t": 2447513.6023305794,
+     "da": "spk:46p-wirtanen-90000542",
+     "a": "spk:46p-wirtanen-90000543",
+     "km": 141529.40293003165,
+     "rel": 0.0001836700641226298,
+     "metrica": 0.0001836700641226298
+    },
+    {
+     "t": 2449524.231263142,
+     "da": "spk:46p-wirtanen-90000543",
+     "a": "spk:46p-wirtanen-90000544",
+     "km": 114751.3956285325,
+     "rel": 0.00014916496619547275,
+     "metrica": 0.00014916496619547277
+    },
+    {
+     "t": 2451518.0179935554,
+     "da": "spk:46p-wirtanen-90000544",
+     "a": "spk:46p-wirtanen-90000546",
+     "km": 16733.67491640093,
+     "rel": 2.17887349283659e-05,
+     "metrica": 2.17887349283659e-05
+    },
+    {
+     "t": 2455492.5671296474,
+     "da": "spk:46p-wirtanen-90000546",
+     "a": "spk:46p-wirtanen-90000548",
+     "km": 11192.298054227813,
+     "rel": 1.4597290005444453e-05,
+     "metrica": 1.4597290005444453e-05
+    }
+   ],
+   "salti_record": [
+    {
+     "t": 2433748.1070425687,
+     "da": 90000537,
+     "a": 90000538,
+     "km": 63228.82391722872,
+     "rel": 7.719923531723829e-05,
+     "metrica": 7.719923531723829e-05,
+     "forma": true
+    },
+    {
+     "t": 2436189.0273296996,
+     "da": 90000538,
+     "a": 90000539,
+     "km": 92026.5346774661,
+     "rel": 0.00011252503509576486,
+     "metrica": 0.00011252503509576486,
+     "forma": true
+    },
+    {
+     "t": 2438622.6095979293,
+     "da": 90000539,
+     "a": 90000540,
+     "km": 97444.48091384377,
+     "rel": 0.00011911561085879611,
+     "metrica": 0.00011911561085879611,
+     "forma": true
+    },
+    {
+     "t": 2441055.326232318,
+     "da": 90000540,
+     "a": 90000541,
+     "km": 141543.39996456716,
+     "rel": 0.00017326570916894614,
+     "metrica": 0.00017326570916894614,
+     "forma": true
+    },
+    {
+     "t": 2443306.771463012,
+     "da": 90000541,
+     "a": 90000542,
+     "km": 466286.55066813185,
+     "rel": 0.0005928149204358053,
+     "metrica": 0.0005928149204358051,
+     "forma": true
+    },
+    {
+     "t": 2447513.6023305794,
+     "da": 90000542,
+     "a": 90000543,
+     "km": 141529.40293003165,
+     "rel": 0.0001836700641226298,
+     "metrica": 0.0001836700641226298,
+     "forma": true
+    },
+    {
+     "t": 2449524.231263142,
+     "da": 90000543,
+     "a": 90000544,
+     "km": 114751.3956285325,
+     "rel": 0.00014916496619547275,
+     "metrica": 0.00014916496619547277,
+     "forma": true
+    },
+    {
+     "t": 2451518.0179935554,
+     "da": 90000544,
+     "a": 90000546,
+     "km": 16733.67491640093,
+     "rel": 2.17887349283659e-05,
+     "metrica": 2.17887349283659e-05,
+     "forma": true
+    },
+    {
+     "t": 2455492.5671296474,
+     "da": 90000546,
+     "a": 90000548,
+     "km": 11192.298054227813,
+     "rel": 1.4597290005444453e-05,
+     "metrica": 1.4597290005444453e-05,
+     "forma": true
+    }
+   ],
+   "sovrapposizione_1600_1650": null,
+   "max_rapporto_segmenti": 0.8972524353160017
+  },
+  "55p-tempel-tuttle": {
+   "horizons": {
+    "epoche": 50,
+    "valutate": 50,
+    "non_ok": [],
+    "max_km": 369.97463924230755,
+    "max_rapporto": 0.7399492784846151,
+    "oltre_soglia": []
+   },
+   "interpolazione": {
+    "epoche": 200,
+    "tutti_ok": true,
+    "max_rapporto": 0.6789110808575662
+   },
+   "giunzioni": [
+    {
+     "t": 2214133.1239103205,
+     "da": "assist:90000622",
+     "a": "assist:90000622",
+     "km": 0.0,
+     "rel": 0.0,
+     "metrica": 0.0
+    },
+    {
+     "t": 2275603.5698071173,
+     "da": "assist:90000622",
+     "a": "assist:90000623",
+     "km": 7565621.440981004,
+     "rel": 0.0025719992462348612,
+     "metrica": 0.0025719992462348612
+    },
+    {
+     "t": 2305447.5,
+     "da": "assist:90000623",
+     "a": "spk:55p-tempel-tuttle-90000623",
+     "km": 211.46476600672966,
+     "rel": 4.586532323386144e-07,
+     "metrica": 4.586532323386143e-07
+    },
+    {
+     "t": 2372877.983768894,
+     "da": "spk:55p-tempel-tuttle-90000623",
+     "a": "spk:55p-tempel-tuttle-90000624",
+     "km": 2166345.2476908285,
+     "rel": 0.0007396449387267774,
+     "metrica": 0.0007396449387267774
+    },
+    {
+     "t": 2420985.5599064296,
+     "da": "spk:55p-tempel-tuttle-90000624",
+     "a": "spk:55p-tempel-tuttle-90000625",
+     "km": 2876968.201640262,
+     "rel": 0.0009804381684854976,
+     "metrica": 0.0009804381684854976
+    },
+    {
+     "t": 2444895.5106228306,
+     "da": "spk:55p-tempel-tuttle-90000625",
+     "a": "spk:55p-tempel-tuttle-90000626",
+     "km": 934908.9641445065,
+     "rel": 0.00031967247243161413,
+     "metrica": 0.00031967247243161413
+    }
+   ],
+   "salti_record": [
+    {
+     "t": 2275603.5698071173,
+     "da": 90000622,
+     "a": 90000623,
+     "km": 7565621.440981004,
+     "rel": 0.0025719992462348612,
+     "metrica": 0.0025719992462348612,
+     "forma": true
+    },
+    {
+     "t": 2372877.983768894,
+     "da": 90000623,
+     "a": 90000624,
+     "km": 2166345.2476908285,
+     "rel": 0.0007396449387267774,
+     "metrica": 0.0007396449387267774,
+     "forma": true
+    },
+    {
+     "t": 2420985.5599064296,
+     "da": 90000624,
+     "a": 90000625,
+     "km": 2876968.201640262,
+     "rel": 0.0009804381684854976,
+     "metrica": 0.0009804381684854976,
+     "forma": true
+    },
+    {
+     "t": 2444895.5106228306,
+     "da": 90000625,
+     "a": 90000626,
+     "km": 934908.9641445065,
+     "rel": 0.00031967247243161413,
+     "metrica": 0.00031967247243161413,
+     "forma": true
+    }
+   ],
+   "sovrapposizione_1600_1650": null,
+   "max_rapporto_segmenti": 0.8846195852340144
+  },
+  "67p-churyumov-gerasimenko": {
+   "horizons": {
+    "epoche": 50,
+    "valutate": 28,
+    "non_ok": [
+     [
+      2319364.1111,
+      "non-determinabile"
+     ],
+     [
+      2319996.775,
+      "non-determinabile"
+     ],
+     [
+      2320972.1743,
+      "non-determinabile"
+     ],
+     [
+      2324023.7628,
+      "non-determinabile"
+     ],
+     [
+      2328017.8641,
+      "non-determinabile"
+     ],
+     [
+      2330252.3124,
+      "non-determinabile"
+     ],
+     [
+      2333383.2224,
+      "non-determinabile"
+     ],
+     [
+      2336343.8086,
+      "non-determinabile"
+     ],
+     [
+      2343683.4256,
+      "non-determinabile"
+     ],
+     [
+      2345811.1342,
+      "non-determinabile"
+     ],
+     [
+      2350100.0273,
+      "non-determinabile"
+     ],
+     [
+      2351520.3427,
+      "non-determinabile"
+     ],
+     [
+      2355393.5207,
+      "non-determinabile"
+     ],
+     [
+      2360261.1412,
+      "non-determinabile"
+     ],
+     [
+      2364435.0651,
+      "non-determinabile"
+     ],
+     [
+      2368886.6361,
+      "non-determinabile"
+     ],
+     [
+      2372150.0098,
+      "non-determinabile"
+     ],
+     [
+      2378618.2865,
+      "non-determinabile"
+     ],
+     [
+      2379478.2966,
+      "non-determinabile"
+     ],
+     [
+      2382660.054,
+      "non-determinabile"
+     ],
+     [
+      2383341.5462,
+      "non-determinabile"
+     ],
+     [
+      2385286.0198,
+      "non-determinabile"
+     ]
+    ],
+    "max_km": 261.16339084669306,
+    "max_rapporto": 0.5223267816933861,
+    "oltre_soglia": []
+   },
+   "interpolazione": {
+    "epoche": 200,
+    "tutti_ok": true,
+    "max_rapporto": 0.818618013381742
+   },
+   "giunzioni": [
+    {
+     "t": 2305447.5,
+     "da": "assist:90000695",
+     "a": "spk:67p-churyumov-gerasimenko-90000695",
+     "km": null,
+     "rel": null,
+     "metrica": null
+    },
+    {
+     "t": 2439278.969349232,
+     "da": "spk:67p-churyumov-gerasimenko-90000695",
+     "a": "spk:67p-churyumov-gerasimenko-90000695",
+     "km": 0.0,
+     "rel": 0.0,
+     "metrica": 0.0
+    },
+    {
+     "t": 2441672.100250768,
+     "da": "spk:67p-churyumov-gerasimenko-90000695",
+     "a": "spk:67p-churyumov-gerasimenko-90000696",
+     "km": 10948.43568369172,
+     "rel": 1.2784381862397914e-05,
+     "metrica": 1.2784381862397914e-05
+    },
+    {
+     "t": 2444079.1719710818,
+     "da": "spk:67p-churyumov-gerasimenko-90000696",
+     "a": "spk:67p-churyumov-gerasimenko-90000697",
+     "km": 11122.101432709434,
+     "rel": 1.2967456748656644e-05,
+     "metrica": 1.2967456748656644e-05
+    },
+    {
+     "t": 2446492.748939617,
+     "da": "spk:67p-churyumov-gerasimenko-90000697",
+     "a": "spk:67p-churyumov-gerasimenko-90000698",
+     "km": 8350.247571972419,
+     "rel": 9.736835062089137e-06,
+     "metrica": 9.736835062089137e-06
+    },
+    {
+     "t": 2448899.457668888,
+     "da": "spk:67p-churyumov-gerasimenko-90000698",
+     "a": "spk:67p-churyumov-gerasimenko-90000699",
+     "km": 11359.502262882623,
+     "rel": 1.3260728452494563e-05,
+     "metrica": 1.3260728452494563e-05
+    },
+    {
+     "t": 2451303.907395485,
+     "da": "spk:67p-churyumov-gerasimenko-90000699",
+     "a": "spk:67p-churyumov-gerasimenko-90000700",
+     "km": 12442.364370103602,
+     "rel": 1.4519969641000108e-05,
+     "metrica": 1.4519969641000108e-05
+    },
+    {
+     "t": 2453704.3848279696,
+     "da": "spk:67p-churyumov-gerasimenko-90000700",
+     "a": "spk:67p-churyumov-gerasimenko-90000701",
+     "km": 10144.229251073604,
+     "rel": 1.1865921660906939e-05,
+     "metrica": 1.1865921660906939e-05
+    },
+    {
+     "t": 2456086.364688559,
+     "da": "spk:67p-churyumov-gerasimenko-90000701",
+     "a": "spk:67p-churyumov-gerasimenko-90000703",
+     "km": 2829.6523186732925,
+     "rel": 3.3275105688553166e-06,
+     "metrica": 3.3275105688553166e-06
+    }
+   ],
+   "salti_record": [
+    {
+     "t": 2441672.100250768,
+     "da": 90000695,
+     "a": 90000696,
+     "km": 10948.43568369172,
+     "rel": 1.2784381862397914e-05,
+     "metrica": 1.2784381862397914e-05,
+     "forma": true
+    },
+    {
+     "t": 2444079.1719710818,
+     "da": 90000696,
+     "a": 90000697,
+     "km": 11122.101432709434,
+     "rel": 1.2967456748656644e-05,
+     "metrica": 1.2967456748656644e-05,
+     "forma": true
+    },
+    {
+     "t": 2446492.748939617,
+     "da": 90000697,
+     "a": 90000698,
+     "km": 8350.247571972419,
+     "rel": 9.736835062089137e-06,
+     "metrica": 9.736835062089137e-06,
+     "forma": true
+    },
+    {
+     "t": 2448899.457668888,
+     "da": 90000698,
+     "a": 90000699,
+     "km": 11359.502262882623,
+     "rel": 1.3260728452494563e-05,
+     "metrica": 1.3260728452494563e-05,
+     "forma": true
+    },
+    {
+     "t": 2451303.907395485,
+     "da": 90000699,
+     "a": 90000700,
+     "km": 12442.364370103602,
+     "rel": 1.4519969641000108e-05,
+     "metrica": 1.4519969641000108e-05,
+     "forma": true
+    },
+    {
+     "t": 2453704.3848279696,
+     "da": 90000700,
+     "a": 90000701,
+     "km": 10144.229251073604,
+     "rel": 1.1865921660906939e-05,
+     "metrica": 1.1865921660906939e-05,
+     "forma": true
+    },
+    {
+     "t": 2456086.364688559,
+     "da": 90000701,
+     "a": 90000703,
+     "km": 2829.6523186732925,
+     "rel": 3.3275105688553166e-06,
+     "metrica": 3.3275105688553166e-06,
+     "forma": true
+    }
+   ],
+   "sovrapposizione_1600_1650": null,
+   "max_rapporto_segmenti": 0.8987058400091252
+  },
+  "81p-wild-2": {
+   "horizons": {
+    "epoche": 47,
+    "valutate": 18,
+    "non_ok": [
+     [
+      2306250.4749,
+      "non-determinabile"
+     ],
+     [
+      2307073.2935,
+      "non-determinabile"
+     ],
+     [
+      2314053.4416,
+      "non-determinabile"
+     ],
+     [
+      2314705.9133,
+      "non-determinabile"
+     ],
+     [
+      2318391.27,
+      "non-determinabile"
+     ],
+     [
+      2319028.4653,
+      "non-determinabile"
+     ],
+     [
+      2319510.1136,
+      "non-determinabile"
+     ],
+     [
+      2322183.5759,
+      "non-determinabile"
+     ],
+     [
+      2326861.7566,
+      "non-determinabile"
+     ],
+     [
+      2328769.1628,
+      "non-determinabile"
+     ],
+     [
+      2339142.3216,
+      "non-determinabile"
+     ],
+     [
+      2345224.1597,
+      "non-determinabile"
+     ],
+     [
+      2347205.886,
+      "non-determinabile"
+     ],
+     [
+      2353469.7829,
+      "non-determinabile"
+     ],
+     [
+      2356829.3014,
+      "non-determinabile"
+     ],
+     [
+      2359621.3456,
+      "non-determinabile"
+     ],
+     [
+      2360074.1101,
+      "non-determinabile"
+     ],
+     [
+      2361284.119,
+      "non-determinabile"
+     ],
+     [
+      2361606.9709,
+      "non-determinabile"
+     ],
+     [
+      2363427.9176,
+      "non-determinabile"
+     ],
+     [
+      2365249.66,
+      "non-determinabile"
+     ],
+     [
+      2366114.7039,
+      "non-determinabile"
+     ],
+     [
+      2379237.4062,
+      "non-determinabile"
+     ],
+     [
+      2385904.1499,
+      "non-determinabile"
+     ],
+     [
+      2388359.4514,
+      "non-determinabile"
+     ],
+     [
+      2397629.5527,
+      "non-determinabile"
+     ],
+     [
+      2397896.0174,
+      "non-determinabile"
+     ],
+     [
+      2399002.0899,
+      "non-determinabile"
+     ],
+     [
+      2399801.5306,
+      "non-determinabile"
+     ]
+    ],
+    "max_km": 60.27739303873973,
+    "max_rapporto": 0.12055478607747946,
+    "oltre_soglia": []
+   },
+   "interpolazione": {
+    "epoche": 200,
+    "tutti_ok": true,
+    "max_rapporto": 0.5605755600851418
+   },
+   "giunzioni": [
+    {
+     "t": 2305447.5,
+     "da": "assist:90000857",
+     "a": "spk:81p-wild-2-90000857",
+     "km": null,
+     "rel": null,
+     "metrica": null
+    },
+    {
+     "t": 2442548.7333978647,
+     "da": "spk:81p-wild-2-90000857",
+     "a": "spk:81p-wild-2-90000857",
+     "km": 0.0,
+     "rel": 0.0,
+     "metrica": 0.0
+    },
+    {
+     "t": 2444802.0270021353,
+     "da": "spk:81p-wild-2-90000857",
+     "a": "spk:81p-wild-2-90000858",
+     "km": 19028.04854996126,
+     "rel": 2.426955085391811e-05,
+     "metrica": 2.426955085391811e-05
+    },
+    {
+     "t": 2447060.343829486,
+     "da": "spk:81p-wild-2-90000858",
+     "a": "spk:81p-wild-2-90000859",
+     "km": 18452.558089983653,
+     "rel": 2.332478057445839e-05,
+     "metrica": 2.332478057445839e-05
+    },
+    {
+     "t": 2449406.560385027,
+     "da": "spk:81p-wild-2-90000859",
+     "a": "spk:81p-wild-2-90000860",
+     "km": 7806.877078603123,
+     "rel": 9.841638115944351e-06,
+     "metrica": 9.841638115944351e-06
+    },
+    {
+     "t": 2451742.102779513,
+     "da": "spk:81p-wild-2-90000860",
+     "a": "spk:81p-wild-2-90000861",
+     "km": 2592.173551073766,
+     "rel": 3.268934229386783e-06,
+     "metrica": 3.268934229386783e-06
+    },
+    {
+     "t": 2454078.9387199427,
+     "da": "spk:81p-wild-2-90000861",
+     "a": "spk:81p-wild-2-90000862",
+     "km": 10780.874504655252,
+     "rel": 1.3577311894650766e-05,
+     "metrica": 1.3577311894650766e-05
+    },
+    {
+     "t": 2456421.309445971,
+     "da": "spk:81p-wild-2-90000862",
+     "a": "spk:81p-wild-2-90000863",
+     "km": 12957.153895990426,
+     "rel": 1.6329530712146998e-05,
+     "metrica": 1.6329530712146998e-05
+    }
+   ],
+   "salti_record": [
+    {
+     "t": 2444802.0270021353,
+     "da": 90000857,
+     "a": 90000858,
+     "km": 19028.04854996126,
+     "rel": 2.426955085391811e-05,
+     "metrica": 2.426955085391811e-05,
+     "forma": true
+    },
+    {
+     "t": 2447060.343829486,
+     "da": 90000858,
+     "a": 90000859,
+     "km": 18452.558089983653,
+     "rel": 2.332478057445839e-05,
+     "metrica": 2.332478057445839e-05,
+     "forma": true
+    },
+    {
+     "t": 2449406.560385027,
+     "da": 90000859,
+     "a": 90000860,
+     "km": 7806.877078603123,
+     "rel": 9.841638115944351e-06,
+     "metrica": 9.841638115944351e-06,
+     "forma": true
+    },
+    {
+     "t": 2451742.102779513,
+     "da": 90000860,
+     "a": 90000861,
+     "km": 2592.173551073766,
+     "rel": 3.268934229386783e-06,
+     "metrica": 3.268934229386783e-06,
+     "forma": true
+    },
+    {
+     "t": 2454078.9387199427,
+     "da": 90000861,
+     "a": 90000862,
+     "km": 10780.874504655252,
+     "rel": 1.3577311894650766e-05,
+     "metrica": 1.3577311894650766e-05,
+     "forma": true
+    },
+    {
+     "t": 2456421.309445971,
+     "da": 90000862,
+     "a": 90000863,
+     "km": 12957.153895990426,
+     "rel": 1.6329530712146998e-05,
+     "metrica": 1.6329530712146998e-05,
+     "forma": true
+    }
+   ],
+   "sovrapposizione_1600_1650": null,
+   "max_rapporto_segmenti": 0.888076903731285
+  },
+  "103p-hartley-2": {
+   "horizons": {
+    "epoche": 48,
+    "valutate": 12,
+    "non_ok": [
+     [
+      2306038.3212,
+      "non-determinabile"
+     ],
+     [
+      2307054.1334,
+      "non-determinabile"
+     ],
+     [
+      2312524.2044,
+      "non-determinabile"
+     ],
+     [
+      2313510.1878,
+      "non-determinabile"
+     ],
+     [
+      2314671.2332,
+      "non-determinabile"
+     ],
+     [
+      2318377.6158,
+      "non-determinabile"
+     ],
+     [
+      2322187.128,
+      "non-determinabile"
+     ],
+     [
+      2326073.7696,
+      "non-determinabile"
+     ],
+     [
+      2326331.3762,
+      "non-determinabile"
+     ],
+     [
+      2328328.2111,
+      "non-determinabile"
+     ],
+     [
+      2329444.1439,
+      "non-determinabile"
+     ],
+     [
+      2335574.4982,
+      "non-determinabile"
+     ],
+     [
+      2336987.7156,
+      "non-determinabile"
+     ],
+     [
+      2340963.2305,
+      "non-determinabile"
+     ],
+     [
+      2345148.5255,
+      "non-determinabile"
+     ],
+     [
+      2346555.7017,
+      "non-determinabile"
+     ],
+     [
+      2347401.3117,
+      "non-determinabile"
+     ],
+     [
+      2347585.6544,
+      "non-determinabile"
+     ],
+     [
+      2350372.0308,
+      "non-determinabile"
+     ],
+     [
+      2354179.6945,
+      "non-determinabile"
+     ],
+     [
+      2356736.9276,
+      "non-determinabile"
+     ],
+     [
+      2366507.8862,
+      "non-determinabile"
+     ],
+     [
+      2375866.8294,
+      "non-determinabile"
+     ],
+     [
+      2385623.4579,
+      "non-determinabile"
+     ],
+     [
+      2387338.805,
+      "non-determinabile"
+     ],
+     [
+      2387514.0141,
+      "non-determinabile"
+     ],
+     [
+      2389146.7525,
+      "non-determinabile"
+     ],
+     [
+      2391409.3466,
+      "non-determinabile"
+     ],
+     [
+      2392086.9762,
+      "non-determinabile"
+     ],
+     [
+      2407932.593,
+      "non-determinabile"
+     ],
+     [
+      2408962.2636,
+      "non-determinabile"
+     ],
+     [
+      2410711.8938,
+      "non-determinabile"
+     ],
+     [
+      2413026.4331,
+      "non-determinabile"
+     ],
+     [
+      2417162.1735,
+      "non-determinabile"
+     ],
+     [
+      2427006.8116,
+      "non-determinabile"
+     ],
+     [
+      2429771.1951,
+      "non-determinabile"
+     ]
+    ],
+    "max_km": 404.22586742283727,
+    "max_rapporto": 0.8084517348456746,
+    "oltre_soglia": []
+   },
+   "interpolazione": {
+    "epoche": 200,
+    "tutti_ok": true,
+    "max_rapporto": 0.7483538439312897
+   },
+   "giunzioni": [
+    {
+     "t": 2305447.5,
+     "da": "assist:90000955",
+     "a": "spk:103p-hartley-2-90000955",
+     "km": null,
+     "rel": null,
+     "metrica": null
+    },
+    {
+     "t": 2445078.1014539646,
+     "da": "spk:103p-hartley-2-90000955",
+     "a": "spk:103p-hartley-2-90000955",
+     "km": 0.0,
+     "rel": 0.0,
+     "metrica": 0.0
+    },
+    {
+     "t": 2447364.6365460353,
+     "da": "spk:103p-hartley-2-90000955",
+     "a": "spk:103p-hartley-2-90000956",
+     "km": 21572.561353193872,
+     "rel": 2.4666549226118467e-05,
+     "metrica": 2.4666549226118467e-05
+    },
+    {
+     "t": 2449655.3336745496,
+     "da": "spk:103p-hartley-2-90000956",
+     "a": "spk:103p-hartley-2-90000957",
+     "km": 6170.325289406933,
+     "rel": 7.0584552653785865e-06,
+     "metrica": 7.058455265378588e-06
+    },
+    {
+     "t": 2454303.2363608256,
+     "da": "spk:103p-hartley-2-90000957",
+     "a": "spk:103p-hartley-2-90000959",
+     "km": 29149.228359936697,
+     "rel": 3.315299674937447e-05,
+     "metrica": 3.315299674937447e-05
+    },
+    {
+     "t": 2456678.370826195,
+     "da": "spk:103p-hartley-2-90000959",
+     "a": "spk:103p-hartley-2-90000960",
+     "km": 1650.6535197770502,
+     "rel": 1.874470352544091e-06,
+     "metrica": 1.874470352544091e-06
+    }
+   ],
+   "salti_record": [
+    {
+     "t": 2447364.6365460353,
+     "da": 90000955,
+     "a": 90000956,
+     "km": 21572.561353193872,
+     "rel": 2.4666549226118467e-05,
+     "metrica": 2.4666549226118467e-05,
+     "forma": true
+    },
+    {
+     "t": 2449655.3336745496,
+     "da": 90000956,
+     "a": 90000957,
+     "km": 6170.325289406933,
+     "rel": 7.0584552653785865e-06,
+     "metrica": 7.058455265378588e-06,
+     "forma": true
+    },
+    {
+     "t": 2454303.2363608256,
+     "da": 90000957,
+     "a": 90000959,
+     "km": 29149.228359936697,
+     "rel": 3.315299674937447e-05,
+     "metrica": 3.315299674937447e-05,
+     "forma": true
+    },
+    {
+     "t": 2456678.370826195,
+     "da": 90000959,
+     "a": 90000960,
+     "km": 1650.6535197770502,
+     "rel": 1.874470352544091e-06,
+     "metrica": 1.874470352544091e-06,
+     "forma": true
+    }
+   ],
+   "sovrapposizione_1600_1650": null,
+   "max_rapporto_segmenti": 0.8987412344699999
+  },
+  "109p-swift-tuttle": {
+   "horizons": {
+    "epoche": 50,
+    "valutate": 50,
+    "non_ok": [],
+    "max_km": 155.63712876462932,
+    "max_rapporto": 0.31127425752925864,
+    "oltre_soglia": []
+   },
+   "interpolazione": {
+    "epoche": 200,
+    "tutti_ok": true,
+    "max_rapporto": 0.3065207303658629
+   },
+   "giunzioni": [
+    {
+     "t": 1673064.917770359,
+     "da": "assist:90000981",
+     "a": "assist:90000981",
+     "km": 0.0,
+     "rel": 0.0,
+     "metrica": 0.0
+    },
+    {
+     "t": 1719855.082229641,
+     "da": "assist:90000981",
+     "a": "assist:90000982",
+     "km": 27687963.494466655,
+     "rel": 0.003722444676274901,
+     "metrica": 0.003722444676274901
+    },
+    {
+     "t": 2051949.474436823,
+     "da": "assist:90000982",
+     "a": "assist:90000983",
+     "km": 306629256.57404935,
+     "rel": 0.044029039801631996,
+     "metrica": 0.044029039801631996
+    },
+    {
+     "t": 2305447.5,
+     "da": "assist:90000983",
+     "a": "spk:109p-swift-tuttle-90000983",
+     "km": 184.83166558733527,
+     "rel": 5.494629187403585e-08,
+     "metrica": 5.494629187403585e-08
+    },
+    {
+     "t": 2378987.289818158,
+     "da": "spk:109p-swift-tuttle-90000983",
+     "a": "spk:109p-swift-tuttle-90000984",
+     "km": 1044967.9575191353,
+     "rel": 0.00014229637462805347,
+     "metrica": 0.00014229637462805347
+    },
+    {
+     "t": 2425415.5117166946,
+     "da": "spk:109p-swift-tuttle-90000984",
+     "a": "spk:109p-swift-tuttle-90000985",
+     "km": 43639.149602882615,
+     "rel": 5.781552139574587e-06,
+     "metrica": 5.781552139574587e-06
+    }
+   ],
+   "salti_record": [
+    {
+     "t": 1719855.082229641,
+     "da": 90000981,
+     "a": 90000982,
+     "km": 27687963.494466655,
+     "rel": 0.003722444676274901,
+     "metrica": 0.003722444676274901,
+     "forma": true
+    },
+    {
+     "t": 2051949.474436823,
+     "da": 90000982,
+     "a": 90000983,
+     "km": 306629256.57404935,
+     "rel": 0.044029039801631996,
+     "metrica": 0.044029039801631996,
+     "forma": true
+    },
+    {
+     "t": 2378987.289818158,
+     "da": 90000983,
+     "a": 90000984,
+     "km": 1044967.9575191353,
+     "rel": 0.00014229637462805347,
+     "metrica": 0.00014229637462805347,
+     "forma": true
+    },
+    {
+     "t": 2425415.5117166946,
+     "da": 90000984,
+     "a": 90000985,
+     "km": 43639.149602882615,
+     "rel": 5.781552139574587e-06,
+     "metrica": 5.781552139574587e-06,
+     "forma": true
+    }
+   ],
+   "sovrapposizione_1600_1650": null,
+   "max_rapporto_segmenti": 0.8991284319132203
+  },
+  "c1680-v1": {
+   "horizons": {
+    "epoche": 50,
+    "valutate": 50,
+    "non_ok": [],
+    "max_km": 2892.667128428918,
+    "max_rapporto": 0.7102520935516577,
+    "oltre_soglia": []
+   },
+   "interpolazione": {
+    "epoche": 200,
+    "tutti_ok": true,
+    "max_rapporto": 0.40237382277933065
+   },
+   "giunzioni": [
+    {
+     "t": 2305447.5,
+     "da": "assist:dati",
+     "a": "spk:c1680-v1",
+     "km": 35.70121657552352,
+     "rel": 2.320432816394922e-09,
+     "metrica": 2.320432816394922e-09
+    }
+   ],
+   "salti_record": [],
+   "sovrapposizione_1600_1650": {
+    "inizio": 2305447.5,
+    "ancora": 2323710.5,
+    "max_km": 35.70121657552352,
+    "max_rel": 2.320432816394922e-09,
+    "all_inizio_km": 35.70121657552352,
+    "metrica_all_inizio": 2.320432816394922e-09
+   },
+   "max_rapporto_segmenti": 1.5170934785254626
+  },
+  "c1965-s1-ikeya-seki": {
+   "horizons": {
+    "epoche": 50,
+    "valutate": 50,
+    "non_ok": [],
+    "max_km": 1019.2819160255245,
+    "max_rapporto": 0.7142358826790677,
+    "oltre_soglia": []
+   },
+   "interpolazione": {
+    "epoche": 200,
+    "tutti_ok": true,
+    "max_rapporto": 0.735407462212395
+   },
+   "giunzioni": [
+    {
+     "t": 2305447.5,
+     "da": "assist:dati",
+     "a": "spk:c1965-s1-ikeya-seki",
+     "km": 34.839894022968124,
+     "rel": 1.3148871534126208e-09,
+     "metrica": 1.3148871534126208e-09
+    }
+   ],
+   "salti_record": [],
+   "sovrapposizione_1600_1650": {
+    "inizio": 2305447.5,
+    "ancora": 2323710.5,
+    "max_km": 34.839894022968124,
+    "max_rel": 1.3148871534126208e-09,
+    "all_inizio_km": 34.839894022968124,
+    "metrica_all_inizio": 1.3148871534126208e-09
+   },
+   "max_rapporto_segmenti": 0.8940825469347139
+  },
+  "c1975-v1-west": {
+   "horizons": {
+    "epoche": 50,
+    "valutate": 50,
+    "non_ok": [],
+    "max_km": 2659.9528305807353,
+    "max_rapporto": 0.8498188491227113,
+    "oltre_soglia": []
+   },
+   "interpolazione": {
+    "epoche": 200,
+    "tutti_ok": true,
+    "max_rapporto": 0.6210004922975122
+   },
+   "giunzioni": [
+    {
+     "t": 2305447.5,
+     "da": "assist:dati",
+     "a": "spk:c1975-v1-west",
+     "km": 34.808153612159124,
+     "rel": 8.273588590034344e-10,
+     "metrica": 8.273588590034344e-10
+    }
+   ],
+   "salti_record": [],
+   "sovrapposizione_1600_1650": {
+    "inizio": 2305447.5,
+    "ancora": 2323710.5,
+    "max_km": 34.808153612159124,
+    "max_rel": 8.273588590034344e-10,
+    "all_inizio_km": 34.808153612159124,
+    "metrica_all_inizio": 8.273588590034344e-10
+   },
+   "max_rapporto_segmenti": 0.8924924072467609
+  },
+  "c1995-o1-hale-bopp": {
+   "horizons": {
+    "epoche": 50,
+    "valutate": 50,
+    "non_ok": [],
+    "max_km": 2704.7947889634893,
+    "max_rapporto": 0.7233321210555027,
+    "oltre_soglia": []
+   },
+   "interpolazione": {
+    "epoche": 200,
+    "tutti_ok": true,
+    "max_rapporto": 0.586782468749892
+   },
+   "giunzioni": [
+    {
+     "t": 2305447.5,
+     "da": "assist:dati",
+     "a": "spk:c1995-o1-hale-bopp",
+     "km": 34.72900840154917,
+     "rel": 8.731062349331977e-10,
+     "metrica": 8.731062349331977e-10
+    }
+   ],
+   "salti_record": [],
+   "sovrapposizione_1600_1650": {
+    "inizio": 2305447.5,
+    "ancora": 2323710.5,
+    "max_km": 34.72900840154917,
+    "max_rel": 8.731062349331977e-10,
+    "all_inizio_km": 34.72900840154917,
+    "metrica_all_inizio": 8.731062349331977e-10
+   },
+   "max_rapporto_segmenti": 0.8950898817114311
+  },
+  "c1996-b2-hyakutake": {
+   "horizons": {
+    "epoche": 50,
+    "valutate": 50,
+    "non_ok": [],
+    "max_km": 2194.680655826753,
+    "max_rapporto": 0.5936859037023163,
+    "oltre_soglia": []
+   },
+   "interpolazione": {
+    "epoche": 200,
+    "tutti_ok": true,
+    "max_rapporto": 0.49108686667376206
+   },
+   "giunzioni": [
+    {
+     "t": 2305447.5,
+     "da": "assist:dati",
+     "a": "spk:c1996-b2-hyakutake",
+     "km": 34.62209036468709,
+     "rel": 8.008422338865087e-10,
+     "metrica": 8.008422338865087e-10
+    }
+   ],
+   "salti_record": [],
+   "sovrapposizione_1600_1650": {
+    "inizio": 2305447.5,
+    "ancora": 2323710.5,
+    "max_km": 34.62209036468709,
+    "max_rel": 8.008422338865087e-10,
+    "all_inizio_km": 34.62209036468709,
+    "metrica_all_inizio": 8.008422338865087e-10
+   },
+   "max_rapporto_segmenti": 0.8966426245531876
+  },
+  "c2006-p1-mcnaught": {
+   "horizons": {
+    "epoche": 50,
+    "valutate": 50,
+    "non_ok": [],
+    "max_km": 2620.06683380287,
+    "max_rapporto": 0.6457153455584679,
+    "oltre_soglia": []
+   },
+   "interpolazione": {
+    "epoche": 200,
+    "tutti_ok": true,
+    "max_rapporto": 0.5725110032064478
+   },
+   "giunzioni": [
+    {
+     "t": 2305447.5,
+     "da": "assist:dati",
+     "a": "spk:c2006-p1-mcnaught",
+     "km": 34.805864377362525,
+     "rel": 7.543625286659201e-10,
+     "metrica": 7.543625286659201e-10
+    }
+   ],
+   "salti_record": [],
+   "sovrapposizione_1600_1650": {
+    "inizio": 2305447.5,
+    "ancora": 2323710.5,
+    "max_km": 34.805864377362525,
+    "max_rel": 7.543625286659201e-10,
+    "all_inizio_km": 34.805864377362525,
+    "metrica_all_inizio": 7.543625286659201e-10
+   },
+   "max_rapporto_segmenti": 0.8855232268924692
+  },
+  "c2013-a1-siding-spring": {
+   "horizons": {
+    "epoche": 50,
+    "valutate": 50,
+    "non_ok": [],
+    "max_km": 2108.723125448419,
+    "max_rapporto": 0.7237269521331559,
+    "oltre_soglia": []
+   },
+   "interpolazione": {
+    "epoche": 200,
+    "tutti_ok": true,
+    "max_rapporto": 0.5413311466494735
+   },
+   "giunzioni": [
+    {
+     "t": 2305447.5,
+     "da": "assist:dati",
+     "a": "tab:c2013-a1-siding-spring",
+     "km": 1899.6854375015675,
+     "rel": 4.082610912662687e-08,
+     "metrica": 4.082610912662687e-08
+    }
+   ],
+   "salti_record": [],
+   "sovrapposizione_1600_1650": {
+    "inizio": 2305447.5,
+    "ancora": 2323710.5,
+    "max_km": 1899.6854375015675,
+    "max_rel": 4.082610912662687e-08,
+    "all_inizio_km": 1899.6854375015675,
+    "metrica_all_inizio": 4.2146848510894035e-08
+   },
+   "max_rapporto_segmenti": 0.893632917846708
+  },
+  "c2020-f3-neowise": {
+   "horizons": {
+    "epoche": 50,
+    "valutate": 50,
+    "non_ok": [],
+    "max_km": 1585.8601462320044,
+    "max_rapporto": 0.5150835144929576,
+    "oltre_soglia": []
+   },
+   "interpolazione": {
+    "epoche": 200,
+    "tutti_ok": true,
+    "max_rapporto": 0.6543001745893363
+   },
+   "giunzioni": [
+    {
+     "t": 2305447.5,
+     "da": "assist:dati",
+     "a": "spk:c2020-f3-neowise",
+     "km": 34.62148512401019,
+     "rel": 8.364681060366968e-10,
+     "metrica": 1.4901161193847656e-08
+    }
+   ],
+   "salti_record": [],
+   "sovrapposizione_1600_1650": {
+    "inizio": 2305447.5,
+    "ancora": 2323710.5,
+    "max_km": 34.62148512401019,
+    "max_rel": 8.364681060366968e-10,
+    "all_inizio_km": 34.62148512401019,
+    "metrica_all_inizio": 1.4901161193847656e-08
+   },
+   "max_rapporto_segmenti": 0.898581321473749
+  },
+  "c2023-a3-tsuchinshan-atlas": {
+   "horizons": {
+    "epoche": 50,
+    "valutate": 50,
+    "non_ok": [],
+    "max_km": 2865.6018313074705,
+    "max_rapporto": 0.810512974391511,
+    "oltre_soglia": []
+   },
+   "interpolazione": {
+    "epoche": 200,
+    "tutti_ok": true,
+    "max_rapporto": 0.7052495475188503
+   },
+   "giunzioni": [
+    {
+     "t": 2305447.5,
+     "da": "assist:dati",
+     "a": "spk:c2023-a3-tsuchinshan-atlas",
+     "km": 34.764295849357744,
+     "rel": 7.32655284716663e-10,
+     "metrica": 7.32655284716663e-10
+    }
+   ],
+   "salti_record": [],
+   "sovrapposizione_1600_1650": {
+    "inizio": 2305447.5,
+    "ancora": 2323710.5,
+    "max_km": 34.764295849357744,
+    "max_rel": 7.32655284716663e-10,
+    "all_inizio_km": 34.764295849357744,
+    "metrica_all_inizio": 7.32655284716663e-10
+   },
+   "max_rapporto_segmenti": 0.8996397115748075
+  },
+  "1i-oumuamua": {
+   "horizons": {
+    "epoche": 50,
+    "valutate": 50,
+    "non_ok": [],
+    "max_km": 11926.403493717065,
+    "max_rapporto": 0.726610164269957,
+    "oltre_soglia": []
+   },
+   "interpolazione": {
+    "epoche": 200,
+    "tutti_ok": true,
+    "max_rapporto": 0.542090253160263
+   },
+   "giunzioni": [
+    {
+     "t": 2305447.5,
+     "da": "assist:dati",
+     "a": "spk:1i-oumuamua",
+     "km": 34.6261559695684,
+     "rel": 9.915638908070221e-11,
+     "metrica": 9.915638908070221e-11
+    }
+   ],
+   "salti_record": [],
+   "sovrapposizione_1600_1650": {
+    "inizio": 2305447.5,
+    "ancora": 2323710.5,
+    "max_km": 34.6261559695684,
+    "max_rel": 9.915638908070221e-11,
+    "all_inizio_km": 34.6261559695684,
+    "metrica_all_inizio": 9.915638908070221e-11
+   },
+   "max_rapporto_segmenti": 0.8397146227100105
+  },
+  "2i-borisov": {
+   "horizons": {
+    "epoche": 50,
+    "valutate": 50,
+    "non_ok": [],
+    "max_km": 11049.378601734541,
+    "max_rapporto": 0.7561253745326583,
+    "oltre_soglia": []
+   },
+   "interpolazione": {
+    "epoche": 200,
+    "tutti_ok": true,
+    "max_rapporto": 0.3729755784411686
+   },
+   "giunzioni": [
+    {
+     "t": 2305447.5,
+     "da": "assist:dati",
+     "a": "spk:2i-borisov",
+     "km": 34.851592167387615,
+     "rel": 8.130206185488827e-11,
+     "metrica": 8.130206185488827e-11
+    }
+   ],
+   "salti_record": [],
+   "sovrapposizione_1600_1650": {
+    "inizio": 2305447.5,
+    "ancora": 2323710.5,
+    "max_km": 34.851592167387615,
+    "max_rel": 8.130206185488826e-11,
+    "all_inizio_km": 34.851592167387615,
+    "metrica_all_inizio": 8.130206185488827e-11
+   },
+   "max_rapporto_segmenti": 0.8945172354200288
+  },
+  "3i-atlas": {
+   "horizons": {
+    "epoche": 50,
+    "valutate": 50,
+    "non_ok": [],
+    "max_km": 13200.780541484235,
+    "max_rapporto": 0.606619138471045,
+    "oltre_soglia": []
+   },
+   "interpolazione": {
+    "epoche": 200,
+    "tutti_ok": true,
+    "max_rapporto": 0.2286895692587966
+   },
+   "giunzioni": [
+    {
+     "t": 2305447.5,
+     "da": "assist:dati",
+     "a": "spk:3i-atlas",
+     "km": 34.7905707282416,
+     "rel": 4.4645123588320505e-11,
+     "metrica": 4.4645123588320505e-11
+    }
+   ],
+   "salti_record": [],
+   "sovrapposizione_1600_1650": {
+    "inizio": 2305447.5,
+    "ancora": 2323710.5,
+    "max_km": 34.7905707282416,
+    "max_rel": 4.4645123588320505e-11,
+    "all_inizio_km": 34.7905707282416,
+    "metrica_all_inizio": 4.4645123588320505e-11
+   },
+   "max_rapporto_segmenti": 0.8960786016605274
+  }
+ },
+ "halley": {
+  "perieli": [
+   {
+    "anno": 1910,
+    "T_YK": 2418781.67771,
+    "T_dati": 2418781.678753487,
+    "dT_d": 0.001043486874550581,
+    "q_dati_ua": 0.5872083433459387,
+    "q_YK_ua": 0.5871888
+   },
+   {
+    "anno": 1835,
+    "T_YK": 2391598.93871,
+    "T_dati": 2391598.9392514573,
+    "dT_d": 0.0005414574407041073,
+    "q_dati_ua": 0.5865628672446564,
+    "q_YK_ua": 0.5865423
+   },
+   {
+    "anno": 1759,
+    "T_YK": 2363592.56075,
+    "T_dati": 2363592.562247294,
+    "dT_d": 0.0014972938224673271,
+    "q_dati_ua": 0.5844658402360968,
+    "q_YK_ua": 0.5844466
+   },
+   {
+    "anno": 1682,
+    "T_YK": 2335655.78069,
+    "T_dati": 2335655.7797217183,
+    "dT_d": -0.0009682816453278065,
+    "q_dati_ua": 0.5826212088981382,
+    "q_YK_ua": 0.5826084
+   },
+   {
+    "anno": 1607,
+    "T_YK": 2308304.04063,
+    "T_dati": 2308304.040971362,
+    "dT_d": 0.0003413618542253971,
+    "q_dati_ua": 0.5836148556631815,
+    "q_YK_ua": 0.583615
+   },
+   {
+    "anno": 1531,
+    "T_YK": 2280492.73846,
+    "T_dati": 2280492.7490228927,
+    "dT_d": 0.01056289253756404,
+    "q_dati_ua": 0.5812081923191851,
+    "q_YK_ua": 0.5811975
+   },
+   {
+    "anno": 1456,
+    "T_YK": 2253022.13257,
+    "T_dati": 2253022.1420471678,
+    "dT_d": 0.00947716785594821,
+    "q_dati_ua": 0.5796999480357435,
+    "q_YK_ua": 0.5797014
+   },
+   {
+    "anno": 1378,
+    "T_YK": 2224686.18724,
+    "T_dati": 2224686.1894516675,
+    "dT_d": 0.0022116675972938538,
+    "q_dati_ua": 0.5761999626507058,
+    "q_YK_ua": 0.5762013
+   },
+   {
+    "anno": 1301,
+    "T_YK": 2196546.08194,
+    "T_dati": 2196546.082179172,
+    "dT_d": 0.00023917201906442642,
+    "q_dati_ua": 0.5727102887187647,
+    "q_YK_ua": 0.5727097
+   },
+   {
+    "anno": 1222,
+    "T_YK": 2167664.32294,
+    "T_dati": 2167664.320461441,
+    "dT_d": -0.002478559035807848,
+    "q_dati_ua": 0.5742100871522912,
+    "q_YK_ua": 0.5742108
+   },
+   {
+    "anno": 1145,
+    "T_YK": 2139377.0609,
+    "T_dati": 2139377.0671308227,
+    "dT_d": 0.006230822764337063,
+    "q_dati_ua": 0.5747669765745673,
+    "q_YK_ua": 0.5747921
+   },
+   {
+    "anno": 1066,
+    "T_YK": 2110493.43405,
+    "T_dati": 2110493.4444352584,
+    "dT_d": 0.010385258588939905,
+    "q_dati_ua": 0.574499590985517,
+    "q_YK_ua": 0.5744956
+   },
+   {
+    "anno": 989,
+    "T_YK": 2082538.18757,
+    "T_dati": 2082538.1781281526,
+    "dT_d": -0.009441847447305918,
+    "q_dati_ua": 0.5819073763136539,
+    "q_YK_ua": 0.5819144
+   },
+   {
+    "anno": 912,
+    "T_YK": 2054365.17429,
+    "T_dati": 2054365.1719370438,
+    "dT_d": -0.0023529562167823315,
+    "q_dati_ua": 0.580160432681211,
+    "q_YK_ua": 0.5801559
+   },
+   {
+    "anno": 837,
+    "T_YK": 2026830.77,
+    "T_dati": 2026830.7596711619,
+    "dT_d": -0.010328838136047125,
+    "q_dati_ua": 0.5823287135652323,
+    "q_YK_ua": 0.5823182
+   },
+   {
+    "anno": 760,
+    "T_YK": 1998788.17126,
+    "T_dati": 1998788.1717166915,
+    "dT_d": 0.00045669148676097393,
+    "q_dati_ua": 0.5818403491084592,
+    "q_YK_ua": 0.5818368
+   },
+   {
+    "anno": 684,
+    "T_YK": 1971164.26682,
+    "T_dati": 1971164.2658949425,
+    "dT_d": -0.0009250575676560402,
+    "q_dati_ua": 0.5795794067902083,
+    "q_YK_ua": 0.5795841
+   },
+   {
+    "anno": 607,
+    "T_YK": 1942837.97581,
+    "T_dati": 1942837.9768031826,
+    "dT_d": 0.0009931826498359442,
+    "q_dati_ua": 0.580832000187376,
+    "q_YK_ua": 0.5808315
+   },
+   {
+    "anno": 530,
+    "T_YK": 1914909.62998,
+    "T_dati": 1914909.6345789866,
+    "dT_d": 0.004598986590281129,
+    "q_dati_ua": 0.5755885803473361,
+    "q_YK_ua": 0.5755915
+   },
+   {
+    "anno": 451,
+    "T_YK": 1885963.74911,
+    "T_dati": 1885963.7512093019,
+    "dT_d": 0.0020993018988519907,
+    "q_dati_ua": 0.5737795111294035,
+    "q_YK_ua": 0.5737438
+   },
+   {
+    "anno": 374,
+    "T_YK": 1857707.8423,
+    "T_dati": 1857707.8322086819,
+    "dT_d": -0.010091318050399423,
+    "q_dati_ua": 0.5771830240971936,
+    "q_YK_ua": 0.577194
+   },
+   {
+    "anno": 295,
+    "T_YK": 1828915.89842,
+    "T_dati": 1828915.8970226822,
+    "dT_d": -0.0013973177410662174,
+    "q_dati_ua": 0.5759098870967728,
+    "q_YK_ua": 0.5759148
+   },
+   {
+    "anno": 218,
+    "T_YK": 1800819.22347,
+    "T_dati": 1800819.236044399,
+    "dT_d": 0.012574398890137672,
+    "q_dati_ua": 0.5814639673091917,
+    "q_YK_ua": 0.581466
+   },
+   {
+    "anno": 141,
+    "T_YK": 1772638.93405,
+    "T_dati": 1772638.941585211,
+    "dT_d": 0.007535211043432355,
+    "q_dati_ua": 0.5831399929084897,
+    "q_YK_ua": 0.5831377
+   },
+   {
+    "anno": 66,
+    "T_YK": 1745189.46014,
+    "T_dati": 1745189.4672597,
+    "dT_d": 0.007119699846953154,
+    "q_dati_ua": 0.5850877214731102,
+    "q_YK_ua": 0.5851046
+   },
+   {
+    "anno": -11,
+    "T_YK": 1717323.34852,
+    "T_dati": 1717323.3480467987,
+    "dT_d": -0.00047320127487182617,
+    "q_dati_ua": 0.5871953471708862,
+    "q_YK_ua": 0.5871999
+   },
+   {
+    "anno": -86,
+    "T_YK": 1689863.96171,
+    "T_dati": 1689863.9610939138,
+    "dT_d": -0.0006160861812531948,
+    "q_dati_ua": 0.5856011912876422,
+    "q_YK_ua": 0.5856047
+   },
+   {
+    "anno": -163,
+    "T_YK": 1661838.06604,
+    "T_dati": 1661838.0651434488,
+    "dT_d": -0.0008965511806309223,
+    "q_dati_ua": 0.5844971570068408,
+    "q_YK_ua": 0.584547
+   },
+   {
+    "anno": -239,
+    "T_YK": 1633907.61796,
+    "T_dati": 1633907.6230302872,
+    "dT_d": 0.0050702872686088085,
+    "q_dati_ua": 0.5853937081481153,
+    "q_YK_ua": 0.5853647
+   },
+   {
+    "anno": -314,
+    "T_YK": 1606620.02367,
+    "T_dati": 1606612.335872606,
+    "dT_d": -7.687797394115478,
+    "q_dati_ua": 0.5875036550848072,
+    "q_YK_ua": 0.5874295
+   },
+   {
+    "anno": -390,
+    "T_YK": 1578866.86897,
+    "esito": "non-determinabile"
+   },
+   {
+    "anno": -465,
+    "T_YK": 1551414.73879,
+    "esito": "non-determinabile"
+   },
+   {
+    "anno": -539,
+    "T_YK": 1524318.32702,
+    "esito": "non-determinabile"
+   },
+   {
+    "anno": -615,
+    "T_YK": 1496638.00346,
+    "esito": "non-determinabile"
+   },
+   {
+    "anno": -689,
+    "T_YK": 1469421.77922,
+    "esito": "non-determinabile"
+   },
+   {
+    "anno": -762,
+    "T_YK": 1442954.03008,
+    "esito": "non-determinabile"
+   },
+   {
+    "anno": -835,
+    "T_YK": 1416202.80663,
+    "esito": "non-determinabile"
+   },
+   {
+    "anno": -910,
+    "T_YK": 1388819.72029,
+    "esito": "non-determinabile"
+   },
+   {
+    "anno": -985,
+    "T_YK": 1361622.06395,
+    "esito": "non-determinabile"
+   },
+   {
+    "anno": -1058,
+    "T_YK": 1334960.16376,
+    "esito": "non-determinabile"
+   },
+   {
+    "anno": -1128,
+    "T_YK": 1309149.34467,
+    "esito": "non-determinabile"
+   },
+   {
+    "anno": -1197,
+    "T_YK": 1283983.73252,
+    "esito": "non-determinabile"
+   },
+   {
+    "anno": -1265,
+    "T_YK": 1259263.89589,
+    "esito": "non-determinabile"
+   },
+   {
+    "anno": -1333,
+    "T_YK": 1234416.00585,
+    "esito": "non-determinabile"
+   },
+   {
+    "anno": -1403,
+    "T_YK": 1208900.18109,
+    "esito": "non-determinabile"
+   }
+  ],
+  "max_dT_-239_1910_d": 0.012574398890137672,
+  "1910_dT_d": 0.001043486874550581,
+  "1986": {
+   "T_horizons_JPL75": 2446470.9589595594,
+   "T_dati": 2446470.9586048247,
+   "dT_d": -0.00035473471507430077
+  }
+ },
+ "halley_record_antico": {
+  "confronti": [
+   {
+    "jd": 1582262.5,
+    "km": 12.83760298420558,
+    "arcsec": 0.0008564507815880719
+   },
+   {
+    "jd": 1593220.5,
+    "km": 2.631914317811497,
+    "arcsec": 0.00010283842147543429
+   },
+   {
+    "jd": 1604177.5,
+    "km": 9.899743028150244,
+    "arcsec": 0.0008019768991440194
+   },
+   {
+    "jd": 1611482.5,
+    "km": 6.639884781456735,
+    "arcsec": 0.00036773821928806887
+   },
+   {
+    "jd": 1618787.5,
+    "km": 3.2648463435268944,
+    "arcsec": 0.00012992355924722407
+   },
+   {
+    "jd": 1626092.5,
+    "km": 0.9523212081916091,
+    "arcsec": 4.2701130701315103e-05
+   },
+   {
+    "jd": 1629745.5,
+    "km": 1.3127365880151043,
+    "arcsec": 7.88300260621381e-05
+   },
+   {
+    "jd": 1631571.5,
+    "km": 1.86762413821776,
+    "arcsec": 0.00015542027049067717
+   },
+   {
+    "jd": 1633397.5,
+    "km": 3.67270920548327,
+    "arcsec": 0.000816163160120079
+   },
+   {
+    "jd": 1635224.5,
+    "km": 2.2034240555488034,
+    "arcsec": 0.0002606959222675406
+   },
+   {
+    "jd": 1637050.5,
+    "km": 1.4245187257636442,
+    "arcsec": 9.94505782526853e-05
+   }
+  ]
+ },
+ "apophis_2029": {
+  "cneos": {
+   "jd_tdb": 2462240.407091969,
+   "dist_km": 38011.45916295157,
+   "orbit_id": "220"
+  },
+  "dati": {
+   "jd_tdb": 2462240.4080390697,
+   "dist_km": 37824.40458829025
+  },
+  "diff_km": -187.05457466132066,
+  "diff_min": 1.3638248294591904
+ },
+ "apophis_horizons": {
+  "max_km": 262.78237562745966,
+  "epoche": 17
+ },
+ "apophis_assist": {
+  "epoca_soluzione": 2461200.5,
+  "orbit_id": "220",
+  "max_km": 0.6104235472539475,
+  "epoche": 17
+ },
+ "cerere_meno7000": {
+  "jd": -835692.5,
+  "senza_asteroidi": {
+   "km": 71849.7646549465,
+   "arcsec": 31.975011135209478
+  },
+  "con_15_asteroidi": {
+   "km": 50664.6409975471,
+   "arcsec": 22.547080952010187
+  },
+  "da_J2000_con_15_asteroidi": {
+   "km": 137921.31126855483,
+   "arcsec": 61.37856518770272
+  }
+ },
+ "tempi": {
+  "cloni": {
+   "16": [
+    [
+     "cerere",
+     171.6
+    ],
+    [
+     "eris",
+     296.6
+    ],
+    [
+     "haumea",
+     69.1
+    ],
+    [
+     "makemake",
+     69.0
+    ],
+    [
+     "gonggong",
+     58.2
+    ],
+    [
+     "quaoar",
+     67.0
+    ],
+    [
+     "sedna",
+     56.3
+    ],
+    [
+     "orco",
+     80.1
+    ],
+    [
+     "salacia",
+     73.6
+    ],
+    [
+     "varuna",
+     65.1
+    ],
+    [
+     "issione",
+     74.5
+    ],
+    [
+     "mani",
+     71.0
+    ],
+    [
+     "arrokoth",
+     65.6
+    ],
+    [
+     "pallade",
+     166.8
+    ],
+    [
+     "giunone",
+     177.9
+    ],
+    [
+     "vesta",
+     176.5
+    ],
+    [
+     "igea",
+     158.1
+    ],
+    [
+     "psyche",
+     177.3
+    ],
+    [
+     "lutetia",
+     202.7
+    ],
+    [
+     "euphrosyne",
+     174.6
+    ],
+    [
+     "52-europa",
+     165.2
+    ],
+    [
+     "sylvia",
+     142.8
+    ],
+    [
+     "ida",
+     176.5
+    ],
+    [
+     "mathilde",
+     201.4
+    ],
+    [
+     "patientia",
+     173.4
+    ],
+    [
+     "davida",
+     161.4
+    ],
+    [
+     "patroclus",
+     135.1
+    ],
+    [
+     "hektor",
+     127.8
+    ],
+    [
+     "interamnia",
+     151.5
+    ],
+    [
+     "gaspra",
+     209.2
+    ],
+    [
+     "steins",
+     197.4
+    ],
+    [
+     "eurybates",
+     130.7
+    ],
+    [
+     "annefrank",
+     186.1
+    ],
+    [
+     "braille",
+     82.1
+    ],
+    [
+     "donaldjohanson",
+     197.8
+    ],
+    [
+     "dinkinesh",
+     174.8
+    ],
+    [
+     "1i-oumuamua",
+     130.9
+    ],
+    [
+     "2i-borisov",
+     149.8
+    ]
+   ],
+   "64": [
+    [
+     "chiron",
+     4337.9
+    ],
+    [
+     "chariklo",
+     278.2
+    ],
+    [
+     "eros",
+     1208.0
+    ],
+    [
+     "phaethon",
+     1436.4
+    ],
+    [
+     "toutatis",
+     149.4
+    ],
+    [
+     "itokawa",
+     76.5
+    ],
+    [
+     "didymos",
+     195.3
+    ],
+    [
+     "apophis",
+     243.7
+    ],
+    [
+     "bennu",
+     42.9
+    ],
+    [
+     "ryugu",
+     439.6
+    ],
+    [
+     "1p-halley",
+     2.9
+    ],
+    [
+     "2p-encke",
+     10.0
+    ],
+    [
+     "9p-tempel-1",
+     4.5
+    ],
+    [
+     "12p-pons-brooks",
+     2.4
+    ],
+    [
+     "19p-borrelly",
+     4.6
+    ],
+    [
+     "21p-giacobini-zinner",
+     4.5
+    ],
+    [
+     "26p-grigg-skjellerup",
+     5.5
+    ],
+    [
+     "29p-schwassmann-wachmann-1",
+     3.1
+    ],
+    [
+     "46p-wirtanen",
+     5.6
+    ],
+    [
+     "55p-tempel-tuttle",
+     6.4
+    ],
+    [
+     "67p-churyumov-gerasimenko",
+     8.1
+    ],
+    [
+     "81p-wild-2",
+     7.9
+    ],
+    [
+     "103p-hartley-2",
+     6.5
+    ],
+    [
+     "109p-swift-tuttle",
+     3.7
+    ],
+    [
+     "c1680-v1",
+     145.3
+    ],
+    [
+     "c1965-s1-ikeya-seki",
+     27.1
+    ],
+    [
+     "c1975-v1-west",
+     136.1
+    ],
+    [
+     "c1995-o1-hale-bopp",
+     113.6
+    ],
+    [
+     "c1996-b2-hyakutake",
+     196.6
+    ],
+    [
+     "c2006-p1-mcnaught",
+     144.8
+    ],
+    [
+     "c2013-a1-siding-spring",
+     129.6
+    ],
+    [
+     "c2020-f3-neowise",
+     52.2
+    ],
+    [
+     "c2023-a3-tsuchinshan-atlas",
+     245.8
+    ],
+    [
+     "3i-atlas",
+     261.2
+    ]
+   ]
+  },
+  "totale_s": 18018.349890708923
+ },
+ "durata_s": 180.20762586593628
+}

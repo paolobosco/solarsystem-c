@@ -1,0 +1,3 @@
+# Secondo passo dell'ambiente ASSIST: compilazione contro rebound 4.6.0 già installato.
+# pip install --no-build-isolation -r requirements-assist-build.txt
+assist==1.2.3

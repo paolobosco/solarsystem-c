@@ -1,0 +1,173 @@
+API VERSION: 1.2
+API SOURCE: NASA/JPL Horizons API
+
+*******************************************************************************
+JPL/HORIZONS              1I/'Oumuamua (A/2017 U1)         2026-Oct-18 19:29:09
+Rec #:50323667 (+COV) Soln.date: 2018-Jun-26_12:17:57    # obs: 207 (2017-2018)
+
+NOTE:
+This orbit solution includes non-gravitational perturbations as described in 
+Micheli et al. (2018): http://dx.doi.org/10.1038/s41586-018-0254-4
+
+The behavior of these accelerations outside the observed data arc from
+2017 October 14 to 2018 January 2 can only be assumed.  Predictions outside
+this time interval, especially prior to October 2017, could be much more
+uncertain than reported here.
+ 
+IAU76/J2000 helio. ecliptic osc. elements (au, days, deg., period=Julian yrs):
+ 
+  EPOCH=  2458080.5 ! 2017-Nov-23.00 (TDB)         Residual RMS= .063527
+   EC= 1.201133796102373   QR= .2559115812959116   TP= 2458006.0073213754
+   OM= 24.59690955523242   W=  241.8105360304898   IN= 122.7417062847286
+   A= -1.27234500742808    MA= 51.15761979369358   ADIST= 9.999999E99
+   PER= 9.999999E99        N= .686746949           ANGMOM= .012910695
+   DAN= 1.30212            DDN= .35938             L= 159.3364991
+   B= -47.84677            MOID= .0958212          TP= 2017-Sep-09.5073213754
+ 
+Asteroid physical parameters (km, seconds, rotational period in hours):
+   GM= n.a.                RAD= n.a.               ROTPER= 7.937
+   H= 22.08                G= .150                 B-V= n.a.
+                           ALBEDO= n.a.            STYP= n.a.
+
+Asteroid non-gravitational force model (AMRAT= m^2/kg;A1,A2,A3=au/d^2;R0=au):
+   AMRAT=  0.
+   A1= 2.790193367004E-7   A2= 1.441264152527E-8   A3= 1.573922634125E-8
+ Non-standard or simulated/proxy model:
+   ALN=  .04083733261  NK=  2.6      NM=  2.       NN=  3.       R0=  5.
+
+ASTEROID comments: 
+1: soln ref.= JPL#16
+2: source=ORB; Sol. 7c, Micheli et al. 2018
+*******************************************************************************
+
+
+*******************************************************************************
+Ephemeris / API_USER Sun Oct 18 19:29:09 2026 Pasadena, USA      / Horizons
+*******************************************************************************
+Target body name: 1I/'Oumuamua (A/2017 U1)        {source: JPL#16}
+Center body name: Sun (10)                        {source: DE441}
+Center-site name: BODY CENTER
+*******************************************************************************
+Start time      : A.D. 2044-Apr-07 05:04:33.6000 TDB
+Stop  time      : A.D. 2115-Sep-15 03:40:36.4800 TDB
+Step-size       : DISCRETE TIME-LIST
+*******************************************************************************
+Center geodetic : 0.0, 0.0, 0.0                   {E-lon(deg),Lat(deg),Alt(km)}
+Center cylindric: 0.0, 0.0, 0.0                   {E-lon(deg),Dxy(km),Dz(km)}
+Center radii    : 695700.0, 695700.0, 695700.0 km {Equator_a, b, pole_c}
+Small perturbers: Yes                             {source: SB441-N16}
+Output units    : KM-S
+Calendar mode   : Mixed Julian/Gregorian
+Output type     : GEOMETRIC cartesian states
+Output format   : 2 (position and velocity)
+Reference frame : Ecliptic of J2000.0
+*******************************************************************************
+Initial IAU76/J2000 heliocentric ecliptic osculating elements (au, days, deg.):
+  EPOCH=  2458080.5 ! 2017-Nov-23.00 (TDB)         Residual RMS= .063527       
+   EC= 1.201133796102373   QR= .2559115812959116   TP= 2458006.0073213754      
+   OM= 24.59690955523242   W=  241.8105360304898   IN= 122.7417062847286       
+  Equivalent ICRF heliocentric cartesian coordinates (au, au/d):
+   X= 1.889136186533480E+00  Y= 5.222899434623109E-01  Z= 5.088057830311862E-01
+  VX= 2.106502285864550E-02 VY= 3.535022471254437E-04 VZ= 8.998631872968255E-03
+Asteroid physical parameters (km, seconds, rotational period in hours):        
+   GM= n.a.                RAD= n.a.               ROTPER= 7.937               
+   H= 22.08                G= .150                 B-V= n.a.                   
+                           ALBEDO= n.a.            STYP= n.a.                  
+Asteroid non-gravitational force model (AMRAT= m^2/kg;A1,A2,A3=au/d^2;R0=au):  
+   AMRAT=  0.                                                                  
+   A1= 2.790193367004E-7   A2= 1.441264152527E-8   A3= 1.573922634125E-8       
+ Non-standard or simulated/proxy model:                                        
+   ALN=  .04083733261  NK=  2.6      NM=  2.       NN=  3.       R0=  5.       
+*******************************************************************************
+JDTDB
+   X     Y     Z
+   VX    VY    VZ
+*******************************************************************************
+$$SOE
+2467712.711500000 = A.D. 2044-Apr-07 05:04:33.6000 TDB 
+ X = 2.087222967164833E+10 Y = 3.180358074903877E+09 Z = 9.026651841231089E+09
+ VX= 2.417378512407237E+01 VY= 3.598319125273021E+00 VZ= 1.057125231877361E+01
+2472302.256700000 = A.D. 2056-Oct-30 18:09:38.8800 TDB 
+ X = 3.043966604739072E+10 Y = 4.604315307351301E+09 Z = 1.321262066456959E+10
+ VX= 2.410597126252692E+01 VY= 3.597197148076893E+00 VZ= 1.054437545893154E+01
+2472482.359500000 = A.D. 2057-Apr-28 20:37:40.8000 TDB 
+ X = 3.081473974428809E+10 Y = 4.660302688538267E+09 Z = 1.337669538593581E+10
+ VX= 2.410146255473123E+01 VY= 3.598700240410811E+00 VZ= 1.054371996439957E+01
+2479875.816900000 = A.D. 2077-Jul-26 07:36:20.1600 TDB 
+ X = 4.618994106487147E+10 Y = 6.947143189778612E+09 Z = 2.010509342352870E+10
+ VX= 2.406349305642750E+01 VY= 3.570508146291264E+00 VZ= 1.052419332983062E+01
+2482043.953900000 = A.D. 2083-Jul-03 10:53:36.9600 TDB 
+ X = 5.069609875190524E+10 Y = 7.618781830422954E+09 Z = 2.207623016109938E+10
+ VX= 2.403470211781841E+01 VY= 3.588188550053676E+00 VZ= 1.052112370149875E+01
+2491436.477400000 = A.D. 2109-Mar-21 23:27:27.3600 TDB 
+ X = 7.019697551422527E+10 Y = 1.052005218496295E+10 Z = 3.060975201816279E+10
+ VX= 2.401177596236357E+01 VY= 3.570571860052324E+00 VZ= 1.051127959306931E+01
+2493804.653200000 = A.D. 2115-Sep-15 03:40:36.4800 TDB 
+ X = 7.511237745666864E+10 Y = 1.125036236012932E+10 Z = 3.276023433520714E+10
+ VX= 2.402693639555216E+01 VY= 3.582438685539987E+00 VZ= 1.050915382998925E+01
+$$EOE
+*******************************************************************************
+ 
+TIME
+
+  Barycentric Dynamical Time ("TDB" or T_eph) output was requested. This
+continuous coordinate time is equivalent to the relativistic proper time
+of a clock at rest in a reference frame co-moving with the solar system
+barycenter but outside the system's gravity well. It is the independent
+variable in the solar system relativistic equations of motion.
+
+  TDB runs at a uniform rate of one SI second per second and is independent
+of irregularities in Earth's rotation.
+ 
+CALENDAR SYSTEM
+
+  Mixed calendar mode was active such that calendar dates after AD 1582-Oct-15
+(if any) are in the modern Gregorian system. Dates prior to 1582-Oct-5 (if any)
+are in the Julian calendar system, which is automatically extended for dates
+prior to its adoption on 45-Jan-1 BC.  The Julian calendar is useful for
+matching historical dates. The Gregorian calendar more accurately corresponds
+to the Earth's orbital motion and seasons. A "Gregorian-only" calendar mode is
+available if such physical events are the primary interest.
+
+REFERENCE FRAME AND COORDINATES
+
+  Ecliptic at the standard reference epoch
+
+    Reference epoch: J2000.0
+    X-Y plane: adopted Earth orbital plane at the reference epoch
+               Note: IAU76 obliquity of 84381.448 arcseconds wrt ICRF X-Y plane
+    X-axis   : ICRF
+    Z-axis   : perpendicular to the X-Y plane in the directional (+ or -) sense
+               of Earth's north pole at the reference epoch.
+
+  Symbol meaning:
+
+    JDTDB    Julian Day Number, Barycentric Dynamical Time
+      X      X-component of position vector (km)
+      Y      Y-component of position vector (km)
+      Z      Z-component of position vector (km)
+      VX     X-component of velocity vector (km/sec)                           
+      VY     Y-component of velocity vector (km/sec)                           
+      VZ     Z-component of velocity vector (km/sec)                           
+
+ABERRATIONS AND CORRECTIONS
+
+ Geometric state vectors have NO corrections or aberrations applied.
+
+Computations by ...
+
+    Solar System Dynamics Group, Horizons On-Line Ephemeris System
+    4800 Oak Grove Drive, Jet Propulsion Laboratory
+    Pasadena, CA  91109   USA
+
+    General site: https://ssd.jpl.nasa.gov/
+    Mailing list: https://ssd.jpl.nasa.gov/email_list.html
+    System news : https://ssd.jpl.nasa.gov/horizons/news.html
+    User Guide  : https://ssd.jpl.nasa.gov/horizons/manual.html
+    Connect     : browser        https://ssd.jpl.nasa.gov/horizons/app.html#/x
+                  API            https://ssd-api.jpl.nasa.gov/doc/horizons.html
+                  command-line   telnet ssd.jpl.nasa.gov 6775
+                  e-mail/batch   https://ssd.jpl.nasa.gov/ftp/ssd/horizons_batch.txt
+                  scripts        https://ssd.jpl.nasa.gov/ftp/ssd/SCRIPTS
+    Inquiries   : Jon.D.Giorgini@jpl.nasa.gov
+*******************************************************************************

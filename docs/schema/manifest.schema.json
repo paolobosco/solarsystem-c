@@ -1,0 +1,41 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Manifest dei dati (data/v1/manifest.json)",
+  "description": "Formato 1, § 8.11 di docs/PROGETTO.md. Tipi TypeScript corrispondenti in src/data/manifest.ts. Esistenza, dimensione e SHA-256 dei file e budget del § 8.1 si verificano a parte (criterio A22, scripts/pipeline/pack.py).",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["formato", "versioneDati", "blocchi", "file"],
+  "properties": {
+    "formato": { "const": 1 },
+    "versioneDati": { "type": "string", "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$" },
+    "blocchi": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["T0", "B", "K", "T_END"],
+      "properties": {
+        "T0": { "type": "number" },
+        "B": { "type": "number", "exclusiveMinimum": 0 },
+        "K": { "type": "integer", "minimum": 1 },
+        "T_END": { "type": "number" }
+      }
+    },
+    "file": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["percorso", "tipo", "byte", "sha256"],
+        "properties": {
+          "percorso": { "type": "string", "pattern": "^(?!.*\\.\\.)[a-z0-9][a-z0-9_./-]*$" },
+          "tipo": {
+            "enum": ["pianeti", "satelliti", "piccoli-corpi", "luna", "affidabilita", "stelle", "tempo", "catalogo", "texture"]
+          },
+          "blocco": { "type": "integer", "minimum": 0 },
+          "byte": { "type": "integer", "minimum": 0 },
+          "sha256": { "type": "string", "pattern": "^[0-9a-f]{64}$" }
+        }
+      }
+    }
+  }
+}

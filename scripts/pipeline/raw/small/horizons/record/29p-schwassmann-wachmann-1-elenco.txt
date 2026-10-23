@@ -1,0 +1,24 @@
+API VERSION: 1.2
+API SOURCE: NASA/JPL Horizons API
+
+*******************************************************************************
+JPL/DASTCOM            Small-body Index Search Results     2026-Oct-18 15:47:38
+
+ Comet AND asteroid index search:
+
+    DES = 29P;
+
+ Matching small-bodies: 
+
+    Record #  Epoch-yr  >MATCH DESIG<  Primary Desig  Name  
+    --------  --------  -------------  -------------  -------------------------
+    90000390    1908    29P            29P             Schwassmann-Wachmann 1
+    90000391    1925    29P            29P             Schwassmann-Wachmann 1
+    90000392    1941    29P            29P             Schwassmann-Wachmann 1
+    90000393    1957    29P            29P             Schwassmann-Wachmann 1
+    90000394    1974    29P            29P             Schwassmann-Wachmann 1
+    90000395    2007    29P            29P             Schwassmann-Wachmann 1
+    90000396    2022    29P            29P             Schwassmann-Wachmann 1
+
+ (7 matches. To SELECT, enter record # (integer), followed by semi-colon.)
+*******************************************************************************

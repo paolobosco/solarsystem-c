@@ -1,0 +1,158 @@
+API VERSION: 1.2
+API SOURCE: NASA/JPL Horizons API
+
+*******************************************************************************
+JPL/HORIZONS                   103P/Hartley 2              2026-Oct-18 15:51:36
+Rec #:90000960 (+COV) Soln.date: 2025-May-01_10:45:38   # obs: 8768 (2008-2025)
+ 
+IAU76/J2000 helio. ecliptic osc. elements (au, days, deg., period=Julian yrs):
+ 
+  EPOCH=  2457152.5 ! 2015-May-10.0000000 (TDB)    RMSW= n.a.
+   EC= .6935978573940613   QR= 1.064947369015373   TP= 2457863.957983132
+   OM= 219.7421743331336   W= 181.3218438419628    IN= 13.59946797122405
+   A= 3.475652487146584    MA= 251.7821727283165   ADIST= 5.886357605277794
+   PER= 6.47981673045275   N= .152107123           ANGMOM= .023102058
+   DAN= 5.88281            DDN= 1.06506            L= 41.0269705
+   B= -.3107832            MOID= .0732373          TP= 2017-Apr-20.4579831320
+ 
+Comet physical (GM= km^3/s^2; RAD= km):
+   GM= n.a.                RAD= .800
+   M1=  16.      M2=  n.a.     k1=  4.5    k2= n.a.     PHCOF= n.a.
+Comet non-gravitational force model (AMRAT=m^2/kg;A1-A3=au/d^2;DT=days;R0=au):
+   AMRAT=  0.                                      DT=  12.23374
+   A1= 1.384525597095E-9   A2= 1.464430894703E-10  A3= 1.812240295112E-10
+ Non-standard or simulated/proxy model:
+   ALN=  .1112620426   NK=  4.6142   NM=  2.15     NN=  5.093    R0=  2.808
+
+COMET comments 
+1: soln ref.= JPL#K233/5, data arc: 2008-05-05 to 2025-04-28
+2: k1=4.5;
+*******************************************************************************
+
+
+*******************************************************************************
+Ephemeris / API_USER Sun Oct 18 15:51:36 2026 Pasadena, USA      / Horizons
+*******************************************************************************
+Target body name: 103P/Hartley 2                  {source: JPL#K233/5}
+Center body name: Sun (10)                        {source: DE441}
+Center-site name: BODY CENTER
+*******************************************************************************
+Start time      : A.D. 2026-Jan-12 04:09:24.4800 TDB
+Stop  time      : A.D. 2100-Jun-03 00:55:43.6800 TDB
+Step-size       : DISCRETE TIME-LIST
+*******************************************************************************
+Center geodetic : 0.0, 0.0, 0.0                   {E-lon(deg),Lat(deg),Alt(km)}
+Center cylindric: 0.0, 0.0, 0.0                   {E-lon(deg),Dxy(km),Dz(km)}
+Center radii    : 695700.0, 695700.0, 695700.0 km {Equator_a, b, pole_c}
+Small perturbers: Yes                             {source: SB441-N16}
+Output units    : KM-S
+Calendar mode   : Mixed Julian/Gregorian
+Output type     : GEOMETRIC cartesian states
+Output format   : 2 (position and velocity)
+Reference frame : Ecliptic of J2000.0
+*******************************************************************************
+Initial IAU76/J2000 heliocentric ecliptic osculating elements (au, days, deg.):
+  EPOCH=  2457152.5 ! 2015-May-10.0000000 (TDB)    RMSW= n.a.                  
+   EC= .6935978573940613   QR= 1.064947369015373   TP= 2457863.957983132       
+   OM= 219.7421743331336   W= 181.3218438419628    IN= 13.59946797122405       
+  Equivalent ICRF heliocentric cartesian coordinates (au, au/d):
+   X=-2.587271773317512E+00  Y=-4.299320078989071E+00  Z=-1.388418539171043E+00
+  VX= 5.270405685456616E-03 VY= 1.531480138817955E-04 VZ= 8.572362243937557E-04
+Comet physical (GM= km^3/s^2; RAD= km):                                        
+   GM= n.a.                RAD= .800                                           
+   M1=  16.      M2=  n.a.     k1=  4.5    k2= n.a.     PHCOF= n.a.            
+Comet non-gravitational force model (AMRAT=m^2/kg;A1-A3=au/d^2;DT=days;R0=au): 
+   AMRAT=  0.                                      DT=  12.23374               
+   A1= 1.384525597095E-9   A2= 1.464430894703E-10  A3= 1.812240295112E-10      
+ Non-standard or simulated/proxy model:                                        
+   ALN=  .1112620426   NK=  4.6142   NM=  2.15     NN=  5.093    R0=  2.808    
+*******************************************************************************
+JDTDB
+   X     Y     Z
+   VX    VY    VZ
+*******************************************************************************
+$$SOE
+2461052.673200000 = A.D. 2026-Jan-12 04:09:24.4800 TDB 
+ X =-7.311816634769456E+08 Y =-3.728009670680872E+08 Z =-4.382145664131229E+07
+ VX=-2.675757383753876E-01 VY=-8.094386081386052E+00 VZ= 1.464382341448418E+00
+2469990.792100000 = A.D. 2050-Jul-03 07:00:37.4400 TDB 
+ X =-5.001038382549116E+08 Y = 4.179531104097562E+07 Z =-8.545439994131842E+07
+ VX=-1.242259785980750E+01 VY=-1.050509755567987E+01 VZ= 3.669436336970699E-02
+2481773.902500000 = A.D. 2082-Oct-06 09:39:36.0000 TDB 
+ X =-7.563807830937667E+08 Y =-3.324257346487593E+08 Z =-1.391594144622320E+07
+ VX=-3.332461131158828E-01 VY=-7.390019936270126E+00 VZ= 1.457960114457345E+00
+2485323.202300000 = A.D. 2092-Jun-24 16:51:18.7200 TDB 
+ X = 6.619895411524701E+07 Y =-3.647598249914810E+08 Z = 9.060770533872095E+07
+ VX= 1.284950226637194E+01 VY= 1.642426172346089E+01 VZ=-2.301596754276109E+00
+2487222.661500000 = A.D. 2097-Sep-06 03:52:33.6000 TDB 
+ X =-4.127893021615761E+08 Y =-6.328291567708423E+08 Z = 9.794331736707202E+07
+ VX= 9.595416388291401E+00 VY= 6.964942985981666E-01 VZ= 9.160069646423916E-01
+2488222.538700000 = A.D. 2100-Jun-03 00:55:43.6800 TDB 
+ X =-5.061695024860396E+08 Y = 8.172868348436970E+07 Z =-7.523426102560635E+07
+ VX=-1.303403995954451E+01 VY=-9.334377425084433E+00 VZ= 6.687130975511146E-01
+$$EOE
+*******************************************************************************
+ 
+TIME
+
+  Barycentric Dynamical Time ("TDB" or T_eph) output was requested. This
+continuous coordinate time is equivalent to the relativistic proper time
+of a clock at rest in a reference frame co-moving with the solar system
+barycenter but outside the system's gravity well. It is the independent
+variable in the solar system relativistic equations of motion.
+
+  TDB runs at a uniform rate of one SI second per second and is independent
+of irregularities in Earth's rotation.
+ 
+CALENDAR SYSTEM
+
+  Mixed calendar mode was active such that calendar dates after AD 1582-Oct-15
+(if any) are in the modern Gregorian system. Dates prior to 1582-Oct-5 (if any)
+are in the Julian calendar system, which is automatically extended for dates
+prior to its adoption on 45-Jan-1 BC.  The Julian calendar is useful for
+matching historical dates. The Gregorian calendar more accurately corresponds
+to the Earth's orbital motion and seasons. A "Gregorian-only" calendar mode is
+available if such physical events are the primary interest.
+
+REFERENCE FRAME AND COORDINATES
+
+  Ecliptic at the standard reference epoch
+
+    Reference epoch: J2000.0
+    X-Y plane: adopted Earth orbital plane at the reference epoch
+               Note: IAU76 obliquity of 84381.448 arcseconds wrt ICRF X-Y plane
+    X-axis   : ICRF
+    Z-axis   : perpendicular to the X-Y plane in the directional (+ or -) sense
+               of Earth's north pole at the reference epoch.
+
+  Symbol meaning:
+
+    JDTDB    Julian Day Number, Barycentric Dynamical Time
+      X      X-component of position vector (km)
+      Y      Y-component of position vector (km)
+      Z      Z-component of position vector (km)
+      VX     X-component of velocity vector (km/sec)                           
+      VY     Y-component of velocity vector (km/sec)                           
+      VZ     Z-component of velocity vector (km/sec)                           
+
+ABERRATIONS AND CORRECTIONS
+
+ Geometric state vectors have NO corrections or aberrations applied.
+
+Computations by ...
+
+    Solar System Dynamics Group, Horizons On-Line Ephemeris System
+    4800 Oak Grove Drive, Jet Propulsion Laboratory
+    Pasadena, CA  91109   USA
+
+    General site: https://ssd.jpl.nasa.gov/
+    Mailing list: https://ssd.jpl.nasa.gov/email_list.html
+    System news : https://ssd.jpl.nasa.gov/horizons/news.html
+    User Guide  : https://ssd.jpl.nasa.gov/horizons/manual.html
+    Connect     : browser        https://ssd.jpl.nasa.gov/horizons/app.html#/x
+                  API            https://ssd-api.jpl.nasa.gov/doc/horizons.html
+                  command-line   telnet ssd.jpl.nasa.gov 6775
+                  e-mail/batch   https://ssd.jpl.nasa.gov/ftp/ssd/horizons_batch.txt
+                  scripts        https://ssd.jpl.nasa.gov/ftp/ssd/SCRIPTS
+    Inquiries   : Jon.D.Giorgini@jpl.nasa.gov
+*******************************************************************************

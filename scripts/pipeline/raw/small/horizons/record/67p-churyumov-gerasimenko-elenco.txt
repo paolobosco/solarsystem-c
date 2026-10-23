@@ -1,0 +1,26 @@
+API VERSION: 1.2
+API SOURCE: NASA/JPL Horizons API
+
+*******************************************************************************
+JPL/DASTCOM            Small-body Index Search Results     2026-Oct-18 15:49:32
+
+ Comet AND asteroid index search:
+
+    DES = 67P;
+
+ Matching small-bodies: 
+
+    Record #  Epoch-yr  >MATCH DESIG<  Primary Desig  Name  
+    --------  --------  -------------  -------------  -------------------------
+    90000695    1969    67P            67P             Churyumov-Gerasimenko
+    90000696    1976    67P            67P             Churyumov-Gerasimenko
+    90000697    1982    67P            67P             Churyumov-Gerasimenko
+    90000698    1989    67P            67P             Churyumov-Gerasimenko
+    90000699    1995    67P            67P             Churyumov-Gerasimenko
+    90000700    2002    67P            67P             Churyumov-Gerasimenko
+    90000701    2006    67P            67P             Churyumov-Gerasimenko
+    90000702    2013    67P            67P             Churyumov-Gerasimenko
+    90000703    2015    67P            67P             Churyumov-Gerasimenko
+
+ (9 matches. To SELECT, enter record # (integer), followed by semi-colon.)
+*******************************************************************************

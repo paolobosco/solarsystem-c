@@ -1,0 +1,353 @@
+{
+ "incompleti": [],
+ "completamenti": {
+  "sole": {
+   "texture": "nessuna texture",
+   "spkid": "non fornito"
+  },
+  "mercurio": {
+   "spkid": "non fornito"
+  },
+  "venere": {
+   "spkid": "non fornito"
+  },
+  "terra": {
+   "spkid": "non fornito"
+  },
+  "marte": {
+   "spkid": "non fornito"
+  },
+  "giove": {
+   "spkid": "non fornito"
+  },
+  "saturno": {
+   "spkid": "non fornito"
+  },
+  "urano": {
+   "spkid": "non fornito"
+  },
+  "nettuno": {
+   "spkid": "non fornito"
+  },
+  "plutone": {
+   "spkid": "non fornito"
+  },
+  "eris": {
+   "texture": "nessuna texture"
+  },
+  "haumea": {
+   "texture": "nessuna texture"
+  },
+  "makemake": {
+   "texture": "nessuna texture"
+  },
+  "gonggong": {
+   "texture": "nessuna texture"
+  },
+  "quaoar": {
+   "texture": "nessuna texture"
+  },
+  "sedna": {
+   "texture": "nessuna texture"
+  },
+  "orco": {
+   "texture": "nessuna texture"
+  },
+  "salacia": {
+   "texture": "nessuna texture"
+  },
+  "varuna": {
+   "texture": "nessuna texture"
+  },
+  "issione": {
+   "texture": "nessuna texture"
+  },
+  "mani": {
+   "texture": "nessuna texture"
+  },
+  "arrokoth": {
+   "texture": "nessuna texture"
+  },
+  "chiron": {
+   "texture": "nessuna texture"
+  },
+  "chariklo": {
+   "texture": "nessuna texture"
+  },
+  "pallade": {
+   "texture": "nessuna texture"
+  },
+  "giunone": {
+   "texture": "nessuna texture"
+  },
+  "igea": {
+   "texture": "nessuna texture"
+  },
+  "psyche": {
+   "texture": "nessuna texture"
+  },
+  "lutetia": {
+   "texture": "nessuna texture"
+  },
+  "euphrosyne": {
+   "texture": "nessuna texture"
+  },
+  "52-europa": {
+   "texture": "nessuna texture"
+  },
+  "sylvia": {
+   "texture": "nessuna texture"
+  },
+  "ida": {
+   "texture": "nessuna texture"
+  },
+  "mathilde": {
+   "texture": "nessuna texture"
+  },
+  "eros": {
+   "texture": "nessuna texture"
+  },
+  "patientia": {
+   "texture": "nessuna texture"
+  },
+  "davida": {
+   "texture": "nessuna texture"
+  },
+  "patroclus": {
+   "texture": "nessuna texture"
+  },
+  "hektor": {
+   "texture": "nessuna texture"
+  },
+  "interamnia": {
+   "texture": "nessuna texture"
+  },
+  "gaspra": {
+   "texture": "nessuna texture"
+  },
+  "steins": {
+   "texture": "nessuna texture"
+  },
+  "phaethon": {
+   "texture": "nessuna texture"
+  },
+  "eurybates": {
+   "texture": "nessuna texture"
+  },
+  "toutatis": {
+   "texture": "nessuna texture"
+  },
+  "annefrank": {
+   "texture": "nessuna texture"
+  },
+  "braille": {
+   "texture": "nessuna texture"
+  },
+  "itokawa": {
+   "texture": "nessuna texture"
+  },
+  "donaldjohanson": {
+   "texture": "nessuna texture"
+  },
+  "didymos": {
+   "texture": "nessuna texture"
+  },
+  "apophis": {
+   "texture": "nessuna texture"
+  },
+  "bennu": {
+   "texture": "nessuna texture"
+  },
+  "dinkinesh": {
+   "texture": "nessuna texture"
+  },
+  "ryugu": {
+   "texture": "nessuna texture"
+  },
+  "1p-halley": {
+   "texture": "nessuna texture"
+  },
+  "2p-encke": {
+   "texture": "nessuna texture"
+  },
+  "9p-tempel-1": {
+   "texture": "nessuna texture"
+  },
+  "12p-pons-brooks": {
+   "texture": "nessuna texture"
+  },
+  "19p-borrelly": {
+   "texture": "nessuna texture"
+  },
+  "21p-giacobini-zinner": {
+   "texture": "nessuna texture"
+  },
+  "26p-grigg-skjellerup": {
+   "texture": "nessuna texture"
+  },
+  "29p-schwassmann-wachmann-1": {
+   "texture": "nessuna texture"
+  },
+  "46p-wirtanen": {
+   "texture": "nessuna texture"
+  },
+  "55p-tempel-tuttle": {
+   "texture": "nessuna texture"
+  },
+  "67p-churyumov-gerasimenko": {
+   "texture": "nessuna texture"
+  },
+  "81p-wild-2": {
+   "texture": "nessuna texture"
+  },
+  "103p-hartley-2": {
+   "texture": "nessuna texture"
+  },
+  "109p-swift-tuttle": {
+   "texture": "nessuna texture"
+  },
+  "c1680-v1": {
+   "texture": "nessuna texture"
+  },
+  "c1965-s1-ikeya-seki": {
+   "texture": "nessuna texture"
+  },
+  "c1975-v1-west": {
+   "texture": "nessuna texture"
+  },
+  "c1995-o1-hale-bopp": {
+   "texture": "nessuna texture"
+  },
+  "c1996-b2-hyakutake": {
+   "texture": "nessuna texture"
+  },
+  "c2006-p1-mcnaught": {
+   "texture": "nessuna texture"
+  },
+  "c2013-a1-siding-spring": {
+   "texture": "nessuna texture"
+  },
+  "c2020-f3-neowise": {
+   "texture": "nessuna texture"
+  },
+  "c2023-a3-tsuchinshan-atlas": {
+   "texture": "nessuna texture"
+  },
+  "1i-oumuamua": {
+   "texture": "nessuna texture"
+  },
+  "2i-borisov": {
+   "texture": "nessuna texture"
+  },
+  "3i-atlas": {
+   "texture": "nessuna texture"
+  },
+  "luna": {
+   "spkid": "non fornito"
+  },
+  "fobos": {
+   "texture": "nessuna texture",
+   "spkid": "non fornito"
+  },
+  "deimos": {
+   "texture": "nessuna texture",
+   "spkid": "non fornito"
+  },
+  "io": {
+   "spkid": "non fornito"
+  },
+  "europa": {
+   "spkid": "non fornito"
+  },
+  "ganimede": {
+   "spkid": "non fornito"
+  },
+  "callisto": {
+   "spkid": "non fornito"
+  },
+  "amaltea": {
+   "texture": "nessuna texture",
+   "spkid": "non fornito"
+  },
+  "imalia": {
+   "texture": "nessuna texture",
+   "spkid": "non fornito"
+  },
+  "mimas": {
+   "texture": "nessuna texture",
+   "spkid": "non fornito"
+  },
+  "encelado": {
+   "spkid": "non fornito"
+  },
+  "teti": {
+   "spkid": "non fornito"
+  },
+  "dione": {
+   "spkid": "non fornito"
+  },
+  "rea": {
+   "spkid": "non fornito"
+  },
+  "titano": {
+   "spkid": "non fornito"
+  },
+  "iperione": {
+   "texture": "nessuna texture",
+   "spkid": "non fornito"
+  },
+  "giapeto": {
+   "spkid": "non fornito"
+  },
+  "febe": {
+   "texture": "nessuna texture",
+   "spkid": "non fornito"
+  },
+  "miranda": {
+   "texture": "nessuna texture",
+   "spkid": "non fornito"
+  },
+  "ariel": {
+   "texture": "nessuna texture",
+   "spkid": "non fornito"
+  },
+  "umbriel": {
+   "texture": "nessuna texture",
+   "spkid": "non fornito"
+  },
+  "titania": {
+   "texture": "nessuna texture",
+   "spkid": "non fornito"
+  },
+  "oberon": {
+   "texture": "nessuna texture",
+   "spkid": "non fornito"
+  },
+  "tritone": {
+   "spkid": "non fornito"
+  },
+  "proteo": {
+   "texture": "nessuna texture",
+   "spkid": "non fornito"
+  },
+  "nereide": {
+   "texture": "nessuna texture",
+   "spkid": "non fornito"
+  },
+  "caronte": {
+   "spkid": "non fornito"
+  },
+  "notte": {
+   "texture": "nessuna texture",
+   "spkid": "non fornito"
+  },
+  "idra": {
+   "texture": "nessuna texture",
+   "spkid": "non fornito"
+  },
+  "disnomia": {
+   "texture": "nessuna texture",
+   "spkid": "non fornito"
+  }
+ }
+}

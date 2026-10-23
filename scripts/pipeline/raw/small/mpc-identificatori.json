@@ -1,0 +1,1510 @@
+{
+ "formato": 1,
+ "url": "https://data.minorplanetcenter.net/api/query-identifier",
+ "estrazione": "2026-10-21",
+ "richiesta": {
+  "ids": [
+   "1",
+   "134340",
+   "136199",
+   "136108",
+   "136472",
+   "225088",
+   "50000",
+   "90377",
+   "90482",
+   "120347",
+   "20000",
+   "28978",
+   "307261",
+   "486958",
+   "2060",
+   "10199",
+   "2",
+   "3",
+   "4",
+   "10",
+   "16",
+   "21",
+   "31",
+   "52",
+   "87",
+   "243",
+   "253",
+   "433",
+   "451",
+   "511",
+   "617",
+   "624",
+   "704",
+   "951",
+   "2867",
+   "3200",
+   "3548",
+   "4179",
+   "5535",
+   "9969",
+   "25143",
+   "52246",
+   "65803",
+   "99942",
+   "101955",
+   "152830",
+   "162173",
+   "1P",
+   "2P",
+   "9P",
+   "12P",
+   "19P",
+   "21P",
+   "26P",
+   "29P",
+   "46P",
+   "55P",
+   "67P",
+   "81P",
+   "103P",
+   "109P"
+  ]
+ },
+ "risposta": {
+  "1": {
+   "citation": "\\N",
+   "disambiguation_list": null,
+   "dual_status_info": null,
+   "found": 1,
+   "iau_designation": "(1)",
+   "name": "Ceres",
+   "object_type": [
+    "Minor Planet",
+    0
+   ],
+   "orbfit_name": "1",
+   "packed_permid": "00001",
+   "packed_primary_provisional_designation": "I01A00A",
+   "packed_secondary_provisional_designations": [
+    "I99O00F",
+    "J43X00B"
+   ],
+   "permid": "1",
+   "unpacked_primary_provisional_designation": "A801 AA",
+   "unpacked_secondary_provisional_designations": [
+    "1943 XB",
+    "A899 OF"
+   ]
+  },
+  "10": {
+   "citation": "\\N",
+   "disambiguation_list": null,
+   "dual_status_info": null,
+   "found": 1,
+   "iau_designation": "(10)",
+   "name": "Hygiea",
+   "object_type": [
+    "Minor Planet",
+    0
+   ],
+   "orbfit_name": "10",
+   "packed_permid": "00010",
+   "packed_primary_provisional_designation": "I49G00A",
+   "packed_secondary_provisional_designations": [
+    "J00G00A"
+   ],
+   "permid": "10",
+   "unpacked_primary_provisional_designation": "A849 GA",
+   "unpacked_secondary_provisional_designations": [
+    "A900 GA"
+   ]
+  },
+  "101955": {
+   "citation": "\\N",
+   "disambiguation_list": null,
+   "dual_status_info": null,
+   "found": 1,
+   "iau_designation": "(101955)",
+   "name": "Bennu",
+   "object_type": [
+    "Minor Planet",
+    0
+   ],
+   "orbfit_name": "101955",
+   "packed_permid": "A1955",
+   "packed_primary_provisional_designation": "J99R36Q",
+   "packed_secondary_provisional_designations": [],
+   "permid": "101955",
+   "unpacked_primary_provisional_designation": "1999 RQ36",
+   "unpacked_secondary_provisional_designations": []
+  },
+  "10199": {
+   "citation": "(10199) Chariklo<br><br>Chariklo, sometimes described as a sea nymph, sometimes as a female centaur, was the wife of Chiron.  Together they are said to have had as many as five children, and she is also sometimes said to have been the mother of Tiresias, the famous seer.",
+   "disambiguation_list": null,
+   "dual_status_info": null,
+   "found": 1,
+   "iau_designation": "(10199)",
+   "name": "Chariklo",
+   "object_type": [
+    "Minor Planet (Binary)",
+    1
+   ],
+   "orbfit_name": "10199",
+   "packed_permid": "10199",
+   "packed_primary_provisional_designation": "J97C26U",
+   "packed_secondary_provisional_designations": [],
+   "permid": "10199",
+   "unpacked_primary_provisional_designation": "1997 CU26",
+   "unpacked_secondary_provisional_designations": []
+  },
+  "103P": {
+   "citation": null,
+   "disambiguation_list": null,
+   "dual_status_info": null,
+   "found": 1,
+   "iau_designation": "(103P)",
+   "name": "Hartley",
+   "object_type": [
+    "Comet",
+    10
+   ],
+   "orbfit_name": "103P",
+   "packed_permid": "0103P",
+   "packed_primary_provisional_designation": "PJ86E020",
+   "packed_secondary_provisional_designations": [
+    "PJ91N010"
+   ],
+   "permid": "103P",
+   "unpacked_primary_provisional_designation": "P/1986 E2",
+   "unpacked_secondary_provisional_designations": [
+    "P/1991 N1"
+   ]
+  },
+  "109P": {
+   "citation": null,
+   "disambiguation_list": null,
+   "dual_status_info": null,
+   "found": 1,
+   "iau_designation": "(109P)",
+   "name": "Swift-Tuttle",
+   "object_type": [
+    "Comet",
+    10
+   ],
+   "orbfit_name": "109P",
+   "packed_permid": "0109P",
+   "packed_primary_provisional_designation": "PI62O010",
+   "packed_secondary_provisional_designations": [
+    "P/31Q010",
+    "P188O010",
+    "PH37N010",
+    "PJ92S020"
+   ],
+   "permid": "109P",
+   "unpacked_primary_provisional_designation": "P/1862 O1",
+   "unpacked_secondary_provisional_designations": [
+    "P/-68 Q1",
+    "P/1737 N1",
+    "P/188 O1",
+    "P/1992 S2"
+   ]
+  },
+  "120347": {
+   "citation": "(120347) Salacia = 2004 SB60<br><br>Salacia is the Roman goddess of the calm and sunlit ocean.  At first afraid of Neptune's advances, she was convinced to agree to marriage by the dolphin Delphinus. </pre> The following citation is from <i>MPC</i> 73984: <p><pre> S/(120347) 1 Actaea = S/2006 (120347) 1 <br><br>Actaea is one of the Nereids.  She is portrayed as a nymph of the shore. The Nereids were among the attendants of Salacia. ",
+   "disambiguation_list": null,
+   "dual_status_info": null,
+   "found": 1,
+   "iau_designation": "(120347)",
+   "name": "Salacia",
+   "object_type": [
+    "Minor Planet (Binary)",
+    1
+   ],
+   "orbfit_name": "120347",
+   "packed_permid": "C0347",
+   "packed_primary_provisional_designation": "K04S60B",
+   "packed_secondary_provisional_designations": [],
+   "permid": "120347",
+   "unpacked_primary_provisional_designation": "2004 SB60",
+   "unpacked_secondary_provisional_designations": []
+  },
+  "12P": {
+   "citation": null,
+   "disambiguation_list": null,
+   "dual_status_info": null,
+   "found": 1,
+   "iau_designation": "(12P)",
+   "name": "Pons-Brooks",
+   "object_type": [
+    "Comet",
+    10
+   ],
+   "orbfit_name": "12P",
+   "packed_permid": "0012P",
+   "packed_primary_provisional_designation": "PI12O010",
+   "packed_secondary_provisional_designations": [
+    "CD85U010",
+    "CE57A010",
+    "PD85U010",
+    "PE57A010",
+    "PI83R010",
+    "PJ53M010"
+   ],
+   "permid": "12P",
+   "unpacked_primary_provisional_designation": "P/1812 O1",
+   "unpacked_secondary_provisional_designations": [
+    "C/1385 U1",
+    "C/1457 A1",
+    "P/1385 U1",
+    "P/1457 A1",
+    "P/1883 R1",
+    "P/1953 M1"
+   ]
+  },
+  "134340": {
+   "citation": "\\N",
+   "disambiguation_list": null,
+   "dual_status_info": null,
+   "found": 1,
+   "iau_designation": "(134340)",
+   "name": "Pluto",
+   "object_type": [
+    "Minor Planet (Binary)",
+    1
+   ],
+   "orbfit_name": "134340",
+   "packed_permid": "D4340",
+   "packed_primary_provisional_designation": "J30B00M",
+   "packed_secondary_provisional_designations": [],
+   "permid": "134340",
+   "unpacked_primary_provisional_designation": "1930 BM",
+   "unpacked_secondary_provisional_designations": []
+  },
+  "136108": {
+   "citation": "(136108) Haumea = 2003 EL61<br><br>Haumea is the goddess of childbirth and fertility in Hawaiian mythology. Her many children sprang from different parts of her body.  She takes many different forms and has experienced many different rebirths.  As the goddess of the earth, she represents the element of stone.  The satellites (136108) Haumea I and II were discovered by M. E. Brown, A. H. Bouchez and the Keck Observatory Adaptive Optics teams.  Haumea I, discovered 2005 Jan. 26, is named Hi'iaka, who was born from the mouth of Haumea and carried by her sister Pele in egg form from their distant home to Hawaii.  Hi'iaka danced the first Hula on the shores of Puna and is the patron goddess of the island of Hawaii and of hula dancers.  Haumea II, discovered 2005 Nov. 7, is named Namaka, for a water spirit in Hawaiian mythology.  Namaka was born from the body of Haumea and is the sister of Pele.  When Pele sends her burning lava into the sea, Namaka cools the lava to become new land. ",
+   "disambiguation_list": null,
+   "dual_status_info": null,
+   "found": 1,
+   "iau_designation": "(136108)",
+   "name": "Haumea",
+   "object_type": [
+    "Minor Planet (Binary)",
+    1
+   ],
+   "orbfit_name": "136108",
+   "packed_permid": "D6108",
+   "packed_primary_provisional_designation": "K03E61L",
+   "packed_secondary_provisional_designations": [],
+   "permid": "136108",
+   "unpacked_primary_provisional_designation": "2003 EL61",
+   "unpacked_secondary_provisional_designations": []
+  },
+  "136199": {
+   "citation": "(136199) Eris = 2003 UB313<br><br>Eris is the Greek goddess of discord and strife.  She stirs up jealousy and envy to cause fighting and anger among men.  At the wedding of Peleus and Thetis all the gods were invited with the exception of Eris, and, enraged at her exclusion, she spitefully caused a quarrel among the goddesses that led to the Trojan war. <br><br>The satellite (136199) Eris I, discovered 2005 Sept. 10 by M. E. Brown and the Keck adaptive optics team at Mauna Kea, is named Dysnomia, for the Daimon spirit of lawlessness.  Dysnomia is the daughter of Eris, goddess of chaos and strife, and the counterpart to Eunomia, who puts an end to the anger of grievous strife. ",
+   "disambiguation_list": null,
+   "dual_status_info": null,
+   "found": 1,
+   "iau_designation": "(136199)",
+   "name": "Eris",
+   "object_type": [
+    "Minor Planet (Binary)",
+    1
+   ],
+   "orbfit_name": "136199",
+   "packed_permid": "D6199",
+   "packed_primary_provisional_designation": "K03UV3B",
+   "packed_secondary_provisional_designations": [],
+   "permid": "136199",
+   "unpacked_primary_provisional_designation": "2003 UB313",
+   "unpacked_secondary_provisional_designations": []
+  },
+  "136472": {
+   "citation": "(136472) Makemake = 2005 FY9<br><br>Makemake is the creator of humanity and the god of fertility in the mythology of the South Pacific island of Rapa Nui, or Easter Island.  He was the chief god of the Tangata manu bird-man cult and was worshiped in the form of sea birds, which were his incarnation.  His material symbol was a man with a bird's head. ",
+   "disambiguation_list": null,
+   "dual_status_info": null,
+   "found": 1,
+   "iau_designation": "(136472)",
+   "name": "Makemake",
+   "object_type": [
+    "Minor Planet (Binary)",
+    1
+   ],
+   "orbfit_name": "136472",
+   "packed_permid": "D6472",
+   "packed_primary_provisional_designation": "K05F09Y",
+   "packed_secondary_provisional_designations": [],
+   "permid": "136472",
+   "unpacked_primary_provisional_designation": "2005 FY9",
+   "unpacked_secondary_provisional_designations": []
+  },
+  "152830": {
+   "citation": "(152830) Dinkinesh<br><br>Dinkinesh is an Ethiopian appellation for the Australopithecus afarensis skeleton AL 288-1, also known as “Lucy”, that was discovered in 1974 at Hadar, in the Awash Valley of Ethiopia.  The nickname means “you are marvelous”.",
+   "disambiguation_list": null,
+   "dual_status_info": null,
+   "found": 1,
+   "iau_designation": "(152830)",
+   "name": "Dinkinesh",
+   "object_type": [
+    "Minor Planet",
+    0
+   ],
+   "orbfit_name": "152830",
+   "packed_permid": "F2830",
+   "packed_primary_provisional_designation": "J99V57D",
+   "packed_secondary_provisional_designations": [
+    "K04H78J",
+    "K07C63B"
+   ],
+   "permid": "152830",
+   "unpacked_primary_provisional_designation": "1999 VD57",
+   "unpacked_secondary_provisional_designations": [
+    "2004 HJ78",
+    "2007 CB63"
+   ]
+  },
+  "16": {
+   "citation": "\\N",
+   "disambiguation_list": null,
+   "dual_status_info": null,
+   "found": 1,
+   "iau_designation": "(16)",
+   "name": "Psyche",
+   "object_type": [
+    "Minor Planet",
+    0
+   ],
+   "orbfit_name": "16",
+   "packed_permid": "00016",
+   "packed_primary_provisional_designation": "I52F00A",
+   "packed_secondary_provisional_designations": [],
+   "permid": "16",
+   "unpacked_primary_provisional_designation": "A852 FA",
+   "unpacked_secondary_provisional_designations": []
+  },
+  "162173": {
+   "citation": "(162173) Ryugu = 1999 JU3<br><br>Ryugu is the undersea palace of the Dragon God. In a Japanese legend, a fisherman was rewarded with a visit to Ryugu and brought back a box with a secret.  The spaceprobe Hayabusa 2 will visit this asteroid and bring back a capsule containing surface samples. ",
+   "disambiguation_list": null,
+   "dual_status_info": null,
+   "found": 1,
+   "iau_designation": "(162173)",
+   "name": "Ryugu",
+   "object_type": [
+    "Minor Planet",
+    0
+   ],
+   "orbfit_name": "162173",
+   "packed_permid": "G2173",
+   "packed_primary_provisional_designation": "J99J03U",
+   "packed_secondary_provisional_designations": [],
+   "permid": "162173",
+   "unpacked_primary_provisional_designation": "1999 JU3",
+   "unpacked_secondary_provisional_designations": []
+  },
+  "19P": {
+   "citation": null,
+   "disambiguation_list": null,
+   "dual_status_info": null,
+   "found": 1,
+   "iau_designation": "(19P)",
+   "name": "Borrelly",
+   "object_type": [
+    "Comet",
+    10
+   ],
+   "orbfit_name": "19P",
+   "packed_permid": "0019P",
+   "packed_primary_provisional_designation": "PJ04Y020",
+   "packed_secondary_provisional_designations": [
+    "PJ11S010"
+   ],
+   "permid": "19P",
+   "unpacked_primary_provisional_designation": "P/1904 Y2",
+   "unpacked_secondary_provisional_designations": [
+    "P/1911 S1"
+   ]
+  },
+  "1P": {
+   "citation": null,
+   "disambiguation_list": null,
+   "dual_status_info": null,
+   "found": 1,
+   "iau_designation": "(1P)",
+   "name": "Halley",
+   "object_type": [
+    "Comet",
+    10
+   ],
+   "orbfit_name": "1P",
+   "packed_permid": "0001P",
+   "packed_primary_provisional_designation": "PG82Q010",
+   "packed_secondary_provisional_designations": [
+    "P-60K010",
+    "P.36U010",
+    "P/13Q010",
+    "P/88Q010",
+    "P066B010",
+    "P141F010",
+    "P218H010",
+    "P295J010",
+    "P374E010",
+    "P451L010",
+    "P530Q010",
+    "P607H010",
+    "P684R010",
+    "P760K010",
+    "P837F010",
+    "P912J010",
+    "P989N010",
+    "PA66G010",
+    "PB45G010",
+    "PC22R010",
+    "PD01R010",
+    "PD78S010",
+    "PE56K010",
+    "PF31P010",
+    "PG07S010",
+    "PH58Y010",
+    "PI35P010",
+    "PJ09R010",
+    "PJ82U010"
+   ],
+   "permid": "1P",
+   "unpacked_primary_provisional_designation": "P/1682 Q1",
+   "unpacked_secondary_provisional_designations": [
+    "P/-11 Q1",
+    "P/-163 U1",
+    "P/-239 K1",
+    "P/-86 Q1",
+    "P/1066 G1",
+    "P/1145 G1",
+    "P/1222 R1",
+    "P/1301 R1",
+    "P/1378 S1",
+    "P/141 F1",
+    "P/1456 K1",
+    "P/1531 P1",
+    "P/1607 S1",
+    "P/1758 Y1",
+    "P/1835 P1",
+    "P/1909 R1",
+    "P/1982 U1",
+    "P/218 H1",
+    "P/295 J1",
+    "P/374 E1",
+    "P/451 L1",
+    "P/530 Q1",
+    "P/607 H1",
+    "P/66 B1",
+    "P/684 R1",
+    "P/760 K1",
+    "P/837 F1",
+    "P/912 J1",
+    "P/989 N1"
+   ]
+  },
+  "2": {
+   "citation": "\\N",
+   "disambiguation_list": null,
+   "dual_status_info": null,
+   "found": 1,
+   "iau_designation": "(2)",
+   "name": "Pallas",
+   "object_type": [
+    "Minor Planet",
+    0
+   ],
+   "orbfit_name": "2",
+   "packed_permid": "00002",
+   "packed_primary_provisional_designation": "I02F00A",
+   "packed_secondary_provisional_designations": [],
+   "permid": "2",
+   "unpacked_primary_provisional_designation": "A802 FA",
+   "unpacked_secondary_provisional_designations": []
+  },
+  "20000": {
+   "citation": "(20000) Varuna = 2000 WR106<br><br>Varuna is one of the oldest of the vedic deities, the maker and upholder of heaven and earth.  As such he is king of gods and men and the universe, and he has unlimited knowledge.   The name was suggested by M. Sarabhai. ",
+   "disambiguation_list": null,
+   "dual_status_info": null,
+   "found": 1,
+   "iau_designation": "(20000)",
+   "name": "Varuna",
+   "object_type": [
+    "Minor Planet",
+    0
+   ],
+   "orbfit_name": "20000",
+   "packed_permid": "20000",
+   "packed_primary_provisional_designation": "K00WA6R",
+   "packed_secondary_provisional_designations": [],
+   "permid": "20000",
+   "unpacked_primary_provisional_designation": "2000 WR106",
+   "unpacked_secondary_provisional_designations": []
+  },
+  "2060": {
+   "citation": "(2060) Chiron<br><br>The name is that of the wisest and most just of the Centaurs, son of Kronos and the ocean nymph Philyra.  Beloved by Apollo and Diana, he learned from them botany, music, astronomy, divination and medicine and served in turn as instructor of the Greek heroes.",
+   "disambiguation_list": null,
+   "dual_status_info": {
+    "found": 1,
+    "iau_designation": "(95P)",
+    "name": "Chiron",
+    "new_style_packed_permid": "00000095P",
+    "new_style_packed_primary_provisional_designation": "PJ77U00000B",
+    "object_type": [
+     "Dual Status (Minor Planet and Comet)",
+     20
+    ],
+    "orbfit_name": "95P",
+    "packed_permid": "0095P",
+    "packed_primary_provisional_designation": "PJ77U00B",
+    "packed_secondary_provisional_designations": [],
+    "permid": "95P",
+    "unpacked_primary_provisional_designation": "P/1977 UB",
+    "unpacked_secondary_provisional_designations": []
+   },
+   "found": 1,
+   "iau_designation": "(2060)",
+   "name": "Chiron",
+   "object_type": [
+    "Dual Status (Minor Planet and Comet)",
+    20
+   ],
+   "orbfit_name": "2060",
+   "packed_permid": "02060",
+   "packed_primary_provisional_designation": "J77U00B",
+   "packed_secondary_provisional_designations": [],
+   "permid": "2060",
+   "unpacked_primary_provisional_designation": "1977 UB",
+   "unpacked_secondary_provisional_designations": []
+  },
+  "21": {
+   "citation": "\\N",
+   "disambiguation_list": null,
+   "dual_status_info": null,
+   "found": 1,
+   "iau_designation": "(21)",
+   "name": "Lutetia",
+   "object_type": [
+    "Minor Planet",
+    0
+   ],
+   "orbfit_name": "21",
+   "packed_permid": "00021",
+   "packed_primary_provisional_designation": "I52V00A",
+   "packed_secondary_provisional_designations": [],
+   "permid": "21",
+   "unpacked_primary_provisional_designation": "A852 VA",
+   "unpacked_secondary_provisional_designations": []
+  },
+  "21P": {
+   "citation": null,
+   "disambiguation_list": null,
+   "dual_status_info": null,
+   "found": 1,
+   "iau_designation": "(21P)",
+   "name": "Giacobini-Zinner",
+   "object_type": [
+    "Comet",
+    10
+   ],
+   "orbfit_name": "21P",
+   "packed_permid": "0021P",
+   "packed_primary_provisional_designation": "PJ00Y010",
+   "packed_secondary_provisional_designations": [
+    "PJ13U010"
+   ],
+   "permid": "21P",
+   "unpacked_primary_provisional_designation": "P/1900 Y1",
+   "unpacked_secondary_provisional_designations": [
+    "P/1913 U1"
+   ]
+  },
+  "225088": {
+   "citation": "(225088) Gonggong = 2007 OR10<br><br>Gonggong is a Chinese water god with red hair and a serpent-like tail. He is known for creating chaos, causing flooding, and tilting the Earth; he is often depicted with the head of a human and the body of a snake.  Gonggong is often attended by his minister, Xiangliu, a nine-headed poisonous snake monster for whom the satellite is named. ",
+   "disambiguation_list": null,
+   "dual_status_info": null,
+   "found": 1,
+   "iau_designation": "(225088)",
+   "name": "Gonggong",
+   "object_type": [
+    "Minor Planet (Binary)",
+    1
+   ],
+   "orbfit_name": "225088",
+   "packed_permid": "M5088",
+   "packed_primary_provisional_designation": "K07O10R",
+   "packed_secondary_provisional_designations": [],
+   "permid": "225088",
+   "unpacked_primary_provisional_designation": "2007 OR10",
+   "unpacked_secondary_provisional_designations": []
+  },
+  "243": {
+   "citation": "\\N",
+   "disambiguation_list": null,
+   "dual_status_info": null,
+   "found": 1,
+   "iau_designation": "(243)",
+   "name": "Ida",
+   "object_type": [
+    "Minor Planet (Binary)",
+    1
+   ],
+   "orbfit_name": "243",
+   "packed_permid": "00243",
+   "packed_primary_provisional_designation": "I84S00B",
+   "packed_secondary_provisional_designations": [
+    "J10C00D",
+    "J88D01B"
+   ],
+   "permid": "243",
+   "unpacked_primary_provisional_designation": "A884 SB",
+   "unpacked_secondary_provisional_designations": [
+    "1988 DB1",
+    "A910 CD"
+   ]
+  },
+  "25143": {
+   "citation": "(25143) Itokawa = 1998 SF36<br><br>Hideo Itokawa (1912-1999) is regarded as the Father of Japanese rocketry.  An aerospace engineer, Itokawa initiated Japan's first launch tests of the solid rocket series called &quot;Pencil&quot; in 1955.  Under his unique vision and strong leadership, his rockets reached space by 1960 and put Japan's first satellite into orbit in 1970. ",
+   "disambiguation_list": null,
+   "dual_status_info": null,
+   "found": 1,
+   "iau_designation": "(25143)",
+   "name": "Itokawa",
+   "object_type": [
+    "Minor Planet",
+    0
+   ],
+   "orbfit_name": "25143",
+   "packed_permid": "25143",
+   "packed_primary_provisional_designation": "J98S36F",
+   "packed_secondary_provisional_designations": [],
+   "permid": "25143",
+   "unpacked_primary_provisional_designation": "1998 SF36",
+   "unpacked_secondary_provisional_designations": []
+  },
+  "253": {
+   "citation": "\\N",
+   "disambiguation_list": null,
+   "dual_status_info": null,
+   "found": 1,
+   "iau_designation": "(253)",
+   "name": "Mathilde",
+   "object_type": [
+    "Minor Planet",
+    0
+   ],
+   "orbfit_name": "253",
+   "packed_permid": "00253",
+   "packed_primary_provisional_designation": "I85V00A",
+   "packed_secondary_provisional_designations": [
+    "J15T00N",
+    "J49O01L"
+   ],
+   "permid": "253",
+   "unpacked_primary_provisional_designation": "A885 VA",
+   "unpacked_secondary_provisional_designations": [
+    "1949 OL1",
+    "A915 TN"
+   ]
+  },
+  "26P": {
+   "citation": null,
+   "disambiguation_list": null,
+   "dual_status_info": null,
+   "found": 1,
+   "iau_designation": "(26P)",
+   "name": "Grigg-Skjellerup",
+   "object_type": [
+    "Comet",
+    10
+   ],
+   "orbfit_name": "26P",
+   "packed_permid": "0026P",
+   "packed_primary_provisional_designation": "PJ22K010",
+   "packed_secondary_provisional_designations": [
+    "PI08C010",
+    "PJ02O010",
+    "PJ27F010"
+   ],
+   "permid": "26P",
+   "unpacked_primary_provisional_designation": "P/1922 K1",
+   "unpacked_secondary_provisional_designations": [
+    "P/1808 C1",
+    "P/1902 O1",
+    "P/1927 F1"
+   ]
+  },
+  "2867": {
+   "citation": "(2867) Šteins = 1969 VC<br><br>Named in memory of Karlis Augustovich Šteins (1911-1983), director of the Latvian University's Astronomical Observatory from 1959, well known for his work on cometary cosmogony.  He also studied the rotation of the earth and designed astronomical instruments. ",
+   "disambiguation_list": null,
+   "dual_status_info": null,
+   "found": 1,
+   "iau_designation": "(2867)",
+   "name": "Šteins",
+   "object_type": [
+    "Minor Planet",
+    0
+   ],
+   "orbfit_name": "2867",
+   "packed_permid": "02867",
+   "packed_primary_provisional_designation": "J69V00C",
+   "packed_secondary_provisional_designations": [
+    "J54Q00L",
+    "J79F04J",
+    "J80V01V",
+    "J80W00B"
+   ],
+   "permid": "2867",
+   "unpacked_primary_provisional_designation": "1969 VC",
+   "unpacked_secondary_provisional_designations": [
+    "1954 QL",
+    "1979 FJ4",
+    "1980 VV1",
+    "1980 WB"
+   ]
+  },
+  "28978": {
+   "citation": "(28978) Ixion = 2001 KX76<br><br>Ixion tried to win the love of Hera, but Zeus thwarted this by creating the cloud Nephele, which resembled Hera and by whom Ixion fathered the Centaurs.  For his crimes Ixion was bound to a wheel that turns forever in the underworld.  The name was suggested by E. K. Elliot. ",
+   "disambiguation_list": null,
+   "dual_status_info": null,
+   "found": 1,
+   "iau_designation": "(28978)",
+   "name": "Ixion",
+   "object_type": [
+    "Minor Planet",
+    0
+   ],
+   "orbfit_name": "28978",
+   "packed_permid": "28978",
+   "packed_primary_provisional_designation": "K01K76X",
+   "packed_secondary_provisional_designations": [],
+   "permid": "28978",
+   "unpacked_primary_provisional_designation": "2001 KX76",
+   "unpacked_secondary_provisional_designations": []
+  },
+  "29P": {
+   "citation": null,
+   "disambiguation_list": null,
+   "dual_status_info": null,
+   "found": 1,
+   "iau_designation": "(29P)",
+   "name": "Schwassmann-Wachmann",
+   "object_type": [
+    "Comet",
+    10
+   ],
+   "orbfit_name": "29P",
+   "packed_permid": "0029P",
+   "packed_primary_provisional_designation": "PJ27V010",
+   "packed_secondary_provisional_designations": [
+    "PJ02E010",
+    "PJ76U03R",
+    "PJ89R05L"
+   ],
+   "permid": "29P",
+   "unpacked_primary_provisional_designation": "P/1927 V1",
+   "unpacked_secondary_provisional_designations": [
+    "P/1902 E1",
+    "P/1976 UR3",
+    "P/1989 RL5"
+   ]
+  },
+  "2P": {
+   "citation": null,
+   "disambiguation_list": null,
+   "dual_status_info": null,
+   "found": 1,
+   "iau_designation": "(2P)",
+   "name": "Encke",
+   "object_type": [
+    "Comet",
+    10
+   ],
+   "orbfit_name": "2P",
+   "packed_permid": "0002P",
+   "packed_primary_provisional_designation": "PI18W010",
+   "packed_secondary_provisional_designations": [
+    "K25NJ7R",
+    "PH86B010",
+    "PH95V010",
+    "PI05U010",
+    "PI22L010",
+    "PK25NJ7R"
+   ],
+   "permid": "2P",
+   "unpacked_primary_provisional_designation": "P/1818 W1",
+   "unpacked_secondary_provisional_designations": [
+    "2025 NR197",
+    "P/1786 B1",
+    "P/1795 V1",
+    "P/1805 U1",
+    "P/1822 L1",
+    "P/2025 NR197"
+   ]
+  },
+  "3": {
+   "citation": "\\N",
+   "disambiguation_list": null,
+   "dual_status_info": null,
+   "found": 1,
+   "iau_designation": "(3)",
+   "name": "Juno",
+   "object_type": [
+    "Minor Planet",
+    0
+   ],
+   "orbfit_name": "3",
+   "packed_permid": "00003",
+   "packed_primary_provisional_designation": "I04R00A",
+   "packed_secondary_provisional_designations": [],
+   "permid": "3",
+   "unpacked_primary_provisional_designation": "A804 RA",
+   "unpacked_secondary_provisional_designations": []
+  },
+  "307261": {
+   "citation": "(307261) Máni<br><br>Máni is a personification of the Moon from Old Norse as described in the Prose Edda.  Máni is the son of Mundilfari and the brother of Sól, the Sun.",
+   "disambiguation_list": null,
+   "dual_status_info": null,
+   "found": 1,
+   "iau_designation": "(307261)",
+   "name": "Máni",
+   "object_type": [
+    "Minor Planet",
+    0
+   ],
+   "orbfit_name": "307261",
+   "packed_permid": "U7261",
+   "packed_primary_provisional_designation": "K02M04S",
+   "packed_secondary_provisional_designations": [],
+   "permid": "307261",
+   "unpacked_primary_provisional_designation": "2002 MS4",
+   "unpacked_secondary_provisional_designations": []
+  },
+  "31": {
+   "citation": "\\N",
+   "disambiguation_list": null,
+   "dual_status_info": null,
+   "found": 1,
+   "iau_designation": "(31)",
+   "name": "Euphrosyne",
+   "object_type": [
+    "Minor Planet (Binary)",
+    1
+   ],
+   "orbfit_name": "31",
+   "packed_permid": "00031",
+   "packed_primary_provisional_designation": "I54R00A",
+   "packed_secondary_provisional_designations": [
+    "J07G00P",
+    "J18G00B"
+   ],
+   "permid": "31",
+   "unpacked_primary_provisional_designation": "A854 RA",
+   "unpacked_secondary_provisional_designations": [
+    "A907 GP",
+    "A918 GB"
+   ]
+  },
+  "3200": {
+   "citation": "(3200) Phaethon = 1983 TB<br><br>This object associated with the Geminid meteor stream has the smallest known perihelion distance for a body in a short-period orbit and is named for the son of Helios, who operated the solar chariot for a day, lost control of it and almost set fire to the earth. ",
+   "disambiguation_list": null,
+   "dual_status_info": null,
+   "found": 1,
+   "iau_designation": "(3200)",
+   "name": "Phaethon",
+   "object_type": [
+    "Minor Planet",
+    0
+   ],
+   "orbfit_name": "3200",
+   "packed_permid": "03200",
+   "packed_primary_provisional_designation": "J83T00B",
+   "packed_secondary_provisional_designations": [],
+   "permid": "3200",
+   "unpacked_primary_provisional_designation": "1983 TB",
+   "unpacked_secondary_provisional_designations": []
+  },
+  "3548": {
+   "citation": "(3548) Eurybates = 1973 SO<br><br>Eurybates was a herald in the Greek army during the siege of Troy. ",
+   "disambiguation_list": null,
+   "dual_status_info": null,
+   "found": 1,
+   "iau_designation": "(3548)",
+   "name": "Eurybates",
+   "object_type": [
+    "Minor Planet (Binary)",
+    1
+   ],
+   "orbfit_name": "3548",
+   "packed_permid": "03548",
+   "packed_primary_provisional_designation": "J73S00O",
+   "packed_secondary_provisional_designations": [
+    "J54C00B",
+    "J57J00X",
+    "J78E05E",
+    "J85T00Z"
+   ],
+   "permid": "3548",
+   "unpacked_primary_provisional_designation": "1973 SO",
+   "unpacked_secondary_provisional_designations": [
+    "1954 CB",
+    "1957 JX",
+    "1978 EE5",
+    "1985 TZ"
+   ]
+  },
+  "4": {
+   "citation": "\\N",
+   "disambiguation_list": null,
+   "dual_status_info": null,
+   "found": 1,
+   "iau_designation": "(4)",
+   "name": "Vesta",
+   "object_type": [
+    "Minor Planet",
+    0
+   ],
+   "orbfit_name": "4",
+   "packed_permid": "00004",
+   "packed_primary_provisional_designation": "I07F00A",
+   "packed_secondary_provisional_designations": [],
+   "permid": "4",
+   "unpacked_primary_provisional_designation": "A807 FA",
+   "unpacked_secondary_provisional_designations": []
+  },
+  "4179": {
+   "citation": "(4179) Toutatis<br><br>Named after the Gaulish god, protector of the tribe.  This totemic deity is well known because of the cartoon series <i>Les aventures d'Astérix</i> by Uderzo and Goscinny.  This tells the stories of two almost fearless heroes living in the last village under siege in Roman-occupied Gaul in 50 B.C., and whose only fear is that the sky may fall onto their heads one day.  Since this object is the Apollo object with the smallest inclination known, it is a good candidate to fall on our heads one of these days...  But as the chief of the village always says: “C'est pas demain la veille...”  Citation written by the discoverer and A. Maury and endorsed by J. D. Mulholland, who with Maury obtained the discovery plates.",
+   "disambiguation_list": null,
+   "dual_status_info": null,
+   "found": 1,
+   "iau_designation": "(4179)",
+   "name": "Toutatis",
+   "object_type": [
+    "Minor Planet",
+    0
+   ],
+   "orbfit_name": "4179",
+   "packed_permid": "04179",
+   "packed_primary_provisional_designation": "J89A00C",
+   "packed_secondary_provisional_designations": [
+    "J34C00T"
+   ],
+   "permid": "4179",
+   "unpacked_primary_provisional_designation": "1989 AC",
+   "unpacked_secondary_provisional_designations": [
+    "1934 CT"
+   ]
+  },
+  "433": {
+   "citation": "\\N",
+   "disambiguation_list": null,
+   "dual_status_info": null,
+   "found": 1,
+   "iau_designation": "(433)",
+   "name": "Eros",
+   "object_type": [
+    "Minor Planet",
+    0
+   ],
+   "orbfit_name": "433",
+   "packed_permid": "00433",
+   "packed_primary_provisional_designation": "I98P00A",
+   "packed_secondary_provisional_designations": [
+    "J56P00C"
+   ],
+   "permid": "433",
+   "unpacked_primary_provisional_designation": "A898 PA",
+   "unpacked_secondary_provisional_designations": [
+    "1956 PC"
+   ]
+  },
+  "451": {
+   "citation": "\\N",
+   "disambiguation_list": null,
+   "dual_status_info": null,
+   "found": 1,
+   "iau_designation": "(451)",
+   "name": "Patientia",
+   "object_type": [
+    "Minor Planet",
+    0
+   ],
+   "orbfit_name": "451",
+   "packed_permid": "00451",
+   "packed_primary_provisional_designation": "I99X00A",
+   "packed_secondary_provisional_designations": [
+    "J02M00B"
+   ],
+   "permid": "451",
+   "unpacked_primary_provisional_designation": "A899 XA",
+   "unpacked_secondary_provisional_designations": [
+    "A902 MB"
+   ]
+  },
+  "46P": {
+   "citation": null,
+   "disambiguation_list": null,
+   "dual_status_info": null,
+   "found": 1,
+   "iau_designation": "(46P)",
+   "name": "Wirtanen",
+   "object_type": [
+    "Comet",
+    10
+   ],
+   "orbfit_name": "46P",
+   "packed_permid": "0046P",
+   "packed_primary_provisional_designation": "PJ48A010",
+   "packed_secondary_provisional_designations": [
+    "PJ54R020"
+   ],
+   "permid": "46P",
+   "unpacked_primary_provisional_designation": "P/1948 A1",
+   "unpacked_secondary_provisional_designations": [
+    "P/1954 R2"
+   ]
+  },
+  "486958": {
+   "citation": "(486958) Arrokoth = 2014 MU69<br><br>Arrokoth is the word for &quot;sky&quot; from the Powhatan language of native people from the Chesapeake Bay region.  Institutions in this region played a prominent role in facilitating the discovery and exploration of this ancient and distant object. ",
+   "disambiguation_list": null,
+   "dual_status_info": null,
+   "found": 1,
+   "iau_designation": "(486958)",
+   "name": "Arrokoth",
+   "object_type": [
+    "Minor Planet",
+    0
+   ],
+   "orbfit_name": "486958",
+   "packed_permid": "m6958",
+   "packed_primary_provisional_designation": "K14M69U",
+   "packed_secondary_provisional_designations": [],
+   "permid": "486958",
+   "unpacked_primary_provisional_designation": "2014 MU69",
+   "unpacked_secondary_provisional_designations": []
+  },
+  "50000": {
+   "citation": "(50000) Quaoar I = Weywot<br><br>Weywot is the god of the sky in Tongva Mythology.  Weywot was created by Quaoar when he sang the song of creation.  The name was chosen by the Tongva tribe. ",
+   "disambiguation_list": null,
+   "dual_status_info": null,
+   "found": 1,
+   "iau_designation": "(50000)",
+   "name": "Quaoar",
+   "object_type": [
+    "Minor Planet (Binary)",
+    1
+   ],
+   "orbfit_name": "50000",
+   "packed_permid": "50000",
+   "packed_primary_provisional_designation": "K02L60M",
+   "packed_secondary_provisional_designations": [],
+   "permid": "50000",
+   "unpacked_primary_provisional_designation": "2002 LM60",
+   "unpacked_secondary_provisional_designations": []
+  },
+  "511": {
+   "citation": "\\N",
+   "disambiguation_list": null,
+   "dual_status_info": null,
+   "found": 1,
+   "iau_designation": "(511)",
+   "name": "Davida",
+   "object_type": [
+    "Minor Planet",
+    0
+   ],
+   "orbfit_name": "511",
+   "packed_permid": "00511",
+   "packed_primary_provisional_designation": "J03K00B",
+   "packed_secondary_provisional_designations": [],
+   "permid": "511",
+   "unpacked_primary_provisional_designation": "A903 KB",
+   "unpacked_secondary_provisional_designations": []
+  },
+  "52": {
+   "citation": "\\N",
+   "disambiguation_list": null,
+   "dual_status_info": null,
+   "found": 1,
+   "iau_designation": "(52)",
+   "name": "Europa",
+   "object_type": [
+    "Minor Planet",
+    0
+   ],
+   "orbfit_name": "52",
+   "packed_permid": "00052",
+   "packed_primary_provisional_designation": "I58C00A",
+   "packed_secondary_provisional_designations": [
+    "J48L00A"
+   ],
+   "permid": "52",
+   "unpacked_primary_provisional_designation": "A858 CA",
+   "unpacked_secondary_provisional_designations": [
+    "1948 LA"
+   ]
+  },
+  "52246": {
+   "citation": "(52246) Donaldjohanson = 1981 EQ5<br><br>American paleoanthropologist Donald Carl Johanson (b. 1943) discovered the fossil of a female hominin australopithecine known as `Lucy'. ",
+   "disambiguation_list": null,
+   "dual_status_info": null,
+   "found": 1,
+   "iau_designation": "(52246)",
+   "name": "Donaldjohanson",
+   "object_type": [
+    "Minor Planet",
+    0
+   ],
+   "orbfit_name": "52246",
+   "packed_permid": "52246",
+   "packed_primary_provisional_designation": "J81E05Q",
+   "packed_secondary_provisional_designations": [
+    "J98Y26F"
+   ],
+   "permid": "52246",
+   "unpacked_primary_provisional_designation": "1981 EQ5",
+   "unpacked_secondary_provisional_designations": [
+    "1998 YF26"
+   ]
+  },
+  "5535": {
+   "citation": "(5535) Annefrank = 1942 EM<br><br>Named in memory of Anne Frank (1929-1945), whose life and diary form a poignant record of the ravages of war and racism, as seen through the eyes of a young person.  Notebooks and papers in Anne's handwriting were found in the family's hiding place on the Prinsengracht Canal in Amsterdam by Miep Gies, a friend who had protected and sustained the group during their isolation. They appeared in published form in 1947 and have since been widely read in more than thirty languages.  Despite the incredible adversity it records, the message is inherently one of hope.  Proposed on the fiftieth anniversary of the cessation of hostilities in Europe.  Name proposed and citation prepared by G. C. L. Aikman. ",
+   "disambiguation_list": null,
+   "dual_status_info": null,
+   "found": 1,
+   "iau_designation": "(5535)",
+   "name": "Annefrank",
+   "object_type": [
+    "Minor Planet",
+    0
+   ],
+   "orbfit_name": "5535",
+   "packed_permid": "05535",
+   "packed_primary_provisional_designation": "J42E00M",
+   "packed_secondary_provisional_designations": [
+    "J78E06K",
+    "J86T14V",
+    "J91B02O"
+   ],
+   "permid": "5535",
+   "unpacked_primary_provisional_designation": "1942 EM",
+   "unpacked_secondary_provisional_designations": [
+    "1978 EK6",
+    "1986 TV14",
+    "1991 BO2"
+   ]
+  },
+  "55P": {
+   "citation": null,
+   "disambiguation_list": null,
+   "dual_status_info": null,
+   "found": 1,
+   "iau_designation": "(55P)",
+   "name": "Tempel-Tuttle",
+   "object_type": [
+    "Comet",
+    10
+   ],
+   "orbfit_name": "55P",
+   "packed_permid": "0055P",
+   "packed_primary_provisional_designation": "PI65Y010",
+   "packed_secondary_provisional_designations": [
+    "PD66U010",
+    "PG99U010",
+    "PJ65M020",
+    "PJ97E010"
+   ],
+   "permid": "55P",
+   "unpacked_primary_provisional_designation": "P/1865 Y1",
+   "unpacked_secondary_provisional_designations": [
+    "P/1366 U1",
+    "P/1699 U1",
+    "P/1965 M2",
+    "P/1997 E1"
+   ]
+  },
+  "617": {
+   "citation": "\\N",
+   "disambiguation_list": null,
+   "dual_status_info": null,
+   "found": 1,
+   "iau_designation": "(617)",
+   "name": "Patroclus",
+   "object_type": [
+    "Minor Planet (Binary)",
+    1
+   ],
+   "orbfit_name": "617",
+   "packed_permid": "00617",
+   "packed_primary_provisional_designation": "J06U00L",
+   "packed_secondary_provisional_designations": [
+    "J41X00C",
+    "J62N00B"
+   ],
+   "permid": "617",
+   "unpacked_primary_provisional_designation": "A906 UL",
+   "unpacked_secondary_provisional_designations": [
+    "1941 XC",
+    "1962 NB"
+   ]
+  },
+  "624": {
+   "citation": "\\N",
+   "disambiguation_list": null,
+   "dual_status_info": null,
+   "found": 1,
+   "iau_designation": "(624)",
+   "name": "Hektor",
+   "object_type": [
+    "Minor Planet (Binary)",
+    1
+   ],
+   "orbfit_name": "624",
+   "packed_permid": "00624",
+   "packed_primary_provisional_designation": "J07C00F",
+   "packed_secondary_provisional_designations": [
+    "J48V00D"
+   ],
+   "permid": "624",
+   "unpacked_primary_provisional_designation": "A907 CF",
+   "unpacked_secondary_provisional_designations": [
+    "1948 VD"
+   ]
+  },
+  "65803": {
+   "citation": "(65803) Didymos = 1996 GT<br><br>Greek for &quot;twin&quot;, this rapid-rotator Amor possesses a satellite with an orbital period of 11.9 hr.  Suspicions arose in the Goldstone delay-Doppler echoes, and these were confirmed with the optical light curve analysis, along with Arecibo radar imaging on 2003 Nov. 23.  The name was suggested by J. Montani. ",
+   "disambiguation_list": null,
+   "dual_status_info": null,
+   "found": 1,
+   "iau_designation": "(65803)",
+   "name": "Didymos",
+   "object_type": [
+    "Minor Planet (Binary)",
+    1
+   ],
+   "orbfit_name": "65803",
+   "packed_permid": "65803",
+   "packed_primary_provisional_designation": "J96G00T",
+   "packed_secondary_provisional_designations": [],
+   "permid": "65803",
+   "unpacked_primary_provisional_designation": "1996 GT",
+   "unpacked_secondary_provisional_designations": []
+  },
+  "67P": {
+   "citation": null,
+   "disambiguation_list": null,
+   "dual_status_info": null,
+   "found": 1,
+   "iau_designation": "(67P)",
+   "name": "Churyumov-Gerasimenko",
+   "object_type": [
+    "Comet",
+    10
+   ],
+   "orbfit_name": "67P",
+   "packed_permid": "0067P",
+   "packed_primary_provisional_designation": "PJ69R010",
+   "packed_secondary_provisional_designations": [
+    "PJ75P010"
+   ],
+   "permid": "67P",
+   "unpacked_primary_provisional_designation": "P/1969 R1",
+   "unpacked_secondary_provisional_designations": [
+    "P/1975 P1"
+   ]
+  },
+  "704": {
+   "citation": "\\N",
+   "disambiguation_list": null,
+   "dual_status_info": null,
+   "found": 1,
+   "iau_designation": "(704)",
+   "name": "Interamnia",
+   "object_type": [
+    "Minor Planet",
+    0
+   ],
+   "orbfit_name": "704",
+   "packed_permid": "00704",
+   "packed_primary_provisional_designation": "J10T00C",
+   "packed_secondary_provisional_designations": [
+    "J52M00W"
+   ],
+   "permid": "704",
+   "unpacked_primary_provisional_designation": "A910 TC",
+   "unpacked_secondary_provisional_designations": [
+    "1952 MW"
+   ]
+  },
+  "81P": {
+   "citation": null,
+   "disambiguation_list": null,
+   "dual_status_info": null,
+   "found": 1,
+   "iau_designation": "(81P)",
+   "name": "Wild",
+   "object_type": [
+    "Comet",
+    10
+   ],
+   "orbfit_name": "81P",
+   "packed_permid": "0081P",
+   "packed_primary_provisional_designation": "PJ78A020",
+   "packed_secondary_provisional_designations": [
+    "PJ83S010"
+   ],
+   "permid": "81P",
+   "unpacked_primary_provisional_designation": "P/1978 A2",
+   "unpacked_secondary_provisional_designations": [
+    "P/1983 S1"
+   ]
+  },
+  "87": {
+   "citation": "\\N",
+   "disambiguation_list": null,
+   "dual_status_info": null,
+   "found": 1,
+   "iau_designation": "(87)",
+   "name": "Sylvia",
+   "object_type": [
+    "Minor Planet (Binary)",
+    1
+   ],
+   "orbfit_name": "87",
+   "packed_permid": "00087",
+   "packed_primary_provisional_designation": "I66K00A",
+   "packed_secondary_provisional_designations": [
+    "J09G00A"
+   ],
+   "permid": "87",
+   "unpacked_primary_provisional_designation": "A866 KA",
+   "unpacked_secondary_provisional_designations": [
+    "A909 GA"
+   ]
+  },
+  "90377": {
+   "citation": "(90377) Sedna = 2003 VB12<br><br>Sedna is the Inuit goddess of the sea and the mother of all sea creatures. She rewards the people of the land with food from the sea. Without her blessing, hunts fail and the people starve. She is thus one of the most important figures in Inuit legend. ",
+   "disambiguation_list": null,
+   "dual_status_info": null,
+   "found": 1,
+   "iau_designation": "(90377)",
+   "name": "Sedna",
+   "object_type": [
+    "Minor Planet",
+    0
+   ],
+   "orbfit_name": "90377",
+   "packed_permid": "90377",
+   "packed_primary_provisional_designation": "K03V12B",
+   "packed_secondary_provisional_designations": [],
+   "permid": "90377",
+   "unpacked_primary_provisional_designation": "2003 VB12",
+   "unpacked_secondary_provisional_designations": []
+  },
+  "90482": {
+   "citation": "(90482) Orcus I = Vanth<br><br>Vanth is a daimon in Etruscan mythology who guides the dead to the underworld.  She often appears on tomb paintings and sarcophagi, where she is depicted with wings and a torch.  She is frequently shown in the presence of Charun, a guard of the underworld.  The name was suggested by S. Taaffe. ",
+   "disambiguation_list": null,
+   "dual_status_info": null,
+   "found": 1,
+   "iau_designation": "(90482)",
+   "name": "Orcus",
+   "object_type": [
+    "Minor Planet (Binary)",
+    1
+   ],
+   "orbfit_name": "90482",
+   "packed_permid": "90482",
+   "packed_primary_provisional_designation": "K04D00W",
+   "packed_secondary_provisional_designations": [],
+   "permid": "90482",
+   "unpacked_primary_provisional_designation": "2004 DW",
+   "unpacked_secondary_provisional_designations": []
+  },
+  "951": {
+   "citation": "\\N",
+   "disambiguation_list": null,
+   "dual_status_info": null,
+   "found": 1,
+   "iau_designation": "(951)",
+   "name": "Gaspra",
+   "object_type": [
+    "Minor Planet",
+    0
+   ],
+   "orbfit_name": "951",
+   "packed_permid": "00951",
+   "packed_primary_provisional_designation": "J16O00J",
+   "packed_secondary_provisional_designations": [
+    "J13Y00A",
+    "J55M01G"
+   ],
+   "permid": "951",
+   "unpacked_primary_provisional_designation": "A916 OJ",
+   "unpacked_secondary_provisional_designations": [
+    "1955 MG1",
+    "A913 YA"
+   ]
+  },
+  "9969": {
+   "citation": "(9969) Braille<br><br>Named in memory of Louis Braille (1809–1852), who invented the Braille language so that those who could not see could obtain knowledge and explore through the ‘written’ word.  Likewise, this minor planet provides knowledge about our universe and its origins to the people of the earth who, through Deep Space 1, are also able to explore and discover what previously they could not ‘see’.  Name proposed by the discoverers following a suggestion by Kerry Babcock through The Planetary Society's “Name That Asteroid” contest.",
+   "disambiguation_list": null,
+   "dual_status_info": null,
+   "found": 1,
+   "iau_designation": "(9969)",
+   "name": "Braille",
+   "object_type": [
+    "Minor Planet",
+    0
+   ],
+   "orbfit_name": "9969",
+   "packed_permid": "09969",
+   "packed_primary_provisional_designation": "J92K00D",
+   "packed_secondary_provisional_designations": [],
+   "permid": "9969",
+   "unpacked_primary_provisional_designation": "1992 KD",
+   "unpacked_secondary_provisional_designations": []
+  },
+  "99942": {
+   "citation": "(99942) Apophis = 2004 MN4<br><br>Also known as Apep, the Destroyer, Apophis is the Egyptian god of evil and destruction who dwelled in eternal darkness.  As a result of its passage within 40 000 km of the earth on 2029 Apr. 13, this minor planet will move from the Aten to the Apollo class. ",
+   "disambiguation_list": null,
+   "dual_status_info": null,
+   "found": 1,
+   "iau_designation": "(99942)",
+   "name": "Apophis",
+   "object_type": [
+    "Minor Planet",
+    0
+   ],
+   "orbfit_name": "99942",
+   "packed_permid": "99942",
+   "packed_primary_provisional_designation": "K04M04N",
+   "packed_secondary_provisional_designations": [],
+   "permid": "99942",
+   "unpacked_primary_provisional_designation": "2004 MN4",
+   "unpacked_secondary_provisional_designations": []
+  },
+  "9P": {
+   "citation": null,
+   "disambiguation_list": null,
+   "dual_status_info": null,
+   "found": 1,
+   "iau_designation": "(9P)",
+   "name": "Tempel",
+   "object_type": [
+    "Comet",
+    10
+   ],
+   "orbfit_name": "9P",
+   "packed_permid": "0009P",
+   "packed_primary_provisional_designation": "PI67G010",
+   "packed_secondary_provisional_designations": [
+    "PI73G010",
+    "PJ67L010",
+    "PJ72A010"
+   ],
+   "permid": "9P",
+   "unpacked_primary_provisional_designation": "P/1867 G1",
+   "unpacked_secondary_provisional_designations": [
+    "P/1873 G1",
+    "P/1967 L1",
+    "P/1972 A1"
+   ]
+  }
+ }
+}

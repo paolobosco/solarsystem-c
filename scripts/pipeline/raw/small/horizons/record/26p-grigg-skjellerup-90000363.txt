@@ -1,0 +1,25 @@
+API VERSION: 1.2
+API SOURCE: NASA/JPL Horizons API
+
+*******************************************************************************
+JPL/HORIZONS                26P/Grigg-Skjellerup           2026-Oct-18 15:46:25
+Rec #:90000363                  Soln.date: -              # obs: 76 (1922-1942)
+ 
+IAU76/J2000 helio. ecliptic osc. elements (au, days, deg., period=Julian yrs):
+ 
+  EPOCH=  2426840.5 ! 1932-May-13.0000000 (TDB)    RMSW= n.a.
+   EC= .690566             QR= .9076               TP= 2426840.1088999999
+   OM= 216.4781            W= 355.2198             IN= 17.4594
+   A= 2.933097203280829    MA= .07673653876861848  ADIST= 4.958594406561657
+   PER= 5.02340144257703   N= .196206952           ANGMOM= .021308101
+   DAN= .90889             DDN= 4.9204             L= 211.9171734
+   B= -1.4326891                                   TP= 1932-May-12.6088999999
+ 
+Comet physical (GM= km^3/s^2; RAD= km):
+   GM= n.a.                RAD= 1.3
+   M1=  16.5     M2=  n.a.     k1=  5.5    k2= n.a.     PHCOF= n.a.
+
+COMET comments 
+1: soln ref.= SAO/1932
+2: k1=5.5;non-gravs. considered; 2008 SAO Comet Catalog
+*******************************************************************************

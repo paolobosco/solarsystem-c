@@ -1,0 +1,25 @@
+API VERSION: 1.2
+API SOURCE: NASA/JPL Horizons API
+
+*******************************************************************************
+JPL/HORIZONS                      1P/Halley                2026-Oct-18 15:30:44
+Rec #:90000026                  Soln.date: -             # obs: 278 (1682-1836)
+ 
+IAU76/J2000 helio. ecliptic osc. elements (au, days, deg., period=Julian yrs):
+ 
+  EPOCH=  2335640.5 ! 1682-Aug-31.0000000 (TDB)    RMSW= n.a.
+   EC= .967933             QR= .5826210000000001   TP= 2335655.7793999999
+   OM= 55.5669             W= 109.2214             IN= 162.2649
+   A= 18.16886518851158    MA= 359.8055451987973   ADIST= 35.75510937702316
+   PER= 77.4461630202357   N= .012726599           ANGMOM= .018419577
+   DAN= 1.68281            DDN= .86949             L= 305.4616311
+   B= 16.7164375                                   TP= 1682-Sep-15.2793999999
+ 
+Comet physical (GM= km^3/s^2; RAD= km):
+   GM= n.a.                RAD= 5.5
+   M1=  5.5      M2=  13.6     k1=  8.     k2=  5.      PHCOF=  .030
+
+COMET comments 
+1: soln ref.= SAO/1682
+2: k1=8.0, k2=5.0, phase coef.=0.03;epoch may be 2335641.0 (hour ambiguous: 12h/0h)
+*******************************************************************************

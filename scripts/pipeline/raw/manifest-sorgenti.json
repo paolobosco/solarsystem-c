@@ -1,0 +1,2673 @@
+{
+  "formato": 1,
+  "sorgenti": [
+    {
+      "nome": "1981MNRAS.197..633Y.pdf",
+      "descrizione": "Yeomans e Kiang 1981, MNRAS 197, 633 (scansione ADS): tabella 4 dei perieli di 1P",
+      "url": "https://articles.adsabs.harvard.edu/pdf/1981MNRAS.197..633Y",
+      "percorsoCache": "small/fonti/1981MNRAS.197..633Y.pdf",
+      "byte": 1139313,
+      "sha256": "b76ef541825320396a144e9d4e102132dc587b0ffa515ab562bcb68629c9d7f2",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "de441_part-1.bsp",
+      "descrizione": "DE441, SPK tipo 2, JD -3 100 015,5 / 2 440 432,5 (-13200/1969); Park et al. 2021",
+      "url": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/planets/de441_part-1.bsp",
+      "percorsoCache": "de441/de441_part-1.bsp",
+      "byte": 1651119104,
+      "sha256": "13757827f5db41b835a24bbd637488636ce79a8ca754062fed17844f7d5b618e",
+      "estrazione": "2026-10-18",
+      "ultimaModificaServer": "2020-12-22T00:15:43Z"
+    },
+    {
+      "nome": "de441_part-2.bsp",
+      "descrizione": "DE441, SPK tipo 2, JD 2 440 400,5 / 8 000 016,5 (1969/17191); Park et al. 2021",
+      "url": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/planets/de441_part-2.bsp",
+      "percorsoCache": "de441/de441_part-2.bsp",
+      "byte": 1656830976,
+      "sha256": "3abb17dae2d78dd34880377544aacb54892104a0d4462b322cb9f4454d4887f6",
+      "estrazione": "2026-10-18",
+      "ultimaModificaServer": "2020-12-22T00:15:43Z"
+    },
+    {
+      "nome": "eopc04.1962-now",
+      "descrizione": "IERS EOP 20 C04, serie giornaliera 1962-oggi dal centro di produzione (Osservatorio di Parigi)",
+      "url": "https://hpiers.obspm.fr/iers/eop/eopc04/eopc04.1962-now",
+      "percorsoCache": "time/eopc04.1962-now",
+      "byte": 5177232,
+      "sha256": "e9ffaf7a194216357c685cb1c1817db0dbaf05ba39ed6c2558dc353490d3e936",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "linux_m13000p17000.441",
+      "descrizione": "DE441 in formato binario JPL, -13000/+17000, effemeride planetaria di ASSIST; Park et al. 2021",
+      "url": "https://ssd.jpl.nasa.gov/ftp/eph/planets/Linux/de441/linux_m13000p17000.441",
+      "percorsoCache": "assist/linux_m13000p17000.441",
+      "byte": 2788676624,
+      "sha256": "476096486def4e41bfceb29aa27f50784da0bce318902bcf7b88caad058cd4da",
+      "estrazione": "2026-10-18",
+      "ultimaModificaServer": "2021-03-04T19:26:26Z"
+    },
+    {
+      "nome": "sats/jup347.bsp",
+      "descrizione": "SPK satellitare NAIF (moderno), soluzione JUP347",
+      "url": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/jup347.bsp",
+      "percorsoCache": "sats/jup347.bsp",
+      "byte": 921358336,
+      "sha256": "b68bd0af2797aaebe1df0885672e116ad1627e45564212c2ac42a53907e8142e",
+      "estrazione": "2026-10-19"
+    },
+    {
+      "nome": "sats/jup365.bsp",
+      "descrizione": "SPK satellitare NAIF (moderno), soluzione JUP365",
+      "url": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/jup365.bsp",
+      "percorsoCache": "sats/jup365.bsp",
+      "byte": 1136581632,
+      "sha256": "dbf016c01ba4d022154838000cf3f06962cf958ddc503a366f7fe8f81495c5cb",
+      "estrazione": "2026-10-19"
+    },
+    {
+      "nome": "sats/mar099.bsp",
+      "descrizione": "SPK satellitare NAIF (moderno), soluzione MAR099",
+      "url": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/mar099.bsp",
+      "percorsoCache": "sats/mar099.bsp",
+      "byte": 1227574272,
+      "sha256": "9991e57b196bae1a096acc6e2afc6718102ee420d684695de0f0333064c046bc",
+      "estrazione": "2026-10-19"
+    },
+    {
+      "nome": "sats/nep097.bsp",
+      "descrizione": "SPK satellitare NAIF (moderno), soluzione NEP097",
+      "url": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/nep097.bsp",
+      "percorsoCache": "sats/nep097.bsp",
+      "byte": 105262080,
+      "sha256": "5c1132fdc48c54e5d2e4eb663e1ed1a876911eae9433c203f29a5a1b5e1fa9b1",
+      "estrazione": "2026-10-19"
+    },
+    {
+      "nome": "sats/nep097xl-801.bsp",
+      "descrizione": "SPK satellitare NAIF (lungo), soluzione NEP097",
+      "url": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/nep097xl-801.bsp",
+      "percorsoCache": "sats/nep097xl-801.bsp",
+      "byte": 2118416384,
+      "sha256": "3b4ec5b6f23a3b10da9574bc8fb35cfd93ebf9d7951bdcba0c7e26309304bfb1",
+      "estrazione": "2026-10-19"
+    },
+    {
+      "nome": "sats/nep097xl-899.bsp",
+      "descrizione": "SPK satellitare NAIF (lungo), soluzione NEP097",
+      "url": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/nep097xl-899.bsp",
+      "percorsoCache": "sats/nep097xl-899.bsp",
+      "byte": 370729984,
+      "sha256": "95e815cb8584e530d3c83f35e39af4bf67d0874f01b65538cbe9dbf279818df8",
+      "estrazione": "2026-10-19"
+    },
+    {
+      "nome": "sats/nep098_part-1.bsp",
+      "descrizione": "SPK satellitare NAIF (moderno), soluzione NEP098",
+      "url": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/nep098_part-1.bsp",
+      "percorsoCache": "sats/nep098_part-1.bsp",
+      "byte": 821838848,
+      "sha256": "5327f47abba438d993237ff676ab03b728778a965bb238f86de883c0ad7790b8",
+      "estrazione": "2026-10-19"
+    },
+    {
+      "nome": "sats/nep098_part-3.bsp",
+      "descrizione": "SPK satellitare NAIF (moderno), soluzione NEP098",
+      "url": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/nep098_part-3.bsp",
+      "percorsoCache": "sats/nep098_part-3.bsp",
+      "byte": 1791917056,
+      "sha256": "16955f87878e41b16934e697213350bc2d6a1b3e04d98f29ba7e0fce328b4355",
+      "estrazione": "2026-10-19"
+    },
+    {
+      "nome": "sats/nep101xl-802.bsp",
+      "descrizione": "SPK satellitare NAIF (lungo), soluzione NEP101",
+      "url": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/nep101xl-802.bsp",
+      "percorsoCache": "sats/nep101xl-802.bsp",
+      "byte": 767016960,
+      "sha256": "006ed86a0ecea070cf209c17d08de0fe10ab3c4925e8d26ad14da64045c1b9af",
+      "estrazione": "2026-10-19"
+    },
+    {
+      "nome": "sats/nep105.bsp",
+      "descrizione": "SPK satellitare NAIF (moderno), soluzione NEP105",
+      "url": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/nep105.bsp",
+      "percorsoCache": "sats/nep105.bsp",
+      "byte": 210456576,
+      "sha256": "be2ea8cd16658c957e803c7896731c81ad1a8afe2caca6fbf87d7b68bc4392c7",
+      "estrazione": "2026-10-19"
+    },
+    {
+      "nome": "sats/plu060.bsp",
+      "descrizione": "SPK satellitare NAIF (moderno), soluzione PLU060",
+      "url": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/plu060.bsp",
+      "percorsoCache": "sats/plu060.bsp",
+      "byte": 135207936,
+      "sha256": "dfbb102491a26ed41ae08ca3f8963f22f0219df1d8f265ab87b9ad825a826fc6",
+      "estrazione": "2026-10-19"
+    },
+    {
+      "nome": "sats/sat441.bsp",
+      "descrizione": "SPK satellitare NAIF (moderno), soluzione SAT441",
+      "url": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/sat441.bsp",
+      "percorsoCache": "sats/sat441.bsp",
+      "byte": 661592064,
+      "sha256": "d7e444a9ba7a52b8f448ff0747030789524d2f0c1212e4e2bd7f5fc3c96444d5",
+      "estrazione": "2026-10-19"
+    },
+    {
+      "nome": "sats/sat441xl_part-1.bsp",
+      "descrizione": "SPK satellitare NAIF (lungo), soluzione SAT441",
+      "url": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/sat441xl_part-1.bsp",
+      "percorsoCache": "sats/sat441xl_part-1.bsp",
+      "byte": 2045657088,
+      "sha256": "45e6f6687cf9a4d7c94c206c13650d35583740019df939c19f2ee0f0f7d2750d",
+      "estrazione": "2026-10-19"
+    },
+    {
+      "nome": "sats/sat441xl_part-2.bsp",
+      "descrizione": "SPK satellitare NAIF (lungo), soluzione SAT441",
+      "url": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/sat441xl_part-2.bsp",
+      "percorsoCache": "sats/sat441xl_part-2.bsp",
+      "byte": 2021645312,
+      "sha256": "d021819387e6045e2cd2819a7907ca62cc8cb3091ca925dfe894d2e0f4f7af1e",
+      "estrazione": "2026-10-19"
+    },
+    {
+      "nome": "sats/ura111xl-701.bsp",
+      "descrizione": "SPK satellitare NAIF (lungo), soluzione URA111",
+      "url": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/ura111xl-701.bsp",
+      "percorsoCache": "sats/ura111xl-701.bsp",
+      "byte": 2118418432,
+      "sha256": "7d0719a91507322b11746ceb2dc0bf769c83c3d9a2e46fda1711ca06bba64ac6",
+      "estrazione": "2026-10-19"
+    },
+    {
+      "nome": "sats/ura111xl-702.bsp",
+      "descrizione": "SPK satellitare NAIF (lungo), soluzione URA111",
+      "url": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/ura111xl-702.bsp",
+      "percorsoCache": "sats/ura111xl-702.bsp",
+      "byte": 868558848,
+      "sha256": "39edd3b16a88d6c2b13d945721c50b56b29231bab405bf76a1417b1e910f327a",
+      "estrazione": "2026-10-19"
+    },
+    {
+      "nome": "sats/ura111xl-703.bsp",
+      "descrizione": "SPK satellitare NAIF (lungo), soluzione URA111",
+      "url": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/ura111xl-703.bsp",
+      "percorsoCache": "sats/ura111xl-703.bsp",
+      "byte": 434285568,
+      "sha256": "62caf2f4dd04473b523a7d598266e120fe4c09d77bd5fec095776490ae5de7ea",
+      "estrazione": "2026-10-19"
+    },
+    {
+      "nome": "sats/ura111xl-704.bsp",
+      "descrizione": "SPK satellitare NAIF (lungo), soluzione URA111",
+      "url": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/ura111xl-704.bsp",
+      "percorsoCache": "sats/ura111xl-704.bsp",
+      "byte": 434285568,
+      "sha256": "399c2b34ced7aee25f5a3c93a835d838099dd788ed43f6b44af28a4d80dc8b58",
+      "estrazione": "2026-10-19"
+    },
+    {
+      "nome": "sats/ura111xl-705.bsp",
+      "descrizione": "SPK satellitare NAIF (lungo), soluzione URA111",
+      "url": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/ura111xl-705.bsp",
+      "percorsoCache": "sats/ura111xl-705.bsp",
+      "byte": 2118418432,
+      "sha256": "dff9a3f68d7eb74df071c4e64276303d8e081c2ace16c212130b87980a5862ea",
+      "estrazione": "2026-10-19"
+    },
+    {
+      "nome": "sats/ura111xl-799.bsp",
+      "descrizione": "SPK satellitare NAIF (lungo), soluzione URA111",
+      "url": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/ura111xl-799.bsp",
+      "percorsoCache": "sats/ura111xl-799.bsp",
+      "byte": 1059215360,
+      "sha256": "fa55665eb129613574a5d029bf2cc7b521d3f0d2edc7de5790add3cf950714bf",
+      "estrazione": "2026-10-19"
+    },
+    {
+      "nome": "sats/ura184_part-3.bsp",
+      "descrizione": "SPK satellitare NAIF (moderno), soluzione URA184",
+      "url": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/ura184_part-3.bsp",
+      "percorsoCache": "sats/ura184_part-3.bsp",
+      "byte": 386885632,
+      "sha256": "273cd4ccc470d1098562cd4e94fa48fc2b4c6b1c2896308e473c949b87937c53",
+      "estrazione": "2026-10-19"
+    },
+    {
+      "nome": "sb441-n16.bsp",
+      "descrizione": "sb441-n16, 16 asteroidi perturbatori coerenti con DE441, JD -1 200 525,5 / 5 008 242,5; Farnocchia 2021, JPL IOM 392R-21-005",
+      "url": "https://ssd.jpl.nasa.gov/ftp/eph/small_bodies/asteroids_de441/sb441-n16.bsp",
+      "percorsoCache": "assist/sb441-n16.bsp",
+      "byte": 645727232,
+      "sha256": "919d612ce3c72a78fc7158f9120156542d0f21e6b8b052e4c1339c759747fd90",
+      "estrazione": "2026-10-18",
+      "ultimaModificaServer": "2021-03-31T21:23:14Z"
+    },
+    {
+      "nome": "skyfield-1.55-py3-none-any.whl",
+      "descrizione": "Skyfield 1.55 (PyPI): contiene skyfield/data/delta_t.npz con la tabella S15.2020",
+      "url": "https://files.pythonhosted.org/packages/8d/5a/c4cc09d4421de255ca0504485efceb3646a4e5381bfb665647e39bea5cb1/skyfield-1.55-py3-none-any.whl",
+      "percorsoCache": "time/skyfield-1.55-py3-none-any.whl",
+      "byte": 371137,
+      "sha256": "9f98964855067460c94aa81a337194136f4a97a62ba8bbbfac1b8556f2b66ad4",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/103p-hartley-2-90000955.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000955;, 1600-01-01 00:00 / 1989-12-16 03:16",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000955%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271600-01-01%2000%3A00%27&STOP_TIME=%271989-12-16%2003%3A16%27",
+      "percorsoCache": "small/spk/103p-hartley-2-90000955.bsp",
+      "byte": 6992896,
+      "sha256": "f3c6ff306c244830c518f82fa08e21f13bce5e36ee49210976c8daac62c2a577",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/103p-hartley-2-90000956.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000956;, 1987-02-26 03:16 / 1996-03-24 20:00",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000956%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271987-02-26%2003%3A16%27&STOP_TIME=%271996-03-24%2020%3A00%27",
+      "percorsoCache": "small/spk/103p-hartley-2-90000956.bsp",
+      "byte": 247808,
+      "sha256": "88b612391286f6656a2de8e0d0fcd51a0d8732c048b23a01662c5ae6147afbae",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/103p-hartley-2-90000957.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000957;, 1993-06-04 20:00 / 2008-12-14 17:40",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000957%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271993-06-04%2020%3A00%27&STOP_TIME=%272008-12-14%2017%3A40%27",
+      "percorsoCache": "small/spk/103p-hartley-2-90000957.bsp",
+      "byte": 358400,
+      "sha256": "b2fbe46047807386b668f302095813cb33b0c8fd00826aba87f3f05088c7b8c2",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/103p-hartley-2-90000959.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000959;, 2006-02-24 17:40 / 2015-06-16 20:53",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000959%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%272006-02-24%2017%3A40%27&STOP_TIME=%272015-06-16%2020%3A53%27",
+      "percorsoCache": "small/spk/103p-hartley-2-90000959.bsp",
+      "byte": 239616,
+      "sha256": "a1315a82dcd6f3f0e6b463a30145099243cc473d17d135e3bde4a13653ab50d4",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/103p-hartley-2-90000960.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000960;, 2012-08-26 20:53 / 2121-03-27 00:00",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000960%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%272012-08-26%2020%3A53%27&STOP_TIME=%272121-03-27%2000%3A00%27",
+      "percorsoCache": "small/spk/103p-hartley-2-90000960.bsp",
+      "byte": 1988608,
+      "sha256": "e7a3e2d5a0766f389c7e63ddd838a45190c1ff03a362355743fbe162cb514ee2",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/109p-swift-tuttle-90000983.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000983;, 1600-01-01 00:00 / 1802-09-30 18:57",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000983%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271600-01-01%2000%3A00%27&STOP_TIME=%271802-09-30%2018%3A57%27",
+      "percorsoCache": "small/spk/109p-swift-tuttle-90000983.bsp",
+      "byte": 3700736,
+      "sha256": "3bfc8dd89f0c90cc68c3e909fdb148b55d4bf812b9960ca5f21b80f5264e62c8",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/109p-swift-tuttle-90000984.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000984;, 1799-12-10 18:57 / 1929-11-12 00:16",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000984%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271799-12-10%2018%3A57%27&STOP_TIME=%271929-11-12%2000%3A16%27",
+      "percorsoCache": "small/spk/109p-swift-tuttle-90000984.bsp",
+      "byte": 2386944,
+      "sha256": "4bc81e12df07b9ee25f9e7dafc3013d90f997921e3fced5d384b5912156896be",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/109p-swift-tuttle-90000985.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000985;, 1927-01-23 00:16 / 2121-03-27 00:00",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000985%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271927-01-23%2000%3A16%27&STOP_TIME=%272121-03-27%2000%3A00%27",
+      "percorsoCache": "small/spk/109p-swift-tuttle-90000985.bsp",
+      "byte": 3527680,
+      "sha256": "99e1bce6c37889342bddf10d7735c2097151443babf51c8cb1dc99c792e91e37",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/12p-pons-brooks-90000222.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000222;, 1600-01-01 00:00 / 1850-05-28 02:50",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000222%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271600-01-01%2000%3A00%27&STOP_TIME=%271850-05-28%2002%3A50%27",
+      "percorsoCache": "small/spk/12p-pons-brooks-90000222.bsp",
+      "byte": 4484096,
+      "sha256": "93bfec32620ca2a717ba2aeb53b71da2d221370df1d04ef5ba2b98fb8b90709e",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/12p-pons-brooks-90000224.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000224;, 1847-08-08 02:50 / 1920-10-22 11:36",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000224%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271847-08-08%2002%3A50%27&STOP_TIME=%271920-10-22%2011%3A36%27",
+      "percorsoCache": "small/spk/12p-pons-brooks-90000224.bsp",
+      "byte": 1382400,
+      "sha256": "5e9b32414313b9034de777b008cf334e0007d9c6564cc79dd6441578b4604c4a",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/12p-pons-brooks-90000225.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000225;, 1918-01-02 11:36 / 2121-03-27 00:00",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000225%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271918-01-02%2011%3A36%27&STOP_TIME=%272121-03-27%2000%3A00%27",
+      "percorsoCache": "small/spk/12p-pons-brooks-90000225.bsp",
+      "byte": 3631104,
+      "sha256": "cff0ef1f25dadc95cf2e9883d79c675dc99835297486215cc823d881f45b70ca",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/19p-borrelly-90000293.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000293;, 1600-01-01 00:00 / 1909-11-25 12:47",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000293%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271600-01-01%2000%3A00%27&STOP_TIME=%271909-11-25%2012%3A47%27",
+      "percorsoCache": "small/spk/19p-borrelly-90000293.bsp",
+      "byte": 5605376,
+      "sha256": "117045731b2515c8aee56a76c1fec39d566128b1a9129f937535ff536e42bb97",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/19p-borrelly-90000294.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000294;, 1907-02-05 12:47 / 1916-10-29 21:52",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000294%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271907-02-05%2012%3A47%27&STOP_TIME=%271916-10-29%2021%3A52%27",
+      "percorsoCache": "small/spk/19p-borrelly-90000294.bsp",
+      "byte": 262144,
+      "sha256": "c4f93917c8e0c30efabbd076a4e314a0343f2108e567481c3d0ded8bea6d4953",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/19p-borrelly-90000295.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000295;, 1914-01-09 21:52 / 1923-09-25 05:07",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000295%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271914-01-09%2021%3A52%27&STOP_TIME=%271923-09-25%2005%3A07%27",
+      "percorsoCache": "small/spk/19p-borrelly-90000295.bsp",
+      "byte": 253952,
+      "sha256": "a5c781da3e66cc941b58e1e325ad2222156f8248f55da94b5fa8ac9278980961",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/19p-borrelly-90000296.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000296;, 1920-12-05 05:07 / 1930-08-12 00:17",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000296%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271920-12-05%2005%3A07%27&STOP_TIME=%271930-08-12%2000%3A17%27",
+      "percorsoCache": "small/spk/19p-borrelly-90000296.bsp",
+      "byte": 256000,
+      "sha256": "9c829ea37a54199cdedc815b7ee0c92f83d4444f822c94e56a581d3e607d0a6e",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/19p-borrelly-90000297.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000297;, 1927-10-23 00:17 / 1944-05-14 01:30",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000297%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271927-10-23%2000%3A17%27&STOP_TIME=%271944-05-14%2001%3A30%27",
+      "percorsoCache": "small/spk/19p-borrelly-90000297.bsp",
+      "byte": 388096,
+      "sha256": "83750eda294f7715ca3bb76ab9d34f03b42415a24af3bbc39704d59fef426173",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/19p-borrelly-90000298.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000298;, 1941-07-25 01:30 / 1958-05-06 12:27",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000298%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271941-07-25%2001%3A30%27&STOP_TIME=%271958-05-06%2012%3A27%27",
+      "percorsoCache": "small/spk/19p-borrelly-90000298.bsp",
+      "byte": 373760,
+      "sha256": "2ba8914ba7980be24754b46fcd1dcebb3882b6094dad6da8c41b49bfcaed9297",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/19p-borrelly-90000299.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000299;, 1955-07-17 12:27 / 1965-05-12 07:56",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000299%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271955-07-17%2012%3A27%27&STOP_TIME=%271965-05-12%2007%3A56%27",
+      "percorsoCache": "small/spk/19p-borrelly-90000299.bsp",
+      "byte": 252928,
+      "sha256": "84e5a639fc2c5c81f29863e5ce57134835c7ae8e11587c56f8f129370dda00b5",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/19p-borrelly-90000300.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000300;, 1962-07-23 07:56 / 1972-05-11 00:52",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000300%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271962-07-23%2007%3A56%27&STOP_TIME=%271972-05-11%2000%3A52%27",
+      "percorsoCache": "small/spk/19p-borrelly-90000300.bsp",
+      "byte": 248832,
+      "sha256": "8e7da44bae249e490f7472a546063bc747ff74a9148a92186e2af444c5d8c7df",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/19p-borrelly-90000301.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000301;, 1969-07-22 00:52 / 1979-02-23 01:16",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000301%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271969-07-22%2000%3A52%27&STOP_TIME=%271979-02-23%2001%3A16%27",
+      "percorsoCache": "small/spk/19p-borrelly-90000301.bsp",
+      "byte": 249856,
+      "sha256": "efb044724390e231c6231292ce7ca232d641b5faaf8913dabcbf485a27322b50",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/19p-borrelly-90000302.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000302;, 1976-05-05 01:16 / 1985-12-05 01:52",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000302%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271976-05-05%2001%3A16%27&STOP_TIME=%271985-12-05%2001%3A52%27",
+      "percorsoCache": "small/spk/19p-borrelly-90000302.bsp",
+      "byte": 247808,
+      "sha256": "6f694e5b7db44e67411c42da2ae4dd7a06054736dc8312b31343e00c39bbb71d",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/19p-borrelly-90000303.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000303;, 1983-02-15 01:52 / 1992-10-17 06:07",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000303%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271983-02-15%2001%3A52%27&STOP_TIME=%271992-10-17%2006%3A07%27",
+      "percorsoCache": "small/spk/19p-borrelly-90000303.bsp",
+      "byte": 247808,
+      "sha256": "100173c5a53f8519b35b1ac00b4174e81b11a87f98188a9fb015bf60155e829c",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/19p-borrelly-90000304.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000304;, 1989-12-28 06:07 / 1999-09-05 21:13",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000304%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271989-12-28%2006%3A07%27&STOP_TIME=%271999-09-05%2021%3A13%27",
+      "percorsoCache": "small/spk/19p-borrelly-90000304.bsp",
+      "byte": 245760,
+      "sha256": "c9bcce694836fbb5f05b0101e9cfae5d5c130b14322f8e14921f1f94e8bc28a0",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/19p-borrelly-90000305.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000305;, 1996-11-15 21:13 / 2013-05-23 16:14",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000305%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271996-11-15%2021%3A13%27&STOP_TIME=%272013-05-23%2016%3A14%27",
+      "percorsoCache": "small/spk/19p-borrelly-90000305.bsp",
+      "byte": 373760,
+      "sha256": "ae565fbd8eb6c6cdbbba50a65e24b390310200e18cf86ee154a1ffa04c9db0c6",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/19p-borrelly-90000306.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000306;, 2010-08-03 16:14 / 2121-03-27 00:00",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000306%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%272010-08-03%2016%3A14%27&STOP_TIME=%272121-03-27%2000%3A00%27",
+      "percorsoCache": "small/spk/19p-borrelly-90000306.bsp",
+      "byte": 2041856,
+      "sha256": "cfdc290a445654c23423e53c24b173f258e11427a943f94cb8a21fe8d9276bb7",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/1i-oumuamua.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND DES=50788063;, 1600-01-01 00:00 / 2121-03-27 00:00",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%27DES%3D50788063%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271600-01-01%2000%3A00%27&STOP_TIME=%272121-03-27%2000%3A00%27",
+      "percorsoCache": "small/spk/1i-oumuamua.bsp",
+      "byte": 9413632,
+      "sha256": "8ab5a82911bbb5dd50e5bb4b87264070c0d2480b81f204b9208255642b1d8529",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/1p-halley-90000025.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000025;, 1600-01-01 00:00 / 1647-04-03 12:18",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000025%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271600-01-01%2000%3A00%27&STOP_TIME=%271647-04-03%2012%3A18%27",
+      "percorsoCache": "small/spk/1p-halley-90000025.bsp",
+      "byte": 940032,
+      "sha256": "4405ee9851565d9850cbf2b88e7c19d9ad52bfd3423dd21775d97c4d16a08bee",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/1p-halley-90000026.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000026;, 1644-06-13 12:18 / 1722-10-31 21:14",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000026%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271644-06-13%2012%3A18%27&STOP_TIME=%271722-10-31%2021%3A14%27",
+      "percorsoCache": "small/spk/1p-halley-90000026.bsp",
+      "byte": 1463296,
+      "sha256": "12fb5c94a29dc87cb2f3dd729e1a355a081688558e77e5475bdcc6e595b35923",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/1p-halley-90000027.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000027;, 1720-01-11 21:14 / 1799-01-22 06:43",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000027%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271720-01-11%2021%3A14%27&STOP_TIME=%271799-01-22%2006%3A43%27",
+      "percorsoCache": "small/spk/1p-halley-90000027.bsp",
+      "byte": 1524736,
+      "sha256": "bf215e76406155dbecb39a440f9a1f05fbd05f55ddcdd405bd954f13376ce0f6",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/1p-halley-90000028.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000028;, 1796-04-03 06:43 / 1875-06-06 00:40",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000028%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271796-04-03%2006%3A43%27&STOP_TIME=%271875-06-06%2000%3A40%27",
+      "percorsoCache": "small/spk/1p-halley-90000028.bsp",
+      "byte": 1471488,
+      "sha256": "9c64e4b50ecf9d19823f659507ef94cf23ad184951583e7399d833a5c8b46f54",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/1p-halley-90000029.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000029;, 1872-08-16 00:40 / 1949-10-02 21:24",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000029%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271872-08-16%2000%3A40%27&STOP_TIME=%271949-10-02%2021%3A24%27",
+      "percorsoCache": "small/spk/1p-halley-90000029.bsp",
+      "byte": 1444864,
+      "sha256": "61517b8cb9fb0f802b2bb76009abb967f151f4c2b432507d8bc08f97bc2f5669",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/1p-halley-90000030.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000030;, 1946-12-13 21:24 / 2121-03-27 00:00",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000030%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271946-12-13%2021%3A24%27&STOP_TIME=%272121-03-27%2000%3A00%27",
+      "percorsoCache": "small/spk/1p-halley-90000030.bsp",
+      "byte": 3134464,
+      "sha256": "55f9107f964c30f8fdaf203a0cfb508f1cd9c9621d30fd192eee9b67daeeed7c",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/21p-giacobini-zinner-90000309.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000309;, 1600-01-01 00:00 / 1905-07-18 02:36",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000309%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271600-01-01%2000%3A00%27&STOP_TIME=%271905-07-18%2002%3A36%27",
+      "percorsoCache": "small/spk/21p-giacobini-zinner-90000309.bsp",
+      "byte": 5558272,
+      "sha256": "27b78d9e8d9feadabdf3ef82545e79a3757830518ca769869d86e551fd622326",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/21p-giacobini-zinner-90000310.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000310;, 1902-09-28 02:36 / 1925-01-12 22:35",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000310%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271902-09-28%2002%3A36%27&STOP_TIME=%271925-01-12%2022%3A35%27",
+      "percorsoCache": "small/spk/21p-giacobini-zinner-90000310.bsp",
+      "byte": 480256,
+      "sha256": "b48dcab0347b4f7a24a43c8137c2131ed0055992bf70801f85ef3feab8d0280c",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/21p-giacobini-zinner-90000311.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000311;, 1922-03-25 22:35 / 1931-08-21 10:22",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000311%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271922-03-25%2022%3A35%27&STOP_TIME=%271931-08-21%2010%3A22%27",
+      "percorsoCache": "small/spk/21p-giacobini-zinner-90000311.bsp",
+      "byte": 246784,
+      "sha256": "2f822780c338d73c7b35b40cf7b25149af1b9fedbc8afed0653bd3de02a38b06",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/21p-giacobini-zinner-90000312.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000312;, 1928-10-31 10:22 / 1938-03-28 20:52",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000312%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271928-10-31%2010%3A22%27&STOP_TIME=%271938-03-28%2020%3A52%27",
+      "percorsoCache": "small/spk/21p-giacobini-zinner-90000312.bsp",
+      "byte": 245760,
+      "sha256": "26e5ac778814b44ea2ab8e418ac8be9f1ca706bc35fdef3d5f3005f2e28ed904",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/21p-giacobini-zinner-90000313.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000313;, 1935-06-08 20:52 / 1944-10-28 09:57",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000313%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271935-06-08%2020%3A52%27&STOP_TIME=%271944-10-28%2009%3A57%27",
+      "percorsoCache": "small/spk/21p-giacobini-zinner-90000313.bsp",
+      "byte": 252928,
+      "sha256": "7ed014791ec5faf0c2176960c328a1b9f2502d915c86f8a5a483e4b335d7f4f7",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/21p-giacobini-zinner-90000314.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000314;, 1942-01-08 09:57 / 1951-05-30 16:28",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000314%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271942-01-08%2009%3A57%27&STOP_TIME=%271951-05-30%2016%3A28%27",
+      "percorsoCache": "small/spk/21p-giacobini-zinner-90000314.bsp",
+      "byte": 245760,
+      "sha256": "2ac386fc5297b523db060c992a5d0c8234bdfdd2abbe50d70769c822d113f6da",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/21p-giacobini-zinner-90000315.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000315;, 1948-08-09 16:28 / 1964-06-05 19:43",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000315%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271948-08-09%2016%3A28%27&STOP_TIME=%271964-06-05%2019%3A43%27",
+      "percorsoCache": "small/spk/21p-giacobini-zinner-90000315.bsp",
+      "byte": 358400,
+      "sha256": "4a27adbd5ea318a21eb4278a99dc49d5b5afff6b590439e84bdb85791da33318",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/21p-giacobini-zinner-90000316.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000316;, 1961-08-16 19:43 / 1970-11-04 09:58",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000316%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271961-08-16%2019%3A43%27&STOP_TIME=%271970-11-04%2009%3A58%27",
+      "percorsoCache": "small/spk/21p-giacobini-zinner-90000316.bsp",
+      "byte": 242688,
+      "sha256": "fd2b8c0def0a29b2ba8e954a41039d83b82d84bf99dc00e52a5acc77335309a2",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/21p-giacobini-zinner-90000317.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000317;, 1968-01-15 09:58 / 1977-04-02 23:59",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000317%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271968-01-15%2009%3A58%27&STOP_TIME=%271977-04-02%2023%3A59%27",
+      "percorsoCache": "small/spk/21p-giacobini-zinner-90000317.bsp",
+      "byte": 245760,
+      "sha256": "f3db7ea8d021669bd0b5e4219f2b95aef59dfea8743cfc2cb3ad2b1515e44dcf",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/21p-giacobini-zinner-90000318.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000318;, 1974-06-13 23:59 / 1983-10-12 17:29",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000318%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271974-06-13%2023%3A59%27&STOP_TIME=%271983-10-12%2017%3A29%27",
+      "percorsoCache": "small/spk/21p-giacobini-zinner-90000318.bsp",
+      "byte": 241664,
+      "sha256": "b92dc390f816ee0097d8dd3aa2b8f1a67dc105b55da30dc9189f24eac7f8f637",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/21p-giacobini-zinner-90000319.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000319;, 1980-12-22 17:29 / 1990-05-18 01:21",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000319%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271980-12-22%2017%3A29%27&STOP_TIME=%271990-05-18%2001%3A21%27",
+      "percorsoCache": "small/spk/21p-giacobini-zinner-90000319.bsp",
+      "byte": 247808,
+      "sha256": "49e5ad01c307e6199177ef57799ce5b623e53b3ada3dfc62a744ed8bdf79d637",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/21p-giacobini-zinner-90000320.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000320;, 1987-07-29 01:21 / 1996-12-27 20:25",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000320%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271987-07-29%2001%3A21%27&STOP_TIME=%271996-12-27%2020%3A25%27",
+      "percorsoCache": "small/spk/21p-giacobini-zinner-90000320.bsp",
+      "byte": 242688,
+      "sha256": "c4cc66fe736cf696395d56b8201e3e5bec51f09c818b42f61188a3ab4b0870a0",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/21p-giacobini-zinner-90000321.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000321;, 1994-03-09 20:25 / 2003-08-06 08:51",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000321%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271994-03-09%2020%3A25%27&STOP_TIME=%272003-08-06%2008%3A51%27",
+      "percorsoCache": "small/spk/21p-giacobini-zinner-90000321.bsp",
+      "byte": 244736,
+      "sha256": "555572b1c121c76a3398a1bdc117197adfa5a3ff203b5761bdca72c411a497cb",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/21p-giacobini-zinner-90000322.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000322;, 2000-10-16 08:51 / 2010-03-19 21:07",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000322%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%272000-10-16%2008%3A51%27&STOP_TIME=%272010-03-19%2021%3A07%27",
+      "percorsoCache": "small/spk/21p-giacobini-zinner-90000322.bsp",
+      "byte": 245760,
+      "sha256": "ce0bce2018e9ef3371dcad05bd6df3ccaac720e1b4e0309f0d9f3c6476f99971",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/21p-giacobini-zinner-90000323.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000323;, 2007-05-30 21:07 / 2016-10-23 10:29",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000323%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%272007-05-30%2021%3A07%27&STOP_TIME=%272016-10-23%2010%3A29%27",
+      "percorsoCache": "small/spk/21p-giacobini-zinner-90000323.bsp",
+      "byte": 245760,
+      "sha256": "f93d4b7de71748a404e259b8c901e9e3b562c70f52147490f80ae5a490cd3f15",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/21p-giacobini-zinner-90000324.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000324;, 2014-01-03 10:29 / 2121-03-27 00:00",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000324%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%272014-01-03%2010%3A29%27&STOP_TIME=%272121-03-27%2000%3A00%27",
+      "percorsoCache": "small/spk/21p-giacobini-zinner-90000324.bsp",
+      "byte": 1960960,
+      "sha256": "1e7e9dfafc833d47a61745cbec6e8e5908e013c44bb38d704fb75139051779b5",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/26p-grigg-skjellerup-90000359.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000359;, 1600-01-01 00:00 / 1855-06-02 01:12",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000359%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271600-01-01%2000%3A00%27&STOP_TIME=%271855-06-02%2001%3A12%27",
+      "percorsoCache": "small/spk/26p-grigg-skjellerup-90000359.bsp",
+      "byte": 4579328,
+      "sha256": "cdbc53743432016700cdc3d543234743619da3e5aff692777f8d9bdf2ebd6232",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/26p-grigg-skjellerup-90000360.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000360;, 1852-08-12 01:12 / 1915-12-21 14:36",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000360%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271852-08-12%2001%3A12%27&STOP_TIME=%271915-12-21%2014%3A36%27",
+      "percorsoCache": "small/spk/26p-grigg-skjellerup-90000360.bsp",
+      "byte": 1196032,
+      "sha256": "c44f1fe5461adbd39eaf2746d23938e607ddf59bc6fb7fa3b10a128ac1d3011d",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/26p-grigg-skjellerup-90000361.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000361;, 1913-03-02 14:36 / 1926-04-06 00:30",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000361%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271913-03-02%2014%3A36%27&STOP_TIME=%271926-04-06%2000%3A30%27",
+      "percorsoCache": "small/spk/26p-grigg-skjellerup-90000361.bsp",
+      "byte": 316416,
+      "sha256": "f86d6b13524c8742ba1053403a586b8e6ef460b4030ffa03a2831001b9189c4b",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/26p-grigg-skjellerup-90000362.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000362;, 1923-06-17 00:30 / 1931-04-02 07:26",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000362%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271923-06-17%2000%3A30%27&STOP_TIME=%271931-04-02%2007%3A26%27",
+      "percorsoCache": "small/spk/26p-grigg-skjellerup-90000362.bsp",
+      "byte": 219136,
+      "sha256": "ea7b4cf27150dfd569efbd2386dfd908413424ea799b5d9076b11f286c08ce62",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/26p-grigg-skjellerup-90000363.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000363;, 1928-06-12 07:26 / 1936-04-11 00:10",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000363%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271928-06-12%2007%3A26%27&STOP_TIME=%271936-04-11%2000%3A10%27",
+      "percorsoCache": "small/spk/26p-grigg-skjellerup-90000363.bsp",
+      "byte": 217088,
+      "sha256": "85a1cad618da9f06cae7dd699b3d4f01d3479289514762dfeef033d30c94ee9f",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/26p-grigg-skjellerup-90000364.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000364;, 1933-06-22 00:10 / 1941-04-21 16:45",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000364%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271933-06-22%2000%3A10%27&STOP_TIME=%271941-04-21%2016%3A45%27",
+      "percorsoCache": "small/spk/26p-grigg-skjellerup-90000364.bsp",
+      "byte": 219136,
+      "sha256": "28fba49ea6e1fd7f348d1b9cf1b2766555bd640a6f36ca7529c40e653bc17eea",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/26p-grigg-skjellerup-90000365.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000365;, 1938-07-02 16:45 / 1946-03-31 02:16",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000365%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271938-07-02%2016%3A45%27&STOP_TIME=%271946-03-31%2002%3A16%27",
+      "percorsoCache": "small/spk/26p-grigg-skjellerup-90000365.bsp",
+      "byte": 217088,
+      "sha256": "0b1434d9712ef40e5a22ba5aff45da21823c31be865d5f5f4dc885b7c75ec877",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/26p-grigg-skjellerup-90000366.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000366;, 1943-06-11 02:16 / 1951-02-23 00:01",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000366%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271943-06-11%2002%3A16%27&STOP_TIME=%271951-02-23%2000%3A01%27",
+      "percorsoCache": "small/spk/26p-grigg-skjellerup-90000366.bsp",
+      "byte": 217088,
+      "sha256": "69e726740802fcda0863d579c79f86d2a15c39dc089c202bc339ec7c9415be83",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/26p-grigg-skjellerup-90000367.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000367;, 1948-05-05 00:01 / 1956-01-17 20:32",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000367%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271948-05-05%2000%3A01%27&STOP_TIME=%271956-01-17%2020%3A32%27",
+      "percorsoCache": "small/spk/26p-grigg-skjellerup-90000367.bsp",
+      "byte": 214016,
+      "sha256": "241779155632b6a31dbca04a58627c379cfbaede974c64600e9060fa7057b593",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/26p-grigg-skjellerup-90000368.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000368;, 1953-03-29 20:32 / 1960-12-11 00:15",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000368%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271953-03-29%2020%3A32%27&STOP_TIME=%271960-12-11%2000%3A15%27",
+      "percorsoCache": "small/spk/26p-grigg-skjellerup-90000368.bsp",
+      "byte": 216064,
+      "sha256": "08b3222d4eb14a8feb5d46cb72017be00874f367bb1860c9365b5efc40a2ef23",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/26p-grigg-skjellerup-90000369.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000369;, 1958-02-21 00:15 / 1965-11-08 14:45",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000369%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271958-02-21%2000%3A15%27&STOP_TIME=%271965-11-08%2014%3A45%27",
+      "percorsoCache": "small/spk/26p-grigg-skjellerup-90000369.bsp",
+      "byte": 211968,
+      "sha256": "f859f864b700a98f5413c62df8aac919b96459607d88d5a84b6e7455348405ce",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/26p-grigg-skjellerup-90000370.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000370;, 1963-01-19 14:45 / 1971-01-02 18:45",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000370%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271963-01-19%2014%3A45%27&STOP_TIME=%271971-01-02%2018%3A45%27",
+      "percorsoCache": "small/spk/26p-grigg-skjellerup-90000370.bsp",
+      "byte": 218112,
+      "sha256": "e46ca968c603128725d71fa3404d2cf5175b76c5b32da845b7ea54181e623101",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/26p-grigg-skjellerup-90000371.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000371;, 1968-03-14 18:45 / 1976-02-17 07:56",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000371%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271968-03-14%2018%3A45%27&STOP_TIME=%271976-02-17%2007%3A56%27",
+      "percorsoCache": "small/spk/26p-grigg-skjellerup-90000371.bsp",
+      "byte": 217088,
+      "sha256": "1214bd7eac3a1f8c092d30351276c24f5d19d406d1bdf6071eac05d40d479da1",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/26p-grigg-skjellerup-90000372.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000372;, 1973-04-29 07:56 / 1981-03-24 08:06",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000372%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271973-04-29%2007%3A56%27&STOP_TIME=%271981-03-24%2008%3A06%27",
+      "percorsoCache": "small/spk/26p-grigg-skjellerup-90000372.bsp",
+      "byte": 217088,
+      "sha256": "f991742cd8657735f160ab44eac06161cd2abdeb150229be0dc529861b061adf",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/26p-grigg-skjellerup-90000373.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000373;, 1978-06-04 08:06 / 1986-04-25 13:31",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000373%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271978-06-04%2008%3A06%27&STOP_TIME=%271986-04-25%2013%3A31%27",
+      "percorsoCache": "small/spk/26p-grigg-skjellerup-90000373.bsp",
+      "byte": 218112,
+      "sha256": "a6b3bca9b3119f97e83fd858a3eae23237080bd3007b370b31cc87d45262ba41",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/26p-grigg-skjellerup-90000374.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000374;, 1983-07-06 13:31 / 1991-05-31 07:01",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000374%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271983-07-06%2013%3A31%27&STOP_TIME=%271991-05-31%2007%3A01%27",
+      "percorsoCache": "small/spk/26p-grigg-skjellerup-90000374.bsp",
+      "byte": 217088,
+      "sha256": "96860338fc0d2ce4002464ccb9908f35720eab2e2fb411c61f81b31a605d0962",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/26p-grigg-skjellerup-90000375.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000375;, 1988-08-10 07:01 / 1996-07-04 17:17",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000375%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271988-08-10%2007%3A01%27&STOP_TIME=%271996-07-04%2017%3A17%27",
+      "percorsoCache": "small/spk/26p-grigg-skjellerup-90000375.bsp",
+      "byte": 214016,
+      "sha256": "d948f59a04976c90e416e7f5020faf596e2c86e7339314f293086ad32b7cdc25",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/26p-grigg-skjellerup-90000376.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000376;, 1993-09-14 17:17 / 2006-09-21 11:52",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000376%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271993-09-14%2017%3A17%27&STOP_TIME=%272006-09-21%2011%3A52%27",
+      "percorsoCache": "small/spk/26p-grigg-skjellerup-90000376.bsp",
+      "byte": 306176,
+      "sha256": "81523dbd15f7e9fdbe0d954dbc3a095a1a46c14c74f74c341fcc35037e45e196",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/26p-grigg-skjellerup-90000377.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000377;, 2003-12-02 11:52 / 2012-04-13 03:14",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000377%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%272003-12-02%2011%3A52%27&STOP_TIME=%272012-04-13%2003%3A14%27",
+      "percorsoCache": "small/spk/26p-grigg-skjellerup-90000377.bsp",
+      "byte": 229376,
+      "sha256": "ccc06bc9f01a2d439deb7631423c5d348a97661be3219b5e791dfdc09aea03c6",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/26p-grigg-skjellerup-90000378.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000378;, 2009-06-24 03:14 / 2121-03-27 00:00",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000378%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%272009-06-24%2003%3A14%27&STOP_TIME=%272121-03-27%2000%3A00%27",
+      "percorsoCache": "small/spk/26p-grigg-skjellerup-90000378.bsp",
+      "byte": 2041856,
+      "sha256": "de95c6280e67741d22db52c2b01ce7d044a8fc37f89f6b4ad6d6e4b8a71eba14",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/29p-schwassmann-wachmann-1-90000390.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000390;, 1600-01-01 00:00 / 1918-06-02 06:37",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000390%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271600-01-01%2000%3A00%27&STOP_TIME=%271918-06-02%2006%3A37%27",
+      "percorsoCache": "small/spk/29p-schwassmann-wachmann-1-90000390.bsp",
+      "byte": 5743616,
+      "sha256": "104c8a797f520facf4f8062c66b10c834a34531489e89331890e55ad590659ad",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/29p-schwassmann-wachmann-1-90000391.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000391;, 1915-08-13 06:37 / 1934-12-21 03:34",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000391%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271915-08-13%2006%3A37%27&STOP_TIME=%271934-12-21%2003%3A34%27",
+      "percorsoCache": "small/spk/29p-schwassmann-wachmann-1-90000391.bsp",
+      "byte": 423936,
+      "sha256": "d72f3c516f66486ac15a1b5338a225fdf523d0e45fdcaf63416c2157e08bf5a4",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/29p-schwassmann-wachmann-1-90000392.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000392;, 1932-03-02 03:34 / 1950-10-11 01:24",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000392%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271932-03-02%2003%3A34%27&STOP_TIME=%271950-10-11%2001%3A24%27",
+      "percorsoCache": "small/spk/29p-schwassmann-wachmann-1-90000392.bsp",
+      "byte": 412672,
+      "sha256": "702edd6eba783839ff9229557be4a86424df4b9109d4c046f577bad733301574",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/29p-schwassmann-wachmann-1-90000393.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000393;, 1947-12-22 01:24 / 1966-10-25 05:46",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000393%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271947-12-22%2001%3A24%27&STOP_TIME=%271966-10-25%2005%3A46%27",
+      "percorsoCache": "small/spk/29p-schwassmann-wachmann-1-90000393.bsp",
+      "byte": 418816,
+      "sha256": "46913fd349d37084a269296b7417ff110eaca533f6eadc428dd0586c1d63914f",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/29p-schwassmann-wachmann-1-90000394.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000394;, 1964-01-05 05:46 / 1998-01-26 05:04",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000394%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271964-01-05%2005%3A46%27&STOP_TIME=%271998-01-26%2005%3A04%27",
+      "percorsoCache": "small/spk/29p-schwassmann-wachmann-1-90000394.bsp",
+      "byte": 688128,
+      "sha256": "7d2a0b4a45c0ff801fc60dae6c031c7d0f2a5c97e23f77097fb3c5d887342553",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/29p-schwassmann-wachmann-1-90000395.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000395;, 1995-04-08 05:04 / 2013-03-18 01:03",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000395%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271995-04-08%2005%3A04%27&STOP_TIME=%272013-03-18%2001%3A03%27",
+      "percorsoCache": "small/spk/29p-schwassmann-wachmann-1-90000395.bsp",
+      "byte": 402432,
+      "sha256": "ca92dfc4f1fbd6f96fe171fe4038c098942d263fd6ffc4ee62b23cad7972c85b",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/29p-schwassmann-wachmann-1-90000396.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000396;, 2010-05-29 01:03 / 2121-03-27 00:00",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000396%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%272010-05-29%2001%3A03%27&STOP_TIME=%272121-03-27%2000%3A00%27",
+      "percorsoCache": "small/spk/29p-schwassmann-wachmann-1-90000396.bsp",
+      "byte": 2061312,
+      "sha256": "45990edfb2b86d7957399a46b4c83ab85850970307d304711ba392d2c8841726",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/2i-borisov.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND DES=1003639;, 1600-01-01 00:00 / 2121-03-27 00:00",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%27DES%3D1003639%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271600-01-01%2000%3A00%27&STOP_TIME=%272121-03-27%2000%3A00%27",
+      "percorsoCache": "small/spk/2i-borisov.bsp",
+      "byte": 9368576,
+      "sha256": "4f4e62ef00efd3c59cd0861ad30fbf84b49a24775d03dcd16c4b84f07b4da63d",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/2p-encke-90000031.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000031;, 1600-01-01 00:00 / 1792-06-08 18:10",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000031%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271600-01-01%2000%3A00%27&STOP_TIME=%271792-06-08%2018%3A10%27",
+      "percorsoCache": "small/spk/2p-encke-90000031.bsp",
+      "byte": 3710976,
+      "sha256": "65139f616791a795b1fd772310b5084b7d32f77d99b10f876116f785c85efe15",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/2p-encke-90000032.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000032;, 1789-08-19 18:10 / 1802-04-29 01:00",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000032%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271789-08-19%2018%3A10%27&STOP_TIME=%271802-04-29%2001%3A00%27",
+      "percorsoCache": "small/spk/2p-encke-90000032.bsp",
+      "byte": 315392,
+      "sha256": "81c46abd053178de9af4f709ed30d106b35261f04900d60252e11c60bda72082",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/2p-encke-90000033.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000033;, 1799-07-09 01:00 / 1812-04-02 17:44",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000033%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271799-07-09%2001%3A00%27&STOP_TIME=%271812-04-02%2017%3A44%27",
+      "percorsoCache": "small/spk/2p-encke-90000033.bsp",
+      "byte": 316416,
+      "sha256": "c76c0fd1ac7ec795a6beb8222bb851d7a9b5a14f5faa523df0c2c99b640cc889",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/2p-encke-90000034.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000034;, 1809-06-13 17:44 / 1822-02-14 06:33",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000034%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271809-06-13%2017%3A44%27&STOP_TIME=%271822-02-14%2006%3A33%27",
+      "percorsoCache": "small/spk/2p-encke-90000034.bsp",
+      "byte": 309248,
+      "sha256": "515ca684877f82bca92d3658147789c166e03c0d658b8df7a80bf80d394a9f4b",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/2p-encke-90000035.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000035;, 1819-04-27 06:33 / 1825-06-14 23:04",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000035%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271819-04-27%2006%3A33%27&STOP_TIME=%271825-06-14%2023%3A04%27",
+      "percorsoCache": "small/spk/2p-encke-90000035.bsp",
+      "byte": 192512,
+      "sha256": "da7b685efd17e0bc029948b5f8fed80de079ce5dbc551f3de7d1b080a66d464b",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/2p-encke-90000036.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000036;, 1822-08-25 23:04 / 1828-10-07 20:11",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000036%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271822-08-25%2023%3A04%27&STOP_TIME=%271828-10-07%2020%3A11%27",
+      "percorsoCache": "small/spk/2p-encke-90000036.bsp",
+      "byte": 197632,
+      "sha256": "020f48c089dd67785ab867d6de08f139b2fe013160c18c96c2ce84da24c66e6c",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/2p-encke-90000037.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000037;, 1825-12-18 20:11 / 1832-02-01 18:25",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000037%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271825-12-18%2020%3A11%27&STOP_TIME=%271832-02-01%2018%3A25%27",
+      "percorsoCache": "small/spk/2p-encke-90000037.bsp",
+      "byte": 190464,
+      "sha256": "28b4cb0b7610d49abccad433ed5af449a5e18db4c8902f8a2ef8890621696265",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/2p-encke-90000038.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000038;, 1829-04-13 18:25 / 1835-05-26 10:59",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000038%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271829-04-13%2018%3A25%27&STOP_TIME=%271835-05-26%2010%3A59%27",
+      "percorsoCache": "small/spk/2p-encke-90000038.bsp",
+      "byte": 193536,
+      "sha256": "930d64b9a1c754f8d54d54b5f0ce07239b413ed2e65f1c23400764d557254e6a",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/2p-encke-90000039.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000039;, 1832-08-05 10:59 / 1838-09-17 05:36",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000039%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271832-08-05%2010%3A59%27&STOP_TIME=%271838-09-17%2005%3A36%27",
+      "percorsoCache": "small/spk/2p-encke-90000039.bsp",
+      "byte": 193536,
+      "sha256": "61e89480b72885b3930d12187066e0dca55e2d1133f3b5bc53bf9d9d3036c6e5",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/2p-encke-90000040.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000040;, 1835-11-28 05:36 / 1842-01-09 16:05",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000040%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271835-11-28%2005%3A36%27&STOP_TIME=%271842-01-09%2016%3A05%27",
+      "percorsoCache": "small/spk/2p-encke-90000040.bsp",
+      "byte": 193536,
+      "sha256": "5bc6c68f51bb4527a7e7d17ab1de5fb37ee014528e3c0e9e5c44e5ff2bd02dac",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/2p-encke-90000041.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000041;, 1839-03-22 16:05 / 1845-05-03 22:05",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000041%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271839-03-22%2016%3A05%27&STOP_TIME=%271845-05-03%2022%3A05%27",
+      "percorsoCache": "small/spk/2p-encke-90000041.bsp",
+      "byte": 188416,
+      "sha256": "41a3392f8305162b8ff870377884f96ef2f930626f73c1825f138b663c7fd6e5",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/2p-encke-90000042.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000042;, 1842-07-14 22:05 / 1848-08-28 14:33",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000042%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271842-07-14%2022%3A05%27&STOP_TIME=%271848-08-28%2014%3A33%27",
+      "percorsoCache": "small/spk/2p-encke-90000042.bsp",
+      "byte": 185344,
+      "sha256": "cb6d0f08ec3fc50ae66447a5171e781c88f2914f469f8c06c0f04d989ca92878",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/2p-encke-90000043.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000043;, 1845-11-08 14:33 / 1851-12-15 09:41",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000043%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271845-11-08%2014%3A33%27&STOP_TIME=%271851-12-15%2009%3A41%27",
+      "percorsoCache": "small/spk/2p-encke-90000043.bsp",
+      "byte": 193536,
+      "sha256": "184352aac5dbe32e4813c04e7550db292036dc4b4c187ed5f50f5cf9baf3e75c",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/2p-encke-90000044.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000044;, 1849-02-24 09:41 / 1855-04-03 03:52",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000044%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271849-02-24%2009%3A41%27&STOP_TIME=%271855-04-03%2003%3A52%27",
+      "percorsoCache": "small/spk/2p-encke-90000044.bsp",
+      "byte": 192512,
+      "sha256": "356dd91c73e4356b348070d8ef9f4cf0a360030542059b97a204d6d243ad1886",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/2p-encke-90000045.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000045;, 1852-06-13 03:52 / 1858-07-19 07:33",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000045%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271852-06-13%2003%3A52%27&STOP_TIME=%271858-07-19%2007%3A33%27",
+      "percorsoCache": "small/spk/2p-encke-90000045.bsp",
+      "byte": 195584,
+      "sha256": "5e529d4b50b414eca1fdc45151e6f6998839f442a84ef0639f3037e8c2b78205",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/2p-encke-90000046.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000046;, 1855-09-29 07:33 / 1861-11-07 10:00",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000046%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271855-09-29%2007%3A33%27&STOP_TIME=%271861-11-07%2010%3A00%27",
+      "percorsoCache": "small/spk/2p-encke-90000046.bsp",
+      "byte": 195584,
+      "sha256": "71ad36e565f74d0d662c8703a2d1ef8ab24748d2d0b27f7799f183164ca9eafe",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/2p-encke-90000047.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000047;, 1859-01-18 10:00 / 1865-02-26 01:27",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000047%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271859-01-18%2010%3A00%27&STOP_TIME=%271865-02-26%2001%3A27%27",
+      "percorsoCache": "small/spk/2p-encke-90000047.bsp",
+      "byte": 195584,
+      "sha256": "fa1a138fb9ab6c774db00510d63cf1311346ff175246d0cb96598faa84f2c690",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/2p-encke-90000048.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000048;, 1862-05-09 01:27 / 1868-06-16 22:52",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000048%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271862-05-09%2001%3A27%27&STOP_TIME=%271868-06-16%2022%3A52%27",
+      "percorsoCache": "small/spk/2p-encke-90000048.bsp",
+      "byte": 190464,
+      "sha256": "4ac84704429d11656a2f93b1a2ab3b5d4cf9583045b3a8c0a9b923bb02914328",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/2p-encke-90000049.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000049;, 1865-08-27 22:52 / 1871-10-02 19:27",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000049%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271865-08-27%2022%3A52%27&STOP_TIME=%271871-10-02%2019%3A27%27",
+      "percorsoCache": "small/spk/2p-encke-90000049.bsp",
+      "byte": 194560,
+      "sha256": "27c04d30c83fb5a1fa334e17af704730bb1637c9223d71181fddba23c8416276",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/2p-encke-90000050.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000050;, 1868-12-12 19:27 / 1875-01-14 19:30",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000050%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271868-12-12%2019%3A27%27&STOP_TIME=%271875-01-14%2019%3A30%27",
+      "percorsoCache": "small/spk/2p-encke-90000050.bsp",
+      "byte": 198656,
+      "sha256": "3dfe154304441b5c7c13bf75b5e66bce87cd03c046f08f5b7bdcfbc19a0bcd39",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/2p-encke-90000051.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000051;, 1872-03-26 19:30 / 1878-04-29 17:01",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000051%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271872-03-26%2019%3A30%27&STOP_TIME=%271878-04-29%2017%3A01%27",
+      "percorsoCache": "small/spk/2p-encke-90000051.bsp",
+      "byte": 190464,
+      "sha256": "bd5039e8ff518cf73b52f6b747768572152a3f1f9aa281e350eae153988d47f3",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/2p-encke-90000052.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000052;, 1875-07-10 17:01 / 1881-08-12 00:03",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000052%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271875-07-10%2017%3A01%27&STOP_TIME=%271881-08-12%2000%3A03%27",
+      "percorsoCache": "small/spk/2p-encke-90000052.bsp",
+      "byte": 189440,
+      "sha256": "a3b06c4b2fa954c401ed17ff55af684d8d3f1ec7bdfbc4c608cbda1007fdf484",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/2p-encke-90000053.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000053;, 1878-10-23 00:03 / 1884-12-06 03:55",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000053%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271878-10-23%2000%3A03%27&STOP_TIME=%271884-12-06%2003%3A55%27",
+      "percorsoCache": "small/spk/2p-encke-90000053.bsp",
+      "byte": 194560,
+      "sha256": "92291c4d26654d13660d3b2703e757066c242bad083a0eba6cdb7822a02d5743",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/2p-encke-90000054.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000054;, 1882-02-16 03:55 / 1888-03-28 02:10",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000054%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271882-02-16%2003%3A55%27&STOP_TIME=%271888-03-28%2002%3A10%27",
+      "percorsoCache": "small/spk/2p-encke-90000054.bsp",
+      "byte": 192512,
+      "sha256": "65c26aad91cb6096a876c746f0cfc738941501008f8a3f5b137c543e5e7a77c0",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/2p-encke-90000055.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000055;, 1885-06-08 02:10 / 1891-07-19 14:12",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000055%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271885-06-08%2002%3A10%27&STOP_TIME=%271891-07-19%2014%3A12%27",
+      "percorsoCache": "small/spk/2p-encke-90000055.bsp",
+      "byte": 190464,
+      "sha256": "6091a9346b8b5b8f726adb524806b1716798617904cffd378d3dd22bc07a8176",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/2p-encke-90000056.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000056;, 1888-09-28 14:12 / 1894-11-06 12:25",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000056%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271888-09-28%2014%3A12%27&STOP_TIME=%271894-11-06%2012%3A25%27",
+      "percorsoCache": "small/spk/2p-encke-90000056.bsp",
+      "byte": 198656,
+      "sha256": "7ebacb2d29496ba4584ab195fe73005a54cd4141f245ff18e860204ff62d4057",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/2p-encke-90000057.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000057;, 1892-01-17 12:25 / 1898-02-24 15:01",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000057%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271892-01-17%2012%3A25%27&STOP_TIME=%271898-02-24%2015%3A01%27",
+      "percorsoCache": "small/spk/2p-encke-90000057.bsp",
+      "byte": 193536,
+      "sha256": "128c6cbb402c7d412b3792139fa625824a9c2bee9673d9a737ffcff3ed02f539",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/2p-encke-90000058.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000058;, 1895-05-07 15:01 / 1901-06-16 16:39",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000058%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271895-05-07%2015%3A01%27&STOP_TIME=%271901-06-16%2016%3A39%27",
+      "percorsoCache": "small/spk/2p-encke-90000058.bsp",
+      "byte": 193536,
+      "sha256": "817797e66e5d3d127ea1c4e2b25a5ab9aeab86e5e9ad6c86a3ebabcd2d165489",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/2p-encke-90000059.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000059;, 1898-08-26 16:39 / 1904-10-05 14:19",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000059%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271898-08-26%2016%3A39%27&STOP_TIME=%271904-10-05%2014%3A19%27",
+      "percorsoCache": "small/spk/2p-encke-90000059.bsp",
+      "byte": 191488,
+      "sha256": "3667b933ed4c0bd0583d834622c4dd8aed5060a5451bc3771507457e010cc281",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/2p-encke-90000060.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000060;, 1901-12-16 14:19 / 1908-01-31 23:37",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000060%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271901-12-16%2014%3A19%27&STOP_TIME=%271908-01-31%2023%3A37%27",
+      "percorsoCache": "small/spk/2p-encke-90000060.bsp",
+      "byte": 192512,
+      "sha256": "eec558647d04a2159149ceeb943db577ad3cfdebdda2eee16d3a2a89973b8ed3",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/2p-encke-90000061.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000061;, 1905-04-12 23:37 / 1911-05-20 14:36",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000061%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271905-04-12%2023%3A37%27&STOP_TIME=%271911-05-20%2014%3A36%27",
+      "percorsoCache": "small/spk/2p-encke-90000061.bsp",
+      "byte": 196608,
+      "sha256": "6777a559d6aa00a1fe45c4f07c765976b953f8d5a30576bd57381b6fb5db8637",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/2p-encke-90000062.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000062;, 1908-07-30 14:36 / 1914-09-06 17:14",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000062%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271908-07-30%2014%3A36%27&STOP_TIME=%271914-09-06%2017%3A14%27",
+      "percorsoCache": "small/spk/2p-encke-90000062.bsp",
+      "byte": 190464,
+      "sha256": "5e44da31b1c2c6eb5868a04ce0014c89b80570c321f72c1024a95357eb1a71f0",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/2p-encke-90000063.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000063;, 1911-11-17 17:14 / 1917-12-23 13:56",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000063%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271911-11-17%2017%3A14%27&STOP_TIME=%271917-12-23%2013%3A56%27",
+      "percorsoCache": "small/spk/2p-encke-90000063.bsp",
+      "byte": 193536,
+      "sha256": "e4e4be75bfb573f9a4ed3732fbe25f120db9b3b6533e51e6bd5c68b5c7ab1305",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/2p-encke-90000064.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000064;, 1915-03-05 13:56 / 1921-04-13 05:54",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000064%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271915-03-05%2013%3A56%27&STOP_TIME=%271921-04-13%2005%3A54%27",
+      "percorsoCache": "small/spk/2p-encke-90000064.bsp",
+      "byte": 198656,
+      "sha256": "a1687095b679e8aea2356f9e658747df5b6d12c5a6c2dd8e8e0381f80aee9935",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/2p-encke-90000065.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000065;, 1918-06-24 05:54 / 1924-08-01 14:17",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000065%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271918-06-24%2005%3A54%27&STOP_TIME=%271924-08-01%2014%3A17%27",
+      "percorsoCache": "small/spk/2p-encke-90000065.bsp",
+      "byte": 196608,
+      "sha256": "4689c15b6c7553d374f86dea7d4bab39537d4c6e3dc81777d3b3fba8e441da93",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/2p-encke-90000066.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000066;, 1921-10-12 14:17 / 1927-11-21 08:45",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000066%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271921-10-12%2014%3A17%27&STOP_TIME=%271927-11-21%2008%3A45%27",
+      "percorsoCache": "small/spk/2p-encke-90000066.bsp",
+      "byte": 191488,
+      "sha256": "cb3ae66c36f3cb754e21f389f22210cdd81f14ae28b1f4ff25423eabae15d544",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/2p-encke-90000067.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000067;, 1925-01-31 08:45 / 1931-03-07 22:33",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000067%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271925-01-31%2008%3A45%27&STOP_TIME=%271931-03-07%2022%3A33%27",
+      "percorsoCache": "small/spk/2p-encke-90000067.bsp",
+      "byte": 193536,
+      "sha256": "481ef3eb743a352ef56ba6d02423617d054c531148d5de92b28f82188fa143ab",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/2p-encke-90000068.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000068;, 1928-05-17 22:33 / 1934-06-18 20:21",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000068%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271928-05-17%2022%3A33%27&STOP_TIME=%271934-06-18%2020%3A21%27",
+      "percorsoCache": "small/spk/2p-encke-90000068.bsp",
+      "byte": 196608,
+      "sha256": "8eb37048f18379b16a979c8a63d5a686b6d0b3ed8604817d3b0502789671092a",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/2p-encke-90000069.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000069;, 1931-08-29 20:21 / 1937-10-01 03:50",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000069%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271931-08-29%2020%3A21%27&STOP_TIME=%271937-10-01%2003%3A50%27",
+      "percorsoCache": "small/spk/2p-encke-90000069.bsp",
+      "byte": 193536,
+      "sha256": "027b7d40435b4f09e3ad54d2108208ffee51505afe787ed4150d304a284c62c1",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/2p-encke-90000070.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000070;, 1934-12-12 03:50 / 1941-01-12 20:24",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000070%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271934-12-12%2003%3A50%27&STOP_TIME=%271941-01-12%2020%3A24%27",
+      "percorsoCache": "small/spk/2p-encke-90000070.bsp",
+      "byte": 194560,
+      "sha256": "c2ac081a20460243aa1028e69e32b36f6930b582c94de8f099fb3676e3b77579",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/2p-encke-90000071.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000071;, 1938-03-25 20:24 / 1944-05-06 20:56",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000071%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271938-03-25%2020%3A24%27&STOP_TIME=%271944-05-06%2020%3A56%27",
+      "percorsoCache": "small/spk/2p-encke-90000071.bsp",
+      "byte": 193536,
+      "sha256": "86818512404728a56911a7006c58a8d90d4d7685d8801b56dbc6980be58f7994",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/2p-encke-90000072.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000072;, 1941-07-17 20:56 / 1950-12-15 20:54",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000072%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271941-07-17%2020%3A56%27&STOP_TIME=%271950-12-15%2020%3A54%27",
+      "percorsoCache": "small/spk/2p-encke-90000072.bsp",
+      "byte": 261120,
+      "sha256": "ee96d2ad7e4daa5e0001631dc616a9ca543c3bc314e1b3df1e0279ec581bba6e",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/2p-encke-90000073.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000073;, 1948-02-25 20:54 / 1954-04-03 14:29",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000073%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271948-02-25%2020%3A54%27&STOP_TIME=%271954-04-03%2014%3A29%27",
+      "percorsoCache": "small/spk/2p-encke-90000073.bsp",
+      "byte": 197632,
+      "sha256": "73ccadcea85a3c46d4a80f6def656d52794ce340a49aa4c17eec5cf262d22b70",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/2p-encke-90000074.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000074;, 1951-06-14 14:29 / 1957-07-21 00:29",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000074%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271951-06-14%2014%3A29%27&STOP_TIME=%271957-07-21%2000%3A29%27",
+      "percorsoCache": "small/spk/2p-encke-90000074.bsp",
+      "byte": 190464,
+      "sha256": "42f2d7e2a0782358b895b2f842dc114a5209ad8c5682a21e1b0839a94ca88b87",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/2p-encke-90000075.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000075;, 1954-10-01 00:29 / 1960-11-07 04:11",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000075%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271954-10-01%2000%3A29%27&STOP_TIME=%271960-11-07%2004%3A11%27",
+      "percorsoCache": "small/spk/2p-encke-90000075.bsp",
+      "byte": 196608,
+      "sha256": "4935f2ff02920dc34351e5c6469accede76687b0ea8cc59e5a88740e9b41e309",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/2p-encke-90000076.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000076;, 1958-01-18 04:11 / 1964-02-25 07:18",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000076%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271958-01-18%2004%3A11%27&STOP_TIME=%271964-02-25%2007%3A18%27",
+      "percorsoCache": "small/spk/2p-encke-90000076.bsp",
+      "byte": 194560,
+      "sha256": "3466c466f30116e7b17c7c4b09e2718f7c883f65144eea1dd318f2d40483d1de",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/2p-encke-90000077.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000077;, 1961-05-07 07:18 / 1967-06-23 11:16",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000077%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271961-05-07%2007%3A18%27&STOP_TIME=%271967-06-23%2011%3A16%27",
+      "percorsoCache": "small/spk/2p-encke-90000077.bsp",
+      "byte": 196608,
+      "sha256": "df0f79059166af8165bb92af4b050e07753b51808b8727f6bed02ec05935b7cd",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/2p-encke-90000078.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000078;, 1964-09-02 11:16 / 1970-10-10 15:30",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000078%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271964-09-02%2011%3A16%27&STOP_TIME=%271970-10-10%2015%3A30%27",
+      "percorsoCache": "small/spk/2p-encke-90000078.bsp",
+      "byte": 191488,
+      "sha256": "2851b6ff6e09b2c659750696637e96a4d5297371c0580acacdea8f9606f2f83e",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/2p-encke-90000079.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000079;, 1967-12-21 15:30 / 1974-01-28 23:17",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000079%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271967-12-21%2015%3A30%27&STOP_TIME=%271974-01-28%2023%3A17%27",
+      "percorsoCache": "small/spk/2p-encke-90000079.bsp",
+      "byte": 193536,
+      "sha256": "9365115d8c082fe20e2b87a1ffeed1f4f788df80c25e3fc847388552408f4c62",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/2p-encke-90000080.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000080;, 1971-04-10 23:17 / 1977-05-17 15:52",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000080%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271971-04-10%2023%3A17%27&STOP_TIME=%271977-05-17%2015%3A52%27",
+      "percorsoCache": "small/spk/2p-encke-90000080.bsp",
+      "byte": 195584,
+      "sha256": "c3f5328443d19d94cd732a8531e8e33d1337134eb06f8c8c6c52b04b9c55ebd6",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/2p-encke-90000081.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000081;, 1974-07-28 15:52 / 1980-09-05 15:39",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000081%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271974-07-28%2015%3A52%27&STOP_TIME=%271980-09-05%2015%3A39%27",
+      "percorsoCache": "small/spk/2p-encke-90000081.bsp",
+      "byte": 189440,
+      "sha256": "3927c60e26a636b7eef50944bec8845e4a054ad3d52d58169039b3ce4843c9f8",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/2p-encke-90000082.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000082;, 1977-11-16 15:39 / 1983-12-26 23:47",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000082%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271977-11-16%2015%3A39%27&STOP_TIME=%271983-12-26%2023%3A47%27",
+      "percorsoCache": "small/spk/2p-encke-90000082.bsp",
+      "byte": 193536,
+      "sha256": "f7a329efeafe375ca494e40df1690285b32576aaa5b4d28b0c68abc076cfd74e",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/2p-encke-90000083.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000083;, 1981-03-07 23:47 / 1987-04-17 09:27",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000083%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271981-03-07%2023%3A47%27&STOP_TIME=%271987-04-17%2009%3A27%27",
+      "percorsoCache": "small/spk/2p-encke-90000083.bsp",
+      "byte": 193536,
+      "sha256": "00bd5f58638e2b0b93ac6a93809e1c3a209c4ab30411519b12ee2acb6dc472c4",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/2p-encke-90000084.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000084;, 1984-06-27 09:27 / 1990-08-02 09:21",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000084%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271984-06-27%2009%3A27%27&STOP_TIME=%271990-08-02%2009%3A21%27",
+      "percorsoCache": "small/spk/2p-encke-90000084.bsp",
+      "byte": 193536,
+      "sha256": "e2c62e04e64f2570a0e9539fdb1755bcf021d932021a7116d879f6277294ca24",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/2p-encke-90000085.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000085;, 1987-10-13 09:21 / 1993-11-13 05:44",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000085%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271987-10-13%2009%3A21%27&STOP_TIME=%271993-11-13%2005%3A44%27",
+      "percorsoCache": "small/spk/2p-encke-90000085.bsp",
+      "byte": 190464,
+      "sha256": "80580c2a9048c1004711f7c1cbe8cb30061bcbd434b8fd2541bca35cc31f40d7",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/2p-encke-90000086.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000086;, 1991-01-24 05:44 / 1997-02-25 04:07",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000086%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271991-01-24%2005%3A44%27&STOP_TIME=%271997-02-25%2004%3A07%27",
+      "percorsoCache": "small/spk/2p-encke-90000086.bsp",
+      "byte": 194560,
+      "sha256": "2117db21d8e9c762ea76c7909328b50d42e544593caf55af10be89fc8cdf21a2",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/2p-encke-90000088.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000088;, 1994-05-08 04:07 / 2003-09-28 03:41",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000088%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271994-05-08%2004%3A07%27&STOP_TIME=%272003-09-28%2003%3A41%27",
+      "percorsoCache": "small/spk/2p-encke-90000088.bsp",
+      "byte": 249856,
+      "sha256": "174c39655ae372d9b6745d181218f9a9c6cdc6643b56e087e99f7e0d3a656388",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/2p-encke-90000089.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000089;, 2000-12-08 03:41 / 2010-05-07 23:18",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000089%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%272000-12-08%2003%3A41%27&STOP_TIME=%272010-05-07%2023%3A18%27",
+      "percorsoCache": "small/spk/2p-encke-90000089.bsp",
+      "byte": 249856,
+      "sha256": "f8fbc6a7f7a9108d8e4cefa14a6a1444acf9afd666a254ce4e7cf59e94306e52",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/2p-encke-90000090.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000090;, 2007-07-18 23:18 / 2023-07-15 08:16",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000090%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%272007-07-18%2023%3A18%27&STOP_TIME=%272023-07-15%2008%3A16%27",
+      "percorsoCache": "small/spk/2p-encke-90000090.bsp",
+      "byte": 381952,
+      "sha256": "fb9702616aff73121580ab233b18e05c2bec7b2fb1d580c4ba71582798c28d5f",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/2p-encke-90000091.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000091;, 2020-09-24 08:16 / 2121-03-27 00:00",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000091%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%272020-09-24%2008%3A16%27&STOP_TIME=%272121-03-27%2000%3A00%27",
+      "percorsoCache": "small/spk/2p-encke-90000091.bsp",
+      "byte": 2011136,
+      "sha256": "0e0245d32cfaee97ab2840cbd8f5acf9518c0dd717bc0da36b20f7d186905588",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/3i-atlas.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND DES=1004083;, 1600-01-01 00:00 / 2121-03-27 00:00",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%27DES%3D1004083%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271600-01-01%2000%3A00%27&STOP_TIME=%272121-03-27%2000%3A00%27",
+      "percorsoCache": "small/spk/3i-atlas.bsp",
+      "byte": 9313280,
+      "sha256": "a18cd4cd48fef09992c5b4e60b707758b4d10663f58bc5e5dfeb9f72fd60486c",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/46p-wirtanen-90000537.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000537;, 1600-01-01 00:00 / 1952-09-04 14:34",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000537%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271600-01-01%2000%3A00%27&STOP_TIME=%271952-09-04%2014%3A34%27",
+      "percorsoCache": "small/spk/46p-wirtanen-90000537.bsp",
+      "byte": 6346752,
+      "sha256": "5457ae6ecd14ed7bceda99fafbdd0752330597ba34bd6dfafd685f34c8712e91",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/46p-wirtanen-90000538.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000538;, 1949-11-15 14:34 / 1959-05-12 12:39",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000538%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271949-11-15%2014%3A34%27&STOP_TIME=%271959-05-12%2012%3A39%27",
+      "percorsoCache": "small/spk/46p-wirtanen-90000538.bsp",
+      "byte": 246784,
+      "sha256": "7fdf06513ce9931ffdc9c14cc204587c54da239446429ca230e1e5bffc05c680",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/46p-wirtanen-90000539.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000539;, 1956-07-22 12:39 / 1966-01-09 02:37",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000539%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271956-07-22%2012%3A39%27&STOP_TIME=%271966-01-09%2002%3A37%27",
+      "percorsoCache": "small/spk/46p-wirtanen-90000539.bsp",
+      "byte": 242688,
+      "sha256": "9a365a76be0da08d25e972869e4674f03546a7237f8e4c5ec2b3cec806aa4bac",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/46p-wirtanen-90000540.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000540;, 1963-03-22 02:37 / 1972-09-06 19:49",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000540%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271963-03-22%2002%3A37%27&STOP_TIME=%271972-09-06%2019%3A49%27",
+      "percorsoCache": "small/spk/46p-wirtanen-90000540.bsp",
+      "byte": 245760,
+      "sha256": "4e14cc8036fb1fb1a83793e94b976c921b24c4e6c2e7c2a739066809fc0d6c40",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/46p-wirtanen-90000541.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000541;, 1969-11-17 19:49 / 1978-11-06 06:30",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000541%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271969-11-17%2019%3A49%27&STOP_TIME=%271978-11-06%2006%3A30%27",
+      "percorsoCache": "small/spk/46p-wirtanen-90000541.bsp",
+      "byte": 236544,
+      "sha256": "d68f42ba934a51d6c56ff4ab8d254cd641f9ab0484d2d661a8cd85c561cb3fb6",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/46p-wirtanen-90000542.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000542;, 1976-01-17 06:30 / 1990-05-14 02:27",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000542%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271976-01-17%2006%3A30%27&STOP_TIME=%271990-05-14%2002%3A27%27",
+      "percorsoCache": "small/spk/46p-wirtanen-90000542.bsp",
+      "byte": 339968,
+      "sha256": "896a6fea37c7ec3a9be344c5df1ffd5d7d8cf258c8c8aa6fe4d2cbb05cf9d895",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/46p-wirtanen-90000543.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000543;, 1987-07-25 02:27 / 1995-11-14 17:33",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000543%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271987-07-25%2002%3A27%27&STOP_TIME=%271995-11-14%2017%3A33%27",
+      "percorsoCache": "small/spk/46p-wirtanen-90000543.bsp",
+      "byte": 226304,
+      "sha256": "f43d87b84453de6ff04736e9fd690425b37520ef6d1c9a88b245fc7c82de5ee2",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/46p-wirtanen-90000544.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000544;, 1993-01-24 17:33 / 2001-04-30 12:25",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000544%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271993-01-24%2017%3A33%27&STOP_TIME=%272001-04-30%2012%3A25%27",
+      "percorsoCache": "small/spk/46p-wirtanen-90000544.bsp",
+      "byte": 225280,
+      "sha256": "4faf638368e160e1b5b28d2e6c74c7e9c5220393f21ba8e8e2a52875153a54d7",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/46p-wirtanen-90000546.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000546;, 1998-07-11 12:25 / 2012-03-18 01:36",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000546%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271998-07-11%2012%3A25%27&STOP_TIME=%272012-03-18%2001%3A36%27",
+      "percorsoCache": "small/spk/46p-wirtanen-90000546.bsp",
+      "byte": 323584,
+      "sha256": "1559f0ee1d4d45597e07c2f5f5f04cf255ef3090c96440029212315593d59f48",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/46p-wirtanen-90000548.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000548;, 2009-05-29 01:36 / 2121-03-27 00:00",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000548%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%272009-05-29%2001%3A36%27&STOP_TIME=%272121-03-27%2000%3A00%27",
+      "percorsoCache": "small/spk/46p-wirtanen-90000548.bsp",
+      "byte": 2070528,
+      "sha256": "7b3f950321a976b8ffe933ff652e026dd679bd71dff929c78f3dd7d228818e23",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/52-europa.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND DES=20000052;, 1600-01-01 00:00 / 2121-03-27 00:00",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%27DES%3D20000052%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271600-01-01%2000%3A00%27&STOP_TIME=%272121-03-27%2000%3A00%27",
+      "percorsoCache": "small/spk/52-europa.bsp",
+      "byte": 9486336,
+      "sha256": "901bf7ff1105a867edd3b51e7e5d94cc89a2530c7233c928e9bfb9922ac93b4b",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/55p-tempel-tuttle-90000623.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000623;, 1600-01-01 00:00 / 1786-01-07 11:36",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000623%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271600-01-01%2000%3A00%27&STOP_TIME=%271786-01-07%2011%3A36%27",
+      "percorsoCache": "small/spk/55p-tempel-tuttle-90000623.bsp",
+      "byte": 3405824,
+      "sha256": "320739cc55ed3a96f7a47b38e7eed07d8d8fdb6261d4d4534a98a7484048d271",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/55p-tempel-tuttle-90000624.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000624;, 1783-03-20 11:36 / 1917-09-26 01:26",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000624%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271783-03-20%2011%3A36%27&STOP_TIME=%271917-09-26%2001%3A26%27",
+      "percorsoCache": "small/spk/55p-tempel-tuttle-90000624.bsp",
+      "byte": 2546688,
+      "sha256": "e1e6a8628ee23a2fb237c91fcbae96895b1f491c17fff0b6f5a34e20d8548896",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/55p-tempel-tuttle-90000625.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000625;, 1914-12-07 01:26 / 1983-03-14 00:15",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000625%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271914-12-07%2001%3A26%27&STOP_TIME=%271983-03-14%2000%3A15%27",
+      "percorsoCache": "small/spk/55p-tempel-tuttle-90000625.bsp",
+      "byte": 1310720,
+      "sha256": "e99d4ba341cbdc6e30c2be524e41c9a315bdea3396ea76ab98589fa68e101f59",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/55p-tempel-tuttle-90000626.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000626;, 1980-05-24 00:15 / 2121-03-27 00:00",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000626%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271980-05-24%2000%3A15%27&STOP_TIME=%272121-03-27%2000%3A00%27",
+      "percorsoCache": "small/spk/55p-tempel-tuttle-90000626.bsp",
+      "byte": 2552832,
+      "sha256": "6524c12ecbe644e4a98f09f8fc56da40523ea654b97ce8a928887ea176afd87a",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/67p-churyumov-gerasimenko-90000695.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000695;, 1600-01-01 00:00 / 1974-05-16 14:24",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000695%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271600-01-01%2000%3A00%27&STOP_TIME=%271974-05-16%2014%3A24%27",
+      "percorsoCache": "small/spk/67p-churyumov-gerasimenko-90000695.bsp",
+      "byte": 6779904,
+      "sha256": "e1004d84c8c73fdd60429826c8f1ebdf55706dc30e7ead9f537bee34e88e75ef",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/67p-churyumov-gerasimenko-90000696.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000696;, 1971-07-27 14:24 / 1980-12-17 16:07",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000696%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271971-07-27%2014%3A24%27&STOP_TIME=%271980-12-17%2016%3A07%27",
+      "percorsoCache": "small/spk/67p-churyumov-gerasimenko-90000696.bsp",
+      "byte": 250880,
+      "sha256": "f0bc7161a1324eed91992d88ca4f31be18acd93464958bc9e4a558fceeebaf4b",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/67p-churyumov-gerasimenko-90000697.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000697;, 1978-02-27 16:07 / 1987-07-28 05:58",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000697%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271978-02-27%2016%3A07%27&STOP_TIME=%271987-07-28%2005%3A58%27",
+      "percorsoCache": "small/spk/67p-churyumov-gerasimenko-90000697.bsp",
+      "byte": 244736,
+      "sha256": "bbfb2d91d092728c3476266bfbbbd974c98aabdca2dd076736e90abd8275ec9b",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/67p-churyumov-gerasimenko-90000698.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000698;, 1984-10-07 05:58 / 1994-02-27 22:59",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000698%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271984-10-07%2005%3A58%27&STOP_TIME=%271994-02-27%2022%3A59%27",
+      "percorsoCache": "small/spk/67p-churyumov-gerasimenko-90000698.bsp",
+      "byte": 245760,
+      "sha256": "b0d95e582c6ac786bc183cd71db024da426a05809e6bb65d7df8dde5c29ad66a",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/67p-churyumov-gerasimenko-90000699.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000699;, 1991-05-10 22:59 / 2000-09-28 09:46",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000699%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271991-05-10%2022%3A59%27&STOP_TIME=%272000-09-28%2009%3A46%27",
+      "percorsoCache": "small/spk/67p-churyumov-gerasimenko-90000699.bsp",
+      "byte": 245760,
+      "sha256": "b5c46d39b63dc7dc857de1cb42266d6f957e16cac4c4d48472e55a5259623e2d",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/67p-churyumov-gerasimenko-90000700.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000700;, 1997-12-09 09:46 / 2007-04-25 21:14",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000700%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271997-12-09%2009%3A46%27&STOP_TIME=%272007-04-25%2021%3A14%27",
+      "percorsoCache": "small/spk/67p-churyumov-gerasimenko-90000700.bsp",
+      "byte": 245760,
+      "sha256": "6d05ee0801b5c3f789ae4dffc278a359be8ee277b7fed87c6570e5f150f4838d",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/67p-churyumov-gerasimenko-90000701.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000701;, 2004-07-05 21:14 / 2013-11-01 20:45",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000701%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%272004-07-05%2021%3A14%27&STOP_TIME=%272013-11-01%2020%3A45%27",
+      "percorsoCache": "small/spk/67p-churyumov-gerasimenko-90000701.bsp",
+      "byte": 240640,
+      "sha256": "bb28e93d41121e7268b7b544f7f58d8160d8af620e314daddf0bf3958f556af4",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/67p-churyumov-gerasimenko-90000703.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000703;, 2011-01-12 20:45 / 2121-03-27 00:00",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000703%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%272011-01-12%2020%3A45%27&STOP_TIME=%272121-03-27%2000%3A00%27",
+      "percorsoCache": "small/spk/67p-churyumov-gerasimenko-90000703.bsp",
+      "byte": 2035712,
+      "sha256": "5677a8a7caa45cc29e557ac46f43d450364c207a33bf2ef1733764b7fc7ea3f4",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/81p-wild-2-90000857.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000857;, 1600-01-01 00:00 / 1982-12-10 12:38",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000857%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271600-01-01%2000%3A00%27&STOP_TIME=%271982-12-10%2012%3A38%27",
+      "percorsoCache": "small/spk/81p-wild-2-90000857.bsp",
+      "byte": 6888448,
+      "sha256": "368e2c90183b77d4f53524413090c6a05d2d68b94757d646b2ab468d681037e6",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/81p-wild-2-90000858.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000858;, 1980-02-20 12:38 / 1989-02-14 20:15",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000858%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271980-02-20%2012%3A38%27&STOP_TIME=%271989-02-14%2020%3A15%27",
+      "percorsoCache": "small/spk/81p-wild-2-90000858.bsp",
+      "byte": 237568,
+      "sha256": "a721df25506029ceb292addfbce55a4aed70a93c712d1b08a1d0badd7ae83796",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/81p-wild-2-90000859.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000859;, 1986-04-27 20:15 / 1995-07-20 01:26",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000859%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271986-04-27%2020%3A15%27&STOP_TIME=%271995-07-20%2001%3A26%27",
+      "percorsoCache": "small/spk/81p-wild-2-90000859.bsp",
+      "byte": 240640,
+      "sha256": "7d8d40a9c37c80468398b142ad443e0b7ddd833599a7a330676bfa7f1c1638a3",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/81p-wild-2-90000860.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000860;, 1992-09-29 01:26 / 2001-12-10 14:28",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000860%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271992-09-29%2001%3A26%27&STOP_TIME=%272001-12-10%2014%3A28%27",
+      "percorsoCache": "small/spk/81p-wild-2-90000860.bsp",
+      "byte": 237568,
+      "sha256": "91a4e179a471aac68644d0b6f7fc1da8db3db3f421d99e6f677e02431f3506c2",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/81p-wild-2-90000861.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000861;, 1999-02-20 14:28 / 2008-05-04 10:31",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000861%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271999-02-20%2014%3A28%27&STOP_TIME=%272008-05-04%2010%3A31%27",
+      "percorsoCache": "small/spk/81p-wild-2-90000861.bsp",
+      "byte": 241664,
+      "sha256": "604615ccf468c3376d84e5cb8dde9df9d05e6042fe1ae7751126872ae97d4699",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/81p-wild-2-90000862.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000862;, 2005-07-15 10:31 / 2014-10-02 19:25",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000862%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%272005-07-15%2010%3A31%27&STOP_TIME=%272014-10-02%2019%3A25%27",
+      "percorsoCache": "small/spk/81p-wild-2-90000862.bsp",
+      "byte": 246784,
+      "sha256": "87b46bfb4469f4848cb817d37d2d503f302045fae3c0d9c83a4464c6812682e6",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/81p-wild-2-90000863.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000863;, 2011-12-13 19:25 / 2121-03-27 00:00",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000863%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%272011-12-13%2019%3A25%27&STOP_TIME=%272121-03-27%2000%3A00%27",
+      "percorsoCache": "small/spk/81p-wild-2-90000863.bsp",
+      "byte": 2036736,
+      "sha256": "972ba54b5173fe3fbbec35b0284ab37fdd66721bf21c5bc5bcab97977b091331",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/9p-tempel-1-90000181.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000181;, 1600-01-01 00:00 / 1871-08-15 12:01",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000181%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271600-01-01%2000%3A00%27&STOP_TIME=%271871-08-15%2012%3A01%27",
+      "percorsoCache": "small/spk/9p-tempel-1-90000181.bsp",
+      "byte": 4909056,
+      "sha256": "5487a1ff0d7c7ba6727670587fc80286b389a30b79a950e696209c608d988a83",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/9p-tempel-1-90000182.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000182;, 1868-10-25 12:01 / 1877-10-01 01:48",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000182%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271868-10-25%2012%3A01%27&STOP_TIME=%271877-10-01%2001%3A48%27",
+      "percorsoCache": "small/spk/9p-tempel-1-90000182.bsp",
+      "byte": 231424,
+      "sha256": "7398f552f76505c5e641f73882b302c73e21f3de660f921c0b9487bb3842f700",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/9p-tempel-1-90000183.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000183;, 1874-12-12 01:48 / 1925-08-14 10:50",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000183%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271874-12-12%2001%3A48%27&STOP_TIME=%271925-08-14%2010%3A50%27",
+      "percorsoCache": "small/spk/9p-tempel-1-90000183.bsp",
+      "byte": 997376,
+      "sha256": "895e972fbe4912f7b74768fab82ec4bd63441c4a54057c64f388b9e69ef7faee",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/9p-tempel-1-90000184.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000184;, 1922-10-25 10:50 / 1971-03-10 09:40",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000184%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271922-10-25%2010%3A50%27&STOP_TIME=%271971-03-10%2009%3A40%27",
+      "percorsoCache": "small/spk/9p-tempel-1-90000184.bsp",
+      "byte": 951296,
+      "sha256": "f30f484137c08255eb3168981b82620b74cab8e6331a241856ed8fb3a039aea0",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/9p-tempel-1-90000185.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000185;, 1968-05-20 09:40 / 1976-09-08 16:59",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000185%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271968-05-20%2009%3A40%27&STOP_TIME=%271976-09-08%2016%3A59%27",
+      "percorsoCache": "small/spk/9p-tempel-1-90000185.bsp",
+      "byte": 226304,
+      "sha256": "407d8ae4b593ad53834f8b6e4802ed0ec711986edf6c62d9539278eb1463ff34",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/9p-tempel-1-90000186.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000186;, 1973-11-19 16:59 / 1982-03-07 03:55",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000186%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271973-11-19%2016%3A59%27&STOP_TIME=%271982-03-07%2003%3A55%27",
+      "percorsoCache": "small/spk/9p-tempel-1-90000186.bsp",
+      "byte": 224256,
+      "sha256": "c50244853f421d6e167c95e114a44191fdd13a06c59b4cefe4d87c0017d3aeee",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/9p-tempel-1-90000187.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000187;, 1979-05-18 03:55 / 1987-09-01 13:13",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000187%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271979-05-18%2003%3A55%27&STOP_TIME=%271987-09-01%2013%3A13%27",
+      "percorsoCache": "small/spk/9p-tempel-1-90000187.bsp",
+      "byte": 227328,
+      "sha256": "c7653b996abe7d24198ab052a6322777651d3f3b9751af6476c1a7d26b5c6a6c",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/9p-tempel-1-90000188.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000188;, 1984-11-11 13:13 / 1993-03-01 00:55",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000188%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271984-11-11%2013%3A13%27&STOP_TIME=%271993-03-01%2000%3A55%27",
+      "percorsoCache": "small/spk/9p-tempel-1-90000188.bsp",
+      "byte": 230400,
+      "sha256": "7920779cb4615592f3551cfb3c98f63f450727954a0a0f93dced9cbbf9ed49db",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/9p-tempel-1-90000189.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000189;, 1990-05-12 00:55 / 2004-02-24 16:45",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000189%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271990-05-12%2000%3A55%27&STOP_TIME=%272004-02-24%2016%3A45%27",
+      "percorsoCache": "small/spk/9p-tempel-1-90000189.bsp",
+      "byte": 326656,
+      "sha256": "d52638040b263743b4b6199ffaefbbdd98b7bb36903304c67fddb3bbb1eebaad",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/9p-tempel-1-90000190.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000190;, 2001-05-06 16:45 / 2009-09-01 08:50",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000190%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%272001-05-06%2016%3A45%27&STOP_TIME=%272009-09-01%2008%3A50%27",
+      "percorsoCache": "small/spk/9p-tempel-1-90000190.bsp",
+      "byte": 225280,
+      "sha256": "547c86e0b77eeccf943d185acfa5353d613c6a0f30a7d381052bd0efc68e0af4",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/9p-tempel-1-90000191.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000191;, 2006-11-12 08:50 / 2015-03-17 06:39",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000191%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%272006-11-12%2008%3A50%27&STOP_TIME=%272015-03-17%2006%3A39%27",
+      "percorsoCache": "small/spk/9p-tempel-1-90000191.bsp",
+      "byte": 226304,
+      "sha256": "aaded738855e2e9459e2f6f0b98a8015b02dfdf18cbd86dea99c8027341e427c",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/9p-tempel-1-90000192.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND 90000192;, 2012-05-27 06:39 / 2121-03-27 00:00",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%2790000192%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%272012-05-27%2006%3A39%27&STOP_TIME=%272121-03-27%2000%3A00%27",
+      "percorsoCache": "small/spk/9p-tempel-1-90000192.bsp",
+      "byte": 2022400,
+      "sha256": "dd2669c046e73f2c0dcae2ca0f127125ed82a2665dba6b20588b44705895b1e8",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/annefrank.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND DES=20005535;, 1600-01-01 00:00 / 2121-03-27 00:00",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%27DES%3D20005535%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271600-01-01%2000%3A00%27&STOP_TIME=%272121-03-27%2000%3A00%27",
+      "percorsoCache": "small/spk/annefrank.bsp",
+      "byte": 9419776,
+      "sha256": "b3dae18b295b5059ce5d2621a3ad220f18402295ffedb7404f96acfa00c3eb17",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/apophis.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND DES=20099942;, 1600-01-01 00:00 / 2121-03-27 00:00",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%27DES%3D20099942%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271600-01-01%2000%3A00%27&STOP_TIME=%272121-03-27%2000%3A00%27",
+      "percorsoCache": "small/spk/apophis.bsp",
+      "byte": 9659392,
+      "sha256": "5ba0baf47def64cf7ae7a68250a3ea174bf5e4a51bdb498c7236d3bb9af6ac1f",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/arrokoth.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND DES=20486958;, 1600-01-01 00:00 / 2121-03-27 00:00",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%27DES%3D20486958%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271600-01-01%2000%3A00%27&STOP_TIME=%272121-03-27%2000%3A00%27",
+      "percorsoCache": "small/spk/arrokoth.bsp",
+      "byte": 9364480,
+      "sha256": "dd1ed5fcd756c48cdd2de79865bf92e7d127ca67d6ec24c6505e54d3fcb60284",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/braille.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND DES=20009969;, 1600-01-01 00:00 / 2121-03-27 00:00",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%27DES%3D20009969%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271600-01-01%2000%3A00%27&STOP_TIME=%272121-03-27%2000%3A00%27",
+      "percorsoCache": "small/spk/braille.bsp",
+      "byte": 9355264,
+      "sha256": "a85a637191c1127c17430f85576cc5fff6abdb0a8e2d14f2249c3cc6209f4315",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/c1680-v1.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND DES=1000669;, 1600-01-01 00:00 / 2121-03-27 00:00",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%27DES%3D1000669%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271600-01-01%2000%3A00%27&STOP_TIME=%272121-03-27%2000%3A00%27",
+      "percorsoCache": "small/spk/c1680-v1.bsp",
+      "byte": 9918464,
+      "sha256": "54ccf8cc42627ebaa9906ecae55385286e8f358bb9b592aad5fea75a8be8390b",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/c1965-s1-ikeya-seki.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND DES=1001121;, 1600-01-01 00:00 / 2121-03-27 00:00",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%27DES%3D1001121%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271600-01-01%2000%3A00%27&STOP_TIME=%272121-03-27%2000%3A00%27",
+      "percorsoCache": "small/spk/c1965-s1-ikeya-seki.bsp",
+      "byte": 9370624,
+      "sha256": "5d77572064b3974189d2d9210bce48ce89463aa4c2511cf6304ba735c55a3e9e",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/c1975-v1-west.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND DES=1001163;, 1600-01-01 00:00 / 2121-03-27 00:00",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%27DES%3D1001163%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271600-01-01%2000%3A00%27&STOP_TIME=%272121-03-27%2000%3A00%27",
+      "percorsoCache": "small/spk/c1975-v1-west.bsp",
+      "byte": 9536512,
+      "sha256": "1ca8d5379010f1478a3c937ddbe2703564e023c487b0346a97d6f78129e57317",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/c1995-o1-hale-bopp.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND DES=1000132;, 1600-01-01 00:00 / 2121-03-27 00:00",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%27DES%3D1000132%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271600-01-01%2000%3A00%27&STOP_TIME=%272121-03-27%2000%3A00%27",
+      "percorsoCache": "small/spk/c1995-o1-hale-bopp.bsp",
+      "byte": 9434112,
+      "sha256": "b779e8c0793d659fd2168f70767232b477483c7fb12ec75fb45f45ec2da44529",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/c1996-b2-hyakutake.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND DES=1000131;, 1600-01-01 00:00 / 2121-03-27 00:00",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%27DES%3D1000131%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271600-01-01%2000%3A00%27&STOP_TIME=%272121-03-27%2000%3A00%27",
+      "percorsoCache": "small/spk/c1996-b2-hyakutake.bsp",
+      "byte": 9529344,
+      "sha256": "b559a44110e86f60c06271538b98089c73f7fa2c396a83c019ef05f547cab14d",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/c2006-p1-mcnaught.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND DES=1002410;, 1600-01-01 00:00 / 2121-03-27 00:00",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%27DES%3D1002410%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271600-01-01%2000%3A00%27&STOP_TIME=%272121-03-27%2000%3A00%27",
+      "percorsoCache": "small/spk/c2006-p1-mcnaught.bsp",
+      "byte": 9334784,
+      "sha256": "23bda8ca2d0ebeaec30d725bd35a380bac632984502e8fe5037a0aebe46daa4a",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/c2020-f3-neowise.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND DES=1003667;, 1600-01-01 00:00 / 2121-03-27 00:00",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%27DES%3D1003667%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271600-01-01%2000%3A00%27&STOP_TIME=%272121-03-27%2000%3A00%27",
+      "percorsoCache": "small/spk/c2020-f3-neowise.bsp",
+      "byte": 9522176,
+      "sha256": "3ea839a0218f7aba673a5fa958673cff393c33e8f18f91d77b51558dc80a3ed8",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/c2023-a3-tsuchinshan-atlas.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND DES=1003913;, 1600-01-01 00:00 / 2121-03-27 00:00",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%27DES%3D1003913%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271600-01-01%2000%3A00%27&STOP_TIME=%272121-03-27%2000%3A00%27",
+      "percorsoCache": "small/spk/c2023-a3-tsuchinshan-atlas.bsp",
+      "byte": 9212928,
+      "sha256": "2f504c1d75d2e00ee289458cdc0b9296efd20a68bc2d4e8517efc5da48a213bf",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/cerere.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND DES=20000001;, 1600-01-01 00:00 / 2121-03-27 00:00",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%27DES%3D20000001%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271600-01-01%2000%3A00%27&STOP_TIME=%272121-03-27%2000%3A00%27",
+      "percorsoCache": "small/spk/cerere.bsp",
+      "byte": 9365504,
+      "sha256": "f3f340eb2d396ad146b9da392eca7c97ec704abe1d22c4a20107929db88b6375",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/chariklo.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND DES=20010199;, 1600-01-01 00:00 / 2121-03-27 00:00",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%27DES%3D20010199%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271600-01-01%2000%3A00%27&STOP_TIME=%272121-03-27%2000%3A00%27",
+      "percorsoCache": "small/spk/chariklo.bsp",
+      "byte": 9337856,
+      "sha256": "5a7808a3070e8df2e2726d56a1fefe86484a7e4b5c2fc96c9c86edba442b9e91",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/chiron.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND DES=20002060;, 1600-01-01 00:00 / 2121-03-27 00:00",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%27DES%3D20002060%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271600-01-01%2000%3A00%27&STOP_TIME=%272121-03-27%2000%3A00%27",
+      "percorsoCache": "small/spk/chiron.bsp",
+      "byte": 9297920,
+      "sha256": "ec1e6ed236150ff922a6279945596df0e0a11736b938cf92351fc5aee861eb00",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/davida.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND DES=20000511;, 1600-01-01 00:00 / 2121-03-27 00:00",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%27DES%3D20000511%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271600-01-01%2000%3A00%27&STOP_TIME=%272121-03-27%2000%3A00%27",
+      "percorsoCache": "small/spk/davida.bsp",
+      "byte": 9321472,
+      "sha256": "627d3536d7bd48f04ddd15ee3fade24d8e04de06702ab3d0931ef9506da39e65",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/didymos.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND DES=20065803;, 1600-01-01 00:00 / 2121-03-27 00:00",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%27DES%3D20065803%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271600-01-01%2000%3A00%27&STOP_TIME=%272121-03-27%2000%3A00%27",
+      "percorsoCache": "small/spk/didymos.bsp",
+      "byte": 9303040,
+      "sha256": "db4729bf92a5381a3ee42b1be0b69524c280957a0f227b40722f6d6f5a0c58fc",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/dinkinesh.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND DES=20152830;, 1600-01-01 00:00 / 2121-03-27 00:00",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%27DES%3D20152830%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271600-01-01%2000%3A00%27&STOP_TIME=%272121-03-27%2000%3A00%27",
+      "percorsoCache": "small/spk/dinkinesh.bsp",
+      "byte": 9443328,
+      "sha256": "b77be5b91c02c6b276f15383c874dd17075c353e5ab3d365ca00571e78bc1cae",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/donaldjohanson.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND DES=20052246;, 1600-01-01 00:00 / 2121-03-27 00:00",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%27DES%3D20052246%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271600-01-01%2000%3A00%27&STOP_TIME=%272121-03-27%2000%3A00%27",
+      "percorsoCache": "small/spk/donaldjohanson.bsp",
+      "byte": 9466880,
+      "sha256": "a342d91baddeb875daa612d6fa8e42c6aa6afec427a3cc4e774e9659512fd1a5",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/eris.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND DES=20136199;, 1600-01-01 00:00 / 2121-03-27 00:00",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%27DES%3D20136199%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271600-01-01%2000%3A00%27&STOP_TIME=%272121-03-27%2000%3A00%27",
+      "percorsoCache": "small/spk/eris.bsp",
+      "byte": 9348096,
+      "sha256": "146cd46c8bc925aca0bd2fbb5e0ae1a6bc716137c3f894f99d5710cf8bfdfa9e",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/eros.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND DES=20000433;, 1600-01-01 00:00 / 2121-03-27 00:00",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%27DES%3D20000433%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271600-01-01%2000%3A00%27&STOP_TIME=%272121-03-27%2000%3A00%27",
+      "percorsoCache": "small/spk/eros.bsp",
+      "byte": 9400320,
+      "sha256": "4bfca7c97dc624b43b4fc8abb76321af6adb5aeb681ce75972687e73d0d88aa1",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/euphrosyne.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND DES=20000031;, 1600-01-01 00:00 / 2121-03-27 00:00",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%27DES%3D20000031%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271600-01-01%2000%3A00%27&STOP_TIME=%272121-03-27%2000%3A00%27",
+      "percorsoCache": "small/spk/euphrosyne.bsp",
+      "byte": 9417728,
+      "sha256": "afe258c89d4a57af7e4ce6886203c204e1419e549ce7cefcd350e34c4b39a2c9",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/eurybates.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND DES=20003548;, 1600-01-01 00:00 / 2121-03-27 00:00",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%27DES%3D20003548%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271600-01-01%2000%3A00%27&STOP_TIME=%272121-03-27%2000%3A00%27",
+      "percorsoCache": "small/spk/eurybates.bsp",
+      "byte": 9393152,
+      "sha256": "6c59fca920b7f673f790fe661144fb87262d4e6bd61f032ba8bf33b62861b347",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/gaspra.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND DES=20000951;, 1600-01-01 00:00 / 2121-03-27 00:00",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%27DES%3D20000951%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271600-01-01%2000%3A00%27&STOP_TIME=%272121-03-27%2000%3A00%27",
+      "percorsoCache": "small/spk/gaspra.bsp",
+      "byte": 9492480,
+      "sha256": "778934c8e16d424357e798f6b1d9ecde84211744187877c324bd8aab98d3bacc",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/giunone.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND DES=20000003;, 1600-01-01 00:00 / 2121-03-27 00:00",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%27DES%3D20000003%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271600-01-01%2000%3A00%27&STOP_TIME=%272121-03-27%2000%3A00%27",
+      "percorsoCache": "small/spk/giunone.bsp",
+      "byte": 9435136,
+      "sha256": "9b460a7e2a9ec2f240a4ffb5c6fd0608c74f23705c5c45b75e6129b32c8f8a55",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/gonggong.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND DES=20225088;, 1600-01-01 00:00 / 2121-03-27 00:00",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%27DES%3D20225088%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271600-01-01%2000%3A00%27&STOP_TIME=%272121-03-27%2000%3A00%27",
+      "percorsoCache": "small/spk/gonggong.bsp",
+      "byte": 9399296,
+      "sha256": "608983017cbc6ab0ef510a8a284d2eb27bea415961ad63100f8b547b3e6d07cd",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/haumea.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND DES=20136108;, 1600-01-01 00:00 / 2121-03-27 00:00",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%27DES%3D20136108%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271600-01-01%2000%3A00%27&STOP_TIME=%272121-03-27%2000%3A00%27",
+      "percorsoCache": "small/spk/haumea.bsp",
+      "byte": 9291776,
+      "sha256": "7bbaa5633d3d26f0bb759771c84677e411c19fa2f0763c1ac4e57c5275c7f2dc",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/hektor.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND DES=20000624;, 1600-01-01 00:00 / 2121-03-27 00:00",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%27DES%3D20000624%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271600-01-01%2000%3A00%27&STOP_TIME=%272121-03-27%2000%3A00%27",
+      "percorsoCache": "small/spk/hektor.bsp",
+      "byte": 9287680,
+      "sha256": "b0fbd36a7a9c8c1fd1422b2492ab6e02d5c289291c5754065dc6c009ee8b9973",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/ida.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND DES=20000243;, 1600-01-01 00:00 / 2121-03-27 00:00",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%27DES%3D20000243%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271600-01-01%2000%3A00%27&STOP_TIME=%272121-03-27%2000%3A00%27",
+      "percorsoCache": "small/spk/ida.bsp",
+      "byte": 9410560,
+      "sha256": "089efda86860ceff13b06af7f95cdbc32efd9f719d23a3bba56dec32763003ee",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/igea.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND DES=20000010;, 1600-01-01 00:00 / 2121-03-27 00:00",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%27DES%3D20000010%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271600-01-01%2000%3A00%27&STOP_TIME=%272121-03-27%2000%3A00%27",
+      "percorsoCache": "small/spk/igea.bsp",
+      "byte": 9393152,
+      "sha256": "8b7bc767fda9935d7b00e7e1fdf5df8a4596e6346f5224c892aa6ff8ada9f0ab",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/interamnia.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND DES=20000704;, 1600-01-01 00:00 / 2121-03-27 00:00",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%27DES%3D20000704%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271600-01-01%2000%3A00%27&STOP_TIME=%272121-03-27%2000%3A00%27",
+      "percorsoCache": "small/spk/interamnia.bsp",
+      "byte": 9354240,
+      "sha256": "38b95f418db33afe41763a2241e679c9a7e4f1040ab21f0a8c8211162a1bf05a",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/issione.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND DES=20028978;, 1600-01-01 00:00 / 2121-03-27 00:00",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%27DES%3D20028978%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271600-01-01%2000%3A00%27&STOP_TIME=%272121-03-27%2000%3A00%27",
+      "percorsoCache": "small/spk/issione.bsp",
+      "byte": 9413632,
+      "sha256": "66246119b454385184af22b0a95759deb26744d6a786c90fdd95d6a95fabe276",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/itokawa.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND DES=20025143;, 1600-01-01 00:00 / 2121-03-27 00:00",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%27DES%3D20025143%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271600-01-01%2000%3A00%27&STOP_TIME=%272121-03-27%2000%3A00%27",
+      "percorsoCache": "small/spk/itokawa.bsp",
+      "byte": 9508864,
+      "sha256": "8c43a91a5e4cce05629aebf09551ea1cd257e7a7ba6b177a2c3f9c8d641c11bd",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/lutetia.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND DES=20000021;, 1600-01-01 00:00 / 2121-03-27 00:00",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%27DES%3D20000021%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271600-01-01%2000%3A00%27&STOP_TIME=%272121-03-27%2000%3A00%27",
+      "percorsoCache": "small/spk/lutetia.bsp",
+      "byte": 9362432,
+      "sha256": "299d47626fed7c83ff2ac76659fbf0574aea4e6e08587518bf1e22000b82473b",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/makemake.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND DES=20136472;, 1600-01-01 00:00 / 2121-03-27 00:00",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%27DES%3D20136472%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271600-01-01%2000%3A00%27&STOP_TIME=%272121-03-27%2000%3A00%27",
+      "percorsoCache": "small/spk/makemake.bsp",
+      "byte": 9383936,
+      "sha256": "8280f58d9d5147e3906542334c784b9a7cc776d9df425aec037329e4ccf8b101",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/mani.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND DES=20307261;, 1600-01-01 00:00 / 2121-03-27 00:00",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%27DES%3D20307261%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271600-01-01%2000%3A00%27&STOP_TIME=%272121-03-27%2000%3A00%27",
+      "percorsoCache": "small/spk/mani.bsp",
+      "byte": 9298944,
+      "sha256": "2861d543c786102ed1bd79bc4ca56c7154382f90bf5220cf6bea94e13bfc4f79",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/mathilde.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND DES=20000253;, 1600-01-01 00:00 / 2121-03-27 00:00",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%27DES%3D20000253%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271600-01-01%2000%3A00%27&STOP_TIME=%272121-03-27%2000%3A00%27",
+      "percorsoCache": "small/spk/mathilde.bsp",
+      "byte": 9404416,
+      "sha256": "de9992a7fae92978579f01f9f596c4666031d112eb0df98321f45135d457e860",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/orco.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND DES=20090482;, 1600-01-01 00:00 / 2121-03-27 00:00",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%27DES%3D20090482%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271600-01-01%2000%3A00%27&STOP_TIME=%272121-03-27%2000%3A00%27",
+      "percorsoCache": "small/spk/orco.bsp",
+      "byte": 9488384,
+      "sha256": "c5d598fcd6022141762ca063989339d09cf23db781110e0834422317911dc8e0",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/pallade.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND DES=20000002;, 1600-01-01 00:00 / 2121-03-27 00:00",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%27DES%3D20000002%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271600-01-01%2000%3A00%27&STOP_TIME=%272121-03-27%2000%3A00%27",
+      "percorsoCache": "small/spk/pallade.bsp",
+      "byte": 9339904,
+      "sha256": "224436a7997abd3548b75e51ce9c8fa803981e49451279f6f213600155eae0c7",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/patientia.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND DES=20000451;, 1600-01-01 00:00 / 2121-03-27 00:00",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%27DES%3D20000451%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271600-01-01%2000%3A00%27&STOP_TIME=%272121-03-27%2000%3A00%27",
+      "percorsoCache": "small/spk/patientia.bsp",
+      "byte": 9334784,
+      "sha256": "815cf9b1f1827b034087859096bb660feea34f6a98f888ac25c7596153b20a04",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/patroclus.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND DES=20000617;, 1600-01-01 00:00 / 2121-03-27 00:00",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%27DES%3D20000617%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271600-01-01%2000%3A00%27&STOP_TIME=%272121-03-27%2000%3A00%27",
+      "percorsoCache": "small/spk/patroclus.bsp",
+      "byte": 9279488,
+      "sha256": "ca2e766a5b41ab10c5e9b15cab6a7142852be274780c4c9a8f47e8705a9f017a",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/phaethon.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND DES=20003200;, 1600-01-01 00:00 / 2121-03-27 00:00",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%27DES%3D20003200%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271600-01-01%2000%3A00%27&STOP_TIME=%272121-03-27%2000%3A00%27",
+      "percorsoCache": "small/spk/phaethon.bsp",
+      "byte": 12350464,
+      "sha256": "f8319e5d760a340699612295976caa884f5e7f468d72b3ff34939b0d9c46dc3e",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/psyche.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND DES=20000016;, 1600-01-01 00:00 / 2121-03-27 00:00",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%27DES%3D20000016%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271600-01-01%2000%3A00%27&STOP_TIME=%272121-03-27%2000%3A00%27",
+      "percorsoCache": "small/spk/psyche.bsp",
+      "byte": 9366528,
+      "sha256": "be7a2eb4ea965f0a8138cfcdbe6ace001676e9b16d0bf80a36c4b8ed9af76891",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/quaoar.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND DES=20050000;, 1600-01-01 00:00 / 2121-03-27 00:00",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%27DES%3D20050000%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271600-01-01%2000%3A00%27&STOP_TIME=%272121-03-27%2000%3A00%27",
+      "percorsoCache": "small/spk/quaoar.bsp",
+      "byte": 9360384,
+      "sha256": "108a04b5ae6ffb648003edfc37a86e3735b13d1f3eee65dbb9474e8da78db49a",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/ryugu.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND DES=20162173;, 1600-01-01 00:00 / 2121-03-27 00:00",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%27DES%3D20162173%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271600-01-01%2000%3A00%27&STOP_TIME=%272121-03-27%2000%3A00%27",
+      "percorsoCache": "small/spk/ryugu.bsp",
+      "byte": 9650176,
+      "sha256": "8f747919e35f8bf873d17a6885e26dc55481c7dd99528bf0447c0e64e1731762",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/salacia.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND DES=20120347;, 1600-01-01 00:00 / 2121-03-27 00:00",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%27DES%3D20120347%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271600-01-01%2000%3A00%27&STOP_TIME=%272121-03-27%2000%3A00%27",
+      "percorsoCache": "small/spk/salacia.bsp",
+      "byte": 9373696,
+      "sha256": "211c85281b5955dcc5a5041c5e426cfaa5ab80723d995c81012419c7ff6972da",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/sedna.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND DES=20090377;, 1600-01-01 00:00 / 2121-03-27 00:00",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%27DES%3D20090377%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271600-01-01%2000%3A00%27&STOP_TIME=%272121-03-27%2000%3A00%27",
+      "percorsoCache": "small/spk/sedna.bsp",
+      "byte": 9291776,
+      "sha256": "cfddd75721b987111b2fc49ea873c44ec83b6fc3603c878c8272b7e6e35307ba",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/steins.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND DES=20002867;, 1600-01-01 00:00 / 2121-03-27 00:00",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%27DES%3D20002867%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271600-01-01%2000%3A00%27&STOP_TIME=%272121-03-27%2000%3A00%27",
+      "percorsoCache": "small/spk/steins.bsp",
+      "byte": 9375744,
+      "sha256": "397105db83520e62c25910a2072da4d523225acac5926a393fe59a397aae7852",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/sylvia.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND DES=20000087;, 1600-01-01 00:00 / 2121-03-27 00:00",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%27DES%3D20000087%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271600-01-01%2000%3A00%27&STOP_TIME=%272121-03-27%2000%3A00%27",
+      "percorsoCache": "small/spk/sylvia.bsp",
+      "byte": 9361408,
+      "sha256": "273dc5efc4b7d6dffd5e12ed8009d615368b41a023c52cb38df0cc5028ea222e",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/toutatis.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND DES=20004179;, 1600-01-01 00:00 / 2121-03-27 00:00",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%27DES%3D20004179%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271600-01-01%2000%3A00%27&STOP_TIME=%272121-03-27%2000%3A00%27",
+      "percorsoCache": "small/spk/toutatis.bsp",
+      "byte": 9312256,
+      "sha256": "818a320a5fed47f64de1be2f1c2ce4d550234c56ef52eaa20acbf7f1476e3532",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/varuna.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND DES=20020000;, 1600-01-01 00:00 / 2121-03-27 00:00",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%27DES%3D20020000%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271600-01-01%2000%3A00%27&STOP_TIME=%272121-03-27%2000%3A00%27",
+      "percorsoCache": "small/spk/varuna.bsp",
+      "byte": 9323520,
+      "sha256": "2cff207c2ce744d02a6495f3fb84954410887d22b618c97303dfbe01c7832602",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/spk/vesta.bsp",
+      "descrizione": "SPK Horizons tipo 21, COMMAND DES=20000004;, 1600-01-01 00:00 / 2121-03-27 00:00",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%27DES%3D20000004%3B%27&EPHEM_TYPE=SPK&OBJ_DATA=%27NO%27&START_TIME=%271600-01-01%2000%3A00%27&STOP_TIME=%272121-03-27%2000%3A00%27",
+      "percorsoCache": "small/spk/vesta.bsp",
+      "byte": 9619456,
+      "sha256": "18515913dd06b8e085d729568769ef63aef0fb1205f667db95979bb19468fac8",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/tabelle/bennu-00.txt",
+      "descrizione": "vettori Horizons, COMMAND DES=20101955;, JD 2415021.5 / 2434989.5, passo 1 d",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=text&COMMAND=%27DES%3D20101955%3B%27&OBJ_DATA=%27NO%27&MAKE_EPHEM=%27YES%27&EPHEM_TYPE=%27VECTORS%27&CENTER=%27500%4010%27&REF_PLANE=%27ECLIPTIC%27&REF_SYSTEM=%27ICRF%27&VEC_TABLE=%272%27&VEC_CORR=%27NONE%27&VEC_LABELS=%27NO%27&OUT_UNITS=%27KM-S%27&CSV_FORMAT=%27YES%27&TIME_TYPE=%27TDB%27&START_TIME=%27JD%202415021.5%27&STOP_TIME=%27JD%202434989.5%27&STEP_SIZE=%271%20d%27",
+      "percorsoCache": "small/tabelle/bennu-00.txt",
+      "byte": 3898829,
+      "sha256": "1e9b22a60434d751f6bd5c0103201b5bd5c8cc3719b9eaf523b94ab46bf42f3f",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/tabelle/bennu-01.txt",
+      "descrizione": "vettori Horizons, COMMAND DES=20101955;, JD 2434989.5 / 2454957.5, passo 1 d",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=text&COMMAND=%27DES%3D20101955%3B%27&OBJ_DATA=%27NO%27&MAKE_EPHEM=%27YES%27&EPHEM_TYPE=%27VECTORS%27&CENTER=%27500%4010%27&REF_PLANE=%27ECLIPTIC%27&REF_SYSTEM=%27ICRF%27&VEC_TABLE=%272%27&VEC_CORR=%27NONE%27&VEC_LABELS=%27NO%27&OUT_UNITS=%27KM-S%27&CSV_FORMAT=%27YES%27&TIME_TYPE=%27TDB%27&START_TIME=%27JD%202434989.5%27&STOP_TIME=%27JD%202454957.5%27&STEP_SIZE=%271%20d%27",
+      "percorsoCache": "small/tabelle/bennu-01.txt",
+      "byte": 3898829,
+      "sha256": "7c6fd181b607cf385a82fb9c653cdec7e8f711df73f7518a1fef14f69c92fccd",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/tabelle/bennu-02.txt",
+      "descrizione": "vettori Horizons, COMMAND DES=20101955;, JD 2454957.5 / 2474925.5, passo 1 d",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=text&COMMAND=%27DES%3D20101955%3B%27&OBJ_DATA=%27NO%27&MAKE_EPHEM=%27YES%27&EPHEM_TYPE=%27VECTORS%27&CENTER=%27500%4010%27&REF_PLANE=%27ECLIPTIC%27&REF_SYSTEM=%27ICRF%27&VEC_TABLE=%272%27&VEC_CORR=%27NONE%27&VEC_LABELS=%27NO%27&OUT_UNITS=%27KM-S%27&CSV_FORMAT=%27YES%27&TIME_TYPE=%27TDB%27&START_TIME=%27JD%202454957.5%27&STOP_TIME=%27JD%202474925.5%27&STEP_SIZE=%271%20d%27",
+      "percorsoCache": "small/tabelle/bennu-02.txt",
+      "byte": 3898829,
+      "sha256": "64c969e34cd034c2a1767ae57c31d87ee3ac484f9aefd16eda7a214a3f436c00",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/tabelle/bennu-03.txt",
+      "descrizione": "vettori Horizons, COMMAND DES=20101955;, JD 2474925.5 / 2494893.5, passo 1 d",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=text&COMMAND=%27DES%3D20101955%3B%27&OBJ_DATA=%27NO%27&MAKE_EPHEM=%27YES%27&EPHEM_TYPE=%27VECTORS%27&CENTER=%27500%4010%27&REF_PLANE=%27ECLIPTIC%27&REF_SYSTEM=%27ICRF%27&VEC_TABLE=%272%27&VEC_CORR=%27NONE%27&VEC_LABELS=%27NO%27&OUT_UNITS=%27KM-S%27&CSV_FORMAT=%27YES%27&TIME_TYPE=%27TDB%27&START_TIME=%27JD%202474925.5%27&STOP_TIME=%27JD%202494893.5%27&STEP_SIZE=%271%20d%27",
+      "percorsoCache": "small/tabelle/bennu-03.txt",
+      "byte": 3898829,
+      "sha256": "a5e8ca9d565755a917bca84a821f2da3a6441fa7d6f2e49c9c8301a9a58bdd5f",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/tabelle/bennu-04.txt",
+      "descrizione": "vettori Horizons, COMMAND DES=20101955;, JD 2494893.5 / 2495824.5, passo 1 d",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=text&COMMAND=%27DES%3D20101955%3B%27&OBJ_DATA=%27NO%27&MAKE_EPHEM=%27YES%27&EPHEM_TYPE=%27VECTORS%27&CENTER=%27500%4010%27&REF_PLANE=%27ECLIPTIC%27&REF_SYSTEM=%27ICRF%27&VEC_TABLE=%272%27&VEC_CORR=%27NONE%27&VEC_LABELS=%27NO%27&OUT_UNITS=%27KM-S%27&CSV_FORMAT=%27YES%27&TIME_TYPE=%27TDB%27&START_TIME=%27JD%202494893.5%27&STOP_TIME=%27JD%202495824.5%27&STEP_SIZE=%271%20d%27",
+      "percorsoCache": "small/tabelle/bennu-04.txt",
+      "byte": 186614,
+      "sha256": "984c847be3b16fa95622aa5b191a72923a3da1c44371dc6a6f3d485c69590053",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/tabelle/c2013-a1-siding-spring-00.txt",
+      "descrizione": "vettori Horizons, COMMAND DES=1003228;, JD 2305447.5 / 2455911.5, passo 32 d",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=text&COMMAND=%27DES%3D1003228%3B%27&OBJ_DATA=%27NO%27&MAKE_EPHEM=%27YES%27&EPHEM_TYPE=%27VECTORS%27&CENTER=%27500%4010%27&REF_PLANE=%27ECLIPTIC%27&REF_SYSTEM=%27ICRF%27&VEC_TABLE=%272%27&VEC_CORR=%27NONE%27&VEC_LABELS=%27NO%27&OUT_UNITS=%27KM-S%27&CSV_FORMAT=%27YES%27&TIME_TYPE=%27TDB%27&START_TIME=%27JD%202305447.5%27&STOP_TIME=%27JD%202455911.5%27&STEP_SIZE=%2732%20d%27",
+      "percorsoCache": "small/tabelle/c2013-a1-siding-spring-00.txt",
+      "byte": 921949,
+      "sha256": "bc184cee86cf46b19313fe2e9839b8447cd79aabbda3b3ec9d0ec329ce7d2493",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/tabelle/c2013-a1-siding-spring-01.txt",
+      "descrizione": "vettori Horizons, COMMAND DES=1003228;, JD 2455911.5 / 2456743.5, passo 4 d",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=text&COMMAND=%27DES%3D1003228%3B%27&OBJ_DATA=%27NO%27&MAKE_EPHEM=%27YES%27&EPHEM_TYPE=%27VECTORS%27&CENTER=%27500%4010%27&REF_PLANE=%27ECLIPTIC%27&REF_SYSTEM=%27ICRF%27&VEC_TABLE=%272%27&VEC_CORR=%27NONE%27&VEC_LABELS=%27NO%27&OUT_UNITS=%27KM-S%27&CSV_FORMAT=%27YES%27&TIME_TYPE=%27TDB%27&START_TIME=%27JD%202455911.5%27&STOP_TIME=%27JD%202456743.5%27&STEP_SIZE=%274%20d%27",
+      "percorsoCache": "small/tabelle/c2013-a1-siding-spring-01.txt",
+      "byte": 45618,
+      "sha256": "011a48702eaa7f606dcb96026497ee17f549ba58104b9bc4a5df42a0bc1d9444",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/tabelle/c2013-a1-siding-spring-02.txt",
+      "descrizione": "vettori Horizons, COMMAND DES=1003228;, JD 2456743.5 / 2457159.5, passo 1 d",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=text&COMMAND=%27DES%3D1003228%3B%27&OBJ_DATA=%27NO%27&MAKE_EPHEM=%27YES%27&EPHEM_TYPE=%27VECTORS%27&CENTER=%27500%4010%27&REF_PLANE=%27ECLIPTIC%27&REF_SYSTEM=%27ICRF%27&VEC_TABLE=%272%27&VEC_CORR=%27NONE%27&VEC_LABELS=%27NO%27&OUT_UNITS=%27KM-S%27&CSV_FORMAT=%27YES%27&TIME_TYPE=%27TDB%27&START_TIME=%27JD%202456743.5%27&STOP_TIME=%27JD%202457159.5%27&STEP_SIZE=%271%20d%27",
+      "percorsoCache": "small/tabelle/c2013-a1-siding-spring-02.txt",
+      "byte": 86178,
+      "sha256": "af46b728eaf50e5f0c0c02ea576808c5febc61e4bec4d93b69f7b648d8fea0ef",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/tabelle/c2013-a1-siding-spring-03.txt",
+      "descrizione": "vettori Horizons, COMMAND DES=1003228;, JD 2457159.5 / 2457991.5, passo 4 d",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=text&COMMAND=%27DES%3D1003228%3B%27&OBJ_DATA=%27NO%27&MAKE_EPHEM=%27YES%27&EPHEM_TYPE=%27VECTORS%27&CENTER=%27500%4010%27&REF_PLANE=%27ECLIPTIC%27&REF_SYSTEM=%27ICRF%27&VEC_TABLE=%272%27&VEC_CORR=%27NONE%27&VEC_LABELS=%27NO%27&OUT_UNITS=%27KM-S%27&CSV_FORMAT=%27YES%27&TIME_TYPE=%27TDB%27&START_TIME=%27JD%202457159.5%27&STOP_TIME=%27JD%202457991.5%27&STEP_SIZE=%274%20d%27",
+      "percorsoCache": "small/tabelle/c2013-a1-siding-spring-03.txt",
+      "byte": 45618,
+      "sha256": "563f6e63c3edae8df429fb96d823eb921a4e3a9238c47979179bd6ae3eb514ee",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "small/tabelle/c2013-a1-siding-spring-04.txt",
+      "descrizione": "vettori Horizons, COMMAND DES=1003228;, JD 2457991.5 / 2495824.5, passo 32 d",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api?format=text&COMMAND=%27DES%3D1003228%3B%27&OBJ_DATA=%27NO%27&MAKE_EPHEM=%27YES%27&EPHEM_TYPE=%27VECTORS%27&CENTER=%27500%4010%27&REF_PLANE=%27ECLIPTIC%27&REF_SYSTEM=%27ICRF%27&VEC_TABLE=%272%27&VEC_CORR=%27NONE%27&VEC_LABELS=%27NO%27&OUT_UNITS=%27KM-S%27&CSV_FORMAT=%27YES%27&TIME_TYPE=%27TDB%27&START_TIME=%27JD%202457991.5%27&STOP_TIME=%27JD%202495824.5%27&STEP_SIZE=%2732%20d%27",
+      "percorsoCache": "small/tabelle/c2013-a1-siding-spring-04.txt",
+      "byte": 235549,
+      "sha256": "6798ece8670cfae86b6f6e3762777f60fbdeb1d627ee32ccc273b05bb9afbfd2",
+      "estrazione": "2026-10-18"
+    },
+    {
+      "nome": "stars/I239-hip_main.dat",
+      "descrizione": "Hipparcos, catalogo principale (VizieR I/239)",
+      "url": "https://cdsarc.cds.unistra.fr/ftp/I/239/hip_main.dat",
+      "percorsoCache": "stars/I239-hip_main.dat",
+      "byte": 53316318,
+      "sha256": "58ceabb104d647160d9437ce6e513a02a036bb4ad9f8879a5a22fd52943616e0",
+      "estrazione": "2026-10-19"
+    },
+    {
+      "nome": "stars/I311-hip2.dat.gz",
+      "descrizione": "Hipparcos, nuova riduzione (VizieR I/311)",
+      "url": "https://cdsarc.cds.unistra.fr/ftp/I/311/hip2.dat.gz",
+      "percorsoCache": "stars/I311-hip2.dat.gz",
+      "byte": 8977907,
+      "sha256": "8e624f843d4254a9b7c2e8dda8e3158dbe825bf98f6bf3dbbae7f0d0b73d6858",
+      "estrazione": "2026-10-19"
+    },
+    {
+      "nome": "stars/V50-catalog.gz",
+      "descrizione": "Bright Star Catalogue 5a ed. riveduta (VizieR V/50)",
+      "url": "https://cdsarc.cds.unistra.fr/ftp/V/50/catalog.gz",
+      "percorsoCache": "stars/V50-catalog.gz",
+      "byte": 573921,
+      "sha256": "3dc44b1e90be8fbe5bcc7656032560f51275f985c7e3f783c9028e1838ec7bed",
+      "estrazione": "2026-10-19"
+    },
+    {
+      "nome": "tex/callisto/Callisto_Voyager_GalileoSSI_global_mosaic_1km.tif",
+      "descrizione": "texture di callisto",
+      "url": "https://asc-pds-services.s3.us-west-2.amazonaws.com/mosaic/Callisto_Voyager_GalileoSSI_global_mosaic_1km.tif",
+      "percorsoCache": "tex/callisto/Callisto_Voyager_GalileoSSI_global_mosaic_1km.tif",
+      "byte": 114640717,
+      "sha256": "e1f0bd2e0e05de605d067d6b5f5ededddaf31ca6c064562a1ca770f15a7dbaa3",
+      "estrazione": "2026-10-19"
+    },
+    {
+      "nome": "tex/caronte/Charon_NewHorizons_Global_Mosaic_300m_Jul2017_8bit.tif",
+      "descrizione": "texture di caronte",
+      "url": "https://asc-pds-services.s3.us-west-2.amazonaws.com/mosaic/Charon_NewHorizons_Global_Mosaic_300m_Jul2017_8bit.tif",
+      "percorsoCache": "tex/caronte/Charon_NewHorizons_Global_Mosaic_300m_Jul2017_8bit.tif",
+      "byte": 80613890,
+      "sha256": "4a874809e0a33a851cd026b8e4647f5875ed15807e677d413812367509564b00",
+      "estrazione": "2026-10-19"
+    },
+    {
+      "nome": "tex/cerere/Ceres_Dawn_FC_DLR_global_20ppd_Oct2015.tif",
+      "descrizione": "texture di cerere",
+      "url": "https://asc-pds-services.s3.us-west-2.amazonaws.com/mosaic/Ceres_Dawn_FC_DLR_global_20ppd_Oct2015.tif",
+      "percorsoCache": "tex/cerere/Ceres_Dawn_FC_DLR_global_20ppd_Oct2015.tif",
+      "byte": 27280830,
+      "sha256": "920f65e7d0718c9f8d5e86783f35e0b466096251a8c1f2d01a7748a6d534c154",
+      "estrazione": "2026-10-19"
+    },
+    {
+      "nome": "tex/dione/Dione_Cassini_Voyager_mosaic_global_154m.tif",
+      "descrizione": "texture di dione",
+      "url": "https://asc-pds-services.s3.us-west-2.amazonaws.com/mosaic/Dione_Cassini_Voyager_mosaic_global_154m.tif",
+      "percorsoCache": "tex/dione/Dione_Cassini_Voyager_mosaic_global_154m.tif",
+      "byte": 265490551,
+      "sha256": "5c5d796c02e3c99fde5dd034e01dd1f25905699a4885843aed445ded955e08b5",
+      "estrazione": "2026-10-19"
+    },
+    {
+      "nome": "tex/encelado/Enceladus_Cassini_mosaic_global_110m.tif",
+      "descrizione": "texture di encelado",
+      "url": "https://asc-pds-services.s3.us-west-2.amazonaws.com/mosaic/Enceladus_Cassini_mosaic_global_110m.tif",
+      "percorsoCache": "tex/encelado/Enceladus_Cassini_mosaic_global_110m.tif",
+      "byte": 103759864,
+      "sha256": "c9d29292141dd986e52b2a24b692df34701d1dabaee69bcb9fb64ebc6baba335",
+      "estrazione": "2026-10-19"
+    },
+    {
+      "nome": "tex/europa/Europa_Voyager_GalileoSSI_global_mosaic_500m.tif",
+      "descrizione": "texture di europa",
+      "url": "https://asc-pds-services.s3.us-west-2.amazonaws.com/mosaic/Europa_Voyager_GalileoSSI_global_mosaic_500m.tif",
+      "percorsoCache": "tex/europa/Europa_Voyager_GalileoSSI_global_mosaic_500m.tif",
+      "byte": 192777263,
+      "sha256": "a323f0c9ccb47d5af9902ea8297fe81f9a9708795645b80801f103c3f7c9a624",
+      "estrazione": "2026-10-19"
+    },
+    {
+      "nome": "tex/ganimede/Ganymede_Voyager_GalileoSSI_Global_ClrMosaic_1435m.tif",
+      "descrizione": "texture di ganimede",
+      "url": "https://asc-pds-services.s3.us-west-2.amazonaws.com/mosaic/Ganymede_Voyager_GalileoSSI_Global_ClrMosaic_1435m.tif",
+      "percorsoCache": "tex/ganimede/Ganymede_Voyager_GalileoSSI_Global_ClrMosaic_1435m.tif",
+      "byte": 199204541,
+      "sha256": "da47087e75bc530456d8206d5100ad3c687706353700b0cb44a8400957005a33",
+      "estrazione": "2026-10-19"
+    },
+    {
+      "nome": "tex/giapeto/Iapetus_Cassini_Voyager_mosaic_global_783m.tif",
+      "descrizione": "texture di giapeto",
+      "url": "https://asc-pds-services.s3.us-west-2.amazonaws.com/mosaic/Iapetus_Cassini_Voyager_mosaic_global_783m.tif",
+      "percorsoCache": "tex/giapeto/Iapetus_Cassini_Voyager_mosaic_global_783m.tif",
+      "byte": 16612487,
+      "sha256": "eb8acdbed3af495102b6ec6d3efce1f03dc6bc39bb43323c23231ce590494d6e",
+      "estrazione": "2026-10-19"
+    },
+    {
+      "nome": "tex/giove/PIA07782.tif",
+      "descrizione": "texture di giove",
+      "url": "https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia07/pia07782/PIA07782.tif",
+      "percorsoCache": "tex/giove/PIA07782.tif",
+      "byte": 19456427,
+      "sha256": "f92ffc7a2fa0235c47ec8f1f168dd36bffeb6acc318292b237878a00a48cf7d9",
+      "estrazione": "2026-10-19"
+    },
+    {
+      "nome": "tex/io/Io_GalileoSSI-Voyager_Global_Mosaic_ClrMerge_1km.tif",
+      "descrizione": "texture di io",
+      "url": "https://asc-pds-services.s3.us-west-2.amazonaws.com/mosaic/Io_GalileoSSI-Voyager_Global_Mosaic_ClrMerge_1km.tif",
+      "percorsoCache": "tex/io/Io_GalileoSSI-Voyager_Global_Mosaic_ClrMerge_1km.tif",
+      "byte": 196637696,
+      "sha256": "135f88cb645bfdb4e045b380971ab2ba14e230590c96c9c86cfe7310fda881ac",
+      "estrazione": "2026-10-19"
+    },
+    {
+      "nome": "tex/luna/lroc_color_poles_4k.tif",
+      "descrizione": "texture di luna",
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a004700/a004720/lroc_color_poles_4k.tif",
+      "percorsoCache": "tex/luna/lroc_color_poles_4k.tif",
+      "byte": 13095388,
+      "sha256": "918649a7f8ed2f1329b2cd95bb0d25483befdcb60ae1a66db681a637cc21344f",
+      "estrazione": "2026-10-19"
+    },
+    {
+      "nome": "tex/marte/Mars_Viking_ClrMosaic_global_925m.tif",
+      "descrizione": "texture di marte",
+      "url": "https://asc-pds-services.s3.us-west-2.amazonaws.com/mosaic/Mars_Viking_ClrMosaic_global_925m.tif",
+      "percorsoCache": "tex/marte/Mars_Viking_ClrMosaic_global_925m.tif",
+      "byte": 797888177,
+      "sha256": "5b3c6bea36cec0ec65b9ce5927db6b1c555c5fae60a227c774f9fcaecdf5bb33",
+      "estrazione": "2026-10-19"
+    },
+    {
+      "nome": "tex/mercurio/Mercury_MESSENGER_ClrMosaic_global_665m_v3.tif",
+      "descrizione": "texture di mercurio",
+      "url": "https://asc-pds-services.s3.us-west-2.amazonaws.com/mosaic/Mercury_MESSENGER_ClrMosaic_global_665m_v3.tif",
+      "percorsoCache": "tex/mercurio/Mercury_MESSENGER_ClrMosaic_global_665m_v3.tif",
+      "byte": 797507691,
+      "sha256": "dfd0af2895bc91b028576359b2a0da6c86b5381619fd8e6d58d7d62876362032",
+      "estrazione": "2026-10-19"
+    },
+    {
+      "nome": "tex/nettuno/2k_neptune.jpg",
+      "descrizione": "texture di nettuno",
+      "url": "https://www.solarsystemscope.com/textures/download/2k_neptune.jpg",
+      "percorsoCache": "tex/nettuno/2k_neptune.jpg",
+      "byte": 241580,
+      "sha256": "cb42ea82709741d28b0af44d8b283cbc6dbd0c521a7f0e1e1e010ade00977df6",
+      "estrazione": "2026-10-19"
+    },
+    {
+      "nome": "tex/plutone/Pluto_NewHorizons_Global_Mosaic_300m_Jul2017_8bit.tif",
+      "descrizione": "texture di plutone",
+      "url": "https://asc-pds-services.s3.us-west-2.amazonaws.com/mosaic/Pluto_NewHorizons_Global_Mosaic_300m_Jul2017_8bit.tif",
+      "percorsoCache": "tex/plutone/Pluto_NewHorizons_Global_Mosaic_300m_Jul2017_8bit.tif",
+      "byte": 309806463,
+      "sha256": "592b7fb0f88cafa0bedf9f33bb71e983952a250ee8577edf2abfe814b473356b",
+      "estrazione": "2026-10-19"
+    },
+    {
+      "nome": "tex/rea/Rhea_Cassini_Voyager_mosaic_global_417m.tif",
+      "descrizione": "texture di rea",
+      "url": "https://asc-pds-services.s3.us-west-2.amazonaws.com/mosaic/Rhea_Cassini_Voyager_mosaic_global_417m.tif",
+      "percorsoCache": "tex/rea/Rhea_Cassini_Voyager_mosaic_global_417m.tif",
+      "byte": 66401915,
+      "sha256": "ce537c3c93670a0d4ea5a64b99bffb76ff308727eb3eabeee0a38cf9f6f1abc7",
+      "estrazione": "2026-10-19"
+    },
+    {
+      "nome": "tex/saturno/2k_saturn.jpg",
+      "descrizione": "texture di saturno",
+      "url": "https://www.solarsystemscope.com/textures/download/2k_saturn.jpg",
+      "percorsoCache": "tex/saturno/2k_saturn.jpg",
+      "byte": 199916,
+      "sha256": "54a900ca9bf7ab62e70f862852759abdf342e6d6436a95a2fe9ebdb6bcd3bbac",
+      "estrazione": "2026-10-19"
+    },
+    {
+      "nome": "tex/terra/world.200407.3x5400x2700.jpg",
+      "descrizione": "texture di terra",
+      "url": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/bmng/bmng-base/july/world.200407.3x5400x2700.jpg",
+      "percorsoCache": "tex/terra/world.200407.3x5400x2700.jpg",
+      "byte": 1617810,
+      "sha256": "f55226d46d27e05511f2118dc6aa24f5dbf9b6b2cddc87cc6e0e7dd067c00b11",
+      "estrazione": "2026-10-19"
+    },
+    {
+      "nome": "tex/teti/Tethys_Cassini_mosaic_global_293m.tif",
+      "descrizione": "texture di teti",
+      "url": "https://asc-pds-services.s3.us-west-2.amazonaws.com/mosaic/Tethys_Cassini_mosaic_global_293m.tif",
+      "percorsoCache": "tex/teti/Tethys_Cassini_mosaic_global_293m.tif",
+      "byte": 66401923,
+      "sha256": "40723c3ebfaaa52a657827b37309bc84234811db1cf26a21d086e26aba2b3640",
+      "estrazione": "2026-10-19"
+    },
+    {
+      "nome": "tex/titano/Titan_ISS_P19658_Mosaic_Global_4km.tif",
+      "descrizione": "texture di titano",
+      "url": "https://asc-pds-services.s3.us-west-2.amazonaws.com/mosaic/Titan_ISS_P19658_Mosaic_Global_4km.tif",
+      "percorsoCache": "tex/titano/Titan_ISS_P19658_Mosaic_Global_4km.tif",
+      "byte": 8169529,
+      "sha256": "ca0fe5f6f9bdba1b6d03245969a42336a010ddc17d636e5e06fffa939d10ca83",
+      "estrazione": "2026-10-19"
+    },
+    {
+      "nome": "tex/tritone/Triton_Voyager2_ClrMosaic_GlobalFill_600m.tif",
+      "descrizione": "texture di tritone",
+      "url": "https://asc-pds-services.s3.us-west-2.amazonaws.com/mosaic/Triton_Voyager2_ClrMosaic_GlobalFill_600m.tif",
+      "percorsoCache": "tex/tritone/Triton_Voyager2_ClrMosaic_GlobalFill_600m.tif",
+      "byte": 299994887,
+      "sha256": "f20ed332e85df469725629b81d3a73ad026897fe561ec59d6245d249a09507db",
+      "estrazione": "2026-10-19"
+    },
+    {
+      "nome": "tex/urano/2k_uranus.jpg",
+      "descrizione": "texture di urano",
+      "url": "https://www.solarsystemscope.com/textures/download/2k_uranus.jpg",
+      "percorsoCache": "tex/urano/2k_uranus.jpg",
+      "byte": 77751,
+      "sha256": "d15239d46f82d3ea13d2b260b5b29b2a382f42f2916dae0694d0387b1204a09d",
+      "estrazione": "2026-10-19"
+    },
+    {
+      "nome": "tex/venere/Venus_Magellan_C3-MDIR_Colorized_Global_Mosaic_4641m.tif",
+      "descrizione": "texture di venere",
+      "url": "https://asc-pds-services.s3.us-west-2.amazonaws.com/mosaic/Venus_Magellan_C3-MDIR_Colorized_Global_Mosaic_4641m.tif",
+      "percorsoCache": "tex/venere/Venus_Magellan_C3-MDIR_Colorized_Global_Mosaic_4641m.tif",
+      "byte": 100762261,
+      "sha256": "6bfcd1ccaa79bad8b6d6943a86b6c77b65c7cf48a6ecbf900e429e334f584f43",
+      "estrazione": "2026-10-19"
+    },
+    {
+      "nome": "tex/vesta/Vesta_Dawn_FC_HAMO_Mosaic_Global_74ppd.tif",
+      "descrizione": "texture di vesta",
+      "url": "https://asc-pds-services.s3.us-west-2.amazonaws.com/mosaic/Vesta_Dawn_FC_HAMO_Mosaic_Global_74ppd.tif",
+      "percorsoCache": "tex/vesta/Vesta_Dawn_FC_HAMO_Mosaic_Global_74ppd.tif",
+      "byte": 356659263,
+      "sha256": "e7a5dab2924ed590947230e70b11fd42e61e6582f94c01180ddb64b3a9f86ff4",
+      "estrazione": "2026-10-19"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+# Ambiente principale della pipeline (Python 3.13): scripts/pipeline/.venv
+numpy==2.5.3
+scipy==1.18.1
+jplephem==2.24
+pyerfa==2.0.1.5
+spiceypy==8.3.0
+pytest==9.1.1
+ruff==0.17.1
+jsonschema==4.26.0
+pillow==13.0.0
+# dipendenze indirette
+iniconfig==2.3.1
+packaging==26.3
+pluggy==1.7.0
+Pygments==2.21.0
+attrs==26.1.0
+jsonschema-specifications==2025.9.1
+referencing==0.37.0
+rpds-py==2026.9.1

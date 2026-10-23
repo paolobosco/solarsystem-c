@@ -1,0 +1,6370 @@
+{
+ "formato": 1,
+ "descrizione": "Prova S3 dei satelliti: durata dei record, termini periodici, kernel lunghi",
+ "casi": {
+  "io": {
+   "frequenze": {
+    "n": 3.551552307955584,
+    "varpiDot": -0.012906890546008964,
+    "picchi": [
+     {
+      "nu": 0.013583869128239716,
+      "periodoGiorni": 462.5475442867287,
+      "ampiezzaArcsec": 36.064391164941796
+     },
+     {
+      "nu": 0.01302615786132623,
+      "periodoGiorni": 482.35138665361427,
+      "ampiezzaArcsec": 19.850421897752966
+     },
+     {
+      "nu": 3.5514317141400404,
+      "periodoGiorni": 1.7691978370759762,
+      "ampiezzaArcsec": 14.451332974157834
+     },
+     {
+      "nu": 0.003051533392154709,
+      "periodoGiorni": 2059.025578200534,
+      "ampiezzaArcsec": 13.145240582628604
+     },
+     {
+      "nu": 1.7822295967866078,
+      "periodoGiorni": 3.52546345235669,
+      "ampiezzaArcsec": 12.658656312592086
+     },
+     {
+      "nu": 0.012892710899708058,
+      "periodoGiorni": 487.3440005020094,
+      "ampiezzaArcsec": 8.398336136588327
+     }
+    ],
+    "frequenze": [
+     0.013583869128239716,
+     0.01302615786132623,
+     3.5514317141400404,
+     0.003051533392154709,
+     1.7822295967866078,
+     0.012892710899708058
+    ],
+    "durataAnni": 10.0,
+    "finestra": [
+     2433282.5,
+     2469807.5
+    ]
+   },
+   "proveK0": [
+    {
+     "durataAnni": 2.0,
+     "K": 0,
+     "record": 20,
+     "maxAngoloArcsec": 94.62329780652848,
+     "medianaAngoloArcsec": 77.27199720146524,
+     "maxRadialeKm": 37.03194503654959,
+     "maxRadialeFrazioneA": 8.780217325538988e-05,
+     "byteSecolo": 6000.0
+    },
+    {
+     "durataAnni": 5.0,
+     "K": 0,
+     "record": 8,
+     "maxAngoloArcsec": 94.94259375055107,
+     "medianaAngoloArcsec": 79.09092357747564,
+     "maxRadialeKm": 36.12948543654056,
+     "maxRadialeFrazioneA": 8.566245504181047e-05,
+     "byteSecolo": 2400.0
+    },
+    {
+     "durataAnni": 10.0,
+     "K": 0,
+     "record": 4,
+     "maxAngoloArcsec": 103.66126539290975,
+     "medianaAngoloArcsec": 90.82084690980487,
+     "maxRadialeKm": 35.91545310226502,
+     "maxRadialeFrazioneA": 8.515498799228806e-05,
+     "byteSecolo": 1200.0
+    }
+   ],
+   "prove": [
+    {
+     "durataAnni": 2.0,
+     "K": 6,
+     "record": 20,
+     "maxAngoloArcsec": 23.689361384026455,
+     "medianaAngoloArcsec": 15.73964266731768,
+     "maxRadialeKm": 35.40743923652917,
+     "maxRadialeFrazioneA": 8.395049387107412e-05,
+     "byteSecolo": 10800.0
+    },
+    {
+     "durataAnni": 5.0,
+     "K": 6,
+     "record": 8,
+     "maxAngoloArcsec": 33.663640012137364,
+     "medianaAngoloArcsec": 28.032503791647475,
+     "maxRadialeKm": 35.6410447168746,
+     "maxRadialeFrazioneA": 8.450436825213738e-05,
+     "byteSecolo": 4320.0
+    },
+    {
+     "durataAnni": 10.0,
+     "K": 6,
+     "record": 4,
+     "maxAngoloArcsec": 47.87304769028502,
+     "medianaAngoloArcsec": 46.411157731261255,
+     "maxRadialeKm": 35.53489707742119,
+     "maxRadialeFrazioneA": 8.42526943334585e-05,
+     "byteSecolo": 2160.0
+    }
+   ],
+   "durataAnni": 2.0,
+   "confrontoLunghi": null
+  },
+  "mimas": {
+   "frequenze": {
+    "n": 6.66709400790713,
+    "varpiDot": 0.01746947483313123,
+    "picchi": [
+     {
+      "nu": 0.02791703097923213,
+      "periodoGiorni": 225.0663873194014,
+      "ampiezzaArcsec": 480.95902596840403
+     },
+     {
+      "nu": 0.02816597365236105,
+      "periodoGiorni": 223.0771563138521,
+      "ampiezzaArcsec": 212.385653353153
+     },
+     {
+      "nu": 0.02767248660713608,
+      "periodoGiorni": 227.05532019516096,
+      "ampiezzaArcsec": 204.5995848460368
+     },
+     {
+      "nu": 0.0024448273302494763,
+      "periodoGiorni": 2569.991438429492,
+      "ampiezzaArcsec": 69.66995111960158
+     },
+     {
+      "nu": 6.677757469843917,
+      "periodoGiorni": 0.9409124748171555,
+      "ampiezzaArcsec": 62.1672195186231
+     },
+     {
+      "nu": 0.0278897305433142,
+      "periodoGiorni": 225.28669817807932,
+      "ampiezzaArcsec": 58.04249089723852
+     }
+    ],
+    "frequenze": [
+     0.02791703097923213,
+     0.02816597365236105,
+     0.02767248660713608,
+     0.0024448273302494763,
+     6.677757469843917,
+     0.0278897305433142
+    ],
+    "durataAnni": 10.0,
+    "finestra": [
+     2433282.5,
+     2469807.5
+    ]
+   },
+   "proveK0": [
+    {
+     "durataAnni": 2.0,
+     "K": 0,
+     "record": 20,
+     "maxAngoloArcsec": 781.6099769198951,
+     "medianaAngoloArcsec": 748.591715755856,
+     "maxRadialeKm": 54.75345497202943,
+     "maxRadialeFrazioneA": 0.0002951145810287413,
+     "byteSecolo": 6000.0
+    },
+    {
+     "durataAnni": 5.0,
+     "K": 0,
+     "record": 8,
+     "maxAngoloArcsec": 749.4005537389819,
+     "medianaAngoloArcsec": 735.1014609435963,
+     "maxRadialeKm": 52.231463618401904,
+     "maxRadialeFrazioneA": 0.0002815207244667264,
+     "byteSecolo": 2400.0
+    },
+    {
+     "durataAnni": 10.0,
+     "K": 0,
+     "record": 4,
+     "maxAngoloArcsec": 918.4582429134551,
+     "medianaAngoloArcsec": 830.953413672373,
+     "maxRadialeKm": 53.88303820087458,
+     "maxRadialeFrazioneA": 0.0002904215002243979,
+     "byteSecolo": 1200.0
+    }
+   ],
+   "prove": [
+    {
+     "durataAnni": 2.0,
+     "K": 6,
+     "record": 20,
+     "maxAngoloArcsec": 68.96997585809612,
+     "medianaAngoloArcsec": 42.31382662351763,
+     "maxRadialeKm": 48.66346410900587,
+     "maxRadialeFrazioneA": 0.0002622897836569,
+     "byteSecolo": 10800.0
+    },
+    {
+     "durataAnni": 5.0,
+     "K": 6,
+     "record": 8,
+     "maxAngoloArcsec": 97.14118107547695,
+     "medianaAngoloArcsec": 82.79982987540645,
+     "maxRadialeKm": 48.935558019875316,
+     "maxRadialeFrazioneA": 0.00026375573082170227,
+     "byteSecolo": 4320.0
+    },
+    {
+     "durataAnni": 10.0,
+     "K": 6,
+     "record": 4,
+     "maxAngoloArcsec": 193.5387585337964,
+     "medianaAngoloArcsec": 149.95646491810865,
+     "maxRadialeKm": 49.20367604959756,
+     "maxRadialeFrazioneA": 0.0002651999262310882,
+     "byteSecolo": 2160.0
+    }
+   ],
+   "durataAnni": 5.0,
+   "confrontoLunghi": {
+    "secolare": {
+     "x": [
+      160683.40086700983,
+      0.019774438607932602,
+      2.712615812686245,
+      0.017468273466327792,
+      0.013710748735738106,
+      2.2182804546464623,
+      -0.017444557475485747,
+      18265.946861027307,
+      6.667060412495664,
+      -4.425410666867317e-12,
+      0.0
+     ],
+     "tRef": 2428179.2214482147,
+     "residuoMaxGradi": 48.21275523809032,
+     "sigmaN": 8.18887105388152e-05,
+     "validazioneIncrociata": {
+      "primaMeta": {
+       "pendenzaRadAnno": -3.598492501510273e-05,
+       "maxRad": 1.0338830709076696
+      },
+      "secondaMeta": {
+       "pendenzaRadAnno": -8.18887105388152e-05,
+       "maxRad": 1.087890188200002
+      },
+      "sigmaN": 8.18887105388152e-05
+     }
+    },
+    "confronto": {
+     "kernel": [
+      "sat441xl_part-1.bsp",
+      "sat441xl_part-2.bsp"
+     ],
+     "intervalli": [
+      {
+       "anni": [
+        -500.0,
+        0.0
+       ],
+       "maxDifferenzaGradi": 134.21184900347984,
+       "epsEstrapolazioneMinGradi": 260.75585342383334,
+       "epsEstrapolazioneMaxGradi": 413.0835933976498
+      },
+      {
+       "anni": [
+        0.0,
+        500.0
+       ],
+       "maxDifferenzaGradi": 91.08460985225553,
+       "epsEstrapolazioneMinGradi": 143.30228894029528,
+       "epsEstrapolazioneMaxGradi": 260.75176655638353
+      },
+      {
+       "anni": [
+        500.0,
+        1000.0
+       ],
+       "maxDifferenzaGradi": 60.12243154604041,
+       "epsEstrapolazioneMinGradi": 60.73007311829761,
+       "epsEstrapolazioneMaxGradi": 143.29488217250847,
+       "maxDifferenzaDoveDeterminabileGradi": 46.101198043866304,
+       "maxRapportoDifferenzaEps": 0.7058800946769761
+      },
+      {
+       "anni": [
+        1000.0,
+        1500.0
+       ],
+       "maxDifferenzaGradi": 51.94884303652528,
+       "epsEstrapolazioneMinGradi": 13.038660670779056,
+       "epsEstrapolazioneMaxGradi": 60.72928406567486,
+       "maxDifferenzaDoveDeterminabileGradi": 51.94884303652528,
+       "maxRapportoDifferenzaEps": 3.344169285289159
+      },
+      {
+       "anni": [
+        1500.0,
+        2000.0
+       ],
+       "maxDifferenzaGradi": 51.59998624362245,
+       "epsEstrapolazioneMinGradi": 2.273685125498709,
+       "epsEstrapolazioneMaxGradi": 13.038010383429107,
+       "maxDifferenzaDoveDeterminabileGradi": 51.59998624362245,
+       "maxRapportoDifferenzaEps": 20.117166841490114
+      }
+     ],
+     "maxRapportoDoveDeterminabile": 20.117166841490114,
+     "maxDifferenzaDoveDeterminabileGradi": 51.94884303652528,
+     "livelloCambia": 0.2214795185170536
+    }
+   }
+  },
+  "iperione": {
+   "frequenze": {
+    "n": 0.2953088596207252,
+    "varpiDot": -0.000890507692427032,
+    "picchi": [
+     {
+      "nu": 0.00980989557806658,
+      "periodoGiorni": 640.494616602018,
+      "ampiezzaArcsec": 32941.255390507155
+     },
+     {
+      "nu": 0.2952835714308206,
+      "periodoGiorni": 21.27847911326018,
+      "ampiezzaArcsec": 10003.991081559008
+     },
+     {
+      "nu": 0.28639075828600025,
+      "periodoGiorni": 21.93920413068975,
+      "ampiezzaArcsec": 4442.411088297088
+     },
+     {
+      "nu": 0.3060099166551613,
+      "periodoGiorni": 20.532619909373814,
+      "ampiezzaArcsec": 2697.5506022540458
+     },
+     {
+      "nu": 0.5914842041572961,
+      "periodoGiorni": 10.622744044587655,
+      "ampiezzaArcsec": 1271.0441528123679
+     },
+     {
+      "nu": 0.1974675937231252,
+      "periodoGiorni": 31.81881740043592,
+      "ampiezzaArcsec": 1010.4990727082785
+     }
+    ],
+    "frequenze": [
+     0.00980989557806658,
+     0.2952835714308206,
+     0.28639075828600025,
+     0.3060099166551613,
+     0.5914842041572961,
+     0.1974675937231252
+    ],
+    "durataAnni": 50.0,
+    "finestra": [
+     2424151.25,
+     2478938.75
+    ]
+   },
+   "proveK0": [
+    {
+     "durataAnni": 2.0,
+     "K": 0,
+     "record": 20,
+     "maxAngoloArcsec": 43632.56837171708,
+     "medianaAngoloArcsec": 37032.880687406425,
+     "maxRadialeKm": 43586.8716727288,
+     "maxRadialeFrazioneA": 0.02952231950630616,
+     "byteSecolo": 6000.0
+    },
+    {
+     "durataAnni": 5.0,
+     "K": 0,
+     "record": 8,
+     "maxAngoloArcsec": 50425.38753292364,
+     "medianaAngoloArcsec": 48981.8285162119,
+     "maxRadialeKm": 53979.17235516757,
+     "maxRadialeFrazioneA": 0.036673557240132125,
+     "byteSecolo": 2400.0
+    },
+    {
+     "durataAnni": 10.0,
+     "K": 0,
+     "record": 4,
+     "maxAngoloArcsec": 50863.21369920749,
+     "medianaAngoloArcsec": 50230.112434350376,
+     "maxRadialeKm": 68499.98250760464,
+     "maxRadialeFrazioneA": 0.04654867510109705,
+     "byteSecolo": 1200.0
+    },
+    {
+     "durataAnni": 50.0,
+     "K": 0,
+     "record": 2,
+     "maxAngoloArcsec": 54847.633590640275,
+     "medianaAngoloArcsec": 54635.220241874114,
+     "maxRadialeKm": 80189.12806811417,
+     "maxRadialeFrazioneA": 0.05450662144753839,
+     "byteSecolo": 240.0
+    }
+   ],
+   "prove": [
+    {
+     "durataAnni": 2.0,
+     "K": 6,
+     "record": 20,
+     "maxAngoloArcsec": 3254.539548506169,
+     "medianaAngoloArcsec": 2497.1874307898474,
+     "maxRadialeKm": 23381.078032596968,
+     "maxRadialeFrazioneA": 0.015794951152373126,
+     "byteSecolo": 10800.0
+    },
+    {
+     "durataAnni": 5.0,
+     "K": 6,
+     "record": 8,
+     "maxAngoloArcsec": 4242.871930317529,
+     "medianaAngoloArcsec": 3501.700627505729,
+     "maxRadialeKm": 39189.74775415845,
+     "maxRadialeFrazioneA": 0.026458669086165287,
+     "byteSecolo": 4320.0
+    },
+    {
+     "durataAnni": 10.0,
+     "K": 6,
+     "record": 4,
+     "maxAngoloArcsec": 4262.868908640628,
+     "medianaAngoloArcsec": 4159.6253784485025,
+     "maxRadialeKm": 48671.51736318879,
+     "maxRadialeFrazioneA": 0.03285451787702522,
+     "byteSecolo": 2160.0
+    },
+    {
+     "durataAnni": 50.0,
+     "K": 6,
+     "record": 2,
+     "maxAngoloArcsec": 5010.487103874846,
+     "medianaAngoloArcsec": 4993.639483647245,
+     "maxRadialeKm": 49061.827502017375,
+     "maxRadialeFrazioneA": 0.033118527873884446,
+     "byteSecolo": 432.0
+    }
+   ],
+   "durataAnni": 10.0,
+   "confrontoLunghi": {
+    "secolare": {
+     "x": [
+      1471211.581141091,
+      0.10352260376955902,
+      -0.13560735740021912,
+      -0.0008921747160631311,
+      0.00497612425451541,
+      1.0038467497916246,
+      -0.00011864041170244381,
+      4043.9936408795747,
+      0.2953088112196585,
+      -8.053391604924033e-14,
+      0.0
+     ],
+     "tRef": 2428179.1657340163,
+     "residuoMaxGradi": 15.321085717383523,
+     "sigmaN": 2.008866890081593e-06,
+     "validazioneIncrociata": {
+      "primaMeta": {
+       "pendenzaRadAnno": -1.9648672863588812e-06,
+       "maxRad": 0.27868820718312176
+      },
+      "secondaMeta": {
+       "pendenzaRadAnno": 2.008866890081593e-06,
+       "maxRad": 0.283161081872016
+      },
+      "sigmaN": 2.008866890081593e-06
+     }
+    },
+    "confronto": {
+     "kernel": [
+      "sat441xl_part-1.bsp",
+      "sat441xl_part-2.bsp"
+     ],
+     "intervalli": [
+      {
+       "anni": [
+        -1000.0,
+        -500.0
+       ],
+       "maxDifferenzaGradi": 4.621565981342156,
+       "epsEstrapolazioneMinGradi": 18.074967669674734,
+       "epsEstrapolazioneMaxGradi": 18.074967669674734,
+       "maxDifferenzaDoveDeterminabileGradi": 4.621565981342156,
+       "maxRapportoDifferenzaEps": 0.25568875506737343
+      },
+      {
+       "anni": [
+        -500.0,
+        0.0
+       ],
+       "maxDifferenzaGradi": 15.903682181194755,
+       "epsEstrapolazioneMinGradi": 11.373905837505863,
+       "epsEstrapolazioneMaxGradi": 18.073835022642477,
+       "maxDifferenzaDoveDeterminabileGradi": 15.903682181194755,
+       "maxRapportoDifferenzaEps": 1.2856298232362997
+      },
+      {
+       "anni": [
+        0.0,
+        500.0
+       ],
+       "maxDifferenzaGradi": 15.53799686951465,
+       "epsEstrapolazioneMinGradi": 6.217878663809788,
+       "epsEstrapolazioneMaxGradi": 11.373246481072686,
+       "maxDifferenzaDoveDeterminabileGradi": 15.53799686951465,
+       "maxRapportoDifferenzaEps": 2.3944528795684716
+      },
+      {
+       "anni": [
+        500.0,
+        1000.0
+       ],
+       "maxDifferenzaGradi": 15.71990783941936,
+       "epsEstrapolazioneMinGradi": 2.606514517094468,
+       "epsEstrapolazioneMaxGradi": 6.2174948158253756,
+       "maxDifferenzaDoveDeterminabileGradi": 15.71990783941936,
+       "maxRapportoDifferenzaEps": 5.9341637620639585
+      },
+      {
+       "anni": [
+        1000.0,
+        1500.0
+       ],
+       "maxDifferenzaGradi": 15.674645626705162,
+       "epsEstrapolazioneMinGradi": 0.5404451716746208,
+       "epsEstrapolazioneMaxGradi": 2.6064478030198974,
+       "maxDifferenzaDoveDeterminabileGradi": 15.674645626705162,
+       "maxRapportoDifferenzaEps": 26.199116794472875
+      },
+      {
+       "anni": [
+        1500.0,
+        2000.0
+       ],
+       "maxDifferenzaGradi": 15.435616017997232,
+       "epsEstrapolazioneMinGradi": 0.08679637663071658,
+       "epsEstrapolazioneMaxGradi": 0.5403866133442222,
+       "maxDifferenzaDoveDeterminabileGradi": 15.435616017997232,
+       "maxRapportoDifferenzaEps": 159.9720719641125
+      }
+     ],
+     "maxRapportoDoveDeterminabile": 159.9720719641125,
+     "maxDifferenzaDoveDeterminabileGradi": 15.903682181194755,
+     "livelloCambia": 0.3284555298534983
+    }
+   }
+  },
+  "tritone": {
+   "frequenze": {
+    "n": 1.0691408934163815,
+    "varpiDot": 1.9483486238098555e-05,
+    "picchi": [
+     {
+      "nu": 0.0012895492259586813,
+      "periodoGiorni": 4872.388878763832,
+      "ampiezzaArcsec": 0.01705966043155729
+     },
+     {
+      "nu": 0.001113372853953117,
+      "periodoGiorni": 5643.379291017063,
+      "ampiezzaArcsec": 0.017953363141383315
+     },
+     {
+      "nu": 0.0014629204835897541,
+      "periodoGiorni": 4294.960237183729,
+      "ampiezzaArcsec": 0.008804106927473826
+     },
+     {
+      "nu": 0.002300788960285974,
+      "periodoGiorni": 2730.8829343472794,
+      "ampiezzaArcsec": 0.00792598069761656
+     },
+     {
+      "nu": 0.0012508210332632494,
+      "periodoGiorni": 5023.248842232428,
+      "ampiezzaArcsec": 0.006382592903899886
+     },
+     {
+      "nu": 0.0018205252205774727,
+      "periodoGiorni": 3451.3036326882375,
+      "ampiezzaArcsec": 0.005899491431928714
+     }
+    ],
+    "frequenze": [],
+    "durataAnni": 20.0,
+    "finestra": [
+     2433282.5,
+     2469807.5
+    ]
+   },
+   "proveK0": [
+    {
+     "durataAnni": 2.0,
+     "K": 0,
+     "record": 20,
+     "maxAngoloArcsec": 0.47426811072906344,
+     "medianaAngoloArcsec": 0.22034955428042777,
+     "maxRadialeKm": 0.2808456440689042,
+     "maxRadialeFrazioneA": 7.916517613370568e-07,
+     "byteSecolo": 6000.0
+    },
+    {
+     "durataAnni": 5.0,
+     "K": 0,
+     "record": 8,
+     "maxAngoloArcsec": 1.1693357226525154,
+     "medianaAngoloArcsec": 0.5446167072576038,
+     "maxRadialeKm": 0.28120899479836226,
+     "maxRadialeFrazioneA": 7.926759797652286e-07,
+     "byteSecolo": 2400.0
+    },
+    {
+     "durataAnni": 10.0,
+     "K": 0,
+     "record": 4,
+     "maxAngoloArcsec": 2.191357751614176,
+     "medianaAngoloArcsec": 1.2100696399656894,
+     "maxRadialeKm": 0.2812384752323851,
+     "maxRadialeFrazioneA": 7.9275908020744e-07,
+     "byteSecolo": 1200.0
+    },
+    {
+     "durataAnni": 20.0,
+     "K": 0,
+     "record": 2,
+     "maxAngoloArcsec": 3.5119084052009844,
+     "medianaAngoloArcsec": 2.8499275547187968,
+     "maxRadialeKm": 0.28012210852466524,
+     "maxRadialeFrazioneA": 7.896122501078383e-07,
+     "byteSecolo": 600.0
+    }
+   ],
+   "prove": [
+    {
+     "durataAnni": 2.0,
+     "K": 0,
+     "record": 20,
+     "maxAngoloArcsec": 0.47426811072906344,
+     "medianaAngoloArcsec": 0.22034955428042777,
+     "maxRadialeKm": 0.2808456440689042,
+     "maxRadialeFrazioneA": 7.916517613370568e-07,
+     "byteSecolo": 6000.0
+    },
+    {
+     "durataAnni": 5.0,
+     "K": 0,
+     "record": 8,
+     "maxAngoloArcsec": 1.1693357226525154,
+     "medianaAngoloArcsec": 0.5446167072576038,
+     "maxRadialeKm": 0.28120899479836226,
+     "maxRadialeFrazioneA": 7.926759797652286e-07,
+     "byteSecolo": 2400.0
+    },
+    {
+     "durataAnni": 10.0,
+     "K": 0,
+     "record": 4,
+     "maxAngoloArcsec": 2.191357751614176,
+     "medianaAngoloArcsec": 1.2100696399656894,
+     "maxRadialeKm": 0.2812384752323851,
+     "maxRadialeFrazioneA": 7.9275908020744e-07,
+     "byteSecolo": 1200.0
+    },
+    {
+     "durataAnni": 20.0,
+     "K": 0,
+     "record": 2,
+     "maxAngoloArcsec": 3.5119084052009844,
+     "medianaAngoloArcsec": 2.8499275547187968,
+     "maxRadialeKm": 0.28012210852466524,
+     "maxRadialeFrazioneA": 7.896122501078383e-07,
+     "byteSecolo": 600.0
+    }
+   ],
+   "durataAnni": 20.0,
+   "confrontoLunghi": {
+    "secolare": {
+     "x": [
+      354759.0715452111,
+      0.00012644845226611776,
+      -2.035818892618926,
+      1.95060857464986e-05,
+      0.20416720622068338,
+      2.744416000515584,
+      2.512673538354672e-05,
+      5859.951535316021,
+      1.0691408892892902,
+      7.876476382743945e-14,
+      0.0
+     ],
+     "tRef": 2437311.091183643,
+     "residuoMaxGradi": 0.0038864400205895194,
+     "sigmaN": 1.785248767515116e-08,
+     "validazioneIncrociata": {
+      "primaMeta": {
+       "pendenzaRadAnno": 1.7812417244398292e-08,
+       "maxRad": 9.387732114662968e-05
+      },
+      "secondaMeta": {
+       "pendenzaRadAnno": -1.785248767515116e-08,
+       "maxRad": 7.905689038706992e-05
+      },
+      "sigmaN": 1.785248767515116e-08
+     }
+    },
+    "confronto": {
+     "kernel": [
+      "nep097.bsp"
+     ],
+     "intervalli": [
+      {
+       "anni": [
+        1500.0,
+        2000.0
+       ],
+       "maxDifferenzaGradi": 0.4058572582035484,
+       "epsEstrapolazioneMinGradi": 0.11196513572357569,
+       "epsEstrapolazioneMaxGradi": 1.0069280251720967,
+       "maxDifferenzaDoveDeterminabileGradi": 0.4058572582035484,
+       "maxRapportoDifferenzaEps": 1.8917854448598235
+      }
+     ],
+     "maxRapportoDoveDeterminabile": 1.8917854448598235,
+     "maxDifferenzaDoveDeterminabileGradi": 0.4058572582035484,
+     "livelloCambia": 0.05771952817824377
+    }
+   }
+  },
+  "nereide": {
+   "frequenze": {
+    "n": 0.01744678738629495,
+    "varpiDot": 3.3498700186425306e-07,
+    "picchi": [
+     {
+      "nu": 0.016959317736560654,
+      "periodoGiorni": 370.4857356162616,
+      "ampiezzaArcsec": 401.45891702782217
+     },
+     {
+      "nu": 0.03440586570825651,
+      "periodoGiorni": 182.61959633446415,
+      "ampiezzaArcsec": 308.2170214148267
+     },
+     {
+      "nu": 0.05185203969356282,
+      "periodoGiorni": 121.175277661442,
+      "ampiezzaArcsec": 251.44055210982896
+     },
+     {
+      "nu": 0.016628444395380658,
+      "periodoGiorni": 377.857673140191,
+      "ampiezzaArcsec": 152.33009568334893
+     },
+     {
+      "nu": 0.016801280717978026,
+      "periodoGiorni": 373.9706164457054,
+      "ampiezzaArcsec": 137.60403858540485
+     },
+     {
+      "nu": 0.03407658934517482,
+      "periodoGiorni": 184.3842188411169,
+      "ampiezzaArcsec": 115.45717505779767
+     }
+    ],
+    "frequenze": [
+     0.016959317736560654,
+     0.03440586570825651,
+     0.05185203969356282,
+     0.016628444395380658,
+     0.016801280717978026,
+     0.03407658934517482
+    ],
+    "durataAnni": 50.0,
+    "finestra": [
+     2424151.25,
+     2478938.75
+    ]
+   },
+   "proveK0": [
+    {
+     "durataAnni": 2.0,
+     "K": 0,
+     "record": 20,
+     "maxAngoloArcsec": 468.18149255617385,
+     "medianaAngoloArcsec": 286.65830125757344,
+     "maxRadialeKm": 1976.844412975479,
+     "maxRadialeFrazioneA": 0.00035850306247416346,
+     "byteSecolo": 6000.0
+    },
+    {
+     "durataAnni": 5.0,
+     "K": 0,
+     "record": 8,
+     "maxAngoloArcsec": 995.4353508994508,
+     "medianaAngoloArcsec": 710.8244071117678,
+     "maxRadialeKm": 4683.501223426079,
+     "maxRadialeFrazioneA": 0.0008493588291593297,
+     "byteSecolo": 2400.0
+    },
+    {
+     "durataAnni": 10.0,
+     "K": 0,
+     "record": 4,
+     "maxAngoloArcsec": 1589.62684403399,
+     "medianaAngoloArcsec": 1272.353726564057,
+     "maxRadialeKm": 9105.953746503219,
+     "maxRadialeFrazioneA": 0.001651392634853009,
+     "byteSecolo": 1200.0
+    },
+    {
+     "durataAnni": 50.0,
+     "K": 0,
+     "record": 2,
+     "maxAngoloArcsec": 8824.9599511203,
+     "medianaAngoloArcsec": 8165.808414981874,
+     "maxRadialeKm": 31811.694954562,
+     "maxRadialeFrazioneA": 0.005769302502349852,
+     "byteSecolo": 240.0
+    }
+   ],
+   "prove": [
+    {
+     "durataAnni": 2.0,
+     "K": 6,
+     "record": 20,
+     "maxAngoloArcsec": 175.22552159230796,
+     "medianaAngoloArcsec": 123.14300259073258,
+     "maxRadialeKm": 1930.340179886669,
+     "maxRadialeFrazioneA": 0.00035007067096977937,
+     "byteSecolo": 10800.0
+    },
+    {
+     "durataAnni": 5.0,
+     "K": 6,
+     "record": 8,
+     "maxAngoloArcsec": 612.6303520376927,
+     "medianaAngoloArcsec": 447.4500978441631,
+     "maxRadialeKm": 4742.287439608248,
+     "maxRadialeFrazioneA": 0.0008600235758528681,
+     "byteSecolo": 4320.0
+    },
+    {
+     "durataAnni": 10.0,
+     "K": 6,
+     "record": 4,
+     "maxAngoloArcsec": 1810.8126409782358,
+     "medianaAngoloArcsec": 1394.2312229085398,
+     "maxRadialeKm": 9276.629175255075,
+     "maxRadialeFrazioneA": 0.0016823287428002346,
+     "byteSecolo": 2160.0
+    },
+    {
+     "durataAnni": 50.0,
+     "K": 6,
+     "record": 2,
+     "maxAngoloArcsec": 8773.138621794827,
+     "medianaAngoloArcsec": 8645.292161319523,
+     "maxRadialeKm": 31764.159244363662,
+     "maxRadialeFrazioneA": 0.005760584714846984,
+     "byteSecolo": 432.0
+    }
+   ],
+   "durataAnni": 5.0,
+   "confrontoLunghi": {
+    "secolare": {
+     "x": [
+      5513700.123487621,
+      0.7507851084378928,
+      -2.021149148595433,
+      3.420509261203992e-07,
+      0.07647264385846833,
+      -1.1855186839902327,
+      -5.460604435910888e-07,
+      240.91899632619473,
+      0.017446853074529232,
+      -7.009889865611365e-14,
+      0.0
+     ],
+     "tRef": 2400787.992866843,
+     "residuoMaxGradi": 11.062432171519413,
+     "sigmaN": 1.4057104589338537e-05,
+     "validazioneIncrociata": {
+      "primaMeta": {
+       "pendenzaRadAnno": -1.3785901485973707e-05,
+       "maxRad": 0.28715396830740286
+      },
+      "secondaMeta": {
+       "pendenzaRadAnno": 1.4057104589338537e-05,
+       "maxRad": 0.2598149870986998
+      },
+      "sigmaN": 1.4057104589338537e-05
+     }
+    },
+    "confronto": {
+     "kernel": [
+      "nep101xl-802.bsp"
+     ],
+     "intervalli": [
+      {
+       "anni": [
+        -10500.0,
+        -10000.0
+       ],
+       "maxDifferenzaGradi": 111.25729283782898,
+       "epsEstrapolazioneMinGradi": 35.689279825999485,
+       "epsEstrapolazioneMaxGradi": 35.690690930466765,
+       "maxDifferenzaDoveDeterminabileGradi": 111.25729283782898,
+       "maxRapportoDifferenzaEps": 3.1172636319813027
+      },
+      {
+       "anni": [
+        -10000.0,
+        -9500.0
+       ],
+       "maxDifferenzaGradi": 171.37692061948042,
+       "epsEstrapolazioneMinGradi": 33.15087546454701,
+       "epsEstrapolazioneMaxGradi": 35.68918378827428,
+       "maxDifferenzaDoveDeterminabileGradi": 171.37692061948042,
+       "maxRapportoDifferenzaEps": 5.166981312655556
+      },
+      {
+       "anni": [
+        -9500.0,
+        -9000.0
+       ],
+       "maxDifferenzaGradi": 174.92467095904794,
+       "epsEstrapolazioneMinGradi": 30.704512386887984,
+       "epsEstrapolazioneMaxGradi": 33.15073204300945,
+       "maxDifferenzaDoveDeterminabileGradi": 174.92467095904794,
+       "maxRapportoDifferenzaEps": 5.6687349797623625
+      },
+      {
+       "anni": [
+        -9000.0,
+        -8500.0
+       ],
+       "maxDifferenzaGradi": 179.7688824447501,
+       "epsEstrapolazioneMinGradi": 28.34786855537907,
+       "epsEstrapolazioneMaxGradi": 30.703499504775596,
+       "maxDifferenzaDoveDeterminabileGradi": 179.7688824447501,
+       "maxRapportoDifferenzaEps": 6.331785521793357
+      },
+      {
+       "anni": [
+        -8500.0,
+        -8000.0
+       ],
+       "maxDifferenzaGradi": 179.66321327450365,
+       "epsEstrapolazioneMinGradi": 26.0846278392234,
+       "epsEstrapolazioneMaxGradi": 28.347630789226105,
+       "maxDifferenzaDoveDeterminabileGradi": 179.66321327450365,
+       "maxRapportoDifferenzaEps": 6.727350615036927
+      },
+      {
+       "anni": [
+        -8000.0,
+        -7500.0
+       ],
+       "maxDifferenzaGradi": 175.845156757376,
+       "epsEstrapolazioneMinGradi": 23.90989464107989,
+       "epsEstrapolazioneMaxGradi": 26.082766543835344,
+       "maxDifferenzaDoveDeterminabileGradi": 175.845156757376,
+       "maxRapportoDifferenzaEps": 7.217762795814796
+      },
+      {
+       "anni": [
+        -7500.0,
+        -7000.0
+       ],
+       "maxDifferenzaGradi": 173.28128092508277,
+       "epsEstrapolazioneMinGradi": 21.827937219128074,
+       "epsEstrapolazioneMaxGradi": 23.909740910303256,
+       "maxDifferenzaDoveDeterminabileGradi": 173.28128092508277,
+       "maxRapportoDifferenzaEps": 7.7935178029615475
+      },
+      {
+       "anni": [
+        -7000.0,
+        -6500.0
+       ],
+       "maxDifferenzaGradi": 170.6595918582369,
+       "epsEstrapolazioneMinGradi": 19.83715929347455,
+       "epsEstrapolazioneMaxGradi": 21.82733763414292,
+       "maxDifferenzaDoveDeterminabileGradi": 170.6595918582369,
+       "maxRapportoDifferenzaEps": 8.506875811633206
+      },
+      {
+       "anni": [
+        -6500.0,
+        -6000.0
+       ],
+       "maxDifferenzaGradi": 168.96975812920553,
+       "epsEstrapolazioneMinGradi": 17.937475703104333,
+       "epsEstrapolazioneMaxGradi": 19.836912611241758,
+       "maxDifferenzaDoveDeterminabileGradi": 168.96975812920553,
+       "maxRapportoDifferenzaEps": 9.401212507999874
+      },
+      {
+       "anni": [
+        -6000.0,
+        -5500.0
+       ],
+       "maxDifferenzaGradi": 170.9032690567963,
+       "epsEstrapolazioneMinGradi": 16.129286252110123,
+       "epsEstrapolazioneMaxGradi": 17.93726218524861,
+       "maxDifferenzaDoveDeterminabileGradi": 170.9032690567963,
+       "maxRapportoDifferenzaEps": 10.538402668413026
+      },
+      {
+       "anni": [
+        -5500.0,
+        -5000.0
+       ],
+       "maxDifferenzaGradi": 172.73696705034942,
+       "epsEstrapolazioneMinGradi": 14.412343537285984,
+       "epsEstrapolazioneMaxGradi": 16.12915885850246,
+       "maxDifferenzaDoveDeterminabileGradi": 172.73696705034942,
+       "maxRapportoDifferenzaEps": 11.929027389983968
+      },
+      {
+       "anni": [
+        -5000.0,
+        -4500.0
+       ],
+       "maxDifferenzaGradi": 173.44964712571198,
+       "epsEstrapolazioneMinGradi": 12.786886638258164,
+       "epsEstrapolazioneMaxGradi": 14.411957187080029,
+       "maxDifferenzaDoveDeterminabileGradi": 173.44964712571198,
+       "maxRapportoDifferenzaEps": 13.14943637971919
+      },
+      {
+       "anni": [
+        -4500.0,
+        -4000.0
+       ],
+       "maxDifferenzaGradi": 168.86592347647263,
+       "epsEstrapolazioneMinGradi": 11.252236023197636,
+       "epsEstrapolazioneMaxGradi": 12.786121327399039,
+       "maxDifferenzaDoveDeterminabileGradi": 168.86592347647263,
+       "maxRapportoDifferenzaEps": 13.835131440187695
+      },
+      {
+       "anni": [
+        -4000.0,
+        -3500.0
+       ],
+       "maxDifferenzaGradi": 156.1483107184882,
+       "epsEstrapolazioneMinGradi": 9.809128188787952,
+       "epsEstrapolazioneMaxGradi": 11.251974762115102,
+       "maxDifferenzaDoveDeterminabileGradi": 156.1483107184882,
+       "maxRapportoDifferenzaEps": 14.328567923210647
+      },
+      {
+       "anni": [
+        -3500.0,
+        -3000.0
+       ],
+       "maxDifferenzaGradi": 141.17866512541553,
+       "epsEstrapolazioneMinGradi": 8.457300118092233,
+       "epsEstrapolazioneMaxGradi": 9.808918731156766,
+       "maxDifferenzaDoveDeterminabileGradi": 141.17866512541553,
+       "maxRapportoDifferenzaEps": 14.683693164388846
+      },
+      {
+       "anni": [
+        -3000.0,
+        -2500.0
+       ],
+       "maxDifferenzaGradi": 123.99852728611255,
+       "epsEstrapolazioneMinGradi": 7.196926534914781,
+       "epsEstrapolazioneMaxGradi": 8.457253786256592,
+       "maxDifferenzaDoveDeterminabileGradi": 123.99852728611255,
+       "maxRapportoDifferenzaEps": 14.814145817407228
+      },
+      {
+       "anni": [
+        -2500.0,
+        -2000.0
+       ],
+       "maxDifferenzaGradi": 105.94372794966293,
+       "epsEstrapolazioneMinGradi": 6.027493851681103,
+       "epsEstrapolazioneMaxGradi": 7.196659727559885,
+       "maxDifferenzaDoveDeterminabileGradi": 105.94372794966293,
+       "maxRapportoDifferenzaEps": 14.868784866868035
+      },
+      {
+       "anni": [
+        -2000.0,
+        -1500.0
+       ],
+       "maxDifferenzaGradi": 85.76197660734212,
+       "epsEstrapolazioneMinGradi": 4.949560956153601,
+       "epsEstrapolazioneMaxGradi": 6.0274426143317665,
+       "maxDifferenzaDoveDeterminabileGradi": 85.76197660734212,
+       "maxRapportoDifferenzaEps": 14.675585413782652
+      },
+      {
+       "anni": [
+        -1500.0,
+        -1000.0
+       ],
+       "maxDifferenzaGradi": 69.94708116308534,
+       "epsEstrapolazioneMinGradi": 3.9631880390234717,
+       "epsEstrapolazioneMaxGradi": 4.949369631431304,
+       "maxDifferenzaDoveDeterminabileGradi": 69.94708116308534,
+       "maxRapportoDifferenzaEps": 14.554943594822062
+      },
+      {
+       "anni": [
+        -1000.0,
+        -500.0
+       ],
+       "maxDifferenzaGradi": 54.36158314558254,
+       "epsEstrapolazioneMinGradi": 3.067423556914278,
+       "epsEstrapolazioneMaxGradi": 3.9626292555590377,
+       "maxDifferenzaDoveDeterminabileGradi": 54.36158314558254,
+       "maxRapportoDifferenzaEps": 14.179502540009512
+      },
+      {
+       "anni": [
+        -500.0,
+        0.0
+       ],
+       "maxDifferenzaGradi": 40.53233010385447,
+       "epsEstrapolazioneMinGradi": 2.2632486449718283,
+       "epsEstrapolazioneMaxGradi": 3.06719233686924,
+       "maxDifferenzaDoveDeterminabileGradi": 40.53233010385447,
+       "maxRapportoDifferenzaEps": 13.755860984114177
+      },
+      {
+       "anni": [
+        0.0,
+        500.0
+       ],
+       "maxDifferenzaGradi": 29.26372654668308,
+       "epsEstrapolazioneMinGradi": 1.550392354171132,
+       "epsEstrapolazioneMaxGradi": 2.263132268350529,
+       "maxDifferenzaDoveDeterminabileGradi": 29.26372654668308,
+       "maxRapportoDifferenzaEps": 13.875130465009164
+      },
+      {
+       "anni": [
+        500.0,
+        1000.0
+       ],
+       "maxDifferenzaGradi": 21.15542039694868,
+       "epsEstrapolazioneMinGradi": 0.9287811938110985,
+       "epsEstrapolazioneMaxGradi": 1.5503117639929456,
+       "maxDifferenzaDoveDeterminabileGradi": 21.15542039694868,
+       "maxRapportoDifferenzaEps": 15.85640615325502
+      },
+      {
+       "anni": [
+        1000.0,
+        1500.0
+       ],
+       "maxDifferenzaGradi": 14.840547971603703,
+       "epsEstrapolazioneMinGradi": 0.3984554774944355,
+       "epsEstrapolazioneMaxGradi": 0.9287454500206543,
+       "maxDifferenzaDoveDeterminabileGradi": 14.840547971603703,
+       "maxRapportoDifferenzaEps": 25.405778131125043
+      },
+      {
+       "anni": [
+        1500.0,
+        2000.0
+       ],
+       "maxDifferenzaGradi": 11.039248733460992,
+       "epsEstrapolazioneMinGradi": 0.3033239102922074,
+       "epsEstrapolazioneMaxGradi": 0.3983908908402474,
+       "maxDifferenzaDoveDeterminabileGradi": 11.039248733460992,
+       "maxRapportoDifferenzaEps": 31.233577713311888
+      }
+     ],
+     "maxRapportoDoveDeterminabile": 31.233577713311888,
+     "maxDifferenzaDoveDeterminabileGradi": 179.7688824447501,
+     "livelloCambia": 0.24807975671693264
+    }
+   }
+  },
+  "caronte": {
+   "frequenze": {
+    "n": 0.9837117286855437,
+    "varpiDot": 4.9209227482795555e-08,
+    "picchi": [
+     {
+      "nu": 1.4618305700743646,
+      "periodoGiorni": 4.298162479157865,
+      "ampiezzaArcsec": 0.10139502533874419
+     },
+     {
+      "nu": 0.730915255443875,
+      "periodoGiorni": 8.596325306363857,
+      "ampiezzaArcsec": 0.08525385135759428
+     },
+     {
+      "nu": 0.819239244005616,
+      "periodoGiorni": 7.6695365281311085,
+      "ampiezzaArcsec": 0.04545670534773469
+     },
+     {
+      "nu": 0.0011426554961555756,
+      "periodoGiorni": 5498.757349279063,
+      "ampiezzaArcsec": 0.04387364271797832
+     },
+     {
+      "nu": 1.638478339830252,
+      "periodoGiorni": 3.8347686108749723,
+      "ampiezzaArcsec": 0.0339798061827228
+     },
+     {
+      "nu": 0.982486777571668,
+      "periodoGiorni": 6.3951856153313535,
+      "ampiezzaArcsec": 0.02605012530952797
+     }
+    ],
+    "frequenze": [],
+    "durataAnni": 20.0,
+    "finestra": [
+     2433282.5,
+     2469807.5
+    ]
+   },
+   "proveK0": [
+    {
+     "durataAnni": 2.0,
+     "K": 0,
+     "record": 20,
+     "maxAngoloArcsec": 0.48155848323507044,
+     "medianaAngoloArcsec": 0.3675613265431814,
+     "maxRadialeKm": 0.01354653400630923,
+     "maxRadialeFrazioneA": 6.912990780186114e-07,
+     "byteSecolo": 6000.0
+    },
+    {
+     "durataAnni": 5.0,
+     "K": 0,
+     "record": 8,
+     "maxAngoloArcsec": 1.0859576767389725,
+     "medianaAngoloArcsec": 0.6977089563244114,
+     "maxRadialeKm": 0.01412717722269008,
+     "maxRadialeFrazioneA": 7.20930134422244e-07,
+     "byteSecolo": 2400.0
+    },
+    {
+     "durataAnni": 10.0,
+     "K": 0,
+     "record": 4,
+     "maxAngoloArcsec": 2.316374697090236,
+     "medianaAngoloArcsec": 1.6548528554606232,
+     "maxRadialeKm": 0.014614443196478533,
+     "maxRadialeFrazioneA": 7.457960165876182e-07,
+     "byteSecolo": 1200.0
+    },
+    {
+     "durataAnni": 20.0,
+     "K": 0,
+     "record": 2,
+     "maxAngoloArcsec": 4.706589253849459,
+     "medianaAngoloArcsec": 3.616548477061525,
+     "maxRadialeKm": 0.01470897955368855,
+     "maxRadialeFrazioneA": 7.506203435313767e-07,
+     "byteSecolo": 600.0
+    }
+   ],
+   "prove": [
+    {
+     "durataAnni": 2.0,
+     "K": 0,
+     "record": 20,
+     "maxAngoloArcsec": 0.48155848323507044,
+     "medianaAngoloArcsec": 0.3675613265431814,
+     "maxRadialeKm": 0.01354653400630923,
+     "maxRadialeFrazioneA": 6.912990780186114e-07,
+     "byteSecolo": 6000.0
+    },
+    {
+     "durataAnni": 5.0,
+     "K": 0,
+     "record": 8,
+     "maxAngoloArcsec": 1.0859576767389725,
+     "medianaAngoloArcsec": 0.6977089563244114,
+     "maxRadialeKm": 0.01412717722269008,
+     "maxRadialeFrazioneA": 7.20930134422244e-07,
+     "byteSecolo": 2400.0
+    },
+    {
+     "durataAnni": 10.0,
+     "K": 0,
+     "record": 4,
+     "maxAngoloArcsec": 2.316374697090236,
+     "medianaAngoloArcsec": 1.6548528554606232,
+     "maxRadialeKm": 0.014614443196478533,
+     "maxRadialeFrazioneA": 7.457960165876182e-07,
+     "byteSecolo": 1200.0
+    },
+    {
+     "durataAnni": 20.0,
+     "K": 0,
+     "record": 2,
+     "maxAngoloArcsec": 4.706589253849459,
+     "medianaAngoloArcsec": 3.616548477061525,
+     "maxRadialeKm": 0.01470897955368855,
+     "maxRadialeFrazioneA": 7.506203435313767e-07,
+     "byteSecolo": 600.0
+    }
+   ],
+   "durataAnni": 20.0,
+   "confrontoLunghi": null
+  }
+ },
+ "tuttiISatelliti": {
+  "amaltea": {
+   "durataAnni": 10.0,
+   "durataLunghiAnni": 10.0,
+   "K": 2,
+   "prove": [
+    {
+     "durataAnni": 2.0,
+     "K": 2,
+     "record": 20,
+     "maxAngoloArcsec": 9.207415044606366,
+     "medianaAngoloArcsec": 6.235984978133514,
+     "maxRadialeKm": 5.84850364815793,
+     "maxRadialeFrazioneA": 3.224704732692257e-05,
+     "byteSecolo": 7600.0
+    },
+    {
+     "durataAnni": 5.0,
+     "K": 2,
+     "record": 8,
+     "maxAngoloArcsec": 9.03406528619677,
+     "medianaAngoloArcsec": 6.766100470259443,
+     "maxRadialeKm": 5.842548584216274,
+     "maxRadialeFrazioneA": 3.221421267656742e-05,
+     "byteSecolo": 3040.0
+    },
+    {
+     "durataAnni": 10.0,
+     "K": 2,
+     "record": 4,
+     "maxAngoloArcsec": 9.661108747945043,
+     "medianaAngoloArcsec": 7.778091142847315,
+     "maxRadialeKm": 5.845815589011181,
+     "maxRadialeFrazioneA": 3.2232225999496365e-05,
+     "byteSecolo": 1520.0
+    }
+   ],
+   "proveK0": [
+    {
+     "durataAnni": 2.0,
+     "K": 0,
+     "record": 20,
+     "maxAngoloArcsec": 13.247963962554692,
+     "medianaAngoloArcsec": 11.487280660828787,
+     "maxRadialeKm": 5.848987498378847,
+     "maxRadialeFrazioneA": 3.224971515272371e-05,
+     "byteSecolo": 6000.0
+    },
+    {
+     "durataAnni": 5.0,
+     "K": 0,
+     "record": 8,
+     "maxAngoloArcsec": 13.151684718937227,
+     "medianaAngoloArcsec": 11.72271223678678,
+     "maxRadialeKm": 5.842336230882211,
+     "maxRadialeFrazioneA": 3.221304182663841e-05,
+     "byteSecolo": 2400.0
+    },
+    {
+     "durataAnni": 10.0,
+     "K": 0,
+     "record": 4,
+     "maxAngoloArcsec": 14.349418067885027,
+     "medianaAngoloArcsec": 13.063154256289312,
+     "maxRadialeKm": 5.8458563046879135,
+     "maxRadialeFrazioneA": 3.223245050281438e-05,
+     "byteSecolo": 1200.0
+    }
+   ]
+  },
+  "ariel": {
+   "durataAnni": 5.0,
+   "durataLunghiAnni": 10.0,
+   "K": 6,
+   "prove": [
+    {
+     "durataAnni": 2.0,
+     "K": 6,
+     "record": 20,
+     "maxAngoloArcsec": 39.079249992724854,
+     "medianaAngoloArcsec": 32.20015478382705,
+     "maxRadialeKm": 42.25869050581241,
+     "maxRadialeFrazioneA": 0.00022133160706762163,
+     "byteSecolo": 10800.0
+    },
+    {
+     "durataAnni": 5.0,
+     "K": 6,
+     "record": 8,
+     "maxAngoloArcsec": 58.04514808517454,
+     "medianaAngoloArcsec": 54.052201180159074,
+     "maxRadialeKm": 52.62969987693941,
+     "maxRadialeFrazioneA": 0.000275650206962463,
+     "byteSecolo": 4320.0
+    },
+    {
+     "durataAnni": 10.0,
+     "K": 6,
+     "record": 4,
+     "maxAngoloArcsec": 116.51688080283475,
+     "medianaAngoloArcsec": 103.94374225497208,
+     "maxRadialeKm": 72.49714233606937,
+     "maxRadialeFrazioneA": 0.00037970662382842224,
+     "byteSecolo": 2160.0
+    }
+   ],
+   "proveK0": [
+    {
+     "durataAnni": 2.0,
+     "K": 0,
+     "record": 20,
+     "maxAngoloArcsec": 101.61359726006235,
+     "medianaAngoloArcsec": 98.08532559466197,
+     "maxRadialeKm": 42.334690795920324,
+     "maxRadialeFrazioneA": 0.00022172966731866196,
+     "byteSecolo": 6000.0
+    },
+    {
+     "durataAnni": 5.0,
+     "K": 0,
+     "record": 8,
+     "maxAngoloArcsec": 139.7606946507573,
+     "medianaAngoloArcsec": 123.74257149631578,
+     "maxRadialeKm": 52.624848971376196,
+     "maxRadialeFrazioneA": 0.00027562480730577136,
+     "byteSecolo": 2400.0
+    },
+    {
+     "durataAnni": 10.0,
+     "K": 0,
+     "record": 4,
+     "maxAngoloArcsec": 299.1296413247616,
+     "medianaAngoloArcsec": 277.575199598462,
+     "maxRadialeKm": 72.47557587540359,
+     "maxRadialeFrazioneA": 0.00037959372269954074,
+     "byteSecolo": 1200.0
+    }
+   ]
+  },
+  "callisto": {
+   "durataAnni": 5.0,
+   "durataLunghiAnni": 20.0,
+   "K": 6,
+   "prove": [
+    {
+     "durataAnni": 2.0,
+     "K": 6,
+     "record": 20,
+     "maxAngoloArcsec": 17.56169702439283,
+     "medianaAngoloArcsec": 14.514041222509913,
+     "maxRadialeKm": 337.30683239363134,
+     "maxRadialeFrazioneA": 0.00017915714869567035,
+     "byteSecolo": 10800.0
+    },
+    {
+     "durataAnni": 5.0,
+     "K": 6,
+     "record": 8,
+     "maxAngoloArcsec": 24.175326956909398,
+     "medianaAngoloArcsec": 21.879816716323358,
+     "maxRadialeKm": 401.3354555154219,
+     "maxRadialeFrazioneA": 0.00021316521401547567,
+     "byteSecolo": 4320.0
+    },
+    {
+     "durataAnni": 10.0,
+     "K": 6,
+     "record": 4,
+     "maxAngoloArcsec": 31.82209712771429,
+     "medianaAngoloArcsec": 29.430192230683303,
+     "maxRadialeKm": 406.3279796461575,
+     "maxRadialeFrazioneA": 0.00021581688797491438,
+     "byteSecolo": 2160.0
+    },
+    {
+     "durataAnni": 20.0,
+     "K": 6,
+     "record": 2,
+     "maxAngoloArcsec": 45.10243199598588,
+     "medianaAngoloArcsec": 44.583150615653174,
+     "maxRadialeKm": 422.9712869061623,
+     "maxRadialeFrazioneA": 0.0002246567795826155,
+     "byteSecolo": 1080.0
+    }
+   ],
+   "proveK0": [
+    {
+     "durataAnni": 2.0,
+     "K": 0,
+     "record": 20,
+     "maxAngoloArcsec": 33.5977591001153,
+     "medianaAngoloArcsec": 29.733825042232663,
+     "maxRadialeKm": 340.38606430520304,
+     "maxRadialeFrazioneA": 0.00018079264686864262,
+     "byteSecolo": 6000.0
+    },
+    {
+     "durataAnni": 5.0,
+     "K": 0,
+     "record": 8,
+     "maxAngoloArcsec": 55.8048400459271,
+     "medianaAngoloArcsec": 47.20573199764441,
+     "maxRadialeKm": 399.97340530133806,
+     "maxRadialeFrazioneA": 0.0002124417776132279,
+     "byteSecolo": 2400.0
+    },
+    {
+     "durataAnni": 10.0,
+     "K": 0,
+     "record": 4,
+     "maxAngoloArcsec": 102.57746800766056,
+     "medianaAngoloArcsec": 91.6828803029192,
+     "maxRadialeKm": 419.17309044278227,
+     "maxRadialeFrazioneA": 0.0002226394406367842,
+     "byteSecolo": 1200.0
+    },
+    {
+     "durataAnni": 20.0,
+     "K": 0,
+     "record": 2,
+     "maxAngoloArcsec": 178.97706062147378,
+     "medianaAngoloArcsec": 171.69864135944917,
+     "maxRadialeKm": 419.2433637389913,
+     "maxRadialeFrazioneA": 0.00022267674693010915,
+     "byteSecolo": 600.0
+    }
+   ]
+  },
+  "caronte": {
+   "durataAnni": 20.0,
+   "durataLunghiAnni": 20.0,
+   "K": 0,
+   "prove": [
+    {
+     "durataAnni": 2.0,
+     "K": 0,
+     "record": 20,
+     "maxAngoloArcsec": 0.48155848323507044,
+     "medianaAngoloArcsec": 0.3675613265431814,
+     "maxRadialeKm": 0.01354653400630923,
+     "maxRadialeFrazioneA": 6.912990780186114e-07,
+     "byteSecolo": 6000.0
+    },
+    {
+     "durataAnni": 5.0,
+     "K": 0,
+     "record": 8,
+     "maxAngoloArcsec": 1.0859576767389725,
+     "medianaAngoloArcsec": 0.6977089563244114,
+     "maxRadialeKm": 0.01412717722269008,
+     "maxRadialeFrazioneA": 7.20930134422244e-07,
+     "byteSecolo": 2400.0
+    },
+    {
+     "durataAnni": 10.0,
+     "K": 0,
+     "record": 4,
+     "maxAngoloArcsec": 2.316374697090236,
+     "medianaAngoloArcsec": 1.6548528554606232,
+     "maxRadialeKm": 0.014614443196478533,
+     "maxRadialeFrazioneA": 7.457960165876182e-07,
+     "byteSecolo": 1200.0
+    },
+    {
+     "durataAnni": 20.0,
+     "K": 0,
+     "record": 2,
+     "maxAngoloArcsec": 4.706589253849459,
+     "medianaAngoloArcsec": 3.616548477061525,
+     "maxRadialeKm": 0.01470897955368855,
+     "maxRadialeFrazioneA": 7.506203435313767e-07,
+     "byteSecolo": 600.0
+    }
+   ],
+   "proveK0": [
+    {
+     "durataAnni": 2.0,
+     "K": 0,
+     "record": 20,
+     "maxAngoloArcsec": 0.48155848323507044,
+     "medianaAngoloArcsec": 0.3675613265431814,
+     "maxRadialeKm": 0.01354653400630923,
+     "maxRadialeFrazioneA": 6.912990780186114e-07,
+     "byteSecolo": 6000.0
+    },
+    {
+     "durataAnni": 5.0,
+     "K": 0,
+     "record": 8,
+     "maxAngoloArcsec": 1.0859576767389725,
+     "medianaAngoloArcsec": 0.6977089563244114,
+     "maxRadialeKm": 0.01412717722269008,
+     "maxRadialeFrazioneA": 7.20930134422244e-07,
+     "byteSecolo": 2400.0
+    },
+    {
+     "durataAnni": 10.0,
+     "K": 0,
+     "record": 4,
+     "maxAngoloArcsec": 2.316374697090236,
+     "medianaAngoloArcsec": 1.6548528554606232,
+     "maxRadialeKm": 0.014614443196478533,
+     "maxRadialeFrazioneA": 7.457960165876182e-07,
+     "byteSecolo": 1200.0
+    },
+    {
+     "durataAnni": 20.0,
+     "K": 0,
+     "record": 2,
+     "maxAngoloArcsec": 4.706589253849459,
+     "medianaAngoloArcsec": 3.616548477061525,
+     "maxRadialeKm": 0.01470897955368855,
+     "maxRadialeFrazioneA": 7.506203435313767e-07,
+     "byteSecolo": 600.0
+    }
+   ]
+  },
+  "deimos": {
+   "durataAnni": 10.0,
+   "durataLunghiAnni": 10.0,
+   "K": 6,
+   "prove": [
+    {
+     "durataAnni": 2.0,
+     "K": 6,
+     "record": 20,
+     "maxAngoloArcsec": 97.74999452777539,
+     "medianaAngoloArcsec": 89.50494347444516,
+     "maxRadialeKm": 1.8087695420144883,
+     "maxRadialeFrazioneA": 7.710822984904752e-05,
+     "byteSecolo": 10800.0
+    },
+    {
+     "durataAnni": 5.0,
+     "K": 6,
+     "record": 8,
+     "maxAngoloArcsec": 113.2071897147062,
+     "medianaAngoloArcsec": 93.96606672343451,
+     "maxRadialeKm": 1.9922582084982423,
+     "maxRadialeFrazioneA": 8.493038763373108e-05,
+     "byteSecolo": 4320.0
+    },
+    {
+     "durataAnni": 10.0,
+     "K": 6,
+     "record": 4,
+     "maxAngoloArcsec": 126.4554786896105,
+     "medianaAngoloArcsec": 119.65789170453108,
+     "maxRadialeKm": 2.476389849674888,
+     "maxRadialeFrazioneA": 0.00010556902542230702,
+     "byteSecolo": 2160.0
+    }
+   ],
+   "proveK0": [
+    {
+     "durataAnni": 2.0,
+     "K": 0,
+     "record": 20,
+     "maxAngoloArcsec": 162.63497458804233,
+     "medianaAngoloArcsec": 147.63585255135715,
+     "maxRadialeKm": 1.8072474126456655,
+     "maxRadialeFrazioneA": 7.704334400719942e-05,
+     "byteSecolo": 6000.0
+    },
+    {
+     "durataAnni": 5.0,
+     "K": 0,
+     "record": 8,
+     "maxAngoloArcsec": 185.26287759508946,
+     "medianaAngoloArcsec": 183.094755297984,
+     "maxRadialeKm": 1.9919107004789112,
+     "maxRadialeFrazioneA": 8.491557870075008e-05,
+     "byteSecolo": 2400.0
+    },
+    {
+     "durataAnni": 10.0,
+     "K": 0,
+     "record": 4,
+     "maxAngoloArcsec": 194.561625357324,
+     "medianaAngoloArcsec": 190.1740557957715,
+     "maxRadialeKm": 2.4749425951995363,
+     "maxRadialeFrazioneA": 0.00010550733543144791,
+     "byteSecolo": 1200.0
+    }
+   ]
+  },
+  "dione": {
+   "durataAnni": 2.0,
+   "durataLunghiAnni": 10.0,
+   "K": 6,
+   "prove": [
+    {
+     "durataAnni": 2.0,
+     "K": 6,
+     "record": 20,
+     "maxAngoloArcsec": 36.42181302552199,
+     "medianaAngoloArcsec": 30.657948036731177,
+     "maxRadialeKm": 64.3047271950054,
+     "maxRadialeFrazioneA": 0.00017038191200346146,
+     "byteSecolo": 10800.0
+    },
+    {
+     "durataAnni": 5.0,
+     "K": 6,
+     "record": 8,
+     "maxAngoloArcsec": 61.86534845038852,
+     "medianaAngoloArcsec": 53.933575281026265,
+     "maxRadialeKm": 88.17630832869327,
+     "maxRadialeFrazioneA": 0.0002336320863830077,
+     "byteSecolo": 4320.0
+    },
+    {
+     "durataAnni": 10.0,
+     "K": 6,
+     "record": 4,
+     "maxAngoloArcsec": 126.64773612246503,
+     "medianaAngoloArcsec": 118.59913331056248,
+     "maxRadialeKm": 104.463615631219,
+     "maxRadialeFrazioneA": 0.0002767869541178088,
+     "byteSecolo": 2160.0
+    }
+   ],
+   "proveK0": [
+    {
+     "durataAnni": 2.0,
+     "K": 0,
+     "record": 20,
+     "maxAngoloArcsec": 73.33907333353542,
+     "medianaAngoloArcsec": 64.9427424531362,
+     "maxRadialeKm": 63.27488551143324,
+     "maxRadialeFrazioneA": 0.0001676532448291648,
+     "byteSecolo": 6000.0
+    },
+    {
+     "durataAnni": 5.0,
+     "K": 0,
+     "record": 8,
+     "maxAngoloArcsec": 138.95276202691264,
+     "medianaAngoloArcsec": 129.11551643230712,
+     "maxRadialeKm": 87.70398001855938,
+     "maxRadialeFrazioneA": 0.00023238060866886427,
+     "byteSecolo": 2400.0
+    },
+    {
+     "durataAnni": 10.0,
+     "K": 0,
+     "record": 4,
+     "maxAngoloArcsec": 180.85882610058675,
+     "medianaAngoloArcsec": 177.42904778861725,
+     "maxRadialeKm": 104.70750542660244,
+     "maxRadialeFrazioneA": 0.00027743316944515143,
+     "byteSecolo": 1200.0
+    }
+   ]
+  },
+  "encelado": {
+   "durataAnni": 2.0,
+   "durataLunghiAnni": 10.0,
+   "K": 6,
+   "prove": [
+    {
+     "durataAnni": 2.0,
+     "K": 6,
+     "record": 20,
+     "maxAngoloArcsec": 47.92732388872515,
+     "medianaAngoloArcsec": 37.289686667306654,
+     "maxRadialeKm": 24.839246698044008,
+     "maxRadialeFrazioneA": 0.00010435082177037366,
+     "byteSecolo": 10800.0
+    },
+    {
+     "durataAnni": 5.0,
+     "K": 6,
+     "record": 8,
+     "maxAngoloArcsec": 62.89835524578689,
+     "medianaAngoloArcsec": 58.489017656932845,
+     "maxRadialeKm": 33.93163073575124,
+     "maxRadialeFrazioneA": 0.00014254836242113444,
+     "byteSecolo": 4320.0
+    },
+    {
+     "durataAnni": 10.0,
+     "K": 6,
+     "record": 4,
+     "maxAngoloArcsec": 88.30333890465701,
+     "medianaAngoloArcsec": 84.56222262148447,
+     "maxRadialeKm": 44.809575809544185,
+     "maxRadialeFrazioneA": 0.0001882471236281139,
+     "byteSecolo": 2160.0
+    }
+   ],
+   "proveK0": [
+    {
+     "durataAnni": 2.0,
+     "K": 0,
+     "record": 20,
+     "maxAngoloArcsec": 104.47492658656415,
+     "medianaAngoloArcsec": 80.27673205911209,
+     "maxRadialeKm": 24.748718245857162,
+     "maxRadialeFrazioneA": 0.0001039705078491917,
+     "byteSecolo": 6000.0
+    },
+    {
+     "durataAnni": 5.0,
+     "K": 0,
+     "record": 8,
+     "maxAngoloArcsec": 843.2240538732038,
+     "medianaAngoloArcsec": 739.4314068431936,
+     "maxRadialeKm": 33.752646459208336,
+     "maxRadialeFrazioneA": 0.00014179671095453574,
+     "byteSecolo": 2400.0
+    },
+    {
+     "durataAnni": 10.0,
+     "K": 0,
+     "record": 4,
+     "maxAngoloArcsec": 1205.4497789243521,
+     "medianaAngoloArcsec": 1160.1196417880187,
+     "maxRadialeKm": 43.77672698831884,
+     "maxRadialeFrazioneA": 0.00018390873510902228,
+     "byteSecolo": 1200.0
+    }
+   ]
+  },
+  "europa": {
+   "durataAnni": 2.0,
+   "durataLunghiAnni": 20.0,
+   "K": 6,
+   "prove": [
+    {
+     "durataAnni": 2.0,
+     "K": 6,
+     "record": 20,
+     "maxAngoloArcsec": 50.13028230602233,
+     "medianaAngoloArcsec": 42.01838533372458,
+     "maxRadialeKm": 393.5072717189323,
+     "maxRadialeFrazioneA": 0.0005863957040695777,
+     "byteSecolo": 10800.0
+    },
+    {
+     "durataAnni": 5.0,
+     "K": 6,
+     "record": 8,
+     "maxAngoloArcsec": 64.26571828449853,
+     "medianaAngoloArcsec": 55.80415690057141,
+     "maxRadialeKm": 386.7814488663571,
+     "maxRadialeFrazioneA": 0.0005763731087759761,
+     "byteSecolo": 4320.0
+    },
+    {
+     "durataAnni": 10.0,
+     "K": 6,
+     "record": 4,
+     "maxAngoloArcsec": 96.24169434692543,
+     "medianaAngoloArcsec": 84.74656791132504,
+     "maxRadialeKm": 387.69781826261897,
+     "maxRadialeFrazioneA": 0.0005777386503071352,
+     "byteSecolo": 2160.0
+    },
+    {
+     "durataAnni": 20.0,
+     "K": 6,
+     "record": 2,
+     "maxAngoloArcsec": 114.30002884758427,
+     "medianaAngoloArcsec": 113.39205625129932,
+     "maxRadialeKm": 388.58324870467186,
+     "maxRadialeFrazioneA": 0.0005790581196461501,
+     "byteSecolo": 1080.0
+    }
+   ],
+   "proveK0": [
+    {
+     "durataAnni": 2.0,
+     "K": 0,
+     "record": 20,
+     "maxAngoloArcsec": 419.9387702676964,
+     "medianaAngoloArcsec": 345.96579650859525,
+     "maxRadialeKm": 426.8991199694574,
+     "maxRadialeFrazioneA": 0.0006361555770536232,
+     "byteSecolo": 6000.0
+    },
+    {
+     "durataAnni": 5.0,
+     "K": 0,
+     "record": 8,
+     "maxAngoloArcsec": 416.2860890577913,
+     "medianaAngoloArcsec": 333.4439947917086,
+     "maxRadialeKm": 383.1996274323901,
+     "maxRadialeFrazioneA": 0.0005710356433780708,
+     "byteSecolo": 2400.0
+    },
+    {
+     "durataAnni": 10.0,
+     "K": 0,
+     "record": 4,
+     "maxAngoloArcsec": 422.58146939150487,
+     "medianaAngoloArcsec": 351.89959505860156,
+     "maxRadialeKm": 383.49288868752774,
+     "maxRadialeFrazioneA": 0.0005714726591278034,
+     "byteSecolo": 1200.0
+    },
+    {
+     "durataAnni": 20.0,
+     "K": 0,
+     "record": 2,
+     "maxAngoloArcsec": 441.3376457495809,
+     "medianaAngoloArcsec": 393.95267459661716,
+     "maxRadialeKm": 388.44596062996425,
+     "maxRadialeFrazioneA": 0.0005788536718570306,
+     "byteSecolo": 600.0
+    }
+   ]
+  },
+  "febe": {
+   "durataAnni": 2.0,
+   "durataLunghiAnni": 2.0,
+   "K": 6,
+   "prove": [
+    {
+     "durataAnni": 2.0,
+     "K": 6,
+     "record": 20,
+     "maxAngoloArcsec": 179.03034922136345,
+     "medianaAngoloArcsec": 125.64723015417024,
+     "maxRadialeKm": 71370.54102107324,
+     "maxRadialeFrazioneA": 0.005513563554452623,
+     "byteSecolo": 10800.0
+    },
+    {
+     "durataAnni": 5.0,
+     "K": 6,
+     "record": 8,
+     "maxAngoloArcsec": 675.8840304738601,
+     "medianaAngoloArcsec": 480.01545251851604,
+     "maxRadialeKm": 133093.86490487307,
+     "maxRadialeFrazioneA": 0.010278420807178711,
+     "byteSecolo": 4320.0
+    },
+    {
+     "durataAnni": 10.0,
+     "K": 6,
+     "record": 4,
+     "maxAngoloArcsec": 792.2989151080134,
+     "medianaAngoloArcsec": 611.7722480789829,
+     "maxRadialeKm": 234311.0469737798,
+     "maxRadialeFrazioneA": 0.01809934709584758,
+     "byteSecolo": 2160.0
+    },
+    {
+     "durataAnni": 50.0,
+     "K": 6,
+     "record": 2,
+     "maxAngoloArcsec": 1165.4937931666516,
+     "medianaAngoloArcsec": 1084.1818151691982,
+     "maxRadialeKm": 209878.3346569892,
+     "maxRadialeFrazioneA": 0.016210574045492487,
+     "byteSecolo": 432.0
+    }
+   ],
+   "proveK0": [
+    {
+     "durataAnni": 2.0,
+     "K": 0,
+     "record": 20,
+     "maxAngoloArcsec": 1561.9647375012325,
+     "medianaAngoloArcsec": 948.0488505711571,
+     "maxRadialeKm": 80511.80680128746,
+     "maxRadialeFrazioneA": 0.006219508005102665,
+     "byteSecolo": 6000.0
+    },
+    {
+     "durataAnni": 5.0,
+     "K": 0,
+     "record": 8,
+     "maxAngoloArcsec": 4182.136020149857,
+     "medianaAngoloArcsec": 3042.8097493978435,
+     "maxRadialeKm": 138910.19423973933,
+     "maxRadialeFrazioneA": 0.010728633009969693,
+     "byteSecolo": 2400.0
+    },
+    {
+     "durataAnni": 10.0,
+     "K": 0,
+     "record": 4,
+     "maxAngoloArcsec": 6611.472697406651,
+     "medianaAngoloArcsec": 5569.743976306379,
+     "maxRadialeKm": 226704.71634506248,
+     "maxRadialeFrazioneA": 0.017514571200159545,
+     "byteSecolo": 1200.0
+    },
+    {
+     "durataAnni": 50.0,
+     "K": 0,
+     "record": 2,
+     "maxAngoloArcsec": 9310.474795849534,
+     "medianaAngoloArcsec": 9045.276581063536,
+     "maxRadialeKm": 220407.91309799068,
+     "maxRadialeFrazioneA": 0.01702702020378331,
+     "byteSecolo": 240.0
+    }
+   ]
+  },
+  "fobos": {
+   "durataAnni": 10.0,
+   "durataLunghiAnni": 10.0,
+   "K": 6,
+   "prove": [
+    {
+     "durataAnni": 2.0,
+     "K": 6,
+     "record": 20,
+     "maxAngoloArcsec": 239.92144259750032,
+     "medianaAngoloArcsec": 150.9916608193457,
+     "maxRadialeKm": 1.1238354528741183,
+     "maxRadialeFrazioneA": 0.00011987674102777206,
+     "byteSecolo": 10800.0
+    },
+    {
+     "durataAnni": 5.0,
+     "K": 6,
+     "record": 8,
+     "maxAngoloArcsec": 210.7924831724391,
+     "medianaAngoloArcsec": 166.76601589706104,
+     "maxRadialeKm": 1.2604499320350442,
+     "maxRadialeFrazioneA": 0.00013444907075809185,
+     "byteSecolo": 4320.0
+    },
+    {
+     "durataAnni": 10.0,
+     "K": 6,
+     "record": 4,
+     "maxAngoloArcsec": 220.26044147078747,
+     "medianaAngoloArcsec": 172.3048020997158,
+     "maxRadialeKm": 1.2495424250391807,
+     "maxRadialeFrazioneA": 0.00013328559931166951,
+     "byteSecolo": 2160.0
+    }
+   ],
+   "proveK0": [
+    {
+     "durataAnni": 2.0,
+     "K": 0,
+     "record": 20,
+     "maxAngoloArcsec": 240.25681000029726,
+     "medianaAngoloArcsec": 153.37675477310145,
+     "maxRadialeKm": 1.0811770080163114,
+     "maxRadialeFrazioneA": 0.00011532647614002491,
+     "byteSecolo": 6000.0
+    },
+    {
+     "durataAnni": 5.0,
+     "K": 0,
+     "record": 8,
+     "maxAngoloArcsec": 217.52335400082666,
+     "medianaAngoloArcsec": 170.0822655650605,
+     "maxRadialeKm": 1.3522306750419375,
+     "maxRadialeFrazioneA": 0.00014423910196820875,
+     "byteSecolo": 2400.0
+    },
+    {
+     "durataAnni": 10.0,
+     "K": 0,
+     "record": 4,
+     "maxAngoloArcsec": 221.86425333909878,
+     "medianaAngoloArcsec": 176.45835258730415,
+     "maxRadialeKm": 1.3073694208378583,
+     "maxRadialeFrazioneA": 0.00013945386594116396,
+     "byteSecolo": 1200.0
+    }
+   ]
+  },
+  "ganimede": {
+   "durataAnni": 5.0,
+   "durataLunghiAnni": 20.0,
+   "K": 6,
+   "prove": [
+    {
+     "durataAnni": 2.0,
+     "K": 6,
+     "record": 20,
+     "maxAngoloArcsec": 31.353740588678566,
+     "medianaAngoloArcsec": 28.462686456073094,
+     "maxRadialeKm": 911.593116448028,
+     "maxRadialeFrazioneA": 0.0008516140208478063,
+     "byteSecolo": 10800.0
+    },
+    {
+     "durataAnni": 5.0,
+     "K": 6,
+     "record": 8,
+     "maxAngoloArcsec": 45.08006859081029,
+     "medianaAngoloArcsec": 38.091087152921524,
+     "maxRadialeKm": 953.4112730661873,
+     "maxRadialeFrazioneA": 0.000890680913864513,
+     "byteSecolo": 4320.0
+    },
+    {
+     "durataAnni": 10.0,
+     "K": 6,
+     "record": 4,
+     "maxAngoloArcsec": 73.19043748594312,
+     "medianaAngoloArcsec": 61.463860220247724,
+     "maxRadialeKm": 1020.6629909127951,
+     "maxRadialeFrazioneA": 0.0009535075131351155,
+     "byteSecolo": 2160.0
+    },
+    {
+     "durataAnni": 20.0,
+     "K": 6,
+     "record": 2,
+     "maxAngoloArcsec": 123.47878268662811,
+     "medianaAngoloArcsec": 112.61821830505336,
+     "maxRadialeKm": 1157.0721721420996,
+     "maxRadialeFrazioneA": 0.001080941355609031,
+     "byteSecolo": 1080.0
+    }
+   ],
+   "proveK0": [
+    {
+     "durataAnni": 2.0,
+     "K": 0,
+     "record": 20,
+     "maxAngoloArcsec": 422.43548901762927,
+     "medianaAngoloArcsec": 387.870345887555,
+     "maxRadialeKm": 973.3986236371566,
+     "maxRadialeFrazioneA": 0.000909353339342852,
+     "byteSecolo": 6000.0
+    },
+    {
+     "durataAnni": 5.0,
+     "K": 0,
+     "record": 8,
+     "maxAngoloArcsec": 401.53549152085697,
+     "medianaAngoloArcsec": 376.47736969309983,
+     "maxRadialeKm": 960.6921417464036,
+     "maxRadialeFrazioneA": 0.0008974830718161399,
+     "byteSecolo": 2400.0
+    },
+    {
+     "durataAnni": 10.0,
+     "K": 0,
+     "record": 4,
+     "maxAngoloArcsec": 416.78703055933136,
+     "medianaAngoloArcsec": 403.72427682754096,
+     "maxRadialeKm": 1022.1528631679248,
+     "maxRadialeFrazioneA": 0.0009548997424754892,
+     "byteSecolo": 1200.0
+    },
+    {
+     "durataAnni": 20.0,
+     "K": 0,
+     "record": 2,
+     "maxAngoloArcsec": 454.91344568898063,
+     "medianaAngoloArcsec": 454.8531178775129,
+     "maxRadialeKm": 1160.605529778637,
+     "maxRadialeFrazioneA": 0.0010842426773717535,
+     "byteSecolo": 600.0
+    }
+   ]
+  },
+  "giapeto": {
+   "durataAnni": 2.0,
+   "durataLunghiAnni": 50.0,
+   "K": 6,
+   "prove": [
+    {
+     "durataAnni": 2.0,
+     "K": 6,
+     "record": 20,
+     "maxAngoloArcsec": 60.68533191721431,
+     "medianaAngoloArcsec": 36.63014136184601,
+     "maxRadialeKm": 922.2175082331523,
+     "maxRadialeFrazioneA": 0.0002589883761332714,
+     "byteSecolo": 10800.0
+    },
+    {
+     "durataAnni": 5.0,
+     "K": 6,
+     "record": 8,
+     "maxAngoloArcsec": 137.98634770387875,
+     "medianaAngoloArcsec": 86.88694683118152,
+     "maxRadialeKm": 1683.0834290701896,
+     "maxRadialeFrazioneA": 0.0004726645492385833,
+     "byteSecolo": 4320.0
+    },
+    {
+     "durataAnni": 10.0,
+     "K": 6,
+     "record": 4,
+     "maxAngoloArcsec": 172.2640632292671,
+     "medianaAngoloArcsec": 156.77520466368978,
+     "maxRadialeKm": 2032.6315931403078,
+     "maxRadialeFrazioneA": 0.0005708297616663847,
+     "byteSecolo": 2160.0
+    },
+    {
+     "durataAnni": 50.0,
+     "K": 6,
+     "record": 2,
+     "maxAngoloArcsec": 196.42101942710693,
+     "medianaAngoloArcsec": 195.7747994458411,
+     "maxRadialeKm": 2210.269095981028,
+     "maxRadialeFrazioneA": 0.0006207153874993418,
+     "byteSecolo": 432.0
+    }
+   ],
+   "proveK0": [
+    {
+     "durataAnni": 2.0,
+     "K": 0,
+     "record": 20,
+     "maxAngoloArcsec": 89.90691618639552,
+     "medianaAngoloArcsec": 58.632116661191425,
+     "maxRadialeKm": 913.9831761848181,
+     "maxRadialeFrazioneA": 0.000256676053922962,
+     "byteSecolo": 6000.0
+    },
+    {
+     "durataAnni": 5.0,
+     "K": 0,
+     "record": 8,
+     "maxAngoloArcsec": 156.6726658938159,
+     "medianaAngoloArcsec": 109.23102296834625,
+     "maxRadialeKm": 1621.9449781319126,
+     "maxRadialeFrazioneA": 0.0004554948441975139,
+     "byteSecolo": 2400.0
+    },
+    {
+     "durataAnni": 10.0,
+     "K": 0,
+     "record": 4,
+     "maxAngoloArcsec": 286.144390364567,
+     "medianaAngoloArcsec": 226.53196083643186,
+     "maxRadialeKm": 2102.957657281775,
+     "maxRadialeFrazioneA": 0.0005905798206981858,
+     "byteSecolo": 1200.0
+    },
+    {
+     "durataAnni": 50.0,
+     "K": 0,
+     "record": 2,
+     "maxAngoloArcsec": 574.2908896231315,
+     "medianaAngoloArcsec": 533.8325077948083,
+     "maxRadialeKm": 2195.4301273478195,
+     "maxRadialeFrazioneA": 0.0006165483989769593,
+     "byteSecolo": 240.0
+    }
+   ]
+  },
+  "idra": {
+   "durataAnni": 50.0,
+   "durataLunghiAnni": 50.0,
+   "K": 6,
+   "prove": [
+    {
+     "durataAnni": 2.0,
+     "K": 6,
+     "record": 20,
+     "maxAngoloArcsec": 65.33103735548929,
+     "medianaAngoloArcsec": 62.17972259821792,
+     "maxRadialeKm": 32.404779785400024,
+     "maxRadialeFrazioneA": 0.0005006971184075392,
+     "byteSecolo": 10800.0
+    },
+    {
+     "durataAnni": 5.0,
+     "K": 6,
+     "record": 8,
+     "maxAngoloArcsec": 67.22156631094438,
+     "medianaAngoloArcsec": 65.0299529067076,
+     "maxRadialeKm": 34.42267549449025,
+     "maxRadialeFrazioneA": 0.0005318767016418963,
+     "byteSecolo": 4320.0
+    },
+    {
+     "durataAnni": 10.0,
+     "K": 6,
+     "record": 4,
+     "maxAngoloArcsec": 68.89021314642768,
+     "medianaAngoloArcsec": 67.04058892037891,
+     "maxRadialeKm": 35.36089775434084,
+     "maxRadialeFrazioneA": 0.0005463734694531949,
+     "byteSecolo": 2160.0
+    },
+    {
+     "durataAnni": 50.0,
+     "K": 6,
+     "record": 2,
+     "maxAngoloArcsec": 69.4610307724562,
+     "medianaAngoloArcsec": 69.10594123650178,
+     "maxRadialeKm": 36.13954726135853,
+     "maxRadialeFrazioneA": 0.0005584047039859153,
+     "byteSecolo": 432.0
+    }
+   ],
+   "proveK0": [
+    {
+     "durataAnni": 2.0,
+     "K": 0,
+     "record": 20,
+     "maxAngoloArcsec": 85.50118470551331,
+     "medianaAngoloArcsec": 79.18600445344057,
+     "maxRadialeKm": 33.56973780545377,
+     "maxRadialeFrazioneA": 0.0005186974612052108,
+     "byteSecolo": 6000.0
+    },
+    {
+     "durataAnni": 5.0,
+     "K": 0,
+     "record": 8,
+     "maxAngoloArcsec": 85.67971344215762,
+     "medianaAngoloArcsec": 83.49370437383003,
+     "maxRadialeKm": 34.73043801390304,
+     "maxRadialeFrazioneA": 0.0005366321190896193,
+     "byteSecolo": 2400.0
+    },
+    {
+     "durataAnni": 10.0,
+     "K": 0,
+     "record": 4,
+     "maxAngoloArcsec": 102.10134225528844,
+     "medianaAngoloArcsec": 95.76454359643525,
+     "maxRadialeKm": 35.37743668676558,
+     "maxRadialeFrazioneA": 0.0005466290219996,
+     "byteSecolo": 1200.0
+    },
+    {
+     "durataAnni": 50.0,
+     "K": 0,
+     "record": 2,
+     "maxAngoloArcsec": 110.31242650054361,
+     "medianaAngoloArcsec": 105.08324846859277,
+     "maxRadialeKm": 36.03002410312911,
+     "maxRadialeFrazioneA": 0.0005567124278922613,
+     "byteSecolo": 240.0
+    }
+   ]
+  },
+  "imalia": {
+   "durataAnni": 2.0,
+   "durataLunghiAnni": 2.0,
+   "K": 6,
+   "prove": [
+    {
+     "durataAnni": 2.0,
+     "K": 6,
+     "record": 20,
+     "maxAngoloArcsec": 2043.4503286545837,
+     "medianaAngoloArcsec": 1413.991992229519,
+     "maxRadialeKm": 251586.42185843736,
+     "maxRadialeFrazioneA": 0.021990763312990692,
+     "byteSecolo": 10800.0
+    },
+    {
+     "durataAnni": 5.0,
+     "K": 6,
+     "record": 8,
+     "maxAngoloArcsec": 3334.698346180976,
+     "medianaAngoloArcsec": 2734.082420901115,
+     "maxRadialeKm": 352714.4718227163,
+     "maxRadialeFrazioneA": 0.030810662523603333,
+     "byteSecolo": 4320.0
+    },
+    {
+     "durataAnni": 10.0,
+     "K": 6,
+     "record": 4,
+     "maxAngoloArcsec": 4264.006788919564,
+     "medianaAngoloArcsec": 3741.553865115594,
+     "maxRadialeKm": 328112.0096680485,
+     "maxRadialeFrazioneA": 0.028644498719964887,
+     "byteSecolo": 2160.0
+    },
+    {
+     "durataAnni": 50.0,
+     "K": 6,
+     "record": 2,
+     "maxAngoloArcsec": 17140.487788597573,
+     "medianaAngoloArcsec": 16346.009385091662,
+     "maxRadialeKm": 585273.2984140813,
+     "maxRadialeFrazioneA": 0.05111825434389749,
+     "byteSecolo": 432.0
+    }
+   ],
+   "proveK0": [
+    {
+     "durataAnni": 2.0,
+     "K": 0,
+     "record": 20,
+     "maxAngoloArcsec": 10152.440003206488,
+     "medianaAngoloArcsec": 4985.2198677136885,
+     "maxRadialeKm": 254092.546202261,
+     "maxRadialeFrazioneA": 0.022213630042987792,
+     "byteSecolo": 6000.0
+    },
+    {
+     "durataAnni": 5.0,
+     "K": 0,
+     "record": 8,
+     "maxAngoloArcsec": 14780.078986932338,
+     "medianaAngoloArcsec": 11684.398461748944,
+     "maxRadialeKm": 346476.2592213638,
+     "maxRadialeFrazioneA": 0.03027853953111925,
+     "byteSecolo": 2400.0
+    },
+    {
+     "durataAnni": 10.0,
+     "K": 0,
+     "record": 4,
+     "maxAngoloArcsec": 16227.207527559298,
+     "medianaAngoloArcsec": 15378.789422391206,
+     "maxRadialeKm": 320978.1409796346,
+     "maxRadialeFrazioneA": 0.02803489673671818,
+     "byteSecolo": 1200.0
+    },
+    {
+     "durataAnni": 50.0,
+     "K": 0,
+     "record": 2,
+     "maxAngoloArcsec": 27821.906850951407,
+     "medianaAngoloArcsec": 25922.88512662343,
+     "maxRadialeKm": 582267.0504874885,
+     "maxRadialeFrazioneA": 0.050876421780957685,
+     "byteSecolo": 240.0
+    }
+   ]
+  },
+  "io": {
+   "durataAnni": 2.0,
+   "durataLunghiAnni": 10.0,
+   "K": 6,
+   "prove": [
+    {
+     "durataAnni": 2.0,
+     "K": 6,
+     "record": 20,
+     "maxAngoloArcsec": 23.689361384026455,
+     "medianaAngoloArcsec": 15.73964266731768,
+     "maxRadialeKm": 35.40743923652917,
+     "maxRadialeFrazioneA": 8.395049387107412e-05,
+     "byteSecolo": 10800.0
+    },
+    {
+     "durataAnni": 5.0,
+     "K": 6,
+     "record": 8,
+     "maxAngoloArcsec": 33.663640012137364,
+     "medianaAngoloArcsec": 28.032503791647475,
+     "maxRadialeKm": 35.6410447168746,
+     "maxRadialeFrazioneA": 8.450436825213738e-05,
+     "byteSecolo": 4320.0
+    },
+    {
+     "durataAnni": 10.0,
+     "K": 6,
+     "record": 4,
+     "maxAngoloArcsec": 47.87304769028502,
+     "medianaAngoloArcsec": 46.411157731261255,
+     "maxRadialeKm": 35.53489707742119,
+     "maxRadialeFrazioneA": 8.42526943334585e-05,
+     "byteSecolo": 2160.0
+    }
+   ],
+   "proveK0": [
+    {
+     "durataAnni": 2.0,
+     "K": 0,
+     "record": 20,
+     "maxAngoloArcsec": 94.62329780652848,
+     "medianaAngoloArcsec": 77.27199720146524,
+     "maxRadialeKm": 37.03194503654959,
+     "maxRadialeFrazioneA": 8.780217325538988e-05,
+     "byteSecolo": 6000.0
+    },
+    {
+     "durataAnni": 5.0,
+     "K": 0,
+     "record": 8,
+     "maxAngoloArcsec": 94.94259375055107,
+     "medianaAngoloArcsec": 79.09092357747564,
+     "maxRadialeKm": 36.12948543654056,
+     "maxRadialeFrazioneA": 8.566245504181047e-05,
+     "byteSecolo": 2400.0
+    },
+    {
+     "durataAnni": 10.0,
+     "K": 0,
+     "record": 4,
+     "maxAngoloArcsec": 103.66126539290975,
+     "medianaAngoloArcsec": 90.82084690980487,
+     "maxRadialeKm": 35.91545310226502,
+     "maxRadialeFrazioneA": 8.515498799228806e-05,
+     "byteSecolo": 1200.0
+    }
+   ]
+  },
+  "iperione": {
+   "durataAnni": 2.0,
+   "durataLunghiAnni": 2.0,
+   "K": 6,
+   "prove": [
+    {
+     "durataAnni": 2.0,
+     "K": 6,
+     "record": 20,
+     "maxAngoloArcsec": 3254.539548506169,
+     "medianaAngoloArcsec": 2497.1874307898474,
+     "maxRadialeKm": 23381.078032596968,
+     "maxRadialeFrazioneA": 0.015794951152373126,
+     "byteSecolo": 10800.0
+    },
+    {
+     "durataAnni": 5.0,
+     "K": 6,
+     "record": 8,
+     "maxAngoloArcsec": 4242.871930317529,
+     "medianaAngoloArcsec": 3501.700627505729,
+     "maxRadialeKm": 39189.74775415845,
+     "maxRadialeFrazioneA": 0.026458669086165287,
+     "byteSecolo": 4320.0
+    },
+    {
+     "durataAnni": 10.0,
+     "K": 6,
+     "record": 4,
+     "maxAngoloArcsec": 4262.868908640628,
+     "medianaAngoloArcsec": 4159.6253784485025,
+     "maxRadialeKm": 48671.51736318879,
+     "maxRadialeFrazioneA": 0.03285451787702522,
+     "byteSecolo": 2160.0
+    },
+    {
+     "durataAnni": 50.0,
+     "K": 6,
+     "record": 2,
+     "maxAngoloArcsec": 5010.487103874846,
+     "medianaAngoloArcsec": 4993.639483647245,
+     "maxRadialeKm": 49061.827502017375,
+     "maxRadialeFrazioneA": 0.033118527873884446,
+     "byteSecolo": 432.0
+    }
+   ],
+   "proveK0": [
+    {
+     "durataAnni": 2.0,
+     "K": 0,
+     "record": 20,
+     "maxAngoloArcsec": 43632.56837171708,
+     "medianaAngoloArcsec": 37032.880687406425,
+     "maxRadialeKm": 43586.8716727288,
+     "maxRadialeFrazioneA": 0.02952231950630616,
+     "byteSecolo": 6000.0
+    },
+    {
+     "durataAnni": 5.0,
+     "K": 0,
+     "record": 8,
+     "maxAngoloArcsec": 50425.38753292364,
+     "medianaAngoloArcsec": 48981.8285162119,
+     "maxRadialeKm": 53979.17235516757,
+     "maxRadialeFrazioneA": 0.036673557240132125,
+     "byteSecolo": 2400.0
+    },
+    {
+     "durataAnni": 10.0,
+     "K": 0,
+     "record": 4,
+     "maxAngoloArcsec": 50863.21369920749,
+     "medianaAngoloArcsec": 50230.112434350376,
+     "maxRadialeKm": 68499.98250760464,
+     "maxRadialeFrazioneA": 0.04654867510109705,
+     "byteSecolo": 1200.0
+    },
+    {
+     "durataAnni": 50.0,
+     "K": 0,
+     "record": 2,
+     "maxAngoloArcsec": 54847.633590640275,
+     "medianaAngoloArcsec": 54635.220241874114,
+     "maxRadialeKm": 80189.12806811417,
+     "maxRadialeFrazioneA": 0.05450662144753839,
+     "byteSecolo": 240.0
+    }
+   ]
+  },
+  "mimas": {
+   "durataAnni": 5.0,
+   "durataLunghiAnni": 10.0,
+   "K": 6,
+   "prove": [
+    {
+     "durataAnni": 2.0,
+     "K": 6,
+     "record": 20,
+     "maxAngoloArcsec": 68.96997585809612,
+     "medianaAngoloArcsec": 42.31382662351763,
+     "maxRadialeKm": 48.66346410900587,
+     "maxRadialeFrazioneA": 0.0002622897836569,
+     "byteSecolo": 10800.0
+    },
+    {
+     "durataAnni": 5.0,
+     "K": 6,
+     "record": 8,
+     "maxAngoloArcsec": 97.14118107547695,
+     "medianaAngoloArcsec": 82.79982987540645,
+     "maxRadialeKm": 48.935558019875316,
+     "maxRadialeFrazioneA": 0.00026375573082170227,
+     "byteSecolo": 4320.0
+    },
+    {
+     "durataAnni": 10.0,
+     "K": 6,
+     "record": 4,
+     "maxAngoloArcsec": 193.5387585337964,
+     "medianaAngoloArcsec": 149.95646491810865,
+     "maxRadialeKm": 49.20367604959756,
+     "maxRadialeFrazioneA": 0.0002651999262310882,
+     "byteSecolo": 2160.0
+    }
+   ],
+   "proveK0": [
+    {
+     "durataAnni": 2.0,
+     "K": 0,
+     "record": 20,
+     "maxAngoloArcsec": 781.6099769198951,
+     "medianaAngoloArcsec": 748.591715755856,
+     "maxRadialeKm": 54.75345497202943,
+     "maxRadialeFrazioneA": 0.0002951145810287413,
+     "byteSecolo": 6000.0
+    },
+    {
+     "durataAnni": 5.0,
+     "K": 0,
+     "record": 8,
+     "maxAngoloArcsec": 749.4005537389819,
+     "medianaAngoloArcsec": 735.1014609435963,
+     "maxRadialeKm": 52.231463618401904,
+     "maxRadialeFrazioneA": 0.0002815207244667264,
+     "byteSecolo": 2400.0
+    },
+    {
+     "durataAnni": 10.0,
+     "K": 0,
+     "record": 4,
+     "maxAngoloArcsec": 918.4582429134551,
+     "medianaAngoloArcsec": 830.953413672373,
+     "maxRadialeKm": 53.88303820087458,
+     "maxRadialeFrazioneA": 0.0002904215002243979,
+     "byteSecolo": 1200.0
+    }
+   ]
+  },
+  "miranda": {
+   "durataAnni": 10.0,
+   "durataLunghiAnni": 10.0,
+   "K": 6,
+   "prove": [
+    {
+     "durataAnni": 2.0,
+     "K": 6,
+     "record": 20,
+     "maxAngoloArcsec": 86.73870678087104,
+     "medianaAngoloArcsec": 81.22176088220976,
+     "maxRadialeKm": 24.15899225146859,
+     "maxRadialeFrazioneA": 0.0001860552530068299,
+     "byteSecolo": 10800.0
+    },
+    {
+     "durataAnni": 5.0,
+     "K": 6,
+     "record": 8,
+     "maxAngoloArcsec": 95.61878175882775,
+     "medianaAngoloArcsec": 87.91389609072871,
+     "maxRadialeKm": 27.597911187956925,
+     "maxRadialeFrazioneA": 0.00021253945259339997,
+     "byteSecolo": 4320.0
+    },
+    {
+     "durataAnni": 10.0,
+     "K": 6,
+     "record": 4,
+     "maxAngoloArcsec": 103.26790827635382,
+     "medianaAngoloArcsec": 98.71619174740366,
+     "maxRadialeKm": 29.54185381962452,
+     "maxRadialeFrazioneA": 0.0002275109965034729,
+     "byteSecolo": 2160.0
+    }
+   ],
+   "proveK0": [
+    {
+     "durataAnni": 2.0,
+     "K": 0,
+     "record": 20,
+     "maxAngoloArcsec": 92.95060801408518,
+     "medianaAngoloArcsec": 88.6678870255319,
+     "maxRadialeKm": 24.158571853884496,
+     "maxRadialeFrazioneA": 0.00018605201553021608,
+     "byteSecolo": 6000.0
+    },
+    {
+     "durataAnni": 5.0,
+     "K": 0,
+     "record": 8,
+     "maxAngoloArcsec": 438.8747759513202,
+     "medianaAngoloArcsec": 288.39965217279024,
+     "maxRadialeKm": 27.56357894105895,
+     "maxRadialeFrazioneA": 0.00021227507080340415,
+     "byteSecolo": 2400.0
+    },
+    {
+     "durataAnni": 10.0,
+     "K": 0,
+     "record": 4,
+     "maxAngoloArcsec": 2293.8799800200522,
+     "medianaAngoloArcsec": 2110.623357369998,
+     "maxRadialeKm": 32.27070027963782,
+     "maxRadialeFrazioneA": 0.0002485335128940546,
+     "byteSecolo": 1200.0
+    }
+   ]
+  },
+  "nereide": {
+   "durataAnni": 5.0,
+   "durataLunghiAnni": 10.0,
+   "K": 6,
+   "prove": [
+    {
+     "durataAnni": 2.0,
+     "K": 6,
+     "record": 20,
+     "maxAngoloArcsec": 175.22552159230796,
+     "medianaAngoloArcsec": 123.14300259073258,
+     "maxRadialeKm": 1930.340179886669,
+     "maxRadialeFrazioneA": 0.00035007067096977937,
+     "byteSecolo": 10800.0
+    },
+    {
+     "durataAnni": 5.0,
+     "K": 6,
+     "record": 8,
+     "maxAngoloArcsec": 612.6303520376927,
+     "medianaAngoloArcsec": 447.4500978441631,
+     "maxRadialeKm": 4742.287439608248,
+     "maxRadialeFrazioneA": 0.0008600235758528681,
+     "byteSecolo": 4320.0
+    },
+    {
+     "durataAnni": 10.0,
+     "K": 6,
+     "record": 4,
+     "maxAngoloArcsec": 1810.8126409782358,
+     "medianaAngoloArcsec": 1394.2312229085398,
+     "maxRadialeKm": 9276.629175255075,
+     "maxRadialeFrazioneA": 0.0016823287428002346,
+     "byteSecolo": 2160.0
+    },
+    {
+     "durataAnni": 50.0,
+     "K": 6,
+     "record": 2,
+     "maxAngoloArcsec": 8773.138621794827,
+     "medianaAngoloArcsec": 8645.292161319523,
+     "maxRadialeKm": 31764.159244363662,
+     "maxRadialeFrazioneA": 0.005760584714846984,
+     "byteSecolo": 432.0
+    }
+   ],
+   "proveK0": [
+    {
+     "durataAnni": 2.0,
+     "K": 0,
+     "record": 20,
+     "maxAngoloArcsec": 468.18149255617385,
+     "medianaAngoloArcsec": 286.65830125757344,
+     "maxRadialeKm": 1976.844412975479,
+     "maxRadialeFrazioneA": 0.00035850306247416346,
+     "byteSecolo": 6000.0
+    },
+    {
+     "durataAnni": 5.0,
+     "K": 0,
+     "record": 8,
+     "maxAngoloArcsec": 995.4353508994508,
+     "medianaAngoloArcsec": 710.8244071117678,
+     "maxRadialeKm": 4683.501223426079,
+     "maxRadialeFrazioneA": 0.0008493588291593297,
+     "byteSecolo": 2400.0
+    },
+    {
+     "durataAnni": 10.0,
+     "K": 0,
+     "record": 4,
+     "maxAngoloArcsec": 1589.62684403399,
+     "medianaAngoloArcsec": 1272.353726564057,
+     "maxRadialeKm": 9105.953746503219,
+     "maxRadialeFrazioneA": 0.001651392634853009,
+     "byteSecolo": 1200.0
+    },
+    {
+     "durataAnni": 50.0,
+     "K": 0,
+     "record": 2,
+     "maxAngoloArcsec": 8824.9599511203,
+     "medianaAngoloArcsec": 8165.808414981874,
+     "maxRadialeKm": 31811.694954562,
+     "maxRadialeFrazioneA": 0.005769302502349852,
+     "byteSecolo": 240.0
+    }
+   ]
+  },
+  "notte": {
+   "durataAnni": 50.0,
+   "durataLunghiAnni": 50.0,
+   "K": 6,
+   "prove": [
+    {
+     "durataAnni": 2.0,
+     "K": 6,
+     "record": 20,
+     "maxAngoloArcsec": 294.4897595549549,
+     "medianaAngoloArcsec": 291.40180285614025,
+     "maxRadialeKm": 152.11623564426554,
+     "maxRadialeFrazioneA": 0.0031242404299897104,
+     "byteSecolo": 10800.0
+    },
+    {
+     "durataAnni": 5.0,
+     "K": 6,
+     "record": 8,
+     "maxAngoloArcsec": 295.9278467701512,
+     "medianaAngoloArcsec": 294.3057258751149,
+     "maxRadialeKm": 152.61960305609682,
+     "maxRadialeFrazioneA": 0.0031345820006660743,
+     "byteSecolo": 4320.0
+    },
+    {
+     "durataAnni": 10.0,
+     "K": 6,
+     "record": 4,
+     "maxAngoloArcsec": 295.63232863653445,
+     "medianaAngoloArcsec": 294.5085118233694,
+     "maxRadialeKm": 152.46853218729666,
+     "maxRadialeFrazioneA": 0.003131481053251481,
+     "byteSecolo": 2160.0
+    },
+    {
+     "durataAnni": 50.0,
+     "K": 6,
+     "record": 2,
+     "maxAngoloArcsec": 303.3382168956606,
+     "medianaAngoloArcsec": 300.00483839631625,
+     "maxRadialeKm": 152.28319213852956,
+     "maxRadialeFrazioneA": 0.0031276735310789287,
+     "byteSecolo": 432.0
+    }
+   ],
+   "proveK0": [
+    {
+     "durataAnni": 2.0,
+     "K": 0,
+     "record": 20,
+     "maxAngoloArcsec": 488.0917999926101,
+     "medianaAngoloArcsec": 475.59597089009804,
+     "maxRadialeKm": 152.1706964054174,
+     "maxRadialeFrazioneA": 0.003125359625134304,
+     "byteSecolo": 6000.0
+    },
+    {
+     "durataAnni": 5.0,
+     "K": 0,
+     "record": 8,
+     "maxAngoloArcsec": 492.71829063011836,
+     "medianaAngoloArcsec": 486.5816324912894,
+     "maxRadialeKm": 153.04385353242105,
+     "maxRadialeFrazioneA": 0.003143296454582497,
+     "byteSecolo": 2400.0
+    },
+    {
+     "durataAnni": 10.0,
+     "K": 0,
+     "record": 4,
+     "maxAngoloArcsec": 493.74747826868526,
+     "medianaAngoloArcsec": 486.3564086585843,
+     "maxRadialeKm": 152.68186330983735,
+     "maxRadialeFrazioneA": 0.0031358635210083467,
+     "byteSecolo": 1200.0
+    },
+    {
+     "durataAnni": 50.0,
+     "K": 0,
+     "record": 2,
+     "maxAngoloArcsec": 493.2590587276836,
+     "medianaAngoloArcsec": 492.30158595513615,
+     "maxRadialeKm": 152.30847254016408,
+     "maxRadialeFrazioneA": 0.003128193708144147,
+     "byteSecolo": 240.0
+    }
+   ]
+  },
+  "oberon": {
+   "durataAnni": 20.0,
+   "durataLunghiAnni": 20.0,
+   "K": 6,
+   "prove": [
+    {
+     "durataAnni": 2.0,
+     "K": 6,
+     "record": 20,
+     "maxAngoloArcsec": 64.16798384511988,
+     "medianaAngoloArcsec": 56.81229720192267,
+     "maxRadialeKm": 630.7088195122778,
+     "maxRadialeFrazioneA": 0.0010809984961870182,
+     "byteSecolo": 10800.0
+    },
+    {
+     "durataAnni": 5.0,
+     "K": 6,
+     "record": 8,
+     "maxAngoloArcsec": 62.22096107466323,
+     "medianaAngoloArcsec": 57.68088408875758,
+     "maxRadialeKm": 643.8554745189613,
+     "maxRadialeFrazioneA": 0.00110353426690123,
+     "byteSecolo": 4320.0
+    },
+    {
+     "durataAnni": 10.0,
+     "K": 6,
+     "record": 4,
+     "maxAngoloArcsec": 63.473768382483975,
+     "medianaAngoloArcsec": 60.62907582219436,
+     "maxRadialeKm": 641.9044070350938,
+     "maxRadialeFrazioneA": 0.001100189309189142,
+     "byteSecolo": 2160.0
+    },
+    {
+     "durataAnni": 20.0,
+     "K": 6,
+     "record": 2,
+     "maxAngoloArcsec": 92.61478033531456,
+     "medianaAngoloArcsec": 85.23078545023583,
+     "maxRadialeKm": 655.7718380397419,
+     "maxRadialeFrazioneA": 0.0011239573553759894,
+     "byteSecolo": 1080.0
+    }
+   ],
+   "proveK0": [
+    {
+     "durataAnni": 2.0,
+     "K": 0,
+     "record": 20,
+     "maxAngoloArcsec": 502.1364505407075,
+     "medianaAngoloArcsec": 430.3280715316489,
+     "maxRadialeKm": 645.2098931117216,
+     "maxRadialeFrazioneA": 0.0011058530352463043,
+     "byteSecolo": 6000.0
+    },
+    {
+     "durataAnni": 5.0,
+     "K": 0,
+     "record": 8,
+     "maxAngoloArcsec": 514.8844884924403,
+     "medianaAngoloArcsec": 433.57367615037373,
+     "maxRadialeKm": 648.8973364047706,
+     "maxRadialeFrazioneA": 0.0011121763351603369,
+     "byteSecolo": 2400.0
+    },
+    {
+     "durataAnni": 10.0,
+     "K": 0,
+     "record": 4,
+     "maxAngoloArcsec": 516.2162721363966,
+     "medianaAngoloArcsec": 455.86216038818145,
+     "maxRadialeKm": 645.1866205375409,
+     "maxRadialeFrazioneA": 0.0011058154537313414,
+     "byteSecolo": 1200.0
+    },
+    {
+     "durataAnni": 20.0,
+     "K": 0,
+     "record": 2,
+     "maxAngoloArcsec": 508.17402685524615,
+     "medianaAngoloArcsec": 507.56336042939813,
+     "maxRadialeKm": 655.395452206838,
+     "maxRadialeFrazioneA": 0.0011233130684450688,
+     "byteSecolo": 600.0
+    }
+   ]
+  },
+  "proteo": {
+   "durataAnni": 2.0,
+   "durataLunghiAnni": 10.0,
+   "K": 6,
+   "prove": [
+    {
+     "durataAnni": 2.0,
+     "K": 6,
+     "record": 20,
+     "maxAngoloArcsec": 49.717565302852144,
+     "medianaAngoloArcsec": 38.09504222799574,
+     "maxRadialeKm": 2.1505398017034167,
+     "maxRadialeFrazioneA": 1.82795932170121e-05,
+     "byteSecolo": 10800.0
+    },
+    {
+     "durataAnni": 5.0,
+     "K": 6,
+     "record": 8,
+     "maxAngoloArcsec": 116.03754219934798,
+     "medianaAngoloArcsec": 90.13795415860629,
+     "maxRadialeKm": 2.220933908218285,
+     "maxRadialeFrazioneA": 1.8877944316828626e-05,
+     "byteSecolo": 4320.0
+    },
+    {
+     "durataAnni": 10.0,
+     "K": 6,
+     "record": 4,
+     "maxAngoloArcsec": 144.71375377669605,
+     "medianaAngoloArcsec": 144.49666551356933,
+     "maxRadialeKm": 2.2448420165892458,
+     "maxRadialeFrazioneA": 1.908116360398845e-05,
+     "byteSecolo": 2160.0
+    }
+   ],
+   "proveK0": [
+    {
+     "durataAnni": 2.0,
+     "K": 0,
+     "record": 20,
+     "maxAngoloArcsec": 49.717327283540186,
+     "medianaAngoloArcsec": 38.14529858574538,
+     "maxRadialeKm": 2.078938002567156,
+     "maxRadialeFrazioneA": 1.767097776482732e-05,
+     "byteSecolo": 6000.0
+    },
+    {
+     "durataAnni": 5.0,
+     "K": 0,
+     "record": 8,
+     "maxAngoloArcsec": 116.03670656155529,
+     "medianaAngoloArcsec": 90.17170986163927,
+     "maxRadialeKm": 2.2541260746947955,
+     "maxRadialeFrazioneA": 1.9160077823201503e-05,
+     "byteSecolo": 2400.0
+    },
+    {
+     "durataAnni": 10.0,
+     "K": 0,
+     "record": 4,
+     "maxAngoloArcsec": 144.89294964444917,
+     "medianaAngoloArcsec": 144.53364057331757,
+     "maxRadialeKm": 2.2657927249674685,
+     "maxRadialeFrazioneA": 1.9259244687361637e-05,
+     "byteSecolo": 1200.0
+    }
+   ]
+  },
+  "rea": {
+   "durataAnni": 10.0,
+   "durataLunghiAnni": 20.0,
+   "K": 6,
+   "prove": [
+    {
+     "durataAnni": 2.0,
+     "K": 6,
+     "record": 20,
+     "maxAngoloArcsec": 15.271495053941123,
+     "medianaAngoloArcsec": 14.136203692793723,
+     "maxRadialeKm": 86.27568789431825,
+     "maxRadialeFrazioneA": 0.00016368996273386806,
+     "byteSecolo": 10800.0
+    },
+    {
+     "durataAnni": 5.0,
+     "K": 6,
+     "record": 8,
+     "maxAngoloArcsec": 23.970587817835067,
+     "medianaAngoloArcsec": 18.38825022752035,
+     "maxRadialeKm": 99.27565352525562,
+     "maxRadialeFrazioneA": 0.00018835465154113005,
+     "byteSecolo": 4320.0
+    },
+    {
+     "durataAnni": 10.0,
+     "K": 6,
+     "record": 4,
+     "maxAngoloArcsec": 26.861637677095604,
+     "medianaAngoloArcsec": 22.77657936777711,
+     "maxRadialeKm": 123.19276777363848,
+     "maxRadialeFrazioneA": 0.00023373236024176681,
+     "byteSecolo": 2160.0
+    },
+    {
+     "durataAnni": 20.0,
+     "K": 6,
+     "record": 2,
+     "maxAngoloArcsec": 69.41139913114858,
+     "medianaAngoloArcsec": 68.67426943923667,
+     "maxRadialeKm": 149.12724931165576,
+     "maxRadialeFrazioneA": 0.0002829375739064197,
+     "byteSecolo": 1080.0
+    }
+   ],
+   "proveK0": [
+    {
+     "durataAnni": 2.0,
+     "K": 0,
+     "record": 20,
+     "maxAngoloArcsec": 65.16328548602294,
+     "medianaAngoloArcsec": 60.23352669988723,
+     "maxRadialeKm": 86.5307972660521,
+     "maxRadialeFrazioneA": 0.00016417398047202997,
+     "byteSecolo": 6000.0
+    },
+    {
+     "durataAnni": 5.0,
+     "K": 0,
+     "record": 8,
+     "maxAngoloArcsec": 74.63844682478648,
+     "medianaAngoloArcsec": 67.23966666503445,
+     "maxRadialeKm": 96.91027743509039,
+     "maxRadialeFrazioneA": 0.00018386684814486308,
+     "byteSecolo": 2400.0
+    },
+    {
+     "durataAnni": 10.0,
+     "K": 0,
+     "record": 4,
+     "maxAngoloArcsec": 98.1236340248576,
+     "medianaAngoloArcsec": 82.6995525868987,
+     "maxRadialeKm": 122.85816249216441,
+     "maxRadialeFrazioneA": 0.0002330975202189657,
+     "byteSecolo": 1200.0
+    },
+    {
+     "durataAnni": 20.0,
+     "K": 0,
+     "record": 2,
+     "maxAngoloArcsec": 117.52534847420559,
+     "medianaAngoloArcsec": 115.83770258224344,
+     "maxRadialeKm": 148.2392891839845,
+     "maxRadialeFrazioneA": 0.00028125285891995926,
+     "byteSecolo": 600.0
+    }
+   ]
+  },
+  "teti": {
+   "durataAnni": 5.0,
+   "durataLunghiAnni": 10.0,
+   "K": 6,
+   "prove": [
+    {
+     "durataAnni": 2.0,
+     "K": 6,
+     "record": 20,
+     "maxAngoloArcsec": 28.01371609503302,
+     "medianaAngoloArcsec": 24.38549714990551,
+     "maxRadialeKm": 33.74259330454515,
+     "maxRadialeFrazioneA": 0.000114508353380427,
+     "byteSecolo": 10800.0
+    },
+    {
+     "durataAnni": 5.0,
+     "K": 6,
+     "record": 8,
+     "maxAngoloArcsec": 28.842072880437946,
+     "medianaAngoloArcsec": 26.190044054459896,
+     "maxRadialeKm": 35.890817847510334,
+     "maxRadialeFrazioneA": 0.00012179856089664674,
+     "byteSecolo": 4320.0
+    },
+    {
+     "durataAnni": 10.0,
+     "K": 6,
+     "record": 4,
+     "maxAngoloArcsec": 36.60909910634047,
+     "medianaAngoloArcsec": 32.78610257872339,
+     "maxRadialeKm": 37.07536367425928,
+     "maxRadialeFrazioneA": 0.00012581846272248946,
+     "byteSecolo": 2160.0
+    }
+   ],
+   "proveK0": [
+    {
+     "durataAnni": 2.0,
+     "K": 0,
+     "record": 20,
+     "maxAngoloArcsec": 79.94074666843767,
+     "medianaAngoloArcsec": 76.15495453097866,
+     "maxRadialeKm": 32.26065290957922,
+     "maxRadialeFrazioneA": 0.00010947926342855088,
+     "byteSecolo": 6000.0
+    },
+    {
+     "durataAnni": 5.0,
+     "K": 0,
+     "record": 8,
+     "maxAngoloArcsec": 84.09617579069207,
+     "medianaAngoloArcsec": 81.21420126749446,
+     "maxRadialeKm": 36.659435030363966,
+     "maxRadialeFrazioneA": 0.00012440693002051516,
+     "byteSecolo": 2400.0
+    },
+    {
+     "durataAnni": 10.0,
+     "K": 0,
+     "record": 4,
+     "maxAngoloArcsec": 90.28860385260906,
+     "medianaAngoloArcsec": 84.06255540238982,
+     "maxRadialeKm": 37.099313610291574,
+     "maxRadialeFrazioneA": 0.00012589974000105645,
+     "byteSecolo": 1200.0
+    }
+   ]
+  },
+  "titania": {
+   "durataAnni": 10.0,
+   "durataLunghiAnni": 20.0,
+   "K": 6,
+   "prove": [
+    {
+     "durataAnni": 2.0,
+     "K": 6,
+     "record": 20,
+     "maxAngoloArcsec": 34.618754886306164,
+     "medianaAngoloArcsec": 30.983258248695368,
+     "maxRadialeKm": 444.64030158688547,
+     "maxRadialeFrazioneA": 0.0010191601569297642,
+     "byteSecolo": 10800.0
+    },
+    {
+     "durataAnni": 5.0,
+     "K": 6,
+     "record": 8,
+     "maxAngoloArcsec": 40.964574571533944,
+     "medianaAngoloArcsec": 32.51726777426353,
+     "maxRadialeKm": 453.24428066285327,
+     "maxRadialeFrazioneA": 0.0010388796675888101,
+     "byteSecolo": 4320.0
+    },
+    {
+     "durataAnni": 10.0,
+     "K": 6,
+     "record": 4,
+     "maxAngoloArcsec": 49.97498819882452,
+     "medianaAngoloArcsec": 36.58584071300681,
+     "maxRadialeKm": 466.9206004628213,
+     "maxRadialeFrazioneA": 0.0010702278453096922,
+     "byteSecolo": 2160.0
+    },
+    {
+     "durataAnni": 20.0,
+     "K": 6,
+     "record": 2,
+     "maxAngoloArcsec": 72.56563394143501,
+     "medianaAngoloArcsec": 57.34431791742173,
+     "maxRadialeKm": 485.7049738567439,
+     "maxRadialeFrazioneA": 0.0011132834599822511,
+     "byteSecolo": 1080.0
+    }
+   ],
+   "proveK0": [
+    {
+     "durataAnni": 2.0,
+     "K": 0,
+     "record": 20,
+     "maxAngoloArcsec": 484.95765305561116,
+     "medianaAngoloArcsec": 467.0107067099051,
+     "maxRadialeKm": 455.0423920621397,
+     "maxRadialeFrazioneA": 0.0010430035678810489,
+     "byteSecolo": 6000.0
+    },
+    {
+     "durataAnni": 5.0,
+     "K": 0,
+     "record": 8,
+     "maxAngoloArcsec": 476.35163632231223,
+     "medianaAngoloArcsec": 464.38906783883857,
+     "maxRadialeKm": 455.5194140479434,
+     "maxRadialeFrazioneA": 0.0010440952871347275,
+     "byteSecolo": 2400.0
+    },
+    {
+     "durataAnni": 10.0,
+     "K": 0,
+     "record": 4,
+     "maxAngoloArcsec": 487.3995301276686,
+     "medianaAngoloArcsec": 467.81938238790275,
+     "maxRadialeKm": 467.249060514092,
+     "maxRadialeFrazioneA": 0.0010709815140607978,
+     "byteSecolo": 1200.0
+    },
+    {
+     "durataAnni": 20.0,
+     "K": 0,
+     "record": 2,
+     "maxAngoloArcsec": 506.5487674708956,
+     "medianaAngoloArcsec": 493.71758025270833,
+     "maxRadialeKm": 485.51544740074314,
+     "maxRadialeFrazioneA": 0.001112849879384242,
+     "byteSecolo": 600.0
+    }
+   ]
+  },
+  "titano": {
+   "durataAnni": 2.0,
+   "durataLunghiAnni": 20.0,
+   "K": 6,
+   "prove": [
+    {
+     "durataAnni": 2.0,
+     "K": 6,
+     "record": 20,
+     "maxAngoloArcsec": 22.233143520751387,
+     "medianaAngoloArcsec": 11.765698478799441,
+     "maxRadialeKm": 42.07898105075583,
+     "maxRadialeFrazioneA": 3.4438315239331456e-05,
+     "byteSecolo": 10800.0
+    },
+    {
+     "durataAnni": 5.0,
+     "K": 6,
+     "record": 8,
+     "maxAngoloArcsec": 36.3455146233945,
+     "medianaAngoloArcsec": 30.53702002614989,
+     "maxRadialeKm": 88.07481101015583,
+     "maxRadialeFrazioneA": 7.20822730338669e-05,
+     "byteSecolo": 4320.0
+    },
+    {
+     "durataAnni": 10.0,
+     "K": 6,
+     "record": 4,
+     "maxAngoloArcsec": 63.65482383482914,
+     "medianaAngoloArcsec": 48.30076465823334,
+     "maxRadialeKm": 115.09181014657952,
+     "maxRadialeFrazioneA": 9.419354446699911e-05,
+     "byteSecolo": 2160.0
+    },
+    {
+     "durataAnni": 20.0,
+     "K": 6,
+     "record": 2,
+     "maxAngoloArcsec": 71.7491914749831,
+     "medianaAngoloArcsec": 65.62371389321896,
+     "maxRadialeKm": 113.68688080459833,
+     "maxRadialeFrazioneA": 9.304373436736119e-05,
+     "byteSecolo": 1080.0
+    }
+   ],
+   "proveK0": [
+    {
+     "durataAnni": 2.0,
+     "K": 0,
+     "record": 20,
+     "maxAngoloArcsec": 24.874987489047353,
+     "medianaAngoloArcsec": 16.140981865004928,
+     "maxRadialeKm": 40.25377570046112,
+     "maxRadialeFrazioneA": 3.294452949010084e-05,
+     "byteSecolo": 6000.0
+    },
+    {
+     "durataAnni": 5.0,
+     "K": 0,
+     "record": 8,
+     "maxAngoloArcsec": 47.58395683387955,
+     "medianaAngoloArcsec": 35.468969597715606,
+     "maxRadialeKm": 84.33686011168174,
+     "maxRadialeFrazioneA": 6.902305773167978e-05,
+     "byteSecolo": 2400.0
+    },
+    {
+     "durataAnni": 10.0,
+     "K": 0,
+     "record": 4,
+     "maxAngoloArcsec": 76.39815432799433,
+     "medianaAngoloArcsec": 58.42940796005115,
+     "maxRadialeKm": 109.52494049933739,
+     "maxRadialeFrazioneA": 8.963751071649455e-05,
+     "byteSecolo": 1200.0
+    },
+    {
+     "durataAnni": 20.0,
+     "K": 0,
+     "record": 2,
+     "maxAngoloArcsec": 103.33453343319377,
+     "medianaAngoloArcsec": 99.90873633178734,
+     "maxRadialeKm": 122.12870336626656,
+     "maxRadialeFrazioneA": 9.995270158700795e-05,
+     "byteSecolo": 600.0
+    }
+   ]
+  },
+  "tritone": {
+   "durataAnni": 20.0,
+   "durataLunghiAnni": 20.0,
+   "K": 0,
+   "prove": [
+    {
+     "durataAnni": 2.0,
+     "K": 0,
+     "record": 20,
+     "maxAngoloArcsec": 0.47426811072906344,
+     "medianaAngoloArcsec": 0.22034955428042777,
+     "maxRadialeKm": 0.2808456440689042,
+     "maxRadialeFrazioneA": 7.916517613370568e-07,
+     "byteSecolo": 6000.0
+    },
+    {
+     "durataAnni": 5.0,
+     "K": 0,
+     "record": 8,
+     "maxAngoloArcsec": 1.1693357226525154,
+     "medianaAngoloArcsec": 0.5446167072576038,
+     "maxRadialeKm": 0.28120899479836226,
+     "maxRadialeFrazioneA": 7.926759797652286e-07,
+     "byteSecolo": 2400.0
+    },
+    {
+     "durataAnni": 10.0,
+     "K": 0,
+     "record": 4,
+     "maxAngoloArcsec": 2.191357751614176,
+     "medianaAngoloArcsec": 1.2100696399656894,
+     "maxRadialeKm": 0.2812384752323851,
+     "maxRadialeFrazioneA": 7.9275908020744e-07,
+     "byteSecolo": 1200.0
+    },
+    {
+     "durataAnni": 20.0,
+     "K": 0,
+     "record": 2,
+     "maxAngoloArcsec": 3.5119084052009844,
+     "medianaAngoloArcsec": 2.8499275547187968,
+     "maxRadialeKm": 0.28012210852466524,
+     "maxRadialeFrazioneA": 7.896122501078383e-07,
+     "byteSecolo": 600.0
+    }
+   ],
+   "proveK0": [
+    {
+     "durataAnni": 2.0,
+     "K": 0,
+     "record": 20,
+     "maxAngoloArcsec": 0.47426811072906344,
+     "medianaAngoloArcsec": 0.22034955428042777,
+     "maxRadialeKm": 0.2808456440689042,
+     "maxRadialeFrazioneA": 7.916517613370568e-07,
+     "byteSecolo": 6000.0
+    },
+    {
+     "durataAnni": 5.0,
+     "K": 0,
+     "record": 8,
+     "maxAngoloArcsec": 1.1693357226525154,
+     "medianaAngoloArcsec": 0.5446167072576038,
+     "maxRadialeKm": 0.28120899479836226,
+     "maxRadialeFrazioneA": 7.926759797652286e-07,
+     "byteSecolo": 2400.0
+    },
+    {
+     "durataAnni": 10.0,
+     "K": 0,
+     "record": 4,
+     "maxAngoloArcsec": 2.191357751614176,
+     "medianaAngoloArcsec": 1.2100696399656894,
+     "maxRadialeKm": 0.2812384752323851,
+     "maxRadialeFrazioneA": 7.9275908020744e-07,
+     "byteSecolo": 1200.0
+    },
+    {
+     "durataAnni": 20.0,
+     "K": 0,
+     "record": 2,
+     "maxAngoloArcsec": 3.5119084052009844,
+     "medianaAngoloArcsec": 2.8499275547187968,
+     "maxRadialeKm": 0.28012210852466524,
+     "maxRadialeFrazioneA": 7.896122501078383e-07,
+     "byteSecolo": 600.0
+    }
+   ]
+  },
+  "umbriel": {
+   "durataAnni": 20.0,
+   "durataLunghiAnni": 20.0,
+   "K": 6,
+   "prove": [
+    {
+     "durataAnni": 2.0,
+     "K": 6,
+     "record": 20,
+     "maxAngoloArcsec": 37.82572857497041,
+     "medianaAngoloArcsec": 34.654516572774014,
+     "maxRadialeKm": 167.6567167439498,
+     "maxRadialeFrazioneA": 0.0006303321306280374,
+     "byteSecolo": 10800.0
+    },
+    {
+     "durataAnni": 5.0,
+     "K": 6,
+     "record": 8,
+     "maxAngoloArcsec": 36.72766918891775,
+     "medianaAngoloArcsec": 35.708176344348715,
+     "maxRadialeKm": 168.20755622786237,
+     "maxRadialeFrazioneA": 0.0006324030782187801,
+     "byteSecolo": 4320.0
+    },
+    {
+     "durataAnni": 10.0,
+     "K": 6,
+     "record": 4,
+     "maxAngoloArcsec": 49.57656256357291,
+     "medianaAngoloArcsec": 46.44470581270277,
+     "maxRadialeKm": 168.59732751961565,
+     "maxRadialeFrazioneA": 0.0006338688069281754,
+     "byteSecolo": 2160.0
+    },
+    {
+     "durataAnni": 20.0,
+     "K": 6,
+     "record": 2,
+     "maxAngoloArcsec": 59.05312489580945,
+     "medianaAngoloArcsec": 59.04733801110764,
+     "maxRadialeKm": 175.635036101914,
+     "maxRadialeFrazioneA": 0.0006603281475066969,
+     "byteSecolo": 1080.0
+    }
+   ],
+   "proveK0": [
+    {
+     "durataAnni": 2.0,
+     "K": 0,
+     "record": 20,
+     "maxAngoloArcsec": 307.34766037196005,
+     "medianaAngoloArcsec": 293.89935936559596,
+     "maxRadialeKm": 169.98419598612236,
+     "maxRadialeFrazioneA": 0.0006390828125297032,
+     "byteSecolo": 6000.0
+    },
+    {
+     "durataAnni": 5.0,
+     "K": 0,
+     "record": 8,
+     "maxAngoloArcsec": 307.6217694802814,
+     "medianaAngoloArcsec": 296.69016617377247,
+     "maxRadialeKm": 168.99523475253955,
+     "maxRadialeFrazioneA": 0.0006353646429069637,
+     "byteSecolo": 2400.0
+    },
+    {
+     "durataAnni": 10.0,
+     "K": 0,
+     "record": 4,
+     "maxAngoloArcsec": 335.77134402547074,
+     "medianaAngoloArcsec": 334.5376513129749,
+     "maxRadialeKm": 169.0819911326398,
+     "maxRadialeFrazioneA": 0.000635691148504008,
+     "byteSecolo": 1200.0
+    },
+    {
+     "durataAnni": 20.0,
+     "K": 0,
+     "record": 2,
+     "maxAngoloArcsec": 441.53778838158496,
+     "medianaAngoloArcsec": 430.95325730930125,
+     "maxRadialeKm": 176.02823219250422,
+     "maxRadialeFrazioneA": 0.0006618066482210039,
+     "byteSecolo": 600.0
+    }
+   ]
+  }
+ },
+ "confrontoLunghi": {
+  "mimas": {
+   "secolare": {
+    "x": [
+     160683.40086700983,
+     0.019774438607932602,
+     2.712615812686245,
+     0.017468273466327792,
+     0.013710748735738106,
+     2.2182804546464623,
+     -0.017444557475485747,
+     18265.946861027307,
+     6.667060412495664,
+     -4.425410666867317e-12,
+     0.0
+    ],
+    "tRef": 2428179.2214482147,
+    "residuoMaxGradi": 48.21275523809032,
+    "sigmaN": 8.18887105388152e-05,
+    "validazioneIncrociata": {
+     "primaMeta": {
+      "pendenzaRadAnno": -3.598492501510273e-05,
+      "maxRad": 1.0338830709076696
+     },
+     "secondaMeta": {
+      "pendenzaRadAnno": -8.18887105388152e-05,
+      "maxRad": 1.087890188200002
+     },
+     "sigmaN": 8.18887105388152e-05
+    }
+   },
+   "confronto": {
+    "kernel": [
+     "sat441xl_part-1.bsp",
+     "sat441xl_part-2.bsp"
+    ],
+    "intervalli": [
+     {
+      "anni": [
+       -500.0,
+       0.0
+      ],
+      "maxDifferenzaGradi": 134.21184900347984,
+      "epsEstrapolazioneMinGradi": 260.75585342383334,
+      "epsEstrapolazioneMaxGradi": 413.0835933976498
+     },
+     {
+      "anni": [
+       0.0,
+       500.0
+      ],
+      "maxDifferenzaGradi": 91.08460985225553,
+      "epsEstrapolazioneMinGradi": 143.30228894029528,
+      "epsEstrapolazioneMaxGradi": 260.75176655638353
+     },
+     {
+      "anni": [
+       500.0,
+       1000.0
+      ],
+      "maxDifferenzaGradi": 60.12243154604041,
+      "epsEstrapolazioneMinGradi": 60.73007311829761,
+      "epsEstrapolazioneMaxGradi": 143.29488217250847,
+      "maxDifferenzaDoveDeterminabileGradi": 46.101198043866304,
+      "maxRapportoDifferenzaEps": 0.7058800946769761
+     },
+     {
+      "anni": [
+       1000.0,
+       1500.0
+      ],
+      "maxDifferenzaGradi": 51.94884303652528,
+      "epsEstrapolazioneMinGradi": 13.038660670779056,
+      "epsEstrapolazioneMaxGradi": 60.72928406567486,
+      "maxDifferenzaDoveDeterminabileGradi": 51.94884303652528,
+      "maxRapportoDifferenzaEps": 3.344169285289159
+     },
+     {
+      "anni": [
+       1500.0,
+       2000.0
+      ],
+      "maxDifferenzaGradi": 51.59998624362245,
+      "epsEstrapolazioneMinGradi": 2.273685125498709,
+      "epsEstrapolazioneMaxGradi": 13.038010383429107,
+      "maxDifferenzaDoveDeterminabileGradi": 51.59998624362245,
+      "maxRapportoDifferenzaEps": 20.117166841490114
+     }
+    ],
+    "maxRapportoDoveDeterminabile": 20.117166841490114,
+    "maxDifferenzaDoveDeterminabileGradi": 51.94884303652528,
+    "livelloCambia": 0.2214795185170536
+   }
+  },
+  "encelado": {
+   "secolare": {
+    "x": [
+     238033.92408386766,
+     0.004744915228194879,
+     -2.8870908296049387,
+     0.005898643128036949,
+     7.222796184324402e-05,
+     0.07766730507879553,
+     -0.007276215271721258,
+     12561.667698198196,
+     4.585536663629725,
+     7.722849281141281e-14,
+     0.0
+    ],
+    "tRef": 2428178.321706989,
+    "residuoMaxGradi": 0.4706306767790784,
+    "sigmaN": 2.5565470459136453e-07,
+    "validazioneIncrociata": {
+     "primaMeta": {
+      "pendenzaRadAnno": 2.433389094446477e-07,
+      "maxRad": 0.008434243896829504
+     },
+     "secondaMeta": {
+      "pendenzaRadAnno": -2.5565470459136453e-07,
+      "maxRad": 0.008589994122070479
+     },
+     "sigmaN": 2.5565470459136453e-07
+    }
+   },
+   "confronto": {
+    "kernel": [
+     "sat441xl_part-1.bsp",
+     "sat441xl_part-2.bsp"
+    ],
+    "intervalli": [
+     {
+      "anni": [
+       -1000.0,
+       -500.0
+      ],
+      "maxDifferenzaGradi": 1.2468746717275445,
+      "epsEstrapolazioneMinGradi": 276.4102948476467,
+      "epsEstrapolazioneMaxGradi": 276.41408062502217
+     },
+     {
+      "anni": [
+       -500.0,
+       0.0
+      ],
+      "maxDifferenzaGradi": 1.5248926372069844,
+      "epsEstrapolazioneMinGradi": 173.24100856978558,
+      "epsEstrapolazioneMaxGradi": 276.4059689261111
+     },
+     {
+      "anni": [
+       0.0,
+       500.0
+      ],
+      "maxDifferenzaGradi": 1.1345621977295535,
+      "epsEstrapolazioneMinGradi": 94.06555411951923,
+      "epsEstrapolazioneMaxGradi": 173.23970018306625
+     },
+     {
+      "anni": [
+       500.0,
+       1000.0
+      ],
+      "maxDifferenzaGradi": 0.81789157696949,
+      "epsEstrapolazioneMinGradi": 38.87850406843535,
+      "epsEstrapolazioneMaxGradi": 94.06347197856127,
+      "maxDifferenzaDoveDeterminabileGradi": 0.81789157696949,
+      "maxRapportoDifferenzaEps": 0.015551383667763654
+     },
+     {
+      "anni": [
+       1000.0,
+       1500.0
+      ],
+      "maxDifferenzaGradi": 0.6043215626304216,
+      "epsEstrapolazioneMinGradi": 7.682966826773124,
+      "epsEstrapolazioneMaxGradi": 38.87774360934969,
+      "maxDifferenzaDoveDeterminabileGradi": 0.6043215626304216,
+      "maxRapportoDifferenzaEps": 0.06115248575928529
+     },
+     {
+      "anni": [
+       1500.0,
+       2000.0
+      ],
+      "maxDifferenzaGradi": 0.48406686205348637,
+      "epsEstrapolazioneMinGradi": 1.0818550483482774,
+      "epsEstrapolazioneMaxGradi": 7.6820752861773824,
+      "maxDifferenzaDoveDeterminabileGradi": 0.48406686205348637,
+      "maxRapportoDifferenzaEps": 0.34474687961682976
+     }
+    ],
+    "maxRapportoDoveDeterminabile": 0.34474687961682976,
+    "maxDifferenzaDoveDeterminabileGradi": 0.81789157696949,
+    "livelloCambia": 0.00011340790762410434
+   }
+  },
+  "teti": {
+   "secolare": {
+    "x": [
+     294578.761638864,
+     0.00018906133061486857,
+     -0.39348058230633737,
+     0.003450881776797738,
+     0.009522909965962742,
+     -2.7418004182077467,
+     -0.003453109413264941,
+     9115.949944971288,
+     3.3283065047274745,
+     -1.761578010697262e-13,
+     0.0
+    ],
+    "tRef": 2428178.394167449,
+    "residuoMaxGradi": 2.242445511090984,
+    "sigmaN": 8.500098988896349e-07,
+    "validazioneIncrociata": {
+     "primaMeta": {
+      "pendenzaRadAnno": -8.500098988896349e-07,
+      "maxRad": 0.04752762627700978
+     },
+     "secondaMeta": {
+      "pendenzaRadAnno": 8.075804048857905e-07,
+      "maxRad": 0.04899712817555498
+     },
+     "sigmaN": 8.500098988896349e-07
+    }
+   },
+   "confronto": {
+    "kernel": [
+     "sat441xl_part-1.bsp",
+     "sat441xl_part-2.bsp"
+    ],
+    "intervalli": [
+     {
+      "anni": [
+       -1000.0,
+       -500.0
+      ],
+      "maxDifferenzaGradi": 11.891935105672632,
+      "epsEstrapolazioneMinGradi": 200.71642450648253,
+      "epsEstrapolazioneMaxGradi": 200.72045639114864
+     },
+     {
+      "anni": [
+       -500.0,
+       0.0
+      ],
+      "maxDifferenzaGradi": 13.451519330882103,
+      "epsEstrapolazioneMinGradi": 125.81772309910318,
+      "epsEstrapolazioneMaxGradi": 200.71575616845678
+     },
+     {
+      "anni": [
+       0.0,
+       500.0
+      ],
+      "maxDifferenzaGradi": 8.803176673913397,
+      "epsEstrapolazioneMinGradi": 68.33474544942085,
+      "epsEstrapolazioneMaxGradi": 125.8149474501666,
+      "maxDifferenzaDoveDeterminabileGradi": 6.673817688040524,
+      "maxRapportoDifferenzaEps": 0.07690129642276496
+     },
+     {
+      "anni": [
+       500.0,
+       1000.0
+      ],
+      "maxDifferenzaGradi": 5.332932105872347,
+      "epsEstrapolazioneMinGradi": 28.253594469367634,
+      "epsEstrapolazioneMaxGradi": 68.3255362321341,
+      "maxDifferenzaDoveDeterminabileGradi": 5.332932105872347,
+      "maxRapportoDifferenzaEps": 0.108270389735582
+     },
+     {
+      "anni": [
+       1000.0,
+       1500.0
+      ],
+      "maxDifferenzaGradi": 3.0777783818433715,
+      "epsEstrapolazioneMinGradi": 5.592037356620609,
+      "epsEstrapolazioneMaxGradi": 28.252695188851735,
+      "maxDifferenzaDoveDeterminabileGradi": 3.0777783818433715,
+      "maxRapportoDifferenzaEps": 0.3514827058733712
+     },
+     {
+      "anni": [
+       1500.0,
+       2000.0
+      ],
+      "maxDifferenzaGradi": 2.2404708791398593,
+      "epsEstrapolazioneMinGradi": 0.7909803368125036,
+      "epsEstrapolazioneMaxGradi": 5.591662333301945,
+      "maxDifferenzaDoveDeterminabileGradi": 2.2404708791398593,
+      "maxRapportoDifferenzaEps": 2.614028862171311
+     }
+    ],
+    "maxRapportoDoveDeterminabile": 2.614028862171311,
+    "maxDifferenzaDoveDeterminabileGradi": 6.673817688040524,
+    "livelloCambia": 0.015806166484687776
+   }
+  },
+  "dione": {
+   "secolare": {
+    "x": [
+     377415.3148730447,
+     0.0021970669030932297,
+     0.8054784187253066,
+     0.0014704603263368742,
+     0.00024255622684707934,
+     1.7061049838076203,
+     -0.0014691628258605293,
+     6290.784632542386,
+     2.295717628417924,
+     -1.7580101917661626e-13,
+     0.0
+    ],
+    "tRef": 2428179.1797507596,
+    "residuoMaxGradi": 0.06638249600011208,
+    "sigmaN": 3.940623626481548e-08,
+    "validazioneIncrociata": {
+     "primaMeta": {
+      "pendenzaRadAnno": -3.936203752633519e-08,
+      "maxRad": 0.0011611792528218006
+     },
+     "secondaMeta": {
+      "pendenzaRadAnno": 3.940623626481548e-08,
+      "maxRad": 0.001146893777919086
+     },
+     "sigmaN": 3.940623626481548e-08
+    }
+   },
+   "confronto": {
+    "kernel": [
+     "sat441xl_part-1.bsp",
+     "sat441xl_part-2.bsp"
+    ],
+    "intervalli": [
+     {
+      "anni": [
+       -1000.0,
+       -500.0
+      ],
+      "maxDifferenzaGradi": 0.3749208032616574,
+      "epsEstrapolazioneMinGradi": 138.37290336406795,
+      "epsEstrapolazioneMaxGradi": 138.37290336406795
+     },
+     {
+      "anni": [
+       -500.0,
+       0.0
+      ],
+      "maxDifferenzaGradi": 0.4376566089653742,
+      "epsEstrapolazioneMinGradi": 86.72303013349253,
+      "epsEstrapolazioneMaxGradi": 138.36856766125547,
+      "maxDifferenzaDoveDeterminabileGradi": 0.33893581667773387,
+      "maxRapportoDifferenzaEps": 0.0038173855986746554
+     },
+     {
+      "anni": [
+       0.0,
+       500.0
+      ],
+      "maxDifferenzaGradi": 0.3348984574267894,
+      "epsEstrapolazioneMinGradi": 47.08876589355328,
+      "epsEstrapolazioneMaxGradi": 86.72192731244739,
+      "maxDifferenzaDoveDeterminabileGradi": 0.3348984574267894,
+      "maxRapportoDifferenzaEps": 0.004963590698949278
+     },
+     {
+      "anni": [
+       500.0,
+       1000.0
+      ],
+      "maxDifferenzaGradi": 0.24012184336699074,
+      "epsEstrapolazioneMinGradi": 19.45995782079632,
+      "epsEstrapolazioneMaxGradi": 47.084200597191746,
+      "maxDifferenzaDoveDeterminabileGradi": 0.24012184336699074,
+      "maxRapportoDifferenzaEps": 0.007722321939696756
+     },
+     {
+      "anni": [
+       1000.0,
+       1500.0
+      ],
+      "maxDifferenzaGradi": 0.14142077419183635,
+      "epsEstrapolazioneMinGradi": 3.8445094319553514,
+      "epsEstrapolazioneMaxGradi": 19.459077451152744,
+      "maxDifferenzaDoveDeterminabileGradi": 0.14142077419183635,
+      "maxRapportoDifferenzaEps": 0.026245724346299196
+     },
+     {
+      "anni": [
+       1500.0,
+       2000.0
+      ],
+      "maxDifferenzaGradi": 0.09894195919366298,
+      "epsEstrapolazioneMinGradi": 0.5409301813277066,
+      "epsEstrapolazioneMaxGradi": 3.8443189544318916,
+      "maxDifferenzaDoveDeterminabileGradi": 0.09894195919366298,
+      "maxRapportoDifferenzaEps": 0.11286063585940671
+     }
+    ],
+    "maxRapportoDoveDeterminabile": 0.11286063585940671,
+    "maxDifferenzaDoveDeterminabileGradi": 0.33893581667773387,
+    "livelloCambia": 3.524999295000141e-05
+   }
+  },
+  "rea": {
+   "secolare": {
+    "x": [
+     527067.5436055375,
+     0.00097116094865718,
+     2.9977743310708,
+     2.4578630374337237e-05,
+     0.002898734785631239,
+     -1.5093562986685098,
+     -0.0004800847968014221,
+     7621.56644909462,
+     1.3908536993156733,
+     -3.305826048834058e-13,
+     0.0
+    ],
+    "tRef": 2428179.863098711,
+    "residuoMaxGradi": 0.060472941573578895,
+    "sigmaN": 5.9262191444581934e-09,
+    "validazioneIncrociata": {
+     "primaMeta": {
+      "pendenzaRadAnno": 1.14882076294888e-09,
+      "maxRad": 0.0008373117649752138
+     },
+     "secondaMeta": {
+      "pendenzaRadAnno": -5.9262191444581934e-09,
+      "maxRad": 0.0008869268267846448
+     },
+     "sigmaN": 5.9262191444581934e-09
+    }
+   },
+   "confronto": {
+    "kernel": [
+     "sat441xl_part-1.bsp",
+     "sat441xl_part-2.bsp"
+    ],
+    "intervalli": [
+     {
+      "anni": [
+       -1000.0,
+       -500.0
+      ],
+      "maxDifferenzaGradi": 0.30697679388297816,
+      "epsEstrapolazioneMinGradi": 83.8290713367374,
+      "epsEstrapolazioneMaxGradi": 83.83002503301736,
+      "maxDifferenzaDoveDeterminabileGradi": 0.30697679388297816,
+      "maxRapportoDifferenzaEps": 0.0036618955292220426
+     },
+     {
+      "anni": [
+       -500.0,
+       0.0
+      ],
+      "maxDifferenzaGradi": 0.36760401557340494,
+      "epsEstrapolazioneMinGradi": 52.538758692482524,
+      "epsEstrapolazioneMaxGradi": 83.82795401002744,
+      "maxDifferenzaDoveDeterminabileGradi": 0.36760401557340494,
+      "maxRapportoDifferenzaEps": 0.0054410475100634455
+     },
+     {
+      "anni": [
+       0.0,
+       500.0
+      ],
+      "maxDifferenzaGradi": 0.28075805144524113,
+      "epsEstrapolazioneMinGradi": 28.52680239311486,
+      "epsEstrapolazioneMaxGradi": 52.53713145098417,
+      "maxDifferenzaDoveDeterminabileGradi": 0.28075805144524113,
+      "maxRapportoDifferenzaEps": 0.007436983745248576
+     },
+     {
+      "anni": [
+       500.0,
+       1000.0
+      ],
+      "maxDifferenzaGradi": 0.21339858410430215,
+      "epsEstrapolazioneMinGradi": 11.7888232024289,
+      "epsEstrapolazioneMaxGradi": 28.52425724612074,
+      "maxDifferenzaDoveDeterminabileGradi": 0.21339858410430215,
+      "maxRapportoDifferenzaEps": 0.013349360035360455
+     },
+     {
+      "anni": [
+       1000.0,
+       1500.0
+      ],
+      "maxDifferenzaGradi": 0.1588508397366628,
+      "epsEstrapolazioneMinGradi": 2.328837848232452,
+      "epsEstrapolazioneMaxGradi": 11.78809237844285,
+      "maxDifferenzaDoveDeterminabileGradi": 0.1588508397366628,
+      "maxRapportoDifferenzaEps": 0.04286631129584694
+     },
+     {
+      "anni": [
+       1500.0,
+       2000.0
+      ],
+      "maxDifferenzaGradi": 0.10399440789059605,
+      "epsEstrapolazioneMinGradi": 0.32754855644495035,
+      "epsEstrapolazioneMaxGradi": 2.3283633647697632,
+      "maxDifferenzaDoveDeterminabileGradi": 0.10399440789059605,
+      "maxRapportoDifferenzaEps": 0.17067405369402042
+     }
+    ],
+    "maxRapportoDoveDeterminabile": 0.17067405369402042,
+    "maxDifferenzaDoveDeterminabileGradi": 0.36760401557340494,
+    "livelloCambia": 8.381573947833083e-05
+   }
+  },
+  "titano": {
+   "secolare": {
+    "x": [
+     1221864.9200127455,
+     0.028853628538797204,
+     3.063389142568259,
+     2.4409082557665053e-05,
+     0.002715318709631747,
+     0.9700713483598583,
+     -2.5078877957389087e-05,
+     2158.818533382317,
+     0.3940425684263036,
+     3.2227337268818974e-14,
+     0.0
+    ],
+    "tRef": 2428177.817806398,
+    "residuoMaxGradi": 0.08184183788741643,
+    "sigmaN": 9.201751124727922e-08,
+    "validazioneIncrociata": {
+     "primaMeta": {
+      "pendenzaRadAnno": -9.201751124727922e-08,
+      "maxRad": 0.001820176855744225
+     },
+     "secondaMeta": {
+      "pendenzaRadAnno": 2.3919925237780483e-08,
+      "maxRad": 0.002282330551735061
+     },
+     "sigmaN": 9.201751124727922e-08
+    }
+   },
+   "confronto": {
+    "kernel": [
+     "sat441xl_part-1.bsp",
+     "sat441xl_part-2.bsp"
+    ],
+    "intervalli": [
+     {
+      "anni": [
+       -1000.0,
+       -500.0
+      ],
+      "maxDifferenzaGradi": 1.2165862042037479,
+      "epsEstrapolazioneMinGradi": 23.762132543433843,
+      "epsEstrapolazioneMaxGradi": 23.762389096203055,
+      "maxDifferenzaDoveDeterminabileGradi": 1.2165862042037479,
+      "maxRapportoDifferenzaEps": 0.051197975055384634
+     },
+     {
+      "anni": [
+       -500.0,
+       0.0
+      ],
+      "maxDifferenzaGradi": 1.2861770290086443,
+      "epsEstrapolazioneMinGradi": 14.894513901144405,
+      "epsEstrapolazioneMaxGradi": 23.76125735757967,
+      "maxDifferenzaDoveDeterminabileGradi": 1.2861770290086443,
+      "maxRapportoDifferenzaEps": 0.054566109696700414
+     },
+     {
+      "anni": [
+       0.0,
+       500.0
+      ],
+      "maxDifferenzaGradi": 0.6420153416911687,
+      "epsEstrapolazioneMinGradi": 8.08883627463862,
+      "epsEstrapolazioneMaxGradi": 14.89444252590291,
+      "maxDifferenzaDoveDeterminabileGradi": 0.6420153416911687,
+      "maxRapportoDifferenzaEps": 0.043855124959808596
+     },
+     {
+      "anni": [
+       500.0,
+       1000.0
+      ],
+      "maxDifferenzaGradi": 0.30480590931941925,
+      "epsEstrapolazioneMinGradi": 3.3444973138007885,
+      "epsEstrapolazioneMaxGradi": 8.088605438094557,
+      "maxDifferenzaDoveDeterminabileGradi": 0.30480590931941925,
+      "maxRapportoDifferenzaEps": 0.03829470955346494
+     },
+     {
+      "anni": [
+       1000.0,
+       1500.0
+      ],
+      "maxDifferenzaGradi": 0.15956407099825842,
+      "epsEstrapolazioneMinGradi": 0.6618109958664287,
+      "epsEstrapolazioneMaxGradi": 3.3444437967138914,
+      "maxDifferenzaDoveDeterminabileGradi": 0.15956407099825842,
+      "maxRapportoDifferenzaEps": 0.2071233454710733
+     },
+     {
+      "anni": [
+       1500.0,
+       2000.0
+      ],
+      "maxDifferenzaGradi": 0.1400371104937039,
+      "epsEstrapolazioneMinGradi": 0.09356197824731323,
+      "epsEstrapolazioneMaxGradi": 0.6617714930990546,
+      "maxDifferenzaDoveDeterminabileGradi": 0.1400371104937039,
+      "maxRapportoDifferenzaEps": 0.6680382110120472
+     }
+    ],
+    "maxRapportoDoveDeterminabile": 0.6680382110120472,
+    "maxDifferenzaDoveDeterminabileGradi": 1.2861770290086443,
+    "livelloCambia": 0.0007663649687300717
+   }
+  },
+  "iperione": {
+   "secolare": {
+    "x": [
+     1471211.581141091,
+     0.10352260376955902,
+     -0.13560735740021912,
+     -0.0008921747160631311,
+     0.00497612425451541,
+     1.0038467497916246,
+     -0.00011864041170244381,
+     4043.9936408795747,
+     0.2953088112196585,
+     -8.053391604924033e-14,
+     0.0
+    ],
+    "tRef": 2428179.1657340163,
+    "residuoMaxGradi": 15.321085717383523,
+    "sigmaN": 2.008866890081593e-06,
+    "validazioneIncrociata": {
+     "primaMeta": {
+      "pendenzaRadAnno": -1.9648672863588812e-06,
+      "maxRad": 0.27868820718312176
+     },
+     "secondaMeta": {
+      "pendenzaRadAnno": 2.008866890081593e-06,
+      "maxRad": 0.283161081872016
+     },
+     "sigmaN": 2.008866890081593e-06
+    }
+   },
+   "confronto": {
+    "kernel": [
+     "sat441xl_part-1.bsp",
+     "sat441xl_part-2.bsp"
+    ],
+    "intervalli": [
+     {
+      "anni": [
+       -1000.0,
+       -500.0
+      ],
+      "maxDifferenzaGradi": 4.621565981342156,
+      "epsEstrapolazioneMinGradi": 18.074967669674734,
+      "epsEstrapolazioneMaxGradi": 18.074967669674734,
+      "maxDifferenzaDoveDeterminabileGradi": 4.621565981342156,
+      "maxRapportoDifferenzaEps": 0.25568875506737343
+     },
+     {
+      "anni": [
+       -500.0,
+       0.0
+      ],
+      "maxDifferenzaGradi": 15.903682181194755,
+      "epsEstrapolazioneMinGradi": 11.373905837505863,
+      "epsEstrapolazioneMaxGradi": 18.073835022642477,
+      "maxDifferenzaDoveDeterminabileGradi": 15.903682181194755,
+      "maxRapportoDifferenzaEps": 1.2856298232362997
+     },
+     {
+      "anni": [
+       0.0,
+       500.0
+      ],
+      "maxDifferenzaGradi": 15.53799686951465,
+      "epsEstrapolazioneMinGradi": 6.217878663809788,
+      "epsEstrapolazioneMaxGradi": 11.373246481072686,
+      "maxDifferenzaDoveDeterminabileGradi": 15.53799686951465,
+      "maxRapportoDifferenzaEps": 2.3944528795684716
+     },
+     {
+      "anni": [
+       500.0,
+       1000.0
+      ],
+      "maxDifferenzaGradi": 15.71990783941936,
+      "epsEstrapolazioneMinGradi": 2.606514517094468,
+      "epsEstrapolazioneMaxGradi": 6.2174948158253756,
+      "maxDifferenzaDoveDeterminabileGradi": 15.71990783941936,
+      "maxRapportoDifferenzaEps": 5.9341637620639585
+     },
+     {
+      "anni": [
+       1000.0,
+       1500.0
+      ],
+      "maxDifferenzaGradi": 15.674645626705162,
+      "epsEstrapolazioneMinGradi": 0.5404451716746208,
+      "epsEstrapolazioneMaxGradi": 2.6064478030198974,
+      "maxDifferenzaDoveDeterminabileGradi": 15.674645626705162,
+      "maxRapportoDifferenzaEps": 26.199116794472875
+     },
+     {
+      "anni": [
+       1500.0,
+       2000.0
+      ],
+      "maxDifferenzaGradi": 15.435616017997232,
+      "epsEstrapolazioneMinGradi": 0.08679637663071658,
+      "epsEstrapolazioneMaxGradi": 0.5403866133442222,
+      "maxDifferenzaDoveDeterminabileGradi": 15.435616017997232,
+      "maxRapportoDifferenzaEps": 159.9720719641125
+     }
+    ],
+    "maxRapportoDoveDeterminabile": 159.9720719641125,
+    "maxDifferenzaDoveDeterminabileGradi": 15.903682181194755,
+    "livelloCambia": 0.3284555298534983
+   }
+  },
+  "giapeto": {
+   "secolare": {
+    "x": [
+     3560835.2355991118,
+     0.028479165361191244,
+     -0.26476497955813555,
+     5.360080613026761e-06,
+     0.06772511347299864,
+     1.4890327375852876,
+     -5.3986384991108074e-06,
+     1087.1845973673019,
+     0.07920225277177032,
+     -2.260016356968961e-12,
+     0.0
+    ],
+    "tRef": 2428179.77918682,
+    "residuoMaxGradi": 0.22915762506663742,
+    "sigmaN": 9.633784847658803e-07,
+    "validazioneIncrociata": {
+     "primaMeta": {
+      "pendenzaRadAnno": -9.633784847658803e-07,
+      "maxRad": 0.007111185665446054
+     },
+     "secondaMeta": {
+      "pendenzaRadAnno": 7.710714460054601e-07,
+      "maxRad": 0.007585861301145264
+     },
+     "sigmaN": 9.633784847658803e-07
+    }
+   },
+   "confronto": {
+    "kernel": [
+     "sat441xl_part-1.bsp",
+     "sat441xl_part-2.bsp"
+    ],
+    "intervalli": [
+     {
+      "anni": [
+       -1000.0,
+       -500.0
+      ],
+      "maxDifferenzaGradi": 109.77001823036943,
+      "epsEstrapolazioneMinGradi": 4.906168878044195,
+      "epsEstrapolazioneMaxGradi": 4.906181327013748,
+      "maxDifferenzaDoveDeterminabileGradi": 109.77001823036943,
+      "maxRapportoDifferenzaEps": 22.373876839341165
+     },
+     {
+      "anni": [
+       -500.0,
+       0.0
+      ],
+      "maxDifferenzaGradi": 115.53023286747083,
+      "epsEstrapolazioneMinGradi": 3.0967171720575086,
+      "epsEstrapolazioneMaxGradi": 4.905969252320177,
+      "maxDifferenzaDoveDeterminabileGradi": 115.53023286747083,
+      "maxRapportoDifferenzaEps": 23.550709909732447
+     },
+     {
+      "anni": [
+       0.0,
+       500.0
+      ],
+      "maxDifferenzaGradi": 63.89521145032274,
+      "epsEstrapolazioneMinGradi": 1.7016609510217358,
+      "epsEstrapolazioneMaxGradi": 3.0966331329795933,
+      "maxDifferenzaDoveDeterminabileGradi": 63.89521145032274,
+      "maxRapportoDifferenzaEps": 20.634371358578026
+     },
+     {
+      "anni": [
+       500.0,
+       1000.0
+      ],
+      "maxDifferenzaGradi": 26.0440582508808,
+      "epsEstrapolazioneMinGradi": 0.7209639914779057,
+      "epsEstrapolazioneMaxGradi": 1.7015639112171905,
+      "maxDifferenzaDoveDeterminabileGradi": 26.0440582508808,
+      "maxRapportoDifferenzaEps": 15.306441999607737
+     },
+     {
+      "anni": [
+       1000.0,
+       1500.0
+      ],
+      "maxDifferenzaGradi": 6.039515604461787,
+      "epsEstrapolazioneMinGradi": 0.15468217835401019,
+      "epsEstrapolazioneMaxGradi": 0.7209536146167366,
+      "maxDifferenzaDoveDeterminabileGradi": 6.039515604461787,
+      "maxRapportoDifferenzaEps": 8.382462186970962
+     },
+     {
+      "anni": [
+       1500.0,
+       2000.0
+      ],
+      "maxDifferenzaGradi": 0.8136877957623739,
+      "epsEstrapolazioneMinGradi": 0.02692742950118631,
+      "epsEstrapolazioneMaxGradi": 0.1546755526376615,
+      "maxDifferenzaDoveDeterminabileGradi": 0.8136877957623739,
+      "maxRapportoDifferenzaEps": 8.34430719081677
+     }
+    ],
+    "maxRapportoDoveDeterminabile": 23.550709909732447,
+    "maxDifferenzaDoveDeterminabileGradi": 115.53023286747083,
+    "livelloCambia": 0.8171966770137787
+   }
+  },
+  "febe": {
+   "secolare": {
+    "x": [
+     12943476.211855046,
+     0.1638034493407263,
+     1.4520545507887384,
+     1.3516164706694868e-05,
+     0.042070178081428024,
+     -2.6309092389663338,
+     2.34402394143497e-05,
+     156.88080255080615,
+     0.01141767732674991,
+     1.9706378270792497e-13,
+     0.0
+    ],
+    "tRef": 2428178.945977903,
+    "residuoMaxGradi": 2.6676639036455954,
+    "sigmaN": 1.9411543650085454e-06,
+    "validazioneIncrociata": {
+     "primaMeta": {
+      "pendenzaRadAnno": -1.3464001642640086e-06,
+      "maxRad": 0.049997655497820044
+     },
+     "secondaMeta": {
+      "pendenzaRadAnno": 1.9411543650085454e-06,
+      "maxRad": 0.05570513061043395
+     },
+     "sigmaN": 1.9411543650085454e-06
+    }
+   },
+   "confronto": {
+    "kernel": [
+     "sat441xl_part-1.bsp",
+     "sat441xl_part-2.bsp"
+    ],
+    "intervalli": [
+     {
+      "anni": [
+       -1000.0,
+       -500.0
+      ],
+      "maxDifferenzaGradi": 9.039602652228524,
+      "epsEstrapolazioneMinGradi": 0.9550858210782665,
+      "epsEstrapolazioneMaxGradi": 0.9551002472700435,
+      "maxDifferenzaDoveDeterminabileGradi": 9.039602652228524,
+      "maxRapportoDifferenzaEps": 9.464701969947637
+     },
+     {
+      "anni": [
+       -500.0,
+       0.0
+      ],
+      "maxDifferenzaGradi": 14.176985369699242,
+      "epsEstrapolazioneMinGradi": 0.6426091024343126,
+      "epsEstrapolazioneMaxGradi": 0.9550745650562482,
+      "maxDifferenzaDoveDeterminabileGradi": 14.176985369699242,
+      "maxRapportoDifferenzaEps": 15.40696156083893
+     },
+     {
+      "anni": [
+       0.0,
+       500.0
+      ],
+      "maxDifferenzaGradi": 9.90855479829001,
+      "epsEstrapolazioneMinGradi": 0.3898708619357986,
+      "epsEstrapolazioneMaxGradi": 0.6426056045506302,
+      "maxDifferenzaDoveDeterminabileGradi": 9.90855479829001,
+      "maxRapportoDifferenzaEps": 17.632722419188553
+     },
+     {
+      "anni": [
+       500.0,
+       1000.0
+      ],
+      "maxDifferenzaGradi": 6.758511171610978,
+      "epsEstrapolazioneMinGradi": 0.19687439447141916,
+      "epsEstrapolazioneMaxGradi": 0.3898591299481501,
+      "maxDifferenzaDoveDeterminabileGradi": 6.758511171610978,
+      "maxRapportoDifferenzaEps": 18.92280817740976
+     },
+     {
+      "anni": [
+       1000.0,
+       1500.0
+      ],
+      "maxDifferenzaGradi": 3.9287413552471775,
+      "epsEstrapolazioneMinGradi": 0.06360464714749944,
+      "epsEstrapolazioneMaxGradi": 0.1968669402419133,
+      "maxDifferenzaDoveDeterminabileGradi": 3.9287413552471775,
+      "maxRapportoDifferenzaEps": 39.15758591865607
+     },
+     {
+      "anni": [
+       1500.0,
+       2000.0
+      ],
+      "maxDifferenzaGradi": 2.6467823860562443,
+      "epsEstrapolazioneMinGradi": 0.019371149815950697,
+      "epsEstrapolazioneMaxGradi": 0.06359764809678294,
+      "maxDifferenzaDoveDeterminabileGradi": 2.6467823860562443,
+      "maxRapportoDifferenzaEps": 129.24989332392605
+     }
+    ],
+    "maxRapportoDoveDeterminabile": 129.24989332392605,
+    "maxDifferenzaDoveDeterminabileGradi": 14.176985369699242,
+    "livelloCambia": 0.8041962733335942
+   }
+  },
+  "miranda": {
+   "secolare": {
+    "x": [
+     129827.37832437217,
+     0.0014009467757860289,
+     -0.14747359200282956,
+     0.0009575182388077857,
+     0.038651834030166504,
+     0.5853601672910669,
+     -0.0009671432066915024,
+     12175.123628065749,
+     4.445191033837775,
+     -3.913627021226265e-12,
+     0.0
+    ],
+    "tRef": 2400786.700426681,
+    "residuoMaxGradi": 1.5944069352346386,
+    "sigmaN": 5.131484805356909e-06,
+    "validazioneIncrociata": {
+     "primaMeta": {
+      "pendenzaRadAnno": -5.12582778058335e-06,
+      "maxRad": 0.027987790516682983
+     },
+     "secondaMeta": {
+      "pendenzaRadAnno": 5.131484805356909e-06,
+      "maxRad": 0.029047679420927022
+     },
+     "sigmaN": 5.131484805356909e-06
+    }
+   },
+   "confronto": {
+    "kernel": [
+     "ura111xl-705.bsp"
+    ],
+    "intervalli": [
+     {
+      "anni": [
+       -10500.0,
+       -10000.0
+      ],
+      "maxDifferenzaGradi": 6.827593450749669,
+      "epsEstrapolazioneMinGradi": 6643.545121089384,
+      "epsEstrapolazioneMaxGradi": 6643.725397149861
+     },
+     {
+      "anni": [
+       -10000.0,
+       -9500.0
+      ],
+      "maxDifferenzaGradi": 179.28902032538616,
+      "epsEstrapolazioneMinGradi": 6099.351873606181,
+      "epsEstrapolazioneMaxGradi": 6643.445826882311
+     },
+     {
+      "anni": [
+       -9500.0,
+       -9000.0
+      ],
+      "maxDifferenzaGradi": 178.58220399614507,
+      "epsEstrapolazioneMinGradi": 5578.23059406067,
+      "epsEstrapolazioneMaxGradi": 6099.091943339714
+     },
+     {
+      "anni": [
+       -9000.0,
+       -8500.0
+      ],
+      "maxDifferenzaGradi": 179.37120657618686,
+      "epsEstrapolazioneMinGradi": 5080.486553520725,
+      "epsEstrapolazioneMaxGradi": 5578.180980270714
+     },
+     {
+      "anni": [
+       -8500.0,
+       -8000.0
+      ],
+      "maxDifferenzaGradi": 179.16572222036856,
+      "epsEstrapolazioneMinGradi": 4606.001134041746,
+      "epsEstrapolazioneMaxGradi": 5080.340086468586
+     },
+     {
+      "anni": [
+       -8000.0,
+       -7500.0
+      ],
+      "maxDifferenzaGradi": 171.14285985674815,
+      "epsEstrapolazioneMinGradi": 4154.773778565055,
+      "epsEstrapolazioneMaxGradi": 4605.927343822193
+     },
+     {
+      "anni": [
+       -7500.0,
+       -7000.0
+      ],
+      "maxDifferenzaGradi": 179.34456152083658,
+      "epsEstrapolazioneMinGradi": 3726.8051701817612,
+      "epsEstrapolazioneMaxGradi": 4154.669642410022
+     },
+     {
+      "anni": [
+       -7000.0,
+       -6500.0
+      ],
+      "maxDifferenzaGradi": 179.5284322918527,
+      "epsEstrapolazioneMinGradi": 3322.0790894681945,
+      "epsEstrapolazioneMaxGradi": 3726.640200612945
+     },
+     {
+      "anni": [
+       -6500.0,
+       -6000.0
+      ],
+      "maxDifferenzaGradi": 179.30660546181807,
+      "epsEstrapolazioneMinGradi": 2940.657194166122,
+      "epsEstrapolazioneMaxGradi": 3322.0149793172027
+     },
+     {
+      "anni": [
+       -6000.0,
+       -5500.0
+      ],
+      "maxDifferenzaGradi": 125.4727028469094,
+      "epsEstrapolazioneMinGradi": 2582.3870251830913,
+      "epsEstrapolazioneMaxGradi": 2940.539485387293
+     },
+     {
+      "anni": [
+       -5500.0,
+       -5000.0
+      ],
+      "maxDifferenzaGradi": 179.41320402761042,
+      "epsEstrapolazioneMinGradi": 2247.4410653787086,
+      "epsEstrapolazioneMaxGradi": 2582.3802377407897
+     },
+     {
+      "anni": [
+       -5000.0,
+       -4500.0
+      ],
+      "maxDifferenzaGradi": 168.47470379004002,
+      "epsEstrapolazioneMinGradi": 1935.757795141257,
+      "epsEstrapolazioneMaxGradi": 2247.411323524176
+     },
+     {
+      "anni": [
+       -4500.0,
+       -4000.0
+      ],
+      "maxDifferenzaGradi": 179.810297849804,
+      "epsEstrapolazioneMinGradi": 1647.325236298279,
+      "epsEstrapolazioneMaxGradi": 1935.7346405494447
+     },
+     {
+      "anni": [
+       -4000.0,
+       -3500.0
+      ],
+      "maxDifferenzaGradi": 167.23823920956707,
+      "epsEstrapolazioneMinGradi": 1382.1606448046803,
+      "epsEstrapolazioneMaxGradi": 1647.291453398238
+     },
+     {
+      "anni": [
+       -3500.0,
+       -3000.0
+      ],
+      "maxDifferenzaGradi": 179.91603543571753,
+      "epsEstrapolazioneMinGradi": 1140.277674204405,
+      "epsEstrapolazioneMaxGradi": 1382.1315489358362
+     },
+     {
+      "anni": [
+       -3000.0,
+       -2500.0
+      ],
+      "maxDifferenzaGradi": 107.34671656687158,
+      "epsEstrapolazioneMinGradi": 921.5741793463243,
+      "epsEstrapolazioneMaxGradi": 1140.2046881079025
+     },
+     {
+      "anni": [
+       -2500.0,
+       -2000.0
+      ],
+      "maxDifferenzaGradi": 179.7430448256519,
+      "epsEstrapolazioneMinGradi": 726.1620617701691,
+      "epsEstrapolazioneMaxGradi": 921.5497465426574
+     },
+     {
+      "anni": [
+       -2000.0,
+       -1500.0
+      ],
+      "maxDifferenzaGradi": 126.35402189717979,
+      "epsEstrapolazioneMinGradi": 553.9939921772566,
+      "epsEstrapolazioneMaxGradi": 726.1251226837362
+     },
+     {
+      "anni": [
+       -1500.0,
+       -1000.0
+      ],
+      "maxDifferenzaGradi": 87.31245236376073,
+      "epsEstrapolazioneMinGradi": 405.1133115182872,
+      "epsEstrapolazioneMaxGradi": 553.9760501750023
+     },
+     {
+      "anni": [
+       -1000.0,
+       -500.0
+      ],
+      "maxDifferenzaGradi": 169.93712909843575,
+      "epsEstrapolazioneMinGradi": 279.4669875955003,
+      "epsEstrapolazioneMaxGradi": 405.09602473336616
+     },
+     {
+      "anni": [
+       -500.0,
+       0.0
+      ],
+      "maxDifferenzaGradi": 179.89245041343378,
+      "epsEstrapolazioneMinGradi": 177.0912815975936,
+      "epsEstrapolazioneMaxGradi": 279.4192195912679
+     },
+     {
+      "anni": [
+       0.0,
+       500.0
+      ],
+      "maxDifferenzaGradi": 123.56934588885761,
+      "epsEstrapolazioneMinGradi": 97.95168387732392,
+      "epsEstrapolazioneMaxGradi": 177.06720474241396
+     },
+     {
+      "anni": [
+       500.0,
+       1000.0
+      ],
+      "maxDifferenzaGradi": 70.57621142005281,
+      "epsEstrapolazioneMinGradi": 42.09058979035198,
+      "epsEstrapolazioneMaxGradi": 97.91947942563992,
+      "maxDifferenzaDoveDeterminabileGradi": 65.77892144060627,
+      "maxRapportoDifferenzaEps": 0.7794938704859097
+     },
+     {
+      "anni": [
+       1000.0,
+       1500.0
+      ],
+      "maxDifferenzaGradi": 32.82703110492264,
+      "epsEstrapolazioneMinGradi": 9.475575990628695,
+      "epsEstrapolazioneMaxGradi": 42.0784499574036,
+      "maxDifferenzaDoveDeterminabileGradi": 32.82703110492264,
+      "maxRapportoDifferenzaEps": 1.0048651759229024
+     },
+     {
+      "anni": [
+       1500.0,
+       2000.0
+      ],
+      "maxDifferenzaGradi": 9.567600113212281,
+      "epsEstrapolazioneMinGradi": 5.737109876729475,
+      "epsEstrapolazioneMaxGradi": 9.46672624861185,
+      "maxDifferenzaDoveDeterminabileGradi": 9.567600113212281,
+      "maxRapportoDifferenzaEps": 1.170490756014725
+     }
+    ],
+    "maxRapportoDoveDeterminabile": 1.170490756014725,
+    "maxDifferenzaDoveDeterminabileGradi": 65.77892144060627,
+    "livelloCambia": 0.19266001517007994
+   }
+  },
+  "ariel": {
+   "secolare": {
+    "x": [
+     190928.8526002862,
+     0.0012749283374444468,
+     -1.0663584367036238,
+     0.0002962072900764624,
+     0.00015891140578789284,
+     -2.7432020726666155,
+     -0.00013261431772489072,
+     6831.902850123069,
+     2.4929528102886143,
+     -3.836444666916138e-12,
+     0.0
+    ],
+    "tRef": 2400789.021107837,
+    "residuoMaxGradi": 0.24236731488028476,
+    "sigmaN": 3.3582898301314105e-07,
+    "validazioneIncrociata": {
+     "primaMeta": {
+      "pendenzaRadAnno": 3.3582898301314105e-07,
+      "maxRad": 0.004334816214018718
+     },
+     "secondaMeta": {
+      "pendenzaRadAnno": -3.310443992410922e-07,
+      "maxRad": 0.004269729061089735
+     },
+     "sigmaN": 3.3582898301314105e-07
+    }
+   },
+   "confronto": {
+    "kernel": [
+     "ura111xl-701.bsp"
+    ],
+    "intervalli": [
+     {
+      "anni": [
+       -10500.0,
+       -10000.0
+      ],
+      "maxDifferenzaGradi": 89.95268794113423,
+      "epsEstrapolazioneMinGradi": 3694.200366897028,
+      "epsEstrapolazioneMaxGradi": 3694.3270672963254
+     },
+     {
+      "anni": [
+       -10000.0,
+       -9500.0
+      ],
+      "maxDifferenzaGradi": 179.975649445137,
+      "epsEstrapolazioneMinGradi": 3390.287611963616,
+      "epsEstrapolazioneMaxGradi": 3694.1662211971743
+     },
+     {
+      "anni": [
+       -9500.0,
+       -9000.0
+      ],
+      "maxDifferenzaGradi": 179.98471187806868,
+      "epsEstrapolazioneMinGradi": 3099.519398624839,
+      "epsEstrapolazioneMaxGradi": 3390.2643957052833
+     },
+     {
+      "anni": [
+       -9000.0,
+       -8500.0
+      ],
+      "maxDifferenzaGradi": 179.97278845021916,
+      "epsEstrapolazioneMinGradi": 2821.6128355057904,
+      "epsEstrapolazioneMaxGradi": 3099.410647659834
+     },
+     {
+      "anni": [
+       -8500.0,
+       -8000.0
+      ],
+      "maxDifferenzaGradi": 179.98247461371065,
+      "epsEstrapolazioneMinGradi": 2556.941033939956,
+      "epsEstrapolazioneMaxGradi": 2821.5728234533376
+     },
+     {
+      "anni": [
+       -8000.0,
+       -7500.0
+      ],
+      "maxDifferenzaGradi": 179.9712343054779,
+      "epsEstrapolazioneMinGradi": 2305.1112287681726,
+      "epsEstrapolazioneMaxGradi": 2556.81560111154
+     },
+     {
+      "anni": [
+       -7500.0,
+       -7000.0
+      ],
+      "maxDifferenzaGradi": 138.9781930896342,
+      "epsEstrapolazioneMinGradi": 2066.4110937473642,
+      "epsEstrapolazioneMaxGradi": 2305.0657772770237
+     },
+     {
+      "anni": [
+       -7000.0,
+       -6500.0
+      ],
+      "maxDifferenzaGradi": 179.98479145909744,
+      "epsEstrapolazioneMinGradi": 1840.7677118660183,
+      "epsEstrapolazioneMaxGradi": 2066.39222956884
+     },
+     {
+      "anni": [
+       -6500.0,
+       -6000.0
+      ],
+      "maxDifferenzaGradi": 179.97896107834646,
+      "epsEstrapolazioneMinGradi": 1628.1927048950645,
+      "epsEstrapolazioneMaxGradi": 1840.7377938452146
+     },
+     {
+      "anni": [
+       -6000.0,
+       -5500.0
+      ],
+      "maxDifferenzaGradi": 146.15543615169793,
+      "epsEstrapolazioneMinGradi": 1428.5805139191789,
+      "epsEstrapolazioneMaxGradi": 1628.1295380963866
+     },
+     {
+      "anni": [
+       -5500.0,
+       -5000.0
+      ],
+      "maxDifferenzaGradi": 179.97818254993498,
+      "epsEstrapolazioneMinGradi": 1242.085318068841,
+      "epsEstrapolazioneMaxGradi": 1428.5687391595786
+     },
+     {
+      "anni": [
+       -5000.0,
+       -4500.0
+      ],
+      "maxDifferenzaGradi": 179.98031565172437,
+      "epsEstrapolazioneMinGradi": 1068.6022210481046,
+      "epsEstrapolazioneMaxGradi": 1241.9613419538723
+     },
+     {
+      "anni": [
+       -4500.0,
+       -4000.0
+      ],
+      "maxDifferenzaGradi": 163.0655356849392,
+      "epsEstrapolazioneMinGradi": 908.2078067198611,
+      "epsEstrapolazioneMaxGradi": 1068.5692891757499
+     },
+     {
+      "anni": [
+       -4000.0,
+       -3500.0
+      ],
+      "maxDifferenzaGradi": 179.98117860448625,
+      "epsEstrapolazioneMinGradi": 760.7708690357255,
+      "epsEstrapolazioneMaxGradi": 908.1317900801702
+     },
+     {
+      "anni": [
+       -3500.0,
+       -3000.0
+      ],
+      "maxDifferenzaGradi": 170.57002488134998,
+      "epsEstrapolazioneMinGradi": 626.4114237124045,
+      "epsEstrapolazioneMaxGradi": 760.7523422300796
+     },
+     {
+      "anni": [
+       -3000.0,
+       -2500.0
+      ],
+      "maxDifferenzaGradi": 123.59753752241033,
+      "epsEstrapolazioneMinGradi": 505.1078946231602,
+      "epsEstrapolazioneMaxGradi": 626.3847937490688
+     },
+     {
+      "anni": [
+       -2500.0,
+       -2000.0
+      ],
+      "maxDifferenzaGradi": 179.9930766075603,
+      "epsEstrapolazioneMinGradi": 396.84028573633697,
+      "epsEstrapolazioneMaxGradi": 505.0825144256808
+     },
+     {
+      "anni": [
+       -2000.0,
+       -1500.0
+      ],
+      "maxDifferenzaGradi": 111.78541763008697,
+      "epsEstrapolazioneMinGradi": 301.6128256237516,
+      "epsEstrapolazioneMaxGradi": 396.82933727525244
+     },
+     {
+      "anni": [
+       -1500.0,
+       -1000.0
+      ],
+      "maxDifferenzaGradi": 94.21693003845476,
+      "epsEstrapolazioneMinGradi": 219.44029324594496,
+      "epsEstrapolazioneMaxGradi": 301.60476178608684
+     },
+     {
+      "anni": [
+       -1000.0,
+       -500.0
+      ],
+      "maxDifferenzaGradi": 175.3933836491128,
+      "epsEstrapolazioneMinGradi": 150.30661526228806,
+      "epsEstrapolazioneMaxGradi": 219.4177927997769
+     },
+     {
+      "anni": [
+       -500.0,
+       0.0
+      ],
+      "maxDifferenzaGradi": 179.99388017212502,
+      "epsEstrapolazioneMinGradi": 94.21352316950322,
+      "epsEstrapolazioneMaxGradi": 150.29315789991372
+     },
+     {
+      "anni": [
+       0.0,
+       500.0
+      ],
+      "maxDifferenzaGradi": 118.68713280085754,
+      "epsEstrapolazioneMinGradi": 51.16361022009602,
+      "epsEstrapolazioneMaxGradi": 94.20052290125824,
+      "maxDifferenzaDoveDeterminabileGradi": 113.89612002019078,
+      "maxRapportoDifferenzaEps": 1.3155167487600032
+     },
+     {
+      "anni": [
+       500.0,
+       1000.0
+      ],
+      "maxDifferenzaGradi": 67.11623680544956,
+      "epsEstrapolazioneMinGradi": 21.14845662099883,
+      "epsEstrapolazioneMaxGradi": 51.142445530284775,
+      "maxDifferenzaDoveDeterminabileGradi": 67.11623680544956,
+      "maxRapportoDifferenzaEps": 1.4247608789480086
+     },
+     {
+      "anni": [
+       1000.0,
+       1500.0
+      ],
+      "maxDifferenzaGradi": 29.965104781751332,
+      "epsEstrapolazioneMinGradi": 4.1840388452365005,
+      "epsEstrapolazioneMaxGradi": 21.138143448820703,
+      "maxDifferenzaDoveDeterminabileGradi": 29.965104781751332,
+      "maxRapportoDifferenzaEps": 1.8694269436494668
+     },
+     {
+      "anni": [
+       1500.0,
+       2000.0
+      ],
+      "maxDifferenzaGradi": 7.684741337500918,
+      "epsEstrapolazioneMinGradi": 2.3542656844041994,
+      "epsEstrapolazioneMaxGradi": 4.180315375482714,
+      "maxDifferenzaDoveDeterminabileGradi": 7.684741337500918,
+      "maxRapportoDifferenzaEps": 2.1754989884094793
+     }
+    ],
+    "maxRapportoDoveDeterminabile": 2.1754989884094793,
+    "maxDifferenzaDoveDeterminabileGradi": 113.89612002019078,
+    "livelloCambia": 0.3777267061389841
+   }
+  },
+  "umbriel": {
+   "secolare": {
+    "x": [
+     265981.0197722174,
+     0.003906169047367908,
+     -0.6548770370447103,
+     0.00013443243675550004,
+     0.0006505387159963064,
+     -2.7537793786313296,
+     -0.00013150449187976064,
+     8303.771154332022,
+     1.5161478975004203,
+     -2.762913558101098e-13,
+     0.0
+    ],
+    "tRef": 2400786.6563355015,
+    "residuoMaxGradi": 0.18308190418058712,
+    "sigmaN": 1.0679952121155483e-07,
+    "validazioneIncrociata": {
+     "primaMeta": {
+      "pendenzaRadAnno": -1.0679952121155483e-07,
+      "maxRad": 0.003837573357857828
+     },
+     "secondaMeta": {
+      "pendenzaRadAnno": 9.666747369888541e-08,
+      "maxRad": 0.0034025582118149935
+     },
+     "sigmaN": 1.0679952121155483e-07
+    }
+   },
+   "confronto": {
+    "kernel": [
+     "ura111xl-702.bsp"
+    ],
+    "intervalli": [
+     {
+      "anni": [
+       -10500.0,
+       -10000.0
+      ],
+      "maxDifferenzaGradi": 61.47151633736011,
+      "epsEstrapolazioneMinGradi": 2246.639501988977,
+      "epsEstrapolazioneMaxGradi": 2246.674253918336
+     },
+     {
+      "anni": [
+       -10000.0,
+       -9500.0
+      ],
+      "maxDifferenzaGradi": 86.24279023293958,
+      "epsEstrapolazioneMinGradi": 2061.8170542998855,
+      "epsEstrapolazioneMaxGradi": 2246.5641357798763
+     },
+     {
+      "anni": [
+       -9500.0,
+       -9000.0
+      ],
+      "maxDifferenzaGradi": 110.0739523957397,
+      "epsEstrapolazioneMinGradi": 1884.9200150890128,
+      "epsEstrapolazioneMaxGradi": 2061.792259620462
+     },
+     {
+      "anni": [
+       -9000.0,
+       -8500.0
+      ],
+      "maxDifferenzaGradi": 132.70074178072238,
+      "epsEstrapolazioneMinGradi": 1715.974445272965,
+      "epsEstrapolazioneMaxGradi": 1884.9190520077907
+     },
+     {
+      "anni": [
+       -8500.0,
+       -8000.0
+      ],
+      "maxDifferenzaGradi": 154.2593366845604,
+      "epsEstrapolazioneMinGradi": 1554.9354339413067,
+      "epsEstrapolazioneMaxGradi": 1715.9477691315665
+     },
+     {
+      "anni": [
+       -8000.0,
+       -7500.0
+      ],
+      "maxDifferenzaGradi": 174.6574309383904,
+      "epsEstrapolazioneMinGradi": 1401.8503743724555,
+      "epsEstrapolazioneMaxGradi": 1554.8928427937128
+     },
+     {
+      "anni": [
+       -7500.0,
+       -7000.0
+      ],
+      "maxDifferenzaGradi": 179.9693346626924,
+      "epsEstrapolazioneMinGradi": 1256.685688224749,
+      "epsEstrapolazioneMaxGradi": 1401.8199476624604
+     },
+     {
+      "anni": [
+       -7000.0,
+       -6500.0
+      ],
+      "maxDifferenzaGradi": 167.711008556094,
+      "epsEstrapolazioneMinGradi": 1119.4581042503119,
+      "epsEstrapolazioneMaxGradi": 1256.669308834095
+     },
+     {
+      "anni": [
+       -6500.0,
+       -6000.0
+      ],
+      "maxDifferenzaGradi": 149.34323973371772,
+      "epsEstrapolazioneMinGradi": 990.1732097737851,
+      "epsEstrapolazioneMaxGradi": 1119.443963588095
+     },
+     {
+      "anni": [
+       -6000.0,
+       -5500.0
+      ],
+      "maxDifferenzaGradi": 131.92151634080932,
+      "epsEstrapolazioneMinGradi": 868.7837982451103,
+      "epsEstrapolazioneMaxGradi": 990.123394230899
+     },
+     {
+      "anni": [
+       -5500.0,
+       -5000.0
+      ],
+      "maxDifferenzaGradi": 115.50903444668344,
+      "epsEstrapolazioneMinGradi": 755.3490432689349,
+      "epsEstrapolazioneMaxGradi": 868.7645614951266
+     },
+     {
+      "anni": [
+       -5000.0,
+       -4500.0
+      ],
+      "maxDifferenzaGradi": 100.465333597431,
+      "epsEstrapolazioneMinGradi": 649.8484500097991,
+      "epsEstrapolazioneMaxGradi": 755.3401967521571
+     },
+     {
+      "anni": [
+       -4500.0,
+       -4000.0
+      ],
+      "maxDifferenzaGradi": 86.58642465621526,
+      "epsEstrapolazioneMinGradi": 552.2790122335707,
+      "epsEstrapolazioneMaxGradi": 649.8364598003972
+     },
+     {
+      "anni": [
+       -4000.0,
+       -3500.0
+      ],
+      "maxDifferenzaGradi": 73.8717249914762,
+      "epsEstrapolazioneMinGradi": 462.6437387437466,
+      "epsEstrapolazioneMaxGradi": 552.2554030885447
+     },
+     {
+      "anni": [
+       -3500.0,
+       -3000.0
+      ],
+      "maxDifferenzaGradi": 62.09715833149956,
+      "epsEstrapolazioneMinGradi": 380.9406488347599,
+      "epsEstrapolazioneMaxGradi": 462.62107026926225
+     },
+     {
+      "anni": [
+       -3000.0,
+       -2500.0
+      ],
+      "maxDifferenzaGradi": 51.29275216422184,
+      "epsEstrapolazioneMinGradi": 307.1635427287871,
+      "epsEstrapolazioneMaxGradi": 380.92097481398514
+     },
+     {
+      "anni": [
+       -2500.0,
+       -2000.0
+      ],
+      "maxDifferenzaGradi": 41.62741201873159,
+      "epsEstrapolazioneMinGradi": 241.32274083518843,
+      "epsEstrapolazioneMaxGradi": 307.1513276965403
+     },
+     {
+      "anni": [
+       -2000.0,
+       -1500.0
+      ],
+      "maxDifferenzaGradi": 32.8353242263598,
+      "epsEstrapolazioneMinGradi": 183.4236730658891,
+      "epsEstrapolazioneMaxGradi": 241.31738364481583
+     },
+     {
+      "anni": [
+       -1500.0,
+       -1000.0
+      ],
+      "maxDifferenzaGradi": 25.073373475939363,
+      "epsEstrapolazioneMinGradi": 133.44145062252875,
+      "epsEstrapolazioneMaxGradi": 183.41096437679317
+     },
+     {
+      "anni": [
+       -1000.0,
+       -500.0
+      ],
+      "maxDifferenzaGradi": 18.398352962714153,
+      "epsEstrapolazioneMinGradi": 91.39792322481188,
+      "epsEstrapolazioneMaxGradi": 133.4313675115014
+     },
+     {
+      "anni": [
+       -500.0,
+       0.0
+      ],
+      "maxDifferenzaGradi": 12.680744925139026,
+      "epsEstrapolazioneMinGradi": 57.286441983584844,
+      "epsEstrapolazioneMaxGradi": 91.38446939925869,
+      "maxDifferenzaDoveDeterminabileGradi": 12.530256981930059,
+      "maxRapportoDifferenzaEps": 0.14336536287654814
+     },
+     {
+      "anni": [
+       0.0,
+       500.0
+      ],
+      "maxDifferenzaGradi": 8.061435203244905,
+      "epsEstrapolazioneMinGradi": 31.10325397239188,
+      "epsEstrapolazioneMaxGradi": 57.28100460093068,
+      "maxDifferenzaDoveDeterminabileGradi": 8.061435203244905,
+      "maxRapportoDifferenzaEps": 0.14840771281641676
+     },
+     {
+      "anni": [
+       500.0,
+       1000.0
+      ],
+      "maxDifferenzaGradi": 4.585822846590555,
+      "epsEstrapolazioneMinGradi": 12.856568882548794,
+      "epsEstrapolazioneMaxGradi": 31.10209780783906,
+      "maxDifferenzaDoveDeterminabileGradi": 4.585822846590555,
+      "maxRapportoDifferenzaEps": 0.16167456420378978
+     },
+     {
+      "anni": [
+       1000.0,
+       1500.0
+      ],
+      "maxDifferenzaGradi": 1.9708781280260532,
+      "epsEstrapolazioneMinGradi": 2.544811594111613,
+      "epsEstrapolazioneMaxGradi": 12.85274724295918,
+      "maxDifferenzaDoveDeterminabileGradi": 1.9708781280260532,
+      "maxRapportoDifferenzaEps": 0.21316122528748088
+     },
+     {
+      "anni": [
+       1500.0,
+       2000.0
+      ],
+      "maxDifferenzaGradi": 0.543992795959538,
+      "epsEstrapolazioneMinGradi": 1.4309930793430155,
+      "epsEstrapolazioneMaxGradi": 2.5389816308484923,
+      "maxDifferenzaDoveDeterminabileGradi": 0.543992795959538,
+      "maxRapportoDifferenzaEps": 0.263983824211838
+     }
+    ],
+    "maxRapportoDoveDeterminabile": 0.263983824211838,
+    "maxDifferenzaDoveDeterminabileGradi": 12.530256981930059,
+    "livelloCambia": 0.006164941258578574
+   }
+  },
+  "titania": {
+   "secolare": {
+    "x": [
+     436279.0031995661,
+     0.0007640389729035053,
+     -2.169220360388113,
+     -0.04336064745625362,
+     0.0006847347434787729,
+     2.6578474538607497,
+     -8.829698800846383e-05,
+     3955.4090496639906,
+     0.7217183419318687,
+     -1.0847376571119095e-14,
+     0.0
+    ],
+    "tRef": 2400787.5276643042,
+    "residuoMaxGradi": 0.3216725956408576,
+    "sigmaN": 4.6230370443419217e-08,
+    "validazioneIncrociata": {
+     "primaMeta": {
+      "pendenzaRadAnno": -4.6230370443419217e-08,
+      "maxRad": 0.00558708434858385
+     },
+     "secondaMeta": {
+      "pendenzaRadAnno": 4.455099628136843e-08,
+      "maxRad": 0.005686933435587671
+     },
+     "sigmaN": 4.6230370443419217e-08
+    }
+   },
+   "confronto": {
+    "kernel": [
+     "ura111xl-703.bsp"
+    ],
+    "intervalli": [
+     {
+      "anni": [
+       -10500.0,
+       -10000.0
+      ],
+      "maxDifferenzaGradi": 4.5026721130756275,
+      "epsEstrapolazioneMinGradi": 1069.445313228529,
+      "epsEstrapolazioneMaxGradi": 1069.4916664010686
+     },
+     {
+      "anni": [
+       -10000.0,
+       -9500.0
+      ],
+      "maxDifferenzaGradi": 5.047030435579427,
+      "epsEstrapolazioneMinGradi": 981.4895282865524,
+      "epsEstrapolazioneMaxGradi": 1069.4381520980314
+     },
+     {
+      "anni": [
+       -9500.0,
+       -9000.0
+      ],
+      "maxDifferenzaGradi": 5.266409586829981,
+      "epsEstrapolazioneMinGradi": 897.3019316780366,
+      "epsEstrapolazioneMaxGradi": 981.441744553296
+     },
+     {
+      "anni": [
+       -9000.0,
+       -8500.0
+      ],
+      "maxDifferenzaGradi": 5.436055760435605,
+      "epsEstrapolazioneMinGradi": 816.8419085597016,
+      "epsEstrapolazioneMaxGradi": 897.2493803659723
+     },
+     {
+      "anni": [
+       -8500.0,
+       -8000.0
+      ],
+      "maxDifferenzaGradi": 5.638065819483868,
+      "epsEstrapolazioneMinGradi": 740.1907575000091,
+      "epsEstrapolazioneMaxGradi": 816.822794532645
+     },
+     {
+      "anni": [
+       -8000.0,
+       -7500.0
+      ],
+      "maxDifferenzaGradi": 5.749283808530394,
+      "epsEstrapolazioneMinGradi": 667.3093413830086,
+      "epsEstrapolazioneMaxGradi": 740.1704225531995
+     },
+     {
+      "anni": [
+       -7500.0,
+       -7000.0
+      ],
+      "maxDifferenzaGradi": 5.861078958811131,
+      "epsEstrapolazioneMinGradi": 598.2112652520938,
+      "epsEstrapolazioneMaxGradi": 667.3020919603379
+     },
+     {
+      "anni": [
+       -7000.0,
+       -6500.0
+      ],
+      "maxDifferenzaGradi": 5.929302474867219,
+      "epsEstrapolazioneMinGradi": 532.8855534136408,
+      "epsEstrapolazioneMaxGradi": 598.2007003349382
+     },
+     {
+      "anni": [
+       -6500.0,
+       -6000.0
+      ],
+      "maxDifferenzaGradi": 5.953708932986099,
+      "epsEstrapolazioneMinGradi": 471.35076740658855,
+      "epsEstrapolazioneMaxGradi": 532.8765288280619
+     },
+     {
+      "anni": [
+       -6000.0,
+       -5500.0
+      ],
+      "maxDifferenzaGradi": 5.947546867053026,
+      "epsEstrapolazioneMinGradi": 413.57797439301964,
+      "epsEstrapolazioneMaxGradi": 471.326731395381
+     },
+     {
+      "anni": [
+       -5500.0,
+       -5000.0
+      ],
+      "maxDifferenzaGradi": 5.875907128724056,
+      "epsEstrapolazioneMinGradi": 359.5597176909456,
+      "epsEstrapolazioneMaxGradi": 413.55306463429713
+     },
+     {
+      "anni": [
+       -5000.0,
+       -4500.0
+      ],
+      "maxDifferenzaGradi": 5.7631076968137975,
+      "epsEstrapolazioneMinGradi": 309.3396506248467,
+      "epsEstrapolazioneMaxGradi": 359.55381631258336
+     },
+     {
+      "anni": [
+       -4500.0,
+       -4000.0
+      ],
+      "maxDifferenzaGradi": 5.60718063662705,
+      "epsEstrapolazioneMinGradi": 262.8992612913176,
+      "epsEstrapolazioneMaxGradi": 309.33679336867914
+     },
+     {
+      "anni": [
+       -4000.0,
+       -3500.0
+      ],
+      "maxDifferenzaGradi": 5.4601358315407635,
+      "epsEstrapolazioneMinGradi": 220.2280241468483,
+      "epsEstrapolazioneMaxGradi": 262.8933770225033
+     },
+     {
+      "anni": [
+       -3500.0,
+       -3000.0
+      ],
+      "maxDifferenzaGradi": 5.18229472384878,
+      "epsEstrapolazioneMinGradi": 181.36175147209366,
+      "epsEstrapolazioneMaxGradi": 220.22248884807183
+     },
+     {
+      "anni": [
+       -3000.0,
+       -2500.0
+      ],
+      "maxDifferenzaGradi": 5.029606744023674,
+      "epsEstrapolazioneMinGradi": 146.21497146851618,
+      "epsEstrapolazioneMaxGradi": 181.32961991894325
+     },
+     {
+      "anni": [
+       -2500.0,
+       -2000.0
+      ],
+      "maxDifferenzaGradi": 4.683030647201112,
+      "epsEstrapolazioneMinGradi": 114.8738972347317,
+      "epsEstrapolazioneMaxGradi": 146.2137177774764
+     },
+     {
+      "anni": [
+       -2000.0,
+       -1500.0
+      ],
+      "maxDifferenzaGradi": 4.39334572895116,
+      "epsEstrapolazioneMinGradi": 87.309505085988,
+      "epsEstrapolazioneMaxGradi": 114.87057480115685,
+      "maxDifferenzaDoveDeterminabileGradi": 4.115808139033272,
+      "maxRapportoDifferenzaEps": 0.04684262400368011
+     },
+     {
+      "anni": [
+       -1500.0,
+       -1000.0
+      ],
+      "maxDifferenzaGradi": 4.075938379042631,
+      "epsEstrapolazioneMinGradi": 63.52145035077859,
+      "epsEstrapolazioneMaxGradi": 87.30652944039144,
+      "maxDifferenzaDoveDeterminabileGradi": 4.075938379042631,
+      "maxRapportoDifferenzaEps": 0.05573750463077984
+     },
+     {
+      "anni": [
+       -1000.0,
+       -500.0
+      ],
+      "maxDifferenzaGradi": 3.599882926561749,
+      "epsEstrapolazioneMinGradi": 43.50522839916717,
+      "epsEstrapolazioneMaxGradi": 63.515329657409566,
+      "maxDifferenzaDoveDeterminabileGradi": 3.599882926561749,
+      "maxRapportoDifferenzaEps": 0.07439255948833547
+     },
+     {
+      "anni": [
+       -500.0,
+       0.0
+      ],
+      "maxDifferenzaGradi": 3.2339258722891735,
+      "epsEstrapolazioneMinGradi": 27.26753136037509,
+      "epsEstrapolazioneMaxGradi": 43.50043707140023,
+      "maxDifferenzaDoveDeterminabileGradi": 3.2339258722891735,
+      "maxRapportoDifferenzaEps": 0.09643543972261782
+     },
+     {
+      "anni": [
+       0.0,
+       500.0
+      ],
+      "maxDifferenzaGradi": 2.6166198015985622,
+      "epsEstrapolazioneMinGradi": 14.805632280651707,
+      "epsEstrapolazioneMaxGradi": 27.265976175470268,
+      "maxDifferenzaDoveDeterminabileGradi": 2.6166198015985622,
+      "maxRapportoDifferenzaEps": 0.1423196112997284
+     },
+     {
+      "anni": [
+       500.0,
+       1000.0
+      ],
+      "maxDifferenzaGradi": 2.1484540754208576,
+      "epsEstrapolazioneMinGradi": 6.122566244675014,
+      "epsEstrapolazioneMaxGradi": 14.802478377223213,
+      "maxDifferenzaDoveDeterminabileGradi": 2.1484540754208576,
+      "maxRapportoDifferenzaEps": 0.24845434044418124
+     },
+     {
+      "anni": [
+       1000.0,
+       1500.0
+      ],
+      "maxDifferenzaGradi": 1.5305065627740642,
+      "epsEstrapolazioneMinGradi": 1.2102273513608708,
+      "epsEstrapolazioneMaxGradi": 6.118686118649561,
+      "maxDifferenzaDoveDeterminabileGradi": 1.5305065627740642,
+      "maxRapportoDifferenzaEps": 0.6717477495688373
+     },
+     {
+      "anni": [
+       1500.0,
+       2000.0
+      ],
+      "maxDifferenzaGradi": 0.9369509060811503,
+      "epsEstrapolazioneMinGradi": 0.6809680934191463,
+      "epsEstrapolazioneMaxGradi": 1.2092446035113837,
+      "maxDifferenzaDoveDeterminabileGradi": 0.9369509060811503,
+      "maxRapportoDifferenzaEps": 1.1880288708115812
+     }
+    ],
+    "maxRapportoDoveDeterminabile": 1.1880288708115812,
+    "maxDifferenzaDoveDeterminabileGradi": 4.115808139033272,
+    "livelloCambia": 0.014902957486136783
+   }
+  },
+  "oberon": {
+   "secolare": {
+    "x": [
+     583448.6025484183,
+     0.001400078059277667,
+     2.6950054185683987,
+     1.999955039161567e-05,
+     0.0008939489166105414,
+     1.2096777527935456,
+     -1.2773076943873791e-05,
+     2556.5484727787552,
+     0.46669200647698167,
+     -5.298356870155937e-15,
+     0.0
+    ],
+    "tRef": 2400787.3559649885,
+    "residuoMaxGradi": 0.2352590581574336,
+    "sigmaN": 1.0154143895277605e-07,
+    "validazioneIncrociata": {
+     "primaMeta": {
+      "pendenzaRadAnno": 1.0154143895277605e-07,
+      "maxRad": 0.004590532329561011
+     },
+     "secondaMeta": {
+      "pendenzaRadAnno": -7.282870172143246e-08,
+      "maxRad": 0.00464936796668445
+     },
+     "sigmaN": 1.0154143895277605e-07
+    }
+   },
+   "confronto": {
+    "kernel": [
+     "ura111xl-704.bsp"
+    ],
+    "intervalli": [
+     {
+      "anni": [
+       -10500.0,
+       -10000.0
+      ],
+      "maxDifferenzaGradi": 0.4040990105131848,
+      "epsEstrapolazioneMinGradi": 691.6026884230516,
+      "epsEstrapolazioneMaxGradi": 691.6188504099651
+     },
+     {
+      "anni": [
+       -10000.0,
+       -9500.0
+      ],
+      "maxDifferenzaGradi": 0.6716331889030064,
+      "epsEstrapolazioneMinGradi": 634.7003677865439,
+      "epsEstrapolazioneMaxGradi": 691.5891207909065
+     },
+     {
+      "anni": [
+       -9500.0,
+       -9000.0
+      ],
+      "maxDifferenzaGradi": 0.8231921826076387,
+      "epsEstrapolazioneMinGradi": 580.2721066704777,
+      "epsEstrapolazioneMaxGradi": 634.6878412192681
+     },
+     {
+      "anni": [
+       -9000.0,
+       -8500.0
+      ],
+      "maxDifferenzaGradi": 1.0849482891725597,
+      "epsEstrapolazioneMinGradi": 528.2461018843222,
+      "epsEstrapolazioneMaxGradi": 580.2377513239636
+     },
+     {
+      "anni": [
+       -8500.0,
+       -8000.0
+      ],
+      "maxDifferenzaGradi": 1.2065284852460674,
+      "epsEstrapolazioneMinGradi": 478.6902912061293,
+      "epsEstrapolazioneMaxGradi": 528.2269460509269
+     },
+     {
+      "anni": [
+       -8000.0,
+       -7500.0
+      ],
+      "maxDifferenzaGradi": 1.4045999982765234,
+      "epsEstrapolazioneMinGradi": 431.5491063566723,
+      "epsEstrapolazioneMaxGradi": 478.6683992619389
+     },
+     {
+      "anni": [
+       -7500.0,
+       -7000.0
+      ],
+      "maxDifferenzaGradi": 1.4832690319266184,
+      "epsEstrapolazioneMinGradi": 386.86680275602424,
+      "epsEstrapolazioneMaxGradi": 431.54195972901823
+     },
+     {
+      "anni": [
+       -7000.0,
+       -6500.0
+      ],
+      "maxDifferenzaGradi": 1.6141870131137466,
+      "epsEstrapolazioneMinGradi": 344.63055170529293,
+      "epsEstrapolazioneMaxGradi": 386.8516085935679
+     },
+     {
+      "anni": [
+       -6500.0,
+       -6000.0
+      ],
+      "maxDifferenzaGradi": 1.6940672596475836,
+      "epsEstrapolazioneMinGradi": 304.8174537849537,
+      "epsEstrapolazioneMaxGradi": 344.6136693360703
+     },
+     {
+      "anni": [
+       -6000.0,
+       -5500.0
+      ],
+      "maxDifferenzaGradi": 1.7621210445313538,
+      "epsEstrapolazioneMinGradi": 267.4539641151517,
+      "epsEstrapolazioneMaxGradi": 304.8047757390005
+     },
+     {
+      "anni": [
+       -5500.0,
+       -5000.0
+      ],
+      "maxDifferenzaGradi": 1.8085008897860446,
+      "epsEstrapolazioneMinGradi": 232.5344362628053,
+      "epsEstrapolazioneMaxGradi": 267.44734933165824
+     },
+     {
+      "anni": [
+       -5000.0,
+       -4500.0
+      ],
+      "maxDifferenzaGradi": 1.849600007973072,
+      "epsEstrapolazioneMinGradi": 200.06004568565564,
+      "epsEstrapolazioneMaxGradi": 232.53196918643314
+     },
+     {
+      "anni": [
+       -4500.0,
+       -4000.0
+      ],
+      "maxDifferenzaGradi": 1.8566918420143554,
+      "epsEstrapolazioneMinGradi": 170.02387923462877,
+      "epsEstrapolazioneMaxGradi": 200.0552218762037
+     },
+     {
+      "anni": [
+       -4000.0,
+       -3500.0
+      ],
+      "maxDifferenzaGradi": 1.832107924530003,
+      "epsEstrapolazioneMinGradi": 142.428586578475,
+      "epsEstrapolazioneMaxGradi": 170.01698525633654
+     },
+     {
+      "anni": [
+       -3500.0,
+       -3000.0
+      ],
+      "maxDifferenzaGradi": 1.8031558160119914,
+      "epsEstrapolazioneMinGradi": 117.2773703717563,
+      "epsEstrapolazioneMaxGradi": 142.42342772223827
+     },
+     {
+      "anni": [
+       -3000.0,
+       -2500.0
+      ],
+      "maxDifferenzaGradi": 1.7385485012493274,
+      "epsEstrapolazioneMinGradi": 94.56923368201032,
+      "epsEstrapolazioneMaxGradi": 117.27312983878757
+     },
+     {
+      "anni": [
+       -2500.0,
+       -2000.0
+      ],
+      "maxDifferenzaGradi": 1.671635583343901,
+      "epsEstrapolazioneMinGradi": 74.2987875567363,
+      "epsEstrapolazioneMaxGradi": 94.56212989939968,
+      "maxDifferenzaDoveDeterminabileGradi": 1.667534025244409,
+      "maxRapportoDifferenzaEps": 0.02170523177165515
+     },
+     {
+      "anni": [
+       -2000.0,
+       -1500.0
+      ],
+      "maxDifferenzaGradi": 1.60706605561979,
+      "epsEstrapolazioneMinGradi": 56.47168758379241,
+      "epsEstrapolazioneMaxGradi": 74.2953562824555,
+      "maxDifferenzaDoveDeterminabileGradi": 1.60706605561979,
+      "maxRapportoDifferenzaEps": 0.026322863049866335
+     },
+     {
+      "anni": [
+       -1500.0,
+       -1000.0
+      ],
+      "maxDifferenzaGradi": 1.4751336472063072,
+      "epsEstrapolazioneMinGradi": 41.08686800231706,
+      "epsEstrapolazioneMaxGradi": 56.46995332664749,
+      "maxDifferenzaDoveDeterminabileGradi": 1.4751336472063072,
+      "maxRapportoDifferenzaEps": 0.033102099054688965
+     },
+     {
+      "anni": [
+       -1000.0,
+       -500.0
+      ],
+      "maxDifferenzaGradi": 1.3975026307688259,
+      "epsEstrapolazioneMinGradi": 28.142806540529513,
+      "epsEstrapolazioneMaxGradi": 41.084041381295144,
+      "maxDifferenzaDoveDeterminabileGradi": 1.3975026307688259,
+      "maxRapportoDifferenzaEps": 0.043504973922667924
+     },
+     {
+      "anni": [
+       -500.0,
+       0.0
+      ],
+      "maxDifferenzaGradi": 1.1901285859228907,
+      "epsEstrapolazioneMinGradi": 17.640091999850792,
+      "epsEstrapolazioneMaxGradi": 28.141386886460023,
+      "maxDifferenzaDoveDeterminabileGradi": 1.1901285859228907,
+      "maxRapportoDifferenzaEps": 0.056140173326408804
+     },
+     {
+      "anni": [
+       0.0,
+       500.0
+      ],
+      "maxDifferenzaGradi": 1.0630081511432148,
+      "epsEstrapolazioneMinGradi": 9.57960162320783,
+      "epsEstrapolazioneMaxGradi": 17.63928515831521,
+      "maxDifferenzaDoveDeterminabileGradi": 1.0630081511432148,
+      "maxRapportoDifferenzaEps": 0.09348052451564307
+     },
+     {
+      "anni": [
+       500.0,
+       1000.0
+      ],
+      "maxDifferenzaGradi": 0.8889312828059888,
+      "epsEstrapolazioneMinGradi": 3.961216366789502,
+      "epsEstrapolazioneMaxGradi": 9.579318737646606,
+      "maxDifferenzaDoveDeterminabileGradi": 0.8889312828059888,
+      "maxRapportoDifferenzaEps": 0.15606261564636617
+     },
+     {
+      "anni": [
+       1000.0,
+       1500.0
+      ],
+      "maxDifferenzaGradi": 0.6639640302290467,
+      "epsEstrapolazioneMinGradi": 0.7838376394235401,
+      "epsEstrapolazioneMaxGradi": 3.9599077417525614,
+      "maxDifferenzaDoveDeterminabileGradi": 0.6639640302290467,
+      "maxRapportoDifferenzaEps": 0.5520159175762801
+     },
+     {
+      "anni": [
+       1500.0,
+       2000.0
+      ],
+      "maxDifferenzaGradi": 0.44701448765920276,
+      "epsEstrapolazioneMinGradi": 0.44124237961809204,
+      "epsEstrapolazioneMaxGradi": 0.7833843264940563,
+      "maxDifferenzaDoveDeterminabileGradi": 0.44701448765920276,
+      "maxRapportoDifferenzaEps": 0.9217231894805578
+     }
+    ],
+    "maxRapportoDoveDeterminabile": 0.9217231894805578,
+    "maxDifferenzaDoveDeterminabileGradi": 1.667534025244409,
+    "livelloCambia": 0.002163585196840863
+   }
+  },
+  "nereide": {
+   "secolare": {
+    "x": [
+     5513700.123487621,
+     0.7507851084378928,
+     -2.021149148595433,
+     3.420509261203992e-07,
+     0.07647264385846833,
+     -1.1855186839902327,
+     -5.460604435910888e-07,
+     240.91899632619473,
+     0.017446853074529232,
+     -7.009889865611365e-14,
+     0.0
+    ],
+    "tRef": 2400787.992866843,
+    "residuoMaxGradi": 11.062432171519413,
+    "sigmaN": 1.4057104589338537e-05,
+    "validazioneIncrociata": {
+     "primaMeta": {
+      "pendenzaRadAnno": -1.3785901485973707e-05,
+      "maxRad": 0.28715396830740286
+     },
+     "secondaMeta": {
+      "pendenzaRadAnno": 1.4057104589338537e-05,
+      "maxRad": 0.2598149870986998
+     },
+     "sigmaN": 1.4057104589338537e-05
+    }
+   },
+   "confronto": {
+    "kernel": [
+     "nep101xl-802.bsp"
+    ],
+    "intervalli": [
+     {
+      "anni": [
+       -10500.0,
+       -10000.0
+      ],
+      "maxDifferenzaGradi": 111.25729283782898,
+      "epsEstrapolazioneMinGradi": 35.689279825999485,
+      "epsEstrapolazioneMaxGradi": 35.690690930466765,
+      "maxDifferenzaDoveDeterminabileGradi": 111.25729283782898,
+      "maxRapportoDifferenzaEps": 3.1172636319813027
+     },
+     {
+      "anni": [
+       -10000.0,
+       -9500.0
+      ],
+      "maxDifferenzaGradi": 171.37692061948042,
+      "epsEstrapolazioneMinGradi": 33.15087546454701,
+      "epsEstrapolazioneMaxGradi": 35.68918378827428,
+      "maxDifferenzaDoveDeterminabileGradi": 171.37692061948042,
+      "maxRapportoDifferenzaEps": 5.166981312655556
+     },
+     {
+      "anni": [
+       -9500.0,
+       -9000.0
+      ],
+      "maxDifferenzaGradi": 174.92467095904794,
+      "epsEstrapolazioneMinGradi": 30.704512386887984,
+      "epsEstrapolazioneMaxGradi": 33.15073204300945,
+      "maxDifferenzaDoveDeterminabileGradi": 174.92467095904794,
+      "maxRapportoDifferenzaEps": 5.6687349797623625
+     },
+     {
+      "anni": [
+       -9000.0,
+       -8500.0
+      ],
+      "maxDifferenzaGradi": 179.7688824447501,
+      "epsEstrapolazioneMinGradi": 28.34786855537907,
+      "epsEstrapolazioneMaxGradi": 30.703499504775596,
+      "maxDifferenzaDoveDeterminabileGradi": 179.7688824447501,
+      "maxRapportoDifferenzaEps": 6.331785521793357
+     },
+     {
+      "anni": [
+       -8500.0,
+       -8000.0
+      ],
+      "maxDifferenzaGradi": 179.66321327450365,
+      "epsEstrapolazioneMinGradi": 26.0846278392234,
+      "epsEstrapolazioneMaxGradi": 28.347630789226105,
+      "maxDifferenzaDoveDeterminabileGradi": 179.66321327450365,
+      "maxRapportoDifferenzaEps": 6.727350615036927
+     },
+     {
+      "anni": [
+       -8000.0,
+       -7500.0
+      ],
+      "maxDifferenzaGradi": 175.845156757376,
+      "epsEstrapolazioneMinGradi": 23.90989464107989,
+      "epsEstrapolazioneMaxGradi": 26.082766543835344,
+      "maxDifferenzaDoveDeterminabileGradi": 175.845156757376,
+      "maxRapportoDifferenzaEps": 7.217762795814796
+     },
+     {
+      "anni": [
+       -7500.0,
+       -7000.0
+      ],
+      "maxDifferenzaGradi": 173.28128092508277,
+      "epsEstrapolazioneMinGradi": 21.827937219128074,
+      "epsEstrapolazioneMaxGradi": 23.909740910303256,
+      "maxDifferenzaDoveDeterminabileGradi": 173.28128092508277,
+      "maxRapportoDifferenzaEps": 7.7935178029615475
+     },
+     {
+      "anni": [
+       -7000.0,
+       -6500.0
+      ],
+      "maxDifferenzaGradi": 170.6595918582369,
+      "epsEstrapolazioneMinGradi": 19.83715929347455,
+      "epsEstrapolazioneMaxGradi": 21.82733763414292,
+      "maxDifferenzaDoveDeterminabileGradi": 170.6595918582369,
+      "maxRapportoDifferenzaEps": 8.506875811633206
+     },
+     {
+      "anni": [
+       -6500.0,
+       -6000.0
+      ],
+      "maxDifferenzaGradi": 168.96975812920553,
+      "epsEstrapolazioneMinGradi": 17.937475703104333,
+      "epsEstrapolazioneMaxGradi": 19.836912611241758,
+      "maxDifferenzaDoveDeterminabileGradi": 168.96975812920553,
+      "maxRapportoDifferenzaEps": 9.401212507999874
+     },
+     {
+      "anni": [
+       -6000.0,
+       -5500.0
+      ],
+      "maxDifferenzaGradi": 170.9032690567963,
+      "epsEstrapolazioneMinGradi": 16.129286252110123,
+      "epsEstrapolazioneMaxGradi": 17.93726218524861,
+      "maxDifferenzaDoveDeterminabileGradi": 170.9032690567963,
+      "maxRapportoDifferenzaEps": 10.538402668413026
+     },
+     {
+      "anni": [
+       -5500.0,
+       -5000.0
+      ],
+      "maxDifferenzaGradi": 172.73696705034942,
+      "epsEstrapolazioneMinGradi": 14.412343537285984,
+      "epsEstrapolazioneMaxGradi": 16.12915885850246,
+      "maxDifferenzaDoveDeterminabileGradi": 172.73696705034942,
+      "maxRapportoDifferenzaEps": 11.929027389983968
+     },
+     {
+      "anni": [
+       -5000.0,
+       -4500.0
+      ],
+      "maxDifferenzaGradi": 173.44964712571198,
+      "epsEstrapolazioneMinGradi": 12.786886638258164,
+      "epsEstrapolazioneMaxGradi": 14.411957187080029,
+      "maxDifferenzaDoveDeterminabileGradi": 173.44964712571198,
+      "maxRapportoDifferenzaEps": 13.14943637971919
+     },
+     {
+      "anni": [
+       -4500.0,
+       -4000.0
+      ],
+      "maxDifferenzaGradi": 168.86592347647263,
+      "epsEstrapolazioneMinGradi": 11.252236023197636,
+      "epsEstrapolazioneMaxGradi": 12.786121327399039,
+      "maxDifferenzaDoveDeterminabileGradi": 168.86592347647263,
+      "maxRapportoDifferenzaEps": 13.835131440187695
+     },
+     {
+      "anni": [
+       -4000.0,
+       -3500.0
+      ],
+      "maxDifferenzaGradi": 156.1483107184882,
+      "epsEstrapolazioneMinGradi": 9.809128188787952,
+      "epsEstrapolazioneMaxGradi": 11.251974762115102,
+      "maxDifferenzaDoveDeterminabileGradi": 156.1483107184882,
+      "maxRapportoDifferenzaEps": 14.328567923210647
+     },
+     {
+      "anni": [
+       -3500.0,
+       -3000.0
+      ],
+      "maxDifferenzaGradi": 141.17866512541553,
+      "epsEstrapolazioneMinGradi": 8.457300118092233,
+      "epsEstrapolazioneMaxGradi": 9.808918731156766,
+      "maxDifferenzaDoveDeterminabileGradi": 141.17866512541553,
+      "maxRapportoDifferenzaEps": 14.683693164388846
+     },
+     {
+      "anni": [
+       -3000.0,
+       -2500.0
+      ],
+      "maxDifferenzaGradi": 123.99852728611255,
+      "epsEstrapolazioneMinGradi": 7.196926534914781,
+      "epsEstrapolazioneMaxGradi": 8.457253786256592,
+      "maxDifferenzaDoveDeterminabileGradi": 123.99852728611255,
+      "maxRapportoDifferenzaEps": 14.814145817407228
+     },
+     {
+      "anni": [
+       -2500.0,
+       -2000.0
+      ],
+      "maxDifferenzaGradi": 105.94372794966293,
+      "epsEstrapolazioneMinGradi": 6.027493851681103,
+      "epsEstrapolazioneMaxGradi": 7.196659727559885,
+      "maxDifferenzaDoveDeterminabileGradi": 105.94372794966293,
+      "maxRapportoDifferenzaEps": 14.868784866868035
+     },
+     {
+      "anni": [
+       -2000.0,
+       -1500.0
+      ],
+      "maxDifferenzaGradi": 85.76197660734212,
+      "epsEstrapolazioneMinGradi": 4.949560956153601,
+      "epsEstrapolazioneMaxGradi": 6.0274426143317665,
+      "maxDifferenzaDoveDeterminabileGradi": 85.76197660734212,
+      "maxRapportoDifferenzaEps": 14.675585413782652
+     },
+     {
+      "anni": [
+       -1500.0,
+       -1000.0
+      ],
+      "maxDifferenzaGradi": 69.94708116308534,
+      "epsEstrapolazioneMinGradi": 3.9631880390234717,
+      "epsEstrapolazioneMaxGradi": 4.949369631431304,
+      "maxDifferenzaDoveDeterminabileGradi": 69.94708116308534,
+      "maxRapportoDifferenzaEps": 14.554943594822062
+     },
+     {
+      "anni": [
+       -1000.0,
+       -500.0
+      ],
+      "maxDifferenzaGradi": 54.36158314558254,
+      "epsEstrapolazioneMinGradi": 3.067423556914278,
+      "epsEstrapolazioneMaxGradi": 3.9626292555590377,
+      "maxDifferenzaDoveDeterminabileGradi": 54.36158314558254,
+      "maxRapportoDifferenzaEps": 14.179502540009512
+     },
+     {
+      "anni": [
+       -500.0,
+       0.0
+      ],
+      "maxDifferenzaGradi": 40.53233010385447,
+      "epsEstrapolazioneMinGradi": 2.2632486449718283,
+      "epsEstrapolazioneMaxGradi": 3.06719233686924,
+      "maxDifferenzaDoveDeterminabileGradi": 40.53233010385447,
+      "maxRapportoDifferenzaEps": 13.755860984114177
+     },
+     {
+      "anni": [
+       0.0,
+       500.0
+      ],
+      "maxDifferenzaGradi": 29.26372654668308,
+      "epsEstrapolazioneMinGradi": 1.550392354171132,
+      "epsEstrapolazioneMaxGradi": 2.263132268350529,
+      "maxDifferenzaDoveDeterminabileGradi": 29.26372654668308,
+      "maxRapportoDifferenzaEps": 13.875130465009164
+     },
+     {
+      "anni": [
+       500.0,
+       1000.0
+      ],
+      "maxDifferenzaGradi": 21.15542039694868,
+      "epsEstrapolazioneMinGradi": 0.9287811938110985,
+      "epsEstrapolazioneMaxGradi": 1.5503117639929456,
+      "maxDifferenzaDoveDeterminabileGradi": 21.15542039694868,
+      "maxRapportoDifferenzaEps": 15.85640615325502
+     },
+     {
+      "anni": [
+       1000.0,
+       1500.0
+      ],
+      "maxDifferenzaGradi": 14.840547971603703,
+      "epsEstrapolazioneMinGradi": 0.3984554774944355,
+      "epsEstrapolazioneMaxGradi": 0.9287454500206543,
+      "maxDifferenzaDoveDeterminabileGradi": 14.840547971603703,
+      "maxRapportoDifferenzaEps": 25.405778131125043
+     },
+     {
+      "anni": [
+       1500.0,
+       2000.0
+      ],
+      "maxDifferenzaGradi": 11.039248733460992,
+      "epsEstrapolazioneMinGradi": 0.3033239102922074,
+      "epsEstrapolazioneMaxGradi": 0.3983908908402474,
+      "maxDifferenzaDoveDeterminabileGradi": 11.039248733460992,
+      "maxRapportoDifferenzaEps": 31.233577713311888
+     }
+    ],
+    "maxRapportoDoveDeterminabile": 31.233577713311888,
+    "maxDifferenzaDoveDeterminabileGradi": 179.7688824447501,
+    "livelloCambia": 0.24807975671693264
+   }
+  },
+  "tritone": {
+   "secolare": {
+    "x": [
+     354759.0715452111,
+     0.00012644845226611776,
+     -2.035818892618926,
+     1.95060857464986e-05,
+     0.20416720622068338,
+     2.744416000515584,
+     2.512673538354672e-05,
+     5859.951535316021,
+     1.0691408892892902,
+     7.876476382743945e-14,
+     0.0
+    ],
+    "tRef": 2437311.091183643,
+    "residuoMaxGradi": 0.0038864400205895194,
+    "sigmaN": 1.785248767515116e-08,
+    "validazioneIncrociata": {
+     "primaMeta": {
+      "pendenzaRadAnno": 1.7812417244398292e-08,
+      "maxRad": 9.387732114662968e-05
+     },
+     "secondaMeta": {
+      "pendenzaRadAnno": -1.785248767515116e-08,
+      "maxRad": 7.905689038706992e-05
+     },
+     "sigmaN": 1.785248767515116e-08
+    }
+   },
+   "confronto": {
+    "kernel": [
+     "nep097.bsp"
+    ],
+    "intervalli": [
+     {
+      "anni": [
+       1500.0,
+       2000.0
+      ],
+      "maxDifferenzaGradi": 0.4058572582035484,
+      "epsEstrapolazioneMinGradi": 0.11196513572357569,
+      "epsEstrapolazioneMaxGradi": 1.0069280251720967,
+      "maxDifferenzaDoveDeterminabileGradi": 0.4058572582035484,
+      "maxRapportoDifferenzaEps": 1.8917854448598235
+     }
+    ],
+    "maxRapportoDoveDeterminabile": 1.8917854448598235,
+    "maxDifferenzaDoveDeterminabileGradi": 0.4058572582035484,
+    "livelloCambia": 0.05771952817824377
+   }
+  }
+ },
+ "rapportoEquivalenza": 0.25,
+ "kernelLunghiAdottati": {
+  "mimas": [
+   "sat441xl_part-1.bsp",
+   "sat441xl_part-2.bsp"
+  ],
+  "encelado": [
+   "sat441xl_part-1.bsp",
+   "sat441xl_part-2.bsp"
+  ],
+  "teti": [
+   "sat441xl_part-1.bsp",
+   "sat441xl_part-2.bsp"
+  ],
+  "dione": [],
+  "rea": [],
+  "titano": [
+   "sat441xl_part-1.bsp",
+   "sat441xl_part-2.bsp"
+  ],
+  "iperione": [
+   "sat441xl_part-1.bsp",
+   "sat441xl_part-2.bsp"
+  ],
+  "giapeto": [
+   "sat441xl_part-1.bsp",
+   "sat441xl_part-2.bsp"
+  ],
+  "febe": [
+   "sat441xl_part-1.bsp",
+   "sat441xl_part-2.bsp"
+  ],
+  "miranda": [
+   "ura111xl-705.bsp"
+  ],
+  "ariel": [
+   "ura111xl-701.bsp"
+  ],
+  "umbriel": [
+   "ura111xl-702.bsp"
+  ],
+  "titania": [
+   "ura111xl-703.bsp"
+  ],
+  "oberon": [
+   "ura111xl-704.bsp"
+  ],
+  "tritone": [
+   "nep097.bsp"
+  ],
+  "nereide": [
+   "nep101xl-802.bsp"
+  ]
+ }
+}

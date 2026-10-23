@@ -1,0 +1,2200 @@
+{
+ "descrizione": "Stati planetocentrici (eclittica J2000) dai file sats/sKK.bin valutati in Python, posizioni vere dai kernel SPK (NaN dove non disponibili) e scarti dei centri dei pianeti",
+ "generatore": "scripts/pipeline/satellites.py fixture",
+ "seme": 20261021,
+ "file": "satelliti.bin",
+ "colonne": [
+  "ssid",
+  "t",
+  "x",
+  "y",
+  "z",
+  "vx",
+  "vy",
+  "vz",
+  "xVero",
+  "yVero",
+  "zVero",
+  "epsModello"
+ ],
+ "righe": 10399,
+ "fileCentri": "centri.bin",
+ "colonneCentri": [
+  "pianeta",
+  "t",
+  "dx",
+  "dy",
+  "dz",
+  "dvx",
+  "dvy",
+  "dvz",
+  "dxVero",
+  "dyVero",
+  "dzVero",
+  "epsMax"
+ ],
+ "righeCentri": 1200,
+ "sha256": "07b2f886afa0500f09418d73ad0915fbffc0f276deb4b0f89fba69dfbbeec212",
+ "sha256Centri": "16ef37df5e812e6bea96129977cbd39c42c11a398d9e75a969dc553ace3975cc",
+ "sha256File": {
+  "s00.bin": "70b5aa55022919bd84bd877ea66eb03ceac085f000cbb9380e35e9b959ee33df",
+  "s01.bin": "5d1458b353e44d62e96aa590a9bb8a88052250e58af26e7fb77a2012a77ea3d9",
+  "s02.bin": "ecb4082fe032d9adaea8e7ed46352017de2f8b7bd18c7fd1a46c10a469251526",
+  "s03.bin": "362551a1b9b10b0139230c1d9b200d0a40d2673830ff22ab3ad3d3d4bd904efd",
+  "s04.bin": "b0d46925b350785734bcae263c1a3a8acf2b1c8f8fff2dfb533b7ff7c6512808",
+  "s05.bin": "3afd87a6be2f8167742415d76ea6b7d16da40e918c944c510918c415b69d7efa",
+  "s06.bin": "17a895e196527a9eb3cb84ad43cdfc86cc271f269cce372aa8ae1c507655b276",
+  "s07.bin": "5aadde54197b5e3e4af4384212b91f7797dd19f803f41195e0b5517bdf36154e",
+  "s08.bin": "35a666b0d53f1c3bda4ff146d65b037067d4ef0337f83708eee323f0bd8eba05",
+  "s09.bin": "2e8dd9b8bf0247afc8738e04e9a28d22942a6dddd10ef5f7d5962a6773b16252",
+  "s10.bin": "8a259c1b99ef70b5670ffca358f6d91e3982fa2300f5b37332470a12a7c00f86",
+  "s11.bin": "45310e35a57f3526951a1ba2f906d531c062830c8131c8a43ba19de621739fc3",
+  "s12.bin": "8fc0f8308a9a0f4b49ddaf2f35058e6da5ff547d054363fe0ca33ed9bb0d49f1"
+ },
+ "configurazioni": [
+  {
+   "ssid": 83,
+   "slug": "fobos",
+   "primario": 4,
+   "rF": [
+    0.6728342837381822,
+    -0.5901811839228602,
+    0.44607196366722995,
+    0.6787470203186161,
+    0.7323181105277954,
+    -0.05488777096585296,
+    -0.2942728479406953,
+    0.3397003902506013,
+    0.8933124514012225
+   ],
+   "frequenze": [
+    19.691361285875978,
+    0.009144256748507298,
+    19.709663894413666,
+    0.018292222889835404,
+    0.007628304282644842,
+    27.15567473684568
+   ],
+   "gm": 0.0007087546066894452,
+   "baricentrico": false,
+   "pianoSecolare": {
+    "coefficienti": {
+     "alfa0": [
+      317.269202,
+      -0.10927547
+     ],
+     "delta0": [
+      54.432516,
+      -0.05827105
+     ],
+     "w": [
+      176.049863,
+      350.891982443297
+     ],
+     "periodici": [
+      {
+       "coordinata": "alfa0",
+       "funzione": "sin",
+       "ampiezza": 6.8e-05,
+       "argomento": [
+        198.991226,
+        19139.4819985
+       ],
+       "unita": "secolo"
+      },
+      {
+       "coordinata": "alfa0",
+       "funzione": "sin",
+       "ampiezza": 0.000238,
+       "argomento": [
+        226.292679,
+        38280.8511281
+       ],
+       "unita": "secolo"
+      },
+      {
+       "coordinata": "alfa0",
+       "funzione": "sin",
+       "ampiezza": 5.2e-05,
+       "argomento": [
+        249.663391,
+        57420.7251593
+       ],
+       "unita": "secolo"
+      },
+      {
+       "coordinata": "alfa0",
+       "funzione": "sin",
+       "ampiezza": 9e-06,
+       "argomento": [
+        266.18351,
+        76560.636795
+       ],
+       "unita": "secolo"
+      },
+      {
+       "coordinata": "alfa0",
+       "funzione": "sin",
+       "ampiezza": 0.419057,
+       "argomento": [
+        79.398797,
+        0.5042615
+       ],
+       "unita": "secolo"
+      },
+      {
+       "coordinata": "delta0",
+       "funzione": "cos",
+       "ampiezza": 5.1e-05,
+       "argomento": [
+        122.433576,
+        19139.9407476
+       ],
+       "unita": "secolo"
+      },
+      {
+       "coordinata": "delta0",
+       "funzione": "cos",
+       "ampiezza": 0.000141,
+       "argomento": [
+        43.058401,
+        38280.8753272
+       ],
+       "unita": "secolo"
+      },
+      {
+       "coordinata": "delta0",
+       "funzione": "cos",
+       "ampiezza": 3.1e-05,
+       "argomento": [
+        57.663379,
+        57420.7517205
+       ],
+       "unita": "secolo"
+      },
+      {
+       "coordinata": "delta0",
+       "funzione": "cos",
+       "ampiezza": 5e-06,
+       "argomento": [
+        79.476401,
+        76560.6495004
+       ],
+       "unita": "secolo"
+      },
+      {
+       "coordinata": "delta0",
+       "funzione": "cos",
+       "ampiezza": 1.591274,
+       "argomento": [
+        166.325722,
+        0.5042615
+       ],
+       "unita": "secolo"
+      },
+      {
+       "coordinata": "w",
+       "funzione": "sin",
+       "ampiezza": 0.000145,
+       "argomento": [
+        129.071773,
+        19140.0328244
+       ],
+       "unita": "secolo"
+      },
+      {
+       "coordinata": "w",
+       "funzione": "sin",
+       "ampiezza": 0.000157,
+       "argomento": [
+        36.352167,
+        38281.0473591
+       ],
+       "unita": "secolo"
+      },
+      {
+       "coordinata": "w",
+       "funzione": "sin",
+       "ampiezza": 4e-05,
+       "argomento": [
+        56.668646,
+        57420.929536
+       ],
+       "unita": "secolo"
+      },
+      {
+       "coordinata": "w",
+       "funzione": "sin",
+       "ampiezza": 1e-06,
+       "argomento": [
+        67.364003,
+        76560.2552215
+       ],
+       "unita": "secolo"
+      },
+      {
+       "coordinata": "w",
+       "funzione": "sin",
+       "ampiezza": 1e-06,
+       "argomento": [
+        104.79268,
+        95700.4387578
+       ],
+       "unita": "secolo"
+      },
+      {
+       "coordinata": "w",
+       "funzione": "sin",
+       "ampiezza": 0.584542,
+       "argomento": [
+        95.391654,
+        0.5042615
+       ],
+       "unita": "secolo"
+      }
+     ]
+    },
+    "intervalli": [
+     {
+      "inizio": -1931200.5,
+      "fine": 2305082.25,
+      "giunzione": 2305082.25
+     }
+    ]
+   },
+   "tolleranzaGradi": 0.5,
+   "tolleranzaRadiale": 0.01
+  },
+  {
+   "ssid": 84,
+   "slug": "deimos",
+   "primario": 4,
+   "rF": [
+    0.6857657439170461,
+    -0.5854438917344786,
+    0.4324127589476153,
+    0.6677639324151814,
+    0.7424232213388424,
+    -0.05384320739210539,
+    -0.2895110965668041,
+    0.32567347151348447,
+    0.9000667280357842
+   ],
+   "frequenze": [
+    0.00914514368502347,
+    2.2944133407249385,
+    0.01828802493958017,
+    0.027433503701233278,
+    0.018606668604153956,
+    3.44162000575019
+   ],
+   "gm": 9.615569648120313e-05,
+   "baricentrico": false,
+   "pianoSecolare": {
+    "coefficienti": {
+     "alfa0": [
+      317.269202,
+      -0.10927547
+     ],
+     "delta0": [
+      54.432516,
+      -0.05827105
+     ],
+     "w": [
+      176.049863,
+      350.891982443297
+     ],
+     "periodici": [
+      {
+       "coordinata": "alfa0",
+       "funzione": "sin",
+       "ampiezza": 6.8e-05,
+       "argomento": [
+        198.991226,
+        19139.4819985
+       ],
+       "unita": "secolo"
+      },
+      {
+       "coordinata": "alfa0",
+       "funzione": "sin",
+       "ampiezza": 0.000238,
+       "argomento": [
+        226.292679,
+        38280.8511281
+       ],
+       "unita": "secolo"
+      },
+      {
+       "coordinata": "alfa0",
+       "funzione": "sin",
+       "ampiezza": 5.2e-05,
+       "argomento": [
+        249.663391,
+        57420.7251593
+       ],
+       "unita": "secolo"
+      },
+      {
+       "coordinata": "alfa0",
+       "funzione": "sin",
+       "ampiezza": 9e-06,
+       "argomento": [
+        266.18351,
+        76560.636795
+       ],
+       "unita": "secolo"
+      },
+      {
+       "coordinata": "alfa0",
+       "funzione": "sin",
+       "ampiezza": 0.419057,
+       "argomento": [
+        79.398797,
+        0.5042615
+       ],
+       "unita": "secolo"
+      },
+      {
+       "coordinata": "delta0",
+       "funzione": "cos",
+       "ampiezza": 5.1e-05,
+       "argomento": [
+        122.433576,
+        19139.9407476
+       ],
+       "unita": "secolo"
+      },
+      {
+       "coordinata": "delta0",
+       "funzione": "cos",
+       "ampiezza": 0.000141,
+       "argomento": [
+        43.058401,
+        38280.8753272
+       ],
+       "unita": "secolo"
+      },
+      {
+       "coordinata": "delta0",
+       "funzione": "cos",
+       "ampiezza": 3.1e-05,
+       "argomento": [
+        57.663379,
+        57420.7517205
+       ],
+       "unita": "secolo"
+      },
+      {
+       "coordinata": "delta0",
+       "funzione": "cos",
+       "ampiezza": 5e-06,
+       "argomento": [
+        79.476401,
+        76560.6495004
+       ],
+       "unita": "secolo"
+      },
+      {
+       "coordinata": "delta0",
+       "funzione": "cos",
+       "ampiezza": 1.591274,
+       "argomento": [
+        166.325722,
+        0.5042615
+       ],
+       "unita": "secolo"
+      },
+      {
+       "coordinata": "w",
+       "funzione": "sin",
+       "ampiezza": 0.000145,
+       "argomento": [
+        129.071773,
+        19140.0328244
+       ],
+       "unita": "secolo"
+      },
+      {
+       "coordinata": "w",
+       "funzione": "sin",
+       "ampiezza": 0.000157,
+       "argomento": [
+        36.352167,
+        38281.0473591
+       ],
+       "unita": "secolo"
+      },
+      {
+       "coordinata": "w",
+       "funzione": "sin",
+       "ampiezza": 4e-05,
+       "argomento": [
+        56.668646,
+        57420.929536
+       ],
+       "unita": "secolo"
+      },
+      {
+       "coordinata": "w",
+       "funzione": "sin",
+       "ampiezza": 1e-06,
+       "argomento": [
+        67.364003,
+        76560.2552215
+       ],
+       "unita": "secolo"
+      },
+      {
+       "coordinata": "w",
+       "funzione": "sin",
+       "ampiezza": 1e-06,
+       "argomento": [
+        104.79268,
+        95700.4387578
+       ],
+       "unita": "secolo"
+      },
+      {
+       "coordinata": "w",
+       "funzione": "sin",
+       "ampiezza": 0.584542,
+       "argomento": [
+        95.391654,
+        0.5042615
+       ],
+       "unita": "secolo"
+      }
+     ]
+    },
+    "intervalli": [
+     {
+      "inizio": -1931200.5,
+      "fine": 2305082.25,
+      "giunzione": 2305082.25
+     }
+    ]
+   },
+   "tolleranzaGradi": 0.5,
+   "tolleranzaRadiale": 0.01
+  },
+  {
+   "ssid": 85,
+   "slug": "io",
+   "primario": 5,
+   "rF": [
+    0.9994285699271729,
+    0.030507624536762458,
+    -0.014553984280941035,
+    -0.031012164212552852,
+    0.9988776057001048,
+    -0.03580187846579171,
+    0.013445418705998167,
+    0.03623277074624009,
+    0.9992529244590035
+   ],
+   "frequenze": [
+    0.013583869128239716,
+    0.01302615786132623,
+    3.5514317141400404,
+    0.003051533392154709,
+    1.7822295967866078,
+    0.012892710899708058
+   ],
+   "gm": 5959.915466180539,
+   "baricentrico": false,
+   "pianoSecolare": {
+    "coefficienti": {
+     "alfa0": [
+      268.056595,
+      -0.006499
+     ],
+     "delta0": [
+      64.495303,
+      0.002413
+     ],
+     "w": [
+      284.95,
+      870.536
+     ],
+     "periodici": [
+      {
+       "coordinata": "alfa0",
+       "funzione": "sin",
+       "ampiezza": 0.000117,
+       "argomento": [
+        99.360714,
+        4850.4046
+       ],
+       "unita": "secolo"
+      },
+      {
+       "coordinata": "alfa0",
+       "funzione": "sin",
+       "ampiezza": 0.000938,
+       "argomento": [
+        175.895369,
+        1191.9605
+       ],
+       "unita": "secolo"
+      },
+      {
+       "coordinata": "alfa0",
+       "funzione": "sin",
+       "ampiezza": 0.001432,
+       "argomento": [
+        300.323162,
+        262.5475
+       ],
+       "unita": "secolo"
+      },
+      {
+       "coordinata": "alfa0",
+       "funzione": "sin",
+       "ampiezza": 3e-05,
+       "argomento": [
+        114.012305,
+        6070.2476
+       ],
+       "unita": "secolo"
+      },
+      {
+       "coordinata": "alfa0",
+       "funzione": "sin",
+       "ampiezza": 0.00215,
+       "argomento": [
+        49.511251,
+        64.3
+       ],
+       "unita": "secolo"
+      },
+      {
+       "coordinata": "delta0",
+       "funzione": "cos",
+       "ampiezza": 5e-05,
+       "argomento": [
+        99.360714,
+        4850.4046
+       ],
+       "unita": "secolo"
+      },
+      {
+       "coordinata": "delta0",
+       "funzione": "cos",
+       "ampiezza": 0.000404,
+       "argomento": [
+        175.895369,
+        1191.9605
+       ],
+       "unita": "secolo"
+      },
+      {
+       "coordinata": "delta0",
+       "funzione": "cos",
+       "ampiezza": 0.000617,
+       "argomento": [
+        300.323162,
+        262.5475
+       ],
+       "unita": "secolo"
+      },
+      {
+       "coordinata": "delta0",
+       "funzione": "cos",
+       "ampiezza": -1.3e-05,
+       "argomento": [
+        114.012305,
+        6070.2476
+       ],
+       "unita": "secolo"
+      },
+      {
+       "coordinata": "delta0",
+       "funzione": "cos",
+       "ampiezza": 0.000926,
+       "argomento": [
+        49.511251,
+        64.3
+       ],
+       "unita": "secolo"
+      }
+     ]
+    },
+    "intervalli": [
+     {
+      "inizio": -1931200.5,
+      "fine": 2305383.45,
+      "giunzione": 2305383.45
+     }
+    ]
+   },
+   "tolleranzaGradi": 0.5,
+   "tolleranzaRadiale": 0.01
+  },
+  {
+   "ssid": 86,
+   "slug": "europa",
+   "primario": 5,
+   "rF": [
+    0.9994396269879102,
+    0.030212078046607763,
+    -0.014410494313955404,
+    -0.030710743815163807,
+    0.9988891697512751,
+    -0.03573900905072223,
+    0.013314736970223543,
+    0.03616153887369713,
+    0.9992572546074909
+   ],
+   "frequenze": [
+    0.01302540990952562,
+    1.7692118179204845,
+    1.7686382962918743,
+    0.012863719613134138,
+    0.013570745807527648,
+    0.8911147842679699
+   ],
+   "gm": 3202.712099607295,
+   "baricentrico": false,
+   "pianoSecolare": {
+    "coefficienti": {
+     "alfa0": [
+      268.056595,
+      -0.006499
+     ],
+     "delta0": [
+      64.495303,
+      0.002413
+     ],
+     "w": [
+      284.95,
+      870.536
+     ],
+     "periodici": [
+      {
+       "coordinata": "alfa0",
+       "funzione": "sin",
+       "ampiezza": 0.000117,
+       "argomento": [
+        99.360714,
+        4850.4046
+       ],
+       "unita": "secolo"
+      },
+      {
+       "coordinata": "alfa0",
+       "funzione": "sin",
+       "ampiezza": 0.000938,
+       "argomento": [
+        175.895369,
+        1191.9605
+       ],
+       "unita": "secolo"
+      },
+      {
+       "coordinata": "alfa0",
+       "funzione": "sin",
+       "ampiezza": 0.001432,
+       "argomento": [
+        300.323162,
+        262.5475
+       ],
+       "unita": "secolo"
+      },
+      {
+       "coordinata": "alfa0",
+       "funzione": "sin",
+       "ampiezza": 3e-05,
+       "argomento": [
+        114.012305,
+        6070.2476
+       ],
+       "unita": "secolo"
+      },
+      {
+       "coordinata": "alfa0",
+       "funzione": "sin",
+       "ampiezza": 0.00215,
+       "argomento": [
+        49.511251,
+        64.3
+       ],
+       "unita": "secolo"
+      },
+      {
+       "coordinata": "delta0",
+       "funzione": "cos",
+       "ampiezza": 5e-05,
+       "argomento": [
+        99.360714,
+        4850.4046
+       ],
+       "unita": "secolo"
+      },
+      {
+       "coordinata": "delta0",
+       "funzione": "cos",
+       "ampiezza": 0.000404,
+       "argomento": [
+        175.895369,
+        1191.9605
+       ],
+       "unita": "secolo"
+      },
+      {
+       "coordinata": "delta0",
+       "funzione": "cos",
+       "ampiezza": 0.000617,
+       "argomento": [
+        300.323162,
+        262.5475
+       ],
+       "unita": "secolo"
+      },
+      {
+       "coordinata": "delta0",
+       "funzione": "cos",
+       "ampiezza": -1.3e-05,
+       "argomento": [
+        114.012305,
+        6070.2476
+       ],
+       "unita": "secolo"
+      },
+      {
+       "coordinata": "delta0",
+       "funzione": "cos",
+       "ampiezza": 0.000926,
+       "argomento": [
+        49.511251,
+        64.3
+       ],
+       "unita": "secolo"
+      }
+     ]
+    },
+    "intervalli": [
+     {
+      "inizio": -1931200.5,
+      "fine": 2305383.45,
+      "giunzione": 2305383.45
+     }
+    ]
+   },
+   "tolleranzaGradi": 0.5,
+   "tolleranzaRadiale": 0.01
+  },
+  {
+   "ssid": 87,
+   "slug": "ganimede",
+   "primario": 5,
+   "rF": [
+    0.9994937328305024,
+    0.028725366690573403,
+    -0.013679595792291624,
+    -0.0291909002021969,
+    0.9989558696486667,
+    -0.03514344661329514,
+    0.012655804120393424,
+    0.03552497435563104,
+    0.9992886504004227
+   ],
+   "frequenze": [
+    0.8911149464048573,
+    1.0034433616461451,
+    0.0014469976544922197,
+    0.01302763938295178,
+    0.013576240830632752,
+    0.5017216784541341
+   ],
+   "gm": 9887.832752719638,
+   "baricentrico": false,
+   "pianoSecolare": {
+    "coefficienti": {
+     "alfa0": [
+      268.056595,
+      -0.006499
+     ],
+     "delta0": [
+      64.495303,
+      0.002413
+     ],
+     "w": [
+      284.95,
+      870.536
+     ],
+     "periodici": [
+      {
+       "coordinata": "alfa0",
+       "funzione": "sin",
+       "ampiezza": 0.000117,
+       "argomento": [
+        99.360714,
+        4850.4046
+       ],
+       "unita": "secolo"
+      },
+      {
+       "coordinata": "alfa0",
+       "funzione": "sin",
+       "ampiezza": 0.000938,
+       "argomento": [
+        175.895369,
+        1191.9605
+       ],
+       "unita": "secolo"
+      },
+      {
+       "coordinata": "alfa0",
+       "funzione": "sin",
+       "ampiezza": 0.001432,
+       "argomento": [
+        300.323162,
+        262.5475
+       ],
+       "unita": "secolo"
+      },
+      {
+       "coordinata": "alfa0",
+       "funzione": "sin",
+       "ampiezza": 3e-05,
+       "argomento": [
+        114.012305,
+        6070.2476
+       ],
+       "unita": "secolo"
+      },
+      {
+       "coordinata": "alfa0",
+       "funzione": "sin",
+       "ampiezza": 0.00215,
+       "argomento": [
+        49.511251,
+        64.3
+       ],
+       "unita": "secolo"
+      },
+      {
+       "coordinata": "delta0",
+       "funzione": "cos",
+       "ampiezza": 5e-05,
+       "argomento": [
+        99.360714,
+        4850.4046
+       ],
+       "unita": "secolo"
+      },
+      {
+       "coordinata": "delta0",
+       "funzione": "cos",
+       "ampiezza": 0.000404,
+       "argomento": [
+        175.895369,
+        1191.9605
+       ],
+       "unita": "secolo"
+      },
+      {
+       "coordinata": "delta0",
+       "funzione": "cos",
+       "ampiezza": 0.000617,
+       "argomento": [
+        300.323162,
+        262.5475
+       ],
+       "unita": "secolo"
+      },
+      {
+       "coordinata": "delta0",
+       "funzione": "cos",
+       "ampiezza": -1.3e-05,
+       "argomento": [
+        114.012305,
+        6070.2476
+       ],
+       "unita": "secolo"
+      },
+      {
+       "coordinata": "delta0",
+       "funzione": "cos",
+       "ampiezza": 0.000926,
+       "argomento": [
+        49.511251,
+        64.3
+       ],
+       "unita": "secolo"
+      }
+     ]
+    },
+    "intervalli": [
+     {
+      "inizio": -1931200.5,
+      "fine": 2305273.875,
+      "giunzione": 2305273.875
+     }
+    ]
+   },
+   "tolleranzaGradi": 0.5,
+   "tolleranzaRadiale": 0.01
+  },
+  {
+   "ssid": 88,
+   "slug": "callisto",
+   "primario": 5,
+   "rF": [
+    0.9997593450163732,
+    0.019852472418012735,
+    -0.009334419710111948,
+    -0.020127223970922876,
+    0.9993374414172402,
+    -0.03032446268061856,
+    0.008726219551259896,
+    0.030505040903692684,
+    0.9994965210403722
+   ],
+   "frequenze": [
+    0.001445754814700718,
+    0.3736160326950356,
+    0.5017214397508227,
+    0.0011455932204728582,
+    0.3750184561081855,
+    0.7500708704849706
+   ],
+   "gm": 7179.283402579837,
+   "baricentrico": false,
+   "pianoSecolare": {
+    "coefficienti": {
+     "alfa0": [
+      268.056595,
+      -0.006499
+     ],
+     "delta0": [
+      64.495303,
+      0.002413
+     ],
+     "w": [
+      284.95,
+      870.536
+     ],
+     "periodici": [
+      {
+       "coordinata": "alfa0",
+       "funzione": "sin",
+       "ampiezza": 0.000117,
+       "argomento": [
+        99.360714,
+        4850.4046
+       ],
+       "unita": "secolo"
+      },
+      {
+       "coordinata": "alfa0",
+       "funzione": "sin",
+       "ampiezza": 0.000938,
+       "argomento": [
+        175.895369,
+        1191.9605
+       ],
+       "unita": "secolo"
+      },
+      {
+       "coordinata": "alfa0",
+       "funzione": "sin",
+       "ampiezza": 0.001432,
+       "argomento": [
+        300.323162,
+        262.5475
+       ],
+       "unita": "secolo"
+      },
+      {
+       "coordinata": "alfa0",
+       "funzione": "sin",
+       "ampiezza": 3e-05,
+       "argomento": [
+        114.012305,
+        6070.2476
+       ],
+       "unita": "secolo"
+      },
+      {
+       "coordinata": "alfa0",
+       "funzione": "sin",
+       "ampiezza": 0.00215,
+       "argomento": [
+        49.511251,
+        64.3
+       ],
+       "unita": "secolo"
+      },
+      {
+       "coordinata": "delta0",
+       "funzione": "cos",
+       "ampiezza": 5e-05,
+       "argomento": [
+        99.360714,
+        4850.4046
+       ],
+       "unita": "secolo"
+      },
+      {
+       "coordinata": "delta0",
+       "funzione": "cos",
+       "ampiezza": 0.000404,
+       "argomento": [
+        175.895369,
+        1191.9605
+       ],
+       "unita": "secolo"
+      },
+      {
+       "coordinata": "delta0",
+       "funzione": "cos",
+       "ampiezza": 0.000617,
+       "argomento": [
+        300.323162,
+        262.5475
+       ],
+       "unita": "secolo"
+      },
+      {
+       "coordinata": "delta0",
+       "funzione": "cos",
+       "ampiezza": -1.3e-05,
+       "argomento": [
+        114.012305,
+        6070.2476
+       ],
+       "unita": "secolo"
+      },
+      {
+       "coordinata": "delta0",
+       "funzione": "cos",
+       "ampiezza": 0.000926,
+       "argomento": [
+        49.511251,
+        64.3
+       ],
+       "unita": "secolo"
+      }
+     ]
+    },
+    "intervalli": [
+     {
+      "inizio": -1931200.5,
+      "fine": 2305273.875,
+      "giunzione": 2305273.875
+     }
+    ]
+   },
+   "tolleranzaGradi": 0.5,
+   "tolleranzaRadiale": 0.01
+  },
+  {
+   "ssid": 89,
+   "slug": "amaltea",
+   "primario": 5,
+   "rF": [
+    0.9994268154393983,
+    0.030554180199121588,
+    -0.014576784728553482,
+    -0.031059723127140643,
+    0.9988755890225441,
+    -0.03581691296204524,
+    0.013466038018970101,
+    0.03624913415827988,
+    0.999252053334316
+   ],
+   "frequenze": [
+    9.06075051103647,
+    18.121501022471264
+   ],
+   "gm": 0.1645634534798259,
+   "baricentrico": false,
+   "pianoSecolare": {
+    "coefficienti": {
+     "alfa0": [
+      268.056595,
+      -0.006499
+     ],
+     "delta0": [
+      64.495303,
+      0.002413
+     ],
+     "w": [
+      284.95,
+      870.536
+     ],
+     "periodici": [
+      {
+       "coordinata": "alfa0",
+       "funzione": "sin",
+       "ampiezza": 0.000117,
+       "argomento": [
+        99.360714,
+        4850.4046
+       ],
+       "unita": "secolo"
+      },
+      {
+       "coordinata": "alfa0",
+       "funzione": "sin",
+       "ampiezza": 0.000938,
+       "argomento": [
+        175.895369,
+        1191.9605
+       ],
+       "unita": "secolo"
+      },
+      {
+       "coordinata": "alfa0",
+       "funzione": "sin",
+       "ampiezza": 0.001432,
+       "argomento": [
+        300.323162,
+        262.5475
+       ],
+       "unita": "secolo"
+      },
+      {
+       "coordinata": "alfa0",
+       "funzione": "sin",
+       "ampiezza": 3e-05,
+       "argomento": [
+        114.012305,
+        6070.2476
+       ],
+       "unita": "secolo"
+      },
+      {
+       "coordinata": "alfa0",
+       "funzione": "sin",
+       "ampiezza": 0.00215,
+       "argomento": [
+        49.511251,
+        64.3
+       ],
+       "unita": "secolo"
+      },
+      {
+       "coordinata": "delta0",
+       "funzione": "cos",
+       "ampiezza": 5e-05,
+       "argomento": [
+        99.360714,
+        4850.4046
+       ],
+       "unita": "secolo"
+      },
+      {
+       "coordinata": "delta0",
+       "funzione": "cos",
+       "ampiezza": 0.000404,
+       "argomento": [
+        175.895369,
+        1191.9605
+       ],
+       "unita": "secolo"
+      },
+      {
+       "coordinata": "delta0",
+       "funzione": "cos",
+       "ampiezza": 0.000617,
+       "argomento": [
+        300.323162,
+        262.5475
+       ],
+       "unita": "secolo"
+      },
+      {
+       "coordinata": "delta0",
+       "funzione": "cos",
+       "ampiezza": -1.3e-05,
+       "argomento": [
+        114.012305,
+        6070.2476
+       ],
+       "unita": "secolo"
+      },
+      {
+       "coordinata": "delta0",
+       "funzione": "cos",
+       "ampiezza": 0.000926,
+       "argomento": [
+        49.511251,
+        64.3
+       ],
+       "unita": "secolo"
+      }
+     ]
+    },
+    "intervalli": [
+     {
+      "inizio": -1931200.5,
+      "fine": 2305091.25,
+      "giunzione": 2305091.25
+     }
+    ]
+   },
+   "tolleranzaGradi": 0.5,
+   "tolleranzaRadiale": 0.01
+  },
+  {
+   "ssid": 90,
+   "slug": "imalia",
+   "primario": 5,
+   "rF": [
+    0.9983744523732723,
+    -0.0523637641865968,
+    0.022505311563704847,
+    0.052292073827912185,
+    0.998624744997138,
+    0.0037626711492638916,
+    -0.02267138864615766,
+    -0.0025797053342976857,
+    0.999739642735669
+   ],
+   "frequenze": [
+    0.022239915819294777,
+    0.04725305438994243,
+    0.025510970366540188,
+    0.003015429032855265,
+    0.0014496201072774998,
+    0.025650126959476258
+   ],
+   "gm": 0.1515524299611265,
+   "baricentrico": false,
+   "pianoSecolare": null,
+   "tolleranzaGradi": 1.0,
+   "tolleranzaRadiale": 0.01
+  },
+  {
+   "ssid": 91,
+   "slug": "mimas",
+   "primario": 6,
+   "rF": [
+    -0.6505222060660043,
+    -0.7546604615314717,
+    0.08548945675418364,
+    0.6968159140524038,
+    -0.5482747183657258,
+    0.46243098417417616,
+    -0.3021066721181975,
+    0.3603920379282685,
+    0.8825242986227504
+   ],
+   "frequenze": [
+    0.02791703097923213,
+    0.02816597365236105,
+    0.02767248660713608,
+    0.0024448273302494763,
+    6.677757469843917,
+    0.0278897305433142
+   ],
+   "gm": 2.503488768152587,
+   "baricentrico": false,
+   "pianoSecolare": {
+    "coefficienti": {
+     "alfa0": [
+      40.589,
+      -0.036
+     ],
+     "delta0": [
+      83.537,
+      -0.004
+     ],
+     "w": [
+      38.9,
+      810.7939024
+     ],
+     "periodici": []
+    },
+    "intervalli": [
+     {
+      "inizio": -1931200.5,
+      "fine": 2005574.75,
+      "giunzione": 2005574.75
+     }
+    ]
+   },
+   "tolleranzaGradi": 0.5,
+   "tolleranzaRadiale": 0.01
+  },
+  {
+   "ssid": 92,
+   "slug": "encelado",
+   "primario": 6,
+   "rF": [
+    -0.6505188611848909,
+    -0.7546639746620285,
+    0.08548389667078686,
+    0.6968185426129204,
+    -0.5482752736111614,
+    0.4624263649678851,
+    -0.30210781173865403,
+    0.36038383661578854,
+    0.8825272575918359
+   ],
+   "frequenze": [
+    0.004429532187383408,
+    0.0032535504590898504,
+    0.0036497405974432887,
+    0.002498705263173524,
+    0.004961612777590496,
+    0.0023486095270830528
+   ],
+   "gm": 7.210366688598896,
+   "baricentrico": false,
+   "pianoSecolare": {
+    "coefficienti": {
+     "alfa0": [
+      40.589,
+      -0.036
+     ],
+     "delta0": [
+      83.537,
+      -0.004
+     ],
+     "w": [
+      38.9,
+      810.7939024
+     ],
+     "periodici": []
+    },
+    "intervalli": [
+     {
+      "inizio": -1931200.5,
+      "fine": 1914262.25,
+      "giunzione": 1914262.25
+     }
+    ]
+   },
+   "tolleranzaGradi": 0.5,
+   "tolleranzaRadiale": 0.01
+  },
+  {
+   "ssid": 93,
+   "slug": "teti",
+   "primario": 6,
+   "rF": [
+    -0.6503849594985679,
+    -0.7547784320480547,
+    0.08549223925670779,
+    0.6969237494395382,
+    -0.5481559979313543,
+    0.46240922287408676,
+    -0.30215342448031596,
+    0.36032557562149403,
+    0.882535431372507
+   ],
+   "frequenze": [
+    3.097766586346367,
+    0.02791705578813719,
+    3.3282817885088742,
+    0.028165904104470636,
+    0.02767245756189393,
+    2.065177722891919
+   ],
+   "gm": 41.21352885489587,
+   "baricentrico": false,
+   "pianoSecolare": {
+    "coefficienti": {
+     "alfa0": [
+      40.589,
+      -0.036
+     ],
+     "delta0": [
+      83.537,
+      -0.004
+     ],
+     "w": [
+      38.9,
+      810.7939024
+     ],
+     "periodici": []
+    },
+    "intervalli": [
+     {
+      "inizio": -1931200.5,
+      "fine": 1826602.25,
+      "giunzione": 1826602.25
+     }
+    ]
+   },
+   "tolleranzaGradi": 0.5,
+   "tolleranzaRadiale": 0.01
+  },
+  {
+   "ssid": 94,
+   "slug": "dione",
+   "primario": 6,
+   "rF": [
+    -0.6500551729503787,
+    -0.7550619645216531,
+    0.08549679440280342,
+    0.6971827033819665,
+    -0.5478720099388971,
+    0.4623554247876043,
+    -0.30226569475457526,
+    0.3601634218770906,
+    0.8825631758216059
+   ],
+   "frequenze": [
+    0.0044298327353875025,
+    2.2898165237807913,
+    1.8097279028707352,
+    2.0651776468953384,
+    0.003254898435195064,
+    2.7145917494717398
+   ],
+   "gm": 73.11607172482067,
+   "baricentrico": false,
+   "pianoSecolare": {
+    "coefficienti": {
+     "alfa0": [
+      40.589,
+      -0.036
+     ],
+     "delta0": [
+      83.537,
+      -0.004
+     ],
+     "w": [
+      38.9,
+      810.7939024
+     ],
+     "periodici": []
+    },
+    "intervalli": [
+     {
+      "inizio": -1931200.5,
+      "fine": 2360159.45,
+      "giunzione": 2360159.45
+     }
+    ]
+   },
+   "tolleranzaGradi": 0.5,
+   "tolleranzaRadiale": 0.01
+  },
+  {
+   "ssid": 95,
+   "slug": "rea",
+   "primario": 6,
+   "rF": [
+    -0.6472032014374028,
+    -0.7574981648176403,
+    0.08558356353344729,
+    0.6994126590773317,
+    -0.5453858575014073,
+    0.46192661620633046,
+    -0.30323249887100245,
+    0.35881861258212566,
+    0.8827792786948989
+   ],
+   "frequenze": [
+    1.993622223214886,
+    0.9968110794964458,
+    0.0011727515048392421,
+    1.5996043256095898,
+    1.3895910363188737,
+    1.3892615762282912
+   ],
+   "gm": 153.9417519146563,
+   "baricentrico": false,
+   "pianoSecolare": {
+    "coefficienti": {
+     "alfa0": [
+      40.589,
+      -0.036
+     ],
+     "delta0": [
+      83.537,
+      -0.004
+     ],
+     "w": [
+      38.9,
+      810.7939024
+     ],
+     "periodici": []
+    },
+    "intervalli": [
+     {
+      "inizio": -1931200.5,
+      "fine": 2359867.25,
+      "giunzione": 2359867.25
+     }
+    ]
+   },
+   "tolleranzaGradi": 0.5,
+   "tolleranzaRadiale": 0.01
+  },
+  {
+   "ssid": 96,
+   "slug": "titano",
+   "primario": 6,
+   "rF": [
+    -0.59645216543849,
+    -0.7982518461669226,
+    0.08389758300950095,
+    0.7364157150843847,
+    -0.5026584814148084,
+    0.4527983498628423,
+    -0.3192752870494213,
+    0.3318560548684605,
+    0.88765694382833
+   ],
+   "frequenze": [
+    0.0011681575533650684,
+    0.39287743860423663,
+    0.0017504083748329648,
+    0.39273700718040205,
+    0.0014095656281068144,
+    0.3924880268657919
+   ],
+   "gm": 8978.137095521046,
+   "baricentrico": false,
+   "pianoSecolare": {
+    "coefficienti": {
+     "alfa0": [
+      40.589,
+      -0.036
+     ],
+     "delta0": [
+      83.537,
+      -0.004
+     ],
+     "w": [
+      38.9,
+      810.7939024
+     ],
+     "periodici": []
+    },
+    "intervalli": [
+     {
+      "inizio": -1931200.5,
+      "fine": 1537676.0,
+      "giunzione": 1537676.0
+     }
+    ]
+   },
+   "tolleranzaGradi": 0.5,
+   "tolleranzaRadiale": 0.01
+  },
+  {
+   "ssid": 97,
+   "slug": "iperione",
+   "primario": 6,
+   "rF": [
+    -0.6053252864978304,
+    -0.7913823494603788,
+    0.08541237901434838,
+    0.7302957218259956,
+    -0.5094849973866425,
+    0.4550749346213006,
+    -0.316621945242221,
+    0.33784466016277925,
+    0.8863472961489351
+   ],
+   "frequenze": [
+    0.00980989557806658,
+    0.2952835714308206,
+    0.28639075828600025,
+    0.3060099166551613,
+    0.5914842041572961,
+    0.1974675937231252
+   ],
+   "gm": 0.3704913747932265,
+   "baricentrico": false,
+   "pianoSecolare": {
+    "coefficienti": {
+     "alfa0": [
+      40.589,
+      -0.036
+     ],
+     "delta0": [
+      83.537,
+      -0.004
+     ],
+     "w": [
+      38.9,
+      810.7939024
+     ],
+     "periodici": []
+    },
+    "intervalli": [
+     {
+      "inizio": -1931200.5,
+      "fine": 1538333.45,
+      "giunzione": 1538333.45
+     }
+    ]
+   },
+   "tolleranzaGradi": 3.0000000000000004,
+   "tolleranzaRadiale": 0.01
+  },
+  {
+   "ssid": 98,
+   "slug": "giapeto",
+   "primario": 6,
+   "rF": [
+    0.9533339147750737,
+    -0.2960155897852773,
+    0.05940721794283157,
+    0.2770043009219131,
+    0.9358364921894035,
+    0.217896023730115,
+    -0.12009606242668763,
+    -0.19127161444058308,
+    0.9741622581987551
+   ],
+   "frequenze": [
+    0.0005774052803719486,
+    0.07803806623201923,
+    0.0011704001079813542,
+    0.0019801634773500406,
+    0.07745924896045446,
+    0.15723513001237555
+   ],
+   "gm": 120.5151060137642,
+   "baricentrico": false,
+   "pianoSecolare": null,
+   "tolleranzaGradi": 0.5,
+   "tolleranzaRadiale": 0.01
+  },
+  {
+   "ssid": 99,
+   "slug": "febe",
+   "primario": 6,
+   "rF": [
+    0.9947953854707375,
+    -0.0941590119834165,
+    0.03893868909495582,
+    0.09348480884468431,
+    0.995443358225207,
+    0.018791250107299106,
+    -0.04053062498160662,
+    -0.015053272987263142,
+    0.9990648964962043
+   ],
+   "frequenze": [
+    0.012601460764298203,
+    0.000573870816728959,
+    0.0011864041580991755,
+    0.013184902051555326,
+    0.024006152471896476,
+    0.010828371061902004
+   ],
+   "gm": 0.5547860052791678,
+   "baricentrico": false,
+   "pianoSecolare": null,
+   "tolleranzaGradi": 1.0,
+   "tolleranzaRadiale": 0.01
+  },
+  {
+   "ssid": 100,
+   "slug": "miranda",
+   "primario": 7,
+   "rF": [
+    -0.9755803848465087,
+    -0.05747885978046543,
+    0.21198842746969845,
+    0.20151823113109718,
+    0.14968000520332672,
+    0.9679805259219454,
+    -0.08736884584639817,
+    0.9870623469268138,
+    -0.1344418389296971
+   ],
+   "frequenze": [
+    0.002781233069149361,
+    0.00307361835383376,
+    0.00478648201022272,
+    0.0038047234150633174,
+    0.0023425231268470047,
+    0.006501474956896729
+   ],
+   "gm": 4.10552724118156,
+   "baricentrico": false,
+   "pianoSecolare": {
+    "coefficienti": {
+     "alfa0": [
+      257.311
+     ],
+     "delta0": [
+      -15.175
+     ],
+     "w": [
+      203.81,
+      -501.1600928
+     ],
+     "periodici": []
+    },
+    "intervalli": [
+     {
+      "inizio": -1931200.5,
+      "fine": 1921572.75,
+      "giunzione": 1921572.75
+     }
+    ]
+   },
+   "tolleranzaGradi": 0.5,
+   "tolleranzaRadiale": 0.01
+  },
+  {
+   "ssid": 101,
+   "slug": "ariel",
+   "primario": 7,
+   "rF": [
+    -0.9755901313599517,
+    -0.05745598446895349,
+    0.21194977103496862,
+    0.20147850848761953,
+    0.1497303932378629,
+    0.9679810018582179,
+    -0.08735162397274866,
+    0.9870560364992144,
+    -0.13449934795301133
+   ],
+   "frequenze": [
+    1.9536092299735803,
+    0.0027811455839235454,
+    0.0030736967845443443,
+    2.9304136752532672,
+    0.9768046139388833,
+    0.004786669566803309
+   ],
+   "gm": 83.43074677282458,
+   "baricentrico": false,
+   "pianoSecolare": {
+    "coefficienti": {
+     "alfa0": [
+      257.311
+     ],
+     "delta0": [
+      -15.175
+     ],
+     "w": [
+      203.81,
+      -501.1600928
+     ],
+     "periodici": []
+    },
+    "intervalli": [
+     {
+      "inizio": -1931200.5,
+      "fine": 1735295.25,
+      "giunzione": 1735295.25
+     }
+    ]
+   },
+   "tolleranzaGradi": 0.5,
+   "tolleranzaRadiale": 0.01
+  },
+  {
+   "ssid": 102,
+   "slug": "umbriel",
+   "primario": 7,
+   "rF": [
+    -0.9756579176286437,
+    -0.05730131885344663,
+    0.2116794430883508,
+    0.20120201255138653,
+    0.15006084955489885,
+    0.9679873406073726,
+    -0.0872317483133887,
+    0.9870148429930107,
+    -0.13487891531915563
+   ],
+   "frequenze": [
+    1.588859049687013,
+    0.0013650854349658414,
+    0.07284319585470792,
+    0.9768044886352829,
+    1.9536091401640023,
+    0.7944295668707845
+   ],
+   "gm": 85.40300422326412,
+   "baricentrico": false,
+   "pianoSecolare": {
+    "coefficienti": {
+     "alfa0": [
+      257.311
+     ],
+     "delta0": [
+      -15.175
+     ],
+     "w": [
+      203.81,
+      -501.1600928
+     ],
+     "periodici": []
+    },
+    "intervalli": [
+     {
+      "inizio": -1931200.5,
+      "fine": 1541347.5,
+      "giunzione": 1541347.5
+     }
+    ]
+   },
+   "tolleranzaGradi": 0.5,
+   "tolleranzaRadiale": 0.01
+  },
+  {
+   "ssid": 103,
+   "slug": "titania",
+   "primario": 7,
+   "rF": [
+    -0.975835433026633,
+    -0.05689427984255607,
+    0.21096978117948673,
+    0.20047604005534642,
+    0.1509374584618178,
+    0.9680016740671549,
+    -0.08691700071591703,
+    0.9869047190860342,
+    -0.13588418021339105
+   ],
+   "frequenze": [
+    0.7650790185292764,
+    0.5100527145341969,
+    0.2550263931654425,
+    0.04348109769634546,
+    1.020105207065839,
+    0.7944298281498404
+   ],
+   "gm": 222.8006351879754,
+   "baricentrico": false,
+   "pianoSecolare": {
+    "coefficienti": {
+     "alfa0": [
+      257.311
+     ],
+     "delta0": [
+      -15.175
+     ],
+     "w": [
+      203.81,
+      -501.1600928
+     ],
+     "periodici": []
+    },
+    "intervalli": [
+     {
+      "inizio": -1931200.5,
+      "fine": 1150530.0,
+      "giunzione": 1150530.0
+     }
+    ]
+   },
+   "tolleranzaGradi": 0.5,
+   "tolleranzaRadiale": 0.01
+  },
+  {
+   "ssid": 104,
+   "slug": "oberon",
+   "primario": 7,
+   "rF": [
+    -0.9755867339938115,
+    -0.057316729352179595,
+    0.21200310608964454,
+    0.20149235564121348,
+    0.15038508444697474,
+    0.9678766228161682,
+    -0.08735762744856806,
+    0.9869645986114421,
+    -0.13516481056218707
+   ],
+   "frequenze": [
+    0.5100553588496899,
+    0.4667256977176979,
+    0.5098948866535968,
+    0.4668952601025689,
+    0.5102267235871281,
+    0.25502640703931223
+   ],
+   "gm": 214.2098399407347,
+   "baricentrico": false,
+   "pianoSecolare": {
+    "coefficienti": {
+     "alfa0": [
+      257.311
+     ],
+     "delta0": [
+      -15.175
+     ],
+     "w": [
+      203.81,
+      -501.1600928
+     ],
+     "periodici": []
+    },
+    "intervalli": [
+     {
+      "inizio": -1931200.5,
+      "fine": 843720.0,
+      "giunzione": 843720.0
+     }
+    ]
+   },
+   "tolleranzaGradi": 0.5,
+   "tolleranzaRadiale": 0.01
+  },
+  {
+   "ssid": 105,
+   "slug": "tritone",
+   "primario": 8,
+   "rF": [
+    0.8711159915884977,
+    -0.337213641050215,
+    0.3569928423490382,
+    0.45055462749994196,
+    0.8379861071209628,
+    -0.30786330068821616,
+    -0.19533933765930755,
+    0.4290294215574397,
+    0.8819162650733413
+   ],
+   "frequenze": [],
+   "gm": 1428.495462910464,
+   "baricentrico": false,
+   "pianoSecolare": null,
+   "tolleranzaGradi": 0.5,
+   "tolleranzaRadiale": 0.01
+  },
+  {
+   "ssid": 106,
+   "slug": "proteo",
+   "primario": 8,
+   "rF": [
+    0.8711410405604046,
+    -0.3370816653597094,
+    0.3570563517564982,
+    0.45051385761411006,
+    0.8379143550564145,
+    -0.30811815540153786,
+    -0.19532166175053034,
+    0.4292732049274887,
+    0.8818015445565367
+   ],
+   "frequenze": [
+    6.667557342826461,
+    4.529225289661971,
+    0.003071106068277237,
+    2.1383320503579935,
+    5.599710184958263,
+    13.335114687454043
+   ],
+   "gm": 2.583422379120727,
+   "baricentrico": false,
+   "pianoSecolare": null,
+   "tolleranzaGradi": 0.5,
+   "tolleranzaRadiale": 0.01
+  },
+  {
+   "ssid": 107,
+   "slug": "nereide",
+   "primario": 8,
+   "rF": [
+    0.9778220277266879,
+    -0.1924448240876959,
+    0.08263819803410742,
+    0.19215518373289028,
+    0.9812969417155429,
+    0.01151944201348172,
+    -0.08330946799162588,
+    0.004615393978696163,
+    0.9965130358813044
+   ],
+   "frequenze": [
+    0.016959317736560654,
+    0.03440586570825651,
+    0.05185203969356282,
+    0.016628444395380658,
+    0.016801280717978026,
+    0.03407658934517482
+   ],
+   "gm": 0.0,
+   "baricentrico": false,
+   "pianoSecolare": null,
+   "tolleranzaGradi": 1.0,
+   "tolleranzaRadiale": 0.01
+  },
+  {
+   "ssid": 108,
+   "slug": "caronte",
+   "primario": 10,
+   "rF": [
+    -0.7312752193081137,
+    -0.07420672488662222,
+    -0.6780338602219446,
+    -0.6257984699134971,
+    0.46840966218110547,
+    0.6236735231106966,
+    0.271316841865366,
+    0.8803895446658734,
+    -0.38897483332886734
+   ],
+   "frequenze": [],
+   "gm": 106.1011388236118,
+   "baricentrico": false,
+   "pianoSecolare": {
+    "coefficienti": {
+     "alfa0": [
+      132.993
+     ],
+     "delta0": [
+      -6.163
+     ],
+     "w": [
+      302.695,
+      56.3625225
+     ],
+     "periodici": []
+    },
+    "intervalli": [
+     {
+      "inizio": -1931200.5,
+      "fine": 2377767.0,
+      "giunzione": 2377767.0
+     }
+    ]
+   },
+   "tolleranzaGradi": 0.5,
+   "tolleranzaRadiale": 0.01
+  },
+  {
+   "ssid": 109,
+   "slug": "notte",
+   "primario": 10,
+   "rF": [
+    -0.7312562601861053,
+    -0.07419806413484831,
+    -0.6780552552832786,
+    -0.6258171185740761,
+    0.4683977698223129,
+    0.6236637421921564,
+    0.27132492704923356,
+    0.8803966018244986,
+    -0.38895322014042194
+   ],
+   "frequenze": [
+    0.7309152622582348,
+    0.2527966363489246,
+    0.26497182155433796,
+    0.01340273863109611,
+    0.17664459413910572,
+    0.4814276075077333
+   ],
+   "gm": 0.001496176095836919,
+   "baricentrico": true,
+   "pianoSecolare": {
+    "coefficienti": {
+     "alfa0": [
+      132.993
+     ],
+     "delta0": [
+      -6.163
+     ],
+     "w": [
+      302.695,
+      56.3625225
+     ],
+     "periodici": []
+    },
+    "intervalli": [
+     {
+      "inizio": -1931200.5,
+      "fine": 2376671.25,
+      "giunzione": 2376671.25
+     }
+    ]
+   },
+   "tolleranzaGradi": 0.5,
+   "tolleranzaRadiale": 0.01
+  },
+  {
+   "ssid": 110,
+   "slug": "idra",
+   "primario": 10,
+   "rF": [
+    -0.7312571373242867,
+    -0.07420363284958817,
+    -0.6780536999266451,
+    -0.6258162558222279,
+    0.4684030734562238,
+    0.6236606246392433,
+    0.2713245530005294,
+    0.8803933107700711,
+    -0.3889609302878323
+   ],
+   "frequenze": [
+    0.16447286896367064,
+    0.17664796124084725,
+    0.013400844633936496,
+    0.0004415721065488455,
+    0.000553270803727722,
+    0.08832401855253427
+   ],
+   "gm": 0.002007962473606101,
+   "baricentrico": true,
+   "pianoSecolare": {
+    "coefficienti": {
+     "alfa0": [
+      132.993
+     ],
+     "delta0": [
+      -6.163
+     ],
+     "w": [
+      302.695,
+      56.3625225
+     ],
+     "periodici": []
+    },
+    "intervalli": [
+     {
+      "inizio": -1931200.5,
+      "fine": 2376671.25,
+      "giunzione": 2376671.25
+     }
+    ]
+   },
+   "tolleranzaGradi": 0.5,
+   "tolleranzaRadiale": 0.01
+  },
+  {
+   "ssid": 111,
+   "slug": "disnomia",
+   "primario": 11,
+   "rF": [
+    -0.59018306324889,
+    -0.5659231154991288,
+    0.5756865285881861,
+    0.7406552322161127,
+    -0.09593134328618935,
+    0.6650015070405505,
+    -0.32111334267677616,
+    0.8188578660054912,
+    0.47577097056869727
+   ],
+   "frequenze": [],
+   "gm": 0.0,
+   "baricentrico": false,
+   "pianoSecolare": null,
+   "tolleranzaGradi": 0.5,
+   "tolleranzaRadiale": 0.01
+  }
+ ],
+ "soglie": {
+  "radialeFrazioneA": 0.01,
+  "centriKmDovePrecisi": 5.0,
+  "precisaRad": 0.0002908882086657216
+ },
+ "unita": {
+  "t": "JD TDB",
+  "posizioni": "km",
+  "velocita": "km/s",
+  "eps": "rad"
+ }
+}

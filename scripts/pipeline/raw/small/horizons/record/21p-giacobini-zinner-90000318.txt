@@ -1,0 +1,25 @@
+API VERSION: 1.2
+API SOURCE: NASA/JPL Horizons API
+
+*******************************************************************************
+JPL/HORIZONS                21P/Giacobini-Zinner           2026-Oct-18 15:45:24
+Rec #:90000318                  Soln.date: -            # obs: 1011 (1978-1991)
+ 
+IAU76/J2000 helio. ecliptic osc. elements (au, days, deg., period=Julian yrs):
+ 
+  EPOCH=  2443920.5 ! 1979-Feb-16.0000000 (TDB)    RMSW= n.a.
+   EC= .714637             QR= .996057             TP= 2443917.2662
+   OM= 195.7723            W= 171.9659             IN= 31.6944
+   A= 3.490491058756741    MA= .4887507488549694   ADIST= 5.984925117513482
+   PER= 6.52135732308109   N= .151138212           ANGMOM= .02248069
+   DAN= 5.84135            DDN= 1.00015            L= 8.924027300000001
+   B= 4.2109949                                    TP= 1979-Feb-12.7662000000
+ 
+Comet physical (GM= km^3/s^2; RAD= km):
+   GM= n.a.                RAD= 1.
+   M1=  13.2     M2=  n.a.     k1=  8.25   k2= n.a.     PHCOF= n.a.
+
+COMET comments 
+1: soln ref.= SAO/1979
+2: k1=8.25;non-gravs. considered; 2008 SAO Comet Catalog
+*******************************************************************************

@@ -1,0 +1,459 @@
+{
+ "formato": 1,
+ "versioneDati": "2026-10-22",
+ "blocchi": {
+  "T0": -1931200.5,
+  "B": 365568.0,
+  "K": 13,
+  "T_END": 2495760.5
+ },
+ "file": [
+  {
+   "percorso": "catalog.json",
+   "tipo": "catalogo",
+   "byte": 246895,
+   "sha256": "7a696aecee7244b6e17b1b257ec980e53e782f621afa9e893a6a885b53aa3218"
+  },
+  {
+   "percorso": "moon.bin",
+   "tipo": "luna",
+   "byte": 116632,
+   "sha256": "454ed873c183539e14e3ea9beb1ce909579a7864b778d8d9dff7f52975c698a6"
+  },
+  {
+   "percorso": "planets/p00.bin",
+   "tipo": "pianeti",
+   "blocco": 0,
+   "byte": 1630504,
+   "sha256": "f24c54d8fc56be6b62463a308ab052179009cc45139bbc19b2ed744e48909afe"
+  },
+  {
+   "percorso": "planets/p01.bin",
+   "tipo": "pianeti",
+   "blocco": 1,
+   "byte": 1630504,
+   "sha256": "8d766d75f59bc5382029bfcfd42c65e187510607dc0b2c277f6b68b161aed9af"
+  },
+  {
+   "percorso": "planets/p02.bin",
+   "tipo": "pianeti",
+   "blocco": 2,
+   "byte": 1630504,
+   "sha256": "f61357fea466802b28926750e9ac03b64be8bfa519629897b05e1696ff8ccd97"
+  },
+  {
+   "percorso": "planets/p03.bin",
+   "tipo": "pianeti",
+   "blocco": 3,
+   "byte": 1630504,
+   "sha256": "cb62aee3e40c6aae696eecc65abb34ba48c695ee6c7b2d35e30b61f3851c85d7"
+  },
+  {
+   "percorso": "planets/p04.bin",
+   "tipo": "pianeti",
+   "blocco": 4,
+   "byte": 1630504,
+   "sha256": "f62f8f0ddeff672356b6187b6ff56db8f9c75205112d938ff0b44001c0dc929b"
+  },
+  {
+   "percorso": "planets/p05.bin",
+   "tipo": "pianeti",
+   "blocco": 5,
+   "byte": 1630504,
+   "sha256": "8f3930b85d836740dce6275dc1738bc59c962cd6d3435844854a864c08beae52"
+  },
+  {
+   "percorso": "planets/p06.bin",
+   "tipo": "pianeti",
+   "blocco": 6,
+   "byte": 1630504,
+   "sha256": "81bcd272188708e7fc38dc2e94be620a39f5bb15264c1e9f1648b6b3f0e7ef92"
+  },
+  {
+   "percorso": "planets/p07.bin",
+   "tipo": "pianeti",
+   "blocco": 7,
+   "byte": 1630504,
+   "sha256": "0137d9d3a92b5d5eec66536bab5ffd955473348022a773551613e4f3faa3671c"
+  },
+  {
+   "percorso": "planets/p08.bin",
+   "tipo": "pianeti",
+   "blocco": 8,
+   "byte": 1630504,
+   "sha256": "b2906cbc1d0961f3013126972f4d42a42a3b1f102b363dd500fb0fafd55cf686"
+  },
+  {
+   "percorso": "planets/p09.bin",
+   "tipo": "pianeti",
+   "blocco": 9,
+   "byte": 1630504,
+   "sha256": "14f649d319937a8b9cfd6bd9f83d8987b23733e4e5499077222516f711bd932d"
+  },
+  {
+   "percorso": "planets/p10.bin",
+   "tipo": "pianeti",
+   "blocco": 10,
+   "byte": 1630504,
+   "sha256": "d403730eac3b875b892fd31b77f5ad2ccccba342319b141815477e8950ab3b0d"
+  },
+  {
+   "percorso": "planets/p11.bin",
+   "tipo": "pianeti",
+   "blocco": 11,
+   "byte": 1630504,
+   "sha256": "7051d6dee3a0c90312e9abcedefc52c2487c4393aa60a9ec92a7ecfc53be320a"
+  },
+  {
+   "percorso": "planets/p12.bin",
+   "tipo": "pianeti",
+   "blocco": 12,
+   "byte": 181480,
+   "sha256": "47152ce62e76a0dfdf47dee79f9f00b86ec75c78d14cf1ee233a2df246603022"
+  },
+  {
+   "percorso": "reliability.bin",
+   "tipo": "affidabilita",
+   "byte": 396152,
+   "sha256": "903c04ae04f82fc255cc174948f79fb71bcba4dbf1f3699bb925e0982cf3c9ef"
+  },
+  {
+   "percorso": "sats/s00.bin",
+   "tipo": "satelliti",
+   "blocco": 0,
+   "byte": 25472,
+   "sha256": "70b5aa55022919bd84bd877ea66eb03ceac085f000cbb9380e35e9b959ee33df"
+  },
+  {
+   "percorso": "sats/s01.bin",
+   "tipo": "satelliti",
+   "blocco": 1,
+   "byte": 25472,
+   "sha256": "5d1458b353e44d62e96aa590a9bb8a88052250e58af26e7fb77a2012a77ea3d9"
+  },
+  {
+   "percorso": "sats/s02.bin",
+   "tipo": "satelliti",
+   "blocco": 2,
+   "byte": 25472,
+   "sha256": "ecb4082fe032d9adaea8e7ed46352017de2f8b7bd18c7fd1a46c10a469251526"
+  },
+  {
+   "percorso": "sats/s03.bin",
+   "tipo": "satelliti",
+   "blocco": 3,
+   "byte": 25472,
+   "sha256": "362551a1b9b10b0139230c1d9b200d0a40d2673830ff22ab3ad3d3d4bd904efd"
+  },
+  {
+   "percorso": "sats/s04.bin",
+   "tipo": "satelliti",
+   "blocco": 4,
+   "byte": 25472,
+   "sha256": "b0d46925b350785734bcae263c1a3a8acf2b1c8f8fff2dfb533b7ff7c6512808"
+  },
+  {
+   "percorso": "sats/s05.bin",
+   "tipo": "satelliti",
+   "blocco": 5,
+   "byte": 25472,
+   "sha256": "3afd87a6be2f8167742415d76ea6b7d16da40e918c944c510918c415b69d7efa"
+  },
+  {
+   "percorso": "sats/s06.bin",
+   "tipo": "satelliti",
+   "blocco": 6,
+   "byte": 25472,
+   "sha256": "17a895e196527a9eb3cb84ad43cdfc86cc271f269cce372aa8ae1c507655b276"
+  },
+  {
+   "percorso": "sats/s07.bin",
+   "tipo": "satelliti",
+   "blocco": 7,
+   "byte": 30008,
+   "sha256": "5aadde54197b5e3e4af4384212b91f7797dd19f803f41195e0b5517bdf36154e"
+  },
+  {
+   "percorso": "sats/s08.bin",
+   "tipo": "satelliti",
+   "blocco": 8,
+   "byte": 42632,
+   "sha256": "35a666b0d53f1c3bda4ff146d65b037067d4ef0337f83708eee323f0bd8eba05"
+  },
+  {
+   "percorso": "sats/s09.bin",
+   "tipo": "satelliti",
+   "blocco": 9,
+   "byte": 294152,
+   "sha256": "2e8dd9b8bf0247afc8738e04e9a28d22942a6dddd10ef5f7d5962a6773b16252"
+  },
+  {
+   "percorso": "sats/s10.bin",
+   "tipo": "satelliti",
+   "blocco": 10,
+   "byte": 592064,
+   "sha256": "8a259c1b99ef70b5670ffca358f6d91e3982fa2300f5b37332470a12a7c00f86"
+  },
+  {
+   "percorso": "sats/s11.bin",
+   "tipo": "satelliti",
+   "blocco": 11,
+   "byte": 1018136,
+   "sha256": "45310e35a57f3526951a1ba2f906d531c062830c8131c8a43ba19de621739fc3"
+  },
+  {
+   "percorso": "sats/s12.bin",
+   "tipo": "satelliti",
+   "blocco": 12,
+   "byte": 216504,
+   "sha256": "8fc0f8308a9a0f4b49ddaf2f35058e6da5ff547d054363fe0ca33ed9bb0d49f1"
+  },
+  {
+   "percorso": "small/b00.bin",
+   "tipo": "piccoli-corpi",
+   "blocco": 0,
+   "byte": 525208,
+   "sha256": "ec27bcf5103f9b61d8719f5186c729991d0271a8017e2c56f44f2639d6332914"
+  },
+  {
+   "percorso": "small/b01.bin",
+   "tipo": "piccoli-corpi",
+   "blocco": 1,
+   "byte": 522248,
+   "sha256": "aafa6bd8a37f660b2911f9db36278b5d64f6eeb123befea8d67b0268aaa568ab"
+  },
+  {
+   "percorso": "small/b02.bin",
+   "tipo": "piccoli-corpi",
+   "blocco": 2,
+   "byte": 543160,
+   "sha256": "35f314f398baa5fab24760a99cc8aec4f93862d776b181f21d3c10faa7b65547"
+  },
+  {
+   "percorso": "small/b03.bin",
+   "tipo": "piccoli-corpi",
+   "blocco": 3,
+   "byte": 553504,
+   "sha256": "b2d15557978c6480c04889cf8b1278e01ed921455dfdc87af299b1b5f373429f"
+  },
+  {
+   "percorso": "small/b04.bin",
+   "tipo": "piccoli-corpi",
+   "blocco": 4,
+   "byte": 559576,
+   "sha256": "ca2ad5f8f73edffe968a81d227a83fed89bbedf982f5cf64e131cdfdb2165a4d"
+  },
+  {
+   "percorso": "small/b05.bin",
+   "tipo": "piccoli-corpi",
+   "blocco": 5,
+   "byte": 557680,
+   "sha256": "154c34f445051fd1b6738dbd7d0453eeddc254282fb331858c5a34e29aba5b6b"
+  },
+  {
+   "percorso": "small/b06.bin",
+   "tipo": "piccoli-corpi",
+   "blocco": 6,
+   "byte": 557368,
+   "sha256": "80298429eb3d3d27d3d1188b73bbaca8d9d41a327cd0558513bb4ecde6c2be42"
+  },
+  {
+   "percorso": "small/b07.bin",
+   "tipo": "piccoli-corpi",
+   "blocco": 7,
+   "byte": 575152,
+   "sha256": "d88a9c74e804941ea20a217185c8e1655fccfbda8438640649564dc5c8b5ec2a"
+  },
+  {
+   "percorso": "small/b08.bin",
+   "tipo": "piccoli-corpi",
+   "blocco": 8,
+   "byte": 1067072,
+   "sha256": "46742984e1e9b1577aa703256337500b0e590d3f3c43af66b12eeff803bfb724"
+  },
+  {
+   "percorso": "small/b09.bin",
+   "tipo": "piccoli-corpi",
+   "blocco": 9,
+   "byte": 1178856,
+   "sha256": "dfa3b9addaaef0702cb33e118384c3f992c3251fa62ac0fe98ddc0f0fa497723"
+  },
+  {
+   "percorso": "small/b10.bin",
+   "tipo": "piccoli-corpi",
+   "blocco": 10,
+   "byte": 1249816,
+   "sha256": "3a33caa0044ec16b56b6c4cbeaaa8179eaf499ad48657b28b74c659cf79a3eaf"
+  },
+  {
+   "percorso": "small/b11.bin",
+   "tipo": "piccoli-corpi",
+   "blocco": 11,
+   "byte": 5331816,
+   "sha256": "5f50ffcd18411261284f1ef8d84a535a460b751d33b3a3ae828ae9178aef7ad9"
+  },
+  {
+   "percorso": "small/b12.bin",
+   "tipo": "piccoli-corpi",
+   "blocco": 12,
+   "byte": 1402928,
+   "sha256": "7c59681f32d52233e2bb9b3116d09806bfbfeb5c65719b84d18c024a106cc504"
+  },
+  {
+   "percorso": "stars.bin",
+   "tipo": "stelle",
+   "byte": 363904,
+   "sha256": "a0fdde41faca11b1dda1a6084f47952831b141ebd46346d954322d3246133196"
+  },
+  {
+   "percorso": "tex/callisto.jpg",
+   "tipo": "texture",
+   "byte": 383021,
+   "sha256": "e7efc32d62492c5c843ac4809cb410054040c1f71fdf8fb07102a3d9a9cb9c87"
+  },
+  {
+   "percorso": "tex/caronte.jpg",
+   "tipo": "texture",
+   "byte": 384109,
+   "sha256": "a2bfc2265d3fb237b7889e1b6754920b754b223905f7cf7091ce8f898bdd6abf"
+  },
+  {
+   "percorso": "tex/cerere.jpg",
+   "tipo": "texture",
+   "byte": 395690,
+   "sha256": "ba7dfd1a0de3dfa50ef6cbccc9395278ba646d17246619e2bf5ba4e23aebce1e"
+  },
+  {
+   "percorso": "tex/dione.jpg",
+   "tipo": "texture",
+   "byte": 393210,
+   "sha256": "cea4a5ba765b0d553283c5f2da2db103046e50ea7bd89d5b38fe9b3ee496e131"
+  },
+  {
+   "percorso": "tex/encelado.jpg",
+   "tipo": "texture",
+   "byte": 394247,
+   "sha256": "7d8bf902179d35c54ee5d0b8c5812263b18ca8358c437a8006604050c671fbc5"
+  },
+  {
+   "percorso": "tex/europa.jpg",
+   "tipo": "texture",
+   "byte": 392101,
+   "sha256": "5ef61adca85db80d5257778883b6b94d1fc23177635f7e433b2da4818520066c"
+  },
+  {
+   "percorso": "tex/ganimede.jpg",
+   "tipo": "texture",
+   "byte": 393424,
+   "sha256": "e8c0de8fbb8db01ae95edc43e35337d0687876751936b8af1874ffdbdc5cd1ab"
+  },
+  {
+   "percorso": "tex/giapeto.jpg",
+   "tipo": "texture",
+   "byte": 399389,
+   "sha256": "0e743f0728906cdb95ea3329b270d32703044144a57f9827e56b86ff4807edb8"
+  },
+  {
+   "percorso": "tex/giove.jpg",
+   "tipo": "texture",
+   "byte": 383807,
+   "sha256": "6379a4db2046dd34f5616db411736eefd113473bc189cd734fe3f1e7c0d37b9a"
+  },
+  {
+   "percorso": "tex/io.jpg",
+   "tipo": "texture",
+   "byte": 393695,
+   "sha256": "4d4e275cc64978403dc11b31090aedf9ab787c6ff6cbd8ce4284ed029f6293af"
+  },
+  {
+   "percorso": "tex/luna.jpg",
+   "tipo": "texture",
+   "byte": 397069,
+   "sha256": "e484d6bd01264cd1075a915ca16453afecbecb5817c9acc3f919db31e3947ab9"
+  },
+  {
+   "percorso": "tex/marte.jpg",
+   "tipo": "texture",
+   "byte": 368367,
+   "sha256": "dec4ba93df8b02dd136b5e529ec336caa5ea2bb7d0efc52d3a9c6215c1d1347e"
+  },
+  {
+   "percorso": "tex/mercurio.jpg",
+   "tipo": "texture",
+   "byte": 394086,
+   "sha256": "4c999c45c647aa787602748536161330ad043f8084719ea8960f93022248e6ef"
+  },
+  {
+   "percorso": "tex/nettuno.jpg",
+   "tipo": "texture",
+   "byte": 241580,
+   "sha256": "cb42ea82709741d28b0af44d8b283cbc6dbd0c521a7f0e1e1e010ade00977df6"
+  },
+  {
+   "percorso": "tex/plutone.jpg",
+   "tipo": "texture",
+   "byte": 389746,
+   "sha256": "4fbc8ba16d82b0e9debf95dbfb22dcc61de4872b4314374da78f6e634c9de356"
+  },
+  {
+   "percorso": "tex/rea.jpg",
+   "tipo": "texture",
+   "byte": 395686,
+   "sha256": "ea12953fe2b345396c31d629bb31f30fcfc12d1fb9949274f22d2de8439f77a8"
+  },
+  {
+   "percorso": "tex/saturno.jpg",
+   "tipo": "texture",
+   "byte": 199916,
+   "sha256": "54a900ca9bf7ab62e70f862852759abdf342e6d6436a95a2fe9ebdb6bcd3bbac"
+  },
+  {
+   "percorso": "tex/terra.jpg",
+   "tipo": "texture",
+   "byte": 371388,
+   "sha256": "e0de204011b391db6ecca9c9d5cf6d767e8abc160b159ab709ee7fea310623d6"
+  },
+  {
+   "percorso": "tex/teti.jpg",
+   "tipo": "texture",
+   "byte": 397245,
+   "sha256": "c97de7e01ff5bcb8b139debc158900ca506ff68442bfac63292660fa6cd3e5b6"
+  },
+  {
+   "percorso": "tex/titano.jpg",
+   "tipo": "texture",
+   "byte": 381742,
+   "sha256": "e7b40b2b393d36d4147badea121c1502c10bf461f0e4447700b9186159f9d11e"
+  },
+  {
+   "percorso": "tex/tritone.jpg",
+   "tipo": "texture",
+   "byte": 365491,
+   "sha256": "7b0ef871efa1c5bdc0148fb7654cb7cfc3d020ab120e34db6da554e5c5afcf71"
+  },
+  {
+   "percorso": "tex/urano.jpg",
+   "tipo": "texture",
+   "byte": 77751,
+   "sha256": "d15239d46f82d3ea13d2b260b5b29b2a382f42f2916dae0694d0387b1204a09d"
+  },
+  {
+   "percorso": "tex/venere.jpg",
+   "tipo": "texture",
+   "byte": 397681,
+   "sha256": "f617dc049b3a285158dcfc48a13e1259d59b7e4fa95127445686dc7d27997c57"
+  },
+  {
+   "percorso": "tex/vesta.jpg",
+   "tipo": "texture",
+   "byte": 390529,
+   "sha256": "671c490b48e55cda3ddf3274c4aaa1a225178d3577030c79de30552a6d475f0c"
+  },
+  {
+   "percorso": "time.json",
+   "tipo": "tempo",
+   "byte": 57035,
+   "sha256": "d78b72fc6f32b3ccf4438b3cefd18e428c231ca364e1e2b3b49589908610ae85"
+  }
+ ]
+}

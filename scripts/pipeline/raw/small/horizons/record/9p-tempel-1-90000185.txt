@@ -1,0 +1,25 @@
+API VERSION: 1.2
+API SOURCE: NASA/JPL Horizons API
+
+*******************************************************************************
+JPL/HORIZONS                     9P/Tempel 1               2026-Oct-18 15:42:37
+Rec #:90000185                  Soln.date: -            # obs: 4793 (1967-2006)
+ 
+IAU76/J2000 helio. ecliptic osc. elements (au, days, deg., period=Julian yrs):
+ 
+  EPOCH=  2441520.5 ! 1972-Jul-22.0000000 (TDB)    RMSW= n.a.
+   EC= .519615             QR= 1.49666             TP= 2441513.8953
+   OM= 69.0153             W= 179.2229             IN= 10.5511
+   A= 3.115542741759214    MA= 1.183740752268953   ADIST= 4.734425483518429
+   PER= 5.49931722914934   N= .179227028           ANGMOM= .025942379
+   DAN= 4.73395            DDN= 1.49671            L= 248.2513376
+   B= .1422924                                     TP= 1972-Jul-15.3953000000
+ 
+Comet physical (GM= km^3/s^2; RAD= km):
+   GM= n.a.                RAD= 3.
+   M1=  12.9     M2=  n.a.     k1=  9.     k2= n.a.     PHCOF= n.a.
+
+COMET comments 
+1: soln ref.= SAO/1972
+2: k1=9.;non-gravs. considered; 2008 SAO Comet Catalog
+*******************************************************************************

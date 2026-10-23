@@ -1,0 +1,25 @@
+API VERSION: 1.2
+API SOURCE: NASA/JPL Horizons API
+
+*******************************************************************************
+JPL/HORIZONS                      2P/Encke                 2026-Oct-18 15:39:45
+Rec #:90000084                  Soln.date: -             # obs: 197 (1984-1996)
+ 
+IAU76/J2000 helio. ecliptic osc. elements (au, days, deg., period=Julian yrs):
+ 
+  EPOCH=  2447000.5 ! 1987-Jul-24.0000000 (TDB)    RMSW= n.a.
+   EC= .849891             QR= .331734             TP= 2446993.9010999999
+   OM= 334.7405            W= 186.253              IN= 11.9314
+   A= 2.209954100020651    MA= 1.979706187929547   ADIST= 4.088174200041301
+   PER= 3.28536088894595   N= .300005484           ANGMOM= .013475643
+   DAN= 3.95495            DDN= .33264             L= 160.8594451
+   B= -1.2902921                                   TP= 1987-Jul-17.4010999999
+ 
+Comet physical (GM= km^3/s^2; RAD= km):
+   GM= n.a.                RAD= 2.4
+   M1=  15.7     M2=  n.a.     k1=  4.5    k2= n.a.     PHCOF= n.a.
+
+COMET comments 
+1: soln ref.= SAO/1987
+2: k1=4.5;non-gravs. considered; 2008 SAO Comet Catalog
+*******************************************************************************

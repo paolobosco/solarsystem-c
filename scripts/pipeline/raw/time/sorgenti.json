@@ -1,0 +1,85 @@
+{
+ "formato": 1,
+ "estrazione": "2026-10-18",
+ "s15": {
+  "origine": "Skyfield 1.55",
+  "url": "https://files.pythonhosted.org/packages/8d/5a/c4cc09d4421de255ca0504485efceb3646a4e5381bfb665647e39bea5cb1/skyfield-1.55-py3-none-any.whl",
+  "sha256Ruota": "9f98964855067460c94aa81a337194136f4a97a62ba8bbbfac1b8556f2b66ad4",
+  "membro": "skyfield/data/delta_t.npz",
+  "chiave": "Table-S15.2020.txt",
+  "sha256": "2d12bd3e789543b78a1f53c8b76ed7fecffdf7e5149cfb6a0aed21a8b3db5ff6",
+  "tentativiHmnao": [
+   {
+    "url": "http://astro.ukho.gov.uk/nao/lvm/Table-S15.2020.txt",
+    "esito": "richiesta non riuscita: http://astro.ukho.gov.uk/nao/lvm/Table-S15.2020.txt: HTTP Error 503: Service Unavailable",
+    "data": "2026-10-18"
+   },
+   {
+    "url": "http://astro.ukho.gov.uk/nao/lvm/",
+    "esito": "richiesta non riuscita: http://astro.ukho.gov.uk/nao/lvm/: HTTP Error 503: Service Unavailable",
+    "data": "2026-10-18"
+   }
+  ],
+  "controllo": {
+   "intervalli": 58,
+   "primoNodo": -720.0,
+   "ultimoNodo": 2019.0,
+   "s15Meno720": 20371.848,
+   "saltoMassimoAiNodi_s": 0.0010000000020227162,
+   "saltoMassimoDerivata_sAnno": 0.0006666666666667043
+  }
+ },
+ "c04": {
+  "url": "https://hpiers.obspm.fr/iers/eop/eopc04/eopc04.1962-now",
+  "nome": "eopc04.1962-now",
+  "sha256Serie": "e9ffaf7a194216357c685cb1c1817db0dbaf05ba39ed6c2558dc353490d3e936",
+  "sha256Estratto": "066e807434c4ff4774effcbc0d6e031957480b6fed8d7f8ffab55cad0e810e4a",
+  "ultimoGiorno": "2026-09-18",
+  "notaDatacenter": "https://datacenter.iers.org/data/latestVersion/EOP_20_C04_one_file_1962-now.txt: copia ferma al 2025-05-05 (Last-Modified 2025-06-04) il 2026-10-18",
+  "scartiModello": {
+   "s15Iniziale": {
+    "da": "1962-01-01",
+    "a": "1971-12-31",
+    "n": 3652,
+    "rms_s": 0.4545260848244602,
+    "maxAss_s": 0.6767010558293762
+   },
+   "s15": {
+    "da": "1972-01-01",
+    "a": "2018-12-31",
+    "n": 17167,
+    "rms_s": 0.11394568038113677,
+    "maxAss_s": 0.27208906146979217
+   },
+   "iers": {
+    "da": "2020-01-01",
+    "a": "2026-09-18",
+    "n": 2453,
+    "rms_s": 0.001682605867348115,
+    "maxAss_s": 0.0051035400340992965
+   }
+  },
+  "lodUltimoAnno": {
+   "da": "2025-09-19",
+   "a": "2026-09-18",
+   "n": 365,
+   "rms_s": 0.0005385792876341358,
+   "media_s": 0.00027320794520547945,
+   "maxAss_s": 0.0012663
+  }
+ },
+ "secondiIntercalari": {
+  "url": "https://hpiers.obspm.fr/iers/bul/bulc/Leap_Second.dat",
+  "sha256": "6cb6f5d4b819f2e568e25db4b0b26d89dedf031fdffb18bc94d40f4e94e268d7"
+ },
+ "taiUtc": {
+  "url": "https://maia.usno.navy.mil/ser7/tai-utc.dat",
+  "data": "2026-10-19",
+  "sha256": "3524e1ae34d67e858873a89e59983bbc5bd100221da898e796c1b36036a310c3"
+ },
+ "deltaTStoricoUsno": {
+  "url": "https://maia.usno.navy.mil/ser7/historic_deltat.data",
+  "data": "2026-10-19",
+  "sha256": "9f43514119060601a00624a5d9287a91b0b1f5e12bec5209bbabda90b392b70b"
+ }
+}

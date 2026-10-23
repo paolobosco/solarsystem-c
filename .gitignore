@@ -1,0 +1,17 @@
+node_modules/
+dist/
+dist-artifact/
+dist-artifact-build/
+dist-test*/
+coverage/
+playwright-report/
+test-results/
+.vite/
+*.log
+__pycache__/
+*.pyc
+.venv/
+# cache locale della pipeline (file SPK DE441 e risposte grezze voluminose)
+scripts/pipeline/.cache/
+.DS_Store
+.venv-assist/

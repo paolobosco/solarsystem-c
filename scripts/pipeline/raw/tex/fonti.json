@@ -1,0 +1,258 @@
+{
+ "formato": 1,
+ "pagine": {
+  "https://astrogeology.usgs.gov/search/map/callisto_galileo_voyager_global_mosaic_1km": {
+   "estrazione": "2026-10-19",
+   "byte": 26867,
+   "sha256": "c141ed35d0f795df8df1eed2bff372f397e09fa382c2b183c631b1c454b45272",
+   "estratti": {
+    "Originators": "USGS Astrogeology Science Center",
+    "Publisher": "USGS Astrogeology Science Center",
+    "Access Constraints": "public domain",
+    "Use Constraints": "None"
+   }
+  },
+  "https://astrogeology.usgs.gov/search/map/ceres_dawn_fc_global_mosaic_400m": {
+   "estrazione": "2026-10-19",
+   "byte": 26987,
+   "sha256": "f7d0af50d6bbdb637c596d40bee16bbf70729f5a3d74eccf682c6bb6394c8f82",
+   "estratti": {
+    "Primary Authors": "NASA/JPL-Caltech/UCLA/MPS/DLR/IDA",
+    "Originators": "USGS Astrogeology Science Center",
+    "Publisher": "USGS Astrogeology Science Center",
+    "Access Constraints": "None",
+    "Use Constraints": "Please cite authors"
+   }
+  },
+  "https://astrogeology.usgs.gov/search/map/charon_new_horizons_lorri_mvic_global_mosaic_300m": {
+   "estrazione": "2026-10-19",
+   "byte": 24641,
+   "sha256": "75a80302dd53adc893b604798e94b855ad135a554361ddfd3252021a4f46ae89",
+   "estratti": {
+    "Primary Authors": "New Horizons Team",
+    "Originators": "NASA, Johns Hopkins University Applied Physics Laboratory, Southwest Research Institute, Lunar and Planetary Institute",
+    "Publisher": "USGS Astrogeology Science Center",
+    "Access Constraints": "None",
+    "Use Constraints": "Please cite authors"
+   }
+  },
+  "https://astrogeology.usgs.gov/search/map/dione_cassini_voyager_global_mosaic_154m": {
+   "estrazione": "2026-10-19",
+   "byte": 26643,
+   "sha256": "887c03fa9da609cb7e3aa0c408d0433d5ae91242741b24c5c0e03e8c06aa9a0e",
+   "estratti": {
+    "Originators": "NASA, JPL, Space Science Institute",
+    "Publisher": "USGS Astrogeology Science Center",
+    "Access Constraints": "Public domain",
+    "Use Constraints": "Please cite authors"
+   }
+  },
+  "https://astrogeology.usgs.gov/search/map/enceladus_cassini_global_mosaic_110m": {
+   "estrazione": "2026-10-19",
+   "byte": 25802,
+   "sha256": "45c65382ab7fd50ed5996c3f5804e6efcdde949fb609d091e204d53f7b743007",
+   "estratti": {
+    "Originators": "Cassini Team, Jet Propulsion Laboratory, Space Science Institute",
+    "Publisher": "USGS Astrogeology Science Center",
+    "Access Constraints": "Public domain",
+    "Use Constraints": "Please cite authors"
+   }
+  },
+  "https://astrogeology.usgs.gov/search/map/europa_voyager_galileo_ssi_global_mosaic_500m": {
+   "estrazione": "2026-10-19",
+   "byte": 30833,
+   "sha256": "98b172f72544ff0a97855dde21e51e23e3de9783947834501aca2d6e97243596",
+   "estratti": {
+    "Primary Authors": "Tammy Becker",
+    "Originators": "Archinal, B., Colvin, T, Davies, M, Gitlin, A., Kirk, R., Weller, L.",
+    "Publisher": "USGS Astrogeology Science Center",
+    "Access Constraints": "None",
+    "Use Constraints": "None"
+   }
+  },
+  "https://astrogeology.usgs.gov/search/map/ganymede_voyager_galileo_ssi_color_global_mosaic_1_4km": {
+   "estrazione": "2026-10-19",
+   "byte": 33134,
+   "sha256": "2a1f7ed1a0e486a7a4e5dec9f0a2e60ba36e616a7699fcc331bc4c9ed69050c0",
+   "estratti": {
+    "Primary Authors": "USGS Astrogeology Science Center",
+    "Publisher": "USGS Astrogeology Science Center",
+    "Access Constraints": "Public domain",
+    "Use Constraints": "None"
+   }
+  },
+  "https://astrogeology.usgs.gov/search/map/iapetus_cassini_voyager_global_mosaic_803m": {
+   "estrazione": "2026-10-19",
+   "byte": 25197,
+   "sha256": "868d93a6fb395637f782a1cf185082f96ea66f7cc7e1e399da1629d354705790",
+   "estratti": {
+    "Originators": "Space Science Institute, Cassini Team, Jet Propulsion Laboratory",
+    "Publisher": "USGS Astrogeology Science Center",
+    "Access Constraints": "Public domain",
+    "Use Constraints": "Please cite authors"
+   }
+  },
+  "https://astrogeology.usgs.gov/search/map/io_galileo_ssi_voyager_color_merged_global_mosaic_1km": {
+   "estrazione": "2026-10-19",
+   "byte": 29648,
+   "sha256": "20570515970f1d908d4fcf19e7963f7ad2bb02478288157dbe49f4f19feb6bd1",
+   "estratti": {
+    "Primary Authors": "USGS Astrogeology Science Center",
+    "Originators": "Planetary Data System",
+    "Publisher": "USGS Astrogeology Science Center",
+    "Access Constraints": "public domain",
+    "Use Constraints": "None"
+   }
+  },
+  "https://astrogeology.usgs.gov/search/map/mars_viking_global_color_mosaic_925m": {
+   "estrazione": "2026-10-19",
+   "byte": 33877,
+   "sha256": "ef3a8015c2422f0cc1911bb9670cc89975c3e50265c376c06bdfe8023cc4828a",
+   "estratti": {
+    "Primary Authors": "USGS Astrogeology Science Center",
+    "Originators": "Planetary Data System",
+    "Publisher": "USGS Astrogeology Science Center",
+    "Access Constraints": "public domain",
+    "Use Constraints": "None"
+   }
+  },
+  "https://astrogeology.usgs.gov/search/map/mercury_messenger_mdis_global_color_mosaic_665m": {
+   "estrazione": "2026-10-19",
+   "byte": 25111,
+   "sha256": "4855b7ff910484768a0e6e31497eebf022486b3d166ba86eeb8a0ac82e10fa71",
+   "estratti": {
+    "Primary Authors": "MESSENGER Team",
+    "Originators": "Arizona State University",
+    "Publisher": "USGS Astrogeology Science Center",
+    "Access Constraints": "public domain",
+    "Use Constraints": "Please cite authors"
+   }
+  },
+  "https://astrogeology.usgs.gov/search/map/pluto_new_horizons_lorri_mvic_global_mosaic_300m": {
+   "estrazione": "2026-10-19",
+   "byte": 25135,
+   "sha256": "7c4ca9337f35eec113e2dc5e06b3b96fe334cfd32b7a55705b32460cf11e41eb",
+   "estratti": {
+    "Primary Authors": "New Horizons Team",
+    "Originators": "NASA, Johns Hopkins University Applied Physics Laboratory, Southwest Research Institute, Lunar and Planetary Institute",
+    "Publisher": "USGS Astrogeology Science Center",
+    "Access Constraints": "None",
+    "Use Constraints": "Please cite authors"
+   }
+  },
+  "https://astrogeology.usgs.gov/search/map/rhea_cassini_voyager_global_mosaic_417m": {
+   "estrazione": "2026-10-19",
+   "byte": 25801,
+   "sha256": "eb4f4684a3e763184951121d755ee9f8111175e4816c8942151fe92180552f89",
+   "estratti": {
+    "Primary Authors": "Roatsch, T., Kersten, E., Hoffmeister, A., Wahlisch, M.",
+    "Originators": "NASA, JPL, Space Science Institute",
+    "Publisher": "USGS Astrogeology Science Center",
+    "Access Constraints": "Public domain",
+    "Use Constraints": "Please cite authors"
+   }
+  },
+  "https://astrogeology.usgs.gov/search/map/tethys_cassini_global_mosaic_293m": {
+   "estrazione": "2026-10-19",
+   "byte": 24112,
+   "sha256": "005e8c7c6bdc893386f6a7071875bda6fd8267757c589c4dcdb9940c087e4190",
+   "estratti": {
+    "Primary Authors": "Roatsch, T., Kersten, E., Hoffmeister, A., Wahlisch, M.",
+    "Originators": "NASA, JPL, Space Science Institute",
+    "Publisher": "USGS Astrogeology Science Center",
+    "Access Constraints": "Public domain",
+    "Use Constraints": "Please cite authors"
+   }
+  },
+  "https://astrogeology.usgs.gov/search/map/triton_voyager_2_global_color_mosaic_600m": {
+   "estrazione": "2026-10-19",
+   "byte": 26370,
+   "sha256": "ba826d085c27c65615b93f532c612a63bfe81dde825212a66731c436bfa7440b",
+   "estratti": {
+    "Primary Authors": "Lunar and Planetary Institute",
+    "Originators": "NASA, Jet Propulsion Laboratory, Dr. Paul Schenk",
+    "Publisher": "USGS Astrogeology Science Center",
+    "Access Constraints": "public domain",
+    "Use Constraints": "Please cite authors"
+   }
+  },
+  "https://astrogeology.usgs.gov/search/map/venus_magellan_global_c3_mdir_synthetic_color_mosaic_4641m": {
+   "estrazione": "2026-10-19",
+   "byte": 26567,
+   "sha256": "bb1a83554bcbe05808d4fa844d9c98f267db89e4f4fa743dfa17b6739b5ddf3d",
+   "estratti": {
+    "Primary Authors": "USGS Astrogeology Science Center",
+    "Originators": "PDS Geosciences Node",
+    "Publisher": "USGS Astrogeology Science Center",
+    "Access Constraints": "public domain",
+    "Use Constraints": "None"
+   }
+  },
+  "https://astrogeology.usgs.gov/search/map/vesta_dawn_fc_hamo_global_mosaic_60m": {
+   "estrazione": "2026-10-19",
+   "byte": 27846,
+   "sha256": "ded8c994cff01962a7eacd5d18dd9ac30ab644922ee327edc3f3911ea1339668",
+   "estratti": {
+    "Primary Authors": "NASA/JPL-Caltech/UCLA/MPS/DLR/IDA",
+    "Originators": "Dawn Team",
+    "Publisher": "USGS Astrogeology Science Center",
+    "Access Constraints": "None",
+    "Use Constraints": "Please cite authors"
+   }
+  },
+  "https://science.nasa.gov/earth/earth-observatory/blue-marble-next-generation/base-map/": {
+   "estrazione": "2026-10-19",
+   "byte": 376256,
+   "sha256": "d7b6ba479616d62cb355e7df2f933cbc5c00541d1110611aa326bf7ecaff13c1",
+   "estratti": {}
+  },
+  "https://science.nasa.gov/photojournal/cassinis-best-maps-of-jupiter-cylindrical-map/": {
+   "estrazione": "2026-10-19",
+   "byte": 271885,
+   "sha256": "39f194752c47bb0a26f19a72bd8d9d2f2755ae8744ce29d7fa929493c758bba6",
+   "estratti": {
+    "frase0": "Credits: NASA/JPL/Space Science Institute"
+   }
+  },
+  "https://science.nasa.gov/photojournal/titan-global-map-june-2015/": {
+   "estrazione": "2026-10-19",
+   "byte": 270202,
+   "sha256": "602d32d8438c5d21ef28d09ac66ba541f3edd23da7ef0cc763d7ea382377a5c2",
+   "estratti": {
+    "frase0": "Credits: NASA/JPL-Caltech/Space Science Institute"
+   }
+  },
+  "https://svs.gsfc.nasa.gov/4720": {
+   "estrazione": "2026-10-19",
+   "byte": 54929,
+   "sha256": "16a568170b27ab7ded2313cbb4b8fa122fea531dba29c779dae7e3594196583f",
+   "estratti": {
+    "frase1": "Please give credit for this item to: NASA's Scientific Visualization Studio",
+    "frase4": "The map is centered on 0° longitude.",
+    "frase5": "The map is centered on 0° longitude."
+   }
+  },
+  "https://www.nasa.gov/nasa-brand-center/images-and-media/": {
+   "estrazione": "2026-10-19",
+   "byte": 313142,
+   "sha256": "9965e3a031a1fdede0016f0899aec68bbc47ec2e9971714daef3910ddabe3ffe",
+   "estratti": {
+    "frase3": "generally are not subject to copyright in the United States."
+   }
+  },
+  "https://www.solarsystemscope.com/textures/": {
+   "estrazione": "2026-10-19",
+   "byte": 38687,
+   "sha256": "c265a1427a9b07effd1cce8a9a0a4ef94de734b5400269c6180d7562508f192a",
+   "estratti": {
+    "frase2": "Distributed under Attribution 4.0 International license:"
+   }
+  },
+  "https://www.usgs.gov/information-policies-and-instructions/copyrights-and-credits": {
+   "estrazione": "2026-10-19",
+   "estratti": {
+    "frase": "USGS-authored or produced data and information are considered to be in the U.S. Public Domain."
+   }
+  }
+ }
+}

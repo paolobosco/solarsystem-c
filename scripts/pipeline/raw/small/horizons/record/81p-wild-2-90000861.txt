@@ -1,0 +1,30 @@
+API VERSION: 1.2
+API SOURCE: NASA/JPL Horizons API
+
+*******************************************************************************
+JPL/HORIZONS                     81P/Wild 2                2026-Oct-18 15:50:25
+Rec #:90000861 (+COV) Soln.date: 2017-Feb-02_15:21:54   # obs: 4825 (1995-2012)
+ 
+IAU76/J2000 helio. ecliptic osc. elements (au, days, deg., period=Julian yrs):
+ 
+  EPOCH=  2454051.5 ! 2006-Nov-12.0000000 (TDB)    RMSW= n.a.
+   EC= .5381380041665575   QR= 1.593803550102448   TP= 2452908.2207783656
+   OM= 136.1318267153069   W= 41.84467452976015    IN= 3.238324831683599
+   A= 3.450822030131287    MA= 175.7812472041391   ADIST= 5.307840510160126
+   PER= 6.41050207571354   N= .153751808           ANGMOM= .026933729
+   DAN= 1.74995            DDN= 4.09188            L= 177.9310012
+   B= 2.1596917            MOID= .60010803         TP= 2003-Sep-25.7207783656
+ 
+Comet physical (GM= km^3/s^2; RAD= km):
+   GM= n.a.                RAD= 2.
+   M1=  9.8      M2=  12.9     k1=  12.5   k2=  5.      PHCOF=  .030
+Comet non-gravitational force model (AMRAT=m^2/kg;A1-A3=au/d^2;DT=days;R0=au):
+   AMRAT=  0.                                      DT=  -133.6287
+   A1= 1.733450144529E-9   A2= 4.622118547559E-10  A3= -1.031279787421E-9
+ Non-standard or simulated/proxy model:
+   ALN=  .1112620426   NK=  4.6142   NM=  2.15     NN=  5.093    R0=  2.808
+
+COMET comments 
+1: soln ref.= JPL#K103/10, data arc: 1995-01-02 to 2012-09-18
+2: k1=12.5, k2=5., phase coef.=0.03;
+*******************************************************************************

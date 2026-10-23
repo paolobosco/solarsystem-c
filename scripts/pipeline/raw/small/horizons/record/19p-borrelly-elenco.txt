@@ -1,0 +1,31 @@
+API VERSION: 1.2
+API SOURCE: NASA/JPL Horizons API
+
+*******************************************************************************
+JPL/DASTCOM            Small-body Index Search Results     2026-Oct-18 15:43:48
+
+ Comet AND asteroid index search:
+
+    DES = 19P;
+
+ Matching small-bodies: 
+
+    Record #  Epoch-yr  >MATCH DESIG<  Primary Desig  Name  
+    --------  --------  -------------  -------------  -------------------------
+    90000293    1905    19P            19P             Borrelly
+    90000294    1911    19P            19P             Borrelly
+    90000295    1918    19P            19P             Borrelly
+    90000296    1925    19P            19P             Borrelly
+    90000297    1932    19P            19P             Borrelly
+    90000298    1953    19P            19P             Borrelly
+    90000299    1960    19P            19P             Borrelly
+    90000300    1967    19P            19P             Borrelly
+    90000301    1974    19P            19P             Borrelly
+    90000302    1981    19P            19P             Borrelly
+    90000303    1987    19P            19P             Borrelly
+    90000304    1994    19P            19P             Borrelly
+    90000305    2004    19P            19P             Borrelly
+    90000306    2021    19P            19P             Borrelly
+
+ (14 matches. To SELECT, enter record # (integer), followed by semi-colon.)
+*******************************************************************************

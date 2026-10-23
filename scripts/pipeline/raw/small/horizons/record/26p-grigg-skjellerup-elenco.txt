@@ -1,0 +1,37 @@
+API VERSION: 1.2
+API SOURCE: NASA/JPL Horizons API
+
+*******************************************************************************
+JPL/DASTCOM            Small-body Index Search Results     2026-Oct-18 15:46:18
+
+ Comet AND asteroid index search:
+
+    DES = 26P;
+
+ Matching small-bodies: 
+
+    Record #  Epoch-yr  >MATCH DESIG<  Primary Desig  Name  
+    --------  --------  -------------  -------------  -------------------------
+    90000359    1808    26P            26P             Grigg-Skjellerup
+    90000360    1902    26P            26P             Grigg-Skjellerup
+    90000361    1922    26P            26P             Grigg-Skjellerup
+    90000362    1927    26P            26P             Grigg-Skjellerup
+    90000363    1932    26P            26P             Grigg-Skjellerup
+    90000364    1937    26P            26P             Grigg-Skjellerup
+    90000365    1942    26P            26P             Grigg-Skjellerup
+    90000366    1947    26P            26P             Grigg-Skjellerup
+    90000367    1952    26P            26P             Grigg-Skjellerup
+    90000368    1957    26P            26P             Grigg-Skjellerup
+    90000369    1962    26P            26P             Grigg-Skjellerup
+    90000370    1967    26P            26P             Grigg-Skjellerup
+    90000371    1972    26P            26P             Grigg-Skjellerup
+    90000372    1977    26P            26P             Grigg-Skjellerup
+    90000373    1982    26P            26P             Grigg-Skjellerup
+    90000374    1987    26P            26P             Grigg-Skjellerup
+    90000375    1992    26P            26P             Grigg-Skjellerup
+    90000376    1997    26P            26P             Grigg-Skjellerup
+    90000377    2008    26P            26P             Grigg-Skjellerup
+    90000378    2012    26P            26P             Grigg-Skjellerup
+
+ (20 matches. To SELECT, enter record # (integer), followed by semi-colon.)
+*******************************************************************************

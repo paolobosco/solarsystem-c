@@ -1,0 +1,14 @@
+# Ambiente di integrazione con ASSIST (Python 3.13): scripts/pipeline/.venv-assist
+# assist 1.2.3 richiede rebound >= 4.4.11 e < 5 e si compila contro il rebound installato:
+# installare prima questo file, poi requirements-assist-build.txt con --no-build-isolation (README.md).
+numpy==2.5.3
+spiceypy==8.3.0
+jplephem==2.24
+pytest==9.1.1
+rebound==4.6.0
+setuptools==84.0.0
+# dipendenze indirette
+iniconfig==2.3.1
+packaging==26.3
+pluggy==1.7.0
+Pygments==2.21.0

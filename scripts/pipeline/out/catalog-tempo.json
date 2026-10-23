@@ -1,0 +1,14 @@
+{
+ "formato": 1,
+ "area": "tempo",
+ "corpi": {
+  "terra": {
+   "orientamento": {
+    "modello": "vondrak",
+    "coefficienti": null,
+    "convenzionePolo": "nord-IAU",
+    "indicativo": false
+   }
+  }
+ }
+}

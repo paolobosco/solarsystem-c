@@ -1,0 +1,164 @@
+API VERSION: 1.2
+API SOURCE: NASA/JPL Horizons API
+
+*******************************************************************************
+JPL/HORIZONS                     9P/Tempel 1               2026-Oct-18 15:43:24
+Rec #:90000192 (+COV) Soln.date: 2025-Dec-29_09:30:51   # obs: 3283 (2008-2025)
+ 
+IAU76/J2000 helio. ecliptic osc. elements (au, days, deg., period=Julian yrs):
+ 
+  EPOCH=  2457470.5 ! 2016-Mar-23.0000000 (TDB)    RMSW= n.a.
+   EC= .5097028326964878   QR= 1.542540469975507   TP= 2457603.0707245683
+   OM= 68.75357468050096   W= 179.1972753698572    IN= 10.4734281543904
+   A= 3.146133758958915    MA= 336.5854438552903   ADIST= 4.749727047942323
+   PER= 5.58051110311029   N= .176619357           ANGMOM= .026250976
+   DAN= 4.74924            DDN= 1.54259            L= 247.9642223
+   B= .1459143             MOID= .52939701         TP= 2016-Aug-02.5707245683
+ 
+Comet physical (GM= km^3/s^2; RAD= km):
+   GM= n.a.                RAD= 3.
+   M1=  12.9     M2=  n.a.     k1=  9.     k2= n.a.     PHCOF= n.a.
+Comet non-gravitational force model (AMRAT=m^2/kg;A1-A3=au/d^2;DT=days;R0=au):
+   AMRAT=  0.                                      DT=  0.
+   A1= 1.800413476303E-11  A2= 1.179466606118E-11  A3= 0.
+ Non-standard or simulated/proxy model:
+   ALN=  .1112620426   NK=  4.6142   NM=  2.15     NN=  5.093    R0=  2.808
+
+COMET comments 
+1: soln ref.= JPL#K284/2, data arc: 2008-10-25 to 2025-12-22
+2: k1=9.;
+*******************************************************************************
+
+
+*******************************************************************************
+Ephemeris / API_USER Sun Oct 18 15:43:24 2026 Pasadena, USA      / Horizons
+*******************************************************************************
+Target body name: 9P/Tempel 1                     {source: JPL#K284/2}
+Center body name: Sun (10)                        {source: DE441}
+Center-site name: BODY CENTER
+*******************************************************************************
+Start time      : A.D. 2028-Mar-18 14:16:30.7200 TDB
+Stop  time      : A.D. 2120-Nov-24 15:12:31.6800 TDB
+Step-size       : DISCRETE TIME-LIST
+*******************************************************************************
+Center geodetic : 0.0, 0.0, 0.0                   {E-lon(deg),Lat(deg),Alt(km)}
+Center cylindric: 0.0, 0.0, 0.0                   {E-lon(deg),Dxy(km),Dz(km)}
+Center radii    : 695700.0, 695700.0, 695700.0 km {Equator_a, b, pole_c}
+Small perturbers: Yes                             {source: SB441-N16}
+Output units    : KM-S
+Calendar mode   : Mixed Julian/Gregorian
+Output type     : GEOMETRIC cartesian states
+Output format   : 2 (position and velocity)
+Reference frame : Ecliptic of J2000.0
+*******************************************************************************
+Initial IAU76/J2000 heliocentric ecliptic osculating elements (au, days, deg.):
+  EPOCH=  2457470.5 ! 2016-Mar-23.0000000 (TDB)    RMSW= n.a.                  
+   EC= .5097028326964878   QR= 1.542540469975507   TP= 2457603.0707245683      
+   OM= 68.75357468050096   W= 179.1972753698572    IN= 10.4734281543904        
+  Equivalent ICRF heliocentric cartesian coordinates (au, au/d):
+   X=-1.953058668000179E+00  Y=-7.991820740374983E-02  Z= 3.365379924159869E-01
+  VX= 4.770311378283060E-03 VY=-1.157898909393682E-02 VZ=-6.891755051228011E-03
+Comet physical (GM= km^3/s^2; RAD= km):                                        
+   GM= n.a.                RAD= 3.                                             
+   M1=  12.9     M2=  n.a.     k1=  9.     k2= n.a.     PHCOF= n.a.            
+Comet non-gravitational force model (AMRAT=m^2/kg;A1-A3=au/d^2;DT=days;R0=au): 
+   AMRAT=  0.                                      DT=  0.                     
+   A1= 1.800413476303E-11  A2= 1.179466606118E-11  A3= 0.                      
+ Non-standard or simulated/proxy model:                                        
+   ALN=  .1112620426   NK=  4.6142   NM=  2.15     NN=  5.093    R0=  2.808    
+*******************************************************************************
+JDTDB
+   X     Y     Z
+   VX    VY    VZ
+*******************************************************************************
+$$SOE
+2461849.094800000 = A.D. 2028-Mar-18 14:16:30.7200 TDB 
+ X =-6.242061688060419E+06 Y =-2.683130724511594E+08 Z =-1.862891176937991E+07
+ VX= 2.622877065767864E+01 VY=-2.890196300308134E+00 VZ=-4.653446494571289E+00
+2468719.603800000 = A.D. 2047-Jan-09 02:29:28.3200 TDB 
+ X = 1.942881115964071E+08 Y =-2.606108269272543E+08 Z =-5.175375345270190E+07
+ VX= 2.149396883445558E+01 VY= 8.706058892879758E+00 VZ=-2.889707538751130E+00
+2476984.101100000 = A.D. 2069-Aug-25 14:25:35.0400 TDB 
+ X =-4.114072741620664E+07 Y = 6.964999022422329E+08 Z = 5.949532168953085E+07
+ VX=-1.036592829314368E+01 VY=-3.376272119645124E+00 VZ= 1.442615890783329E+00
+2478034.576200000 = A.D. 2072-Jul-11 01:49:43.6800 TDB 
+ X = 2.582157795360102E+08 Y =-2.381188383174414E+08 Z =-6.033197280679673E+07
+ VX= 1.898691215373829E+01 VY= 1.100800155991585E+01 VZ=-2.275249703432727E+00
+2486618.800100000 = A.D. 2096-Jan-11 07:12:08.6400 TDB 
+ X =-3.043385716367925E+08 Y = 4.849136585416862E+08 Z = 8.670602587136129E+07
+ VX=-7.715032304307349E+00 VY=-1.184013689892604E+01 VZ= 3.640709103778850E-01
+2488198.042700000 = A.D. 2100-May-09 13:01:29.2800 TDB 
+ X = 3.177237847958925E+08 Y = 6.537571341136413E+08 Z =-2.290709174990922E+06
+ VX=-8.582155619668399E+00 VY= 5.440087361495229E+00 VZ= 1.820257608546357E+00
+2494688.875300000 = A.D. 2118-Feb-15 09:00:25.9200 TDB 
+ X = 5.116094814923991E+08 Y = 3.472615843177372E+08 Z =-5.643339789353535E+07
+ VX=-2.277952330720074E+00 VY= 1.258568277047470E+01 VZ= 1.367636460136247E+00
+2495702.133700000 = A.D. 2120-Nov-24 15:12:31.6800 TDB 
+ X =-1.922726912208364E+08 Y = 5.829346113877547E+08 Z = 7.158347872851366E+07
+ VX=-8.888111294240129E+00 VY=-8.662631025898438E+00 VZ= 4.960540250047329E-01
+$$EOE
+*******************************************************************************
+ 
+TIME
+
+  Barycentric Dynamical Time ("TDB" or T_eph) output was requested. This
+continuous coordinate time is equivalent to the relativistic proper time
+of a clock at rest in a reference frame co-moving with the solar system
+barycenter but outside the system's gravity well. It is the independent
+variable in the solar system relativistic equations of motion.
+
+  TDB runs at a uniform rate of one SI second per second and is independent
+of irregularities in Earth's rotation.
+ 
+CALENDAR SYSTEM
+
+  Mixed calendar mode was active such that calendar dates after AD 1582-Oct-15
+(if any) are in the modern Gregorian system. Dates prior to 1582-Oct-5 (if any)
+are in the Julian calendar system, which is automatically extended for dates
+prior to its adoption on 45-Jan-1 BC.  The Julian calendar is useful for
+matching historical dates. The Gregorian calendar more accurately corresponds
+to the Earth's orbital motion and seasons. A "Gregorian-only" calendar mode is
+available if such physical events are the primary interest.
+
+REFERENCE FRAME AND COORDINATES
+
+  Ecliptic at the standard reference epoch
+
+    Reference epoch: J2000.0
+    X-Y plane: adopted Earth orbital plane at the reference epoch
+               Note: IAU76 obliquity of 84381.448 arcseconds wrt ICRF X-Y plane
+    X-axis   : ICRF
+    Z-axis   : perpendicular to the X-Y plane in the directional (+ or -) sense
+               of Earth's north pole at the reference epoch.
+
+  Symbol meaning:
+
+    JDTDB    Julian Day Number, Barycentric Dynamical Time
+      X      X-component of position vector (km)
+      Y      Y-component of position vector (km)
+      Z      Z-component of position vector (km)
+      VX     X-component of velocity vector (km/sec)                           
+      VY     Y-component of velocity vector (km/sec)                           
+      VZ     Z-component of velocity vector (km/sec)                           
+
+ABERRATIONS AND CORRECTIONS
+
+ Geometric state vectors have NO corrections or aberrations applied.
+
+Computations by ...
+
+    Solar System Dynamics Group, Horizons On-Line Ephemeris System
+    4800 Oak Grove Drive, Jet Propulsion Laboratory
+    Pasadena, CA  91109   USA
+
+    General site: https://ssd.jpl.nasa.gov/
+    Mailing list: https://ssd.jpl.nasa.gov/email_list.html
+    System news : https://ssd.jpl.nasa.gov/horizons/news.html
+    User Guide  : https://ssd.jpl.nasa.gov/horizons/manual.html
+    Connect     : browser        https://ssd.jpl.nasa.gov/horizons/app.html#/x
+                  API            https://ssd-api.jpl.nasa.gov/doc/horizons.html
+                  command-line   telnet ssd.jpl.nasa.gov 6775
+                  e-mail/batch   https://ssd.jpl.nasa.gov/ftp/ssd/horizons_batch.txt
+                  scripts        https://ssd.jpl.nasa.gov/ftp/ssd/SCRIPTS
+    Inquiries   : Jon.D.Giorgini@jpl.nasa.gov
+*******************************************************************************

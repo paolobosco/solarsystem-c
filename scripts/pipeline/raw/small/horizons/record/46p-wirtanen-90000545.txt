@@ -1,0 +1,30 @@
+API VERSION: 1.2
+API SOURCE: NASA/JPL Horizons API
+
+*******************************************************************************
+JPL/HORIZONS                    46P/Wirtanen               2026-Oct-18 15:48:33
+Rec #:90000545 (+COV) Soln.date: 2000-Sep-23_15:19:42    # obs: 265 (1985-1999)
+ 
+IAU76/J2000 helio. ecliptic osc. elements (au, days, deg., period=Julian yrs):
+ 
+  EPOCH=  2451320.5 ! 1999-May-22.0000000 (TDB)    RMSW= n.a.
+   EC= .6572560350485821   QR= 1.061704456158419   TP= 2450521.9187434912
+   OM= 82.17901403554782   W= 356.3219156971485    IN= 11.73031367006267
+   A= 3.09766054176595     MA= 144.3685022730496   ADIST= 5.133616627373481
+   PER= 5.45203879952338   N= .180781231           ANGMOM= .022818026
+   DAN= 1.06257            DDN= 5.11342            L= 78.57754079999999
+   B= -.7472819000000001   MOID= .0773403          TP= 1997-Mar-14.4187434912
+ 
+Comet physical (GM= km^3/s^2; RAD= km):
+   GM= n.a.                RAD= .600
+   M1=  16.6     M2=  n.a.     k1=  4.75   k2= n.a.     PHCOF= n.a.
+Comet non-gravitational force model (AMRAT=m^2/kg;A1-A3=au/d^2;DT=days;R0=au):
+   AMRAT=  0.                                      DT=  0.
+   A1= 5.524901151657E-9   A2= -1.670346111059E-9  A3= 0.
+ Non-standard or simulated/proxy model:
+   ALN=  .1112620426   NK=  4.6142   NM=  2.15     NN=  5.093    R0=  2.808
+
+COMET comments 
+1: soln ref.= JPL#J973/32, data arc: 1985-11-13 to 1999-05-17
+2: k1=4.75;
+*******************************************************************************

@@ -1,0 +1,23 @@
+API VERSION: 1.2
+API SOURCE: NASA/JPL Horizons API
+
+*******************************************************************************
+JPL/DASTCOM            Small-body Index Search Results     2026-Oct-18 15:51:01
+
+ Comet AND asteroid index search:
+
+    DES = 103P;
+
+ Matching small-bodies: 
+
+    Record #  Epoch-yr  >MATCH DESIG<  Primary Desig  Name  
+    --------  --------  -------------  -------------  -------------------------
+    90000955    1985    103P           103P            Hartley 2
+    90000956    1991    103P           103P            Hartley 2
+    90000957    1997    103P           103P            Hartley 2
+    90000958    1997    103P           103P            Hartley 2
+    90000959    2009    103P           103P            Hartley 2
+    90000960    2015    103P           103P            Hartley 2
+
+ (6 matches. To SELECT, enter record # (integer), followed by semi-colon.)
+*******************************************************************************

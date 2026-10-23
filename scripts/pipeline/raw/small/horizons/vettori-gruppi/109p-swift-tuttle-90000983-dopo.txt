@@ -1,0 +1,148 @@
+API VERSION: 1.2
+API SOURCE: NASA/JPL Horizons API
+
+*******************************************************************************
+JPL/HORIZONS                  109P/Swift-Tuttle            2026-Oct-18 19:28:24
+Rec #:90000983                  Soln.date: -            # obs: 446 (span: n.a.)
+ 
+IAU76/J2000 helio. ecliptic osc. elements (au, days, deg., period=Julian yrs):
+ 
+  EPOCH=  2355640.5 ! 1737-Jun-04.0000000 (TDB)    RMSW= n.a.
+   EC= .9613699999999999   QR= .97998              TP= 2355652.3229999999
+   OM= 139.462             W= 152.693              IN= 113.68
+   A= 25.36836655449129    MA= 359.9088003845661   ADIST= 49.75675310898259
+   PER= 127.775314541591   N= .007713746           ANGMOM= .02384898
+   DAN= 13.18641           DDN= 1.0366             L= 331.1767138
+   B= 24.8429207                                   TP= 1737-Jun-15.8229999999
+ 
+Comet physical (GM= km^3/s^2; RAD= km):
+   GM= n.a.                RAD= 13.
+   M1=  4.5      M2=  8.5      k1=  15.    k2=  10.     PHCOF= n.a.
+
+COMET comments 
+1: soln ref.= SAO/1737
+2: k1=15.0, k2=10.0;epoch may be 2355641.0 (hour ambiguous: 12h/0h); time units are
+*******************************************************************************
+
+
+*******************************************************************************
+Ephemeris / API_USER Sun Oct 18 19:28:24 2026 Pasadena, USA      / Horizons
+*******************************************************************************
+Target body name: 109P/Swift-Tuttle               {source: DASTCOM}
+Center body name: Sun (10)                        {source: DE441}
+Center-site name: BODY CENTER
+*******************************************************************************
+Start time      : A.D. 1738-Jul-27 06:24:54.7200 TDB
+Stop  time      : A.D. 1798-Apr-21 09:10:22.0800 TDB
+Step-size       : DISCRETE TIME-LIST
+*******************************************************************************
+Center geodetic : 0.0, 0.0, 0.0                   {E-lon(deg),Lat(deg),Alt(km)}
+Center cylindric: 0.0, 0.0, 0.0                   {E-lon(deg),Dxy(km),Dz(km)}
+Center radii    : 695700.0, 695700.0, 695700.0 km {Equator_a, b, pole_c}
+Small perturbers: Yes                             {source: SB441-N16}
+Output units    : KM-S
+Calendar mode   : Mixed Julian/Gregorian
+Output type     : GEOMETRIC cartesian states
+Output format   : 2 (position and velocity)
+Reference frame : Ecliptic of J2000.0
+*******************************************************************************
+Initial IAU76/J2000 heliocentric ecliptic osculating elements (au, days, deg.):
+  EPOCH=  2355640.5 ! 1737-Jun-04.0000000 (TDB)    RMSW= n.a.                  
+   EC= .9613699999999999   QR= .97998              TP= 2355652.3229999999      
+   OM= 139.462             W= 152.693              IN= 113.68                  
+  Equivalent ICRF heliocentric cartesian coordinates (au, au/d):
+   X= 7.289021532724803E-01  Y=-4.882955380484900E-01  Z= 4.806885150158122E-01
+  VX= 5.596480417554524E-03 VY=-6.747444636373143E-03 VZ=-2.242937536623037E-02
+Comet physical (GM= km^3/s^2; RAD= km):                                        
+   GM= n.a.                RAD= 13.                                            
+   M1=  4.5      M2=  8.5      k1=  15.    k2=  10.     PHCOF= n.a.            
+*******************************************************************************
+JDTDB
+   X     Y     Z
+   VX    VY    VZ
+*******************************************************************************
+$$SOE
+2356058.767300000 = A.D. 1738-Jul-27 06:24:54.7200 TDB 
+ X =-3.225043604858801E+08 Y =-1.152239913566267E+08 Z =-6.775811224005485E+08
+ VX=-1.224670324799158E+01 VY= 3.318201996283758E+00 VZ=-1.239393788795084E+01
+2362427.260300000 = A.D. 1756-Jan-02 18:14:49.9200 TDB 
+ X =-3.575207234764205E+09 Y = 1.457138496453711E+09 Z =-2.767782757780330E+09
+ VX=-3.623741591586260E+00 VY= 2.164462483787883E+00 VZ=-1.608342509374141E+00
+2372404.390900000 = A.D. 1783-Apr-27 21:22:53.7600 TDB 
+ X =-5.509565888413625E+09 Y = 2.801242177649417E+09 Z =-3.306148284851840E+09
+ VX=-1.146787911376604E+00 VY= 1.046896769363162E+00 VZ= 8.262106746240744E-02
+2372914.188000000 = A.D. 1784-Sep-18 16:30:43.2000 TDB 
+ X =-5.558157455357722E+09 Y = 2.846490920150537E+09 Z =-3.301280144003179E+09
+ VX=-1.060778764396587E+00 VY= 1.006843157083935E+00 VZ= 1.382241027869842E-01
+2373325.931700000 = A.D. 1785-Nov-04 10:21:38.8800 TDB 
+ X =-5.594720822240664E+09 Y = 2.881663805315054E+09 Z =-3.295577085579209E+09
+ VX=-9.951012816365042E-01 VY= 9.696746540683410E-01 VZ= 1.822672885206766E-01
+2377876.882200000 = A.D. 1798-Apr-21 09:10:22.0800 TDB 
+ X =-5.829857384922897E+09 Y = 3.176352527482738E+09 Z =-3.134725984778050E+09
+ VX=-2.176687790047320E-01 VY= 5.488169256931323E-01 VZ= 6.250764181898256E-01
+$$EOE
+*******************************************************************************
+ 
+TIME
+
+  Barycentric Dynamical Time ("TDB" or T_eph) output was requested. This
+continuous coordinate time is equivalent to the relativistic proper time
+of a clock at rest in a reference frame co-moving with the solar system
+barycenter but outside the system's gravity well. It is the independent
+variable in the solar system relativistic equations of motion.
+
+  TDB runs at a uniform rate of one SI second per second and is independent
+of irregularities in Earth's rotation.
+ 
+CALENDAR SYSTEM
+
+  Mixed calendar mode was active such that calendar dates after AD 1582-Oct-15
+(if any) are in the modern Gregorian system. Dates prior to 1582-Oct-5 (if any)
+are in the Julian calendar system, which is automatically extended for dates
+prior to its adoption on 45-Jan-1 BC.  The Julian calendar is useful for
+matching historical dates. The Gregorian calendar more accurately corresponds
+to the Earth's orbital motion and seasons. A "Gregorian-only" calendar mode is
+available if such physical events are the primary interest.
+
+REFERENCE FRAME AND COORDINATES
+
+  Ecliptic at the standard reference epoch
+
+    Reference epoch: J2000.0
+    X-Y plane: adopted Earth orbital plane at the reference epoch
+               Note: IAU76 obliquity of 84381.448 arcseconds wrt ICRF X-Y plane
+    X-axis   : ICRF
+    Z-axis   : perpendicular to the X-Y plane in the directional (+ or -) sense
+               of Earth's north pole at the reference epoch.
+
+  Symbol meaning:
+
+    JDTDB    Julian Day Number, Barycentric Dynamical Time
+      X      X-component of position vector (km)
+      Y      Y-component of position vector (km)
+      Z      Z-component of position vector (km)
+      VX     X-component of velocity vector (km/sec)                           
+      VY     Y-component of velocity vector (km/sec)                           
+      VZ     Z-component of velocity vector (km/sec)                           
+
+ABERRATIONS AND CORRECTIONS
+
+ Geometric state vectors have NO corrections or aberrations applied.
+
+Computations by ...
+
+    Solar System Dynamics Group, Horizons On-Line Ephemeris System
+    4800 Oak Grove Drive, Jet Propulsion Laboratory
+    Pasadena, CA  91109   USA
+
+    General site: https://ssd.jpl.nasa.gov/
+    Mailing list: https://ssd.jpl.nasa.gov/email_list.html
+    System news : https://ssd.jpl.nasa.gov/horizons/news.html
+    User Guide  : https://ssd.jpl.nasa.gov/horizons/manual.html
+    Connect     : browser        https://ssd.jpl.nasa.gov/horizons/app.html#/x
+                  API            https://ssd-api.jpl.nasa.gov/doc/horizons.html
+                  command-line   telnet ssd.jpl.nasa.gov 6775
+                  e-mail/batch   https://ssd.jpl.nasa.gov/ftp/ssd/horizons_batch.txt
+                  scripts        https://ssd.jpl.nasa.gov/ftp/ssd/SCRIPTS
+    Inquiries   : Jon.D.Giorgini@jpl.nasa.gov
+*******************************************************************************

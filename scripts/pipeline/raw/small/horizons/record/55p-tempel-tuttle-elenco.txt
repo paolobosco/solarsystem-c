@@ -1,0 +1,22 @@
+API VERSION: 1.2
+API SOURCE: NASA/JPL Horizons API
+
+*******************************************************************************
+JPL/DASTCOM            Small-body Index Search Results     2026-Oct-18 15:49:08
+
+ Comet AND asteroid index search:
+
+    DES = 55P;
+
+ Matching small-bodies: 
+
+    Record #  Epoch-yr  >MATCH DESIG<  Primary Desig  Name  
+    --------  --------  -------------  -------------  -------------------------
+    90000622    1366    55P            55P             Tempel-Tuttle
+    90000623    1699    55P            55P             Tempel-Tuttle
+    90000624    1865    55P            55P             Tempel-Tuttle
+    90000625    1965    55P            55P             Tempel-Tuttle
+    90000626    1998    55P            55P             Tempel-Tuttle
+
+ (5 matches. To SELECT, enter record # (integer), followed by semi-colon.)
+*******************************************************************************

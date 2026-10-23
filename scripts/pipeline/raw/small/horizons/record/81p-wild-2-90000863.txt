@@ -1,0 +1,30 @@
+API VERSION: 1.2
+API SOURCE: NASA/JPL Horizons API
+
+*******************************************************************************
+JPL/HORIZONS                     81P/Wild 2                2026-Oct-18 15:50:29
+Rec #:90000863 (+COV) Soln.date: 2024-Sep-12_12:06:16   # obs: 2795 (2014-2024)
+ 
+IAU76/J2000 helio. ecliptic osc. elements (au, days, deg., period=Julian yrs):
+ 
+  EPOCH=  2458808.5 ! 2019-Nov-21.0000000 (TDB)    RMSW= n.a.
+   EC= .5373989073846863   QR= 1.595856073147981   TP= 2459929.2845797744
+   OM= 136.1102208500619   W= 41.72523085114398    IN= 3.237004173608168
+   A= 3.449745576963111    MA= 187.5966814227695   ADIST= 5.303635080778241
+   PER= 6.40750276118709   N= .153823778           ANGMOM= .02694459
+   DAN= 1.75112            DDN= 4.09652            L= 177.7900103
+   B= 2.1537788            MOID= .601515           TP= 2022-Dec-15.7845797744
+ 
+Comet physical (GM= km^3/s^2; RAD= km):
+   GM= n.a.                RAD= 2.
+   M1=  9.8      M2=  12.9     k1=  12.5   k2=  5.      PHCOF=  .030
+Comet non-gravitational force model (AMRAT=m^2/kg;A1-A3=au/d^2;DT=days;R0=au):
+   AMRAT=  0.                                      DT=  -127.4855
+   A1= 2.756873071194E-9   A2= 3.070332854986E-10  A3= -1.044902577996E-9
+ Non-standard or simulated/proxy model:
+   ALN=  .1112620426   NK=  4.6142   NM=  2.15     NN=  5.093    R0=  2.808
+
+COMET comments 
+1: soln ref.= JPL#K222/37, data arc: 2014-10-17 to 2024-09-07
+2: k1=12.5, k2=5., phase coef.=0.03;
+*******************************************************************************

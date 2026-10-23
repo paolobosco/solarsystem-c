@@ -1,0 +1,29 @@
+{
+ "formato": 1,
+ "file": {
+  "CIE_xyz_1931_2deg.csv": {
+   "url": "https://files.cie.co.at/Publications-datasets/CIE_xyz_1931_2deg.csv",
+   "estrazione": "2026-10-19",
+   "byte": 24021,
+   "sha256": "fa663e3535a7e0763a745993a1f0a192eb0275ac46ad2d1befd7626841e713c1"
+  },
+  "I239-ReadMe.txt": {
+   "url": "https://cdsarc.cds.unistra.fr/ftp/I/239/ReadMe",
+   "estrazione": "2026-10-19",
+   "byte": 69036,
+   "sha256": "7a7d54903d16460a76c240f07c41b019d57becfd27b5dfa2908e828f52f90c27"
+  },
+  "I311-ReadMe.txt": {
+   "url": "https://cdsarc.cds.unistra.fr/ftp/I/311/ReadMe",
+   "estrazione": "2026-10-19",
+   "byte": 10375,
+   "sha256": "6c017925d658447d40983da3b459ba16bf9789c8f7573e263952c75692622499"
+  },
+  "V50-ReadMe.txt": {
+   "url": "https://cdsarc.cds.unistra.fr/ftp/V/50/ReadMe",
+   "estrazione": "2026-10-19",
+   "byte": 11571,
+   "sha256": "44fd9c73e2eecad0beb47bdfa3f01c60fd43f93d6964198e31fcd48732de5b33"
+  }
+ }
+}

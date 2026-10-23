@@ -1,0 +1,23 @@
+# Configurazione di ruff e pytest per la pipeline dati (nessun pacchetto installabile).
+
+[tool.ruff]
+line-length = 120
+target-version = "py313"
+extend-exclude = [".venv", ".venv-assist", ".cache", "raw"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP", "NPY", "C4", "SIM"]
+# SIM300 segnala per errore i confronti con pytest.approx
+ignore = ["SIM300"]
+
+[tool.ruff.lint.isort]
+known-first-party = ["common"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+addopts = "-ra --strict-markers"
+markers = [
+    "de441: richiede i file DE441 in .cache/de441",
+    "assist: richiede l'ambiente .venv-assist",
+]
