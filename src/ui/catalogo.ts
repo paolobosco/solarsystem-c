@@ -9,7 +9,7 @@ import { attributo, h, nuovoId, svuota } from './dom';
 import { icona } from './icone';
 import { nodoTesto } from './nodi';
 import { simbolo } from './simboli';
-import { NOMI_CATEGORIE_PLURALE, T, TNO_ESTESO } from './testi.it';
+import { NOMI_CATEGORIE_PLURALE, T, TNO_ESTESO } from './testi';
 
 /** Corpi che hanno la categoria come primaria o secondaria (§ 11.6). */
 export function contaPerCategoria(corpi: readonly CorpoCatalogo[]): Record<CategoriaFiltro, number> {

@@ -6,7 +6,6 @@ import type { CategoriaCorpo } from '../data/catalogTypes';
 import type { Livello } from '../ephem/types';
 import type { UnitaPasso } from '../time/steps';
 import type { IdAccuratezza } from './valoriValidazione';
-import { formatIntero } from './format';
 
 export const MESI = [
   'gennaio',
@@ -142,10 +141,9 @@ function participioCategoria(c: CategoriaCorpo, radice: 'mostrat' | 'nascost'): 
   return radice + (CATEGORIE_FEMMINILI.has(c) ? 'e' : 'i');
 }
 
-/** Testi della scena 3D (contatore delle lune, anelli di distanza): opzione `testi` di creaScena. */
-export const TESTI_SCENA_IT = {
+/** Testi della scena 3D (contatore delle lune): l'etichetta degli anelli di distanza si compone in testiScena.ts. */
+export const TESTI_SCENA = {
   contatoreLune: (n: number): string => (n === 1 ? '+1 luna' : `+${n} lune`),
-  anelloDistanza: (ua: number): string => `${formatIntero(ua)}\u00a0UA`,
 };
 
 /** URI delle licenze che chiedono il riferimento al testo della licenza (CC BY 4.0, § 3(a)(1)(C)). */
@@ -268,11 +266,14 @@ export const NOMI_PRESET: Readonly<Record<IdPreset, string>> = {
 /** Tasti di una scorciatoia: alternative, ciascuna con i tasti da premere insieme (Maiusc + N). */
 export type TastiScorciatoia = readonly (readonly string[])[];
 
-/** Parti del testo dei tasti: { tasto } per ogni tasto, stringhe per i connettori ("+", ", ", " e "). */
-export function partiTasti(t: TastiScorciatoia): (string | { tasto: string })[] {
+/**
+ * Parti del testo dei tasti: { tasto } per ogni tasto, stringhe per i connettori ("+", ", ", e la congiunzione
+ * dell'ultima alternativa: " e " in italiano). Comune alle due lingue.
+ */
+export function partiTastiCon(t: TastiScorciatoia, congiunzione: string): (string | { tasto: string })[] {
   const out: (string | { tasto: string })[] = [];
   t.forEach((combinazione, i) => {
-    if (i > 0) out.push(i === t.length - 1 ? ' e ' : ', ');
+    if (i > 0) out.push(i === t.length - 1 ? congiunzione : ', ');
     combinazione.forEach((tasto, j) => {
       if (j > 0) out.push(' + ');
       out.push({ tasto });
@@ -281,12 +282,16 @@ export function partiTasti(t: TastiScorciatoia): (string | { tasto: string })[] 
   return out;
 }
 
-/** Testo continuo dei tasti: "Maiusc + frecce", "PagSu e PagGiù". */
-export function testoTasti(t: TastiScorciatoia): string {
-  return partiTasti(t)
-    .map((p) => (typeof p === 'string' ? p : p.tasto))
-    .join('');
+/** Testo continuo da parti dei tasti: "Maiusc + frecce", "PagSu e PagGiù". Comune alle due lingue. */
+export function testoDaParti(parti: readonly (string | { tasto: string })[]): string {
+  return parti.map((p) => (typeof p === 'string' ? p : p.tasto)).join('');
 }
+
+/** Parti del testo dei tasti: { tasto } per ogni tasto, stringhe per i connettori ("+", ", ", " e "). */
+export const partiTasti = (t: TastiScorciatoia): (string | { tasto: string })[] => partiTastiCon(t, ' e ');
+
+/** Testo continuo dei tasti: "Maiusc + frecce", "PagSu e PagGiù". */
+export const testoTasti = (t: TastiScorciatoia): string => testoDaParti(partiTasti(t));
 
 export const T = {
   salta: 'Salta ai controlli temporali',
@@ -431,6 +436,8 @@ export const T = {
     vaiAl15: 'Vai al 15 ottobre',
     GIORNO_INESISTENTE: (giorno: string, mese: string, anno: string, calendario: string) =>
       `Il ${giorno} ${mese} ${anno} non esiste nel calendario ${calendario}.`,
+    /** Data e ora nei limiti dell'intervallo: "1° gennaio 10000 a.C. alle 02:00". */
+    dataAlle: (data: string, ora: string) => `${data} alle ${ora}`,
     FUORI_INTERVALLO: 'Sono disponibili le date dal 1° gennaio 10000 a.C. al 31 dicembre 2120 (UT).',
     fuoriIntervalloOffset: (fuso: string, inizio: string, fine: string) => `In ${fuso}: ${dalData(inizio)} ${alData(fine)}.`,
     fuoriIntervalloTT: (inizio: string, fine: string) => `In TT: ${dalData(inizio)} ${alData(fine)}.`,
@@ -675,6 +682,10 @@ export const T = {
 
   impostazioni: {
     titolo: 'Impostazioni',
+    // Etichetta e nomi delle lingue sono uguali in ogni lingua: chi non legge la lingua attuale deve poter trovare il controllo.
+    lingua: 'Lingua / Language',
+    linguaItaliano: 'Italiano',
+    linguaInglese: 'English',
     scorciatoie: 'Scorciatoie da tastiera globali',
     scorciatoieNota: 'Disattivale se usi un software di dettatura o un lettore di schermo con comandi a lettera singola.',
     elencoScorciatoie: 'Mostra le scorciatoie',

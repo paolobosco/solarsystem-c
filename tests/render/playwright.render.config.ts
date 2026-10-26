@@ -19,6 +19,8 @@ export default defineConfig({
   outputDir: '../../test-results/render-lab-artefatti',
   use: {
     baseURL: `http://localhost:${PORTA}`,
+    // Lingua del browser: la pagina di prova parte in italiano, come le prove (RNF8).
+    locale: 'it-IT',
     trace: 'retain-on-failure',
     launchOptions: { args: ['--use-gl=angle', '--use-angle=swiftshader', '--enable-unsafe-swiftshader'] },
   },

@@ -8,7 +8,7 @@ import { attributo, h, nuovoId, svuota, testo } from './dom';
 import { icona } from './icone';
 import { nodoTesto } from './nodi';
 import { simbolo } from './simboli';
-import { NOMI_CATEGORIE_PLURALE, T } from './testi.it';
+import { NOMI_CATEGORIE_PLURALE, T } from './testi';
 
 export interface DipendenzeTrova {
   indice: () => IndiceRicerca | null;

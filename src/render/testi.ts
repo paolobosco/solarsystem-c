@@ -1,5 +1,5 @@
 // Testi visibili prodotti dal modulo di rendering (RNF8). L'interfaccia può sostituirli con
-// quelli di src/ui/testi.it.ts tramite l'opzione `testi` di creaScena.
+// quelli di src/ui/testiScena.ts tramite l'opzione `testi` di creaScena.
 
 export interface TestiScena {
   /** Contatore delle lune nascoste vicino al pianeta (§ 11.5.1). */

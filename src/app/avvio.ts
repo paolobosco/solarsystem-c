@@ -23,14 +23,29 @@ import { h } from '../ui/dom';
 import { creaInterfaccia } from '../ui/index';
 import type { ControllerInterfaccia } from '../ui/index';
 import { messaggioLimite } from '../ui/messaggi';
-import { T, TESTI_SCENA_IT } from '../ui/testi.it';
+import { LINGUA } from '../ui/lingua';
+import { T } from '../ui/testi';
+import { TESTI_SCENA } from '../ui/testiScena';
 import { Caricatore } from './caricamento';
 import { adessoJdUT } from './clock';
 import { creaFornitoreStelle, creaFornitoreTexture, creaOrientamento, creaStagione } from './fornitori';
 import { creaPreferenze } from './preferenze';
+import { consumaRipristino } from './ripristino';
+import type { StatoRipristino } from './ripristino';
 import { creaStoreApp } from './store';
 import type { StoreApp } from './store';
 import { creaUrlState } from './urlState';
+
+/** Passaggio del cambio di lingua: letto e cancellato una sola volta, anche se l'avvio viene ripetuto con "Riprova". */
+let ripristinoLetto = false;
+let ripristinoAvvio: StatoRipristino | null = null;
+function ripristinoDiAvvio(): StatoRipristino | null {
+  if (!ripristinoLetto) {
+    ripristinoLetto = true;
+    ripristinoAvvio = consumaRipristino();
+  }
+  return ripristinoAvvio;
+}
 
 export interface App {
   readonly store: StoreApp;
@@ -102,7 +117,7 @@ interface Base {
 async function caricaBase(): Promise<Base> {
   const manifest = await caricaManifest();
   const archivio = creaDataStore({ manifest });
-  const [catalogo, bufTempo] = await Promise.all([caricaCatalogo(archivio), archivio.carica(PERCORSO_TIME)]);
+  const [catalogo, bufTempo] = await Promise.all([caricaCatalogo(archivio, undefined, LINGUA), archivio.carica(PERCORSO_TIME)]);
   const tempo = leggiTimeDaBuffer(bufTempo);
   impostaModelloTempo(tempo.deltaT);
   return { archivio, catalogo, eo: tempo.eo };
@@ -184,7 +199,7 @@ function costruisciApp(radice: HTMLElement, base: Base, pulizie: (() => void)[])
         orientamento,
         texture,
         stelle: creaFornitoreStelle(archivio),
-        testi: TESTI_SCENA_IT,
+        testi: TESTI_SCENA,
       });
     } catch (e) {
       if (!(e instanceof ErroreWebGL)) rilasciaContesto(canvas);
@@ -200,6 +215,10 @@ function costruisciApp(radice: HTMLElement, base: Base, pulizie: (() => void)[])
   // Istante iniziale limitato all'intervallo (I2) da statoIniziale.
   const orologio = adessoJdUT();
   const store = creaStoreApp(orologio);
+  const t0Orologio = store.get().tempo;
+  // Dopo il cambio di lingua (§ 11.12): data e ora come prima della ricarica, dal passaggio una tantum in sessionStorage.
+  const ripristino = ripristinoDiAvvio();
+  if (ripristino !== null) store.set({ tempo: { jd: ripristino.jd, scala: ripristino.scala }, offsetMinuti: ripristino.offsetMinuti });
   const t0 = store.get().tempo;
   let tempo: TimeState = makeTimeState(t0.jd, t0.scala);
   scena?.impostaTempo(tempo);
@@ -216,11 +235,12 @@ function costruisciApp(radice: HTMLElement, base: Base, pulizie: (() => void)[])
     store,
     stagione: creaStagione(servizio, ssidTerra),
     datiInErrore: (jdTT) => caricatoreRif?.inErrore(jdTT) ?? false,
+    ripristino,
   });
   pulizie.push(() => ui.distruggi());
   // Orologio di sistema fuori dall'intervallo: messaggio del limite (§ 11.4.3).
-  if (t0.jd !== orologio) {
-    ui.notifica('limite', messaggioLimite(orologio < t0.jd ? 'inferiore' : 'superiore', t0.jd, { offsetMinuti: null, scala: 'UT' }));
+  if (ripristino === null && t0Orologio.jd !== orologio) {
+    ui.notifica('limite', messaggioLimite(orologio < t0Orologio.jd ? 'inferiore' : 'superiore', t0Orologio.jd, { offsetMinuti: null, scala: 'UT' }));
   }
 
   // --- Tempo: un TimeState per cambio di data (§ 5.5 punto 1) ---

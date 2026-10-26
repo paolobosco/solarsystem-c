@@ -1,10 +1,11 @@
-// Criterio A23 lato interfaccia: testi visibili solo in src/ui/testi.it.ts, nessun U+2014 nei file
+// Criterio A23 lato interfaccia: testi visibili solo in src/ui/testi.it.ts e src/ui/testi.en.ts, nessun U+2014 nei file
 // dell'interfaccia; contenuto minimo di "Fonti e metodi" (RF7).
 
 import { readFileSync, readdirSync, statSync } from 'node:fs';
 import { join } from 'node:path';
 import { describe, expect, it } from 'vitest';
-import { FONTI_METODI_SEZIONI, RIFERIMENTI, T, TESTI_SCENA_IT, VELOCITA_ETICHETTE, VOCI_ACCURATEZZA, partiTasti, testoTasti } from '../../src/ui/testi.it';
+import { TESTI_SCENA } from '../../src/ui/testiScena';
+import { FONTI_METODI_SEZIONI, RIFERIMENTI, T, VELOCITA_ETICHETTE, VOCI_ACCURATEZZA, partiTasti, testoTasti } from '../../src/ui/testi.it';
 import { VALORI_VALIDAZIONE } from '../../src/ui/valoriValidazione';
 
 const RADICE = new URL('../../', import.meta.url).pathname;
@@ -44,9 +45,9 @@ describe('A23: lingua e testi', () => {
     }
   });
 
-  it('nessuna frase visibile nei componenti fuori da testi.it.ts', () => {
+  it('nessuna frase visibile nei componenti fuori da testi.it.ts e testi.en.ts', () => {
     const componenti = readdirSync(join(RADICE, 'src/ui')).filter(
-      (f) => f.endsWith('.ts') && f !== 'testi.it.ts' && f !== 'valoriValidazione.ts',
+      (f) => f.endsWith('.ts') && f !== 'testi.it.ts' && f !== 'testi.en.ts' && f !== 'valoriValidazione.ts',
     );
     const letterale = /(['"`])((?:\\.|(?!\1).)*)\1/g;
     const frase = /[A-Za-zÀ-ú]{3,} [A-Za-zÀ-ú]{2,}/;
@@ -197,9 +198,9 @@ describe('italiano dei testi composti (RNF8)', () => {
   });
 
   it('anelli di distanza: separatore delle migliaia da 4 cifre, spazio non separabile prima dell’unità (§ 11.13)', () => {
-    expect(TESTI_SCENA_IT.anelloDistanza(1000)).toBe('1\u2009000\u00a0UA');
-    expect(TESTI_SCENA_IT.anelloDistanza(500)).toBe('500\u00a0UA');
-    expect(TESTI_SCENA_IT.anelloDistanza(1)).toBe('1\u00a0UA');
+    expect(TESTI_SCENA.anelloDistanza(1000)).toBe('1\u2009000\u00a0UA');
+    expect(TESTI_SCENA.anelloDistanza(500)).toBe('500\u00a0UA');
+    expect(TESTI_SCENA.anelloDistanza(1)).toBe('1\u00a0UA');
   });
 });
 

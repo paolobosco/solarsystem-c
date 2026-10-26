@@ -30,6 +30,9 @@ export default defineConfig({
   reporter: [['list']],
   use: {
     baseURL: `http://localhost:${PORTA_SITO}`,
+    // Lingua del browser: le prove italiane restano valide (la lingua iniziale segue il browser, RNF8); le prove in
+    // inglese (e2e/inglese.spec.ts) la sostituiscono con 'en-US' nel proprio contesto.
+    locale: 'it-IT',
     trace: 'retain-on-failure',
     launchOptions: { args: SWIFTSHADER },
   },

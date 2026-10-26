@@ -19,7 +19,7 @@ import {
 } from './scala';
 import type { StatoVista } from './contrattoScena';
 import { formatAmpiezza } from './format';
-import { NOMI_PRESET, T } from './testi.it';
+import { NOMI_PRESET, T } from './testi';
 
 export interface DipendenzeDistanze {
   /** Imposta l'ampiezza della vista (km) alla distanza del corpo a fuoco. */

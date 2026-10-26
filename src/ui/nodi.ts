@@ -2,8 +2,8 @@
 
 import { h } from './dom';
 import type { Misura } from './format';
-import { SPAZIO_NB } from './format';
-import { TNO_SIGLA, TNO_TITOLO, UNITA } from './testi.it';
+import { SEPARATORI, SPAZIO_NB } from './format';
+import { TNO_SIGLA, TNO_TITOLO, UNITA } from './testi';
 
 /** Numero in un elemento white-space: nowrap (i gruppi di cifre usano U+2009). */
 export function nodoNumero(valore: string): HTMLSpanElement {
@@ -28,8 +28,14 @@ export function nodoMisura(m: Misura): HTMLSpanElement {
   return out;
 }
 
-/** Numero con gruppi di cifre separati da U+2009 (§ 11.13): "84 381,448", "1 510". */
-const NUMERO_RAGGRUPPATO = /(\d{1,3}(?:\u2009\d{3})+(?:,\d+)?)/;
+/**
+ * Numero con gruppi di cifre (§ 11.13): "84 381,448" e "1 510" con U+2009 in italiano, "84,381.448" e "1,510" in inglese.
+ * Il gruppo è un solo token: U+2009 ammette l'interruzione di riga e va chiuso in un elemento senza a capo.
+ */
+const NUMERO_RAGGRUPPATO =
+  SEPARATORI.migliaia === ','
+    ? /(\d{1,3}(?:,\d{3})+(?:\.\d+)?)/
+    : new RegExp(`(\\d{1,3}(?:${SEPARATORI.migliaia}\\d{3})+(?:${SEPARATORI.decimale}\\d+)?)`);
 
 /**
  * Parti di un testo fisso: alle posizioni dispari i numeri raggruppati, che vanno in un elemento senza a capo perché
@@ -39,6 +45,9 @@ export function partiConNumeri(testo: string): string[] {
   return testo.split(NUMERO_RAGGRUPPATO);
 }
 
+/** Sigle del glossario in un testo: l'unità astronomica e TNO, anche al plurale inglese ("TNOs"). */
+const SIGLE = new RegExp(`\\b(${UNITA.ua}|${TNO_SIGLA})(s?)\\b`);
+
 /** Testo con le sigle del glossario come abbr (UA, TNO, § 11.14) e i numeri raggruppati senza a capo (§ 11.13). */
 export function nodoTesto(testo: string): DocumentFragment {
   const f = document.createDocumentFragment();
@@ -47,13 +56,17 @@ export function nodoTesto(testo: string): DocumentFragment {
       f.appendChild(nodoNumero(pezzo));
       return;
     }
-    const parti = pezzo.split(/\b(UA|TNO)\b/);
-    parti.forEach((p, i) => {
-      if (i % 2 === 0) {
-        if (p !== '') f.appendChild(document.createTextNode(p));
-      } else if (p === UNITA.ua) f.appendChild(h('abbr', { title: UNITA.uaEsteso }, UNITA.ua));
-      else f.appendChild(h('abbr', { title: TNO_TITOLO }, TNO_SIGLA));
-    });
+    // split con due gruppi: [testo, sigla, "s" o "", testo, ...]
+    const parti = pezzo.split(SIGLE);
+    for (let i = 0; i < parti.length; i += 3) {
+      const t = parti[i] ?? '';
+      if (t !== '') f.appendChild(document.createTextNode(t));
+      const sigla = parti[i + 1];
+      if (sigla === undefined) continue;
+      const plurale = parti[i + 2] ?? '';
+      f.appendChild(sigla === UNITA.ua ? h('abbr', { title: UNITA.uaEsteso }, UNITA.ua) : h('abbr', { title: TNO_TITOLO }, TNO_SIGLA));
+      if (plurale !== '') f.appendChild(document.createTextNode(plurale));
+    }
   });
   return f;
 }

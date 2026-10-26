@@ -1,8 +1,12 @@
 // Accuratezza mostrata in "Fonti e metodi": tabella dei valori, importata dall'interfaccia.
 // Valori misurati nella validazione (docs/VALIDAZIONE.md, § 3-7): massimi sull'intervallo dei dati
 // pubblicati, con le tolleranze vincolanti di docs/PROGETTO.md (§ 6.4-6.5, § 7.3.4, § 7.4, § 7.5.6,
-// § 7.6.3, § 7.7). I nomi delle righe sono in testi.it.ts (VOCI_ACCURATEZZA); qui restano numeri,
+// § 7.6.3, § 7.7). I nomi delle righe sono in testi.it.ts e testi.en.ts (VOCI_ACCURATEZZA); qui restano numeri,
 // unità e nomi propri.
+
+import { creaFormati } from './format';
+import { LINGUA } from './lingua';
+import type { Lingua } from './lingua';
 
 export type StatoValore = 'progetto' | 'misurato';
 
@@ -18,7 +22,7 @@ export interface VoceAccuratezza {
 }
 
 export interface ValoriValidazione {
-  /** Data della validazione (GG/MM/AAAA), mostrata nel testo; null finché i valori sono quelli di progetto. */
+  /** Data della validazione, mostrata nel testo (italiano GG/MM/AAAA, inglese per esteso); null finché i valori sono quelli di progetto. */
   dataValidazione: string | null;
   voci: readonly VoceAccuratezza[];
 }
@@ -26,7 +30,7 @@ export interface ValoriValidazione {
 const NB = '\u00a0';
 const S = '\u2009';
 
-export const VALORI_VALIDAZIONE: ValoriValidazione = {
+const VALORI_ITALIANO: ValoriValidazione = {
   dataValidazione: '19/10/2026',
   voci: [
     {
@@ -78,3 +82,51 @@ export const VALORI_VALIDAZIONE: ValoriValidazione = {
     },
   ],
 };
+
+/** Nomi propri dei valori, in inglese. */
+const NOMI_INGLESI: Readonly<Record<string, string>> = {
+  Mercurio: 'Mercury',
+  Venere: 'Venus',
+  Marte: 'Mars',
+  Giove: 'Jupiter',
+  Saturno: 'Saturn',
+  Urano: 'Uranus',
+  Nettuno: 'Neptune',
+  Plutone: 'Pluto',
+  Fobos: 'Phobos',
+  Nereide: 'Nereid',
+  Iperione: 'Hyperion',
+  Imalia: 'Himalia',
+  Febe: 'Phoebe',
+};
+
+const RE_NOMI = new RegExp(`\\b(${Object.keys(NOMI_INGLESI).join('|')})\\b`, 'g');
+
+/**
+ * Valore scritto con le convenzioni italiane (virgola decimale, U+2009 tra i gruppi di cifre) nella convenzione della
+ * lingua (§ 11.13): "20 371,848 s" diventa "20,371.848 s"; i nomi propri dei corpi sono in inglese.
+ */
+export function localizzaValore(testo: string, lingua: Lingua): string {
+  if (lingua === 'it') return testo;
+  return testo
+    .replace(/(?<=\d),(?=\d)/g, '.')
+    .replace(/(?<=\d)\u2009(?=\d{3}(?!\d))/g, ',')
+    .replace(RE_NOMI, (n) => NOMI_INGLESI[n] ?? n);
+}
+
+/** Valori di accuratezza nella lingua indicata; la data della validazione in inglese è per esteso. */
+export function valoriValidazione(lingua: Lingua): ValoriValidazione {
+  if (lingua === 'it') return VALORI_ITALIANO;
+  const data = VALORI_ITALIANO.dataValidazione;
+  const m = data === null ? null : /^(\d{2})\/(\d{2})\/(\d{4})$/.exec(data);
+  return {
+    dataValidazione: m === null || data === null ? data : creaFormati(lingua).formatData({ giorno: Number(m[1]), mese: Number(m[2]), anno: Number(m[3]) }),
+    voci: VALORI_ITALIANO.voci.map((v) => ({
+      ...v,
+      valore: v.valore === null ? null : localizzaValore(v.valore, lingua),
+      soglia: localizzaValore(v.soglia, lingua),
+    })),
+  };
+}
+
+export const VALORI_VALIDAZIONE: ValoriValidazione = valoriValidazione(LINGUA);

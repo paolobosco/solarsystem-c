@@ -12,7 +12,7 @@ import { calendarToJd } from '../time/calendar';
 import { rotazioneIndeterminata as rotazioneIndeterminataPerSigma } from '../time/earthRotation';
 import type { MakeTimeState, TimeState } from '../time/types';
 import type { BandaAffidabilita } from './regolo';
-import { T } from './testi.it';
+import { T } from './testi';
 import type { RigaTestuale } from './vistaTestuale';
 
 export type RiferimentoElementi = 'eliocentrici' | 'baricentrici' | 'planetocentrici-F' | 'planetocentrici';

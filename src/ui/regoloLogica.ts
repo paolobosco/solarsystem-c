@@ -5,7 +5,7 @@ import { JD_MAX_UT_EXCL, JD_MIN_UT, calendarLocaleToJd, calendarioApplicato, jdT
 import type { UnitaPasso } from '../time/steps';
 import { UNITA_PASSO } from '../time/steps';
 import { formatAnno, formatDataBreve, formatOra } from './format';
-import { MESI_BREVI } from './testi.it';
+import { MESI_BREVI } from './testi';
 
 export const GIORNI_ANNO = 365.25;
 /** Ampiezza del regolo inferiore: da 1 giorno a 12 000 anni (§ 11.4.3). */

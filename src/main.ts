@@ -3,9 +3,13 @@
 
 import { avvia } from './app/avvio';
 import { creaGanciTest, installaGanciTest } from './test-hooks';
+import { LINGUA } from './ui/lingua';
+import { T } from './ui/testi';
 
-// Lingua del documento (RNF8): nella pagina singola lo scheletro della piattaforma non la dichiara.
-if (document.documentElement.lang !== 'it') document.documentElement.lang = 'it';
+// Lingua e titolo del documento (RNF8) dalla lingua scelta all'avvio: l'HTML porta solo il valore iniziale italiano e nella
+// pagina singola lo scheletro della piattaforma non dichiara la lingua.
+if (document.documentElement.lang !== LINGUA) document.documentElement.lang = LINGUA;
+document.title = T.avvio.titolo;
 
 const radice = document.getElementById('app');
 if (radice !== null) {

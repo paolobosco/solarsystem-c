@@ -19,7 +19,7 @@ import { testoStagione } from './messaggi';
 import { creaRegolo } from './regolo';
 import type { BandaAffidabilita, Regolo } from './regolo';
 import type { LimitiScala } from './riproduzione';
-import { GIORNI_SETTIMANA, NOMI_UNITA_PASSO, T, UNITA, VELOCITA_ETICHETTE } from './testi.it';
+import { GIORNI_SETTIMANA, NOMI_UNITA_PASSO, T, UNITA, VELOCITA_ETICHETTE } from './testi';
 
 export interface DipendenzeConsole {
   store: StoreApp;

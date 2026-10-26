@@ -4,7 +4,8 @@
 
 import type { CategoriaCorpo, CorpoCatalogo } from '../data/catalogTypes';
 import { CATEGORIE_PER_PRECEDENZA } from '../data/catalogTypes';
-import { T } from './testi.it';
+import { LINGUA } from './lingua';
+import { T } from './testi';
 
 /**
  * Separatori rimossi dalla normalizzazione (§ 11.6), più parentesi e punti delle designazioni. Okina e apostrofi in tutte
@@ -124,10 +125,10 @@ function rangoDi(voce: VoceIndice, q: string): Rango | null {
 export const MAX_RISULTATI = 8;
 
 /**
- * Confronto dei nomi con i numeri come numeri: le designazioni delle comete e degli interstellari seguono l'ordine
+ * Confronto dei nomi (ordine alfabetico della lingua dell'interfaccia) con i numeri come numeri: le designazioni delle comete e degli interstellari seguono l'ordine
  * numerico (1P, 9P, 12P, 103P). Lo usano lo spareggio dei risultati di Trova e la colonna Corpo della vista testuale.
  */
-export const CONFRONTO_NOMI = new Intl.Collator('it', { numeric: true });
+export const CONFRONTO_NOMI = new Intl.Collator(LINGUA, { numeric: true });
 
 /** Risultati ordinati per rango, categoria (precedenza) e nome (numeri come numeri, `CONFRONTO_NOMI`). */
 export function cerca(indice: IndiceRicerca, query: string, max = MAX_RISULTATI): RisultatoRicerca[] {

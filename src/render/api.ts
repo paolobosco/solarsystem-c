@@ -60,7 +60,7 @@ export interface OpzioniScena {
   texture?: FornitoreTexture;
   /** Stelle (§ 8.8), caricate dopo il primo frame. */
   stelle?: FornitoreStelle;
-  /** Testi visibili (contatore delle lune, anelli di distanza): da src/ui/testi.it.ts. */
+  /** Testi visibili (contatore delle lune, anelli di distanza): da src/ui/testiScena.ts. */
   testi?: Partial<TestiScena>;
   /** Movimento ridotto; predefinito: prefers-reduced-motion. */
   movimentoRidotto?: boolean;

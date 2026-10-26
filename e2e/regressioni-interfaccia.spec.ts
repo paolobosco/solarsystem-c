@@ -1547,7 +1547,7 @@ test.describe('nota con le barre di scorrimento classiche (§ 11.3)', () => {
       [844, 390, false],
     ] as const) {
       const caso = `${w}x${h}`;
-      const ctx = await classico.newContext({ viewport: { width: w, height: h }, deviceScaleFactor: 1, baseURL });
+      const ctx = await classico.newContext({ viewport: { width: w, height: h }, deviceScaleFactor: 1, baseURL, locale: 'it-IT' });
       await registraErroriFinestra(ctx);
       const page = await ctx.newPage();
       await apri(page);

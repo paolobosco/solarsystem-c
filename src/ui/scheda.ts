@@ -31,7 +31,7 @@ import { icona } from './icone';
 import { testoAffidabilita } from './messaggi';
 import { nodoMisura, nodoNumero, nodoTesto, nodoUnita } from './nodi';
 import { iconaAffidabilita, simbolo } from './simboli';
-import { NOMI_CATEGORIE, NOMI_CATEGORIE_IN_FRASE, NOMI_CATEGORIE_PLURALE_IN_FRASE, NOMI_LIVELLI, T, UNITA, URI_LICENZE } from './testi.it';
+import { NOMI_CATEGORIE, NOMI_CATEGORIE_IN_FRASE, NOMI_CATEGORIE_PLURALE_IN_FRASE, NOMI_LIVELLI, T, UNITA, URI_LICENZE } from './testi';
 
 export interface DipendenzeScheda {
   inquadra: (c: CorpoCatalogo) => void;

@@ -21,6 +21,8 @@ export default defineConfig({
   reporter: [['list']],
   use: {
     baseURL: `http://127.0.0.1:${PORTA}`,
+    // Lingua del browser: la pagina di prova parte in italiano, come le prove (RNF8).
+    locale: 'it-IT',
     trace: 'retain-on-failure',
     launchOptions: { args: ['--use-gl=angle', '--use-angle=swiftshader', '--enable-unsafe-swiftshader'] },
   },

@@ -5,7 +5,7 @@
 import type { OpzioniAnnuncio } from './annunci';
 import { h, testo } from './dom';
 import { icona } from './icone';
-import { T } from './testi.it';
+import { T } from './testi';
 
 export interface ErroreInterfaccia {
   /** Identificatore per rimuovere o sostituire il messaggio (es. "blocco:planets/p11.bin"). */

@@ -10,6 +10,7 @@ Versione 2.2 (19/10/2026): allineamento a codice e dati pubblicati; soglie A7 ad
 
 | § | Modifica |
 |---|----------|
+| 3.1 (RF8), 3.2 (RNF8), 5.3, 11.12, 11.13, 11.14, 13 (A23) | Sito bilingue italiano e inglese: testi in `testi.it.ts` e `testi.en.ts` scelti da `testi.ts`; lingua iniziale da preferenza o browser; controllo «Lingua / Language» nelle Impostazioni con ricarica che mantiene data, corpo e vista (passaggio una tantum in sessionStorage, eccezione a RF8 per la data); numeri e date per lingua (punto decimale e virgola tra i gruppi, "1 January", "10000 BC", "AD 800"); catalogo in inglese da `catalogo.en.json`; rimossa la cartella `traduzioni/` |
 | 3.2 (RNF4), 5.2 | ESLint 10.12.0 e @eslint/js 10.0.1 (linea 9 fuori supporto); regole ESLint con informazioni di tipo su `src`; nessun pacchetto deprecato nel lockfile |
 | 5.1, 5.3 | Struttura del repository allineata ai file reali |
 | 5.2 | Ambiente principale della pipeline con jsonschema 4.26.0 e pillow 13.0.0, come in `requirements.txt` |
@@ -135,7 +136,7 @@ Sito web statico con una mappa 3D interattiva del Sistema solare che:
 - RF5 Livelli visivi: orbite, etichette, marcatori, anelli di distanza sull'eclittica, griglia dell'eclittica J2000 (facoltativa), eclittica della data (facoltativa), assi di rotazione (solo per i corpi con orientamento modellato), anelli di Saturno e Urano, stelle reali con moto spaziale alla data, barra di scala.
 - RF6 Filtri per categoria: pianeti, pianeti nani, lune, asteroidi, centauri, comete, TNO, interstellari, con contatore (§ 11.6).
 - RF7 Finestra "Fonti e metodi" con riferimenti, modelli, soluzioni orbitali, limiti, accuratezza, licenze e attribuzioni.
-- RF8 Collegamento condivisibile: solo il corpo selezionato nell'hash (`#marte`), uguale nelle due varianti. Preferenze locali in localStorage, sempre dentro try/catch. La data non entra nell'URL.
+- RF8 Collegamento condivisibile: solo il corpo selezionato nell'hash (`#marte`), uguale nelle due varianti. Preferenze locali in localStorage, sempre dentro try/catch, compresa la lingua (`ss.ui.lingua`). La data non entra nell'URL né nelle preferenze. Unica eccezione: al cambio di lingua la pagina si ricarica e data e ora (con scala e offset), corpo selezionato e vista passano alla pagina nuova con un passaggio una tantum in sessionStorage (`ss.ripristino`), scritto subito prima della ricarica, letto e cancellato all'avvio, sempre dentro try/catch (§ 11.12).
 - RF9 Scorciatoie da tastiera documentate e disattivabili (§ 11.9).
 - RF10 Vista testuale tabellare, alternativa alla scena 3D e ripiego senza WebGL2 (§ 11.9).
 - RF11 Preset di vista e regolo logaritmico delle distanze (§ 11.3).
@@ -149,7 +150,7 @@ Sito web statico con una mappa 3D interattiva del Sistema solare che:
 - RNF5 Tracciabilità: ogni valore fisico o orbitale del catalogo riporta fonte, incertezza (se nota), anno; ogni corpo riporta la soluzione orbitale e la data di estrazione; risposte grezze congelate nel repository (§ 12.2).
 - RNF6 Nessuna dipendenza da servizi esterni in esecuzione (I8).
 - RNF7 Vincoli di pubblicazione come pagina singola: niente fetch verso host esterni; URL relativi; niente query string; hash solo come token `^[a-z0-9-]{1,40}$`; localStorage protetto; ogni file al massimo 6 MB (limite della piattaforma: 15 MB per file binario, 16 MB per file di testo); al massimo 90 file e 48 MB in totale (limite della piattaforma: 255 file e 64 MB per pubblicazione); funzionamento a 400 px senza scorrimento orizzontale, margini dei controlli di almeno 16 px, safe-area; niente alert, confirm, prompt.
-- RNF8 Lingua: tutti i testi visibili in italiano, raccolti in `src/ui/testi.it.ts`; `html lang="it"`; nessun carattere U+2014 nei testi.
+- RNF8 Lingua: interfaccia bilingue, italiano e inglese. Tutti i testi visibili sono raccolti in `src/ui/testi.it.ts` e `src/ui/testi.en.ts` (stesse chiavi, verificate dal compilatore); i moduli importano da `src/ui/testi.ts`, che sceglie l'insieme una sola volta all'avvio (`src/ui/lingua.ts`). Lingua iniziale: preferenza salvata; altrimenti la prima lingua del browser con prefisso `it` o `en` (italiano se è `it`, inglese altrimenti, anche senza corrispondenza); senza browser (Node, Vitest) italiano. `html lang` e titolo del documento seguono la lingua attiva (valore iniziale `it` nell'HTML). Nomi dei corpi e testi delle fonti del catalogo in inglese da `src/data/catalogo.en.json`; i nomi dell'altra lingua restano alias di ricerca. Nessun carattere U+2014 nei testi. Il bundle resta un solo file JavaScript senza import dinamici (§ 5.7).
 
 ## 4. Corpi rappresentati
 
@@ -232,13 +233,14 @@ index.html, package.json, tsconfig.json, vite.config.ts, eslint.config.js, playw
 ui-lab.html, render-lab.html   pagine di prova dell'interfaccia e del rendering (fuori dalla build)
 public/data/v1/        dati generati dalla pipeline (§ 8), versionati
 src/main.ts            avvio (§ 5.6)
-src/app/               avvio.ts, caricamento.ts, store.ts, urlState.ts, preferenze.ts, fornitori.ts,
+src/app/               avvio.ts, caricamento.ts, store.ts, urlState.ts, preferenze.ts, ripristino.ts, fornitori.ts,
                        clock.ts (unico uso di Date), types.ts
 src/time/              calendar.ts, steps.ts, deltaT.ts, timescale.ts, precession.ts (Vondrák 2011),
                        earthRotation.ts, nutation.ts (IAU 2000B, Δψ), seasons.ts, types.ts
 src/ephem/             constants.ts, equinoctial.ts, kepler.ts, interp.ts, planets.ts, moon.ts, satellites.ts,
                        smallBodies.ts, sunBarycenter.ts, orientation.ts, reliability.ts, service.ts, types.ts
-src/data/              manifest.ts, dataStore.ts, assetUrl.ts, catalog.ts, catalogTypes.ts, types.ts; lettori
+src/data/              manifest.ts, dataStore.ts, assetUrl.ts, catalog.ts, catalogTypes.ts, catalogoLingua.ts,
+                       catalogo.en.json (nomi e testi inglesi del catalogo), types.ts; lettori
                        binHeader.ts, serie.ts, satsReader.ts, moonReader.ts, reliabilityReader.ts,
                        starsReader.ts, timeReader.ts; intervalli.ts (ricerca del segmento, comune ai lettori);
                        sha256.ts (SHA-256 senza crypto.subtle)
@@ -247,7 +249,8 @@ src/render/            renderer.ts, motore.ts, grafo.ts, api.ts, tipi.ts, costan
                        rings.ts, orbits.ts, linee.ts, markers.ts, labels.ts, nomi.ts, testi.ts, picking.ts,
                        stars.ts, grid.ts
 src/ui/                tokens.css, stile.css, layout, console temporale, scheda, catalogo, ricerca,
-                       vista testuale, testi.it.ts, valoriValidazione.ts, format.ts
+                       vista testuale, lingua.ts (scelta della lingua), testi.ts (testi della lingua scelta),
+                       testi.it.ts, testi.en.ts, testiScena.ts, valoriValidazione.ts, format.ts
 src/dev/, src/ui/dev/  servizi fittizi delle pagine di prova (fuori dalla build)
 src/test-hooks.ts      window.__ssTest (solo build di test)
 tests/                 Vitest; tests/fixtures/ generate dalla pipeline con seme registrato
@@ -1031,17 +1034,18 @@ Messaggi in linea con `role="status"` (`role="alert"` solo per errori bloccanti)
 
 - Avvio: istante corrente in UT da `clock.ts`, limitato all'intervallo (I2; oltre il 2120 il 31/12/2120 23:59:59 UT, con il messaggio del limite, come per "Adesso"), orologio in pausa ("Segui l'ora attuale" è un'opzione esplicita); vista Sistema interno con camera 30° sopra l'eclittica, fuoco sul Sole, Terra selezionata con scheda ridotta all'intestazione.
 - L'hash riporta il corpo selezionato (non il fuoco dei preset). Con `#slug` valido: corpo selezionato e inquadrato a livello di orbita, cioè con l'orbita intera nella vista attorno al corpo (`#sole`: vista Sistema interno); slug confrontato in minuscolo (`#Marte` = `#marte`); ogni altro testo non vuoto (slug sconosciuto o non conforme, come `#1P`) ignorato con messaggio che lo riporta, tolto al collegamento valido successivo. Lettura anche su `hashchange`, con l'annuncio del corpo selezionato. "Copia collegamento" copia l'URL con il solo hash; esito visibile accanto al pulsante e, se gli appunti non sono disponibili, URL in un campo già selezionato.
+- Lingua: il controllo «Lingua / Language» delle Impostazioni (elenco a discesa con «Italiano» e «English», `lang` su ogni opzione, destinazione di almeno 44 px) salva la scelta nelle preferenze e ricarica la pagina. Dopo la ricarica restano la data e l'ora (scala UT o TT, offset), il corpo selezionato (anche nell'hash), il corpo a fuoco e l'ampiezza della vista, la vista testuale se era aperta; l'inclinazione e l'azimut della camera tornano ai valori predefiniti e la riproduzione è in pausa. Il passaggio dello stato non è una preferenza: sta in sessionStorage, è letto e cancellato una sola volta all'avvio; se sessionStorage manca la pagina riparte dallo stato iniziale.
 - Nota di benvenuto non modale di tre righe, chiudibile; la chiusura è ricordata nelle preferenze. "Mostra di nuovo la nota di benvenuto" (Impostazioni) chiude il dialogo e porta il focus sulla nota, intera o ridotta (§ 11.3). La nota nascosta dal foglio esteso del telefono non è chiusa: torna con il foglio ridotto e, se era nascosta mentre conteneva il focus, lo cede al pulsante della data. Se la nota torna intera mentre "Leggi la nota di benvenuto" ha il focus, o mentre è aperto il dialogo che il comando ha aperto, il focus passa alla nota (alla chiusura del dialogo, senza passare per il body).
 - Cambio di layout (finestra ridimensionata, zoom del browser): il focus nel catalogo o nella scheda resta all'elemento; nel foglio il pannello aperto o con il focus resta visibile. Un controllo che il nuovo layout nasconde (regolo, passi e "Adesso" nel foglio ridotto del telefono; cursore del regolo delle distanze sul telefono e in orizzontale) cede il focus alla maniglia del foglio sul telefono e al pulsante della data negli altri layout: il focus non cade sul body.
 - La struttura della console è visibile prima dei dati.
 
 ### 11.13 Formattazione numerica
 
-Un solo formattatore (`src/ui/format.ts`): virgola decimale; gruppi di tre cifre separati da U+2009 dentro un elemento `white-space: nowrap`, da 4 cifre in su; anni e designazioni mai raggruppati; segno meno U+2212; spazio non separabile tra numero e unità; cifre significative coerenti con l'affidabilità (es. "≈ 34,2 UA"): distanze dall'errore stimato (per le lune con l'errore del pianeta), velocità dall'errore stimato (da 2 a 4 cifre), longitudine e latitudine della vista testuale dall'errore angolare visto dal Sole, elementi orbitali dalle incertezze stimate (`docs/METODI.md`), valori fisici dalla loro incertezza o con le cifre della fonte (GM sotto 10⁻³ km³/s² in m³/s²), ΔT e incertezza nella stessa unità; unità degli errori angolari scelta dopo l'arrotondamento, oltre 90° "> 90°". `Intl.NumberFormat` non si usa (raggruppa con il punto e non raggruppa i numeri di 4 cifre).
+Un solo formattatore (`src/ui/format.ts`, `creaFormati(lingua)`), con le convenzioni della lingua attiva. Italiano: virgola decimale; gruppi di tre cifre separati da U+2009 dentro un elemento `white-space: nowrap`, da 4 cifre in su. Inglese: punto decimale; gruppi di tre cifre separati da virgola, da 4 cifre in su ("1,234.5"). In entrambe le lingue: anni e designazioni mai raggruppati; segno meno U+2212; spazio non separabile tra numero e unità; cifre significative coerenti con l'affidabilità (es. "≈ 34,2 UA"): distanze dall'errore stimato (per le lune con l'errore del pianeta), velocità dall'errore stimato (da 2 a 4 cifre), longitudine e latitudine della vista testuale dall'errore angolare visto dal Sole, elementi orbitali dalle incertezze stimate (`docs/METODI.md`), valori fisici dalla loro incertezza o con le cifre della fonte (GM sotto 10⁻³ km³/s² in m³/s²), ΔT e incertezza nella stessa unità; unità degli errori angolari scelta dopo l'arrotondamento, oltre 90° "> 90°". `Intl.NumberFormat` non si usa (raggruppa a 4 cifre in modo diverso tra le lingue e dipende dal browser). Date: giorno prima del mese in entrambe ("19 ottobre 2026", "19 October 2026"); "1°" per il primo del mese solo in italiano ("1 January" in inglese); era dopo l'anno in italiano ("10000 a.C.", "800 d.C.") e, in inglese, "BC" dopo l'anno ("10000 BC") e "AD" prima ("AD 800"); d.C. e AD nella data principale solo fino all'anno 1000. Anni e designazioni non sono mai raggruppati.
 
 ### 11.14 Glossario e scrittura
 
-"UA" con `<abbr title="unità astronomica (simbolo IAU: au)">`; "a.C." sempre, "d.C." nella data principale solo fino all'anno 1000 e nell'editor sempre; mesi per esteso nella data principale, abbreviati a tre lettere sulle tacche; giorni della settimana in minuscolo; orario a 24 ore; "oggetto transnettuniano" per esteso alla prima occorrenza, poi TNO; verbi all'imperativo nei pulsanti ("Vai", "Riprova", "Inquadra").
+"UA" (inglese "au") con `<abbr>` che riporta l'unità astronomica (simbolo IAU: au); "a.C." (inglese "BC") sempre, "d.C." (inglese "AD") nella data principale solo fino all'anno 1000 e nell'editor sempre; mesi per esteso nella data principale, abbreviati a tre lettere sulle tacche; giorni della settimana in minuscolo; orario a 24 ore; "oggetto transnettuniano" per esteso alla prima occorrenza, poi TNO; verbi all'imperativo nei pulsanti ("Vai", "Riprova", "Inquadra").
 
 ## 12. Pipeline dati
 
@@ -1101,7 +1105,7 @@ Fixture generate in TDB per le effemeridi; le prove in UT usano lo stesso modell
 | A20 | Precisione del rendering | Vitest con emulazione Float32 (`Math.fround`): distanza schermo tra corpo e propria orbita < 0,5 px per ogni corpo su 50 date, camera da 3 raggi a 1e5 UA, viewport 1920×1080 e 400×800; in riproduzione (1 e 7 giorni simulati al secondo, dati pubblicati, Sole davanti al piano della camera, cometa selezionata) < 1 px per la Luna e per le lune di Giove e Saturno; e2e: camera a 10 km da Itokawa, oscillazione < 0,1 px tra frame; occlusione: Luna dietro la Terra e Io dietro Giove non visibili (campionamento di pixel); silhouette degli impostori < 0,5 px a quota 0,01 R |
 | A21 | Prestazioni | stati, orbite ed etichette di tutti i corpi ≤ 4 ms per frame (benchmark Node sulla macchina di riferimento); in e2e con SwiftShader il tempo per frame è solo registrato |
 | A22 | Dati | schema JSON di catalogo e manifest; unicità di ssid e slug; copertura temporale per corpo; esistenza e SHA-256 dei file; budget del § 8.1 |
-| A23 | Lingua e testi | `html lang="it"`; nessuna stringa visibile fuori da `testi.it.ts`; nessun U+2014 nel repository (`grep`) |
+| A23 | Lingua e testi | `html lang` uguale alla lingua attiva (`it` o `en`); nessuna stringa visibile fuori da `testi.it.ts` e `testi.en.ts`; stesse chiavi nelle due lingue; nessun U+2014 nel repository (`grep`) |
 | A24 | Pagina pubblicata | frammento avvolto in uno scheletro minimo e servito da percorso annidato senza barra finale (`/a/b/index.html`): caricamento completo, zero richieste esterne, `#marte` funzionante |
 | A25 | Orbite | orbite iperboliche senza periodo; Urano: piano degli anelli e dei satelliti coerenti; Terra antioraria vista da +z; la Luna rivolge alla Terra lo stesso emisfero (± librazione ottica); a 12:00 UT negli anni 1900-2100 la longitudine 0 della texture terrestre è rivolta al Sole entro ±5° |
 | A26 | Documentazione | METODI.md, VALIDAZIONE.md (risultati di A3-A9), DEBUG.md, LICENZE.md, SPIKE.md presenti e coerenti con il codice |

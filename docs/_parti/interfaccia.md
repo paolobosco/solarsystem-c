@@ -6,15 +6,17 @@ Riferimento: `docs/PROGETTO.md` versione 2.0 (§ 3, § 6.6, § 11, § 13 A11-A17
 
 | File | Contenuto |
 |------|-----------|
-| `index.html`, `ui-lab.html` | `lang="it"`, Google Fonts (Source Sans 3, Source Serif 4, Source Code Pro, `display=swap`), sfondo esplicito; `ui-lab.html` solo sviluppo, non entra nella build (Vite costruisce solo `index.html`) |
+| `index.html`, `ui-lab.html` | `lang="it"` come valore iniziale (la lingua dell'interfaccia è l'italiano di progetto; `main.ts` e `ui/dev/lab.ts` impostano `lang` e, in `main.ts`, il titolo dalla lingua attiva prima della costruzione dell'interfaccia), Google Fonts (Source Sans 3, Source Serif 4, Source Code Pro, `display=swap`), sfondo esplicito; `ui-lab.html` solo sviluppo, non entra nella build (Vite costruisce solo `index.html`) |
 | `src/app/store.ts` | store osservabile tipizzato, stato applicativo, velocità a gradini (§ 6.6), stato iniziale (§ 11.12) |
 | `src/ui/index.ts` | `creaInterfaccia(radice, dipendenze)`: costruzione, osservatori, layout, tastiera, collegamenti; controller per l'integrazione |
 | `src/ui/contrattoScena.ts` | `ScenaUi` (operazioni della scena richieste dall'interfaccia), `StatoVista`, `IngressoStagione` |
 | `src/ui/adattatoreScena.ts` | `adattaScena(api, canvas, etichette)`: da `ScenaApi` di `src/render/api.ts` a `ScenaUi`; al montaggio passa alla scena le zone dei pannelli |
 | `src/ui/zoneScena.ts` | zone della mappa coperte dai pannelli (elementi fuori dalla mappa con sfondo di opacità almeno 0,5), escluse dalle etichette (§ 11.5.2) |
 | `src/ui/tokens.css`, `src/ui/stile.css` | token del § 11.1, tipografia del § 11.2, layout per classi di larghezza, preferenze di sistema |
-| `src/ui/testi.it.ts` | tutti i testi visibili, testo di "Fonti e metodi", riferimenti, testi della scena (`TESTI_SCENA_IT`) |
-| `src/ui/format.ts` | unico formattatore (§ 11.13): U+2009, U+2212, spazio non separabile, cifre dall'incertezza, date e anni |
+| `src/ui/testi.it.ts`, `src/ui/testi.en.ts` | tutti i testi visibili nelle due lingue, con le stesse chiavi (il tipo `FormaTesti` fa fallire `tsc` se differiscono): testo di "Fonti e metodi", riferimenti, contatore delle lune (`TESTI_SCENA`) |
+| `src/ui/testi.ts`, `src/ui/testiScena.ts` | insieme dei testi della lingua attiva con tipi comuni (unico modulo che importa le due lingue); testi della scena completi di etichetta degli anelli di distanza |
+| `src/ui/lingua.ts`, `src/app/ripristino.ts` | scelta della lingua (preferenza `ss.ui.lingua`, poi browser, poi italiano senza browser); passaggio una tantum in sessionStorage di data, corpo e vista al cambio di lingua |
+| `src/ui/format.ts` | unico formattatore (§ 11.13), per lingua (`creaFormati`): separatori (U+2009 e virgola in italiano; virgola e punto in inglese), U+2212, spazio non separabile, cifre dall'incertezza, date, anni ed era ("10000 a.C.", "10000 BC", "AD 800") |
 | `src/ui/console.ts`, `editorData.ts`, `regolo.ts`, `regoloLogica.ts`, `riproduzione.ts` | console temporale, editor della data, regolo a due livelli, motore della riproduzione |
 | `src/ui/scheda.ts`, `datiScheda.ts` | scheda del corpo e calcolo di distanze, velocità, elementi, sorgente e affidabilità |
 | `src/ui/trova.ts`, `cerca.ts`, `catalogo.ts` | combobox APG, normalizzazione e ricerca, catalogo con lune annidate e filtri con contatori |
@@ -173,4 +175,4 @@ Contrasti ricalcolati dai token e dai colori disegnati nella scena (A11): tutti 
 | § 11.7, satelliti | elementi nel piano F alla data (`EphemerisService.matriceF`): nei record secolari dei satelliti regolari F segue il polo del primario (§ 7.5.4); senza il metodo si usa R_F del catalogo |
 | § 11.9, vista testuale | coordinate eliocentriche; corpo selezionato sempre in tabella anche se la categoria è nascosta; "non applicabile" per distanza dal Sole, coordinate e affidabilità del Sole e per la distanza dalla Terra della Terra; cifre delle distanze come nella scheda; longitudine e latitudine con i decimali dell'errore angolare visto dal Sole, ordinate da 0° a 360°; colonna Corpo ordinata con `Intl.Collator('it', { numeric: true })` (1P, 9P, 12P, 103P); senza posizione alla data (dati in caricamento o in errore) nessun livello, come nella scheda (`CalcolatoreScheda.rigaTestuale`); celle senza valore: "non applicabile", "in caricamento" (`RigaTestuale.inCaricamento`, vero con lo stato 'caricamento' del corpo o della Terra, e solo con la barra di caricamento visibile) o "non disponibile" (`testoSenzaValore`) |
 | § 11.14, TNO | sigla con `abbr` ("oggetti transnettuniani") nei filtri e nella legenda; per esteso come titolo di sezione del catalogo |
-| A23 | `valoriValidazione.ts` contiene solo numeri, unità e nomi propri; i nomi delle righe sono in `testi.it.ts` |
+| A23 | `valoriValidazione.ts` contiene solo numeri, unità e nomi propri (in inglese dalla funzione `localizzaValore`); i nomi delle righe sono in `testi.it.ts` e `testi.en.ts` |

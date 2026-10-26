@@ -14,7 +14,7 @@ import { formatAnnoAstronomico, formatJd, formatOffset } from './format';
 import { icona } from './icone';
 import { messaggioValidazione } from './messaggi';
 import type { LimitiScala } from './riproduzione';
-import { MESI, T } from './testi.it';
+import { MESI, T } from './testi';
 
 export interface DipendenzeEditor {
   store: StoreApp;

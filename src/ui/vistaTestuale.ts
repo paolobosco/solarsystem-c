@@ -10,7 +10,7 @@ import { formatGradiConErrore, misuraDistanza } from './format';
 import { icona } from './icone';
 import { nodoMisura, nodoTesto } from './nodi';
 import { iconaAffidabilita, simbolo } from './simboli';
-import { NOMI_CATEGORIE, NOMI_LIVELLI, T } from './testi.it';
+import { NOMI_CATEGORIE, NOMI_LIVELLI, T } from './testi';
 
 export interface RigaTestuale {
   corpo: CorpoCatalogo;

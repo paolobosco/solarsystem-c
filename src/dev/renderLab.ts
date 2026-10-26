@@ -5,7 +5,7 @@ import { creaScena, LIVELLI_PREDEFINITI } from '../render/api';
 import type { LivelliVisivi, OpzioniFuoco, ScenaApi, StatoVista } from '../render/api';
 import { ELEVAZIONE_PREDEFINITA } from '../render/costanti';
 import { PRESET_VISTA } from '../ui/scala';
-import type { IdPreset } from '../ui/testi.it';
+import type { IdPreset } from '../ui/testi';
 import type { Livello } from '../ephem/types';
 import type { Motore } from '../render/motore';
 import { J2000 } from '../ephem/constants';

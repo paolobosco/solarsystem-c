@@ -7,6 +7,7 @@ import type { StoreApp } from '../../app/store';
 import type { Preferenze, UrlState } from '../../app/types';
 import { RE_SLUG } from '../../data/catalogTypes';
 import { creaInterfaccia } from '../index';
+import { LINGUA } from '../lingua';
 import type { ControllerInterfaccia } from '../index';
 import { creaCatalogoFinto } from './catalogoFinto';
 import { EffemeridiFinte } from './effemeridiFinte';
@@ -32,6 +33,9 @@ declare global {
 function adessoJdUT(): number {
   return 2_440_587.5 + (performance.timeOrigin + performance.now()) / 86_400_000;
 }
+
+// Lingua del documento dalla lingua dell'interfaccia; l'HTML porta il valore iniziale italiano.
+document.documentElement.lang = LINGUA;
 
 const parametri = new URLSearchParams(location.search);
 const jdParam = parametri.get('jd');

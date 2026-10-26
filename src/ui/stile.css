@@ -2344,6 +2344,14 @@ kbd {
   margin: 0 0 8px 30px;
 }
 
+.ss-campo--lingua {
+  margin-bottom: 12px;
+}
+
+.ss-input--lingua {
+  min-width: 160px;
+}
+
 .ss-impostazioni > .ss-pulsante {
   margin: 4px 0 12px;
 }

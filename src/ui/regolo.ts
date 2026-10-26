@@ -29,7 +29,7 @@ import type { LimitiScala } from './riproduzione';
 import { formatIntero } from './format';
 import { testoBande, titoloBanda } from './messaggi';
 import { BARRE_LIVELLO } from './simboli';
-import { T, UNITA, testoTasti } from './testi.it';
+import { T, UNITA, testoTasti } from './testi';
 
 export interface BandaAffidabilita {
   jd0: number;

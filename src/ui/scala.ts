@@ -2,8 +2,8 @@
 
 import { UA_KM } from '../ephem/constants';
 import { SPAZIO_NB, arrotondaCifre, formatCifre, formatNumero } from './format';
-import type { IdPreset } from './testi.it';
-import { UNITA } from './testi.it';
+import type { IdPreset } from './testi';
+import { UNITA } from './testi';
 
 /** Regolo delle distanze: ampiezza della vista da 10³ km a 2·10⁵ UA, l'ampiezza massima della scena (§ 11.3, RF1). */
 export const LOG_AMPIEZZA_MIN = 3;

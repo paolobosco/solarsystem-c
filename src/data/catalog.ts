@@ -5,7 +5,9 @@
 import type { DataStore } from './types';
 import { RE_SLUG } from './catalogTypes';
 import type { Catalogo, CategoriaCorpo, CorpoCatalogo } from './catalogTypes';
+import { localizzaCatalogo } from './catalogoLingua';
 import { jsonDaBuffer } from './dataStore';
+import type { Lingua } from '../ui/lingua';
 
 export const PERCORSO_CATALOGO = 'catalog.json';
 
@@ -115,8 +117,11 @@ export class IndiceCatalogo {
   }
 }
 
-/** Legge catalog.json dall'archivio dei dati (verificato con il manifest) e costruisce gli indici. */
-export async function caricaCatalogo(store: DataStore, segnale?: AbortSignal): Promise<IndiceCatalogo> {
+/**
+ * Legge catalog.json dall'archivio dei dati (verificato con il manifest) e costruisce gli indici, con nomi e testi
+ * nella lingua indicata (catalogoLingua.ts; predefinita l'italiano, la lingua dei dati).
+ */
+export async function caricaCatalogo(store: DataStore, segnale?: AbortSignal, lingua: Lingua = 'it'): Promise<IndiceCatalogo> {
   const buf = await store.carica(PERCORSO_CATALOGO, segnale);
-  return new IndiceCatalogo(leggiCatalogo(jsonDaBuffer(buf)));
+  return new IndiceCatalogo(localizzaCatalogo(leggiCatalogo(jsonDaBuffer(buf)), lingua));
 }

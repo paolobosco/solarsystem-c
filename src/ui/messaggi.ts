@@ -1,5 +1,5 @@
 // Messaggi di validazione delle date e dei limiti (§ 6.2, § 11.4.2, § 11.4.3 di docs/PROGETTO.md).
-// Logica pura: dal codice di src/time/calendar.ts al testo di testi.it.ts.
+// Logica pura: dal codice di src/time/calendar.ts al testo di testi.ts.
 
 import type { Affidabilita, FormaOrbita } from '../ephem/types';
 import { JD_MAX_UT_EXCL, JD_MIN_UT, JD_ULTIMO_UT, jdToCalendarLocale } from '../time/calendar';
@@ -8,7 +8,7 @@ import type { CampoData, DataCalendario, EsitoNonValido, LimiteIntervallo, Scala
 import type { IngressoStagione } from './contrattoScena';
 import { formatAnno, formatData, formatGiorno, formatGradiBreve, formatNumero, formatOffset, formatOra } from './format';
 import type { BandaAffidabilita } from './regolo';
-import { MESI, NOMI_LIVELLI, T, UNITA } from './testi.it';
+import { MESI, NOMI_LIVELLI, T, UNITA } from './testi';
 
 export interface AzioneValidazione {
   etichetta: string;
@@ -35,9 +35,9 @@ export interface ContestoValidazione {
   jdMaxEscl?: number;
 }
 
-/** "1° gennaio 10000 a.C. alle 02:00". */
+/** "1° gennaio 10000 a.C. alle 02:00", "1 January 10000 BC at 02:00". */
 function dataAlle(d: DataCalendario): string {
-  return `${formatData(d)} alle ${formatOra(d.ora, d.minuto)}`;
+  return T.validazione.dataAlle(formatData(d), formatOra(d.ora, d.minuto));
 }
 
 /** Primo minuto intero non anteriore a jd: l'editor non ha i secondi, il limite inferiore annunciato deve essere accettato. */

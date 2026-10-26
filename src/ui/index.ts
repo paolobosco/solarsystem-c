@@ -14,6 +14,8 @@ import './stile.css';
 
 import { CATEGORIE_FILTRO, FILTRI_PREDEFINITI, LIVELLI_PREDEFINITI, VELOCITA_S, creaStoreApp } from '../app/store';
 import type { CategoriaFiltro, LivelloVisivo, StoreApp } from '../app/store';
+import { salvaRipristino } from '../app/ripristino';
+import type { StatoRipristino } from '../app/ripristino';
 import type { Preferenze, UrlState } from '../app/types';
 import type { Catalogo, CategoriaCorpo, CorpoCatalogo } from '../data/catalogTypes';
 import { RE_SLUG } from '../data/catalogTypes';
@@ -37,6 +39,8 @@ import { attributo, h, nuovoId } from './dom';
 import { creaDistanze } from './distanze';
 import { formatAmpiezza, formatData, formatOra } from './format';
 import { icona } from './icone';
+import { CHIAVE_LINGUA, LINGUA } from './lingua';
+import type { Lingua } from './lingua';
 import { collocaPannelli, modalitaLayout, usaFoglio } from './layout';
 import type { ModalitaLayout } from './layout';
 import { creaPannelloLivelli } from './livelli';
@@ -51,7 +55,7 @@ import type { PresetVista } from './scala';
 import { creaScheda } from './scheda';
 import { azioneGlobale, azioneMappa, contestoDa } from './scorciatoie';
 import { creaTrova } from './trova';
-import { GIORNI_SETTIMANA, NOMI_PRESET, T } from './testi.it';
+import { GIORNI_SETTIMANA, NOMI_PRESET, T } from './testi';
 import { VALORI_VALIDAZIONE } from './valoriValidazione';
 import type { ValoriValidazione } from './valoriValidazione';
 import { creaVistaTestuale } from './vistaTestuale';
@@ -90,6 +94,10 @@ export interface DipendenzeInterfaccia {
   copia?: (testo: string) => Promise<void>;
   /** URL della pagina senza frammento (predefinito location.href senza hash). */
   urlBase?: () => string;
+  /** Stato da riprendere dopo il cambio di lingua (src/app/ripristino.ts); null o assente: avvio normale. */
+  ripristino?: StatoRipristino | null;
+  /** Ricarica la pagina (predefinito location.reload): usata dal cambio di lingua. */
+  ricarica?: () => void;
 }
 
 export interface StatoCaricamento {
@@ -398,6 +406,29 @@ export function creaInterfaccia(radice: HTMLElement, d: DipendenzeInterfaccia): 
     alErrore: () => annuncia(T.annunci.riproduzioneFermaErrore(testoData())),
   });
 
+  // --- Lingua (RF8, § 11.12) ---
+  /**
+   * Cambio di lingua: la scelta entra nelle preferenze, data e ora, corpo selezionato e vista passano alla pagina
+   * ricaricata con il passaggio una tantum di src/app/ripristino.ts (la data non è una preferenza), poi la pagina si
+   * ricarica. Lo slug resta nell'hash.
+   */
+  function cambiaLingua(l: Lingua): void {
+    if (l === LINGUA) return;
+    const s = store.get();
+    const v = scena?.statoVista() ?? null;
+    pref.scrivi(CHIAVE_LINGUA, l);
+    salvaRipristino({
+      jd: s.tempo.jd,
+      scala: s.tempo.scala,
+      offsetMinuti: s.offsetMinuti,
+      selezionato: s.selezionato,
+      fuoco: s.fuoco,
+      ampiezzaKm: v !== null && Number.isFinite(v.ampiezzaKm) && v.ampiezzaKm > 0 ? v.ampiezzaKm : null,
+      vistaTestuale: s.interfaccia.vistaTestuale,
+    });
+    (d.ricarica ?? (() => location.reload()))();
+  }
+
   // --- Corpi ---
   function ssidDi(slug: string | null): number | null {
     if (slug === null) return null;
@@ -667,6 +698,8 @@ export function creaInterfaccia(radice: HTMLElement, d: DipendenzeInterfaccia): 
       avvisi.focusBenvenuto();
     },
     alternaSeguiOra,
+    lingua: LINGUA,
+    cambiaLingua,
   });
   const impostazioniDialogo = creaDialogo(T.impostazioni.titolo, impostazioni.elemento);
   pulsanteFonti.addEventListener('click', () => fontiDialogo.apri(pulsanteFonti));
@@ -1497,10 +1530,26 @@ export function creaInterfaccia(radice: HTMLElement, d: DipendenzeInterfaccia): 
     const daHash = d.url ? applicaSlug(d.url.leggiSlug(), true) : false;
     if (!avviato) {
       avviato = true;
-      // Vista iniziale (§ 11.12): Sistema interno con fuoco sul Sole, senza transizione.
-      const sole = ssidDi('sole');
-      const p = PRESET_VISTA.find((x) => x.id === 'sistema-interno');
-      if (!daHash && scena && sole !== null && p) scena.mettiAFuoco(sole, { ampiezzaKm: p.ampiezzaKm, immediato: true });
+      const rip = d.ripristino ?? null;
+      const fuocoRip = rip !== null ? perSlug.get(rip.fuoco) : undefined;
+      if (rip !== null && fuocoRip !== undefined) {
+        // Dopo il cambio di lingua (§ 11.12): corpo selezionato, fuoco e ampiezza della vista come prima, senza transizione.
+        store.transazione(() => {
+          store.set({ selezionato: rip.selezionato !== null && perSlug.has(rip.selezionato) ? rip.selezionato : null });
+          if (rip.vistaTestuale) store.aggiorna('interfaccia', { vistaTestuale: true });
+        });
+        scena?.seleziona(ssidDi(store.get().selezionato));
+        mettiAFuoco(fuocoRip.slug, {
+          inquadratura: 'orbita',
+          immediato: true,
+          ...(rip.ampiezzaKm !== null ? { ampiezzaKm: rip.ampiezzaKm } : {}),
+        });
+      } else {
+        // Vista iniziale (§ 11.12): Sistema interno con fuoco sul Sole, senza transizione.
+        const sole = ssidDi('sole');
+        const p = PRESET_VISTA.find((x) => x.id === 'sistema-interno');
+        if (!daHash && scena && sole !== null && p) scena.mettiAFuoco(sole, { ampiezzaKm: p.ampiezzaKm, immediato: true });
+      }
     }
     aggiornaVista();
     pianificaPannelli();

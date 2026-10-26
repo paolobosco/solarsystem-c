@@ -20,7 +20,7 @@ import { GIORNI_ANNO_GIULIANO, K } from '../ephem/constants';
 import type { ServizioEffemeridi } from '../ephem/service';
 import type { MakeTimeState } from '../time/types';
 import type { ErroreInterfaccia, StatoCaricamento } from '../ui/index';
-import { T } from '../ui/testi.it';
+import { T } from '../ui/testi';
 
 /** Distanza dal confine entro cui si carica il blocco adiacente (§ 5.6). */
 export const ANNI_ADIACENTE = 50;

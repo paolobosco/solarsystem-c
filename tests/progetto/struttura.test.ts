@@ -8,7 +8,7 @@ import { fileURLToPath } from 'node:url';
 import { describe, expect, it } from 'vitest';
 
 const RADICE = fileURLToPath(new URL('../../', import.meta.url));
-const SERVIZIO = new Set(['.gitignore', '.npmrc', 'README.md', 'package-lock.json']);
+const SERVIZIO = new Set(['.gitignore', '.npmrc', 'LICENSE', 'README.md', 'README.en.md', 'README.it.md', 'package-lock.json']);
 
 function struttura(): string {
   const progetto = readFileSync(join(RADICE, 'docs/PROGETTO.md'), 'utf-8');

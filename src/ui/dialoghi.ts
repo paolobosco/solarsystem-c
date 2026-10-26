@@ -4,8 +4,10 @@
 import type { StoreApp } from '../app/store';
 import { h, nuovoId } from './dom';
 import { icona } from './icone';
+import { eLingua } from './lingua';
+import type { Lingua } from './lingua';
 import { nodoTesto } from './nodi';
-import { FONTI_METODI_SEZIONI, RIFERIMENTI, STRUMENTI, T, VOCI_ACCURATEZZA, partiTasti } from './testi.it';
+import { FONTI_METODI_SEZIONI, RIFERIMENTI, STRUMENTI, T, VOCI_ACCURATEZZA, partiTasti } from './testi';
 import type { ValoriValidazione } from './valoriValidazione';
 
 export interface Dialogo {
@@ -187,10 +189,27 @@ export interface DipendenzeImpostazioni {
   apriScorciatoie: () => void;
   mostraBenvenuto: () => void;
   alternaSeguiOra: (v: boolean) => void;
+  /** Lingua attuale dell'interfaccia. */
+  lingua: Lingua;
+  /** Cambio di lingua: salva la scelta e ricarica la pagina mantenendo data, corpo e vista (RF8). */
+  cambiaLingua: (l: Lingua) => void;
 }
 
-/** Contenuto delle impostazioni: scorciatoie, riga prolettica, ora attuale, nota di benvenuto. */
+/** Contenuto delle impostazioni: lingua, scorciatoie, riga prolettica, ora attuale, nota di benvenuto. */
 export function contenutoImpostazioni(d: DipendenzeImpostazioni): { elemento: HTMLElement; aggiorna(): void } {
+  // Lingua: elenco a discesa nativo (tastiera e lettori di schermo senza codice aggiuntivo); etichetta bilingue fissa e
+  // ogni opzione nella propria lingua (lang), così chi non legge la lingua attuale la trova comunque.
+  const idLingua = nuovoId('lingua');
+  const lingua = h(
+    'select',
+    { id: idLingua, class: 'ss-input ss-input--lingua' },
+    h('option', { value: 'it', lang: 'it' }, T.impostazioni.linguaItaliano),
+    h('option', { value: 'en', lang: 'en' }, T.impostazioni.linguaInglese),
+  );
+  lingua.value = d.lingua;
+  lingua.addEventListener('change', () => {
+    if (eLingua(lingua.value)) d.cambiaLingua(lingua.value);
+  });
   const scorciatoie = h('input', { type: 'checkbox', class: 'ss-casella-input' });
   const prolettica = h('input', { type: 'checkbox', class: 'ss-casella-input' });
   const segui = h('input', { type: 'checkbox', class: 'ss-casella-input' });
@@ -211,6 +230,7 @@ export function contenutoImpostazioni(d: DipendenzeImpostazioni): { elemento: HT
   const elemento = h(
     'div',
     { class: 'ss-impostazioni' },
+    h('div', { class: 'ss-campo ss-campo--lingua' }, h('label', { class: 'ss-campo-etichetta', for: idLingua }, T.impostazioni.lingua), lingua),
     h('label', { class: 'ss-casella' }, scorciatoie, h('span', { class: 'ss-casella-testo' }, T.impostazioni.scorciatoie)),
     h('p', { class: 'ss-nota', id: idNotaScorc }, T.impostazioni.scorciatoieNota),
     elencoB,
@@ -224,6 +244,7 @@ export function contenutoImpostazioni(d: DipendenzeImpostazioni): { elemento: HT
     elemento,
     aggiorna() {
       const s = d.store.get();
+      lingua.value = d.lingua;
       scorciatoie.checked = s.interfaccia.scorciatoie;
       prolettica.checked = s.interfaccia.rigaProlettica;
       segui.checked = s.riproduzione.seguiOra;

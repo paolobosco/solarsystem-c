@@ -7,7 +7,7 @@ import { COLORE_SELEZIONE } from '../render/costanti';
 import { h, nuovoId, s } from './dom';
 import { nodoTesto } from './nodi';
 import { iconaAffidabilita, simbolo } from './simboli';
-import { NOMI_CATEGORIE_PLURALE, NOMI_LIVELLI, NOMI_LIVELLI_VISIVI, T } from './testi.it';
+import { NOMI_CATEGORIE_PLURALE, NOMI_LIVELLI, NOMI_LIVELLI_VISIVI, T } from './testi';
 
 const ORDINE_LIVELLI: readonly LivelloVisivo[] = [
   'orbite',
